@@ -1,0 +1,121 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1"></script>
+    <meta charset="UTF-8"></script>
+    <!-- plugin -->
+    <!-- ToC -->
+    <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc/dist/light.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.css">
+    <!-- Theme: Simple Dark -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#/en/" style="color:white;">EN</a>
+      <a href="#/de/" style="color:white;">DE</a>
+    </nav>
+    <div id="app">Loading page content...</div>
+    <script>
+      window.$docsify = {
+        name: 'Anno 1800 Modding Guides',
+        logo: 'image.png',
+        alias: {
+          '/de/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-de/master/$1',
+          '/en/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
+          '/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
+        },
+        nameLink: {
+          '/de/': '#/de/',
+          '/en/': '#/en/',
+          '/': '#/',
+        },
+        search: {
+          paths: 'auto',
+          placeholder: 'Type to search',
+          // Localization
+          placeholder: {
+            '/': 'Type to search',
+            '/en/': 'Type to search',
+            '/de/': 'Tippen zum suchen',
+          },
+          // Localization
+          noData: {
+            '/': 'No Results',
+            '/en/': 'No Results',
+            '/de/': 'Keine Resultate',
+          },
+          // Headline depth, 1 - 6
+          depth: 2,
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+          // To avoid search index collision between multiple websites under the same domain
+          namespace: 'a1800mod',
+        },
+        //default language
+        fallbackLanguages: ['en', 'de'],
+        //SideBar
+        loadSidebar: true,
+        //Plugin Configuration
+        //sidebar-collapse
+        sidebarDisplayLevel: 1,
+        // ToC
+        toc: {
+          tocMaxLevel: 3,
+          target: 'h1, h2, h3, h4, h5, h6',
+          ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+        }
+      },
+      window.$docsify.footer = {
+        copy: '<span>Unless otherwise stated, content is available under: </span>',
+        auth: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">cc-by-sa-4.0</a>',
+        pre: '<hr/><a href="https://ko-fi.com/Q5Q4YAI3F" target="_blank"><img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>',
+        style: 'text-align: right;',
+        class: ''
+      },
+      window.$docsify.copyCode = {
+        buttonText: {
+          '/zh-cn/': '点击复制',
+          '/ru/': 'Скопировать в буфер обмена',
+          '/de-de/': 'Klicken Sie zum Kopieren',
+          '/es/': 'Haga clic para copiar',
+          '/en/': 'Copy to clipboard',
+          '/': 'Copy to clipboard',
+        },
+        errorText: {
+          '/zh-cn/': '错误',
+          '/ru/': 'ошибка',
+          '/en/': 'Error',
+          '/': 'Error'
+        },
+        successText: {
+          '/zh-cn/': '复制',
+          '/ru/': 'Скопировано',
+          '/de/': 'Kopiert',
+          '/es/': 'Copiado',
+          '/en/': 'Copied',
+          '/': 'Copied'
+        }
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- plugins -->
+    <!-- Sidebar -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- Search -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- footnotes -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-footnote/dist/docsify-footnote.min.js"></script>
+    <!-- ToC -->
+    <script src="https://unpkg.com/docsify-plugin-toc/dist/docsify-plugin-toc.min.js"></script>
+    <!-- namespacing -->
+    <script src="https://unpkg.com/docsify-namespaced"></script>
+    <!-- footer -->
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+    <!-- copy code -->
+    <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  </body>
+</html>
