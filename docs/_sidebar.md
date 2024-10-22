@@ -1,4 +1,4 @@
 <!-- _sidebar.md -->
 
-- [HOME](/)
+- [HOME](Readme)
 - Basics
