@@ -15,48 +15,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   </head>
   <body>
-    <nav>
-      <a href="#/en/" style="color:white;">EN</a>
-      <a href="#/de/" style="color:white;">DE</a>
-    </nav>
     <div id="app">Loading page content...</div>
     <script>
       window.$docsify = {
-        name: 'Anno 1800 Modding Guides',
+        name: 'Throne and Liberty Library',
         logo: 'image.png',
-        alias: {
-          '/de/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-de/master/$1',
-          '/en/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
-          '/(.*)': 'https://raw.githubusercontent.com/a1800mod/docs-en/master/$1',
-        },
-        nameLink: {
-          '/de/': '#/de/',
-          '/en/': '#/en/',
-          '/': '#/',
-        },
         search: {
           paths: 'auto',
           placeholder: 'Type to search',
           // Localization
           placeholder: {
-            '/': 'Type to search',
-            '/en/': 'Type to search',
-            '/de/': 'Tippen zum suchen',
+            '/': 'Type to search'
           },
           // Localization
           noData: {
-            '/': 'No Results',
-            '/en/': 'No Results',
-            '/de/': 'Keine Resultate',
+            '/': 'No Results'
           },
           // Headline depth, 1 - 6
           depth: 2,
           hideOtherSidebarContent: false, // whether or not to hide other sidebar content
           // To avoid search index collision between multiple websites under the same domain
-          namespace: 'a1800mod',
+          namespace: 'TLLib',
         },
         //default language
-        fallbackLanguages: ['en', 'de'],
+        fallbackLanguages: ['en'],
         //SideBar
         loadSidebar: true,
         //Plugin Configuration
@@ -78,25 +60,12 @@
       },
       window.$docsify.copyCode = {
         buttonText: {
-          '/zh-cn/': '点击复制',
-          '/ru/': 'Скопировать в буфер обмена',
-          '/de-de/': 'Klicken Sie zum Kopieren',
-          '/es/': 'Haga clic para copiar',
-          '/en/': 'Copy to clipboard',
           '/': 'Copy to clipboard',
         },
         errorText: {
-          '/zh-cn/': '错误',
-          '/ru/': 'ошибка',
-          '/en/': 'Error',
           '/': 'Error'
         },
         successText: {
-          '/zh-cn/': '复制',
-          '/ru/': 'Скопировано',
-          '/de/': 'Kopiert',
-          '/es/': 'Copiado',
-          '/en/': 'Copied',
           '/': 'Copied'
         }
       }
