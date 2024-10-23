@@ -18,8 +18,26 @@
     window.$docsify = {
       name: 'Throne and Liberty Library',
       logo: 'Splash.png',
-      loadSidebar:true
-    }
+      loadSidebar:true,
+      placeholder: 'Type to search',
+      // Headline depth, 1 - 6
+      depth: 2,
+      hideOtherSidebarContent: false, // whether or not to hide other sidebar
+      sidebarDisplayLevel: 1,
+      // ToC
+      toc: {
+        tocMaxLevel: 3,
+        target: 'h1, h2, h3, h4, h5, h6',
+        ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+      }
+    },
+    window.$docsify.footer = {
+        copy: '<span>Unless otherwise stated, content is available under: </span>',
+        auth: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">cc-by-sa-4.0</a>',
+        pre: '<hr/><a href="https://ko-fi.com/Q5Q4YAI3F" target="_blank"><img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>',
+        style: 'text-align: right;',
+        class: ''
+      },
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
