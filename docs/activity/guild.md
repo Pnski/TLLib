@@ -28,9 +28,9 @@
 | Name | Guildactivity | Drops
 | --- | --- | --- |
 | Morokai | 332 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword2h_00027.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_GL_00005B.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Necklace_00015.png><img height=128 src=./MagicDoll/List/l_Magicdoll_Elder_Lv3.png>
-| Excavator-9 | 411 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Wand_00012.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_GL_00005B.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Necklace_00015.png><img height=128 src=./MagicDoll/List/l_Magicdoll_Elder_Lv3.png>
-| Chernobog | 1518 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00033.png>
-| Talus | 2484 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Staff_00032.png>
+| Excavator-9 | 411 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Wand_00012.png><img height=128 src=./Item_128/Equip/Armor/P_Part_LE_M_PT_00004A.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Ring_00014.png><img height=128 src=./Polymorph/Wildness/List/I_Polymorph_GLD_Eagle_rare_S.png>
+| Chernobog | 1518 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00033.png><img height=128 src=./Item_128/Equip/Armor/P_Set_PL_M_HM_00018.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_BT_06001.png><img height=128 src=./Item_128/Equip/Armor/P_M_CA_00013.png><img height=128 src=./Polymorph/Wildness/List/I_Polymorph_RUN_Wolf_Rare_S.png>
+| Talus | 2484 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Staff_00032.png><img height=128 src=./Item_128/Equip/Armor/P_Part_LE_M_HM_00005.png><img height=128 src=./Item_128/Equip/Armor/P_Part_PL_M_TS_00015.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Bracelet_00013.png><img height=128 src=./MagicDoll/List/I_Magicdoll_Talus_Lv3.png>
 | Malakar | 2814 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Crossbow_00034.png>
 | Conrelius | 1684 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00008A.png>
 | Ahzreil | 3297 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00026.png>
