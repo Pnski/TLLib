@@ -31,8 +31,8 @@
 | Excavator-9 | 411 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Wand_00012.png><img height=128 src=./Item_128/Equip/Armor/P_Part_LE_M_PT_00004A.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Ring_00014.png><img height=128 src=./Polymorph/Wildness/List/I_Polymorph_GLD_Eagle_rare_S.png>
 | Chernobog | 1518 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00033.png><img height=128 src=./Item_128/Equip/Armor/P_Set_PL_M_HM_00018.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_BT_06001.png><img height=128 src=./Item_128/Equip/Armor/P_M_CA_00013.png><img height=128 src=./Polymorph/Wildness/List/I_Polymorph_RUN_Wolf_Rare_S.png>
 | Talus | 2484 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Staff_00032.png><img height=128 src=./Item_128/Equip/Armor/P_Part_LE_M_HM_00005.png><img height=128 src=./Item_128/Equip/Armor/P_Part_PL_M_TS_00015.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Bracelet_00013.png><img height=128 src=./MagicDoll/List/I_Magicdoll_Talus_Lv3.png>
-| Malakar | 2814 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Crossbow_00034.png>
-| Conrelius | 1684 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00008A.png>
+| Malakar | 2814 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Crossbow_00034.png><img height=128 src=./Item_128/Equip/Armor/P_Set_PL_M_HM_05002.png><img height=128 src=./Item_128/Equip/Armor/P_Set_PL_M_GL_05001.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Bracelet_00008.png><img height=128 src=./MagicDoll/List/I_Magicdoll_Imp_A_Lv1.png>
+| Conrelius | 1684 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00008A.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_HM_00011A.png><img height=128 src=./Item_128/Equip/Armor/P_Set_FA_M_TS_06001.png><img height=128 src=./Item_128/Equip/Acc/IT_P_Bracelet_00018.png><img height=128 src=./MagicDoll/List/l_Magicdoll_SkullKnight_Red_LV4.png>
 | Ahzreil | 3297 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Sword_00026.png>
 | Minezerok | 2579 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Dagger_00039.png>
 | Kowazan | 3637 | <img height=128 src=./Item_128/Equip/Weapon/IT_P_Dagger_00037.png>
