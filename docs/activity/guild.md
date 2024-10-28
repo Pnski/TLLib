@@ -39,5 +39,5 @@
 | Adentus | 2687
 | Junobote | 3158
 | Grand Aelon | 3030
-| Nirma | 3637
+| Nirma | 3637| <img src=./Item_128/Equip/Weapon/IT_P_Sword_00035.png>
 | Ariadus | 2814
