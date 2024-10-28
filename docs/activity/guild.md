@@ -3,10 +3,25 @@
 | Activity | Points |
 | --- | --- |
 | Donation | 10 |
-| Resistance Contract | 0 |
-| Contract Scroll | 0 |
-| WorldBoss | 0 |
-| Archboss | 0 |
+| Guild Raid Bosses | REF |
+| Boonstones/Riftstones | |
+| Castles | |
+
+# Personal Activity
+
+
+| Activity | Points |
+| --- | --- |
+| Resistance Contracts | 5 |
+| Contract Scrolls| 5 |
+| Coop Dungeons (Dimensional Circles) | 50 |
+| Dynamic Events and achieve rankings (lvl 50) | <= 125 |
+| Dynamic Events and achieve rankings | <= 25 |
+| Archboss Event | ? |
+| Field Bosses | 50 |
+| Mystic Portals | 5 |
+| Mystic Globes | 25 |
+| Guild Contracts | % Participation = 1 |
 
 # Guildboss
 
