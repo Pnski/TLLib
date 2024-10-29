@@ -3,6 +3,7 @@
 - Basics
     - [Amitoi](LootTables/Amitoi)
     - [Stats](calc/stats)
+    - [Fishing](calc/fishing)
 - Activity
     - [GuildActivity](activity/guild)
 - Patchnotes
