@@ -53,14 +53,15 @@ $$
 
 ## Buff Duration and Debuff Duration
 Debuff Duration Diminishing Returns Data Points:
-
-Debuff Duration of 34.2% = 28.21%
-Debuff Duration of 30% = 25.28%
-Debuff Duration of 24% = 20.83%
-Debuff Duration of 18% = 16.1%
-Debuff Duration of 12% = 11.06%
-Debuff Duration of 6% = 5.7%
-Debuff Duration of 3% = 2.98%
+Debuff Reduction | Debuff Duration
+--- | ---
+|34.2% | 28.21%
+|30% | 25.28%
+|24% | 20.83%
+|18% | 16.1%
+|12% | 11.06%
+|6% | 5.7%
+|3% | 2.98%
 
 ## Cooldown Speed
 
@@ -71,13 +72,15 @@ $$
 
 Cooldown Speed Diminishing Returns Data Points:
 
-Cooldown Speed of 93% = Cooldown Reduction of 48.187%
-Cooldown Speed of 83% = Cooldown Reduction of 45.355%
-Cooldown Speed of 49.66% = Cooldown Reduction of 33.182%
-Cooldown Speed of 41.66% = Cooldown Reduction of 29.408%
-Cooldown Speed of 33% = Cooldown Reduction of 24.812%
-Cooldown Speed of 25.5% = Cooldown Reduction of 20.31%
-Cooldown Speed of 19% = Cooldown Reduction of 15.966%
+Cooldown Speed | Cooldown Reduction
+--- | ---
+93% | 48.187%
+83% | 45.355%
+49.66% | 33.182%
+41.66% | 29.408%
+33% | 24.812%
+25.5% | 20.31%
+19% | 15.966%
 
 ## Heavy Attack Chance
 
