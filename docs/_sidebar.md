@@ -6,6 +6,7 @@
     - [Fishing](calc/fishing)
     - [Guild](calc/guild)
     - [Weapon Mastery](calc/wmastery)
+    - [Loot Distribution](calc/lootdist)
 - Activity
     - [GuildActivity](activity/guild)
 - Patchnotes
