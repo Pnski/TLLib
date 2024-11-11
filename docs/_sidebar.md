@@ -7,9 +7,11 @@
     - [Guild](calc/guild)
     - [Weapon Mastery](calc/wmastery)
     - [Loot Distribution](calc/lootdist)
+    - [RainSchedule](calc/rain.md)
 - Activity
     - [GuildActivity](activity/guild)
 - Patchnotes
+    - [1.6](patchnotes/1.6)
     - [1.5](patchnotes/1.5)
     - [1.4](patchnotes/1.4)
     - [1.3](patchnotes/1.3)
