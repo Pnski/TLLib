@@ -1,7 +1,7 @@
-import { weather, eventSymbols } from './events.js'
+import { weather, eventSymbols } from "./events.js";
 
-const startDateTime = new Date("2024-11-01T00:00:00"); //starting point
-const eventDuration = 7.5; //Event duration in minutes
+const startDateTime = new Date("2024-10-17T05:45:00"); // Starting point
+const eventDuration = 7.5; // Event duration in minutes
 
 // Generate events for a specific day
 function generateEventsForDay(dayIndex) {
@@ -9,18 +9,22 @@ function generateEventsForDay(dayIndex) {
   const dayStart = new Date(startDateTime.getTime() + dayIndex * 24 * 60 * 60 * 1000); // Start of the day
   const dayEnd = new Date(dayStart.getTime() + 24 * 60 * 60 * 1000); // End of the day
   let currentTime = new Date(dayStart);
+  let lastEventName = null; // Track the last event name to filter duplicates
 
   while (currentTime < dayEnd) {
-    const elapsedMinutes = (currentTime.getTime() - startDateTime.getTime()) / (eventDuration * 60 * 1000);
-    const eventIndex = Math.floor(elapsedMinutes) % events.length;
-    const event = events[eventIndex];
+    const elapsedMinutes = Math.floor(
+      (currentTime.getTime() - startDateTime.getTime()) / (eventDuration * 60 * 1000)
+    );
+    const eventIndex = elapsedMinutes % weather.length;
+    const event = weather[eventIndex];
 
-    if (!event) break; // Safeguard against unexpected issues
-
-    eventsForDay.push({
-      time: currentTime.toTimeString().slice(0, 5), // Format as HH:mm
-      symbol: eventSymbols[event.name] || event.name,
-    });
+    if (event && event.name !== lastEventName) {
+      eventsForDay.push({
+        time: currentTime.toTimeString().slice(0, 5), // Format as HH:mm
+        symbol: eventSymbols[event.name] || event.name,
+      });
+      lastEventName = event.name; // Update the last event name
+    }
 
     currentTime = new Date(currentTime.getTime() + eventDuration * 60 * 1000); // Increment time
   }
@@ -28,8 +32,9 @@ function generateEventsForDay(dayIndex) {
   return eventsForDay;
 }
 
-// Render schedule as HTML
-function renderSchedule(schedule, monthName) {
+
+// Render a single month's calendar
+function renderMonthCalendar(daysInMonth, offset, monthName) {
   let html = `<table id="schedule-table" border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
     <thead>
       <tr>
@@ -48,64 +53,80 @@ function renderSchedule(schedule, monthName) {
     <tbody>`;
 
   let week = [];
-  schedule.forEach((day, index) => {
-    if (day) {
-      const eventsHtml = day
-        .map(event => `${event.time}: ${event.symbol}`)
+  for (let i = 0; i < daysInMonth + offset; i++) {
+    if (i < offset) {
+      week.push("<td></td>"); // Empty cells for offset
+    } else {
+      const dayIndex = i - offset;
+      const dayDate = new Date(
+        startDateTime.getFullYear(),
+        startDateTime.getMonth(),
+        startDateTime.getDate() + dayIndex
+      );
+      const formattedDate = dayDate
+        .toLocaleDateString("en-GB")
+        .replace(/\//g, "."); // Format as DD.MM.YYYY
+
+      const events = generateEventsForDay(dayIndex);
+      const eventsHtml = events
+        .map((event) => `${event.time}: ${event.symbol}`)
         .join("<br>");
       week.push(
-        `<td style="vertical-align: top; padding: 5px;">${eventsHtml}</td>`
+        `<td style="vertical-align: top; padding: 5px;">
+          <strong>${formattedDate}</strong><br>
+          ${eventsHtml}
+        </td>`
       );
-    } else {
-      week.push('<td style="vertical-align: top;"></td>');
     }
 
-    if ((index + 1) % 7 === 0) {
+    if ((i + 1) % 7 === 0) {
       html += `<tr>${week.join("")}</tr>`;
       week = [];
     }
-  });
+  }
 
   if (week.length > 0) {
     html += `<tr>${week.join("")}</tr>`;
   }
 
   html += "</tbody></table>";
-  document.body.innerHTML += html;
+  return html;
 }
 
-// Generate the schedule for the current and next month
-function generateSchedules() {
-  const today = new Date();
-  const firstDayOfCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-  const daysInCurrentMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
-  const daysInNextMonth = new Date(today.getFullYear(), today.getMonth() + 2, 0).getDate();
 
-  // Generate schedule for the current month
-  const currentMonthSchedule = [];
-  for (let i = 0; i < daysInCurrentMonth; i++) {
-    currentMonthSchedule.push(generateEventsForDay(i));
-  }
+// Main function to render the event calendar
+function renderEventCalendar() {
+	const today = new Date();
 
-  // Generate schedule for the next month
-  const nextMonthSchedule = [];
-  for (let i = daysInCurrentMonth; i < daysInCurrentMonth + daysInNextMonth; i++) {
-    nextMonthSchedule.push(generateEventsForDay(i - daysInCurrentMonth));
-  }
+	const currentMonthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+	const currentMonthDays = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+	const currentMonthOffset = (currentMonthStart.getDay() + 6) % 7;
 
-  // Render schedules
-  renderSchedule(currentMonthSchedule, firstDayOfCurrentMonth.toLocaleString('default', { month: 'long', year: 'numeric' }));
-  renderSchedule(nextMonthSchedule, new Date(today.getFullYear(), today.getMonth() + 1, 1).toLocaleString('default', { month: 'long', year: 'numeric' }));
+	const nextMonthStart = new Date(today.getFullYear(), today.getMonth() + 1, 1);
+	const nextMonthDays = new Date(today.getFullYear(), today.getMonth() + 2, 0).getDate();
+	const nextMonthOffset = (nextMonthStart.getDay() + 6) % 7;
+
+	const currentMonthCalendar = renderMonthCalendar(currentMonthDays, currentMonthOffset, currentMonthStart.toLocaleString("default", { month: "long", year: "numeric" }));
+
+	const nextMonthCalendar = renderMonthCalendar(nextMonthDays, nextMonthOffset, nextMonthStart.toLocaleString("default", { month: "long", year: "numeric" }));
+
+	document.getElementById("event-calendar").innerHTML = `
+    <div>${currentMonthCalendar}</div>
+    <div style="margin-top: 20px;">${nextMonthCalendar}</div>
+  `;
 }
 
-// Docsify hook to regenerate calendar after rendering
-window.$docsify = {
-  doneEach: function () {
-    document.body.innerHTML = ""; // Clear previous content
-    generateSchedules();
-  },
-};
-
+// Docsify hook
+window.$docsify = window.$docsify || {};
+window.$docsify.plugins = (window.$docsify.plugins || []).concat((hook) => {
+	hook.doneEach(() => {
+		const container = document.getElementById("event-calendar");
+		if (container) {
+			container.innerHTML = "";
+			renderEventCalendar();
+		}
+	});
+});
 
 /* (function () {
   const events = [
