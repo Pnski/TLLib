@@ -1,0 +1,170 @@
+{
+   "NumberOfAcquisition":[
+        {
+            "Range": 2,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 5000000},
+                {"Acquisition": 2, "Probability": 5000000}
+            ]
+        },
+        {
+            "Range": 3,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 2256101},
+                {"Acquisition": 2, "Probability": 5487798},
+                {"Acquisition": 3, "Probability": 2256101}
+            ]
+        },
+        {
+            "Range": 4,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 1344707},
+                {"Acquisition": 2, "Probability": 3655293},
+                {"Acquisition": 3, "Probability": 3655293},
+                {"Acquisition": 4, "Probability": 1344707}
+            ]
+        },
+        {
+            "Range": 5,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 924212},
+                {"Acquisition": 2, "Probability": 2413760},
+                {"Acquisition": 3, "Probability": 3324056},
+                {"Acquisition": 4, "Probability": 2413760},
+                {"Acquisition": 5, "Probability": 924212}
+            ]
+        },
+        {
+            "Range": 6,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 691937},
+                {"Acquisition": 2, "Probability": 1683085},
+                {"Acquisition": 3, "Probability": 2624978},
+                {"Acquisition": 4, "Probability": 2624978},
+                {"Acquisition": 5, "Probability": 1683085},
+                {"Acquisition": 6, "Probability": 691937}
+            ]
+        },
+        {
+            "Range": 7,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 547808},
+                {"Acquisition": 2, "Probability": 1239236},
+                {"Acquisition": 3, "Probability": 2022413},
+                {"Acquisition": 4, "Probability": 2381086},
+                {"Acquisition": 5, "Probability": 2022413},
+                {"Acquisition": 6, "Probability": 1239236},
+                {"Acquisition": 7, "Probability": 547808}
+            ]
+        },
+        {
+            "Range": 8,
+            "Acquisitions": [
+                {"Acquisition": 1, "Probability": 450896},
+                {"Acquisition": 2, "Probability": 954547},
+                {"Acquisition": 3, "Probability": 1573782},
+                {"Acquisition": 4, "Probability": 2020776},
+                {"Acquisition": 5, "Probability": 2020774},
+                {"Acquisition": 6, "Probability": 1573782},
+                {"Acquisition": 7, "Probability": 954547},
+                {"Acquisition": 8, "Probability": 450896}
+            ]
+        }
+    ],
+    "GoldenRyeFarm":[
+        {
+            "ExpeditionTime":1,
+            "Amitoy":
+            [
+                {
+                    "Quantity":1,
+                    "AcquisitionRange":{"Low":1,"High":3},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":2,
+                    "AcquisitionRange":{"Low":2,"High":5},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":3,
+                    "AcquisitionRange":{"Low":3,"High":7},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":4,
+                    "AcquisitionRange":{"Low":1,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":5,
+                    "AcquisitionRange":{"Low":2,"High":5},
+                    "Quality":"Rare"
+                }
+            ]
+        },
+        {
+            "ExpeditionTime":2,
+            "Amitoy":
+            [
+                {
+                    "Quantity":1,
+                    "AcquisitionRange":{"Low":3,"High":5},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":2,
+                    "AcquisitionRange":{"Low":4,"High":7},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":3,
+                    "AcquisitionRange":{"Low":1,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":4,
+                    "AcquisitionRange":{"Low":2,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":5,
+                    "AcquisitionRange":{"Low":3,"High":5},
+                    "Quality":"Rare"
+                }
+            ]
+        },
+        {
+            "ExpeditionTime":3,
+            "Amitoy":
+            [
+                {
+                    "Quantity":1,
+                    "AcquisitionRange":{"Low":4,"High":7},
+                    "Quality":"Common"
+                },
+                {
+                    "Quantity":2,
+                    "AcquisitionRange":{"Low":1,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":3,
+                    "AcquisitionRange":{"Low":2,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":4,
+                    "AcquisitionRange":{"Low":3,"High":5},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":5,
+                    "AcquisitionRange":{"Low":2,"High":4},
+                    "Quality":"Rare"
+                }
+            ]
+        }
+    ]
+
+}
