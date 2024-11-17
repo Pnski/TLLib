@@ -135,7 +135,7 @@
             ]
         },
         {
-            "ExpeditionTime":3,
+            "ExpeditionTime":4,
             "Amitoy":
             [
                 {
@@ -164,7 +164,41 @@
                     "Quality":"Rare"
                 }
             ]
+        },
+        {
+            "ExpeditionTime":8,
+            "Amitoy":
+            [
+                {
+                    "Quantity":1,
+                    "AcquisitionRange":{"Low":1,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":2,
+                    "AcquisitionRange":{"Low":2,"High":3},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":3,
+                    "AcquisitionRange":{"Low":3,"High":5},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":4,
+                    "AcquisitionRange":{"Low":2,"High":4},
+                    "Quality":"Rare"
+                },
+                {
+                    "Quantity":5,
+                    "AcquisitionRange":{"Low":3,"High":4},
+                    "Quality":"Rare"
+                }
+            ]
         }
-    ]
-
+    ],
+    "Drops":{
+        "GoldenRyeFarm":["Magithread","Mystwood","Rotein"],
+        
+    }
 }
