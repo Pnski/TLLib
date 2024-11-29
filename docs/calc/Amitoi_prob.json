@@ -199,6 +199,16 @@
     ],
     "Drops":{
         "GoldenRyeFarm":["Magithread","Mystwood","Rotein"],
+        "WindhillShores":[]
+| 2 | | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | "Manaleather" | <img src=./Item_128/Misc/I_ManaSteel_001.png> | <img src=./Item_128/Usable/I_food_sub_031.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 3 | Blackhowl Plains | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaWood_001.png> | "Manaleather" | <img src=./Item_128/Usable/I_food_sub_045.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 4 | Urstella Fields | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_Gold_001.png> | <img src=./Item_128/Misc/I_ManaFabric_001.png> | <img src=./Item_128/Usable/I_food_sub_045.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 5 | Carmine Forest | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaSteel_001.png> | <img src=./Item_128/Misc/I_Gold_001.png> | <img src=./Item_128/Usable/I_food_sub_045.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 6 | Nesting Grounds | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaFabric_001.png> | <img src=./Item_128/Misc/I_ManaWood_001.png> | <img src=./Item_128/Usable/I_food_sub_045.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 15 | Fonos Basin | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaFabric_002.png> | <img src=./Item_128/Misc/I_ManaWood_002.png> | <img src=./Item_128/Usable/I_food_sub_018.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 16 | Ruins of Turayne | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaSteel_002.png> | <img src=./Item_128/Misc/I_Gold_002.png> | <img src=./Item_128/Usable/I_material_food_main_032.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 17 | Purelight Hill | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaWood_002.png> | <img src=./Item_128/Misc/I_ManaLeather_002.png> | <img src=./Item_128/Usable/I_food_sub_025.png> | <img src=./Item_128/Usable/I_Package_002.png> |
+| 18 | Shattered Temple | <img src="./Item_128/Usable/abyss_point_charge_001_1_A.png"> | <img src=./Item_128/Misc/I_ManaSteel_002.png> | <img src=./Item_128/Misc/I_Gold_002.png> | <img src=./Item_128/Usable/I_material_food_main_032.png> | <img src=./Item_128/Usable/I_Package_002.png> |
         
     }
 }
