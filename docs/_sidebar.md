@@ -9,6 +9,7 @@
     - [Loot Distribution](calc/lootdist)
     - [Loot Tables](LootTables/Item_drop)
     - [RainSchedule](calc/rain.md)
+    - [SkillDmgTypes](calc/dmgType)
 - Activity
     - [GuildActivity](activity/guild)
 - Patchnotes
