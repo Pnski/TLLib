@@ -20,7 +20,7 @@ def process_filenames():
     for filename in filenames:
         for key, value in json_data.items():
             if key.startswith('WP') and filename[8:].rsplit('.', 1)[0] in key:
-                matches.append(f"| <img src=\"../images/Active/{filename}\"> | {key} | {value.get('damage_type', 'N/A')} |")
+                matches.append(f"| <img src=\"./Images/Active/{filename}\"> | {key} | {value.get('damage_type', 'N/A')} |")
     #<img src="./Item_128/Usable/abyss_point_charge_001_1_A.png">
 
 

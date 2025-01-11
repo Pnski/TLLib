@@ -8,7 +8,7 @@
     - [Weapon Mastery](calc/wmastery)
     - [Loot Distribution](calc/lootdist)
     - [Loot Tables](LootTables/Item_drop)
-    - [RainSchedule](calc/rain.md)
+    - [RainSchedule](calc/rain)
     - [SkillDmgTypes](calc/dmgType)
 - Activity
     - [GuildActivity](activity/guild)
