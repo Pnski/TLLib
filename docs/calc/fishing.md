@@ -1,98 +1,39 @@
-# Fishing
+# Mastery
 
 ## Level
 
-| Level | Exp to next Level |
-| :--- | ---: |
-| 1 | 1299 |
-| 2 | 3897 |
-| 3 | 7015 |
-| 4 | 10133 |
-| 5 | 16368 |
-| 6 | 22603 | 
-| 7 | 32476 |
-| 8 | 41829 |
-| 9 | 54300 |
-| 10 | 69888 |
-| 11 | 91712 |
-| 12 | 119771 |
-| 13 | 154066 |
-| 14 | 200831 |
-| 15 | 260067 |
-| 16 | 338009 |
-| 17 | 441153 |
-| 18 | 578591 |
-| 19 | 759677 |
-| 20 | 1000000 |
+| Level | LocalizedString | LevelExpThreshold |
+| ----- | --------------- | ----------------- |
+| 1 | [Lv. 1] Novice Angler | 1299 |
+| 2 | [Lv. 2] Novice Angler | 3897 |
+| 3 | [Lv. 3] Novice Angler | 7015 |
+| 4 | [Lv. 4] Novice Angler | 10133 |
+| 5 | [Lv. 5] Novice Angler | 16368 |
+| 6 | [Lv. 6] Seasoned Angler | 22603 |
+| 7 | [Lv. 7] Seasoned Angler | 32476 |
+| 8 | [Lv. 8] Seasoned Angler | 41829 |
+| 9 | [Lv. 9] Seasoned Angler | 54300 |
+| 10 | [Lv. 10] Seasoned Angler | 69888 |
+| 11 | [Lv. 11] Skillful Angler | 91712 |
+| 12 | [Lv. 12] Skillful Angler | 119771 |
+| 13 | [Lv. 13] Skillful Angler | 154066 |
+| 14 | [Lv. 14] Skillful Angler | 200831 |
+| 15 | [Lv. 15] Skillful Angler | 260067 |
+| 16 | [Lv. 16] Pro Angler | 338009 |
+| 17 | [Lv. 17] Pro Angler | 441153 |
+| 18 | [Lv. 18] Pro Angler | 578591 |
+| 19 | [Lv. 19] Pro Angler | 759677 |
+| 20 | [Lv. 20] Pro Angler | 1000000 |
+| 21 | [Lv. 21] Pro Angler | 1162379 |
+| 22 | [Lv. 22] Pro Angler | 1353078 |
+| 23 | [Lv. 23] Pro Angler | 1553909 |
+| 24 | [Lv. 24] Pro Angler | 1768510 |
+| 25 | [Lv. 25] Baitmaster | 2000000 |
+| 26 | [missing] | 2162379 |
+| 27 | [missing] | 2353078 |
+| 28 | [missing] | 2553909 |
+| 29 | [missing] | 2768510 |
+| 30 | [missing] | 3000000 |
 
-## FishingLevelGapInfo
 
-```json
-"FishingCommonInfo": {
-    "FishingRangeInfo": {
-        "FishingDistanceRangeStart": 700.0,
-        "FishingDistanceRangeEnd": 1500.0,
-        "FishingAreaRadius": 500.0
-    },
-    "FishingLevelGapInfo": [
-        {
-        "LevelGapMin": -999,
-        "LevelGapMax": -13,
-        "PowerWeight": 1.0,
-        "HpWeight": 0.5,
-        "StaminaWeight": 1.0,
-        "Difficulty": "ETLFishingDifficultType::Hard"
-        },
-        {
-        "LevelGapMin": -12,
-        "LevelGapMax": -5,
-        "PowerWeight": 1.2,
-        "HpWeight": 0.5,
-        "StaminaWeight": 2.0,
-        "Difficulty": "ETLFishingDifficultType::Hard"
-        },
-        {
-        "LevelGapMin": -4,
-        "LevelGapMax": -2,
-        "PowerWeight": 1.3,
-        "HpWeight": 0.5,
-        "StaminaWeight": 2.0,
-        "Difficulty": "ETLFishingDifficultType::Hard"
-        },
-        {
-        "LevelGapMin": -1,
-        "LevelGapMax": 4,
-        "PowerWeight": 1.5,
-        "HpWeight": 1.0,
-        "StaminaWeight": 2.0,
-        "Difficulty": "ETLFishingDifficultType::Normal"
-        },
-        {
-        "LevelGapMin": 5,
-        "LevelGapMax": 10,
-        "PowerWeight": 1.5,
-        "HpWeight": 1.5,
-        "StaminaWeight": 2.0,
-        "Difficulty": "ETLFishingDifficultType::Normal"
-        },
-        {
-        "LevelGapMin": 11,
-        "LevelGapMax": 20,
-        "PowerWeight": 1.5,
-        "HpWeight": 1.5,
-        "StaminaWeight": 2.5,
-        "Difficulty": "ETLFishingDifficultType::Easy"
-        },
-        {
-        "LevelGapMin": 21,
-        "LevelGapMax": 999,
-        "PowerWeight": 1.6,
-        "HpWeight": 2.0,
-        "StaminaWeight": 3.0,
-        "Difficulty": "ETLFishingDifficultType::Easy"
-        }
-    ]
-}
-```
-
-Source: 'TLFishingLevel.uasset'
+sources/TLFishingLevel.json

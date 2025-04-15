@@ -1,4 +1,4 @@
-name: run main.py
+name: run Python Json To MD Files
 
 on:
   push:
@@ -23,10 +23,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
           
-      - name: execute py script # run main.py
+      - name: execute py scripts
         #env:
         #  SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python scripts/wMastery.py
+        run: |
+          python scripts/fishInfo.py
+          python scripts/fishLevel.py
+          python scripts/wMastery.py
           
       - name: commit files
         run: |

@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "TLFishingCommonInfo",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeFishingCommonInfo'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "FishingCommonInfo": {
+        "FishingRangeInfo": {
+          "FishingDistanceRangeStart": 700.0,
+          "FishingDistanceRangeEnd": 1500.0,
+          "FishingAreaRadius": 500.0
+        },
+        "FishingLevelGapInfo": [
+          {
+            "LevelGapMin": -999,
+            "LevelGapMax": -13,
+            "PowerWeight": 1.0,
+            "HpWeight": 0.5,
+            "StaminaWeight": 1.0,
+            "Difficulty": "ETLFishingDifficultType::Hard"
+          },
+          {
+            "LevelGapMin": -12,
+            "LevelGapMax": -5,
+            "PowerWeight": 1.2,
+            "HpWeight": 0.5,
+            "StaminaWeight": 2.0,
+            "Difficulty": "ETLFishingDifficultType::Hard"
+          },
+          {
+            "LevelGapMin": -4,
+            "LevelGapMax": -2,
+            "PowerWeight": 1.3,
+            "HpWeight": 0.5,
+            "StaminaWeight": 2.0,
+            "Difficulty": "ETLFishingDifficultType::Hard"
+          },
+          {
+            "LevelGapMin": -1,
+            "LevelGapMax": 4,
+            "PowerWeight": 1.5,
+            "HpWeight": 1.0,
+            "StaminaWeight": 2.0,
+            "Difficulty": "ETLFishingDifficultType::Normal"
+          },
+          {
+            "LevelGapMin": 5,
+            "LevelGapMax": 10,
+            "PowerWeight": 1.5,
+            "HpWeight": 1.5,
+            "StaminaWeight": 2.0,
+            "Difficulty": "ETLFishingDifficultType::Normal"
+          },
+          {
+            "LevelGapMin": 11,
+            "LevelGapMax": 20,
+            "PowerWeight": 1.5,
+            "HpWeight": 1.5,
+            "StaminaWeight": 2.5,
+            "Difficulty": "ETLFishingDifficultType::Easy"
+          },
+          {
+            "LevelGapMin": 21,
+            "LevelGapMax": 999,
+            "PowerWeight": 1.6,
+            "HpWeight": 2.0,
+            "StaminaWeight": 3.0,
+            "Difficulty": "ETLFishingDifficultType::Easy"
+          }
+        ]
+      }
+    }
+  }
+]
