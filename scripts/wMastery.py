@@ -8,12 +8,12 @@ except FileNotFoundError:
 
 
 markdown = "# Mastery\n\n## Level\n\n"
-headers = ['Level', 'Threshold']
+headers = ['Name','Level', 'Threshold']
 markdown += "| " + " | ".join(headers) + " |\n"
 markdown += "| " + " | ".join(['-' * len(h) for h in headers]) + " |\n"
 
 for row in wSpecLevel.items():
-    markdown += "| " + str(row[1]['Name']) + " | " + str(row[1]['point_threshold']) + " |\n"
+    markdown += "| " + str(row[1]['Name']) + " | " + str(row[1]['level']) + " | " +str(row[1]['point_threshold']) + " |\n"
 markdown += "\n\nsources/TLWeaponSpecializationLevel.json"
 
 with open("docs/calc/wmastery.md", "w") as f:
