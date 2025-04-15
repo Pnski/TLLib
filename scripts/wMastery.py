@@ -2,12 +2,21 @@ import json
 
 # get file
 try:
-    existing_file = json.load(open('example.json'))
+    wSpecLevel = json.load(open('sources/TLWeaponSpecializationLevel.json'))[0]['Rows']
 except FileNotFoundError:
-    existing_file = {}  # TODO or [], depending on the data
+    wSpecLevel = {}  # TODO or [], depending on the data
 
-# TODO: do something with existing_file
-existing_file["foo"] = "bar"  # or existing_file.append("foo"), depending on the data
-# write file
-with open('example.json', 'w') as outfile:
-  outfile.write(json.dumps(existing_file))
+
+markdown = "# Mastery\n\n## Level\n\n"
+headers = ['Level', 'Threshold']
+markdown += "| " + " | ".join(headers) + " |\n"
+markdown += "| " + " | ".join(['-' * len(h) for h in headers]) + " |\n"
+
+for row in wSpecLevel.items():
+    markdown += "| " + str(row[1]['Name']) + " | " + str(row[1]['point_threshold']) + " |\n"
+markdown += "\n\nsources/TLWeaponSpecializationLevel.json"
+
+with open("docs/calc/wmastery.md", "w") as f:
+    f.write(markdown)
+
+print("success")
