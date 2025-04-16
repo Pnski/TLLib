@@ -1,0 +1,38 @@
+name: Resize Large Images
+
+on:
+  push:
+    paths:
+      - 'docs/Image/**.png'
+      - 'docs/Image/**.jpg'
+      - 'docs/Image/**.jpeg'
+      - 'docs/Image/**.webp'
+      - 'docs/Image/**.gif'
+
+jobs:
+  resize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Resize images
+        run: python scripts/resize_images.py
+
+      - name: Commit resized images
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          git commit -m "Auto-resized large images" || echo "No changes to commit"
+          git push
