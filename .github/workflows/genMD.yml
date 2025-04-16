@@ -27,8 +27,7 @@ jobs:
         #env:
         #  SOME_SECRET: ${{ secrets.SOME_SECRET }}
         run: |
-          python scripts/fishInfo.py
-          python scripts/fishLevel.py
+          python scripts/fish.py
           python scripts/wMastery.py
           
       - name: commit files
