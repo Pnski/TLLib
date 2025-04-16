@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - sources/**
+  workflow_dispatch:  # 👈 Add this for manual run
 
 jobs:
   build:

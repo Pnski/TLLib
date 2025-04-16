@@ -3,11 +3,8 @@ name: Resize Large Images
 on:
   push:
     paths:
-      - 'docs/Image/**.png'
-      - 'docs/Image/**.jpg'
-      - 'docs/Image/**.jpeg'
-      - 'docs/Image/**.webp'
-      - 'docs/Image/**.gif'
+      - 'docs/Image/**'
+  workflow_dispatch:  # 👈 Add this for manual run
 
 jobs:
   resize:
