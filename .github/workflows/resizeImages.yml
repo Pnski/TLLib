@@ -30,9 +30,12 @@ jobs:
         run: python scripts/resize_images.py
 
       - name: Commit resized images
+        env:
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git add .
           git commit -m "Auto-resized large images" || echo "No changes to commit"
-          git push
+          git push origin HEAD:${{ github.ref_name }}
