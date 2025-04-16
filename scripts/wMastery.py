@@ -1,4 +1,5 @@
 import json
+import os
 
 def loadFile(filepath):
     try:
@@ -44,6 +45,9 @@ def writeMarkdown(title, head, dataField, filepath, output):
         markdown += "| " + " | ".join(data) + " |\n"
 
     markdown += "\n\n" + filepath
+
+    os.makedirs(os.path.dirname(output), exist_ok=True)
+    
     with open(output, "w", encoding="utf-8") as f:
         f.write(markdown)
     print(filepath, "success")
