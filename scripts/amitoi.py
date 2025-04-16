@@ -37,7 +37,7 @@ def getRows(fields, filepath):
 
 def writeMarkdown(title, head, dataField, filepath, output):
 
-    markdown = "\n\n".join(title)
+    markdown = "\n\n".join(title) + "\n\n"
     markdown += "| " + " | ".join(head) + " |\n"
     markdown += "| " + " | ".join(['-' * len(h) for h in head]) + " |\n"
     for data in getRows(dataField, filepath):
@@ -48,11 +48,11 @@ def writeMarkdown(title, head, dataField, filepath, output):
         f.write(markdown)
     print(filepath, "success")
 
-#Weapon Mastery
+#FishInfo
 writeMarkdown(
-    title=['# Mastery', '## Level',''],
-    head=["Name", "Level", "Threshold"],
-    dataField=["Name", "level", "point_threshold"],
-    filepath="sources/TLWeaponSpecializationLevel.json",
-    output="docs/weapon/mLevel.md",
+    title=['# Fishing', '## Habitat'],
+    head=["FishName", "Level", "HabitatList"],
+    dataField=["FishName.LocalizedString", "Level", "HabitatInfo.HabitatList"],
+    filepath="sources/TLFishingFishInfo.json",
+    output="docs/fish/Info.md",
 )

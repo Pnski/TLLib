@@ -26,6 +26,7 @@ jobs:
           
       - name: execute py scripts
         run: |
+          python scripts/amitoi.py
           python scripts/fish.py
           python scripts/wMastery.py
           
@@ -33,5 +34,6 @@ jobs:
         run: |
           git config --global user.name 'githubAction'
           git config --global user.email 'action@github.com'
+          git add -A
           git commit -m "generated MD files by GithubActions" || true
           git push

@@ -32,5 +32,6 @@ jobs:
         run: |
           git config --global user.name 'githubAction'
           git config --global user.email 'action@github.com'
-          git commit -am "resized Images by github actions" || true
+          git add -A
+          git commit -m "resized Images by github actions" || true
           git push

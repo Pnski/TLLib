@@ -1,17 +1,15 @@
 <!-- _sidebar.md -->
 
 - Basics
-    - [Amitoi](LootTables/Amitoi)
-    - [Stats](calc/stats)
-    - [Fishing](calc/fishing)
-    - [Guild](calc/guild)
-    - [Weapon Mastery](calc/wmastery)
-    - [Loot Distribution](calc/lootdist)
-    - [Loot Tables](LootTables/Item_drop)
-    - [RainSchedule](calc/rain)
-    - [SkillDmgTypes](calc/dmgType)
-- Activity
-    - [GuildActivity](activity/guild)
-
-
-[Sources](sources)
+    - Amitoi
+        - [ref1]
+    - Fishing
+        - [Level](fish/Level)
+        - [Habitat](fish/Info)
+    - Skills
+        - [Skill Damage Type](skill/DamageType)
+    - Weapon
+        - [Weapon Mastery](weapon/mLevel)
+- Articles
+    - [Loot Distribution](Articles/lootdist)
+    - [Stats/Calculation](Articles/stats)

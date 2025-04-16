@@ -89,3 +89,5 @@ Heavy Attack Chance Formula:
 $$
 HeavyAttackChance = \frac{HeavyAttack}{HeavyAttack + 1000}*100
 $$
+
+Source: [Maxroll](https://maxroll.gg/throne-and-liberty/resources/in-depth-stats-guide)

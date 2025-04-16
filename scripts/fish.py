@@ -54,7 +54,7 @@ writeMarkdown(
     head=["FishName", "Level", "HabitatList"],
     dataField=["FishName.LocalizedString", "Level", "HabitatInfo.HabitatList"],
     filepath="sources/TLFishingFishInfo.json",
-    output="docs/calc/fishInfo.md",
+    output="docs/fish/Info.md",
 )
 #FishLevel
 writeMarkdown(
@@ -62,5 +62,5 @@ writeMarkdown(
     head=["Level", "LocalizedString", "LevelExpThreshold"],
     dataField=["Level", "Title.LocalizedString", "LevelExpThreshold"],
     filepath="sources/TLFishingLevel.json",
-    output="docs/calc/fishLevel.md"
+    output="docs/fish/Level.md"
 )
