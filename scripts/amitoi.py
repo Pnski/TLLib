@@ -1,10 +1,51 @@
 import json
-from collections import defaultdict
-from pathlib import Path
+import os
 
-def load_json(path):
-    with open(path, encoding='utf-8') as f:
-        return json.load(f)
+def loadFile(filepath):
+    try:
+        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
+    except FileNotFoundError:
+        return {}
+
+
+region_path = "sources/TLMagicDollExpeditionRegion.json"
+group_path = "sources/TLItemLotteryPrivateGroup.json"
+unit_path = "sources/TLItemLotteryUnit.json"
+
+regionData = loadFile(region_path)
+groupData = loadFile(group_path)
+unit_data = loadFile(unit_path)
+
+def avgQuantity(entries):
+    return 0
+
+def getLotteryItems(key, unitData):
+    return []
+
+def getPrivateGroupItems(group):
+    return []
+
+def writeMarkdown(output):
+    with open(output, "w", encoding="utf-8") as md:
+        md.write("Amitoi Expedition\n\n")
+        for region in regionData.values():
+            md.write(region["RegionName"]["LocalizedString"]+"\n\n")
+            head = ["ExpeditionTime"] + [x for i in range(1, 6) for x in (f"Reward {i}", f"% {i}")]
+            md.write("| " + " | ".join(head) + " |\n")
+            md.write("| " + " | ".join(['-' * 3 for h in head]) + " |\n")
+            for rewards in region["ExpeditionRewards"]:
+                LotteryGroup = rewards["MagicDollCountRewards"][-1]["DefaultPrivateLotteryGroupId"]
+                print(groupData[LotteryGroup])
+                md.write("| " + "test")
+            
+            md.write("\n\n")
+
+        md.write("All Propabilitys are averages\n\n")
+        md.write("sources = "+", ".join([region_path,group_path,unit_path]))
+
+writeMarkdown(
+    output="docs/doll/expeditionRewards.md"
+)
 
 def avg_quantity(entries):
     total_prob = sum(e['prob'] for e in entries)
@@ -86,17 +127,3 @@ def generate_markdown(region_data, group_data, unit_data, output_path):
                     md.write(f"| {time} | {reward1_item[0]} | {reward1_item[1]:.2f} | {reward1_item[2]:.1f} | {extra_str} | {special} | {special_prob:.2f} |\n")
 
             md.write("\n\n")
-
-if __name__ == "__main__":
-    region_path = "sources/TLMagicDollExpeditionRegion.json"
-    group_path = "sources/TLItemLotteryPrivateGroup.json"
-    unit_path = "sources/TLItemLotteryUnit.json"
-    output_md = "docs/doll/expeditionRewards.md"
-
-    region_data = load_json(region_path)[0]  # <- add [0]
-    group_data = load_json(group_path)[0]["Rows"]
-    unit_data = load_json(unit_path)[0]["Rows"]
-
-
-    generate_markdown(region_data, group_data, unit_data, output_md)
-    print(f"✅ Markdown written to {output_md}")

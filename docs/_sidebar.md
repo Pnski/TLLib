@@ -13,3 +13,5 @@
 - Articles
     - [Loot Distribution](Articles/lootdist)
     - [Stats/Calculation](Articles/stats)
+    - Transcription
+        - [English](Articles/transcription_output_english.txt)
