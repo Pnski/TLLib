@@ -38,7 +38,7 @@ def writeMarkdown(output):
                         #print("✅", gEntry["id"], unitData[gEntry["id"]])
                     else:
                         print("Error in UnitData.")
-                md.write(f"| {rewards['ExpeditionTime']/3600} h | "+ " | ".join(f'{r["item"]} | {r["avg"]:.1f}' for r in regionRewards) + " |\n")
+                md.write(f"| {rewards['ExpedtionTime']/3600} h | "+ " | ".join(f'{r["item"]} | {r["avg"]:.1f}' for r in regionRewards) + " |\n")
 
             md.write("\n\n")
 
