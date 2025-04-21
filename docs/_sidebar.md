@@ -2,7 +2,7 @@
 
 - Basics
     - Amitoi
-        - [ref1]
+        - [Expedition Rewards](doll/expeditionRewards)
     - Fishing
         - [Level](fish/Level)
         - [Habitat](fish/Info)
