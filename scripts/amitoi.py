@@ -7,123 +7,69 @@ def loadFile(filepath):
     except FileNotFoundError:
         return {}
 
+regionPath = "sources/TLMagicDollExpeditionRegion.json"
+groupPath = "sources/TLItemLotteryPrivateGroup.json"
+unitPath = "sources/TLItemLotteryUnit.json"
 
-region_path = "sources/TLMagicDollExpeditionRegion.json"
-group_path = "sources/TLItemLotteryPrivateGroup.json"
-unit_path = "sources/TLItemLotteryUnit.json"
-
-regionData = loadFile(region_path)
-groupData = loadFile(group_path)
-unit_data = loadFile(unit_path)
+regionData = loadFile(regionPath)
+groupData = loadFile(groupPath)
+unitData = loadFile(unitPath)
 
 def avgQuantity(entries):
-    return 0
-
-def getLotteryItems(key, unitData):
-    return []
-
-def getPrivateGroupItems(group):
-    return []
+    return sum(entry['quantity'] * (entry['prob'] / 10000) for entry in entries) / sum(entry['prob'] / 10000 for entry in entries)
 
 def writeMarkdown(output):
     with open(output, "w", encoding="utf-8") as md:
         md.write("Amitoi Expedition\n\n")
         for region in regionData.values():
-            md.write(region["RegionName"]["LocalizedString"]+"\n\n")
-            head = ["ExpeditionTime"] + [x for i in range(1, 6) for x in (f"Reward {i}", f"% {i}")]
+            md.write("## "+ region["RegionName"]["LocalizedString"]+"\n\n")
+            head = ["ExpeditionTime"] + [x for i in range(1, 5) for x in (f"Reward {i}", f"% {i}")]
             md.write("| " + " | ".join(head) + " |\n")
             md.write("| " + " | ".join(['-' * 3 for h in head]) + " |\n")
             for rewards in region["ExpeditionRewards"]:
-                LotteryGroup = rewards["MagicDollCountRewards"][-1]["DefaultPrivateLotteryGroupId"]
-                print(groupData[LotteryGroup])
-                md.write("| " + "test")
-            
+                regionRewards = []
+                for gEntry in groupData[rewards["MagicDollCountRewards"][-1]["DefaultPrivateLotteryGroupId"]]["ItemLotteryPrivateGroupEntry"]:#pGroupEntrys:
+                    if gEntry["id"] in unitData:
+                        ItemLotteryUnitEntry = unitData[gEntry["id"]]["ItemLotteryUnitEntry"]
+                        regionRewards.append({
+                            'item': ItemLotteryUnitEntry[0]["item"],
+                            'avg': avgQuantity(ItemLotteryUnitEntry)
+                        })
+                        #print("✅", gEntry["id"], unitData[gEntry["id"]])
+                    else:
+                        print("Error in UnitData.")
+                md.write(f"| {rewards['ExpeditionTime']/3600} h | "+ " | ".join(f'{r["item"]} | {r["avg"]:.1f}' for r in regionRewards) + " |\n")
+
             md.write("\n\n")
 
         md.write("All Propabilitys are averages\n\n")
-        md.write("sources = "+", ".join([region_path,group_path,unit_path]))
+        md.write("sources = "+", ".join([regionPath,groupPath,unitPath]))
+
+    replacements = {
+    "dungeon_point_stone_05_A": "<img src='.Image/Icon/Item_128/Usable/abyss_point_charge_001_1_A.png'>",
+    "material_mana_fabric_02": "<img src='.Image/Icon/Item_128/Misc/I_ManaFabric_002.png'>",
+    "material_mana_wood_02": "<img src='.Image/Icon/Item_128/Misc/I_ManaWood_002.png'>",
+    "Material_Food_Sub_Rotein_002": "<img src='.Image/Icon/Item_128/Usable/I_food_sub_045.png'>",
+    "material_mana_leather_02":"<img src='.Image/Icon/Item_128/Misc/I_ManaLeather_002.png'>",
+    "material_mana_steel_02": "<img src='.Image/Icon/Item_128/Misc/I_ManaSteel_002.png'>",
+    "Material_Food_Sub_Solute_002":"<img src='.Image/Icon/Item_128/Usable/I_food_sub_031.png'>",
+    "material_gold_02":"<img src='.Image/Icon/Item_128/Misc/I_Gold_002.png'>",
+    "Material_Food_Sub_Fruice_003":"<img src='.Image/Icon/Item_128/Usable/I_food_sub_018.png'>",
+    "material_food_main_032":"<img src='.Image/Icon/Item_128/Usable/I_material_food_main_032.png'>",
+    "Material_Food_Sub_Herba_003":"<img src='.Image/Icon/Item_128/Usable/I_food_sub_025.png'>",
+    "material_food_main_033":"<img src='.Image/Icon/Item_128/Usable/I_material_food_main_033.png'>",
+    "material_food_main_012":"<img src='.Image/Icon/Item_128/Usable/I_material_food_main_012.png'>",
+    }
+
+    with open(output, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    for old, new in replacements.items():
+        content = content.replace(old, new)
+
+    with open(output, "w", encoding="utf-8") as f:
+        f.write(content)
 
 writeMarkdown(
     output="docs/doll/expeditionRewards.md"
 )
-
-def avg_quantity(entries):
-    total_prob = sum(e['prob'] for e in entries)
-    if total_prob == 0:
-        return 0
-    return sum(e['quantity'] * e['prob'] for e in entries) / total_prob
-
-def get_lottery_items(key, unit_data):
-    if key not in unit_data:
-        return []
-    return unit_data[key]['ItemLotteryUnitEntry']
-
-def get_private_group_items(group_id, group_data, unit_data):
-    if group_id not in group_data:
-        return []
-
-    items = []
-
-    for group_entry in group_data[group_id]['ItemLotteryPrivateGroupEntry']:
-        unit_key = group_entry['id']
-        group_prob = group_entry.get('prob', 0)
-        group_count = group_entry.get('Count', 1)
-
-        unit_entries = get_lottery_items(unit_key, unit_data)
-        unit_total_prob = sum(e['prob'] for e in unit_entries)
-
-        for entry in unit_entries:
-            normalized_prob = (entry['prob'] / unit_total_prob) * group_prob if unit_total_prob else 0
-            items.append({
-                'item': entry['item'],
-                'quantity': entry['quantity'] * group_count,
-                'prob': normalized_prob
-            })
-
-    return items
-
-def format_item_summary(items):
-    item_map = defaultdict(list)
-    for entry in items:
-        item_map[entry['item']].append(entry)
-    summary = []
-    for item, entries in item_map.items():
-        total_prob = sum(e['prob'] for e in entries)
-        avg_qty = avg_quantity(entries)
-        summary.append((item, total_prob / 100000.0, avg_qty))
-    return summary
-
-def generate_markdown(region_data, group_data, unit_data, output_path):
-    rows = region_data["Rows"]
-
-    with open(output_path, "w", encoding="utf-8") as md:
-        for region_key, region in rows.items():
-            region_name = region["RegionName"]["LocalizedString"]
-            md.write(f"## {region_name}\n\n")
-
-            for reward_set in region["ExpeditionRewards"]:
-                md.write(f"### Expedition UID {reward_set['UID']}\n\n")
-                md.write("| Expedition Time | Reward 1 | Prob (%) | Qty | Extra Rewards | Special | Special Rate (%) |\n")
-                md.write("|-----------------|----------|-----------|------|----------------|---------|-------------------|\n")
-
-                for reward in reward_set["MagicDollCountRewards"]:
-                    time = reward_set["ExpedtionTime"]
-                    reward1 = reward["DefaultLotteryUnit"]["Key"]
-                    private_id = reward["DefaultPrivateLotteryGroupId"]
-                    special = reward.get("SpecialLotteryUnit", {}).get("Key", "")
-                    special_prob = reward.get("SpecialRewardRate", 0) / 100.0
-
-                    reward1_items = get_lottery_items(reward1, unit_data)
-                    reward1_summary = format_item_summary(reward1_items)
-                    reward1_item = reward1_summary[0] if reward1_summary else ("", 0, 0)
-
-                    extras = get_private_group_items(private_id, group_data, unit_data)
-                    extra_summary = format_item_summary(extras)
-
-                    extra_str = ", ".join(
-                        f"{name} ({prob:.2f}% x {qty:.1f})" for name, prob, qty in extra_summary
-                    )
-
-                    md.write(f"| {time} | {reward1_item[0]} | {reward1_item[1]:.2f} | {reward1_item[2]:.1f} | {extra_str} | {special} | {special_prob:.2f} |\n")
-
-            md.write("\n\n")

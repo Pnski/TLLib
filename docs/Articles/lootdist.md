@@ -10,6 +10,7 @@ Here’s an overview of loot distribution by activity.
 ## General Activities
 - Open World Farming, Abyss Dungeon Farming, Quests, Contracts, Dynamic Events, Co-op Dungeons (excluding the final reward chest)
 - Applicable Enemies: Normal, Elite, Party Elite
+
 ### Distribution Rules:
 - When an enemy dies, loot is assigned to the player who first earned contribution (dealt damage in this case) to said enemy.
 - If the player is in a group, the loot is assigned to the player’s party instead.
@@ -17,8 +18,10 @@ Here’s an overview of loot distribution by activity.
         - The only exception is party members that have no contribution and are out of range will be excluded from the drop pool.
 - All items are evenly distributed when possible. This means if there are 10 items dropped for a party of 5, each player should receive 2 items. If even distribution is not possible, it will randomly select a player(s) to receive an extra drop(s).
 - Sollant and experience are distributed evenly.
+
 ## Peace Mode Bosses and Guild Raids
 - Applicable enemies: Field Bosses and Arch Bosses
+
 ### Distribution Rules:
 - When a Peace Mode Field Boss dies, all players are sorted by individual player contribution.
     - A guild’s overall contribution does not play a role for peace mode bosses and guild raids.
@@ -39,6 +42,7 @@ Assuming you’ve met the minimum contribution requirement described above, if y
 
 ## Conflict Mode Bosses
 - Applicable enemies: Field Bosses and Arch Bosses
+
 ### Distribution Rules:
 - Loot is assigned in a two stage process. First, loot is assigned to a guild. Then, the loot is assigned to players within the guild.
 - When a Field Boss dies during conflict mode, a Guild’s contribution is calculated as the sum of the individual contribution for each player in the guild who participated in the fight.
