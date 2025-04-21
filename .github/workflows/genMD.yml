@@ -5,7 +5,7 @@ on:
     paths:
       - sources/**
   workflow_dispatch:
-    "UIName_0R91W": "Haize",
+  
 jobs:
   build:
     runs-on: ubuntu-latest
