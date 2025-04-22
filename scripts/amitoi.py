@@ -21,8 +21,8 @@ def avgQuantity(entries):
     return sum(entry['quantity'] * (entry['prob'] / 10000) for entry in entries) / sum(entry['prob'] / 10000 for entry in entries)
 
 def getImg(item):
-    rPath = imgData[item]["IconPath"]["AssetPathName"].replace("/Game", "").replace(".I_", "/") + ".png"
-    return f"<img='.{rPath}'>"
+    rPath = imgData[item]["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
+    return f"<img='{rPath}'>"
 
 def writeMarkdown(output):
     with open(output, "w", encoding="utf-8") as md:
