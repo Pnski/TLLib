@@ -9,7 +9,7 @@ def loadFile(filepath):
 
 def getImg(item):
     rPath = item["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
-    return f"<img src='{rPath} style='height:75px; width:auto;'>"
+    return f"<img src='{rPath}' style='height:75px; width:auto;'>"
 
 skillsFolder = 'sources/Skills'
 oFolder = 'docs/weapon/skills'
