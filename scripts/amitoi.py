@@ -22,7 +22,7 @@ def avgQuantity(entries):
 
 def getImg(item):
     rPath = imgData[item]["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
-    return f"<img src='{rPath}'>"
+    return f"<img src='{rPath} style='height:75px; width:auto;'>"
 
 def writeMarkdown(output):
     with open(output, "w", encoding="utf-8") as md:

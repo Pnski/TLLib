@@ -9,7 +9,7 @@ def loadFile(filepath):
 
 def getImg(item):
     rPath = item["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
-    return f"<img src='{rPath}'>"
+    return f"<img src='{rPath} style='height:75px; width:auto;'>"
 
 skillsFolder = 'sources/Skills'
 oFolder = 'docs/weapon/skills'
@@ -24,7 +24,7 @@ for fName in os.listdir(skillsFolder):
     os.makedirs(os.path.dirname(oName), exist_ok=True)
     with open(oName, "w", encoding="utf-8") as md:
         md.write(f"# {ffName.split('_')[-1].split('.')[0]} Skill Types\n\n")
-        head = ['SkillName','SkillPicture','SkillType']
+        head = ['SkillName','SkillInternal','SkillPicture','SkillType']
         md.write("| " + " | ".join(head) + " |\n")
         md.write("| " + " | ".join(['-' * 3 for h in head]) + " |\n")
 
@@ -33,8 +33,7 @@ for fName in os.listdir(skillsFolder):
             if path.startswith("/Game/Image/Skill/Active/") and "WeaponSpec" not in path:
                 if row_name in sType:
                     if row.get('UIName').get('LocalizedString'):
-                    #print("Success", sType[row_name]["damage_type"].split("::k")[-1])
-                        md.write(f"| {row['UIName']['LocalizedString']} | {getImg(row)} | {sType[row_name]['damage_type'].split('::k')[-1]} |\n")
+                        md.write(f"| {row['UIName']['LocalizedString']} | {row_name} | {getImg(row)} | {sType[row_name]['damage_type'].split('::k')[-1]} |\n")
         md.write("\n\n")
         md.write("sources = "+fName)
         
