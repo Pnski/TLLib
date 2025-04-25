@@ -6,16 +6,15 @@
     - Fishing
         - [Level](fish/Level)
         - [Habitat](fish/Info)
-    - Skills
-        - Skill Damage Type
-            - [Bow](weapon/skills/Bow)
-            - [Crossbow](weapon/skills/Crossbow)
-            - [Dagger](weapon/skills/Dagger)
-            - [Spear](weapon/skills/Spear)
-            - [Staff](weapon/skills/Staff)
-            - [Sword](weapon/skills/Sword)
-            - [Sword2h](weapon/skills/Sword2h)
-            - [Wand](weapon/skills/Wand)
+    - Skill Damage Type
+        - [Bow](weapon/skills/Bow)
+        - [Crossbow](weapon/skills/Crossbow)
+        - [Dagger](weapon/skills/Dagger)
+        - [Spear](weapon/skills/Spear)
+        - [Staff](weapon/skills/Staff)
+        - [Sword](weapon/skills/Sword)
+        - [Sword2h](weapon/skills/Sword2h)
+        - [Wand](weapon/skills/Wand)
     - Weapon
         - [Weapon Mastery](weapon/mLevel)
 - Articles
