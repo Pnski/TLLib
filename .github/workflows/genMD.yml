@@ -28,6 +28,7 @@ jobs:
         run: |
           python scripts/amitoi.py
           python scripts/fish.py
+          python scripts/skills.py
           python scripts/wMastery.py
           
       - name: Commit generated Markdowns
