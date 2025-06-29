@@ -18,6 +18,16 @@ sType = loadFile('sources/TLSkill.json')
 
 for fName in os.listdir(skillsFolder):
     ffName = os.path.join(skillsFolder, fName)
+    _json = loadFile(ffName)
+    for row_name, name in _json.items():
+        if row_name in sType:
+            print("rowname FOUND",row_name)
+        else:
+            print("NOTFOUND",row_name)
+
+
+""" for fName in os.listdir(skillsFolder):
+    ffName = os.path.join(skillsFolder, fName)
     oName = os.path.join(oFolder, ffName.split("_")[-1].split(".")[0]) + ".md"
     _json = loadFile(ffName)
     
@@ -36,4 +46,4 @@ for fName in os.listdir(skillsFolder):
                         md.write(f"| {row['UIName']['LocalizedString']} | {row_name} | {getImg(row)} | {sType[row_name]['damage_type'].split('::k')[-1]} |\n")
         md.write("\n\n")
         md.write("sources = "+fName)
-        
+         """

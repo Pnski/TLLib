@@ -16,6 +16,7 @@
         - [Sword2h](weapon/skills/Sword2h)
         - [Wand](weapon/skills/Wand)
     - Weapon
+        - [Items](weapon/items)
         - [Weapon Mastery](weapon/mLevel)
 - Articles
     - [Loot Distribution](Articles/lootdist)
