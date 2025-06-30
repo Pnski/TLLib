@@ -11,6 +11,66 @@
       }
     },
     "Rows": {
+      "equip_kA_1percent": {
+        "Name": "equip_kA_1percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t1_construct_001",
+            "Count": 1,
+            "prob": 100000
+          }
+        ]
+      },
+      "equip_kA_5percent": {
+        "Name": "equip_kA_5percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t1_undead_002",
+            "Count": 1,
+            "prob": 500000
+          }
+        ]
+      },
+      "equip_kA_10percent": {
+        "Name": "equip_kA_10percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t2_nomal_001",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "equip_kAA_1percent": {
+        "Name": "equip_kAA_1percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t2_nomal_003",
+            "Count": 1,
+            "prob": 100000
+          }
+        ]
+      },
+      "equip_kAA_5percent": {
+        "Name": "equip_kAA_5percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t2_nomal_004",
+            "Count": 1,
+            "prob": 500000
+          }
+        ]
+      },
+      "equip_kAA_10percent": {
+        "Name": "equip_kAA_10percent",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_a_t3_Arthropod_001",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
       "DETest01": {
         "Name": "DETest01",
         "ItemLotteryPublicGroupEntry": [
@@ -1571,7 +1631,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "Fishman_Dagon_kAA2_peace",
-            "Count": 1,
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -1586,7 +1646,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "MudShark_Leviathan_kAA2_peace",
-            "Count": 1,
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -1601,7 +1661,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "BlackDwarf_PakiloNaru_kAA2_peace",
-            "Count": 1,
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -1616,7 +1676,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "Manticus_Arcman_kAA2_peace",
-            "Count": 1,
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -1856,7 +1916,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "Fishman_Dagon_kAA2_battle",
-            "Count": 2,
+            "Count": 1,
             "prob": 10000000
           },
           {
@@ -1871,7 +1931,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "MudShark_Leviathan_kAA2_battle",
-            "Count": 2,
+            "Count": 1,
             "prob": 10000000
           },
           {
@@ -1886,7 +1946,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "BlackDwarf_PakiloNaru_kAA2_battle",
-            "Count": 2,
+            "Count": 1,
             "prob": 10000000
           },
           {
@@ -1901,7 +1961,7 @@
         "ItemLotteryPublicGroupEntry": [
           {
             "id": "Manticus_Arcman_kAA2_battle",
-            "Count": 2,
+            "Count": 1,
             "prob": 10000000
           },
           {
@@ -3596,6 +3656,46 @@
           }
         ]
       },
+      "L07_M_AntiKingArmy_ChaosVelentra_001": {
+        "Name": "L07_M_AntiKingArmy_ChaosVelentra_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 500000
+          }
+        ]
+      },
       "Boss_Sp_Material_Normal_kA_PD": {
         "Name": "Boss_Sp_Material_Normal_kA_PD",
         "ItemLotteryPublicGroupEntry": [
@@ -3992,6 +4092,41 @@
           {
             "id": "MainMaterial_ALL_kAA_001",
             "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "RaidDungeon_Elite_Common_01": {
+        "Name": "RaidDungeon_Elite_Common_01",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 12,
+            "prob": 2000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 12,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 12,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 12,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 6,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 6,
             "prob": 3000000
           }
         ]
@@ -31308,6 +31443,396 @@
             "id": "FD_L04_M_Wraith_Demon_S100B_Artifact_kA",
             "Count": 1,
             "prob": 563775
+          }
+        ]
+      },
+      "material_arcboss_piece_001_1_25": {
+        "Name": "material_arcboss_piece_001_1_25",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_001",
+            "Count": 25,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_002_1_25": {
+        "Name": "material_arcboss_piece_002_1_25",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_002",
+            "Count": 25,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_001_2_20": {
+        "Name": "material_arcboss_piece_001_2_20",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_001_2",
+            "Count": 20,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_002_2_20": {
+        "Name": "material_arcboss_piece_002_2_20",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_002_2",
+            "Count": 20,
+            "prob": 10000000
+          }
+        ]
+      },
+      "L11_M_Golem_Dragaile_001_Easy": {
+        "Name": "L11_M_Golem_Dragaile_001_Easy",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Golem_Dragaile_001": {
+        "Name": "L11_M_Golem_Dragaile_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Dragon_Vulcan_001_Easy": {
+        "Name": "L11_M_Dragon_Vulcan_001_Easy",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Dragon_Xiros_001_Easy": {
+        "Name": "L11_M_Dragon_Xiros_001_Easy",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Dragon_Radeath_001": {
+        "Name": "L11_M_Dragon_Radeath_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_AntiKingArmy_SlaughtererCalanthia_Easy": {
+        "Name": "L11_M_AntiKingArmy_SlaughtererCalanthia_Easy",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_AntiKingArmy_ChaosCalanthia": {
+        "Name": "L11_M_AntiKingArmy_ChaosCalanthia",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Golem_Dragaile_001_Extreme": {
+        "Name": "L11_M_Golem_Dragaile_001_Extreme",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_Dragon_Radeath_001_Extreme": {
+        "Name": "L11_M_Dragon_Radeath_001_Extreme",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          }
+        ]
+      },
+      "L11_M_AntiKingArmy_ChaosCalanthia_Extreme": {
+        "Name": "L11_M_AntiKingArmy_ChaosCalanthia_Extreme",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kA_001",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 1,
+            "prob": 3000000
           }
         ]
       },

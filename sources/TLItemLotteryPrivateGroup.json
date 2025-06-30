@@ -1,9 +1,9 @@
 [
   {
-    "Type": "DataTable",
+    "Type": "TLJsonDataTable",
     "Name": "TLItemLotteryPrivateGroup",
-    "Class": "UScriptClass'DataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLJsonItemLotteryPrivateGroupEntry'",
@@ -2439,7 +2439,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_01",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2514,7 +2514,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_03",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2589,7 +2589,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_05",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2664,7 +2664,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_02",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2739,7 +2739,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_04",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2814,7 +2814,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_06",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -2884,7 +2884,7 @@
         "Name": "EA_L07_PD_010_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Abyss_coin_11",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -2904,13 +2904,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -2959,7 +2954,7 @@
         "Name": "EA_L07_PD_011_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Abyss_coin_10",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -2979,13 +2974,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3034,7 +3024,7 @@
         "Name": "EA_L07_PD_012_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Abyss_coin_07",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3054,13 +3044,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3109,7 +3094,7 @@
         "Name": "EA_L07_PD_013_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Abyss_coin_08",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3129,13 +3114,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3184,7 +3164,7 @@
         "Name": "EA_L07_PD_014_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Abyss_coin_09",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3204,13 +3184,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3264,7 +3239,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_14",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3274,13 +3249,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3309,7 +3279,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_15",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3319,13 +3289,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3354,7 +3319,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_16",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3364,13 +3329,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3399,7 +3359,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_17",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3409,13 +3369,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3444,7 +3399,7 @@
             "prob": 330000
           },
           {
-            "id": "Abyss_coin_18",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3454,13 +3409,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -3475,6 +3425,46 @@
           },
           {
             "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_021_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_021_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_021_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
             "Count": 1,
             "prob": 10000000
           }
@@ -3514,7 +3504,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3589,7 +3579,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3664,7 +3654,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3739,7 +3729,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3814,7 +3804,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3889,7 +3879,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_1Star",
+            "id": "Adventure_Token_T1",
             "Count": 4,
             "prob": 10000000
           },
@@ -3959,7 +3949,7 @@
         "Name": "EA_L07_PD_010_kNormal_01_Random_Match_Box_01",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Package_Select_Dimension_Soul_Shard_2Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -3979,13 +3969,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4034,7 +4019,7 @@
         "Name": "EA_L07_PD_011_kNormal_01_Random_Match_Box_01",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Package_Select_Dimension_Soul_Shard_2Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4054,13 +4039,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4109,7 +4089,7 @@
         "Name": "EA_L07_PD_012_kNormal_01_Random_Match_Box_01",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Package_Select_Dimension_Soul_Shard_2Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4129,13 +4109,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4184,7 +4159,7 @@
         "Name": "EA_L07_PD_013_kNormal_01_Random_Match_Box_01",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Package_Select_Dimension_Soul_Shard_2Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4204,13 +4179,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4259,7 +4229,7 @@
         "Name": "EA_L07_PD_014_kNormal_01_Random_Match_Box_01",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Package_Select_Dimension_Soul_Shard_2Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4279,13 +4249,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4339,7 +4304,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_3Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4349,13 +4314,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4384,7 +4344,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_3Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4394,13 +4354,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4429,7 +4384,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_3Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4439,13 +4394,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4474,7 +4424,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_3Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4484,13 +4434,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4519,7 +4464,7 @@
             "prob": 330000
           },
           {
-            "id": "Package_Select_Dimension_Soul_Shard_3Star",
+            "id": "Adventure_Token_T2",
             "Count": 4,
             "prob": 10000000
           },
@@ -4529,13 +4474,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -4550,6 +4490,46 @@
           },
           {
             "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_021_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_021_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_021_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
             "Count": 1,
             "prob": 10000000
           }
@@ -4999,13 +4979,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5069,13 +5044,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5139,13 +5109,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5209,13 +5174,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5279,13 +5239,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5344,13 +5299,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5384,13 +5334,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5424,13 +5369,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5464,13 +5404,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5504,13 +5439,8 @@
             "prob": 10000000
           },
           {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "weapon_specialization_charger_10000",
-            "Count": 10,
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
             "prob": 10000000
           },
           {
@@ -5682,6 +5612,456 @@
             "id": "EA_L07_PD_019_kNormal_01_Normal_Equip",
             "Count": 1,
             "prob": 10000000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_01_01_Easy_Box": {
+        "Name": "Raid_Dungeon_Reward_01_01_Easy_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Dark_6241",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Armor",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_01_02_Easy_Box": {
+        "Name": "Raid_Dungeon_Reward_01_02_Easy_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_LavaGolem_6242",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Acc",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_01_03_Easy_Box": {
+        "Name": "Raid_Dungeon_Reward_01_03_Easy_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6240",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_Unic_1_3",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_02_01_Normal_Box": {
+        "Name": "Raid_Dungeon_Reward_02_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Dark_6241",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Armor",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_02_02_Normal_Box": {
+        "Name": "Raid_Dungeon_Reward_02_02_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_LavaGolem_6242",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Acc",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_02_03_Normal_Box": {
+        "Name": "Raid_Dungeon_Reward_02_03_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6240",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_Unic_2_3",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_03_01_Hard_Box": {
+        "Name": "Raid_Dungeon_Reward_03_01_Hard_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Dark_6241",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_03_02_Hard_Box": {
+        "Name": "Raid_Dungeon_Reward_03_02_Hard_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_LavaGolem_6242",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Raid_Dungeon_Reward_03_03_Hard_Box": {
+        "Name": "Raid_Dungeon_Reward_03_03_Hard_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6240",
+            "Count": 1,
+            "prob": 1000000
           }
         ]
       },
@@ -6135,6 +6515,16 @@
           }
         ]
       },
+      "Alchemy_Equip_kAll_kA2": {
+        "Name": "Alchemy_Equip_kAll_kA2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kAll_kA2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Alchemy_Equip_kAll_kAA_ArmorAcc": {
         "Name": "Alchemy_Equip_kAll_kAA_ArmorAcc",
         "ItemLotteryPrivateGroupEntry": [
@@ -6169,7 +6559,7 @@
         "Name": "Alchemy_Equip_kAll_kAA2_Weapon",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "Alchemy_Equip_kAll_kAA2_Weapon",
+            "id": "Alchemy_Equip_kWeapon_kAA2",
             "Count": 1,
             "prob": 10000000
           }
@@ -6190,6 +6580,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Alchemy_Equip_kWeapon_kA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kWeapon_kA2": {
+        "Name": "Alchemy_Equip_kWeapon_kA2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kWeapon_kA2",
             "Count": 1,
             "prob": 10000000
           }
@@ -6235,6 +6635,16 @@
           }
         ]
       },
+      "Alchemy_Equip_kArmor_kA2": {
+        "Name": "Alchemy_Equip_kArmor_kA2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kArmor_kA2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Alchemy_Equip_kArmor_kAA": {
         "Name": "Alchemy_Equip_kArmor_kAA",
         "ItemLotteryPrivateGroupEntry": [
@@ -6270,6 +6680,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Alchemy_Equip_kAccessory_kA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kAccessory_kA2": {
+        "Name": "Alchemy_Equip_kAccessory_kA2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kAccessory_kA2",
             "Count": 1,
             "prob": 10000000
           }
@@ -22310,6 +22730,31 @@
           }
         ]
       },
+      "contract_random_package_04_312": {
+        "Name": "contract_random_package_04_312",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "contract_random_package_04_312",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "scroll_contract_Abyss_Group_02",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "contract_random_package_05_312": {
+        "Name": "contract_random_package_05_312",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "contract_random_package_05_312",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "contract_random_package_abyss_005_281": {
         "Name": "contract_random_package_abyss_005_281",
         "ItemLotteryPrivateGroupEntry": [
@@ -22414,7 +22859,7 @@
             "prob": 10000000
           },
           {
-            "id": "Abyss_coin_United_01",
+            "id": "Package_UnselectableFixed_Token_T1_60",
             "Count": 1,
             "prob": 700000
           }
@@ -22429,7 +22874,7 @@
             "prob": 10000000
           },
           {
-            "id": "Abyss_coin_United_02",
+            "id": "Package_UnselectableFixed_Token_T2_200",
             "Count": 1,
             "prob": 400000
           }
@@ -22459,8 +22904,8 @@
             "prob": 10000000
           },
           {
-            "id": "Abyss_coin_United_03",
-            "Count": 1,
+            "id": "Package_UnselectableFixed_Token_T2_200",
+            "Count": 2,
             "prob": 400000
           }
         ]
@@ -22635,6 +23080,16 @@
           }
         ]
       },
+      "Package_Unselectable_Nebula_ACC_341_1": {
+        "Name": "Package_Unselectable_Nebula_ACC_341_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Unselectable_Nebula_ACC_341_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Package_Unselectable_Nebula_AllEquip_001_1": {
         "Name": "Package_Unselectable_Nebula_AllEquip_001_1",
         "ItemLotteryPrivateGroupEntry": [
@@ -22730,6 +23185,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Package_Unselectable_Nebula_ACC_002_03_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Unselectable_Nebula_ACC_341_03_1": {
+        "Name": "Package_Unselectable_Nebula_ACC_341_03_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Unselectable_Nebula_ACC_341_03_1",
             "Count": 1,
             "prob": 10000000
           }
@@ -25094,7 +25559,7 @@
         "Name": "package_fixed_fieldboss_box_018_281",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "material_blueprint_piece_01",
+            "id": "material_blueprint_piece",
             "Count": 1,
             "prob": 10000000
           },
@@ -25654,7 +26119,7 @@
         "Name": "package_fixed_fieldboss_box_016_281",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "material_blueprint_piece_01",
+            "id": "material_blueprint_piece",
             "Count": 1,
             "prob": 10000000
           },
@@ -25689,7 +26154,7 @@
         "Name": "package_fixed_fieldboss_box_017_281",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "material_blueprint_piece_01",
+            "id": "material_blueprint_piece",
             "Count": 1,
             "prob": 10000000
           },
@@ -25724,7 +26189,7 @@
         "Name": "package_fixed_fieldboss_box_019_281",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "material_blueprint_piece_01",
+            "id": "material_blueprint_piece",
             "Count": 1,
             "prob": 10000000
           },
@@ -25752,6 +26217,176 @@
             "id": "Package_Selectable_FieldBoss_Equipbox_19",
             "Count": 1,
             "prob": 30000
+          }
+        ]
+      },
+      "package_wb_sandworm_01": {
+        "Name": "package_wb_sandworm_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_sandworm_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_sandworm_05_1",
+            "Count": 1,
+            "prob": 50000
+          }
+        ]
+      },
+      "package_wb_giantwarrior_01": {
+        "Name": "package_wb_giantwarrior_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_giantwarrior_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_giantwarrior_04",
+            "Count": 1,
+            "prob": 50000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_07",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "package_wb_DelugeNoah_01": {
+        "Name": "package_wb_DelugeNoah_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_DelugeNoah_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_DelugeNoah_05",
+            "Count": 1,
+            "prob": 10000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_07",
+            "Count": 1,
+            "prob": 833333
+          }
+        ]
+      },
+      "package_wb_GiantBroork_01": {
+        "Name": "package_wb_GiantBroork_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_GiantBrook_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_Broork_05",
+            "Count": 1,
+            "prob": 10000
           }
         ]
       },
@@ -25857,6 +26492,2241 @@
             "id": "I_Usable_Sollant_Box_kA_01",
             "Count": 1,
             "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kA_002": {
+        "Name": "Package_Random_Total_Rune_kA_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kA_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kAA_002": {
+        "Name": "Package_Random_Total_Rune_kAA_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kAA_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Weekly_kAA_001": {
+        "Name": "Package_Random_Weekly_kAA_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Weekly_kAA_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Weekly_kAA2_001": {
+        "Name": "Package_Random_Weekly_kAA2_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Weekly_kAA2_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_01": {
+        "Name": "Solo_Dungeon_Reward_01_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 8,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 12,
+            "prob": 3750000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 3,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_02": {
+        "Name": "Solo_Dungeon_Reward_01_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 10,
+            "prob": 4375000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1322500
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 4,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_03": {
+        "Name": "Solo_Dungeon_Reward_01_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 12,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 8,
+            "prob": 5312500
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1495000
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 4,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_04": {
+        "Name": "Solo_Dungeon_Reward_01_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 14,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 6,
+            "prob": 6875000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1667500
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 4,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_05": {
+        "Name": "Solo_Dungeon_Reward_01_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_03_Acc",
+            "Count": 1,
+            "prob": 250000
+          },
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 383000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1840000
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 467000
+          }
+        ]
+      },
+      "Package_Unselectable_Party_Match_Reward_1star_311": {
+        "Name": "Package_Unselectable_Party_Match_Reward_1star_311",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectableFixed_Token_T1_5",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Package_Unselectable_Party_Match_Reward_2star_311": {
+        "Name": "Package_Unselectable_Party_Match_Reward_2star_311",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectableFixed_Token_T2_5",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Package_Unselectable_Party_Match_Reward_3star_311": {
+        "Name": "Package_Unselectable_Party_Match_Reward_3star_311",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectableFixed_Token_T2_5",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T1": {
+        "Name": "Package_Random_Arena_01_T1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T1_001",
+            "Count": 15,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T1_002",
+            "Count": 1,
+            "prob": 850000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T2": {
+        "Name": "Package_Random_Arena_01_T2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T2_001",
+            "Count": 13,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T2_002",
+            "Count": 1,
+            "prob": 425000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T3": {
+        "Name": "Package_Random_Arena_01_T3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T3_001",
+            "Count": 12,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T3_002",
+            "Count": 1,
+            "prob": 348500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T4": {
+        "Name": "Package_Random_Arena_01_T4",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T4_001",
+            "Count": 11,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T4_002",
+            "Count": 1,
+            "prob": 272000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T5": {
+        "Name": "Package_Random_Arena_01_T5",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T5_001",
+            "Count": 11,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T5_002",
+            "Count": 1,
+            "prob": 195500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T6": {
+        "Name": "Package_Random_Arena_01_T6",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T6_001",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T6_002",
+            "Count": 1,
+            "prob": 119000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T7": {
+        "Name": "Package_Random_Arena_01_T7",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T7_001",
+            "Count": 9,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Arena_01_T7_002",
+            "Count": 1,
+            "prob": 42500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T9": {
+        "Name": "Package_Random_Arena_01_T9",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T9_001",
+            "Count": 8,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_Nebula_001": {
+        "Name": "Package_Random_Arena_Nebula_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_Nebula_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_Nebula_341": {
+        "Name": "Package_Random_Arena_Nebula_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_Nebula_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_001": {
+        "Name": "Package_Random_Chaos_Rune_kAA_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_002": {
+        "Name": "Package_Random_Chaos_Rune_kAA_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_003": {
+        "Name": "Package_Random_Chaos_Rune_kAA_003",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_004": {
+        "Name": "Package_Random_Chaos_Rune_kAA_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_CPD_Matching_001": {
+        "Name": "Package_Random_CPD_Matching_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_CPD_Matching_001_1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_CPD_Matching_001_2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_CPD_Matching_001_3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_goldgoblin_event_001": {
+        "Name": "Package_goldgoblin_event_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "goldgoblin_event_large_gold",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "goldgoblin_event_large_token",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "goldgoblin_event_subtitle",
+            "Count": 1,
+            "prob": 2500000
+          },
+          {
+            "id": "goldgoblin_event_equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_goldgoblin_event_002": {
+        "Name": "Package_goldgoblin_event_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "goldgoblin_event_small_gold",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "goldgoblin_event_small_material",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "goldgoblin_event_small_material_enchant",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "goldgoblin_event_small_etc",
+            "Count": 1,
+            "prob": 2500000
+          },
+          {
+            "id": "goldgoblin_event_subtitle",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "goldgoblin_event_equip",
+            "Count": 1,
+            "prob": 500000
+          }
+        ]
+      },
+      "Package_Food_2025_05_FishJelly": {
+        "Name": "Package_Food_2025_05_FishJelly",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Food_2025_05_FishJelly",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Food_2025_05_FishJelly_out": {
+        "Name": "Package_Food_2025_05_FishJelly_out",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Food_2025_05_FishJelly_out",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Atk_Rune_001_341": {
+        "Name": "Package_Random_Atk_Rune_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Atk_Rune_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Def_Rune_001_341": {
+        "Name": "Package_Random_Def_Rune_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Def_Rune_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Sup_Rune_001_341": {
+        "Name": "Package_Random_Sup_Rune_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Sup_Rune_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kC_001_341": {
+        "Name": "Package_Random_Total_Rune_kC_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kC_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kB_001_341": {
+        "Name": "Package_Random_Total_Rune_kB_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kB_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kA_001_341": {
+        "Name": "Package_Random_Total_Rune_kA_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kA_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_001_341": {
+        "Name": "Package_Random_Total_Rune_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_002_341": {
+        "Name": "Package_Random_Total_Rune_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_kC_006_341": {
+        "Name": "Package_Random_Rune_kC_006_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_kC_006_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_kB_006_341": {
+        "Name": "Package_Random_Rune_kB_006_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_kB_006_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_kA_006_341": {
+        "Name": "Package_Random_Rune_kA_006_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_kA_006_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_kAA_006_341": {
+        "Name": "Package_Random_Rune_kAA_006_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_kAA_006_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Atk_Rune_002_341": {
+        "Name": "Package_Random_Atk_Rune_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Atk_Rune_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Def_Rune_002_341": {
+        "Name": "Package_Random_Def_Rune_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Def_Rune_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Sup_Rune_002_341": {
+        "Name": "Package_Random_Sup_Rune_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Sup_Rune_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kAA_001_341": {
+        "Name": "Package_Random_Total_Rune_kAA_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Total_Rune_kAA_002_341": {
+        "Name": "Package_Random_Total_Rune_kAA_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Total_Rune_kAA_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_001_341": {
+        "Name": "Package_Random_Chaos_Rune_kAA_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_002_341": {
+        "Name": "Package_Random_Chaos_Rune_kAA_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_003_341": {
+        "Name": "Package_Random_Chaos_Rune_kAA_003_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_003_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_kAA_004_341": {
+        "Name": "Package_Random_Chaos_Rune_kAA_004_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_kAA_004_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_floor_001_341": {
+        "Name": "Package_Random_Rune_floor_001_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_floor_001_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_floor_002_341": {
+        "Name": "Package_Random_Rune_floor_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_floor_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_guildraid_box_queenblendir": {
+        "Name": "package_fixed_guildraid_box_queenblendir",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_guildraid_queenblendir_weapon_material",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_sandworm_05_1",
+            "Count": 1,
+            "prob": 50000
+          }
+        ]
+      },
+      "package_fixed_guildraid_box_tevent": {
+        "Name": "package_fixed_guildraid_box_tevent",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_guildraid_tevent_weapon_material",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_giantwarrior_04",
+            "Count": 1,
+            "prob": 50000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_07",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "Package_Random_Velentra_Arm_kAA2": {
+        "Name": "Package_Random_Velentra_Arm_kAA2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Velentra_Arm_kAA2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T1_341": {
+        "Name": "Package_Random_Arena_01_T1_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T1_001_341",
+            "Count": 15,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 850000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T2_341": {
+        "Name": "Package_Random_Arena_01_T2_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T2_001_341",
+            "Count": 13,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 425000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T3_341": {
+        "Name": "Package_Random_Arena_01_T3_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T3_001_341",
+            "Count": 12,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 348500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T4_341": {
+        "Name": "Package_Random_Arena_01_T4_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T4_001_341",
+            "Count": 11,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 272000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 2,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T5_341": {
+        "Name": "Package_Random_Arena_01_T5_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T5_001_341",
+            "Count": 11,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 195500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T6_341": {
+        "Name": "Package_Random_Arena_01_T6_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T6_001_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 119000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T7_341": {
+        "Name": "Package_Random_Arena_01_T7_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T7_001_341",
+            "Count": 9,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 42500
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Arena_01_T9_341": {
+        "Name": "Package_Random_Arena_01_T9_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Arena_01_T9_001_341",
+            "Count": 8,
+            "prob": 10000000
+          }
+        ]
+      },
+      "2025_LuckyBag_001": {
+        "Name": "2025_LuckyBag_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "2025_LuckyBag_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Chaos_Rune_002_341": {
+        "Name": "Package_Random_Chaos_Rune_002_341",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Raid_001_351": {
+        "Name": "Package_Random_Raid_001_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Raid_001_351",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Raid_kAA2_351": {
+        "Name": "Package_Random_Raid_kAA2_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "RaidBox_Equip_T2_Armor",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_floor_001_351": {
+        "Name": "Package_Random_Rune_floor_001_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_floor_001_351",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Rune_floor_002_351": {
+        "Name": "Package_Random_Rune_floor_002_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Rune_floor_002_351",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_001_351": {
+        "Name": "package_fixed_fieldboss_box_001_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_01",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_002_351": {
+        "Name": "package_fixed_fieldboss_box_002_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_02",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_003_351": {
+        "Name": "package_fixed_fieldboss_box_003_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_03",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_004_351": {
+        "Name": "package_fixed_fieldboss_box_004_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_04",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_005_351": {
+        "Name": "package_fixed_fieldboss_box_005_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_05",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_006_351": {
+        "Name": "package_fixed_fieldboss_box_006_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_06",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_007_351": {
+        "Name": "package_fixed_fieldboss_box_007_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_07",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_008_351": {
+        "Name": "package_fixed_fieldboss_box_008_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_08",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_009_351": {
+        "Name": "package_fixed_fieldboss_box_009_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_09",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_010_351": {
+        "Name": "package_fixed_fieldboss_box_010_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_10_281",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_011_351": {
+        "Name": "package_fixed_fieldboss_box_011_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_11_281",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_012_351": {
+        "Name": "package_fixed_fieldboss_box_012_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_12",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_013_351": {
+        "Name": "package_fixed_fieldboss_box_013_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_13",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_014_351": {
+        "Name": "package_fixed_fieldboss_box_014_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_14",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_015_351": {
+        "Name": "package_fixed_fieldboss_box_015_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_15_281",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_016_351": {
+        "Name": "package_fixed_fieldboss_box_016_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_16",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_017_351": {
+        "Name": "package_fixed_fieldboss_box_017_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_17",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_018_351": {
+        "Name": "package_fixed_fieldboss_box_018_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_18_281",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_019_351": {
+        "Name": "package_fixed_fieldboss_box_019_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_19",
+            "Count": 1,
+            "prob": 30000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_020_351": {
+        "Name": "package_fixed_fieldboss_box_020_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_01",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Timelimit_Dungeon_Charge_Stone_Nebula_30min",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_021_351": {
+        "Name": "package_fixed_fieldboss_box_021_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 7,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Trait_Change_Material_02_kAA",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Timelimit_Dungeon_Charge_Stone_Nebula_30min",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 46666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 23333
+          }
+        ]
+      },
+      "package_wb_sandworm_01_351": {
+        "Name": "package_wb_sandworm_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_sandworm_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_sandworm_05_1",
+            "Count": 1,
+            "prob": 50000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 116666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 58333
+          }
+        ]
+      },
+      "package_wb_giantwarrior_01_351": {
+        "Name": "package_wb_giantwarrior_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_giantwarrior_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_giantwarrior_04",
+            "Count": 1,
+            "prob": 50000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_07",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 116666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 58333
+          }
+        ]
+      },
+      "package_wb_DelugeNoah_01_351": {
+        "Name": "package_wb_DelugeNoah_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_DelugeNoah_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_DelugeNoah_05",
+            "Count": 1,
+            "prob": 10000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_07",
+            "Count": 1,
+            "prob": 833333
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 116666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 58333
+          }
+        ]
+      },
+      "package_wb_GiantBroork_01_351": {
+        "Name": "package_wb_GiantBroork_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_GiantBrook_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_Broork_05",
+            "Count": 1,
+            "prob": 10000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_003_341T",
+            "Count": 1,
+            "prob": 116666
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_004_341T",
+            "Count": 1,
+            "prob": 58333
           }
         ]
       },
@@ -26670,6 +29540,106 @@
           }
         ]
       },
+      "kA2_Weapon_Trait_Payback_1": {
+        "Name": "kA2_Weapon_Trait_Payback_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_2": {
+        "Name": "kA2_Weapon_Trait_Payback_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_3": {
+        "Name": "kA2_Weapon_Trait_Payback_3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_4": {
+        "Name": "kA2_Weapon_Trait_Payback_4",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_4",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_5": {
+        "Name": "kA2_Weapon_Trait_Payback_5",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_5",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_6": {
+        "Name": "kA2_Weapon_Trait_Payback_6",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_6",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_7": {
+        "Name": "kA2_Weapon_Trait_Payback_7",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_7",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_8": {
+        "Name": "kA2_Weapon_Trait_Payback_8",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_8",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_9": {
+        "Name": "kA2_Weapon_Trait_Payback_9",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_9",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Weapon_Trait_Payback_10": {
+        "Name": "kA2_Weapon_Trait_Payback_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Weapon_Trait_Payback_10",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "kAA_Weapon_Trait_Payback_1": {
         "Name": "kAA_Weapon_Trait_Payback_1",
         "ItemLotteryPrivateGroupEntry": [
@@ -26865,6 +29835,106 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "kAA2_Weapon_Trait_Payback_10",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_1": {
+        "Name": "kAAA_Weapon_Trait_Payback_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_2": {
+        "Name": "kAAA_Weapon_Trait_Payback_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_3": {
+        "Name": "kAAA_Weapon_Trait_Payback_3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_4": {
+        "Name": "kAAA_Weapon_Trait_Payback_4",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_4",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_5": {
+        "Name": "kAAA_Weapon_Trait_Payback_5",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_5",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_6": {
+        "Name": "kAAA_Weapon_Trait_Payback_6",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_6",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_7": {
+        "Name": "kAAA_Weapon_Trait_Payback_7",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_7",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_8": {
+        "Name": "kAAA_Weapon_Trait_Payback_8",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_8",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_9": {
+        "Name": "kAAA_Weapon_Trait_Payback_9",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_9",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Weapon_Trait_Payback_10": {
+        "Name": "kAAA_Weapon_Trait_Payback_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Weapon_Trait_Payback_10",
             "Count": 1,
             "prob": 10000000
           }
@@ -27070,6 +30140,106 @@
           }
         ]
       },
+      "kA2_Equip_Trait_Payback_1": {
+        "Name": "kA2_Equip_Trait_Payback_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_2": {
+        "Name": "kA2_Equip_Trait_Payback_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_3": {
+        "Name": "kA2_Equip_Trait_Payback_3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_4": {
+        "Name": "kA2_Equip_Trait_Payback_4",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_4",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_5": {
+        "Name": "kA2_Equip_Trait_Payback_5",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_5",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_6": {
+        "Name": "kA2_Equip_Trait_Payback_6",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_6",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_7": {
+        "Name": "kA2_Equip_Trait_Payback_7",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_7",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_8": {
+        "Name": "kA2_Equip_Trait_Payback_8",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_8",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_9": {
+        "Name": "kA2_Equip_Trait_Payback_9",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_9",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kA2_Equip_Trait_Payback_10": {
+        "Name": "kA2_Equip_Trait_Payback_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kA2_Equip_Trait_Payback_10",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "kAA_Equip_Trait_Payback_1": {
         "Name": "kAA_Equip_Trait_Payback_1",
         "ItemLotteryPrivateGroupEntry": [
@@ -27265,6 +30435,106 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "kAA2_Equip_Trait_Payback_10",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_1": {
+        "Name": "kAAA_Equip_Trait_Payback_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_2": {
+        "Name": "kAAA_Equip_Trait_Payback_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_3": {
+        "Name": "kAAA_Equip_Trait_Payback_3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_4": {
+        "Name": "kAAA_Equip_Trait_Payback_4",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_4",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_5": {
+        "Name": "kAAA_Equip_Trait_Payback_5",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_5",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_6": {
+        "Name": "kAAA_Equip_Trait_Payback_6",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_6",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_7": {
+        "Name": "kAAA_Equip_Trait_Payback_7",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_7",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_8": {
+        "Name": "kAAA_Equip_Trait_Payback_8",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_8",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_9": {
+        "Name": "kAAA_Equip_Trait_Payback_9",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_9",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "kAAA_Equip_Trait_Payback_10": {
+        "Name": "kAAA_Equip_Trait_Payback_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "kAAA_Equip_Trait_Payback_10",
             "Count": 1,
             "prob": 10000000
           }
@@ -27585,6 +30855,156 @@
           }
         ]
       },
+      "Decompose_Weapon_kA_2_00": {
+        "Name": "Decompose_Weapon_kA_2_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_00",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_00_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_01": {
+        "Name": "Decompose_Weapon_kA_2_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_01_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_02": {
+        "Name": "Decompose_Weapon_kA_2_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_02_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_03": {
+        "Name": "Decompose_Weapon_kA_2_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_03_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_04": {
+        "Name": "Decompose_Weapon_kA_2_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_04_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_05": {
+        "Name": "Decompose_Weapon_kA_2_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_05_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_06": {
+        "Name": "Decompose_Weapon_kA_2_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_06_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_07": {
+        "Name": "Decompose_Weapon_kA_2_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_07_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_08": {
+        "Name": "Decompose_Weapon_kA_2_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_08_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Weapon_kA_2_09": {
+        "Name": "Decompose_Weapon_kA_2_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kA_2_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kA_2_09_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
       "Decompose_Weapon_kAA_00": {
         "Name": "Decompose_Weapon_kAA_00",
         "ItemLotteryPrivateGroupEntry": [
@@ -27840,6 +31260,186 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_Weapon_kAA_2_12",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_00": {
+        "Name": "Decompose_Weapon_kAAA_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_00",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_01": {
+        "Name": "Decompose_Weapon_kAAA_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_01",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_02": {
+        "Name": "Decompose_Weapon_kAAA_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_02",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_03": {
+        "Name": "Decompose_Weapon_kAAA_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_03_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_04": {
+        "Name": "Decompose_Weapon_kAAA_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_04_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_05": {
+        "Name": "Decompose_Weapon_kAAA_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_05_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_06": {
+        "Name": "Decompose_Weapon_kAAA_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_06_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_07": {
+        "Name": "Decompose_Weapon_kAAA_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_07_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_08": {
+        "Name": "Decompose_Weapon_kAAA_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_08_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_09": {
+        "Name": "Decompose_Weapon_kAAA_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_09_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_10": {
+        "Name": "Decompose_Weapon_kAAA_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_10_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_11": {
+        "Name": "Decompose_Weapon_kAAA_11",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_11",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_11_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Weapon_kAAA_12": {
+        "Name": "Decompose_Weapon_kAAA_12",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Weapon_kAAA_12",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Weapon_kAAA_12_1",
             "Count": 1,
             "prob": 10000000
           }
@@ -28160,6 +31760,156 @@
           }
         ]
       },
+      "Decompose_Armor_kA_2_00": {
+        "Name": "Decompose_Armor_kA_2_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_00",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_00_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_01": {
+        "Name": "Decompose_Armor_kA_2_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_01_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_02": {
+        "Name": "Decompose_Armor_kA_2_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_02_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_03": {
+        "Name": "Decompose_Armor_kA_2_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_03_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_04": {
+        "Name": "Decompose_Armor_kA_2_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_04_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_05": {
+        "Name": "Decompose_Armor_kA_2_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_05_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_06": {
+        "Name": "Decompose_Armor_kA_2_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_06_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_07": {
+        "Name": "Decompose_Armor_kA_2_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_07_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_08": {
+        "Name": "Decompose_Armor_kA_2_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_08_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Armor_kA_2_09": {
+        "Name": "Decompose_Armor_kA_2_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kA_2_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kA_2_09_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
       "Decompose_Armor_kAA_00": {
         "Name": "Decompose_Armor_kAA_00",
         "ItemLotteryPrivateGroupEntry": [
@@ -28415,6 +32165,186 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_Armor_kAA_2_12",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_00": {
+        "Name": "Decompose_Armor_kAAA_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_00",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_01": {
+        "Name": "Decompose_Armor_kAAA_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_01",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_02": {
+        "Name": "Decompose_Armor_kAAA_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_02",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_03": {
+        "Name": "Decompose_Armor_kAAA_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_03_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_04": {
+        "Name": "Decompose_Armor_kAAA_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_04_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_05": {
+        "Name": "Decompose_Armor_kAAA_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_05_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_06": {
+        "Name": "Decompose_Armor_kAAA_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_06_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_07": {
+        "Name": "Decompose_Armor_kAAA_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_07_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_08": {
+        "Name": "Decompose_Armor_kAAA_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_08_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_09": {
+        "Name": "Decompose_Armor_kAAA_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_09_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_10": {
+        "Name": "Decompose_Armor_kAAA_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_10_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_11": {
+        "Name": "Decompose_Armor_kAAA_11",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_11",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_11_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Armor_kAAA_12": {
+        "Name": "Decompose_Armor_kAAA_12",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Armor_kAAA_12",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Armor_kAAA_12_1",
             "Count": 1,
             "prob": 10000000
           }
@@ -28735,6 +32665,156 @@
           }
         ]
       },
+      "Decompose_Acc_kA_2_00": {
+        "Name": "Decompose_Acc_kA_2_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_00",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_00_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_01": {
+        "Name": "Decompose_Acc_kA_2_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_01_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_02": {
+        "Name": "Decompose_Acc_kA_2_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_02_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_03": {
+        "Name": "Decompose_Acc_kA_2_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_03_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_04": {
+        "Name": "Decompose_Acc_kA_2_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_04_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_05": {
+        "Name": "Decompose_Acc_kA_2_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_05_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_06": {
+        "Name": "Decompose_Acc_kA_2_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_06_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_07": {
+        "Name": "Decompose_Acc_kA_2_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_07_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_08": {
+        "Name": "Decompose_Acc_kA_2_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_08_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
+      "Decompose_Acc_kA_2_09": {
+        "Name": "Decompose_Acc_kA_2_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kA_2_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kA_2_09_1",
+            "Count": 1,
+            "prob": 400000
+          }
+        ]
+      },
       "Decompose_Acc_kAA_00": {
         "Name": "Decompose_Acc_kAA_00",
         "ItemLotteryPrivateGroupEntry": [
@@ -28990,6 +33070,186 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_Acc_kAA_2_12",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_00": {
+        "Name": "Decompose_Acc_kAAA_00",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_00",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_01": {
+        "Name": "Decompose_Acc_kAAA_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_01",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_02": {
+        "Name": "Decompose_Acc_kAAA_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_02",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_03": {
+        "Name": "Decompose_Acc_kAAA_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_03_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_04": {
+        "Name": "Decompose_Acc_kAAA_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_04_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_05": {
+        "Name": "Decompose_Acc_kAAA_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_05_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_06": {
+        "Name": "Decompose_Acc_kAAA_06",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_06_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_07": {
+        "Name": "Decompose_Acc_kAAA_07",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_07",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_07_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_08": {
+        "Name": "Decompose_Acc_kAAA_08",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_08",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_08_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_09": {
+        "Name": "Decompose_Acc_kAAA_09",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_09",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_09_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_10": {
+        "Name": "Decompose_Acc_kAAA_10",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_10_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_11": {
+        "Name": "Decompose_Acc_kAAA_11",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_11",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_11_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Acc_kAAA_12": {
+        "Name": "Decompose_Acc_kAAA_12",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Acc_kAAA_12",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Acc_kAAA_12_1",
             "Count": 1,
             "prob": 10000000
           }
@@ -29705,6 +33965,36 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_SkillPoint_ALL_Passive_kAA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_SkillPoint_All_kAA": {
+        "Name": "Decompose_SkillPoint_All_kAA",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_SkillPoint_All_kAA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_SkillPoint_All_kA": {
+        "Name": "Decompose_SkillPoint_All_kA",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_SkillPoint_All_kA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_SkillPoint_All_Almighty": {
+        "Name": "Decompose_SkillPoint_All_Almighty",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_SkillPoint_All_Almighty",
             "Count": 1,
             "prob": 10000000
           }
@@ -30480,6 +34770,16 @@
           }
         ]
       },
+      "Decompose_scroll_contact_piece_12": {
+        "Name": "Decompose_scroll_contact_piece_12",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_scroll_contact_piece_12",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Decompose_BluePrint_Weapon_kB": {
         "Name": "Decompose_BluePrint_Weapon_kB",
         "ItemLotteryPrivateGroupEntry": [
@@ -30500,6 +34800,16 @@
           }
         ]
       },
+      "Decompose_BluePrint_Weapon_kA_2": {
+        "Name": "Decompose_BluePrint_Weapon_kA_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_BluePrint_Weapon_kA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Decompose_BluePrint_Equip_kB": {
         "Name": "Decompose_BluePrint_Equip_kB",
         "ItemLotteryPrivateGroupEntry": [
@@ -30515,6 +34825,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_BluePrint_Equip_kA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_BluePrint_Equip_kA_2": {
+        "Name": "Decompose_BluePrint_Equip_kA_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_BluePrint_Equip_kA_2",
             "Count": 1,
             "prob": 10000000
           }
@@ -30810,6 +35130,16 @@
           }
         ]
       },
+      "Decompose_TraitExtract_Weapon_kA_2": {
+        "Name": "Decompose_TraitExtract_Weapon_kA_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Weapon_kA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Decompose_TraitExtract_Weapon_kAA": {
         "Name": "Decompose_TraitExtract_Weapon_kAA",
         "ItemLotteryPrivateGroupEntry": [
@@ -30825,6 +35155,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_TraitExtract_Weapon_kAA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_TraitExtract_Weapon_kAAA": {
+        "Name": "Decompose_TraitExtract_Weapon_kAAA",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Weapon_kAAA",
             "Count": 1,
             "prob": 10000000
           }
@@ -30850,6 +35190,16 @@
           }
         ]
       },
+      "Decompose_TraitExtract_Armor_kA_2": {
+        "Name": "Decompose_TraitExtract_Armor_kA_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Armor_kA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Decompose_TraitExtract_Armor_kAA": {
         "Name": "Decompose_TraitExtract_Armor_kAA",
         "ItemLotteryPrivateGroupEntry": [
@@ -30865,6 +35215,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_TraitExtract_Armor_kAA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_TraitExtract_Armor_kAAA": {
+        "Name": "Decompose_TraitExtract_Armor_kAAA",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Armor_kAAA",
             "Count": 1,
             "prob": 10000000
           }
@@ -30890,6 +35250,16 @@
           }
         ]
       },
+      "Decompose_TraitExtract_Accessory_kA_2": {
+        "Name": "Decompose_TraitExtract_Accessory_kA_2",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Accessory_kA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "Decompose_TraitExtract_Accessory_kAA": {
         "Name": "Decompose_TraitExtract_Accessory_kAA",
         "ItemLotteryPrivateGroupEntry": [
@@ -30905,6 +35275,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_TraitExtract_Accessory_kAA_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_TraitExtract_Accessory_kAAA": {
+        "Name": "Decompose_TraitExtract_Accessory_kAAA",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_TraitExtract_Accessory_kAAA",
             "Count": 1,
             "prob": 10000000
           }
@@ -30980,6 +35360,26 @@
           },
           {
             "id": "Decompose_Material_Fish_Bait_001_2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Material_Fish_Bait_004": {
+        "Name": "Decompose_Material_Fish_Bait_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Material_Fish_Bait_004",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Material_Fish_Bait_004_1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Material_Fish_Bait_004_2",
             "Count": 1,
             "prob": 10000000
           }
@@ -33555,6 +37955,341 @@
           }
         ]
       },
+      "Decompose_material_jewel_sapphire_02_bound": {
+        "Name": "Decompose_material_jewel_sapphire_02_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_sapphire_02_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_sapphire_02_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_sapphire_03_bound": {
+        "Name": "Decompose_material_jewel_sapphire_03_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_sapphire_03_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_sapphire_03_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_sapphire_04_bound": {
+        "Name": "Decompose_material_jewel_sapphire_04_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_sapphire_04_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_sapphire_04_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_emerald_bound": {
+        "Name": "Decompose_material_jewel_emerald_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_emerald_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_emerald_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_emerald_02_bound": {
+        "Name": "Decompose_material_jewel_emerald_02_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_emerald_02_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_emerald_02_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_emerald_03_bound": {
+        "Name": "Decompose_material_jewel_emerald_03_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_emerald_03_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_emerald_03_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_emerald_04_bound": {
+        "Name": "Decompose_material_jewel_emerald_04_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_emerald_04_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_emerald_04_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_ruby_bound": {
+        "Name": "Decompose_material_jewel_ruby_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_ruby_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_ruby_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_ruby_02_bound": {
+        "Name": "Decompose_material_jewel_ruby_02_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_ruby_02_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_ruby_02_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_ruby_03_bound": {
+        "Name": "Decompose_material_jewel_ruby_03_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_ruby_03_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_ruby_03_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_ruby_04_bound": {
+        "Name": "Decompose_material_jewel_ruby_04_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_ruby_04_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_ruby_04_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_topaz_bound": {
+        "Name": "Decompose_material_jewel_topaz_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_topaz_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_topaz_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_topaz_02_bound": {
+        "Name": "Decompose_material_jewel_topaz_02_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_topaz_02_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_topaz_02_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_topaz_03_bound": {
+        "Name": "Decompose_material_jewel_topaz_03_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_topaz_03_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_topaz_03_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_material_jewel_topaz_04_bound": {
+        "Name": "Decompose_material_jewel_topaz_04_bound",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_material_jewel_topaz_04_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_material_jewel_topaz_04_bound_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Abyss_coin_United_01": {
+        "Name": "Decompose_Abyss_coin_United_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Abyss_coin_United_01",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Abyss_coin_United_02": {
+        "Name": "Decompose_Abyss_coin_United_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Abyss_coin_United_02",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Abyss_coin_United_03": {
+        "Name": "Decompose_Abyss_coin_United_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Abyss_coin_United_03",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_001": {
+        "Name": "Decompose_Food_Material_Exchange_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_002": {
+        "Name": "Decompose_Food_Material_Exchange_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_003": {
+        "Name": "Decompose_Food_Material_Exchange_003",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_004": {
+        "Name": "Decompose_Food_Material_Exchange_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_005": {
+        "Name": "Decompose_Food_Material_Exchange_005",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_005",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_006": {
+        "Name": "Decompose_Food_Material_Exchange_006",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_006",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_007": {
+        "Name": "Decompose_Food_Material_Exchange_007",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_007",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Food_Material_Exchange_008": {
+        "Name": "Decompose_Food_Material_Exchange_008",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Food_Material_Exchange_008",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_wb_sandworm_default": {
         "Name": "package_wb_sandworm_default",
         "ItemLotteryPrivateGroupEntry": []
@@ -33562,176 +38297,6 @@
       "package_wb_default_01": {
         "Name": "package_wb_default_01",
         "ItemLotteryPrivateGroupEntry": []
-      },
-      "package_wb_sandworm_01": {
-        "Name": "package_wb_sandworm_01",
-        "ItemLotteryPrivateGroupEntry": [
-          {
-            "id": "package_wb_sandworm_01_01",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_sandworm_01_02",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_sandworm_01_03",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_sandworm_01_04",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_sandworm_01_05",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_sandworm_01_06",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "material_sandworm_05_1",
-            "Count": 1,
-            "prob": 50000
-          }
-        ]
-      },
-      "package_wb_giantwarrior_01": {
-        "Name": "package_wb_giantwarrior_01",
-        "ItemLotteryPrivateGroupEntry": [
-          {
-            "id": "package_wb_giantwarrior_01_01",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_02",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_03",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_04",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_05",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_06",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "material_giantwarrior_04",
-            "Count": 1,
-            "prob": 50000
-          },
-          {
-            "id": "package_wb_giantwarrior_01_07",
-            "Count": 1,
-            "prob": 1250000
-          }
-        ]
-      },
-      "package_wb_DelugeNoah_01": {
-        "Name": "package_wb_DelugeNoah_01",
-        "ItemLotteryPrivateGroupEntry": [
-          {
-            "id": "package_wb_DelugeNoah_01_01",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_02",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_03",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_04",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_05",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_06",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "material_DelugeNoah_05",
-            "Count": 1,
-            "prob": 10000
-          },
-          {
-            "id": "package_wb_DelugeNoah_01_07",
-            "Count": 1,
-            "prob": 833333
-          }
-        ]
-      },
-      "package_wb_GiantBroork_01": {
-        "Name": "package_wb_GiantBroork_01",
-        "ItemLotteryPrivateGroupEntry": [
-          {
-            "id": "package_wb_GiantBrook_01_01",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_GiantBrook_01_02",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_GiantBrook_01_03",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_GiantBrook_01_04",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_GiantBrook_01_05",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "package_wb_GiantBrook_01_06",
-            "Count": 1,
-            "prob": 10000000
-          },
-          {
-            "id": "material_Broork_05",
-            "Count": 1,
-            "prob": 10000
-          }
-        ]
       },
       "package_select_fixed_de_battle_of_whisp_01": {
         "Name": "package_select_fixed_de_battle_of_whisp_01",
