@@ -33,6 +33,6 @@ for fName in os.listdir(skillsFolder):
             if path.startswith("/Game/Image/Skill/Active/") and "WeaponSpec" not in path:
                 if row_name in sType:
                     if row.get('UIName').get('LocalizedString'):
-                        md.write(f"| {row['UIName']['LocalizedString']} | {row_name} | {getImg(row)} | {sType[row_name]['damage_type'].split('::k')[-1]} | {row[row_name]['skill_delay']} | {row[row_name]['hit_delay']} | {row[row_name]['max_charge_delay']} |\n")
+                        md.write(f"| {row['UIName']['LocalizedString']} | {row_name} | {getImg(row)} | {sType[row_name]['damage_type'].split('::k')[-1]} | {sType[row_name]['skill_delay']} | {sType[row_name]['hit_delay']} | {sType[row_name]['max_charge_delay']} |\n")
         md.write("\n\n")
         md.write("sources = "+fName)
