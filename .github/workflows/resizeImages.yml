@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'docs/Image/**'
-  workflow_dispatch:  # 👈 Add this for manual run
+  workflow_dispatch:
 
 jobs:
   resize:

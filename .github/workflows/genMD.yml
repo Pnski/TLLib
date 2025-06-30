@@ -1,9 +1,6 @@
 name: run Python Json To MD Files
 
 on:
-  push:
-    paths:
-      - sources/**
   workflow_dispatch:
   
 jobs:
