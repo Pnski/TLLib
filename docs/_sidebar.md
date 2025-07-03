@@ -17,6 +17,9 @@
         - [Wand](weapon/skills/Wand)
     - Weapon
         - [Items](weapon/items)
+        - [Armor](weapon/items/Armor.md)
+        - [Weapon](weapon/items/Weapon.md)
+        - [Accessory](weapon/items/Accessory.md)
         - [Weapon Mastery](weapon/mLevel)
 - Articles
     - [Loot Distribution](Articles/lootdist)
