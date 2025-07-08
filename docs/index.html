@@ -3,6 +3,7 @@
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="icon" type="image/x-icon" href="https://assets.playnccdn.com/common/tl.ico">
   </script>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   </script>
@@ -34,9 +35,17 @@
       overflow: visible;
     }
 
-    /* Make tables expand to the full width of their container */
-    .markdown-section table {
-      display: contents;
+
+  </style>
+  <style>
+    #app {
+      display: flex;
+      justify-content: center;
+    }
+
+    .markdown-section {
+      flex: 1 0 60%;
+      max-width: none;
     }
   </style>
 </head>
@@ -45,6 +54,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      executeScript: true,
       name: 'Throne and Liberty Library',
       logo: 'Splash.png',
       loadSidebar: true,
@@ -92,6 +102,10 @@
   <!-- Latex -->
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-latex@0.5.2/dist/docsify-latex.min.js"></script>
+  <!-- external scripts -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+   <!-- calculator scripts -->
+    <script src="./calculator/scripts/skills.js" type="module"></script>
 </body>
 
 </html>

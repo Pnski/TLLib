@@ -21,6 +21,9 @@
         - [Weapon](weapon/items/Weapon.md)
         - [Accessory](weapon/items/Accessory.md)
         - [Weapon Mastery](weapon/mLevel)
+- Calculator
+    - [SkillDamage](calculator/dd_calc.md)
+    - [BiSGear](calculator/gear_dd_calc.md)
 - Articles
     - [Loot Distribution](Articles/lootdist)
     - [Stats/Calculation](Articles/stats)
