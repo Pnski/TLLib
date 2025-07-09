@@ -33,9 +33,9 @@ jobs:
 
       - name: Prepare output for Pages (no write to repo)
         run: |
-          mkdir -p public
-          cp -r docs/* public/
+          rm -rf public
           mkdir -p public/calculator/sources/Skills/cJsonFlat
+          cp -r docs/* public/
           cp -r sources/Skills/cJsonFlat/* public/calculator/sources/Skills/cJsonFlat/
 
       - name: Deploy to GitHub Pages
