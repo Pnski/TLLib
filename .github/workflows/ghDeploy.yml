@@ -39,8 +39,7 @@ jobs:
           rm -rf public
           cp -r docs/* public/
           cp -r Image/* public/Image/
-          mkdir public/calculator/sources/Skills/cJson
-          cp -r sources/Skills/cJson/* public/calculator/sources/Skills/cJson
+          cp --parents sources/Skills/cJson/* public/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
