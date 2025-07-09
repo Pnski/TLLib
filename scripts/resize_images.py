@@ -2,8 +2,8 @@ from PIL import Image
 import os
 
 # Adjust this path to where your images are (e.g., 'assets/', 'images/', '.')
-SOURCE_DIR = 'docs/Image/'
-MAX_SIZE = 128
+SOURCE_DIR = 'Image/'
+MAX_SIZE = 72
 
 def resize_image(path):
     try:

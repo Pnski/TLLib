@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
-      - name: Set up Python
+      - name: Set up Python 3.9
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -29,14 +29,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install xmltodict
 
-      - name: Run Python script to generate flattened JSON
-        run: python scripts/xmltojson.py
+      - name: Running python Scripts
+        run: 
+          python scripts/xmltojson.py
+          python scripts/resize_images.py
 
       - name: Prepare output for Pages (no write to repo)
         run: |
           rm -rf public
-          mkdir -p public/calculator/sources/Skills/cJsonFlat
           cp -r docs/* public/
+          cp -r Image/* public/Image/
           cp -r sources/Skills/cJson/* public/calculator/sources/Skills/cJsonFlat/
 
       - name: Deploy to GitHub Pages
