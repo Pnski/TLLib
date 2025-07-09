@@ -25,6 +25,7 @@ def getImg(item):
     return f"<img src='{rPath}' style='height:75px; width:auto;'>"
 
 def writeMarkdown(output):
+    os.makedirs(os.path.dirname(output), exist_ok=True)
     with open(output, "w", encoding="utf-8") as md:
         md.write("Amitoi Expedition\n\n")
         for region in regionData.values():
