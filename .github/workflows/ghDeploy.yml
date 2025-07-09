@@ -37,9 +37,11 @@ jobs:
       - name: Prepare output for Pages (no write to repo)
         run: |
           rm -rf public
+          mkdir -p public
+
           cp -r docs/* public/
-          cp -r Image/* public/Image/
-          cp --parents sources/Skills/cJson/* public/
+          cp -r Image/* public/Image/ || true
+          cp --parents sources/Skills/cJson/* public/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
