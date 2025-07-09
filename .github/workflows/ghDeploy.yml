@@ -29,10 +29,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install xmltodict
 
-      - name: Running python Scripts
+      - name: converting xml files to json structure for weapons
         run: 
           python scripts/xmltojson.py
+
+      - name : resizing images
           python scripts/resize_images.py
+
+      - name: generate static .md files
+        run: |
+          python scripts/amitoi.py
+          python scripts/fish.py
+          python scripts/items.py
+          python scripts/skills.py
+          python scripts/wMastery.py
 
       - name: Prepare output for Pages (no write to repo)
         run: |
@@ -40,7 +50,7 @@ jobs:
           mkdir -p public
 
           cp -r docs/* public/
-          cp -r Image/* public/Image/ || true
+          cp --parents Image/* public/
           cp --parents sources/Skills/cJson/* public/ || true
 
       - name: Deploy to GitHub Pages
