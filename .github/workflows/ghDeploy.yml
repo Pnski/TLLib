@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.09'
 
       - name: Install dependencies
         run: |
@@ -36,7 +36,7 @@ jobs:
           rm -rf public
           mkdir -p public/calculator/sources/Skills/cJsonFlat
           cp -r docs/* public/
-          cp -r sources/Skills/cJsonFlat/* public/calculator/sources/Skills/cJsonFlat/
+          cp -r sources/Skills/cJson/* public/calculator/sources/Skills/cJsonFlat/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
