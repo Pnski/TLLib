@@ -50,7 +50,7 @@ jobs:
         uses: nizarmah/auto-minify@v3
         with:
           directory: sources
-          output: sources
+          output: minified-sources
           overwrite: true
 
       - name: Prepare output for Pages (no write to repo)
@@ -60,7 +60,7 @@ jobs:
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
-          cp -r --parents sources/* public/
+          cp -r minified-sources/* public/sources/
           cp --parents sources/Skills/cJson/* public/ || true
 
       - name: Deploy to GitHub Pages
