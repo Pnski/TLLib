@@ -46,12 +46,62 @@
       max-width: none;
     }
   </style>
+  <style>
+
+    select {
+      background-color: rgba(255, 255, 255, 0.05);
+      color: #eee;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+      outline: none;
+      
+    }
+
+        /* Main wrapper */
+    .ss-main {
+      background-color: rgba(255, 255, 255, 0.05);
+      /* Transparent background */
+      color: #eee;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+      font-size: 14px;
+      backdrop-filter: blur(4px);
+      /* Optional blur */
+    }
+
+    /* Selected value area */
+    .ss-single {
+      color: #eee;
+      padding: 5px 10px;
+    }
+
+    /* Dropdown options */
+    .ss-list {
+      background-color: rgba(30, 30, 30, 0.95);
+      /* Transparent dark dropdown */
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Individual options */
+    .ss-option {
+      color: #ddd;
+      padding: 8px;
+    }
+
+  </style>
   <!-- Slim Select CSS -->
   <link href="https://cdn.jsdelivr.net/npm/slim-select@2.8.0/dist/slimselect.min.css" rel="stylesheet" />
 
   <!-- Slim Select JS -->
   <script src="https://cdn.jsdelivr.net/npm/slim-select@2.8.0/dist/slimselect.min.js"></script>
-
+  <style>
+      :root {
+      --ss-bg-color: none
+    }
+  </style>
 </head>
 
 <body>

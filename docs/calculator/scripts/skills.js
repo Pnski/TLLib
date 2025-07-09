@@ -1,5 +1,3 @@
-
-
 const skillFiles = [
   'Bow',
   'Crossbow',
@@ -13,17 +11,6 @@ const skillFiles = [
 
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@5.2.5/+esm';
 
-
-/* def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
-
-def getImg(item):
-    rPath = item["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
-    return f"<img src='{rPath}' style='height:75px; width:auto;'>" */
-
 async function loadSkillLooks(weapon) {
   const basePath = 'sources/Skills/TLSkillPcLooks_Weapon_';
   const response = await fetch(basePath + weapon + ".json");
@@ -34,17 +21,12 @@ async function loadSkillLooks(weapon) {
 /* 
 loadSkillList
 after exporting with fmodel files are as .json, in it is xml data, with wapon_ we get the most usefull list to sort for actives, passives AA and block
-
 */
 
 async function loadSkillList(weapon) {
   const options = {
     ignoreAttributes: false,
-    attributeNamePrefix: "",
-    ignoreRootElement: true,
-    attributeValueProcessor: (tagName, tagValue, jPath, hasAttributes, isLeafNode) => {
-      return tagValue
-    }
+    attributeNamePrefix: ""
   };
 
   const basePath = './sources/Skills/xml/Weapon_';
@@ -81,11 +63,9 @@ async function onWeaponChange() {
   const MHand = document.getElementById("Mainhand").value;
   const OHand = document.getElementById("Offhand").value;
 
-  const [mSkillList, oSkillList] = await Promise.all([
+  const [mSkillList, oSkillList, mSkillLooks, oSkillLooks] = await Promise.all([
     loadSkillList(MHand),
-    loadSkillList(OHand)
-  ]);
-  const [mSkillLooks, oSkillLooks] = await Promise.all([
+    loadSkillList(OHand),
     loadSkillLooks(MHand),
     loadSkillLooks(OHand)
   ]);
@@ -120,7 +100,6 @@ async function onWeaponChange() {
     }
   }
 
-  // Reset and re-initialize each SlimSelect
   selects.forEach((el, i) => {
     if (el.slim) el.slim.destroy(); // remove previous SlimSelect instance
 
@@ -153,9 +132,6 @@ function fillSelectWeapon() {
     el.addEventListener("change", onWeaponChange);
   }
 }
-
-
-console.warn("loaded skills.js")
 
 // initial fills
 

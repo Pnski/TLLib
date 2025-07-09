@@ -30,10 +30,6 @@ jobs:
           pip install xmltodict
           pip install Pillow
 
-      - name: converting xml files to json structure for weapons
-        run: |
-          python scripts/xmltojson.py
-
       - name : resizing images
         run: |
           python scripts/resize_images.py
@@ -66,7 +62,6 @@ jobs:
           cp -r docs/* public/
           cp -r --parents Image/* public/
           cp -r minified-sources/* public/sources/
-          cp --parents sources/Skills/cJson/* public/ || true
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

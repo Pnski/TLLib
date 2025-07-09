@@ -26,14 +26,3 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
 <script type="module" src="./calculator/scripts/skills.js"></script>
-
-<!-- <script type="module">
-
-  fetch('./calculator/scripts/skills.js')
-    .then(res => res.text())
-    .then(code => {
-      eval(code); // 👈 executes the fetched JS
-
-    })
-    .catch(console.error);
-</script> -->
