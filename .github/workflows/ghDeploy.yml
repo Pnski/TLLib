@@ -30,10 +30,11 @@ jobs:
           pip install xmltodict
 
       - name: converting xml files to json structure for weapons
-        run: 
+        run: |
           python scripts/xmltojson.py
 
       - name : resizing images
+        run: |
           python scripts/resize_images.py
 
       - name: generate static .md files
