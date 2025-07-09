@@ -55,6 +55,11 @@ jobs:
           cp -r --parents Image/* public/
           cp --parents sources/Skills/cJson/* public/ || true
 
+      - name: Minify and copy sources
+        uses: nizarmah/auto-minify@v3
+        directory: sources
+        output: public/sources/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
