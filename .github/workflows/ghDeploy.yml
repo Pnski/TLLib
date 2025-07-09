@@ -39,7 +39,7 @@ jobs:
           rm -rf public
           cp -r docs/* public/
           cp -r Image/* public/Image/
-          cp -r sources/Skills/cJson/* public/calculator/sources/Skills/cJsonFlat/
+          cp -r sources/Skills/cJson/* public/calculator/sources/Skills/cJson
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
