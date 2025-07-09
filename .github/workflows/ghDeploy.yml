@@ -43,7 +43,7 @@ jobs:
           python scripts/amitoi.py
           python scripts/fish.py
           python scripts/items.py
-          python scripts/skills.py
+          # python scripts/skills.py
           python scripts/wMastery.py
 
       - name: Prepare output for Pages (no write to repo)
