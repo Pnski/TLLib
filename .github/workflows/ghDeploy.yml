@@ -61,6 +61,7 @@ jobs:
         run: |
           rm -rf public
           mkdir -p public
+          mkdir -p public/sources
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
