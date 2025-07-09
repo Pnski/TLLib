@@ -51,6 +51,7 @@ jobs:
         with:
           directory: sources
           output: sources
+          overwrite: true
 
       - name: Prepare output for Pages (no write to repo)
         run: |
