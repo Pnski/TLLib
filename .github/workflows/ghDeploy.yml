@@ -46,12 +46,16 @@ jobs:
           # python scripts/skills.py
           python scripts/wMastery.py
 
-      - name: Minify and copy sources
-        uses: nizarmah/auto-minify@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          directory: sources
-          output: minified-sources
-          overwrite: true
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install fast-xml-parser glob fs-extra
+
+      - name: Minify JSON/XML files with custom script
+        run: node scripts/minifyFiles.js
 
       - name: Prepare output for Pages (no write to repo)
         run: |
