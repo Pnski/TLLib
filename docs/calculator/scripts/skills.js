@@ -10,7 +10,31 @@ const skillFiles = [
 ];
 
 
-async function loadSkills() {
+/* def loadFile(filepath):
+    try:
+        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
+    except FileNotFoundError:
+        return {}
+
+def getImg(item):
+    rPath = item["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
+    return f"<img src='{rPath}' style='height:75px; width:auto;'>" */
+
+async function loadSkillLooks(weapon) {
+  const basePath = './calculator/sources/Skills/TLSkillPcLooks_Weapon_';
+  const response = await fetch(basePath + weapon + ".json");
+  const json = await response.json();
+  return json[0]["Rows"];
+}
+
+async function loadSkillList(weapon) {
+  const basePath = './calculator/sources/Skills/cJson/Weapon_';
+  const response = await fetch(basePath + weapon);
+  const json = await response.json();
+  return json;
+}
+
+/* async function loadSkills() {
   const basePath = './calculator/sources/Skills/TLSkillPcLooks_Weapon_';
 
   const entries = await Promise.all(
@@ -26,13 +50,22 @@ async function loadSkills() {
   );
 
   return Object.fromEntries(entries);
-}
+} */
 
-//const skills = await loadSkills();
-//console.log(skills.dagger); // shows parsed JSON for dagger skill
-
-function onWeaponChange(weapon) {
-  console.log("new weapon", weapon)
+async function onWeaponChange() {
+  const MHand = document.getElementById("Mainhand").value
+  const OHand = document.getElementById("Offhand").value
+  const mSkillList = await loadSkillList(MHand)
+  const oSkillList= await loadSkillList(OHand)
+  const mSkillLooks = await loadSkillLooks(MHand)
+  console.warn(mSkillLooks)
+  const oSkillLooks = await loadSkillLooks(MHand)
+  mSkillList.forEach(element => {
+    console.log(element);
+    //console.log(mSkillLooks[element.default_skill_id])
+    //console.log("Key:", element.id, "| Available keys:", Object.keys(mSkillLooks));
+  });
+  
 }
 
 function fillSelect(containerID) {
@@ -43,8 +76,8 @@ function fillSelect(containerID) {
     selectOption.textContent = opt;
     container.appendChild(selectOption);
   }
-  container.addEventListener('change', (event) => {
-    const selectedValue = event.target.value;
-    onWeaponChange(selectedValue);
+  onWeaponChange();
+  container.addEventListener('change', () => {
+    onWeaponChange();
   });
 }

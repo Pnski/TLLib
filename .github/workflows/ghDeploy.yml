@@ -1,0 +1,47 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install xmltodict
+
+      - name: Run Python script to generate flattened JSON
+        run: python scripts/xmltojson.py
+
+      - name: Prepare output for Pages (no write to repo)
+        run: |
+          mkdir -p public
+          cp -r docs/* public/
+          mkdir -p public/calculator/sources/Skills/cJsonFlat
+          cp -r sources/Skills/cJsonFlat/* public/calculator/sources/Skills/cJsonFlat/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          force_orphan: true  # 💡 This makes sure gh-pages branch has no history or sync back

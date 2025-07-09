@@ -28,7 +28,6 @@
   fetch('./calculator/scripts/skills.js')
     .then(res => res.text())
     .then(code => {
-      console.log('Loaded skills.js');
       eval(code); // 👈 executes the fetched JS
       fillSelect("Mainhand");
       fillSelect("Offhand");
