@@ -46,6 +46,12 @@ jobs:
           # python scripts/skills.py
           python scripts/wMastery.py
 
+      - name: Minify and copy sources
+        uses: nizarmah/auto-minify@v3
+        with:
+          directory: sources
+          output: sources
+
       - name: Prepare output for Pages (no write to repo)
         run: |
           rm -rf public
@@ -53,13 +59,8 @@ jobs:
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
+          cp -r --parents sources/* public/
           cp --parents sources/Skills/cJson/* public/ || true
-
-      - name: Minify and copy sources
-        uses: nizarmah/auto-minify@v3
-        with:
-          directory: sources
-          output: public/sources/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
