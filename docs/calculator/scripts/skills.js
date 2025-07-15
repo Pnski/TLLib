@@ -188,37 +188,6 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
 
     console.log("✅ Executing skill table injection for:", currentPage);
 
-    const tbody = document.getElementById("table-skills-select");
-    if (!tbody || tbody.dataset.generated === "true") return;
-
-    for (let i = 1; i <= 12; i++) {
-      const tr = document.createElement("tr");
-
-      const tdSkill = document.createElement("td");
-      const select = document.createElement("select");
-      select.id = `skill-${i}`;
-      select.name = "skillSelect";
-      tdSkill.appendChild(select);
-      tr.appendChild(tdSkill);
-
-      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cooldown", "animlock"].forEach(field => {
-        const td = document.createElement("td");
-        td.id = `${field}-${i}`;
-        td.textContent = "-";
-        tr.appendChild(td);
-      });
-
-      tbody.appendChild(tr);
-    }
-
-    tbody.dataset.generated = "true";
-    fillSelectWeapon?.();
-    onWeaponChange?.();
-
-    document.querySelectorAll('input:not([name])').forEach(i => {
-      i.oninput = SkillCalcNew()
-    });
-
     document.getElementById('openPasteWindow').onclick = () => {
       document.getElementById('pasteOverlay').style.display = 'flex';
     };
@@ -246,5 +215,35 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
         console.warn("Clipboard access denied:", err);
       }
     }
+
+    const tbody = document.getElementById("table-skills-select");
+    if (!tbody || tbody.dataset.generated === "true") return;
+
+    for (let i = 1; i <= 12; i++) {
+      const tr = document.createElement("tr");
+
+      const tdSkill = document.createElement("td");
+      const select = document.createElement("select");
+      select.id = `skill-${i}`;
+      select.name = "skillSelect";
+      tdSkill.appendChild(select);
+      tr.appendChild(tdSkill);
+
+      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cooldown", "animlock"].forEach(field => {
+        const td = document.createElement("td");
+        td.id = `${field}-${i}`;
+        td.textContent = "-";
+        tr.appendChild(td);
+      });
+
+      tbody.appendChild(tr);
+    }
+
+    tbody.dataset.generated = "true";
+    fillSelectWeapon?.();
+    onWeaponChange?.();
+    document.querySelectorAll('input:not([name])').forEach(i => {
+      i.oninput = SkillCalcNew()
+    });
   });
 });

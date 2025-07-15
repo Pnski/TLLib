@@ -40,8 +40,8 @@
 <table>
   <tbody>
     <tr>
-      <th><label for="MH.M.Min">MainHand Dmg Min</label><input type="float" value="91" data-skill-id="MH.M.Min" id="MH.M.Min"></th>
-      <th><label for="MH.M.Max">MainHand Dmg Max</label><input type="float" value="359" data-skill-id="MH.M.Max" id="MH.M.Max"></th>
+      <th><label for="MH.M.Min">MainHand Dmg Min</label><input type="float" data-skill-id="MH.M.Min" id="MH.M.Min"></th>
+      <th><label for="MH.M.Max">MainHand Dmg Max</label><input type="float" data-skill-id="MH.M.Max" id="MH.M.Max"></th>
       <th><label for="MH.Spd">MainHand Attack Speed</label><input type="float" data-skill-id="MH.Spd" id="MH.Spd"></th>
       <th><label for="MH.O.Min">OffHand Dmg Min</label><input type="float" data-skill-id="MH.O.Min" id="MH.O.Min"></th>
       <th><label for="MH.O.Max">OffHand Dmg Max</label><input type="float" data-skill-id="MH.O.Max" id="MH.O.Max"></th>
