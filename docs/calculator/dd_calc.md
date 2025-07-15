@@ -22,43 +22,42 @@
 <table>
   <tbody>
     <tr>
-      <th><label>MainHandDmgMin</label><input type="number" id="mh1"></th>
-      <th><label>MainHandDmgMax</label><input type="number" id="mh2"></th>
-      <th><label>MainHandAttackSpeed</label><input type="number" id="mhs"></th>
-      <th><label>MainOffHandDmgMin</label><input type="number" id="mh3"></th>
-      <th><label>MainOffHandDmgMax</label><input type="number" id="mh4"></th>
-      <th><label>MainOffHandChance</label><input type="number" id="mh5"></th>
+      <th><label for="MH.M.Min">MainHand Dmg Min</label><input type="number" data-skill-id="MH.M.Min" id="MH.M.Min"></th>
+      <th><label for="MH.M.Max">MainHand Dmg Max</label><input type="number" data-skill-id="MH.M.Max" id="MH.M.Max"></th>
+      <th><label for="MH.Spd">MainHand Attack Speed</label><input type="number" data-skill-id="MH.Spd" id="MH.Spd"></th>
+      <th><label for="MH.O.Min">OffHand Dmg Min</label><input type="number" data-skill-id="MH.O.Min" id="MH.O.Min"></th>
+      <th><label for="MH.O.Max">OffHand Dmg Max</label><input type="number" data-skill-id="MH.O.Max" id="MH.O.Max"></th>
+      <th><label for="MH.Off">OffHand Chance</label><input type="number" step="any" data-skill-id="MH.Off" id="MH.Off"></th>
     </tr>
     <tr>
-      <th><label>OffHandDmgMin</label><input type="number" id="oh1"></th>
-      <th><label>OffHandDmgMax</label><input type="number" id="oh2"></th>
-      <th><label>OffHandAttackSpeed</label><input type="number" id="ohs"></th>
-      <th><label>OffOffHandDmgMin</label><input type="number" id="oh3"></th>
-      <th><label>OffOffHandDmgMax</label><input type="number" id="oh4"></th>
-      <th><label>OffOffHandChance</label><input type="number" id="oh3"></th>
+      <th><label for="OH.M.Min">Alt OffHand Dmg Min</label><input type="number" data-skill-id="OH.M.Min" id="OH.M.Min"></th>
+      <th><label for="OH.M.Max">Alt OffHand Dmg Max</label><input type="number" data-skill-id="OH.M.Max" id="OH.M.Max"></th>
+      <th><label for="OH.Spd">Alt OffHand Attack Speed</label><input type="number" data-skill-id="OH.Spd" id="OH.Spd"></th>
+      <th><label for="OH.O.Min">OffOffHand Dmg Min</label><input type="number" data-skill-id="OH.O.Min" id="OH.O.Min"></th>
+      <th><label for="OH.O.Max">OffOffHand Dmg Max</label><input type="number" data-skill-id="OH.O.Max" id="OH.O.Max"></th>
+      <th><label for="OH.Off">OffOffHand Chance</label><input type="number" step="any" data-skill-id="OH.Off" id="OH.Off"></th>
     </tr>
     <tr>
-      <th><label>Melee Critical Hit Chance</label><input type="number" id="critMelee"></th>
-      <th><label>Ranged Critical Hit Chance</label><input type="number" id="critRanged"></th>
-      <th><label>Magic Critical Hit Chance</label><input type="number" id="critMagic"></th>
+      <th><label for="critMelee">Melee Crit Chance</label><input type="number" data-skill-id="critMelee" id="critMelee"></th>
+      <th><label for="critRanged">Ranged Crit Chance</label><input type="number" data-skill-id="critRanged" id="critRanged"></th>
+      <th><label for="critMagic">Magic Crit Chance</label><input type="number" data-skill-id="critMagic" id="critMagic"></th>
     </tr>
     <tr>
-      <th><label>Melee Heavy Attack Chance</label><input type="number" id="heavyMelee"></th>
-      <th><label>Ranged Heavy Attack Chance</label><input type="number" id="heavyRanged"></th>
-      <th><label>Magic Heavy Attack Chance</label><input type="number" id="heavyMagic"></th>
+      <th><label for="heavyMelee">Melee Heavy Chance</label><input type="number" data-skill-id="heavyMelee" id="heavyMelee"></th>
+      <th><label for="heavyRanged">Ranged Heavy Chance</label><input type="number" data-skill-id="heavyRanged" id="heavyRanged"></th>
+      <th><label for="heavyMagic">Magic Heavy Chance</label><input type="number" data-skill-id="heavyMagic" id="heavyMagic"></th>
     </tr>
     <tr>
-      <th><label>Skill Damage Boost</label><input type="number" id="SDB"></th>
-      <th><label>Bonus Damage</label><input type="number" id="BD"></th>
-      <th><label>Critical Damage</label><input type="number" id="CD"></th>
-      <th><label>Cooldown Speed</label><input type="number" id="CDR"></th>
+      <th><label for="SDB">Skill Damage Boost</label><input type="number" data-skill-id="SDB" id="SDB"></th>
+      <th><label for="BD">Bonus Damage</label><input type="number" data-skill-id="BD" id="BD"></th>
+      <th><label for="CD">Critical Damage</label><input type="number" step="any" data-skill-id="CD" id="CD"></th>
+      <th><label for="CDR">Cooldown Speed</label><input type="number" step="any" data-skill-id="CDR" id="CDR"></th>
     </tr>
     <tr>
-      <th><label>Buff Duration</label><input type="number" id="BuffDuration"></th>
-      <th><label>Species Damage Boost</label><input type="number" id="speciesBoost"></th>
-      <th><label>Species Bonus Damage</label><input type="number" id="speciesDamage"></th>
+      <th><label for="BuffDuration">Buff Duration</label><input type="number" step="any" data-skill-id="BuffDuration" id="BuffDuration"></th>
+      <th><label for="speciesBoost">Species Dmg Boost</label><input type="number" data-skill-id="speciesBoost" id="speciesBoost"></th>
+      <th><label for="speciesDamage">Species Bonus Damage</label><input type="number" data-skill-id="speciesDamage" id="speciesDamage"></th>
     </tr>
-
   </tbody>
 </table>
 
@@ -69,7 +68,7 @@
     <tr>
       <th>Skill</th>
       <th>dmg%</th>
-      <th>dmg(F)</th>
+      <th>dmg(Flat)</th>
       <th>Avg-Dmg</th>
       <th>Max-Dmg</th>
       <th>CDR</th>

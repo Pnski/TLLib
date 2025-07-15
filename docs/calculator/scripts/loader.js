@@ -22,35 +22,60 @@ export async function FormulaParameter() {
     const path = 'sources/TLFormulaParameterNew'
     const response = await fetch(path + '.json')
     const json = await response.json();
-    return json[0]["Rows"]
+    /* 
+        Prefilter skillLevel > 15
+    */
+    const skillsParameter = json[0].Rows;
+
+    for (const [skillName, skillData] of Object.entries(skillsParameter)) {
+        if ("FormulaParameter" in skillData) {
+            // Filter to only entries with skill_level <= 15
+            const filteredEntries = skillData.FormulaParameter.filter(
+                fp => (fp.skill_level ?? 0) <= 15
+            );
+
+            if (filteredEntries.length > 0) {
+                // Keep only the entry with the highest skill_level
+                const bestEntry = filteredEntries.reduce((max, fp) =>
+                    (fp.skill_level ?? 0) > (max.skill_level ?? 0) ? fp : max
+                );
+                skillData.FormulaParameter = [bestEntry];
+            } else {
+                // No valid entries, clear the list
+                skillData.FormulaParameter = [];
+                console.log(`No valid skill_levels <= 15 found for ${skillName}, clearing FormulaParameter`);
+            }
+        }
+    }
+
+    return skillsParameter;
 }
 
 /* 
-loading skillOptionalDataForPc
+loading TLSkills
 contains
-  "skill_category": "ESkillCategory::kSkill",
-  "skill_delay": 1.5,
-  "hit_delay": 0.0,
-  "min_charge_delay": 0,
-  "max_charge_delay": 0,
-  "max_charge_hold_delay_ms": 0,
-  "damage_type": "ETLDamageType::kRange",
-  "skill_target_object_type": [
-    "ETLSkillTargetObjectType::kPC",
-    "ETLSkillTargetObjectType::kNPC",
-    "ETLSkillTargetObjectType::kFO",
-    "ETLSkillTargetObjectType::kCarrier"
-  ],
+  "UID": 947759200,
+        "skill_category": "ESkillCategory::kSkill",
+        "damage_type": "ETLDamageType::kRange",
+        "skill_delay": 1.5,
+        "hit_delay": 0.0,
+        "skill_propensity": "ETLSkillPropensity::kBeneficial",
+        "skill_target_relation": "ETLSkillTargetRelation::kFriendly",
+        "skill_target_living_status": "ETLSkillTargetLivingStatus::kAlive",
+        "skill_target_object_type": [
+          "ETLSkillTargetObjectType::kPC",
+          "ETLSkillTargetObjectType::kNPC",
+          "ETLSkillTargetObjectType::kFO",
+          "ETLSkillTargetObjectType::kCarrier"
+        ],
+        "min_charge_delay": 0,
+        "max_charge_delay": 0,
+        "max_charge_hold_delay_ms": 0,
 */
 export async function SkillsData() {
     const path = 'sources/TLSkill'
     const response = await fetch(path + '.json')
     const json = await response.json();
-
-    /* 
-    Prefilter skillLevel > 15
-    */
-
     return json[0]["Rows"]
 }
 
@@ -74,14 +99,34 @@ export async function SkillOptionalData() {
 }
 
 /* 
-
+"UIName": {
+    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+    "Key": "TEXT_NAME_SkillSet_WP_ST_S_AoeTeleport_trait_1",
+    "SourceString": "작열 연막진",
+    "LocalizedString": "Burning Smokescreen"
+    },
+"IconPath": {
+    "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON033.SP_COMMON033",
+    "SubPathString": ""
+    },
 */
 
 export async function SkillLooks(weapon) {
     const basePath = 'sources/Skills/TLSkillPcLooks_Weapon_';
     const response = await fetch(basePath + weapon + ".json");
     const json = await response.json();
-    return json[0]["Rows"];
+
+    // Extract only IconPath and UIName from each row
+    const filteredRows = {};
+
+    for (const [rowName, rowData] of Object.entries(json[0]["Rows"])) {
+        filteredRows[rowName] = {
+            IconPath: rowData.IconPath,
+            UIName: rowData.UIName
+        };
+    }
+
+    return filteredRows;
 }
 
 /* 

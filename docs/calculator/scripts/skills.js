@@ -10,8 +10,41 @@ const skillFiles = [
 ];
 
 import * as load from './loader.js';
+import {
+  Damage_AVG,
+  Damage_Max,
+  getCooldown
+} from './damage.js'
 
-async function onSkillChange() {
+function querySkillData() {
+  const result = {}
+  document.querySelectorAll('[data-skill-id]').forEach(qSA => {
+    const path = qSA.dataset.skillId;
+    const value = parseFloat(qSA.value) || 0;
+    const parts = path.split('.');
+    let current = result
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (!(parts[i] in current)) current[parts[i]] = {};
+      current = current[parts[i]];
+    }
+    current[parts.at(-1)] = value
+  })
+  return result;
+}
+
+async function SkillCalcNew() {
+  const qSD = querySkillData();
+  const SkillOptionalData = await load.SkillOptionalData();
+  const TLSkill = await load.SkillsData();
+  const FormulaParameter = await load.FormulaParameter();
+  document.getElementsByName("skillSelect").forEach(qSkills => {
+    console.log(qSkills.value, qSkills.id.split('-').at(-1))
+    const rowID = qSkills.id.split('-').at(-1) // 1 - 12
+    //const rowVal = qSkills.value //WP_BO_S_StrongShot_Hero
+    document.getElementById('cdr-' + rowID).textContent = getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR)
+
+    document.getElementById('animlock-' + rowID).textContent = (TLSkill[qSkills.value].skill_delay + TLSkill[qSkills.value].hit_delay) * qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd / 1000
+  })
   return 0
 }
 
@@ -28,43 +61,43 @@ async function onWeaponChange() {
     load.SkillLooks(OHand)
   ]);
 
-  const WeaponMerged = [...mSkillList, ...oSkillList];
-  const LooksMerged = { ...mSkillLooks, ...oSkillLooks };
-
-  // Prepare shared dataList
   const dataList = [];
 
-  for (const weaponSkill of WeaponMerged) {
-    try {
-      const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
-      const rName = preset?.complex || preset?.simple || preset?.recursive_conditional;
-      const result = rName?.skill_id || rName?.default_skill_id || rName?.conditional_skills.skill_id;
+  function pushSkillOptions(skillList, skillLooks, slotTag) {
+    for (const weaponSkill of skillList) {
+      try {
+        const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
+        const rName = preset?.complex || preset?.simple || preset?.recursive_conditional;
+        const result = rName?.skill_id || rName?.default_skill_id || rName?.conditional_skills?.skill_id;
 
-      const look = LooksMerged[result];
-      if (!look) continue;
+        const look = skillLooks[result];
+        if (!look) continue;
 
-      const label = look.UIName?.LocalizedString || result;
-      const rawPath = look.IconPath?.AssetPathName?.split('.')[0] || "";
-      const iconPath = rawPath.replace("/Game/", "") + ".png";
+        const label = look.UIName?.LocalizedString || result;
+        const rawPath = look.IconPath?.AssetPathName?.split('.')[0] || "";
+        const iconPath = rawPath.replace("/Game/", "") + ".png";
 
-      dataList.push({
-        text: label,
-        value: result,
-        html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
-      });
+        dataList.push({
+          text: label,
+          value: result,
+          data: {slot:slotTag},
+          html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
+        });
 
-    } catch (err) {
-      console.warn("Failed to parse skill entry:", weaponSkill, err);
+      } catch (err) {
+        console.warn("Failed to parse skill entry:", weaponSkill, err);
+      }
     }
   }
 
-  selects.forEach((el, i) => {
-    if (el.slim) el.slim.destroy(); // remove previous SlimSelect instance
+  pushSkillOptions(mSkillList, mSkillLooks, 'MH');
+  pushSkillOptions(oSkillList, oSkillLooks, 'OH');
 
-    // Clear any old options (not needed with data mode, but just in case)
-    el.innerHTML = "";
+  selects.forEach((el) => {
+    if (el.slim) el.slim.destroy(); // destroy old instance
 
-    // Attach new SlimSelect with image-enabled entries
+    el.innerHTML = ""; // clear options
+
     el.slim = new SlimSelect({
       select: el,
       data: dataList,
@@ -73,9 +106,11 @@ async function onWeaponChange() {
         placeholderText: "Select a Weapon"
       }
     });
-    el.addEventListener("change", onSkillChange);
+
+    el.addEventListener("change", SkillCalcNew);
   });
 }
+
 
 function fillSelectWeapon() {
   const selects = document.getElementsByName("weaponSelect");
@@ -160,5 +195,12 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     tbody.dataset.generated = "true";
     fillSelectWeapon?.();
     onWeaponChange?.();
+    // default 0 in input
+    document.querySelectorAll('input:not([name])').forEach(i => {
+      i.value = 0;
+      i.min = 0;
+      i.max = 9999;
+      i.oninput = (e) => { e.target.value = e.target.value.replace(',', '.').slice(0, 6); SkillCalcNew() }
+    });
   });
 });
