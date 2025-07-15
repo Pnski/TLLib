@@ -16,6 +16,25 @@ import {
   getCooldown
 } from './damage.js'
 
+function parseQuestLogStats(text) {
+  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(l => l !== '');
+  const data = {};
+
+  for (let i = 0; i < lines.length - 1; i++) {
+    const key = lines[i];
+    const next = lines[i + 1];
+
+    // Match a number or percent or time
+    if (/^[\d,.]+(%|s|m)?$/i.test(next)) {
+      data[key] = next;
+      i++; // Skip next line
+    }
+  }
+
+  console.log("Parsed stats:", data);
+}
+
+
 function querySkillData() {
   const result = {}
   document.querySelectorAll('[data-skill-id]').forEach(qSA => {
@@ -41,9 +60,9 @@ async function SkillCalcNew() {
     console.log(qSkills.value, qSkills.id.split('-').at(-1))
     const rowID = qSkills.id.split('-').at(-1) // 1 - 12
     //const rowVal = qSkills.value //WP_BO_S_StrongShot_Hero
-    document.getElementById('cdr-' + rowID).textContent = getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR)
+    document.getElementById('cooldown-' + rowID).textContent = getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR) / 1000
 
-    document.getElementById('animlock-' + rowID).textContent = (TLSkill[qSkills.value].skill_delay + TLSkill[qSkills.value].hit_delay) * qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd / 1000
+    document.getElementById('animlock-' + rowID).textContent = (TLSkill[qSkills.value].skill_delay + TLSkill[qSkills.value].hit_delay) * qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd
   })
   return 0
 }
@@ -80,7 +99,7 @@ async function onWeaponChange() {
         dataList.push({
           text: label,
           value: result,
-          data: {slot:slotTag},
+          data: { slot: slotTag },
           html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
         });
 
@@ -182,7 +201,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
       tdSkill.appendChild(select);
       tr.appendChild(tdSkill);
 
-      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cdr", "animlock"].forEach(field => {
+      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cooldown", "animlock"].forEach(field => {
         const td = document.createElement("td");
         td.id = `${field}-${i}`;
         td.textContent = "-";
@@ -195,12 +214,37 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     tbody.dataset.generated = "true";
     fillSelectWeapon?.();
     onWeaponChange?.();
-    // default 0 in input
+
     document.querySelectorAll('input:not([name])').forEach(i => {
-      i.value = 0;
-      i.min = 0;
-      i.max = 9999;
-      i.oninput = (e) => { e.target.value = e.target.value.replace(',', '.').slice(0, 6); SkillCalcNew() }
+      i.oninput = SkillCalcNew()
     });
+
+    document.getElementById('openPasteWindow').onclick = () => {
+      document.getElementById('pasteOverlay').style.display = 'flex';
+    };
+
+    document.getElementById('closePasteWindow').onclick = () => {
+      document.getElementById('pasteOverlay').style.display = 'none';
+    };
+
+    document.getElementById('parseStats').onclick = () => {
+      const text = document.getElementById('statInput').value;
+      parseQuestLogStats(text);
+      document.getElementById('pasteOverlay').style.display = 'none';
+    };
+
+    document.getElementById('parseStats').onclick = () => {
+      const text = document.getElementById('statInput').value;
+      parseQuestLogStats(text);
+      document.getElementById('pasteOverlay').style.display = 'none';
+    };
+    document.getElementById('parseClipboard').onclick = async () => {
+      try {
+        const text = await navigator.clipboard.readText();
+        document.getElementById('statInput').value = text;
+      } catch (err) {
+        console.warn("Clipboard access denied:", err);
+      }
+    }
   });
 });
