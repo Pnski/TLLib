@@ -9,52 +9,10 @@ const skillFiles = [
   'Wand'
 ];
 
-import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@5.2.5/+esm';
+import * as load from './loader.js';
 
-async function loadSkillLooks(weapon) {
-  const basePath = 'sources/Skills/TLSkillPcLooks_Weapon_';
-  const response = await fetch(basePath + weapon + ".json");
-  const json = await response.json();
-  return json[0]["Rows"];
-}
-
-/* 
-loadSkillList
-after exporting with fmodel files are as .json, in it is xml data, with wapon_ we get the most usefull list to sort for actives, passives AA and block
-*/
-
-async function loadSkillList(weapon) {
-  const options = {
-    ignoreAttributes: false,
-    attributeNamePrefix: ""
-  };
-
-  const basePath = './sources/Skills/xml/Weapon_';
-  const response = await fetch(basePath + weapon + '.json');
-  const text = await response.text();
-  const parser = new XMLParser(options);
-  const result = parser.parse(text);
-
-  let filtered = [];
-
-  try {
-    const skillList = result["hero_skill_set"]["skill_complex_list"]["skill_complex"];
-
-    // Ensure skillList is an array
-    const list = Array.isArray(skillList) ? skillList : [skillList];
-
-    // Combined filters
-    filtered = list.filter(s =>
-      s?.skill_type === "kActiveSkill" &&
-      s?.is_basic_attack === "false" &&
-      s?.skill_slot_affinity !== "kDefenseAction"
-    );
-
-  } catch (error) {
-    console.error("Error in loadSkillList:", error);
-  }
-
-  return filtered;
+async function onSkillChange() {
+  return 0
 }
 
 async function onWeaponChange() {
@@ -64,10 +22,10 @@ async function onWeaponChange() {
   const OHand = document.getElementById("Offhand").value;
 
   const [mSkillList, oSkillList, mSkillLooks, oSkillLooks] = await Promise.all([
-    loadSkillList(MHand),
-    loadSkillList(OHand),
-    loadSkillLooks(MHand),
-    loadSkillLooks(OHand)
+    load.SkillList(MHand),
+    load.SkillList(OHand),
+    load.SkillLooks(MHand),
+    load.SkillLooks(OHand)
   ]);
 
   const WeaponMerged = [...mSkillList, ...oSkillList];
@@ -79,8 +37,8 @@ async function onWeaponChange() {
   for (const weaponSkill of WeaponMerged) {
     try {
       const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
-      const rName = preset?.complex || preset?.simple;
-      const result = rName?.skill_id || rName?.default_skill_id;
+      const rName = preset?.complex || preset?.simple || preset?.recursive_conditional;
+      const result = rName?.skill_id || rName?.default_skill_id || rName?.conditional_skills.skill_id;
 
       const look = LooksMerged[result];
       if (!look) continue;
@@ -111,32 +69,96 @@ async function onWeaponChange() {
       select: el,
       data: dataList,
       settings: {
-        showSearch: false,
-        placeholderText: "Select a skill"
+        showSearch: true,
+        placeholderText: "Select a Weapon"
       }
     });
+    el.addEventListener("change", onSkillChange);
   });
 }
 
-
 function fillSelectWeapon() {
-  const container = document.getElementsByName("weaponSelect");
+  const selects = document.getElementsByName("weaponSelect");
 
-  for (const el of container) {
-    for (const opt of skillFiles) {
-      const option = document.createElement("option");
-      option.value = opt;
-      option.textContent = opt;
-      el.appendChild(option);
+  // Prepare shared dataList
+  const dataList = [];
+
+  for (const weaponName of skillFiles) {
+    try {
+
+      const label = weaponName;
+      //const rawPath = look.IconPath?.AssetPathName?.split('.')[0] || "";
+      const iconPath = './Image/Weapon/' + weaponName + ".png";
+
+      dataList.push({
+        text: label,
+        value: label,
+        html: `<img src="${iconPath}" style="height: 30px; vertical-align: middle; margin-right: 6px;">${label}`
+      });
+
+    } catch (err) {
+      console.warn("Failed to parse skill entry:", weaponSkill, err);
     }
-    el.addEventListener("change", onWeaponChange);
   }
+
+  selects.forEach((el, i) => {
+    if (el.slim) el.slim.destroy(); // remove previous SlimSelect instance
+
+    // Clear any old options (not needed with data mode, but just in case)
+    el.innerHTML = "";
+
+    // Attach new SlimSelect with image-enabled entries
+    el.slim = new SlimSelect({
+      select: el,
+      data: dataList,
+      settings: {
+        showSearch: true,
+        placeholderText: "Select a skill"
+      }
+    });
+    el.addEventListener("change", onWeaponChange);
+  });
 }
 
-// initial fills
+console.log("✅ skills.js loaded");
 
-window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-  fillSelectWeapon();
-  onWeaponChange();
+window.$docsify = window.$docsify || {};
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
+  console.log("✅ Docsify plugin registered");
+
+  hook.doneEach(() => {
+    const currentPage = vm.route.path;
+
+    // Only run this logic if we're on dd_calc.md
+    if (!currentPage.includes("/calculator/dd_calc")) return;
+
+    console.log("✅ Executing skill table injection for:", currentPage);
+
+    const tbody = document.getElementById("table-skills-select");
+    if (!tbody || tbody.dataset.generated === "true") return;
+
+    for (let i = 1; i <= 12; i++) {
+      const tr = document.createElement("tr");
+
+      const tdSkill = document.createElement("td");
+      const select = document.createElement("select");
+      select.id = `skill-${i}`;
+      select.name = "skillSelect";
+      tdSkill.appendChild(select);
+      tr.appendChild(tdSkill);
+
+      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cdr", "animlock"].forEach(field => {
+        const td = document.createElement("td");
+        td.id = `${field}-${i}`;
+        td.textContent = "-";
+        tr.appendChild(td);
+      });
+
+      tbody.appendChild(tr);
+    }
+
+    tbody.dataset.generated = "true";
+    fillSelectWeapon?.();
+    onWeaponChange?.();
+  });
 });

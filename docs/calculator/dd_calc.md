@@ -1,28 +1,80 @@
-# Damage
 
-## Weapons
 
-| Mainhand | Offhand |
-| --- | --- |
-| <select name="weaponSelect" id="Mainhand"></select> | <select name="weaponSelect" id="Offhand"></select> |
+# Skill Damage Calculation
 
-## Skills
+<h2>Weapons</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Mainhand</th>
+      <th>Offhand</th>
+    <tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><select name="weaponSelect" id="Mainhand"></select></th>
+      <th><select name="weaponSelect" id="Offhand"></select></th>
+    </tr>
+  </tbody>
+</table>
 
-| Skill | Damage |
-| --- | --- |
-| <select name="skillSelect" id="1"></select> | |
-| <select name="skillSelect" id="2"></select> | |
-| <select name="skillSelect" id="3"></select> | |
-| <select name="skillSelect" id="4"></select> | |
-| <select name="skillSelect" id="5"></select> | |
-| <select name="skillSelect" id="6"></select> | |
-| <select name="skillSelect" id="7"></select> | |
-| <select name="skillSelect" id="8"></select> | |
-| <select name="skillSelect" id="9"></select> | |
-| <select name="skillSelect" id="10"></select> | |
-| <select name="skillSelect" id="11"></select> | |
-| <select name="skillSelect" id="12"></select> | |
+<h2>Data</h2>
+<table>
+  <tbody>
+    <tr>
+      <th><label>MainHandDmgMin</label><input type="number" id="mh1"></th>
+      <th><label>MainHandDmgMax</label><input type="number" id="mh2"></th>
+      <th><label>MainHandAttackSpeed</label><input type="number" id="mhs"></th>
+      <th><label>MainOffHandDmgMin</label><input type="number" id="mh3"></th>
+      <th><label>MainOffHandDmgMax</label><input type="number" id="mh4"></th>
+      <th><label>MainOffHandChance</label><input type="number" id="mh5"></th>
+    </tr>
+    <tr>
+      <th><label>OffHandDmgMin</label><input type="number" id="oh1"></th>
+      <th><label>OffHandDmgMax</label><input type="number" id="oh2"></th>
+      <th><label>OffHandAttackSpeed</label><input type="number" id="ohs"></th>
+      <th><label>OffOffHandDmgMin</label><input type="number" id="oh3"></th>
+      <th><label>OffOffHandDmgMax</label><input type="number" id="oh4"></th>
+      <th><label>OffOffHandChance</label><input type="number" id="oh3"></th>
+    </tr>
+    <tr>
+      <th><label>Melee Critical Hit Chance</label><input type="number" id="critMelee"></th>
+      <th><label>Ranged Critical Hit Chance</label><input type="number" id="critRanged"></th>
+      <th><label>Magic Critical Hit Chance</label><input type="number" id="critMagic"></th>
+    </tr>
+    <tr>
+      <th><label>Melee Heavy Attack Chance</label><input type="number" id="heavyMelee"></th>
+      <th><label>Ranged Heavy Attack Chance</label><input type="number" id="heavyRanged"></th>
+      <th><label>Magic Heavy Attack Chance</label><input type="number" id="heavyMagic"></th>
+    </tr>
+    <tr>
+      <th><label>Skill Damage Boost</label><input type="number" id="SDB"></th>
+      <th><label>Bonus Damage</label><input type="number" id="BD"></th>
+      <th><label>Critical Damage</label><input type="number" id="CD"></th>
+      <th><label>Cooldown Speed</label><input type="number" id="CDR"></th>
+    </tr>
+    <tr>
+      <th><label>Buff Duration</label><input type="number" id="BuffDuration"></th>
+      <th><label>Species Damage Boost</label><input type="number" id="speciesBoost"></th>
+      <th><label>Species Bonus Damage</label><input type="number" id="speciesDamage"></th>
+    </tr>
 
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  </tbody>
+</table>
 
-<script type="module" src="./calculator/scripts/skills.js"></script>
+
+<h2>Skills</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Skill</th>
+      <th>dmg%</th>
+      <th>dmg(F)</th>
+      <th>Avg-Dmg</th>
+      <th>Max-Dmg</th>
+      <th>CDR</th>
+      <th>AnimationLock</th>
+    </tr>
+  </thead>
+  <tbody id="table-skills-select"></tbody>
+</table>
