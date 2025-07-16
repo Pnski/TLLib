@@ -149,7 +149,7 @@ export async function SkillList(weapon) {
     let filtered = [];
 
     try {
-        const skillList = result["hero_skill_set"]["skill_complex_list"]["skill_complex"];
+        const skillList = result.hero_skill_set?.skill_complex_list?.skill_complex;
 
         // Ensure skillList is an array
         const list = Array.isArray(skillList) ? skillList : [skillList];
