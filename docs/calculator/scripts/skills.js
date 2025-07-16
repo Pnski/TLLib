@@ -30,18 +30,47 @@ function parseQuestLogStats(text) {
 
   for (let i = 0; i < lines.length - 1; i++) {
     const key = lines[i];
-    const value = lines[i + 1];
+    let value = lines[i + 1];
 
-    if (/^[\d,.]+(%|s|m)?$/i.test(value)) {
+    // Match numeric-looking values with optional %/s/m/etc.
+    if (/^[\d+-,.]+(%|s|m)?$/i.test(value)) {
+      // Clean it: remove non-numeric characters, normalize commas
+      const cleaned = value.replace(/[^\d.,\-]/g, '').replace(',', '.');
+
+      const numeric = parseFloat(cleaned);
       if (!stats[key]) stats[key] = [];
-      stats[key].push(value);
-      i++; // skip next
+      stats[key].push(numeric);
+      i++; // skip value line
     }
   }
-  console.warn(stats)
-  return stats;
-}
 
+  if (stats['Fail']) document.getElementById('MH.M.Min').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('MH.M.Max').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('MH.Spd').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('MH.O.Min').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('MH.O.Max').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('MH.Off').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.M.Min').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.M.Max').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.Spd').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.O.Min').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.O.Max').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('OH.Off').value = stats['Fail'];
+  if (stats['Melee Critical Hit Chance']) document.getElementById('critMelee').value = stats['Melee Critical Hit Chance'];
+  if (stats['Ranged Critical Hit Chance']) document.getElementById('critRanged').value = stats['Ranged Critical Hit Chance'];
+  if (stats['Magic Critical Hit Chance']) document.getElementById('critMagic').value = stats['Magic Critical Hit Chance'];
+  if (stats['Melee Heavy Attack Chance']) document.getElementById('heavyMelee').value = stats['Melee Heavy Attack Chance'];
+  if (stats['Ranged Heavy Attack Chance']) document.getElementById('heavyRanged').value = stats['Ranged Heavy Attack Chance'];
+  if (stats['Magic Heavy Attack Chance']) document.getElementById('heavyMagic').value = stats['Magic Heavy Attack Chance'];
+  if (stats['Skill Damage Boost']) document.getElementById('SDB').value = stats['Skill Damage Boost'];
+  if (stats['Bonus Damage']) document.getElementById('BD').value = stats['Bonus Damage'];
+  if (stats['Critical Damage']) document.getElementById('CD').value = stats['Critical Damage'];
+  if (stats['Cooldown Speed']) document.getElementById('CDR').value = stats['Cooldown Speed'];
+  if (stats['Buff Duration']) document.getElementById('BuffDuration').value = stats['Buff Duration'];
+  if (stats['Fail']) document.getElementById('speciesBoost').value = stats['Fail'];
+  if (stats['Fail']) document.getElementById('speciesDamage').value = stats['Fail'];
+
+}
 
 function querySkillData() {
   const result = {}
@@ -66,11 +95,11 @@ async function SkillCalcNew() {
     const rowID = qSkills.id.split('-').at(-1) // 1 - 12
     document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
     document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[qSkills.value].skill_delay, TLSkill[qSkills.value].hit_delay, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd).toFixed(4)
-    const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace('CoolDown', 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace('CoolDown', 'DD')]
+    const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD')]
     document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
     document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
-    document.getElementById('avg-dmg') = 0
-    document.getElementById('max-dmg') = 0
+    //document.getElementById('avg-dmg') = 0
+    document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
   })
   return 0
 }
@@ -250,7 +279,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     tbody.dataset.generated = "true";
     fillSelectWeapon();
     onWeaponChange?.();
-     document.querySelectorAll('input:not([name])').forEach(i => {
+    document.querySelectorAll('input:not([name])').forEach(i => {
       i.oninput = SkillCalcNew
     });
   });

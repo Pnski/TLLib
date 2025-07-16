@@ -55,52 +55,43 @@ export function getAnimLock(skillDelay, hitDelay, wSpeed, maxChargeTime = 0) {
     return (maxChargeTime + skillDelay + hitDelay) * wSpeed
 }
 
-function calcDmgMin(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin) {
-    return ( (WeaponMin + (SkillBonusBaseDamage  / SkillBaseDamage )) * SkillBaseDamage)
+function calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) {
+    return ((SkillBaseDamage / 100 * WeaponDmg) + SkillBonusDamage)
 }
 
-function calcDmgMax(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax) {
-    return ( (WeaponMax + (SkillBonusBaseDamage / SkillBaseDamage)) * SkillBaseDamage )
+/**
+ * 
+ * @param {*} SkillBaseDamage 
+ * @param {*} SkillBonusDamage 
+ * @param {*} WeaponDmg 
+ * @param {*} SDB 
+ * @param {*} BonusDamage 
+ * @param {*} SDB_Species 
+ * @param {*} CritHit 
+ * @returns 
+ */
+
+export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritHit = 0) {
+    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+AttackModChance(CritHit)) + BonusDamage
 }
 
-function calcDmgMaxCrit(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax, CriticalDamage) {
-    return calcDmgMax(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax)*(1+CriticalDamage)
-}
-
-function calcDmgAvg(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin, WeaponMax, CriticalDamage, CriticalHit) {
-    return (calcDmgMin(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin) + calcDmgMax(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax))/2*(1-AttackModChance(CriticalHit))+calcDmgMaxCrit(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax, CriticalDamage)*AttackModChance(CriticalHit)
-}
-
-export function Damage_AVG(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin, WeaponMax, CriticalDamage, CriticalHit, SDB, SDB_Species, HeavyHit, BonusDamage) {
-    return calcDmgAvg(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin, WeaponMax, CriticalDamage,CriticalHit)*skillDamageBoost(SDB)*skillDamageBoost(SDB_Species)*AttackModChance(HeavyHit)+BonusDamage
-}
-
-export function Damage_Max(SkillBaseDamage, SkillBonusBaseDamage, WeaponMin, WeaponMax, CriticalDamage, CriticalHit, SDB, SDB_Species, HeavyHit, BonusDamage) {
-    return calcDmgMaxCrit(SkillBaseDamage, SkillBonusBaseDamage, WeaponMax, CriticalDamage) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) + BonusDamage
-}
 
 /* 
 
 TestSection
 
 */
+/*
 
-
-const skillbasedmg = 160 / 100
-const skillbonusdmg = 25
-const minweapon = 97
-const maxweapon = 360
-const crithit = 2013
-const heavyhit = 816
-const mysdb = 529
-const mysdbsp = 0
-const bonusd = 65
+const skillbasedmg = 1122 * 2.2
+const skillbonusdmg = 1135* 2.2
+const minweapon = 192
+const maxweapon = 425
+const crithit = 834
+const heavyhit = 455.2
+const mysdb = 305
+const mysdbsp = 76.8
+const bonusd = 40
 const critdmg = 46.80 / 100
-console.log(AttackModChance(crithit))
 
-console.log(calcDmgMin(skillbasedmg, skillbonusdmg, minweapon))
-console.log(calcDmgMax(skillbasedmg, skillbonusdmg, maxweapon))
-console.log(calcDmgMaxCrit(skillbasedmg, skillbonusdmg, maxweapon, critdmg))
-console.log(calcDmgAvg(skillbasedmg, skillbonusdmg,minweapon, maxweapon, critdmg, crithit))
-console.log(Damage_AVG(skillbasedmg, skillbonusdmg,minweapon, maxweapon, critdmg, crithit, mysdb, mysdbsp, heavyhit, bonusd))
-console.log(Damage_Max(skillbasedmg, skillbonusdmg,minweapon, maxweapon, critdmg, crithit, mysdb, mysdbsp, heavyhit, bonusd))
+*/

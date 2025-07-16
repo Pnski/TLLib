@@ -2,6 +2,19 @@
 
 # Skill Damage Calculation
 
+## Alpha Stage 0.1a
+
+- no traits
+- avg not working
+- offhand not working
+- multihits not calculated
+- some skills seem to have no animationspeed?
+- Weapon from Questlogparse is currently not parsed... need new idea how to get all the stuff in the right order
+- dmg/s /min not calculated
+- heavy not calculated
+
+- should currently working on basic skills at 1 hit
+
 <h2>Weapons</h2>
 <table>
   <thead>
