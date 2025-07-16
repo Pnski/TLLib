@@ -12,6 +12,7 @@
 - Weapon from Questlogparse is currently not parsed... need new idea how to get all the stuff in the right order
 - dmg/s /min not calculated
 - heavy not calculated
+- species bonus damage not calculated
 
 - should currently working on basic skills at 1 hit
 
