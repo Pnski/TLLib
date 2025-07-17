@@ -35,7 +35,7 @@ function parseQuestLogStats(text) {
     // Match numeric-looking values with optional %/s/m/etc.
     if (/^[\d+-,.]+(%|s|m)?$/i.test(value)) {
       // Clean it: remove non-numeric characters, normalize commas
-      const cleaned = value.replace(/[^\d.,\-]/g, '').replace(',', '.');
+      const cleaned = value.replace(/[^\d.,\-]/g, '').replace(',', '');
 
       const numeric = parseFloat(cleaned);
       if (!stats[key]) stats[key] = [];
@@ -50,27 +50,27 @@ function parseQuestLogStats(text) {
   if (stats['Fail']) document.getElementById('MH.O.Min').value = stats['Fail'];
   if (stats['Fail']) document.getElementById('MH.O.Max').value = stats['Fail'];
   if (stats['Fail']) document.getElementById('MH.Off').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.M.Min').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.M.Max').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.Spd').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.O.Min').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.O.Max').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('OH.Off').value = stats['Fail'];
-  if (stats['Melee Critical Hit Chance']) document.getElementById('critMelee').value = stats['Melee Critical Hit Chance'];
-  if (stats['Ranged Critical Hit Chance']) document.getElementById('critRanged').value = stats['Ranged Critical Hit Chance'];
-  if (stats['Magic Critical Hit Chance']) document.getElementById('critMagic').value = stats['Magic Critical Hit Chance'];
-  if (stats['Melee Heavy Attack Chance']) document.getElementById('heavyMelee').value = stats['Melee Heavy Attack Chance'];
-  if (stats['Ranged Heavy Attack Chance']) document.getElementById('heavyRanged').value = stats['Ranged Heavy Attack Chance'];
-  if (stats['Magic Heavy Attack Chance']) document.getElementById('heavyMagic').value = stats['Magic Heavy Attack Chance'];
+  if (stats['Boss Melee Critical Hit Chance']) document.getElementById('critMelee').value = stats['Boss Melee Critical Hit Chance'];
+  if (stats['Boss Ranged Critical Hit Chance']) document.getElementById('critRanged').value = stats['Boss Ranged Critical Hit Chance'];
+  if (stats['Boss Magic Critical Hit Chance']) document.getElementById('critMagic').value = stats['Boss Magic Critical Hit Chance'];
+  if (stats['Boss Melee Heavy Attack Chance']) document.getElementById('heavyMelee').value = stats['Boss Melee Heavy Attack Chance'];
+  if (stats['Boss Ranged Heavy Attack Chance']) document.getElementById('heavyRanged').value = stats['Boss Ranged Heavy Attack Chance'];
+  if (stats['Boss Magic Heavy Attack Chance']) document.getElementById('heavyMagic').value = stats['Boss Magic Heavy Attack Chance'];
   if (stats['Skill Damage Boost']) document.getElementById('SDB').value = stats['Skill Damage Boost'];
   if (stats['Bonus Damage']) document.getElementById('BD').value = stats['Bonus Damage'];
   if (stats['Critical Damage']) document.getElementById('CD').value = stats['Critical Damage'];
   if (stats['Cooldown Speed']) document.getElementById('CDR').value = stats['Cooldown Speed'];
   if (stats['Buff Duration']) document.getElementById('BuffDuration').value = stats['Buff Duration'];
-  if (stats['Fail']) document.getElementById('speciesBoost').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('speciesDamage').value = stats['Fail'];
-
+  if (stats['Species Damage Boost']) document.getElementById('speciesBoost').value = stats['Species Damage Boost'];
 }
+/*
+Other
+Wildkin Bonus Damage
+12
+Missing
+Species Damage Boost
+72
+*/
 
 function querySkillData() {
   const result = {}
@@ -266,7 +266,14 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
       tdSkill.appendChild(select);
       tr.appendChild(tdSkill);
 
-      ["dmg-percent", "dmg-flat", "avg-dmg", "max-dmg", "cooldown", "animlock"].forEach(field => {
+      const tdTrait = document.createElement("td");
+      const selectTrait = document.createElement("select");
+      selectTrait.id = `trait-${i}`;
+      selectTrait.name = "TraitSelect";
+      tdTrait.appendChild(selectTrait);
+      tr.appendChild(tdTrait);
+
+      ["dmg-percent", "dmg-flat", "max-dmg", "avg-dmg", "cooldown", "animlock"].forEach(field => {
         const td = document.createElement("td");
         td.id = `${field}-${i}`;
         td.textContent = "-";

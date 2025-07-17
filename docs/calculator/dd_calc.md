@@ -1,5 +1,3 @@
-
-
 # Skill Damage Calculation
 
 ## Alpha Stage 0.1a
@@ -54,7 +52,7 @@
 <table>
   <tbody>
     <tr>
-      <th><label for="MH.M.Min">MainHand Dmg Min</label><input type="float" data-skill-id="MH.M.Min" id="MH.M.Min"></th>
+      <th><label for="MH.M.Min">MainHand Dmg Min</label><input type="float" inputmode=" data-skill-id="MH.M.Min" id="MH.M.Min"></th>
       <th><label for="MH.M.Max">MainHand Dmg Max</label><input type="float" data-skill-id="MH.M.Max" id="MH.M.Max"></th>
       <th><label for="MH.Spd">MainHand Attack Speed</label><input type="float" data-skill-id="MH.Spd" id="MH.Spd"></th>
       <th><label for="MH.O.Min">OffHand Dmg Min</label><input type="float" data-skill-id="MH.O.Min" id="MH.O.Min"></th>
@@ -88,7 +86,6 @@
     <tr>
       <th><label for="BuffDuration">Buff Duration</label><input type="float" step="any" data-skill-id="BuffDuration" id="BuffDuration"></th>
       <th><label for="speciesBoost">Species Dmg Boost</label><input type="float" data-skill-id="speciesBoost" id="speciesBoost"></th>
-      <th><label for="speciesDamage">Species Bonus Damage</label><input type="float" data-skill-id="speciesDamage" id="speciesDamage"></th>
     </tr>
   </tbody>
 </table>
@@ -109,10 +106,11 @@
   <thead>
     <tr>
       <th>Skill</th>
-      <th>dmg%</th>
+      <th>Traits</th>
+      <th>dmg(%)</th>
       <th>dmg(Flat)</th>
+      <th>Max-Crit</th>
       <th>Avg-Dmg</th>
-      <th>Max-Dmg</th>
       <th>Cooldown (s)</th>
       <th>AnimationLock (s)</th>
     </tr>

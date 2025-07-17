@@ -141,3 +141,9 @@ PasteOverlay
   border: 1px solid #ccc;
   border-radius: 6px;
 }
+
+/* disable toc in dd_calc */
+
+body[data-page="calculator/dd_calc.md"] .page_toc {
+    display: none;
+}
