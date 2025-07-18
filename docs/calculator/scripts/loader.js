@@ -122,10 +122,10 @@ export async function SkillLooks(weapon) {
     for (const [rowName, rowData] of Object.entries(json[0]["Rows"])) {
         filteredRows[rowName] = {
             IconPath: rowData.IconPath,
-            UIName: rowData.UIName
+            UIName: rowData.UIName,
+            SkillTraitDescription: rowData.SkillTraitDescription.LocalizedString
         };
     }
-
     return filteredRows;
 }
 

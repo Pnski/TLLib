@@ -63,16 +63,8 @@ function parseQuestLogStats(text) {
   if (stats['Buff Duration']) document.getElementById('BuffDuration').value = stats['Buff Duration'];
   if (stats['Species Damage Boost']) document.getElementById('speciesBoost').value = stats['Species Damage Boost'];
 }
-/*
-Other
-Wildkin Bonus Damage
-12
-Missing
-Species Damage Boost
-72
-*/
 
-function querySkillData() {
+function querySkillData(index) {
   const result = {}
   document.querySelectorAll('[data-skill-id]').forEach(qSA => {
     const path = qSA.dataset.skillId;
@@ -88,38 +80,77 @@ function querySkillData() {
   return result;
 }
 
-async function SkillCalcNew() {
+
+//info[0].value, info[0].data.slot, index
+async function SkillCalcNew(skillInternal, weaponSlot, index) {
   await preloadSkillData();
   const qSD = querySkillData();
-  document.getElementsByName("skillSelect").forEach(qSkills => {
-    const rowID = qSkills.id.split('-').at(-1) // 1 - 12
-    document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
-    document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[qSkills.value].skill_delay, TLSkill[qSkills.value].hit_delay, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd).toFixed(4)
-    const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD')]
-    document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
-    document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
-    //document.getElementById('avg-dmg') = 0
-    document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
+  console.log(skillInternal, weaponSlot, index)
+  document.getElementById('cooldown-' + index).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
+  document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd).toFixed(4)
+  /* 
+    document.getElementsByName("skillSelect").forEach(qSkills => {
+      const rowID = qSkills.id.split('-').at(-1) // 1 - 12
+      document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
+      document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[qSkills.value].skill_delay, TLSkill[qSkills.value].hit_delay, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd).toFixed(4)
+      const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD')]
+      document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
+      document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
+      //document.getElementById('avg-dmg') = 0
+      document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
+    }) */
+  return 0
+}
+
+async function fillTraits(weaponType, guid, index) {
+  const dataList = []
+
+  console.log("filltraitselect", weaponType, guid, index)
+  const select = document.getElementById('trait-' + index)
+
+  const traitList = await load.SkillList(weaponType)
+  const traitLooks = await load.SkillLooks(weaponType)
+  const match = traitList.find(i => i.guid === guid);
+  if (match) {
+    for (const traitId of match.trait_list.trait) {
+      const traitName = traitId.trait_id
+
+      const skillLooks = traitLooks[traitName]
+      console.log(skillLooks)
+
+      dataList.push({
+        text: skillLooks.UIName?.LocalizedString,
+        value: traitName,
+        html: `<span title="${skillLooks.SkillTraitDescription}">${skillLooks.UIName?.LocalizedString}</span>`
+      })
+    }
+  }
+
+  if (select.slim) select.slim.destroy()
+  select.innerHTML = "";
+  select.slim = new SlimSelect({
+    select: select,
+    data: dataList,
+    events: {
+      afterChange: (info) => {
+        console.log("trait changed", info)
+      }
+    }
   })
+
   return 0
 }
 
 async function onWeaponChange() {
   const selects = document.getElementsByName("skillSelect");
 
-  const MHand = document.getElementById("Mainhand").value;
-  const OHand = document.getElementById("Offhand").value;
-
-  const [mSkillList, oSkillList, mSkillLooks, oSkillLooks] = await Promise.all([
-    load.SkillList(MHand),
-    load.SkillList(OHand),
-    load.SkillLooks(MHand),
-    load.SkillLooks(OHand)
-  ]);
-
   const dataList = [];
 
-  function pushSkillOptions(skillList, skillLooks, slotTag) {
+  async function pushSkillOptions(WeaponName, slotTag) {
+    const [skillList, skillLooks] = await Promise.all([
+      load.SkillList(WeaponName),
+      load.SkillLooks(WeaponName)
+    ])
     for (const weaponSkill of skillList) {
       try {
         const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
@@ -136,7 +167,11 @@ async function onWeaponChange() {
         dataList.push({
           text: label,
           value: result,
-          data: { slot: slotTag },
+          data: {
+            slot: slotTag,
+            weaponType: WeaponName,
+            guid: weaponSkill.guid
+          },
           html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
         });
 
@@ -146,10 +181,10 @@ async function onWeaponChange() {
     }
   }
 
-  pushSkillOptions(mSkillList, mSkillLooks, 'MH');
-  pushSkillOptions(oSkillList, oSkillLooks, 'OH');
+  await pushSkillOptions(document.getElementById("Mainhand").value, 'MH');
+  await pushSkillOptions(document.getElementById("Offhand").value, 'OH');
 
-  selects.forEach(el => {
+  selects.forEach((el, index) => {
     if (el.slim) el.slim.destroy(); // destroy old instance
 
     el.innerHTML = ""; // clear options
@@ -161,8 +196,9 @@ async function onWeaponChange() {
         showSearch: true
       },
       events: {
-        afterChange: () => {
-          SkillCalcNew()
+        afterChange: (info) => {
+          fillTraits(info[0].data.weaponType, info[0].data.guid, index)
+          SkillCalcNew(info[0].value, info[0].data.slot, index)
         }
       }
     });
@@ -183,7 +219,6 @@ function fillSelectWeapon() {
 
       dataList.push({
         text: label,
-        value: label,
         html: `<img src="${iconPath}" style="height: 30px; vertical-align: middle; margin-right: 6px;">${label}`
       });
 
@@ -202,6 +237,7 @@ function fillSelectWeapon() {
       settings: {
         showSearch: false
       },
+      selected: true,
       events: {
         afterChange: () => {
           onWeaponChange()
@@ -217,11 +253,13 @@ window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
   console.log("✅ Docsify plugin registered");
 
-  hook.doneEach(() => {
+  hook.doneEach(async () => {
     const currentPage = vm.route.path;
 
     // Only run this logic if we're on dd_calc.md
     if (!currentPage.includes("/calculator/dd_calc")) return;
+
+    await preloadSkillData();
 
     console.log("✅ Executing skill table injection for:", currentPage);
 
@@ -256,7 +294,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     const tbody = document.getElementById("table-skills-select");
     if (!tbody || tbody.dataset.generated === "true") return;
 
-    for (let i = 1; i <= 12; i++) {
+    for (let i = 0; i < 12; i++) {
       const tr = document.createElement("tr");
 
       const tdSkill = document.createElement("td");
@@ -269,7 +307,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
       const tdTrait = document.createElement("td");
       const selectTrait = document.createElement("select");
       selectTrait.id = `trait-${i}`;
-      selectTrait.name = "TraitSelect";
+      selectTrait.setAttribute("multiple", "multiple");
       tdTrait.appendChild(selectTrait);
       tr.appendChild(tdTrait);
 
@@ -279,15 +317,22 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
         td.textContent = "-";
         tr.appendChild(td);
       });
-
       tbody.appendChild(tr);
     }
 
     tbody.dataset.generated = "true";
     fillSelectWeapon();
     onWeaponChange?.();
-    document.querySelectorAll('input:not([name])').forEach(i => {
-      i.oninput = SkillCalcNew
+    document.querySelectorAll('input:not([name])').forEach(inputField => {
+      inputField.oninput = () => {
+        document.getElementsByName("skillSelect").forEach((select, index) => {
+          for (const i of select.slim.getData()) {
+            if (i.selected) {
+              SkillCalcNew(i.value, i.data.slot, index);
+            }
+          }
+        });
+      };
     });
   });
 });
