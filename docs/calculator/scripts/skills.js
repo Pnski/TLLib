@@ -1,4 +1,4 @@
-const skillFiles = [
+const FilesList = [
   'Bow',
   'Crossbow',
   'Dagger',
@@ -11,6 +11,7 @@ const skillFiles = [
 
 import * as load from './loader.js';
 import * as math from './math.js'
+import * as dom from './dom.js'
 
 // Cached data
 let TLSkill = null;
@@ -82,257 +83,188 @@ function querySkillData(index) {
 
 
 //info[0].value, info[0].data.slot, index
-async function SkillCalcNew(skillInternal, weaponSlot, index) {
+export async function SkillCalcNew(skillInternal, index) {
   await preloadSkillData();
   const qSD = querySkillData();
-  console.log(skillInternal, weaponSlot, index)
+  console.log(skillInternal, index)
+  //need to get the mainhand or offhand from the current skill of the select element here via index?
   document.getElementById('cooldown-' + index).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
   document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd).toFixed(4)
   /* 
-    document.getElementsByName("skillSelect").forEach(qSkills => {
-      const rowID = qSkills.id.split('-').at(-1) // 1 - 12
-      document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
-      document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[qSkills.value].skill_delay, TLSkill[qSkills.value].hit_delay, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd).toFixed(4)
-      const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD')]
-      document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
-      document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
-      //document.getElementById('avg-dmg') = 0
-      document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
-    }) */
+  document.getElementsByName("skillSelect").forEach(qSkills => {
+    const rowID = qSkills.id.split('-').at(-1) // 1 - 12
+    document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
+    document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[qSkills.value].skill_delay, TLSkill[qSkills.value].hit_delay, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].Spd).toFixed(4)
+    const logSkill = FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[qSkills.value].cooldown_time.replace(/CoolDown/i, 'DD')]
+    document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
+    document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
+    //document.getElementById('avg-dmg') = 0
+    document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[qSkills.options[qSkills.selectedIndex].getAttribute('data-slot')].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
+  }) */
   return 0
 }
 
-async function fillTraits(weaponType, guid, index) {
-  const dataList = []
 
-  console.log("filltraitselect", weaponType, guid, index)
-  const select = document.getElementById('trait-' + index)
 
-  const traitList = await load.SkillList(weaponType)
-  const traitLooks = await load.SkillLooks(weaponType)
-  const match = traitList.find(i => i.guid === guid);
+async function onTraitChange(weaponType, guid, blubb) {
+  console.log(guid, blubb)
+  const skillList = await load.SkillList(weaponType)
+  const match = skillList.find(i => i.guid === guid);
   if (match) {
-    for (const traitId of match.trait_list.trait) {
-      const traitName = traitId.trait_id
-
-      const skillLooks = traitLooks[traitName]
-      console.log(skillLooks)
-
-      dataList.push({
-        text: skillLooks.UIName?.LocalizedString,
-        value: traitName,
-        html: `<span title="${skillLooks.SkillTraitDescription}">${skillLooks.UIName?.LocalizedString}</span>`
-      })
+    if (match.context?.presets?.preset?.specialization.traits === blubb[0].value) {
+      console.log("myshitfound")
     }
   }
+}
 
-  if (select.slim) select.slim.destroy()
-  select.innerHTML = "";
-  select.slim = new SlimSelect({
-    select: select,
-    data: dataList,
-    events: {
-      afterChange: (info) => {
-        console.log("trait changed", info)
+export async function fillTraits(weaponType, guid, index) {
+  //console.log("fillTraits", weaponType, guid, index)
+  const dataList = []
+
+  const [traitList, traitLooks] = await Promise.all([
+    load.SkillList(weaponType),
+    load.SkillLooks(weaponType)
+  ])
+  traitList.find(match => {
+    if (match.guid === guid) {
+      for (const traitId of match.trait_list.trait) {
+        const skillLooks = traitLooks[traitId.trait_id]
+
+        dataList.push({
+          text: skillLooks.UIName?.LocalizedString,
+          value: traitId.trait_id,
+          html: `<span title="${skillLooks.SkillTraitDescription}">${skillLooks.UIName?.LocalizedString}</span>`
+        })
       }
     }
   })
-
-  return 0
+  document.getElementById('trait-' + index).slim.setData(dataList)
 }
 
-async function onWeaponChange() {
-  const selects = document.getElementsByName("skillSelect");
+/**
+ * 
+ * @param {*} WeaponName info[0].value 
+ * @param {*} slot select.dataset.slot
+ */
 
-  const dataList = [];
+async function onWeaponChange(WeaponName, slot) {
 
-  async function pushSkillOptions(WeaponName, slotTag) {
-    const [skillList, skillLooks] = await Promise.all([
-      load.SkillList(WeaponName),
-      load.SkillLooks(WeaponName)
-    ])
-    for (const weaponSkill of skillList) {
-      try {
-        const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
-        const rName = preset?.complex || preset?.simple || preset?.recursive_conditional;
-        const result = rName?.skill_id || rName?.default_skill_id || rName?.conditional_skills?.skill_id;
+  const resultList = [];
+  const [skillList, skillLooks] = await Promise.all([
+    load.SkillList(WeaponName),
+    load.SkillLooks(WeaponName)
+  ])
 
-        const look = skillLooks[result];
-        if (!look) continue;
+  for (const weaponSkill of skillList) {
+    const preset = weaponSkill?.context?.presets?.preset?.default?.combo_state_default;
+    const rName = preset?.complex || preset?.simple || preset?.recursive_conditional;
+    const result = rName?.skill_id || rName?.default_skill_id || rName?.conditional_skills?.skill_id;
 
-        const label = look.UIName?.LocalizedString || result;
-        const rawPath = look.IconPath?.AssetPathName?.split('.')[0] || "";
-        const iconPath = rawPath.replace("/Game/", "") + ".png";
+    const look = skillLooks[result];
+    if (!look) continue;
 
-        dataList.push({
-          text: label,
-          value: result,
-          data: {
-            slot: slotTag,
-            weaponType: WeaponName,
-            guid: weaponSkill.guid
-          },
-          html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
-        });
+    const label = look.UIName?.LocalizedString || result;
+    const rawPath = look.IconPath?.AssetPathName?.split('.')[0] || "";
+    const iconPath = rawPath.replace("/Game/", "") + ".png";
 
-      } catch (err) {
-        console.warn("Failed to parse skill entry:", weaponSkill, err);
-      }
-    }
+    resultList.push({
+      text: label,
+      value: result,
+      data: {
+        weaponType: WeaponName,
+        guid: weaponSkill.guid
+      },
+      html: `<img src="${iconPath}" style="height: 20px; vertical-align: middle; margin-right: 6px;">${label}`
+    });
   }
 
-  await pushSkillOptions(document.getElementById("Mainhand").value, 'MH');
-  await pushSkillOptions(document.getElementById("Offhand").value, 'OH');
+  document.getElementsByName("skillSelect").forEach(async (select) => {
+    var dataList = select.slim.getData();
+    dataList = dataList.filter(item => {
+      return !item.label?.includes(slot);
+    })
 
-  selects.forEach((el, index) => {
-    if (el.slim) el.slim.destroy(); // destroy old instance
 
-    el.innerHTML = ""; // clear options
+    dataList.push({
+      text: 'Select a skill',
+      value: '',
+      placeholder: true,
+      disabled: true
+    })
 
-    el.slim = new SlimSelect({
-      select: el,
-      data: dataList,
-      settings: {
-        showSearch: true
-      },
-      events: {
-        afterChange: (info) => {
-          fillTraits(info[0].data.weaponType, info[0].data.guid, index)
-          SkillCalcNew(info[0].value, info[0].data.slot, index)
-        }
-      }
-    });
+
+    dataList.push({
+      label: slot,
+      options: resultList
+    })
+    select.slim.setData(dataList);
   })
 }
 
 function fillSelectWeapon() {
-  const selects = document.getElementsByName("weaponSelect");
-
-  // Prepare shared dataList
-  const dataList = [];
-
-  for (const weaponName of skillFiles) {
-    try {
-
-      const label = weaponName;
-      const iconPath = './Image/Weapon/' + weaponName + ".png";
-
+  document.getElementsByName("weaponSelect").forEach(select => {
+    if (!select.slim) {
+      const dataList = [];
       dataList.push({
-        text: label,
-        html: `<img src="${iconPath}" style="height: 30px; vertical-align: middle; margin-right: 6px;">${label}`
-      });
+        text: 'Select a Weapon',
+        value: '',
+        placeholder: true,
+        disabled: true
+      })
+      for (const WeaponName of FilesList) {
+        const label = WeaponName;
+        const iconPath = './Image/Weapon/' + WeaponName + ".png";
 
-    } catch (err) {
-      console.warn("Failed to parse skill entry:", weaponSkill, err);
-    }
-  }
-
-  selects.forEach(el => {
-    if (el.slim) el.slim.destroy();
-    el.innerHTML = "";
-
-    el.slim = new SlimSelect({
-      select: el,
-      data: dataList,
-      settings: {
-        showSearch: false
-      },
-      selected: true,
-      events: {
-        afterChange: () => {
-          onWeaponChange()
-        }
+        dataList.push({
+          text: label,
+          html: `<img src="${iconPath}" style="height: 30px; vertical-align: middle; margin-right: 6px;">${label}`
+        });
       }
-    });
-  });
+      select.slim = new SlimSelect({
+        select: select,
+        data: dataList,
+        settings: {
+          showSearch: false
+        },
+        events: {
+          afterChange: async (info) => {
+            onWeaponChange(info[0].value, select.dataset.slot)
+          }
+        }
+      })
+    }
+  })
 }
 
 console.log("✅ skills.js loaded");
+
+// --- Main Docsify Plugin Logic ---
 
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
   console.log("✅ Docsify plugin registered");
 
+  // This hook runs after each page is loaded.
   hook.doneEach(async () => {
     const currentPage = vm.route.path;
 
-    // Only run this logic if we're on dd_calc.md
-    if (!currentPage.includes("/calculator/dd_calc")) return;
+    // Only execute specific logic for the calculator page.
+    if (!currentPage.includes(dom.CALCULATOR_PATH)) {
+      console.log("Skipping calculator logic on non-calculator page.");
+      return;
+    }
 
+    console.log("✅ Executing calculator logic for:", currentPage);
+
+    // Preload data if needed
     await preloadSkillData();
 
-    console.log("✅ Executing skill table injection for:", currentPage);
+    // Setup UI event listeners
+    dom.setupPasteWindowListeners();
 
-    document.getElementById('openPasteWindow').onclick = () => {
-      document.getElementById('pasteOverlay').style.display = 'flex';
-    };
+    // Inject and initialize the skill table
+    dom.injectSkillTable();
 
-    document.getElementById('closePasteWindow').onclick = () => {
-      document.getElementById('pasteOverlay').style.display = 'none';
-    };
-
-    document.getElementById('parseStats').onclick = () => {
-      const text = document.getElementById('statInput').value;
-      parseQuestLogStats(text);
-      document.getElementById('pasteOverlay').style.display = 'none';
-    };
-
-    document.getElementById('parseStats').onclick = () => {
-      const text = document.getElementById('statInput').value;
-      parseQuestLogStats(text);
-      document.getElementById('pasteOverlay').style.display = 'none';
-    };
-    document.getElementById('parseClipboard').onclick = async () => {
-      try {
-        const text = await navigator.clipboard.readText();
-        document.getElementById('statInput').value = text;
-      } catch (err) {
-        console.warn("Clipboard access denied:", err);
-      }
-    }
-
-    const tbody = document.getElementById("table-skills-select");
-    if (!tbody || tbody.dataset.generated === "true") return;
-
-    for (let i = 0; i < 12; i++) {
-      const tr = document.createElement("tr");
-
-      const tdSkill = document.createElement("td");
-      const select = document.createElement("select");
-      select.id = `skill-${i}`;
-      select.name = "skillSelect";
-      tdSkill.appendChild(select);
-      tr.appendChild(tdSkill);
-
-      const tdTrait = document.createElement("td");
-      const selectTrait = document.createElement("select");
-      selectTrait.id = `trait-${i}`;
-      selectTrait.setAttribute("multiple", "multiple");
-      tdTrait.appendChild(selectTrait);
-      tr.appendChild(tdTrait);
-
-      ["dmg-percent", "dmg-flat", "max-dmg", "avg-dmg", "cooldown", "animlock"].forEach(field => {
-        const td = document.createElement("td");
-        td.id = `${field}-${i}`;
-        td.textContent = "-";
-        tr.appendChild(td);
-      });
-      tbody.appendChild(tr);
-    }
-
-    tbody.dataset.generated = "true";
-    fillSelectWeapon();
-    onWeaponChange?.();
-    document.querySelectorAll('input:not([name])').forEach(inputField => {
-      inputField.oninput = () => {
-        document.getElementsByName("skillSelect").forEach((select, index) => {
-          for (const i of select.slim.getData()) {
-            if (i.selected) {
-              SkillCalcNew(i.value, i.data.slot, index);
-            }
-          }
-        });
-      };
-    });
+    fillSelectWeapon()
   });
 });
