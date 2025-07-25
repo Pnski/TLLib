@@ -152,18 +152,18 @@ export function createSkillTableRow(index) {
     // Initialize SlimSelect for skill and trait dropdowns
     selectSkill.slim = initializeSlimSelect(
         selectSkill,
-        'Select a skill', // More user-friendly placeholder
+        'Select a skill',
         true, // Allow search for skills
         false, // Not multiple
         (info) => {
             fillTraits(info[0].data.weaponType, info[0].data.guid, index)
-            SkillCalcNew(info[0].value, index)
+            SkillCalcNew(info[0].value, info[0].data.slot, index)
         }
     );
 
     selectTrait.slim = initializeSlimSelect(
         selectTrait,
-        'Select traits', // More user-friendly placeholder
+        'Select traits',
         true, // Allow search for traits
         true, // Allow multiple traits
         (info) => console.log(`Trait ${index + 1} changed`, info)
@@ -191,7 +191,6 @@ export function injectSkillTable() {
         return;
     }
 
-    // Use a DocumentFragment for efficient DOM manipulation
     const fragment = document.createDocumentFragment();
     for (let i = 0; i < 12; i++) {
         fragment.appendChild(createSkillTableRow(i));
@@ -201,4 +200,20 @@ export function injectSkillTable() {
     // Mark as generated to prevent future calls
     tbody.dataset.generated = "true";
     console.log("✅ Skill table injected and SlimSelects initialized.");
+}
+
+export function dataFieldChange() {
+    document.querySelectorAll('input').forEach(inputField => {
+        inputField.addEventListener('input', () => {
+            document.getElementsByName("skillSelect").forEach((select, index) => {
+                for (const item of select.slim.getData()) {
+                    item.options?.find(match => {
+                        if (match.value == select.slim.getSelected()) {
+                            SkillCalcNew(match.value, item.label ,index)
+                        }
+                    })
+                }
+            })
+        })
+    })
 }
