@@ -1,4 +1,4 @@
-import { fillTraits, SkillCalcNew } from './skills.js'; // Added parseQuestLogStats as well
+import { fillTraits, SkillCalcNew, parseQuestLogStats } from './skills.js'; // Added parseQuestLogStats as well
 
 // --- Global Configuration / Constants (if any) ---
 // Define constants for IDs to avoid magic strings

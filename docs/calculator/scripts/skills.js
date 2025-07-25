@@ -25,7 +25,7 @@ async function preloadSkillData() {
   if (!FormulaParameter) FormulaParameter = await load.FormulaParameter();
 }
 
-function parseQuestLogStats(text) {
+export function parseQuestLogStats(text) {
   const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
   const stats = {};
 
@@ -65,7 +65,7 @@ function parseQuestLogStats(text) {
   if (stats['Species Damage Boost']) document.getElementById('speciesBoost').value = stats['Species Damage Boost'];
 }
 
-function querySkillData(index) {
+function querySkillData() {
   const result = {}
   document.querySelectorAll('[data-skill-id]').forEach(qSA => {
     const path = qSA.dataset.skillId;
@@ -96,17 +96,8 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
 
   document.getElementById('max-dmg-' + index).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[weaponSlot].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
 
-  /* 
-  document.getElementsByName("skillSelect").forEach(qSkills => {
-    const rowID = qSkills.id.split('-').at(-1) // 1 - 12
-    document.getElementById('cooldown-' + rowID).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
-    document.getElementById('animlock-' + rowID).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd).toFixed(4)
-    const logSkill = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD')]
-    document.getElementById('dmg-percent-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
-    document.getElementById('dmg-flat-' + rowID).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
-    //document.getElementById('avg-dmg') = 0
-    document.getElementById('max-dmg-' + rowID).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[weaponSlot].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
-  }) */
+  //document.getElementById('avg-dmg') = 0
+
 }
 
 
