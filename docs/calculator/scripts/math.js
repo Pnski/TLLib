@@ -75,6 +75,11 @@ export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, 
     return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+AttackModChance(CritHit)) + BonusDamage
 }
 
+/**
+ * calculate attackspeed
+ * (weapon base attack speed - dex attackmod)/(1+(attackspeed mod%/100))
+ */
+
 
 /* 
 

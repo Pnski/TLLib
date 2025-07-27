@@ -26,43 +26,79 @@ async function preloadSkillData() {
 }
 
 export function parseQuestLogStats(text) {
-  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+  var lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
   const stats = {};
+  //check for floating point
+  for (let i = 0; i < lines.length - 1; i++) {
 
+    if (lines[i].includes('.') && lines[i].includes(',')) {
+      console.log("myline ,.", lines[i])
+      if (lines[i].indexOf(',') < lines[i].indexOf('.')) {
+        console.log(", < .")
+        lines = text.replace(/\,/g, '').split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+      } else {
+        console.log(", > .")
+        lines = text.replace(/\./g, '').replace(/\,/g, '.').split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+      }
+      break
+    } else if (lines[i].includes('.') && lines[i].endsWith('%')) {
+      console.log("myline .%", lines[i])
+      lines = text.replace(/\,/g, '').split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+      break
+    } else if (lines[i].includes(',') && lines[i].endsWith('%')) {
+      console.log("myline ,%", lines[i])
+      lines = text.replace(/\./g, '').replace(/\,/g, '.').split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+      break
+    }
+  }
+  //should find at least one floating point break the loop and cleaned up the whole text and therefor all lines
   for (let i = 0; i < lines.length - 1; i++) {
     const key = lines[i];
     let value = lines[i + 1];
 
-    // Match numeric-looking values with optional %/s/m/etc.
-    if (/^[\d+-,.]+(%|s|m)?$/i.test(value)) {
-      // Clean it: remove non-numeric characters, normalize commas
-      const cleaned = value.replace(/[^\d.,\-]/g, '').replace(',', '');
-
-      const numeric = parseFloat(cleaned);
+    if (parseFloat(value)) { //any number
       if (!stats[key]) stats[key] = [];
-      stats[key].push(numeric);
-      i++; // skip value line
+      stats[key].push(parseFloat(value));
     }
   }
 
-  if (stats['Fail']) document.getElementById('MH.M.Min').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('MH.M.Max').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('MH.Spd').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('MH.O.Min').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('MH.O.Max').value = stats['Fail'];
-  if (stats['Fail']) document.getElementById('MH.Off').value = stats['Fail'];
-  if (stats['Boss Melee Critical Hit Chance']) document.getElementById('critMelee').value = stats['Boss Melee Critical Hit Chance'];
-  if (stats['Boss Ranged Critical Hit Chance']) document.getElementById('critRanged').value = stats['Boss Ranged Critical Hit Chance'];
-  if (stats['Boss Magic Critical Hit Chance']) document.getElementById('critMagic').value = stats['Boss Magic Critical Hit Chance'];
-  if (stats['Boss Melee Heavy Attack Chance']) document.getElementById('heavyMelee').value = stats['Boss Melee Heavy Attack Chance'];
-  if (stats['Boss Ranged Heavy Attack Chance']) document.getElementById('heavyRanged').value = stats['Boss Ranged Heavy Attack Chance'];
-  if (stats['Boss Magic Heavy Attack Chance']) document.getElementById('heavyMagic').value = stats['Boss Magic Heavy Attack Chance'];
-  if (stats['Skill Damage Boost']) document.getElementById('SDB').value = stats['Skill Damage Boost'];
-  if (stats['Bonus Damage']) document.getElementById('BD').value = stats['Bonus Damage'];
-  if (stats['Critical Damage']) document.getElementById('CD').value = stats['Critical Damage'];
-  if (stats['Cooldown Speed']) document.getElementById('CDR').value = stats['Cooldown Speed'];
-  if (stats['Buff Duration']) document.getElementById('BuffDuration').value = stats['Buff Duration'];
-  if (stats['Species Damage Boost']) document.getElementById('speciesBoost').value = stats['Species Damage Boost'];
+  console.log(stats)
+
+  const statMapWithFallbacks = {
+    'critMelee': ['Boss Melee Critical Hit Chance', 'Melee Critical Hit Chance'],
+    'critRanged': ['Boss Ranged Critical Hit Chance', 'Ranged Critical Hit Chance'],
+    'critMagic': ['Boss Magic Critical Hit Chance', 'Magic Critical Hit Chance'],
+    'heavyMelee': ['Boss Melee Heavy Attack Chance', 'Melee Heavy Attack Chance'],
+    'heavyRanged': ['Boss Ranged Heavy Attack Chance', 'Ranged Heavy Attack Chance'],
+    'heavyMagic': ['Boss Magic Heavy Attack Chance', 'Magic Heavy Attack Chance'],
+    'SDB': ['Skill Damage Boost'],
+    'BD': ['Bonus Damage'],
+    'CD': ['Critical Damage'],
+    'CDR': ['Cooldown Speed'],
+    'BuffDuration': ['Buff Duration'],
+    'speciesBoost': ['Species Damage Boost']
+  };
+
+  for (const elementId in statMapWithFallbacks) {
+    if (statMapWithFallbacks.hasOwnProperty(elementId)) {
+      const possibleStatKeys = statMapWithFallbacks[elementId];
+      let foundValue = null;
+
+      for (const statKey of possibleStatKeys) {
+        if (stats.hasOwnProperty(statKey) && stats[statKey] !== undefined && stats[statKey] !== null) {
+          foundValue = stats[statKey];
+          break;
+        }
+      }
+
+      const element = document.getElementById(elementId);
+      if (element) {
+        if (foundValue !== null) {
+          element.value = foundValue[0] || foundValue;
+        }
+      }
+    }
+  }
 }
 
 function querySkillData() {
@@ -87,10 +123,18 @@ function querySkillData() {
 export async function SkillCalcNew(skillInternal, weaponSlot, index) {
   await preloadSkillData();
   const qSD = querySkillData();
+
+  //check if trait changes skill (e.g. guillotineBlade)
+
+
+  //Check for dynamic stats?
+  console.log("check dynamic stats", FormulaParameter[SkillOptionalData[skillInternal].cooldown_time])
+
   document.getElementById('cooldown-' + index).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
   document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd).toFixed(4)
 
   const logSkill = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD')]
+  //if (logSkill?.FormulaParameter[0].)
   document.getElementById('dmg-percent-' + index).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
   document.getElementById('dmg-flat-' + index).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
 

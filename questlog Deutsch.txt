@@ -1,0 +1,265 @@
+Favoriten
+Zusatzschaden
+88
+Angriffstempo
+85 %
+Chance auf starken Fernkampfangriff
+582
+(36.8%)
+Chance auf starken Nahkampfangriff
+598
+(37.4%)
+Krit. Chance für Fernkampftreffer
+1.767
+(63.9%)
+Krit. Nahkampftrefferchance
+1.799
+(64.3%)
+Kritischer Schaden
+36,8 %
+Abklingtempo
+47,2 %
+(32.1%)
+Buff-Dauer
+79,7 %
+Chance auf starken Angriff gg. Bosse
+386,4
+Chance auf starken Angriff von hinten
+80
+Angriffstempo
+0,18 Sek.
+Angriff
+Angriffstempo
+0,18 Sek.
+Angriffstempo
+85 %
+Reichweite
+4,14m
+Reichweite
+18,5 %
+Zusatzschaden
+88
+Chance auf Zweitwaffenangriff
+31,6 %
+Kritisch
+Krit. Nahkampftrefferchance
+1.799
+(64.3%)
+Krit. Chance für Magietreffer
+1.679
+(62.7%)
+Krit. Chance für Fernkampftreffer
+1.767
+(63.9%)
+Chance auf starken Nahkampfangriff
+598
+(37.4%)
+Chance auf starken Fernkampfangriff
+582
+(36.8%)
+Chance auf starken Magieangriff
+538
+(35.0%)
+Kritischer Schaden
+36,8 %
+Treffer
+Nahkampftrefferchance
+1.160
+Fernkampftrefferchance
+1.176
+Magietrefferchance
+1.160
+Schutz
+Schadensverringerung
+39
+Nahkampfverteidigung
+2.330
+Fernkampfverteidigung
+2.404
+Magieverteidigung
+2.657
+Nahkampfausweichen
+498
+(33.2%)
+Fernkampfausweichen
+408
+(29.0%)
+Magieausweichen
+1.202
+(54.6%)
+Nahkampfausdauer
+-76
+Fernkampfausdauer
+-31
+Magieausdauer
+41
+Krit. Schadensresistenz
+-1,6 %
+Attribute
+Stärke
+50
+Geschicklichkeit
+99
+Weisheit
+60
+Wahrnehmung
+87
+Standhaftigkeit
+11
+Ressourcen
+Max. Gesundheit
+24.503
+Gesundheitsregeneration
+302,75
+Max. Mana
+9.750
+Manaregeneration
+864
+Manakosteneffizienz
+16,8 %
+(14.4%)
+Bewegung
+Bewegungstempo
+14,1 %
+Max. Ausdauer
+30
+Ausdauerregeneration
+13,9
+Fähigkeiten
+Fähigkeitsschaden-Bonus
+339
+(25.3%)
+Abklingtempo
+47,2 %
+(32.1%)
+Buff-Dauer
+79,7 %
+Debuff-Dauer
+-15,8 %
+Widerstand
+Schwächungsresistenz
+92
+Betäubungsresistenz
+-25
+Versteinerungsresistenz
+20
+Schlafresistenz
+-25
+Stummresistenz
+20
+Furchtwiderstand
+20
+Fesselresistenz
+20
+Kollisionsresistenz
+20
+Fähigkeitsschaden-Resistenz
+513
+(33.9%)
+Massenkontrolle
+Chance auf Betäuben
+535
+Chance auf Furcht
+535
+Chance auf Fesseln
+555
+Chance auf Versteinern
+535
+Chance auf Schlaf
+535
+Chance auf Kollision
+535
+Chance auf Stumm
+535
+Schwächungschance
+580
+PvP
+Krit. Nahkampftrefferchance im PvP
+1.799
+Krit. Chance für Fernkampftreffer im PvP
+1.767
+Krit. Chance für Magietreffer im PvP
+1.679
+PvP-Nahkampfausdauer
+-76
+PvP-Fernkampfausdauer
+-31
+PvP-Magieausdauer
+41
+PvP-Nahkampftrefferchance
+1.160
+PvP-Fernkampftrefferchance
+1.176
+PvP-Magietrefferchance
+1.160
+PvP-Nahkampfausweichen
+498
+PvP-Fernkampfausweichen
+408
+PvP-Magieausweichen
+1.202
+Chance auf starken Nahkampfangriff im PvP
+598
+Chance auf starken Fernkampfangriff im PvP
+582
+Chance auf starken Magieangriff im PvP
+538
+Boss
+Boss-Schadensverringerung
+39
+Krit. Nahkampftrefferchance gegen Bosse
+1.799
+Krit. Chance für Fernkampftreffer gegen Bosse
+1.767
+Krit. Chance für Magietreffer gegen Bosse
+1.679
+Boss-Nahkampfausdauer
+-76
+Boss-Fernkampfausdauer
+-31
+Boss-Magieausdauer
+41
+Nahkampftrefferchance gegen Bosse
+1.160
+Chance auf Fernkampftreffer gegen Bosse
+1.176
+Magietrefferchance gegen Bosse
+1.160
+Boss-Nahkampfausweichen
+498
+Boss-Fernkampfausweichen
+408
+Boss-Magieausweichen
+1.202
+Chance auf starken Nahkampfangriff gegen Bosse
+984,4
+Chance auf starken Fernkampfangriff gegen Bosse
+968,4
+Chance auf starken Magieangriff gegen Bosse
+924,4
+Andere
+Humanoide-Zusatzschaden
+6
+Fehlend
+Spezies-Schadensbonus
+72
+Amitoi-Heilung
+102,9 %
+Front-Ausweichen
+151
+Ausweichen von starken Seiten-Angriffen
+151
+Trefferchance von hinten
+40
+Chance auf starken Angriff von hinten
+80
+Krit. Treffer von hinten
+80
+Wildclan-Schadensbonus
+25
+Wildclan-Schadensresistenz
+30
+Fernkampf-Schadensbonus
+3 %
+CC-Chance
+100

@@ -37,6 +37,8 @@ function setDisplay(element, displayStyle) {
     }
 }
 
+console.log("test")
+
 /**
  * Initializes a SlimSelect instance.
  * @param {HTMLElement} selectElement - The HTML select element.
@@ -60,6 +62,7 @@ function initializeSlimSelect(selectElement, placeholderText, showSearch = false
         settings: {
             showSearch: showSearch,
             isMultiple: isMultiple,
+            allowDeselect: isMultiple
         },
         events: {} // Initialize events object
     };
@@ -145,7 +148,7 @@ export function createSkillTableRow(index) {
     const tdTrait = document.createElement("td");
     const selectTrait = document.createElement("select");
     selectTrait.id = `trait-${index}`;
-    selectTrait.setAttribute("multiple", "multiple"); // Ensure multiple attribute is set
+    selectTrait.setAttribute("multiple",'true'); // Ensure multiple attribute is set
     tdTrait.appendChild(selectTrait);
     tr.appendChild(tdTrait);
 
