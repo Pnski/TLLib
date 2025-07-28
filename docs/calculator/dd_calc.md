@@ -18,7 +18,7 @@
   <thead>
     <tr>
       <th scope="col">Mainhand Weapon</th>
-      <th scope="col">Offhand Weapon</th>
+      <th scope="col">Secondary Weapon</th>
     </tr>
   </thead>
   <tbody>
@@ -28,7 +28,7 @@
         <select name="weaponSelect" data-slot="MainHand" id="mainhandWeaponSelect"></select>
       </td>
       <td>
-        <label for="offhandWeaponSelect" class="sr-only">Select Offhand Weapon</label>
+        <label for="offhandWeaponSelect" class="sr-only">Select Secondary Weapon</label>
         <select name="weaponSelect" data-slot="OffHand" id="offhandWeaponSelect"></select>
       </td>
     </tr>
@@ -57,14 +57,14 @@
 <table>
   <tbody>
     <tr>
-      <th colspan="6">Weapon Statistics</th>
+      <th colspan="6">Main Weapon Statistics</th>
     </tr>
     <tr>
-      <td><label for="MainHand.M.Min">MainHand Dmg Min</label></td>
+      <td><label for="MainHand.M.Min">Dmg Min</label></td>
       <td><input type="number" step="any" data-skill-id="MainHand.M.Min" id="MainHand.M.Min"></td>
-      <td><label for="MainHand.M.Max">MainHand Dmg Max</label></td>
+      <td><label for="MainHand.M.Max">Dmg Max</label></td>
       <td><input type="number" step="any" data-skill-id="MainHand.M.Max" id="MainHand.M.Max"></td>
-      <td><label for="MainHand.Spd">MainHand Attack Speed</label></td>
+      <td><label for="MainHand.Spd">Attack Speed</label></td>
       <td><input type="number" step="any" data-skill-id="MainHand.Spd" id="MainHand.Spd"></td>
     </tr>
     <tr>
@@ -76,19 +76,22 @@
       <td><input type="number" step="any" data-skill-id="MainHand.Off" id="MainHand.Off"></td>
     </tr>
     <tr>
-      <td><label for="OffHand.M.Min">Secondary Dmg Min</label></td>
+      <th colspan="6">Secondary Weapon Statistics</th>
+    </tr>
+    <tr>
+      <td><label for="OffHand.M.Min">Dmg Min</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.M.Min" id="OffHand.M.Min"></td>
-      <td><label for="OffHand.M.Max">Secondary Dmg Max</label></td>
+      <td><label for="OffHand.M.Max">Dmg Max</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.M.Max" id="OffHand.M.Max"></td>
-      <td><label for="OffHand.Spd">Secondary Attack Speed</label></td>
+      <td><label for="OffHand.Spd">Attack Speed</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.Spd" id="OffHand.Spd"></td>
     </tr>
     <tr>
-      <td><label for="OffHand.O.Min">Secondary OffHand Dmg Min</label></td>
+      <td><label for="OffHand.O.Min">OffHand Dmg Min</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.O.Min" id="OffHand.O.Min"></td>
-      <td><label for="OffHand.O.Max">Secondary OffHand Dmg Max</label></td>
+      <td><label for="OffHand.O.Max">OffHand Dmg Max</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.O.Max" id="OffHand.O.Max"></td>
-      <td><label for="OffHand.Off">Secondary OffHand Chance</label></td>
+      <td><label for="OffHand.Off">OffHand Chance</label></td>
       <td><input type="number" step="any" data-skill-id="OffHand.Off" id="OffHand.Off"></td>
     </tr>
     <tr>
