@@ -56,6 +56,7 @@ jobs:
       - name: Compress files in sources
         run: |
           mkdir -p compressed
+          mkdir -p compressed/minified-sources
           find minified-sources -type f ! -name '*.gz' | while read -r file; do
             gzip -c "$file" > "compressed/$file.gz"
           done
@@ -68,7 +69,7 @@ jobs:
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
-          cp -r compressed/* public/sources/
+          cp -r compressed/minified-sources/* public/sources/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
