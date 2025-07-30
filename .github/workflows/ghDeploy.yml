@@ -55,6 +55,7 @@ jobs:
 
       - name: Compress files in sources
         run: |
+          mkdir -p compressed
           find minified-sources -type f ! -name '*.gz' | while read -r file; do
             gzip -c "$file" > "compressed/$file.gz"
           done
