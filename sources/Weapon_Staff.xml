@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="947417906" id="Weapon_Staff" revision="0" description="지팡이 무기 세트" feature_tag="BASE_LH" publisher_tag="ALL" defense_complex_guid="962105160" _fsg_copyable="true" _fsg_movable="true">
+  <skill_complex_list>
+    <skill_complex guid="947943744" is_basic_attack="true" is_for_polymorphed_only="false" description="기본 공격" unlock_level="1" id="SkillSet_WP_ST_S_BasicAttack" skill_enchant_category="kNone" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPrimeSkill">
+      <context uid="0" unlock_level="1" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="948140365" is_toggle_slot="true">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_BasicAttack_1" default_skill_id_disable="false" description="아이스 볼트 1타">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_SUB" min_count="0">
+                    <set_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1" next_combo_state="kComboState01" />
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_ST_S_BasicAttack_2" default_skill_id_disable="false" description="아이스 볼트 2타">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_SUB" min_count="0">
+                    <set_skill skill_id="WP_ST_S_BasicAttack_2_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="WP_ST_S_BasicAttack_2" next_combo_state="kComboState02" />
+                  <use_skill skill_id="WP_ST_S_BasicAttack_2_Mastery" next_combo_state="kComboState02" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_ST_S_BasicAttack_3" default_skill_id_disable="false" description="아이스 볼트 3타">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_SUB" min_count="0">
+                    <set_skill skill_id="WP_ST_S_BasicAttack_3_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="WP_ST_S_BasicAttack_3" next_combo_state="kComboState03" />
+                  <use_skill skill_id="WP_ST_S_BasicAttack_3_Mastery" next_combo_state="kComboState03" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_ST_S_BasicAttack_1" default_skill_id_disable="false" description="아이스 볼트 4타">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_SUB" min_count="0">
+                    <set_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1" next_combo_state="kComboState01" />
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_ST_S_BasicAttack_1" default_skill_id_disable="false" description="아이스 볼트 1타">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_SUB" min_count="0">
+                    <set_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1" next_combo_state="kComboState01" />
+                  <use_skill skill_id="WP_ST_S_BasicAttack_1_Mastery" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_04>
+            </default>
+            <custom custom_id="Custom_CP_ST_BasicAttack_Default" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_CP_BasicAttack_1" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_CP_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_ST_S_CP_BasicAttack_2" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_CP_BasicAttack_2" next_combo_state="kComboState02" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_ST_S_CP_BasicAttack_3" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_CP_BasicAttack_3" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_ST_S_CP_BasicAttack_4" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_CP_BasicAttack_4" next_combo_state="kComboState04" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_ST_S_CP_BasicAttack_1" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_CP_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_04>
+            </custom>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="947950120" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 사슬 벼락" skill_grade="kB" unlock_level="1" id="SkillSet_WP_ST_S_MainAttack" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton04" growth_exchangeable_group="kActiveB">
+      <context uid="10" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="963455789" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_MainAttack_Hero" default_skill_id_disable="false" description="라이트닝 체인" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_MainAttack_trait_1" uid="0" point="10" unlock_level="15" trait_dynamic_stat_id_01="ST_MainAttack_Cost_trait1" trait_dynamic_stat_multiplier_formula_01="ST_MainAttack_Cost_trait1" />
+        <trait trait_id="SkillSet_WP_ST_S_MainAttack_trait_2" uid="1" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_MainAttack_trait_3" uid="2" point="3" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948277818" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 연발 불꽃탄" skill_grade="kB" id="SkillSet_WP_ST_S_WideAreaAttack" skill_enchant_category="kDebuff" skill_type="kActiveSkill" unlock_level="1" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton01" growth_exchangeable_group="kActiveB">
+      <context uid="25" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="967984511" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaAttack_Hero_1" default_skill_id_disable="false" description="파이어볼">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_1" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_2" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_3" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaAttack_trait_1 SkillSet_WP_ST_S_WideAreaAttack_trait_2" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_WideAreaAttack_Charge_Canmove" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaAttack_trait_2 SkillSet_WP_ST_S_WideAreaAttack_trait_5" uid="2">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaAttack_Hero_1_Canmove_trait5" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_1" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_2_Canmove_trait5" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_2" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_3_Canmove_trait5" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaAttack_trait_1" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_WideAreaAttack_Charge" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaAttack_trait_2" uid="4">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaAttack_Hero_1_Canmove" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_1" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_2_Canmove" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_2" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_3_Canmove" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaAttack_trait_5" uid="5">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaAttack_Hero_1_trait5" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_1" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_2_trait5" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_BlazeBallBuff_2" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaAttack_Hero_1_3_trait5" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaAttack_trait_1" uid="0" point="7" exclusive_group="kGroup_01" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaAttack_trait_2" uid="1" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaAttack_trait_3" uid="2" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaAttack_trait_4" uid="3" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaAttack_trait_5" uid="4" point="5" exclusive_group="kGroup_01" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948540018" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 심판의 낙뢰" skill_grade="kB" id="SkillSet_WP_ST_S_PowerAttack" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton10" unlock_level="36" growth_exchangeable_group="kActiveB">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="36">
+        <presets>
+          <preset guid="948474482" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_PowerAttack" default_skill_id_disable="false" description="디스인티그레이트">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_Powerattack_Buff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_PowerAttack_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_PowerAttack_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_PowerAttack_Casting" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_Powerattack_Buff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_PowerAttack_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_PowerAttack_trait_1" uid="0" point="5" unlock_level="36" />
+        <trait trait_id="SkillSet_WP_ST_S_PowerAttack_trait_2" uid="1" point="5" unlock_level="36" />
+        <trait trait_id="SkillSet_WP_ST_S_PowerAttack_trait_3" uid="2" point="3" unlock_level="36" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="947936407" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [희귀] 폭염의 파장" skill_grade="kB" id="SkillSet_WP_ST_S_WideAreaDebuffAttack" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton02" unlock_level="1" growth_exchangeable_group="kActiveB">
+      <context uid="5" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="943104513" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaDebuffAttack_Hero" default_skill_id_disable="false" description="플레임 스파이크">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_WideAreaDebuffAttackBuff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaDebuffAttack_Hero_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaDebuffAttack_trait_1" uid="3">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_WideAreaDebuffAttack_Hero_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_WideAreaDebuffAttackBuff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_WideAreaDebuffAttack_Hero_trait1_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaDebuffAttack_trait_1" uid="0" point="5" exclusive_group="kGroup_01" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaDebuffAttack_trait_2" uid="1" point="3" unlock_level="15" trait_dynamic_stat_id_01="ST_WideAreaDebuffAttack_CoolDown_Trait2" trait_dynamic_stat_adder_formula_01="ST_WideAreaDebuffAttack_CoolDown_Trait2" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaDebuffAttack_trait_3" uid="2" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaDebuffAttack_trait_4" uid="3" point="3" exclusive_group="kGroup_01" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948973499" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [고급] 고행의 술책" skill_grade="kB" id="SkillSet_WP_ST_S_ManaRegenBuff" skill_enchant_category="kBuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill02" unlock_level="6" growth_exchangeable_group="kPassiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="6">
+        <presets>
+          <preset guid="961233718" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_ManaRegenBuff_Hero" default_skill_id_disable="false" description="마나 리커버리" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_ManaRegenBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="949235737" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [고급] 마나구 분출" skill_grade="kB" id="SkillSet_WP_ST_S_AddProjectile" skill_enchant_category="kAttack" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill01" unlock_level="3" growth_exchangeable_group="kPassiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="3">
+        <presets>
+          <preset guid="960840677" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_AddProjectile_Hero" default_skill_id_disable="false" description="익스트라 볼트" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_AddProjectile_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="949366850" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [희귀] 마나 증폭술" skill_grade="kB" id="SkillSet_WP_ST_S_MaxManaUp" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill03" unlock_level="12" growth_exchangeable_group="kPassiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="12">
+        <presets>
+          <preset guid="965256173" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_MaxManaUp_Hero" default_skill_id_disable="false" description="노 머시" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_MaxManaUp_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="956748113" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [희귀] 화염 응집술" skill_grade="kB" id="SkillSet_WP_ST_S_BurnTargetAddDamage" skill_enchant_category="kAttack" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill04" unlock_level="21" growth_exchangeable_group="kPassiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="21">
+        <presets>
+          <preset guid="958189905" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_KillByResistanceSkill_Hero" default_skill_id_disable="false" description="그리디 파이어" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_KillByResistanceSkill_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="957469162" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 반향의 장벽" skill_grade="kB" id="SkillSet_WP_ST_S_SilenceToleranceBuff" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill05" unlock_level="27" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="27">
+        <presets>
+          <preset guid="957534698" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_SilenceToleranceBuff" default_skill_id_disable="false" description="에코익 배리어" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_SilenceToleranceBuff" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="971494082" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 고도의 집중" skill_grade="kB" id="SkillSet_WP_ST_S_GlobalCoolDownBuff" skill_enchant_category="kBuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton08" unlock_level="30" growth_exchangeable_group="kActiveB">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="30">
+        <presets>
+          <preset guid="972608194" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_GlobalCoolDownUp" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_GlobalCoolDownBuff_trait_1" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_GlobalCoolDownUp_trait1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_GlobalCoolDownBuff_trait_1" uid="0" point="7" unlock_level="30" />
+        <trait trait_id="SkillSet_WP_ST_S_GlobalCoolDownBuff_trait_2" uid="1" point="5" unlock_level="30" />
+        <trait trait_id="SkillSet_WP_ST_S_GlobalCoolDownBuff_trait_3" uid="2" point="5" unlock_level="30" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="972215075" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [희귀] 내면의 평정" skill_grade="kB" id="SkillSet_WP_ST_S_ManaRengeUp" skill_enchant_category="kBuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton05" unlock_level="9" growth_exchangeable_group="kActiveB">
+      <context uid="5" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="9">
+        <presets>
+          <preset guid="969462563" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_ManaRengeUp_Hero" default_skill_id_disable="false" description="마나 컨트롤" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_ManaRengeUp_trait_3" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_ManaRengeUp_Legend" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_ManaRengeUp_trait_1" uid="0" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_ManaRengeUp_trait_2" uid="1" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_ManaRengeUp_trait_3" uid="2" point="5" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="962105160" id="SkillSet_WP_ST_S_CounterMove" is_basic_attack="false" is_for_polymorphed_only="false" description="[D] [고급] 신비 보호막" unlock_level="1" skill_enchant_category="kRecovery" skill_grade="kB" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kDefenseAction" growth_exchangeable_group="kActiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="963546405" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="CM_ST_CounterMove_ActionSkill_slot_Hero" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_ST_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_Countermove_Contextbuff_Rolling" min_count="0">
+                    <set_skill skill_id="CM_ST_Countermove_Fire_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_Countermove_Contextbuff_Defence" min_count="0">
+                    <set_skill skill_id="CM_ST_Countermove_Lightning_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="CM_ST_CounterMove_ActionSkill_slot_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_ST_Countermove_Fire_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_ST_Countermove_Lightning_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="968439792" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 서리 연막진" skill_grade="kB" id="SkillSet_WP_ST_S_AoeTeleport" skill_enchant_category="kMove" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" skill_slot_affinity="kButton03" growth_exchangeable_group="kActiveB">
+      <context uid="10" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="968112112" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_AoeTeleport_Hero" default_skill_id_disable="false" description="마나 컨트롤">
+                  <if_abnormal_state abnormal_state_id="abn_Gigantrite_SafeBuff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_AoeTeleport_Hero" skill_id_disable="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_AoeTeleport_trait_1 SkillSet_WP_ST_S_AoeTeleport_trait_2" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_AoeTeleport_FieldArea_trait1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_AoeTeleport_trait_1" uid="2">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_AoeTeleport_Hero_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_Gigantrite_SafeBuff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_AoeTeleport_Hero_trait1" skill_id_disable="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_AoeTeleport_trait_2" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_AoeTeleport_FieldArea" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_AoeTeleport_trait_1" uid="0" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_AoeTeleport_trait_2" uid="1" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_AoeTeleport_trait_3" uid="2" point="3" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="968452014" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 금단의 성역" skill_grade="kB" id="SkillSet_WP_ST_S_SkillPowerAmplificationBuff" skill_enchant_category="kAttack" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill07" unlock_level="39" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="39">
+        <presets>
+          <preset guid="968517550" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_HitDamageReductionBuff" default_skill_id_disable="false" description="제니스 미라클" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_HitDamageReductionBuff" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="968470883" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 지옥불 운석" skill_grade="kAA" id="SkillSet_WP_ST_S_WideAreaPowerAttack" skill_enchant_category="kDebuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton11" growth_exchangeable_group="kActiveSp01" unlock_level="50">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="50" min_skill_level="11" max_skill_level="15">
+        <presets>
+          <preset guid="968536419" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_Meteor_Attack" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_WideAreaPowerAttack_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_Meteor_Attack_Seperate" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_Item_ArcBoss_T2_ST_01" min_count="0">
+                    <set_skill skill_id="WP_ST_S_Meteor_Attack_Seperate_WP_Item_ArchBoss_T2_ST_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaPowerAttack_trait_1" uid="0" point="7" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaPowerAttack_trait_2" uid="1" point="3" unlock_level="50" trait_dynamic_stat_id_01="ST_WideAreaPowerAttack_CoolDown_Trait2" trait_dynamic_stat_adder_formula_01="ST_WideAreaPowerAttack_CoolDown_Trait2" />
+        <trait trait_id="SkillSet_WP_ST_S_WideAreaPowerAttack_trait_3" uid="2" point="5" unlock_level="50" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="968864101" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 얼음창" skill_grade="kB" id="SkillSet_WP_ST_S_IceSpear" skill_enchant_category="kDebuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton07" unlock_level="18" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="18">
+        <presets>
+          <preset guid="967881061" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_IceSpear" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_Item_Boss_T2_ST_02_Buff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_IceSpear_Boss_T2_ST_02" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_IceSpear_trait_1 SkillSet_WP_ST_S_IceSpear_trait_2" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_IceSpear_Onetarget_trait_2" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_TAC" min_count="0">
+                    <set_skill skill_id="WP_ST_S_IceSpear_Onetarget_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_IceSpear_trait_1" uid="2">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_IceSpear_Onetarget" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WM_ST_RARE_TAC" min_count="0">
+                    <set_skill skill_id="WP_ST_S_IceSpear_Onetarget_Mastery" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_IceSpear_trait_2" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_ST_S_IceSpear_trait_2" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_IceSpear_trait_1" uid="0" point="3" unlock_level="18" />
+        <trait trait_id="SkillSet_WP_ST_S_IceSpear_trait_2" uid="1" point="5" unlock_level="18" />
+        <trait trait_id="SkillSet_WP_ST_S_IceSpear_trait_3" uid="2" point="5" unlock_level="18" trait_dynamic_stat_id_01="ST_IceSpear_Trait3" trait_dynamic_stat_multiplier_formula_01="ST_IceSpear_Trait3" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="968208742" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 빙결 무덤" skill_grade="kB" id="SkillSet_WP_ST_S_IceFreeze" skill_enchant_category="kDebuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton08" unlock_level="24" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="24">
+        <presets>
+          <preset guid="968274278" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_IceFreeze" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_ST_S_IceFreezetrait1Buff" min_count="0">
+                    <set_skill skill_id="WP_ST_S_IceFreeze_Dispel_SP" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_IceFreeze_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_IceFreeze_Self" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_IceFreeze_trait_1" uid="0" point="3" exclusive_group="kGroup_01" unlock_level="24" />
+        <trait trait_id="SkillSet_WP_ST_S_IceFreeze_trait_2" uid="1" point="7" unlock_level="24" />
+        <trait trait_id="SkillSet_WP_ST_S_IceFreeze_trait_3" uid="2" point="5" exclusive_group="kGroup_01" unlock_level="24" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="967553384" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 서리의 주인" skill_grade="kB" id="SkillSet_WP_ST_S_SlowDuration" skill_enchant_category="kDebuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill06" unlock_level="33" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="33">
+        <presets>
+          <preset guid="967618920" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_SlowDuration" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_ST_S_SlowDuration" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="968431342" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 구원의 사슬" skill_grade="kAA" id="SkillSet_WP_ST_S_BringSkill" skill_enchant_category="kMove" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton12" growth_exchangeable_group="kActiveSp01" unlock_level="50">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="50" min_skill_level="11" max_skill_level="15">
+        <presets>
+          <preset guid="968551049" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_BringSkill" default_skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_BringSkill_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_BringSkill_Shield" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_ST_S_BringSkill_trait_2" uid="2">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_BringSkill_Move" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_BringSkill_trait_1" uid="0" point="7" exclusive_group="kGroup_01" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_ST_S_BringSkill_trait_2" uid="1" point="3" exclusive_group="kGroup_01" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_ST_S_BringSkill_trait_3" uid="2" point="3" unlock_level="50" trait_dynamic_stat_id_01="ST_BringSkill_CoolDown_Trait3" trait_dynamic_stat_adder_formula_01="ST_BringSkill_CoolDown_Trait3" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="968488563" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 화염구 난사" skill_grade="kB" id="SkillSet_WP_ST_S_FireCombo" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton06" unlock_level="15" growth_exchangeable_group="kActiveB">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="15">
+        <presets>
+          <preset guid="968522816" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_Firecombo" default_skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_ST_S_FireCombo_trait_4" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_ST_S_Firecombo_Canmove" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_ST_S_FireCombo_trait_1" uid="0" point="10" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_FireCombo_trait_2" uid="1" point="3" unlock_level="15" trait_dynamic_stat_id_01="ST_FireCombo_CoolDown_Trait2" trait_dynamic_stat_adder_formula_01="ST_FireCombo_Cooldown_Trait2" />
+        <trait trait_id="SkillSet_WP_ST_S_FireCombo_trait_3" uid="2" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_ST_S_FireCombo_trait_4" uid="3" point="3" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list>
+    <custom custom_id="Custom_WP_ST_S_WideAreaPowerAttack_Special" database_uid="0" description="특화: 미티어 스트라이크" />
+    <custom custom_id="Custom_WP_ST_S_PowerAttack_Special" database_uid="1" description="특화: 디스인티그레이트" />
+    <custom custom_id="Custom_WP_ST_S_ShieldBuff_Special" database_uid="2" description="특화: 디바인 배리어" />
+    <custom custom_id="Custom_WP_ST_S_MoveAttack_Special" database_uid="3" description="특화: 프리징 윈드" />
+    <custom custom_id="Custom_CP_ST_BasicAttack_Default" database_uid="4" />
+  </custom_list>
+</hero_skill_set>

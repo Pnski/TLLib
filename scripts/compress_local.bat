@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 rem === Path to source and output folders ===
-set "SOURCE=H:\TLLib\sources"
+set "SOURCE=G:\Cue4TnL\exports"
 set "OUTPUT=H:\TLLib\docs\sources"
 
 rem === Make sure output folder exists ===

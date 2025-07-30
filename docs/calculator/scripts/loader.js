@@ -1,5 +1,23 @@
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@5.2.5/+esm';
 
+async function fetchGzip(URL) {
+    const response = await fetch(URL+'.gz');
+
+    if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    const compressedBlob = await response.blob();
+
+    // Decompress it
+    const ds = new DecompressionStream('gzip');
+    const decompressedStream = compressedBlob.stream().pipeThrough(ds);
+    const decompressedBlob = await new Response(decompressedStream).blob();
+
+    const text = await decompressedBlob.text();
+
+    return text;
+}
+
 /* 
 loading skillOptionalDataForPc
 contains
@@ -20,8 +38,7 @@ contains
 */
 export async function FormulaParameter() {
     const path = 'sources/TLFormulaParameterNew'
-    const response = await fetch(path + '.json')
-    const json = await response.json();
+    const json = JSON.parse(await fetchGzip(path));
     /* 
         Prefilter skillLevel > 15
     */
@@ -74,8 +91,7 @@ contains
 */
 export async function SkillsData() {
     const path = 'sources/TLSkill'
-    const response = await fetch(path + '.json')
-    const json = await response.json();
+    const json = JSON.parse(await fetchGzip(path));
     return json[0]["Rows"]
 }
 
@@ -93,8 +109,7 @@ contains
 */
 export async function SkillOptionalData() {
     const path = 'sources/TLSkillOptionalDataForPc'
-    const response = await fetch(path + '.json')
-    const json = await response.json();
+    const json = JSON.parse(await fetchGzip(path));
     return json[0]["Rows"]
 }
 
@@ -112,9 +127,8 @@ export async function SkillOptionalData() {
 */
 
 export async function SkillLooks(weapon) {
-    const basePath = 'sources/Skills/TLSkillPcLooks_Weapon_';
-    const response = await fetch(basePath + weapon + ".json");
-    const json = await response.json();
+    const basePath = 'sources/TLSkillPcLooks_Weapon_';
+    const json = JSON.parse(await fetchGzip(basePath + weapon));
 
     // Extract only IconPath and UIName from each row
     const filteredRows = {};
@@ -140,9 +154,8 @@ export async function SkillList(weapon) {
         attributeNamePrefix: ""
     };
 
-    const basePath = './sources/Skills/xml/Weapon_';
-    const response = await fetch(basePath + weapon + '.json');
-    const text = await response.text();
+    const basePath = './sources/Weapon_';
+    const text = await fetchGzip(basePath + weapon + '.xml');
     const parser = new XMLParser(options);
     const result = parser.parse(text);
 

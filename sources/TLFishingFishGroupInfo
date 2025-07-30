@@ -1,0 +1,4015 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLFishingFishGroupInfo",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeFishingFishGroupInfo'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "Water_FishGroup_Level1": {
+        "UID": 1,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Water_FishGroup_Level2": {
+        "UID": 2,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Water_FishGroup_Level3": {
+        "UID": 3,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Sea_FishGroup_Level1": {
+        "UID": 4,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Sea_FishGroup_Level2": {
+        "UID": 5,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Sea_FishGroup_Level3": {
+        "UID": 6,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 20.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 20.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 20.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 20.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Global_FishGroup_Common": {
+        "UID": 7,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Water_FishGroup_Level4": {
+        "UID": 8,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 23.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 23.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 23.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 23.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 23.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 30.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 15.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Water_FishGroup_Level5": {
+        "UID": 9,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_discus",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SpottedBass",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SockeyeSalmon",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AzraelGoldfish",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisJack",
+            "EntryRatio": 42.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Sea_FishGroup_Level4": {
+        "UID": 10,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 32.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Sea_FishGroup_Level5": {
+        "UID": 11,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SkipjackTuna",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MantisShrimp",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BarredPargo",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LongfinBannerfish",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Kahawai",
+            "EntryRatio": 33.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlacktipShark",
+            "EntryRatio": 44.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Halloween_Event_FishGroup_2024": {
+        "UID": 12,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Redjellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluejellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Yellowjellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Koreancandyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Global_Common_Christmas_2024": {
+        "UID": 13,
+        "FishList": [
+          {
+            "FishRowName": "Fish_ChristMasGoldFish",
+            "EntryRatio": 20.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargeBag",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallBag",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "May_FishingExp_Event_2025": {
+        "UID": 14,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Exp_Redjellyfish",
+            "EntryRatio": 50.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Exp_Bluejellyfish",
+            "EntryRatio": 40.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Exp_Yellowjellyfish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "July_SummerFishing_Event_2025": {
+        "UID": 15,
+        "FishList": [
+          {
+            "FishRowName": "Fish_E_LongfinBannerfish",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_PajamaCardinal",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_AurosaStarfish",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_MantisShrimp",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_SpottedBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_SockeyeSalmon",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_Blowfish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_Flatfish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_PotamotrygonMotoro",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_E_StripedMarlin",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Global_Common_FreshWater_Common_001": {
+        "UID": 100,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_CastlerTown_FreshWater_Common_001": {
+        "UID": 101,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_LaslanWatcherPost_FreshWater_Common_001": {
+        "UID": 102,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_TowerOfPurification_FreshWater_Common_001": {
+        "UID": 103,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_GoldenRyeFarm_FreshWater_Common_001": {
+        "UID": 104,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_BlackhowlPlains_FreshWater_Common_001": {
+        "UID": 105,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_WhiteBearFields_FreshWater_Common_001": {
+        "UID": 106,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_DarkredForest_FreshWater_Common_001": {
+        "UID": 107,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_PlainOfNests_FreshWater_Common_001": {
+        "UID": 108,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LargemouthBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_FonosBasin_FreshWater_Common_001": {
+        "UID": 109,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_RuinsOfTurane_FreshWater_Special_001": {
+        "UID": 110,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_GhostBonefish",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_RuinsOfTurane_TempleOfTevent_FreshWater_Special_001": {
+        "UID": 111,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_HillOfPurification_FreshWater_Common_001": {
+        "UID": 112,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ImpCatalufa",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisPike",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_GhostBonefish",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_SileoussAbyss_Entrance_FreshWater_Common_001": {
+        "UID": 113,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_SileoussAbyss_B4_FreshWater_Common_002": {
+        "UID": 114,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_SileoussAbyss_B5_Lava_Special_003": {
+        "UID": 115,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FireFish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaCatfish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaEel",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaStarfish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_SileoussAbyss_B6_Lava_Special_004": {
+        "UID": 116,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FireFish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaCatfish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaEel",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LavaStarfish",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_StongardMountains_FreshWater_Common_001": {
+        "UID": 117,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_StongardCastle_FreshWater_Common_001": {
+        "UID": 118,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_VientaVillage_FreshWater_Common_001": {
+        "UID": 119,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_SanctuaryExcavationSite_FreshWater_Common_001": {
+        "UID": 120,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_AbandonedStonemasonTown_FreshWater_Common_001": {
+        "UID": 121,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_MoonshineDesert_FreshWater_Common_001": {
+        "UID": 122,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Arowana",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_FonsinePike",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_AkiduValley_FreshWater_Common_001": {
+        "UID": 123,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_GreyclawForest_FreshWater_Common_001": {
+        "UID": 124,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_W_Dungeon_SanctumOfDesire_B2_FreshWater_Common_002": {
+        "UID": 125,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_SanctumOfDesire_B1_FreshWater_Common_001": {
+        "UID": 126,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Carp",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_Stongard_Coast_FreshWater_Common_001": {
+        "UID": 127,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Char",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PajamaCardinal",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_HerbaVillage_FreshWater_Special_001": {
+        "UID": 128,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_discus",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SpottedBass",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_083",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ObsidianStarfish",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_QuietisConquered_FreshWater_Common_001": {
+        "UID": 129,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_ForestOftheGreatTree_FreshWater_Common_001": {
+        "UID": 130,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_SwampOfSilence_FreshWater_Special_001": {
+        "UID": 131,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_discus",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SpottedBass",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_083",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ObsidianStarfish",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_SwampOfSilence_Mud_Special_002": {
+        "UID": 132,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackBream",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AzraelGoldfish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampEel",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampLoach",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_BlackAnvilForge_FreshWater_Special_001": {
+        "UID": 133,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_discus",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SpottedBass",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_083",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ObsidianStarfish",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_BercantMansion_FreshWater_Common_001": {
+        "UID": 134,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SockeyeSalmon",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisJack",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_080",
+            "EntryRatio": 2.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_CrimsonManor_FreshWater_Special_001": {
+        "UID": 135,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SockeyeSalmon",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AzraelGoldfish",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisJack",
+            "EntryRatio": 16.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_080",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_090",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MushroomJellyfish",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_TempleOfDelugeNoah_FreshWater_Special_001": {
+        "UID": 136,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SockeyeSalmon",
+            "EntryRatio": 4.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AzraelGoldfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_IcySmelt",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_TempleOfTruth_Entrance_FreshWater_Special_001": {
+        "UID": 137,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluegill",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Rudd",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampEel",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampLoach",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_TempleOfTruth_B1_FreshWater_Common_002": {
+        "UID": 138,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SockeyeSalmon",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mullet",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisJack",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_CrimsonManorHouse_B2_FreshWater_Special_001": {
+        "UID": 139,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AzraelGoldfish",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisJack",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_090",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MushroomJellyfish",
+            "EntryRatio": 3.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_FogIsland_FreshWater_Special_001": {
+        "UID": 140,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SmallmouthBass",
+            "EntryRatio": 13.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LaquisTanche",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_PeacockBass",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_084",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampEel",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SwampLoach",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RecipeBottle_Food_090",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MushroomJellyfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Ins_ChallengeSingleDungeon_FreshWater_Common_001": {
+        "UID": 141,
+        "FishList": [
+          {
+            "FishRowName": "Fish_BellphoretBass",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Redfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Orangefish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Yellowfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Greenfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bluefish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Indigofish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Violetfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Pinkfish",
+            "EntryRatio": 4.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Global_Common_Sea_Common_001": {
+        "UID": 200,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 2.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_CastlerTown_Sea_Special_001": {
+        "UID": 201,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LeafySeahorse",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_LaslanWatcherPost_Sea_Common_001": {
+        "UID": 202,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_WindhillShores_Sea_Common_001": {
+        "UID": 203,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_BlackhowlPlains_Sea_Special_001": {
+        "UID": 204,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 10.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LeafySeahorse",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_FonosBasin_Sea_Common_001": {
+        "UID": 205,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SkipjackTuna",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MantisShrimp",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BarredPargo",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LongfinBannerfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Kahawai",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlacktipShark",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Laslan_Coast_Sea_Special_001": {
+        "UID": 206,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LeafySeahorse",
+            "EntryRatio": 3.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_VientaVillage_Sea_Common_001": {
+        "UID": 207,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_DawnBeach_Sea_Special_001": {
+        "UID": 208,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Cod",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BandedButterflyfish",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_TesselataEel",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BallanWrasse",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AmberJack",
+            "EntryRatio": 9.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_AkiduValley_Sea_Special_001": {
+        "UID": 209,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SkipjackTuna",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MantisShrimp",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BarredPargo",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LongfinBannerfish",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Kahawai",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlacktipShark",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SeaChicken",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_LizardIsland_Sea_Special_001": {
+        "UID": 210,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 18.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 24.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 12.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SeaChicken",
+            "EntryRatio": 6.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Stongard_Coast_Sea_Special_001": {
+        "UID": 211,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Barracuda",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_AurosaStarfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Bonito",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlackfinSnook",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 16.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 22.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 11.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_SwampOfSilence_Sea_Special_001": {
+        "UID": 212,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_RainbowWrasse",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_ClownTriggerfish",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Mackerel",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_NatalBlueRunner",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Dorado",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SkipjackTuna",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MantisShrimp",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BarredPargo",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_LongfinBannerfish",
+            "EntryRatio": 28.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Kahawai",
+            "EntryRatio": 21.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlacktipShark",
+            "EntryRatio": 14.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SeaChicken",
+            "EntryRatio": 7.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Talland_FogIsland_Sea_Special_001": {
+        "UID": 213,
+        "FishList": [
+          {
+            "FishRowName": "Fish_Anchovy",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_Squid",
+            "EntryRatio": 7.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_MantisShrimp",
+            "EntryRatio": 7.5,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_SkipjackTuna",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_BlacktipShark",
+            "EntryRatio": 5.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      }
+    }
+  }
+]

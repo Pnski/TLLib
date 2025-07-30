@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="947876659" id="Weapon_Sword" revision="0" description="장검 무기 세트" feature_tag="BASE_LH" publisher_tag="ALL" defense_complex_guid="963480128" _fsg_copyable="true" _fsg_movable="true">
+  <skill_complex_list>
+    <skill_complex guid="948228351" is_basic_attack="true" is_for_polymorphed_only="false" unlock_level="1" description="기본 공격" id="SkillSet_WP_SW_SH_S_BasicAttack" skill_enchant_category="kNone" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPrimeSkill">
+      <context uid="0" unlock_level="1" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="948424979" is_toggle_slot="true">
+            <default uid="0">
+              <combo_state_default description="한손검/방패">
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_1" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_2" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_2" next_combo_state="kComboState02" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_3" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_3" next_combo_state="kComboState03" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_4" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_4" next_combo_state="kComboState05" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_5" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_5" next_combo_state="kComboState05" />
+                </transition>
+              </combo_state_04>
+              <combo_state_05>
+                <complex default_skill_id="WP_SW_SH_S_BasicAttack_1" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_05>
+            </default>
+            <custom custom_id="Custom_CP_SW_BasicAttack_Default" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_1" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_2" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_2" next_combo_state="kComboState02" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_3" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_3" next_combo_state="kComboState03" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_4" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_4" next_combo_state="kComboState05" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_5" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_5" next_combo_state="kComboState05" />
+                </transition>
+              </combo_state_04>
+              <combo_state_05>
+                <simple skill_id="WP_SW_SH_S_VMP_BasicAttack_1" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_VMP_BasicAttack_1" next_combo_state="kComboState01" />
+                </transition>
+              </combo_state_05>
+            </custom>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="948490992" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 일격 방패" skill_grade="kB" id="SkillSet_WP_SW_SH_S_DebuffAttack" unlock_level="1" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton01" growth_exchangeable_group="kActiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="959334991" is_toggle_slot="false" description="한손검&amp;방패">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_04>
+              <combo_state_05>
+                <complex default_skill_id="WP_SW_SH_S_DebuffAttack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_DebuffAttack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_05>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_DebuffAttack_trait_1" uid="0" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_DebuffAttack_trait_2" uid="1" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_DebuffAttack_trait_3" uid="2" point="5" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948622147" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [희귀] 사슬 갈고리" skill_grade="kB" id="SkillSet_WP_SW_SH_S_PullSkill" skill_enchant_category="kMove" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton04" unlock_level="1" growth_exchangeable_group="kActiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="957107666" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_PullSkill_Hero" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="Abn_WP_Item_Boss_T2_SW_02_Check" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_Boss_T2_SW_02" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_PullSkill_trait_1 SkillSet_WP_SW_SH_S_PullSkill_trait_3" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_3" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_01">
+                    <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_3_ArchBoss_T2_SW_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_PullSkill_trait_1" uid="2">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_PullSkill_Hero_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_01">
+                    <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_ArchBoss_T2_SW_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_PullSkill_trait_3" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_PullSkill_Hero_trait3" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_PullSkill_trait_1" uid="0" point="7" exclusive_group="kGroup_01" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_PullSkill_trait_2" uid="1" point="5" unlock_level="15" trait_dynamic_stat_id_01="SW_PullSkill_Trait2" trait_dynamic_stat_adder_formula_01="SW_PullSkill_Trait2" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_PullSkill_trait_3" uid="2" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_PullSkill_trait_4" uid="3" point="3" exclusive_group="kGroup_01" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948448956" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [고급] 노련한 회피" skill_grade="kB" id="SkillSet_WP_SW_SH_S_TheCloserEvasionUP" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill01" unlock_level="3" growth_exchangeable_group="kPassiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="3">
+        <presets>
+          <preset guid="971723172" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default description="익스퍼트 닷지">
+                <complex default_skill_id="WP_SW_S_TheCloserEvasionUP_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_S_TheCloserEvasionUP_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="947941306" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [희귀] 도발의 포효" skill_grade="kB" id="SkillSet_WP_SW_SH_S_TauntBuff" skill_enchant_category="kDebuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton05" unlock_level="9" growth_exchangeable_group="kActiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="9">
+        <presets>
+          <preset guid="950774178" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default description="인레이지">
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_04>
+              <combo_state_05>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_05>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_TauntBuff_trait_1" uid="0" point="5" exclusive_group="kGroup_01" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_TauntBuff_trait_2" uid="1" point="3" exclusive_group="kGroup_01" unlock_level="15" trait_dynamic_stat_id_01="SW_TauntBuff_Trait2" trait_dynamic_stat_adder_formula_01="SW_TauntBuff_Trait2" trait_dynamic_stat_id_02="SW_TauntBuff_Trait2_NPC" trait_dynamic_stat_adder_formula_02="SW_TauntBuff_Trait2_NPC" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_TauntBuff_trait_3" uid="2" point="5" unlock_level="15" trait_dynamic_stat_id_01="SW_TauntBuff_Trait3" trait_dynamic_stat_adder_formula_01="SW_TauntBuff_Trait3" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_TauntBuff_trait_4" uid="3" point="5" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="947965583" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 반격의 방벽" skill_grade="kB" id="SkillSet_WP_SW_SH_S_BuffAttack" skill_enchant_category="kRecovery" skill_type="kActiveSkill" unlock_level="1" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton03" growth_exchangeable_group="kActiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="960318393" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_BuffAttack_Hero" default_skill_id_disable="false" description="카운터 실드" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_BuffAttack_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_BuffAttack_Charge" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_SW_S_BuffAttack_trait1" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_BuffAttack_Charge_Attack" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_1" uid="0" point="7" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_2" uid="1" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_3" uid="2" point="5" unlock_level="15" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948097103" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 맹렬한 격돌" skill_grade="kB" id="SkillSet_WP_SW_SH_S_PushAttack" skill_enchant_category="kDebuff" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton09" unlock_level="30" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="30">
+        <presets>
+          <preset guid="948293711" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" description="퓨리어스 배시" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+              <combo_state_01>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_01>
+              <combo_state_02>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_02>
+              <combo_state_03>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_03>
+              <combo_state_04>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_04>
+              <combo_state_05>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_PushAttack" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_05>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_PushAttack_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_PushAttack_Earth" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_PushAttack_trait_1" uid="0" point="7" unlock_level="30" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_PushAttack_trait_2" uid="1" point="5" unlock_level="30" trait_dynamic_stat_id_01="SW_PushAttack_Trait2" trait_dynamic_stat_multiplier_formula_01="SW_PushAttack_Trait2" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_PushAttack_trait_3" uid="2" point="3" unlock_level="30" trait_dynamic_stat_id_01="SW_PushAttack_Trait3" trait_dynamic_stat_adder_formula_01="SW_PushAttack_Trait3" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="948711247" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [고급] 재기의 투지" skill_grade="kB" id="SkillSet_WP_SW_SH_S_BlockSucceedRewardMana" skill_enchant_category="kBuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill02" unlock_level="6" growth_exchangeable_group="kPassiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="6">
+        <presets>
+          <preset guid="972706512" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default description="리커버리 찬스">
+                <complex default_skill_id="WP_SH_S_BlockSucceedRewardMana_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SH_S_BlockSucceedRewardMana_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="948842385" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 사기 충전" skill_grade="kB" id="SkillSet_WP_SW_SH_S_CrashSucceedBuff" skill_enchant_category="kBuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill07" unlock_level="39" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="39">
+        <presets>
+          <preset guid="949038993" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default description="크래시 어택 마스터">
+                <complex default_skill_id="WP_SH_S_CrashSucceedBuff" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SH_S_CrashSucceedBuff" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="948203636" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 철옹성" skill_grade="kB" id="SkillSet_WP_SW_SH_S_ShieldBuff" skill_enchant_category="kRecovery" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton07" unlock_level="18" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="18">
+        <presets>
+          <preset guid="948400244" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_ShieldBuff" default_skill_id_disable="false" description="퍼펙트 배리어" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_ShieldBuff_trait_1 SkillSet_WP_SW_SH_S_ShieldBuff_trait_3" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_ShieldBuff_trait3_1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_ShieldBuff_trait_1" uid="2">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_ShieldBuff_trait1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_ShieldBuff_trait_3" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_ShieldBuff_trait3" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldBuff_trait_1" uid="0" point="7" unlock_level="18" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldBuff_trait_2" uid="1" point="3" unlock_level="18" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldBuff_trait_3" uid="2" point="7" unlock_level="18" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldBuff_trait_4" uid="3" point="5" unlock_level="18" trait_dynamic_stat_id_01="SW_ShieldBuff_Trait4" trait_dynamic_stat_adder_formula_01="SW_ShieldBuff_Trait4" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="964611425" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [희귀] 고통의 파장" skill_grade="kB" id="SkillSet_WP_SW_SH_S_TauntBuff_Attack" skill_enchant_category="kDebuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill04" unlock_level="21" growth_exchangeable_group="kPassiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="21">
+        <presets>
+          <preset guid="963956065" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_TauntBuff_Attack_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_TauntBuff_Attack_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="961138130" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [희귀] 불패의 철벽" skill_grade="kB" id="SkillSet_WP_SW_SH_S_ArmorUp" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill03" unlock_level="12" growth_exchangeable_group="kPassiveB">
+      <context uid="5" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="12">
+        <presets>
+          <preset guid="969495901" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_ArmorUp_Hero" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_ArmorUp_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="960810568" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 게라드의 인내" skill_grade="kB" id="SkillSet_WP_SW_SH_S_BlockSuccecsToleranceUp" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill05" unlock_level="27" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="27">
+        <presets>
+          <preset guid="960876104" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_BlockSuccecsToleranceUp" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_BlockSuccecsToleranceUp" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="963480128" id="SkillSet_WP_SW_SH_S_CounterMove" is_basic_attack="false" is_for_polymorphed_only="false" description="[D] [고급] 방패 생존술" unlock_level="1" skill_enchant_category="kRecovery" skill_grade="kB" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kDefenseAction" growth_exchangeable_group="kActiveB">
+      <context uid="10" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="968578255" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="CM_SW_CounterMove_ActionSkill_slot_Hero" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="4">
+                    <set_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack4_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="3">
+                    <set_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack3_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="2">
+                    <set_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack2_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="1">
+                    <set_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack1_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+                <transition>
+                  <use_skill skill_id="CM_SW_CounterMove_ActionSkill_slot_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack1_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack2_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack3_Hero" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack4_Hero" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="971347580" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [고급] 단호한 돌격" skill_grade="kB" id="SkillSet_WP_SW_SH_S_DashAttack" unlock_level="1" skill_enchant_category="kMove" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton02" growth_exchangeable_group="kActiveB">
+      <context uid="10" feature_tag="BASE_LH" publisher_tag="ALL" description="영웅" min_skill_level="1" max_skill_level="15" unlock_level="1">
+        <presets>
+          <preset guid="973051726" is_toggle_slot="false" description="한손검&amp;방패">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_DashAttack_Hero" default_skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_1 SkillSet_WP_SW_SH_S_DashAttack_trait_2" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_DashAttack_trait1_2" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_1" uid="2">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_DashAttack_trait1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+            <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_2" uid="3">
+              <combo_state_default>
+                <simple skill_id="WP_SW_SH_S_DashAttack_trait2" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_DashAttack_trait_1" uid="0" point="5" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_DashAttack_trait_2" uid="1" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_DashAttack_trait_3" uid="2" point="5" unlock_level="15" exclusive_group="kGroup_01" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_DashAttack_trait_4" uid="3" point="5" unlock_level="15" exclusive_group="kGroup_01" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="971362474" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [영웅] 난공불락" skill_grade="kB" id="SkillSet_WP_SW_SH_S_AroundCountBuff" skill_enchant_category="kRecovery" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill06" unlock_level="33" growth_exchangeable_group="kPassiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="33">
+        <presets>
+          <preset guid="971428010" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default description="크래시 어택 마스터">
+                <complex default_skill_id="WP_SW_SH_S_AroundCountBuff" default_skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_SW_SH_S_AroundCountBuff" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="971355549" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 방패 투척" skill_grade="kB" id="SkillSet_WP_SW_SH_S_ShieldThrow" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton06" unlock_level="15" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="15">
+        <presets>
+          <preset guid="971421085" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_ShieldThrow" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_SW_S_ShieldThrow_RewardAbnormal_trait3" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_ShieldThrow_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_ShieldThrow_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_ShieldThrow_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_SW_S_ShieldThrow_RewardAbnormal_trait3" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_ShieldThrow_trait1_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldThrow_trait_1" uid="0" point="7" unlock_level="15" exclusive_group="kGroup_01" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldThrow_trait_2" uid="1" point="3" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldThrow_trait_3" uid="2" point="7" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ShieldThrow_trait_4" uid="3" point="5" unlock_level="15" exclusive_group="kGroup_01" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="971815531" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 전멸 베기" skill_grade="kB" id="SkillSet_WP_SW_SH_S_WhirlwindSlash" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton08" unlock_level="24" growth_exchangeable_group="kActiveB">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="24">
+        <presets>
+          <preset guid="971881067" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_WhirlwindSlash" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_SW_SH_S_WhirlwindSlash_trait2" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_WhirlwindSlash_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_WhirlwindSlash_trait_3" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_WhirlwindSlash_trait3" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_SW_SH_S_WhirlwindSlash_trait2" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_WhirlwindSlash_trait3_2" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_WhirlwindSlash_trait_1" uid="0" point="3" unlock_level="24" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_WhirlwindSlash_trait_2" uid="1" point="7" unlock_level="24" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_WhirlwindSlash_trait_3" uid="2" point="5" unlock_level="24" trait_dynamic_stat_id_01="SW_WhirlwindSlash_Trait3" trait_dynamic_stat_adder_formula_01="SW_WhirlwindSlash_Trait3" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="971946685" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 필승의 기회" skill_grade="kAA" id="SkillSet_WP_SW_SH_S_VictoryAttack" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton06" growth_exchangeable_group="kActiveSp01" unlock_level="50">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="50" min_skill_level="11" max_skill_level="15">
+        <presets>
+          <preset guid="972012221" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_VictoryAttack" default_skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_VictoryAttack_trait_1" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_VictoryAttack_Earth" default_skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_VictoryAttack_trait_1" uid="0" point="7" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_VictoryAttack_trait_2" uid="1" point="5" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_VictoryAttack_trait_3" uid="2" point="5" unlock_level="50" trait_dynamic_stat_id_01="SW_VictoryAttack_Trait3" trait_dynamic_stat_adder_formula_01="SW_VictoryAttack_Trait3" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="945689210" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 불사의 긍지" skill_grade="kAA" id="SkillSet_WP_SW_SH_S_MaxHealthUp" skill_enchant_category="kRecovery" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton07" growth_exchangeable_group="kActiveSp01" unlock_level="50">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="50" min_skill_level="11" max_skill_level="15">
+        <presets>
+          <preset guid="971413835" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_S_MaxHealthUp" default_skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+            <specialization traits="SkillSet_WP_SW_SH_S_MaxHealthUp_trait_1" uid="1">
+              <combo_state_default>
+                <simple skill_id="WP_SW_S_MaxHealthUp_trait1" skill_id_disable="false" />
+              </combo_state_default>
+            </specialization>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_MaxHealthUp_trait_1" uid="0" point="7" unlock_level="50" exclusive_group="kGroup_01" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_MaxHealthUp_trait_2" uid="1" point="3" unlock_level="50" trait_dynamic_stat_id_01="SW_MaxHealthUp_Trait2" trait_dynamic_stat_multiplier_formula_01="SW_MaxHealthUp_Trait2" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_MaxHealthUp_trait_3" uid="2" point="3" unlock_level="50" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_MaxHealthUp_trait_4" uid="3" point="5" exclusive_group="kGroup_01" />
+      </trait_list>
+    </skill_complex>
+    <skill_complex guid="968883458" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [영웅] 재기의 일격" skill_grade="kB" id="SkillSet_WP_SW_SH_S_ManaAttack" skill_enchant_category="kAttack" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton10" growth_exchangeable_group="kActiveB" unlock_level="36">
+      <context uid="0" description="영웅" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="15" unlock_level="36">
+        <presets>
+          <preset guid="968660726" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <complex default_skill_id="WP_SW_SH_S_ManaAttack" default_skill_id_disable="false">
+                  <if_abnormal_state abnormal_state_id="abn_WP_SW_SH_S_ManaAttack_trait2" min_count="0">
+                    <set_skill skill_id="WP_SW_SH_S_ManaAttack_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list>
+        <trait trait_id="SkillSet_WP_SW_SH_S_ManaAttack_trait_1" uid="0" point="5" unlock_level="36" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_ManaAttack_trait_2" uid="1" point="7" unlock_level="36" />
+      </trait_list>
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list>
+    <custom custom_id="Custom_WP_SW_MainAttack_Special" database_uid="0" description="특화: 파워 어택" />
+    <custom custom_id="Custom_WP_SW_PullSkill_Special" database_uid="1" description="특화: 아이언 그랩" />
+    <custom custom_id="Custom_WP_SH_ShieldBuff_Special" database_uid="2" description="특화: 디보션 배리어" />
+    <custom custom_id="Custom_WP_SH_PushAttack_Special" database_uid="3" description="특화: 레이징 배시" />
+    <custom custom_id="Custom_CP_SW_BasicAttack_Default" database_uid="4" description="변신체 평타 대응용" />
+  </custom_list>
+</hero_skill_set>
