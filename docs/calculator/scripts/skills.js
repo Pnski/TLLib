@@ -135,6 +135,43 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
 
   const logSkill = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD')]
   //if (logSkill?.FormulaParameter[0].)
+
+  /* 
+{
+	kAmountFromMinMax                        = 0, //close to every attack
+	kAmountFromHpMax                         = 1, //e.g. TimeBomb, some mob/boss attacks
+	kAmountFromCostMax                       = 2, //System_ReviveCostRestore
+	kAmountFromAttackRange                   = 3, //Common_AttackRange_3000percent
+	kAmountFromDistance                      = 4, //bow? WM_BO_Normal_ATK_DistanceCritical_CriticalChanceUp
+	kAmountFromNormalAttackDelay             = 5, //SC_Cooldown_Move no clue
+	kAmountFromAttackPower                   = 6, //SW_TauntBuff_Attack_DD
+	kAmountFromAttackPowerWithinMinMax       = 7, //curse WA_CurseArea_CD
+	kAmountFromAttackPowerWithinMinMaxAndTargetHpMax = 8, //no results
+	kAmountFromAttackPowerAndCost            = 9,
+	kAmountFromAttackPowerAndTargetHpMax     = 10, //WorldBoss_SkeletonGiantWarrior_DeadPresent_Aura_DD
+	kAmountFromDamageReduction               = 11, //SH_BuffAttack_DD
+	kAmountFromCostRegen                     = 12, //ST_Passive_03_AdditionalAttack_Rate
+	kAmountFromTargetHpMax                   = 13, //Item_Scroll_Hpmax_10p
+	kAmountFromTargetHpMaxOrMinValue         = 14,
+	kAmountFromTargetHpMaxOrMaxValue         = 15,
+	kAmountFromAuraEffectBoost               = 16, //BO_AuraEffectDouble_DoubleAttackUp_By_AuraBoost
+	kAmountFromFalling                       = 17, //System_FallingDamage
+	kAmountFromAttackPowerForPrimeAttack     = 18, //BO_PrimeAttack_DD
+	kAmountFromAttackPowerForPrimeAttackWithinMinMax = 19,
+	kAmountFromTargetHpBPWithinLimits        = 20, //BO_PowerShot_CriticalChance_by_TargetHP_Rate / DA_CriticalStrike_CriticalChance_by_TargetHP
+	kAmountFromHp                            = 21, //CCG_L03_01_Trap_Damage
+	kAmountFromTargetHp                      = 22, //Common_TargetHp_10percent
+	kAmountFromUsableCost                    = 23, //WM_CommonSkill_AddManaAttack_AddCost
+	kAmountFromConsumptionCost               = 24,
+	kAmountFromPassiveHpConsumption          = 25,
+	kAmountFromTailWindSpeed                 = 26, //BO_WindBonusProjectile_AdditionalProjectileChance
+	kAmountFromWindSpeed                     = 27, //WP_Item_kA_WA_A12_AttackSpeed / WP_Item_kA_SW2_A13_SkillCooldown
+	kAmountFromShieldBlockChance             = 28, //SW_DebuffAttack_DoubleAttackUp
+	kAmountFromOffHandAttackChance           = 29, //DA_Both_Attack_Rate
+	kAmountFromCostChange                    = 30, //"WA_Sleep_Cost"
+	EFormulaType_MAX                         = 31,
+}; */
+
   document.getElementById('dmg-percent-' + index).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
   document.getElementById('dmg-flat-' + index).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
 

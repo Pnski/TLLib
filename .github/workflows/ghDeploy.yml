@@ -53,6 +53,12 @@ jobs:
       - name: Minify JSON/XML files with custom script
         run: node scripts/minifyFiles.js
 
+      - name: Compress files in sources
+        run: |
+          find minified-sources -type f ! -name '*.gz' | while read -r file; do
+            gzip -c "$file" > "compressed/$file.gz"
+          done
+
       - name: Prepare output for Pages (no write to repo)
         run: |
           rm -rf public
@@ -61,7 +67,7 @@ jobs:
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
-          cp -r minified-sources/* public/sources/
+          cp -r compressed/* public/sources/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

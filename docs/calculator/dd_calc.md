@@ -35,7 +35,7 @@
   </tbody>
 </table>
 
-<h2>Data</h2>
+## Data
 
 <button id="openPasteWindow">📋 Paste Stats</button>
 
@@ -135,18 +135,8 @@
   </tbody>
 </table>
 
-## Buffs
+## Skills
 
-| ActivateBuffs? |
-| --- |
-| 0/1 |
-
-| Buffname1 | Buffname2 |
-| --- | --- |
-| X | X
-
-
-<h2>Skills</h2>
 <table>
   <thead>
     <tr>
@@ -158,17 +148,14 @@
       <th>Avg-Dmg</th>
       <th>Cooldown (s)</th>
       <th>AnimationLock (s)</th>
+      <th>Buff Duration</th>
+      <th>Avg-Dmg/s</th>
     </tr>
   </thead>
   <tbody id="table-skills-select"></tbody>
   <tfoot>
   <tr>
-    <th>Average</th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th colspan="6">Average</th>
     <th>stuff</th>
     <th>stuff2</th>
   </tr>
