@@ -56,10 +56,9 @@ jobs:
       - name: Compress files in sources
         run: |
           mkdir -p compressed
-          find minified-sources -type f ! -name '*.gz' | while read -r file; do
-            # Flatten filename (replace / with _)
-            filename=$(echo "$file" | sed 's|/|_|g')
-            gzip -c "$file" > "compressed/${filename}.gz"
+          find minified-sources -type f ! -name '*.gz' ! -name '*.usmap' | while read -r file; do
+            base=$(basename "$file")
+            gzip -c "$file" > "compressed/${base}.gz"
           done
 
       - name: Prepare output for Pages (no write to repo)
