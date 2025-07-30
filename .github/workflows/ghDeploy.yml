@@ -56,20 +56,20 @@ jobs:
       - name: Compress files in sources
         run: |
           mkdir -p compressed
-          mkdir -p compressed/minified-sources
           find minified-sources -type f ! -name '*.gz' | while read -r file; do
-            gzip -c "$file" > "compressed/$file.gz"
+            # Flatten filename (replace / with _)
+            filename=$(echo "$file" | sed 's|/|_|g')
+            gzip -c "$file" > "compressed/${filename}.gz"
           done
 
       - name: Prepare output for Pages (no write to repo)
         run: |
           rm -rf public
-          mkdir -p public
           mkdir -p public/sources
 
           cp -r docs/* public/
           cp -r --parents Image/* public/
-          cp -r compressed/minified-sources/* public/sources/
+          cp -r compressed/* public/sources/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
