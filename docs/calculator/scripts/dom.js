@@ -148,7 +148,7 @@ export function createSkillTableRow(index) {
     const tdTrait = document.createElement("td");
     const selectTrait = document.createElement("select");
     selectTrait.id = `trait-${index}`;
-    selectTrait.setAttribute("multiple",'true'); // Ensure multiple attribute is set
+    selectTrait.setAttribute("multiple", 'true'); // Ensure multiple attribute is set
     tdTrait.appendChild(selectTrait);
     tr.appendChild(tdTrait);
 
@@ -169,10 +169,19 @@ export function createSkillTableRow(index) {
         'Select traits',
         true, // Allow search for traits
         true, // Allow multiple traits
-        (info) => console.log(`Trait ${index + 1} changed`, info)
+        () => {
+            const select = document.getElementById(`skill-${index}`);
+            for (const item of select.slim.getData()) {
+                item.options?.find(match => {
+                    if (match.value == select.slim.getSelected()) {
+                        SkillCalcNew(match.value, item.label, index)
+                    }
+                })
+            }
+        }
     );
 
-    ["dmg-percent", "dmg-flat", "max-dmg", "avg-dmg", "cooldown", "animlock"].forEach(field => {
+    ["dmg-percent", "dmg-flat", "max-dmg", "avg-dmg", "cooldown", "animlock", "buffdur", "avg-dmg-s"].forEach(field => {
         const td = document.createElement("td");
         td.id = `${field}-${index}`;
         td.textContent = "-";
@@ -212,7 +221,7 @@ export function dataFieldChange() {
                 for (const item of select.slim.getData()) {
                     item.options?.find(match => {
                         if (match.value == select.slim.getSelected()) {
-                            SkillCalcNew(match.value, item.label ,index)
+                            SkillCalcNew(match.value, item.label, index)
                         }
                     })
                 }
