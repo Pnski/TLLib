@@ -35,7 +35,7 @@ Heavy Attack Chance = ((Heavy Attack) / (Heavy Attack + 1,000)) × 100%
 -> same for critical
 */
 
-function AttackModChance(AttackRate) {
+export function AttackModChance(AttackRate) {
     return ((AttackRate) / (AttackRate + 1000))
 }
 
@@ -75,12 +75,12 @@ function calcDotDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmgMin, WeaponD
  * @returns 
  */
 
-export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritHit = 0) {
-    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+AttackModChance(CritHit)) + BonusDamage
+export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritDmg = 0) {
+    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100)) + BonusDamage
 }
 
-export function calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species,  CritHit = 0) {
-    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg.Min, WeaponDmg.Max) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+AttackModChance(CritHit))
+export function calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species,  CritDmg = 0) {
+    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg.Min, WeaponDmg.Max) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100))
 }
 
 /**

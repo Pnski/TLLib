@@ -123,58 +123,82 @@ function querySkillData() {
 
 //info[0].value, info[0].data.slot, index
 export async function SkillCalcNew(skillInternal, weaponSlot, index) {
-  await preloadSkillData();
+  await preloadSkillData(); //only for slow connection, usually it skips fully
   const qSD = querySkillData();
 
   const weaponType = document.querySelector(`select[data-slot="${weaponSlot}"]`).slim.getSelected();
 
-  const skillList = await load.SkillList(weaponType)
+  const skillList = await load.SkillList(weaponType) //needed for traits
 
-  const traitList = document.getElementById(`trait-${index}`).slim.getSelected();
-  
-  if (traitList.length === 0) {
+  const activeTraitList = [] //trait holder
+
+  if (document.getElementById(`trait-${index}`).slim.getSelected().length === 0) {
     console.log('Nothing selected');
   } else {
-    for (const skill of Object.values(traitList)) {
-      console.log(getObjects(skillList, '', skill))
-      const changeSkill = getValues(getObjects(skillList, '', skill), 'skill_id')
-      if (changeSkill) console.log("changed skill", changeSkill, skillInternal, weaponSlot, index)
+    for (const skill of Object.values(document.getElementById(`trait-${index}`).slim.getSelected())) {
+      //console.log(getObjects(skillList, '', skill))
+      const changeSkill = [...getValues(getObjects(skillList, '', skill), 'default_skill_id'), ...getValues(getObjects(skillList, '', skill), 'skill_id')]
+      if (!(changeSkill.length == 0)) {
+        console.log("changed skill new", changeSkill, skillInternal, weaponSlot, index)
+        skillInternal = changeSkill //WP_SW2_S_PowerAttack -> WP_SW2_S_PowerAttack_SP
+      }
+
+      for (let i = 1; i <= 4; i++) {
+        const value = getValues(getObjects(skillList, '', skill), 'trait_dynamic_stat_id_0' + i);
+        if (value && value.length > 0) {
+          activeTraitList.push(value);
+        }
+      }
     }
-  
   }
-  
-  //Cooldown
-  //getBaseCooldown
-  //const BaseCooldown = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min
-  //check for traits
 
-  const DamageList = []
+  console.log(skillInternal, SkillOptionalData[skillInternal])
+  var logSkill = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD')]
 
-  //for (const key in FormulaParameter) {
-  //  if (key.includes(SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown.*/i, ''))) {
-  //    console.log(key)
+  //console.log("active traits", activeTraitList)
 
-  //    }
-  // }
+  //Damage
+  let dmgPercent = null;
+  let dmgFlat = null;
 
-  //check if trait changes skill (e.g. guillotineBlade)
+  if (TLSkill[skillInternal].max_charge_delay) {
+    dmgPercent = logSkill?.FormulaParameter[0].mul / 100 * logSkill?.FormulaParameter[0].max / 10000;
+    dmgFlat = logSkill?.FormulaParameter[0].add * logSkill?.FormulaParameter[0].max / 10000;
+  } else { // NoCharge
+    dmgPercent = logSkill?.FormulaParameter[0].mul / 100;
+    dmgFlat = logSkill?.FormulaParameter[0].add;
+  }
+
+  document.getElementById('dmg-percent-' + index).textContent = dmgPercent;
+  document.getElementById('dmg-flat-' + index).textContent = dmgFlat;
+
+  const maxCritDmg = math.calcSkillDmg(dmgPercent, dmgFlat, qSD[weaponSlot].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.CD)
+
+  document.getElementById('max-dmg-' + index).textContent = maxCritDmg.toFixed(2)
+
+  const avgDmgNonCrit = math.calcSkillDmg(dmgPercent, dmgFlat, ((qSD[weaponSlot].M.Max + qSD[weaponSlot].M.Min) / 2), qSD.SDB, qSD.BD, qSD.speciesBoost, 0) //avgdmg noncrit
+  const avgDmgNonHeavy = (avgDmgNonCrit * (1 - math.AttackModChance(qSD.critMelee)) + maxCritDmg * (math.AttackModChance(qSD.critMelee)))
+  const avgDmg = (avgDmgNonHeavy * (1-math.AttackModChance(qSD.heavyMelee))) + (avgDmgNonHeavy * 2 * math.AttackModChance(qSD.heavyMelee))
+
+  console.warn(avgDmgNonCrit, avgDmg, math.AttackModChance(qSD.critMelee), math.AttackModChance(qSD.heavyMelee))
+  console.log(avgDmgNonCrit * (1 - math.AttackModChance(qSD.critMelee)))
+  console.log(maxCritDmg * (math.AttackModChance(qSD.critMelee)))
+
+  document.getElementById('avg-dmg-' + index).textContent = avgDmg.toFixed(2)
+
+  //AnimationLock
+  document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd, TLSkill[skillInternal].max_charge_delay).toFixed(4)
 
 
   //Check for dynamic stats?
   console.log("check dynamic stats", FormulaParameter[SkillOptionalData[skillInternal].cooldown_time])
 
   document.getElementById('cooldown-' + index).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
-  document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd).toFixed(4)
-
-  const logSkill = FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD_Boss')] || FormulaParameter[SkillOptionalData[skillInternal].cooldown_time.replace(/CoolDown/i, 'DD')]
-  //if (logSkill?.FormulaParameter[0].)
 
 
 
-  document.getElementById('dmg-percent-' + index).textContent = logSkill?.FormulaParameter[0].tooltip1 || 0
-  document.getElementById('dmg-flat-' + index).textContent = logSkill?.FormulaParameter[0].tooltip2 || 0
 
-  document.getElementById('max-dmg-' + index).textContent = math.calcSkillDmg(logSkill?.FormulaParameter[0].tooltip1 || 0, logSkill?.FormulaParameter[0].tooltip2 || 0, qSD[weaponSlot].M.Max, qSD.SDB, qSD.BD, qSD.speciesBoost, qSD.critMelee).toFixed(2)
+
 
   //document.getElementById('avg-dmg') = 0
 
