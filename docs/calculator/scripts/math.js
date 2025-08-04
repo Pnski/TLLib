@@ -59,10 +59,6 @@ function calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) {
     return ((SkillBaseDamage / 100 * WeaponDmg) + SkillBonusDamage)
 }
 
-function calcDotDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmgMin, WeaponDmgMax) {
-    return ((SkillBaseDamage / 100 * (WeaponDmgMin + WeaponDmgMax)/2) + SkillBonusDamage)
-}
-
 /**
  * 
  * @param {*} SkillBaseDamage 

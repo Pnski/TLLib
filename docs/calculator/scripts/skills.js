@@ -118,6 +118,37 @@ function querySkillData() {
   return result;
 }
 
+function sumAvg() {
+  // Helper function to sum values by regex-matching ID
+  function sumByIdPattern(regex, onlySum = false) {
+    let sum = 0;
+    let count = 0;
+
+    document.querySelectorAll('*[id]').forEach(element => {
+      if (regex.test(element.id)) {
+        const val = parseFloat(element.textContent);
+        if (!isNaN(val) && val !== 0) {
+          sum += val;
+          count++;
+        }
+      }
+    });
+    if (onlySum) return sum
+    return count > 0 ? (sum / count) : 0;
+  }
+
+  // Match only ids like avg-dmg-[0-12]
+  document.getElementById('avg-avg-dmg').textContent = sumByIdPattern(/^avg-dmg-\d{1,2}$/).toFixed(2);
+
+  // Match only cooldown-[0-12]
+  document.getElementById('avg-cooldown').textContent = sumByIdPattern(/^cooldown-\d{1,2}$/).toFixed(2);
+
+  // Match only animlock-[0-12]
+  document.getElementById('avg-animation').textContent = sumByIdPattern(/^animlock-\d{1,2}$/).toFixed(2);
+
+  // Match only avg-dmg-s-[0-12]
+  document.getElementById('avg-avg-dps').textContent = sumByIdPattern(/^avg-dmg-s-\d{1,2}$/, true).toFixed(2);
+}
 
 
 
@@ -157,6 +188,28 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
 
   //console.log("active traits", activeTraitList)
 
+  let [critHit, heavyHit] = [0, 0];
+
+  switch (TLSkill[skillInternal].damage_type) {
+    case "ETLDamageType::kMagic":
+      //console.log("magic")
+      critHit = qSD.critMagic
+      heavyHit = qSD.heavyMagic
+      break
+    case "ETLDamageType::kMelee":
+      //console.log("melee")
+      critHit = qSD.critMelee
+      heavyHit = qSD.heavyMelee
+      break
+    case "ETLDamageType::kRanged":
+      //console.log("ranged")
+      critHit = qSD.critRanged
+      heavyHit = qSD.heavyRanged
+      break;
+    default:
+      console.warn("error in dmg type")
+  }
+
   //Damage
   let dmgPercent = null;
   let dmgFlat = null;
@@ -177,14 +230,19 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
   document.getElementById('max-dmg-' + index).textContent = maxCritDmg.toFixed(2)
 
   const avgDmgNonCrit = math.calcSkillDmg(dmgPercent, dmgFlat, ((qSD[weaponSlot].M.Max + qSD[weaponSlot].M.Min) / 2), qSD.SDB, qSD.BD, qSD.speciesBoost, 0) //avgdmg noncrit
-  const avgDmgNonHeavy = (avgDmgNonCrit * (1 - math.AttackModChance(qSD.critMelee)) + maxCritDmg * (math.AttackModChance(qSD.critMelee)))
-  const avgDmg = (avgDmgNonHeavy * (1-math.AttackModChance(qSD.heavyMelee))) + (avgDmgNonHeavy * 2 * math.AttackModChance(qSD.heavyMelee))
+  const avgDmgNonHeavy = (avgDmgNonCrit * (1 - math.AttackModChance(critHit)) + maxCritDmg * (math.AttackModChance(critHit)))
+  const avgDmg = (avgDmgNonHeavy * (1 - math.AttackModChance(heavyHit))) + (avgDmgNonHeavy * 2 * math.AttackModChance(heavyHit))
 
-  console.warn(avgDmgNonCrit, avgDmg, math.AttackModChance(qSD.critMelee), math.AttackModChance(qSD.heavyMelee))
-  console.log(avgDmgNonCrit * (1 - math.AttackModChance(qSD.critMelee)))
-  console.log(maxCritDmg * (math.AttackModChance(qSD.critMelee)))
+  /*   console.warn(avgDmgNonCrit, avgDmg, math.AttackModChance(critHit), math.AttackModChance(heavyHit))
+    console.log(avgDmgNonCrit * (1 - math.AttackModChance(critHit)))
+    console.log(maxCritDmg * (math.AttackModChance(critHit))) */
 
   document.getElementById('avg-dmg-' + index).textContent = avgDmg.toFixed(2)
+
+  console.warn(avgDmg, FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD[weaponSlot].Spd, TLSkill[skillInternal].max_charge_delay)
+  console.log(avgDmg / (FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min + (qSD[weaponSlot].Spd * TLSkill[skillInternal].max_charge_delay)))
+
+
 
   //AnimationLock
   document.getElementById('animlock-' + index).textContent = math.getAnimLock(TLSkill[skillInternal].skill_delay, TLSkill[skillInternal].hit_delay, qSD[weaponSlot].Spd, TLSkill[skillInternal].max_charge_delay).toFixed(4)
@@ -193,7 +251,11 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
   //Check for dynamic stats?
   console.log("check dynamic stats", FormulaParameter[SkillOptionalData[skillInternal].cooldown_time])
 
-  document.getElementById('cooldown-' + index).textContent = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR).toFixed(4)
+  const cooldown = math.getCooldown(FormulaParameter[SkillOptionalData[skillInternal].cooldown_time].FormulaParameter[0].min, qSD.CDR)
+
+  document.getElementById('cooldown-' + index).textContent = cooldown.toFixed(4)
+
+  document.getElementById('avg-dmg-s-' + index).textContent = (avgDmg / (cooldown + (qSD[weaponSlot].Spd * TLSkill[skillInternal].max_charge_delay))).toFixed(2)
 
 
 
@@ -201,7 +263,7 @@ export async function SkillCalcNew(skillInternal, weaponSlot, index) {
 
 
   //document.getElementById('avg-dmg') = 0
-
+  sumAvg()
 }
 
 

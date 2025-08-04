@@ -155,9 +155,12 @@
   <tbody id="table-skills-select"></tbody>
   <tfoot>
   <tr>
-    <th colspan="6">Average</th>
-    <th>stuff</th>
-    <th>stuff2</th>
+    <th colspan="5">Average</th>
+    <th id='avg-avg-dmg'></th>
+    <th id='avg-cooldown'></th>
+    <th id='avg-animation'></th>
+    <th>SUM:</th>
+    <th id='avg-avg-dps'></th>
   </tr>
   </tfood>
 </table>
