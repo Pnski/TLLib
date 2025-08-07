@@ -8617,8 +8617,8 @@
         "SkillTraitDescription": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillPcLooks_Weapon_Sword2h.TLStringSkillPcLooks_Weapon_Sword2h",
           "Key": "SkillSet_WP_SW2_S_DamageReceive_trait_3_SkillTraitDescription",
-          "SourceString": "전이로 받는 피해 20% 증가",
-          "LocalizedString": "Damage Taken from Transition +20%"
+          "SourceString": "전이로 받는 피해 30% 증가",
+          "LocalizedString": "Damage Taken from Transition +30%"
         },
         "UnAvailableSkillHandle": {
           "RowName": "None"

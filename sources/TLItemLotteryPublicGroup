@@ -2845,6 +2845,16 @@
             "prob": 5000000
           },
           {
+            "id": "material_arcboss_piece_001_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_arcboss_piece_001_bound",
+            "Count": 2,
+            "prob": 5000000
+          },
+          {
             "id": "polymorph_kAAA_510005",
             "Count": 1,
             "prob": 10000000
@@ -2902,6 +2912,16 @@
           {
             "id": "material_giantwarrior_04_bound",
             "Count": 10,
+            "prob": 5000000
+          },
+          {
+            "id": "material_arcboss_piece_002_bound",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_arcboss_piece_002_bound",
+            "Count": 2,
             "prob": 5000000
           },
           {
@@ -37302,7 +37322,7 @@
           {
             "id": "L09_FO_ShiftGear_GoldTreasureChest_01",
             "Count": 1,
-            "prob": 3333000
+            "prob": 5556000
           },
           {
             "id": "L09_FO_ShiftGear_GoldTreasureChest_02",
@@ -37312,10 +37332,15 @@
           {
             "id": "L09_FO_ShiftGear_GoldTreasureChest_03",
             "Count": 1,
-            "prob": 2000000
+            "prob": 3333000
           },
           {
             "id": "L09_FO_ShiftGear_GoldTreasureChest_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "L09_FO_ShiftGear_GoldTreasureChest_05",
             "Count": 1,
             "prob": 10000000
           }
@@ -37327,7 +37352,7 @@
           {
             "id": "L09_FO_ShiftGear_TreasureChest_01",
             "Count": 1,
-            "prob": 100000
+            "prob": 167000
           },
           {
             "id": "L09_FO_ShiftGear_TreasureChest_02",
@@ -37347,7 +37372,7 @@
           {
             "id": "L09_FO_ShiftGear_TreasureChest_01",
             "Count": 1,
-            "prob": 100000
+            "prob": 167000
           },
           {
             "id": "L09_FO_ShiftGear_TreasureChest_02",
@@ -37367,7 +37392,7 @@
           {
             "id": "L09_FO_ShiftGear_CoinBag_01",
             "Count": 1,
-            "prob": 100000
+            "prob": 167000
           },
           {
             "id": "L09_FO_ShiftGear_CoinBag_02",
@@ -37387,7 +37412,7 @@
           {
             "id": "L09_FO_ShiftGear_CoinBag_01",
             "Count": 1,
-            "prob": 100000
+            "prob": 167000
           },
           {
             "id": "L09_FO_ShiftGear_CoinBag_02",
@@ -37407,7 +37432,7 @@
           {
             "id": "L09_FO_ShiftGear_CoinBag_01",
             "Count": 1,
-            "prob": 100000
+            "prob": 167000
           },
           {
             "id": "L09_FO_ShiftGear_CoinBag_02",
