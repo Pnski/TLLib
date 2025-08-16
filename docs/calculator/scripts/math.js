@@ -70,9 +70,16 @@ function calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) {
  * @param {*} CritHit 
  * @returns 
  */
-
 export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritDmg = 0) {
     return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100)) + BonusDamage
+}
+
+export function calcAvgSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritDmg = 0, critHit, heavyHit) {
+    const maxCritDmg = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg.Max, SDB, BonusDamage, SDB_Species, CritDmg)
+    const avgDmgNonCrit = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, ((WeaponDmg.Min + WeaponDmg.Max) / 2), SDB, BonusDamage, SDB_Species, 0)
+    const avgDmgNonHeavy = (avgDmgNonCrit * (1 - AttackModChance(critHit)) + maxCritDmg * AttackModChance(critHit))
+    const avgDmg = (avgDmgNonHeavy * (1 - AttackModChance(heavyHit))) + (avgDmgNonHeavy * 2 * AttackModChance(heavyHit))
+    return avgDmg
 }
 
 export function calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species,  CritDmg = 0) {

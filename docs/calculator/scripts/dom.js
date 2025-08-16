@@ -37,8 +37,6 @@ function setDisplay(element, displayStyle) {
     }
 }
 
-console.log("test")
-
 /**
  * Initializes a SlimSelect instance.
  * @param {HTMLElement} selectElement - The HTML select element.

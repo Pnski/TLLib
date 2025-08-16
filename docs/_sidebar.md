@@ -22,6 +22,7 @@
         - [Accessory](weapon/items/Accessory.md)
         - [Weapon Mastery](weapon/mLevel)
 - Calculator
+    - [Graphs](calculator/gain.md)
     - [SkillDamage](calculator/dd_calc.md)
     - [BiSGear](calculator/gear_dd_calc.md)
 - Articles
