@@ -221,7 +221,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     createChart();
 
     const sliders = document.querySelectorAll('input[type="range"]');
-    const numberInputs = document.querySelectorAll('input[type="number"]');
+    const numberInputs = document.querySelectorAll('input[type="float"]');
 
     sliders.forEach(slider => {
         slider.addEventListener('input', (event) => {
