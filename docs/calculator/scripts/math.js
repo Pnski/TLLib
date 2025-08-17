@@ -86,13 +86,67 @@ export function calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SD
     return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, (WeaponDmg.Min + WeaponDmg.Max)/2) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100))
 }
 
-export function calcAvgDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, CritDmg = 0, critHit, heavyHit) {
-    const maxCritDmg = calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, CritDmg)
-    const avgDmgNonCrit = calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, 0)
+export function calcAvgDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, CritDmg = 0, critHit, heavyHit, curse) {
+    const maxCritDmg = calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, CritDmg) * (1+(curse/100))
+    const avgDmgNonCrit = calcDotDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, SDB_Species, 0) * (1+(curse/100))
     const avgDmgNonHeavy = (avgDmgNonCrit * (1 - AttackModChance(critHit)) + maxCritDmg * AttackModChance(critHit))
     const avgDmg = (avgDmgNonHeavy * (1 - AttackModChance(heavyHit))) + (avgDmgNonHeavy * 2 * AttackModChance(heavyHit))
     return avgDmg
 }
+
+
+/* 
+          {healing touch
+            "skill_level": 15,
+            "formula_type": "EFormulaType::kAmountFromAttackPowerWithinMinMax",
+            "min": 5000,
+            "max": 5000,
+            "add": 270000,
+            "mul": 34000000,
+            "mul2": 0,
+            "mul3": 0,
+            "dynamic_stat_id1": "HealEffect",
+            "dynamic_stat_id2": "ContinuousHealEffect",
+            "dynamic_stat_id3": "None",
+            "dynamic_stat_id4": "None",
+            "tooltip1": 34.0,
+            "tooltip2": 27.0
+          },
+      "WA_Corruption_CD": {touch of despair
+        "FormulaParameter": [
+          {
+            "skill_level": 1,
+            "formula_type": "EFormulaType::kAmountFromAttackPowerWithinMinMax",
+            "min": 5000,
+            "max": 5000,
+            "add": 90000,
+            "mul": 25000000,
+            "mul2": 0,
+            "mul3": 0,
+            "dynamic_stat_id1": "CurseDamage",
+            "dynamic_stat_id2": "None",
+            "dynamic_stat_id3": "None",
+            "dynamic_stat_id4": "None",
+            "tooltip1": 25.0,
+            "tooltip2": 9.0
+          },
+          {swift heal
+            "skill_level": 15,
+            "formula_type": "EFormulaType::kAmountFromAttackPower",
+            "min": 0,
+            "max": 0,
+            "add": 232,
+            "mul": 61000,
+            "mul2": 0,
+            "mul3": 0,
+            "dynamic_stat_id1": "HealEffect",
+            "dynamic_stat_id2": "None",
+            "dynamic_stat_id3": "None",
+            "dynamic_stat_id4": "None",
+            "tooltip1": 610.0,
+            "tooltip2": 232.0
+          },
+*/
 
 /**
  * calculate attackspeed
