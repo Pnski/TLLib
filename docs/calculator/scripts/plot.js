@@ -40,306 +40,233 @@ const statLabels = {
     curse: 'Curse/Heal %'
 };
 
-let damageChart;
-let dotChart;
-let healChart;
-let hotChart;
+// Charts will be stored here
+const charts = {};
 
-function createChart() {
-    function makeConfig() {
-        const cfg = {
-            type: 'line',
-            data: { datasets: [] },
-            options: {
-                responsive: true,
-                maintainAspectRatio: true,
-                aspectRatio: 1,
-                plugins: {
-                    legend: { position: 'right' },
-                    tooltip: { mode: 'index', intersect: false }
-                },
-                scales: {
-                    y: {
-                        type: 'linear',
-                        position: 'left',
-                        beginAtZero: false,
-                        title: { display: true, text: 'Damage' }
-                    }
+function makeConfig() {
+    const cfg = {
+        type: 'line',
+        data: { datasets: [] },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            aspectRatio: 1,
+            plugins: {
+                legend: { position: 'right' },
+                tooltip: { mode: 'index', intersect: false }
+            },
+            scales: {
+                y: {
+                    type: 'linear',
+                    position: 'left',
+                    beginAtZero: false,
+                    title: { display: true, text: 'Damage' }
                 }
             }
+        }
+    };
+
+    // Dynamically add a scale per stat
+    stats.forEach(stat => {
+        cfg.options.scales[stat] = {
+            id: stat,
+            type: 'linear',
+            position: 'bottom',
+            title: {
+                display: true,
+                text: statLabels[stat] || stat,
+                color: colors[stat]
+            },
+            ticks: { color: colors[stat] },
+            grid: { color: colors[stat] }
         };
+    });
 
-        // Dynamically add a scale per stat
-        stats.forEach(statVariety => {
-            cfg.options.scales[statVariety] = {
-                id: statVariety,              // must match dataset xAxisID
-                type: 'linear',
-                position: 'bottom',
-                title: {
-                  display: true,
-                  text: statLabels[statVariety] || statVariety,
-                  color: colors[statVariety]
-                },
-                ticks: {
-                    color: colors[statVariety]
-                },
-                grid: {
-                  color: colors[statVariety]
-                }
-            };
-        });
+    return cfg;
+}
 
-        return cfg;
-    }
-
-    // fresh config objects for each chart
-    damageChart = new Chart(document.getElementById('skillDmg').getContext('2d'), makeConfig());
-    dotChart = new Chart(document.getElementById('dotDmg').getContext('2d'), makeConfig());
-    healChart = new Chart(document.getElementById('healing').getContext('2d'), makeConfig());
-    hotChart = new Chart(document.getElementById('hot').getContext('2d'), makeConfig());
+function createCharts() {
+    ["skillDmg", "dotDmg", "healing", "hot"].forEach(id => {
+        charts[id] = new Chart(document.getElementById(id).getContext('2d'), makeConfig());
+    });
     updateChart();
 }
 
-function updateChart() {
-    const datasetsSkills = [];
-    const datasetsDots = [];
-    const datasetsHeal = [];
-    const datasetsHots = [];
+function generateData(stat, calcFn) {
+    const data = [];
+    const start = state[stat] * 0.5;
+    const end = state[stat] * 1.5;
+    const step = Math.max(1, Math.floor((end - start) / 100));
 
+    for (let i = start; i <= end; i += step) {
+        const tempState = { ...state, [stat]: i };
+        data.push({ x: i, y: calcFn(tempState) });
+    }
+    return data;
+}
+
+function centerAxes() {
+    Object.values(charts).forEach(chart => {
+        stats.forEach(stat => {
+            const center = state[stat];
+            const range = center * 0.5;
+            chart.options.scales[stat].min = center - range;
+            chart.options.scales[stat].max = center + range;
+        });
+    });
+}
+
+function updateChart() {
+    const datasets = {
+        skillDmg: [],
+        dotDmg: [],
+        healing: [],
+        hot: []
+    };
+
+    // Reference markers
     const avgBaseDamage = math.calcAvgSkillDmg(
         state.skillPer, state.skillFlat,
-        {Min:state.minDmg, Max:state.maxDmg},
+        { Min: state.minDmg, Max: state.maxDmg },
         state.sdb, state.bonusDmg, state.ssdb,
         state.critDamage, state.critHit, state.heavyHit
     );
-
-    const avgDotDmg = math.calcAvgDotDmg(
+    const avgDot = math.calcAvgDotDmg(
         state.skillPer, state.skillFlat,
-        {Min:state.minDmg, Max:state.maxDmg},
+        { Min: state.minDmg, Max: state.maxDmg },
         state.sdb, state.ssdb,
         state.critDamage, state.critHit, state.heavyHit,
         state.curse
     );
+    const avgHeal = avgBaseDamage * (1 + state.curse / 100);
+    const avgHot = avgDot;
 
-    const avgBaseHeal = math.calcAvgSkillDmg(
-        state.skillPer, state.skillFlat,
-        {Min:state.minDmg, Max:state.maxDmg},
-        state.sdb, state.bonusDmg, state.ssdb,
-        state.critDamage, state.critHit, state.heavyHit
-    ) * (1+(state.curse/100));
-
-    const avgHot = math.calcAvgDotDmg(
-        state.skillPer, state.skillFlat,
-        {Min:state.minDmg, Max:state.maxDmg},
-        state.sdb, state.ssdb,
-        state.critDamage, state.critHit, state.heavyHit,
-        state.curse
-    );
-
-    // reference marker (assign it to one axis, e.g. minDmg)
-    datasetsSkills.push({
-        label: 'Average Damage',
-        data: [{x: state.maxDmg, y: avgBaseDamage}],
-        borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.8)',
+    const marker = (val, axis) => ({
+        label: 'Average',
+        data: [{ x: state[axis], y: val }],
+        borderColor: 'rgb(255,99,132)',
+        backgroundColor: 'rgba(255,99,132,0.8)',
         pointRadius: 10,
         showLine: false,
         pointStyle: 'star',
-        xAxisID: 'maxDmg',
-        yAxisID: 'y'
-    });
-    datasetsDots.push({
-        label: 'Average Damage',
-        data: [{x: state.maxDmg, y: avgDotDmg}],
-        borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.8)',
-        pointRadius: 10,
-        showLine: false,
-        pointStyle: 'star',
-        xAxisID: 'maxDmg',
-        yAxisID: 'y'
-    });
-    datasetsHeal.push({
-        label: 'Average Damage',
-        data: [{x: state.maxDmg, y: avgBaseHeal}],
-        borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.8)',
-        pointRadius: 10,
-        showLine: false,
-        pointStyle: 'star',
-        xAxisID: 'maxDmg',
-        yAxisID: 'y'
-    });
-    datasetsHots.push({
-        label: 'Average Damage',
-        data: [{x: state.maxDmg, y: avgHot}],
-        borderColor: 'rgb(255, 99, 132)',
-        backgroundColor: 'rgba(255, 99, 132, 0.8)',
-        pointRadius: 10,
-        showLine: false,
-        pointStyle: 'star',
-        xAxisID: 'maxDmg',
+        xAxisID: axis,
         yAxisID: 'y'
     });
 
-    // datasets per stat
-    stats.forEach(statVariety => {
-        const dataPointsSkills = [];
-        const dataPointsDots = [];
-        const dataPointsHeal = [];
-        const dataPointsHots = [];
-        const startVal = state[statVariety] * 0.5;
-        const endVal = state[statVariety] * 1.5;
-        const step = Math.max(1, Math.floor((endVal - startVal) / 100));
+    datasets.skillDmg.push(marker(avgBaseDamage, "maxDmg"));
+    datasets.dotDmg.push(marker(avgDot, "maxDmg"));
+    datasets.healing.push(marker(avgHeal, "maxDmg"));
+    datasets.hot.push(marker(avgHot, "maxDmg"));
 
-        for (let i = startVal; i <= endVal; i += step) {
-            const tempState = { ...state, [statVariety]: i };
-            const damage = math.calcAvgSkillDmg(
-                tempState.skillPer, tempState.skillFlat,
-                {Min:tempState.minDmg, Max:tempState.maxDmg},
-                tempState.sdb, tempState.bonusDmg, tempState.ssdb,
-                tempState.critDamage, tempState.critHit, tempState.heavyHit
-            );
-            dataPointsSkills.push({ x: i, y: damage });
-            const dot = math.calcAvgDotDmg(
-                tempState.skillPer, tempState.skillFlat,
-                {Min:tempState.minDmg, Max:tempState.maxDmg},
-                tempState.sdb, tempState.ssdb,
-                tempState.critDamage, tempState.critHit, tempState.heavyHit,
-                tempState.curse
-            );
-            dataPointsDots.push({ x: i, y: dot });
-            const heal = (math.calcAvgSkillDmg(
-                tempState.skillPer, tempState.skillFlat,
-                {Min:tempState.minDmg, Max:tempState.maxDmg},
-                tempState.sdb, tempState.bonusDmg, tempState.ssdb,
-                tempState.critDamage, tempState.critHit, tempState.heavyHit
-            ) * ( 1 + ( tempState.curse / 100 )));
-            console.log(tempState.curse)
-            dataPointsHeal.push({ x: i, y: heal });
-            const hot = math.calcAvgDotDmg(
-                tempState.skillPer, tempState.skillFlat,
-                {Min:tempState.minDmg, Max:tempState.maxDmg},
-                tempState.sdb, tempState.ssdb,
-                tempState.critDamage, tempState.critHit, tempState.heavyHit,
-                tempState.curse
-            );
-            dataPointsHots.push({ x: i, y: hot });
-        }
+    // Per-stat curves
+    stats.forEach(stat => {
+        const opts = {
+            borderColor: colors[stat],
+            borderWidth: 2,
+            fill: false,
+            tension: 0.4,
+            xAxisID: stat,
+            yAxisID: 'y',
+            label: statLabels[stat]
+        };
 
-        datasetsSkills.push({
-            label: statLabels[statVariety],
-            data: dataPointsSkills,
-            borderColor: colors[statVariety],
-            borderWidth: 2,
-            fill: false,
-            tension: 0.4,
-            xAxisID: statVariety,
-            yAxisID: 'y'
+        datasets.skillDmg.push({
+            ...opts,
+            data: generateData(stat, s => math.calcAvgSkillDmg(
+                s.skillPer, s.skillFlat,
+                { Min: s.minDmg, Max: s.maxDmg },
+                s.sdb, s.bonusDmg, s.ssdb,
+                s.critDamage, s.critHit, s.heavyHit
+            ))
         });
-        datasetsDots.push({
-            label: statLabels[statVariety],
-            data: dataPointsDots,
-            borderColor: colors[statVariety],
-            borderWidth: 2,
-            fill: false,
-            tension: 0.4,
-            xAxisID: statVariety,
-            yAxisID: 'y'
+
+        datasets.dotDmg.push({
+            ...opts,
+            data: generateData(stat, s => math.calcAvgDotDmg(
+                s.skillPer, s.skillFlat,
+                { Min: s.minDmg, Max: s.maxDmg },
+                s.sdb, s.ssdb,
+                s.critDamage, s.critHit, s.heavyHit,
+                s.curse
+            ))
         });
-        datasetsHeal.push({
-            label: statLabels[statVariety],
-            data: dataPointsHeal,
-            borderColor: colors[statVariety],
-            borderWidth: 2,
-            fill: false,
-            tension: 0.4,
-            xAxisID: statVariety,
-            yAxisID: 'y'
+
+        datasets.healing.push({
+            ...opts,
+            data: generateData(stat, s =>
+                math.calcAvgSkillDmg(
+                    s.skillPer, s.skillFlat,
+                    { Min: s.minDmg, Max: s.maxDmg },
+                    s.sdb, s.bonusDmg, s.ssdb,
+                    s.critDamage, s.critHit, s.heavyHit
+                ) * (1 + s.curse / 100)
+            )
         });
-        datasetsHots.push({
-            label: statLabels[statVariety],
-            data: dataPointsHots,
-            borderColor: colors[statVariety],
-            borderWidth: 2,
-            fill: false,
-            tension: 0.4,
-            xAxisID: statVariety,
-            yAxisID: 'y'
+
+        datasets.hot.push({
+            ...opts,
+            data: generateData(stat, s => math.calcAvgDotDmg(
+                s.skillPer, s.skillFlat,
+                { Min: s.minDmg, Max: s.maxDmg },
+                s.sdb, s.ssdb,
+                s.critDamage, s.critHit, s.heavyHit,
+                s.curse
+            ))
         });
     });
 
-    stats.forEach(statVariety => {
-        const center = state[statVariety];
-        const range = center * 0.5;
-
-        damageChart.options.scales[statVariety].min = center - range;
-        damageChart.options.scales[statVariety].max = center + range;
-        dotChart.options.scales[statVariety].min = center - range;
-        dotChart.options.scales[statVariety].max = center + range;
-        healChart.options.scales[statVariety].min = center - range;
-        healChart.options.scales[statVariety].max = center + range;
-        hotChart.options.scales[statVariety].min = center - range;
-        hotChart.options.scales[statVariety].max = center + range;
+    // Apply datasets
+    Object.entries(datasets).forEach(([id, data]) => {
+        charts[id].data.datasets = data;
+        charts[id].update();
     });
 
-    damageChart.data.datasets = datasetsSkills;
-    damageChart.update();
-    dotChart.data.datasets = datasetsDots;
-    dotChart.update();
-    healChart.data.datasets = datasetsHeal;
-    healChart.update();
-    hotChart.data.datasets = datasetsHots;
-    hotChart.update();
+    // Center axes dynamically
+    centerAxes();
 }
 
 console.log("✅ plot.js loaded");
 
 const CALCULATOR_PATH = '/calculator/gain';
 
-// --- Main Docsify Plugin Logic ---
-
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
-  console.log("✅ Docsify plugin registered");
+    console.log("✅ Docsify plugin registered");
 
-  // This hook runs after each page is loaded.
-  hook.doneEach(async () => {
-    const currentPage = vm.route.path;
+    hook.doneEach(async () => {
+        const currentPage = vm.route.path;
+        if (!currentPage.includes(CALCULATOR_PATH)) {
+            console.log("Skipping calculator logic on non-calculator page.");
+            return;
+        }
 
-    if (!currentPage.includes(CALCULATOR_PATH)) {
-      console.log("Skipping calculator logic on non-calculator page.");
-      return;
-    }
+        console.log("✅ Executing calculator logic for:", currentPage);
+        createCharts();
 
-    console.log("✅ Executing calculator logic for:", currentPage);
+        const sliders = document.querySelectorAll('input[type="range"]');
+        const numberInputs = document.querySelectorAll('input[type="float"]');
 
-    createChart();
-
-    const sliders = document.querySelectorAll('input[type="range"]');
-    const numberInputs = document.querySelectorAll('input[type="float"]');
-
-    sliders.forEach(slider => {
-        slider.addEventListener('input', (event) => {
-            const value = parseInt(event.target.value);
-            state[event.target.id] = value;
-            document.getElementById(event.target.id + 'Input').value = value;
-            updateChart();
-        });
-    });
-
-    numberInputs.forEach(input => {
-        input.addEventListener('input', (event) => {
-            const value = parseInt(event.target.value);
-            const sliderId = event.target.id.replace('Input', '');
-            if (!isNaN(value)) {
-                state[sliderId] = value;
-                document.getElementById(sliderId).value = value;
+        sliders.forEach(slider => {
+            slider.addEventListener('input', e => {
+                const value = parseInt(e.target.value);
+                state[e.target.id] = value;
+                document.getElementById(e.target.id + 'Input').value = value;
                 updateChart();
-            }
+            });
         });
-    });
 
-    updateChart();
-  });
+        numberInputs.forEach(input => {
+            input.addEventListener('input', e => {
+                const value = parseInt(e.target.value);
+                const sliderId = e.target.id.replace('Input', '');
+                if (!isNaN(value)) {
+                    state[sliderId] = value;
+                    document.getElementById(sliderId).value = value;
+                    updateChart();
+                }
+            });
+        });
+
+        updateChart();
+    });
 });
