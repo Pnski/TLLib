@@ -1,15 +1,15 @@
 import * as math from './math.js'
 
 const state = {
-    skillPer: 170,
+    skillPer: 550,
     skillFlat: 35,
-    minDmg: 100,
-    maxDmg: 500,
-    sdb: 200,
+    minDmg: 200,
+    maxDmg: 670,
+    sdb: 300,
     bonusDmg: 20,
-    critHit: 1500,
-    critDamage: 25,
-    heavyHit: 1000
+    critHit: 1600,
+    critDamage: 34,
+    heavyHit: 1400
 };
 
 const stats = ['minDmg', 'maxDmg', 'sdb', 'bonusDmg', 'critHit', 'critDamage', 'heavyHit'];
@@ -18,7 +18,7 @@ const colors = {
     minDmg: 'rgba(79, 70, 229, 1)',
     maxDmg: 'rgba(234, 179, 8, 1)',
     sdb: 'rgba(16, 185, 129, 1)',
-    bonusDmg: 'rgba(239, 68, 68, 1)',
+    bonusDmg: 'rgba(0, 255, 0, 1)',
     critHit: 'rgba(139, 92, 246, 1)',
     critDamage: 'rgba(0, 238, 255, 1)',
     heavyHit: 'rgba(59, 130, 246, 1)'
@@ -45,7 +45,7 @@ function createChart() {
             options: {
                 responsive: true,
                 maintainAspectRatio: true,
-                aspectRatio: 0.75,
+                aspectRatio: 1,
                 plugins: {
                     legend: { position: 'right' },
                     tooltip: { mode: 'index', intersect: false }
@@ -68,8 +68,15 @@ function createChart() {
                 type: 'linear',
                 position: 'bottom',
                 title: {
-                    display: true,
-                    text: statLabels[statVariety] || statVariety
+                  display: true,
+                  text: statLabels[statVariety] || statVariety,
+                  color: colors[statVariety]
+                },
+                ticks: {
+                    color: colors[statVariety]
+                },
+                grid: {
+                  color: colors[statVariety]
                 }
             };
         });
@@ -85,7 +92,8 @@ function createChart() {
 }
 
 function updateChart() {
-    const datasets = [];
+    const datasetsSkills = [];
+    const datasetsDots = [];
 
     const avgBaseDamage = math.calcAvgSkillDmg(
         state.skillPer, state.skillFlat,
@@ -94,32 +102,45 @@ function updateChart() {
         state.critDamage, state.critHit, state.heavyHit
     );
 
-    const avgDotDmg = math.calcDotDmg(
+    const avgDotDmg = math.calcAvgDotDmg(
         state.skillPer, state.skillFlat,
         {Min:state.minDmg, Max:state.maxDmg},
-        state.sdb, state.bonusDmg, 0,
+        state.sdb, 0,
         state.critDamage, state.critHit, state.heavyHit
     )
+    console.log(avgDotDmg)
 
     // reference marker (assign it to one axis, e.g. minDmg)
-    datasets.push({
+    datasetsSkills.push({
         label: 'Average Damage',
-        data: [{x: state.minDmg, y: avgBaseDamage}],
+        data: [{x: state.maxDmg, y: avgBaseDamage}],
         borderColor: 'rgb(255, 99, 132)',
         backgroundColor: 'rgba(255, 99, 132, 0.8)',
         pointRadius: 10,
         showLine: false,
         pointStyle: 'star',
-        xAxisID: 'minDmg',
+        xAxisID: 'maxDmg',
+        yAxisID: 'y'
+    });
+    datasetsDots.push({
+        label: 'Average Damage',
+        data: [{x: state.maxDmg, y: avgDotDmg}],
+        borderColor: 'rgb(255, 99, 132)',
+        backgroundColor: 'rgba(255, 99, 132, 0.8)',
+        pointRadius: 10,
+        showLine: false,
+        pointStyle: 'star',
+        xAxisID: 'maxDmg',
         yAxisID: 'y'
     });
 
     // datasets per stat
     stats.forEach(statVariety => {
-        const dataPoints = [];
+        const dataPointsSkills = [];
+        const dataPointsDots = [];
         const startVal = state[statVariety] * 0.5;
         const endVal = state[statVariety] * 1.5;
-        const step = Math.max(1, Math.floor((endVal - startVal) / 50));
+        const step = Math.max(1, Math.floor((endVal - startVal) / 100));
 
         for (let i = startVal; i <= endVal; i += step) {
             const tempState = { ...state, [statVariety]: i };
@@ -129,12 +150,29 @@ function updateChart() {
                 tempState.sdb, tempState.bonusDmg, 0,
                 tempState.critDamage, tempState.critHit, tempState.heavyHit
             );
-            dataPoints.push({ x: i, y: damage });
+            dataPointsSkills.push({ x: i, y: damage });
+            const dot = math.calcAvgDotDmg(
+                tempState.skillPer, tempState.skillFlat,
+                {Min:tempState.minDmg, Max:tempState.maxDmg},
+                tempState.sdb, 0,
+                tempState.critDamage, tempState.critHit, tempState.heavyHit
+            );
+            dataPointsDots.push({ x: i, y: dot });
         }
 
-        datasets.push({
+        datasetsSkills.push({
             label: statLabels[statVariety],
-            data: dataPoints,
+            data: dataPointsSkills,
+            borderColor: colors[statVariety],
+            borderWidth: 2,
+            fill: false,
+            tension: 0.4,
+            xAxisID: statVariety,   // matches scale id
+            yAxisID: 'y'
+        });
+        datasetsDots.push({
+            label: statLabels[statVariety],
+            data: dataPointsDots,
             borderColor: colors[statVariety],
             borderWidth: 2,
             fill: false,
@@ -144,9 +182,19 @@ function updateChart() {
         });
     });
 
-    damageChart.data.datasets = datasets;
+    stats.forEach(statVariety => {
+        const center = state[statVariety];
+        const range = center * 0.5;
+
+        damageChart.options.scales[statVariety].min = center - range;
+        damageChart.options.scales[statVariety].max = center + range;
+        dotChart.options.scales[statVariety].min = center - range;
+        dotChart.options.scales[statVariety].max = center + range;
+    });
+
+    damageChart.data.datasets = datasetsSkills;
     damageChart.update();
-    dotChart.data.datasets = datasets;
+    dotChart.data.datasets = datasetsDots;
     dotChart.update();
 }
 
@@ -164,7 +212,6 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
   hook.doneEach(async () => {
     const currentPage = vm.route.path;
 
-    // Only execute specific logic for the calculator page.
     if (!currentPage.includes(CALCULATOR_PATH)) {
       console.log("Skipping calculator logic on non-calculator page.");
       return;
@@ -175,15 +222,29 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     createChart();
 
     const sliders = document.querySelectorAll('input[type="range"]');
+    const numberInputs = document.querySelectorAll('input[type="number"]');
+
     sliders.forEach(slider => {
         slider.addEventListener('input', (event) => {
-            state[event.target.id] = parseInt(event.target.value);
-            document.getElementById(event.target.id + 'Value').innerText = event.target.value;
+            const value = parseInt(event.target.value);
+            state[event.target.id] = value;
+            document.getElementById(event.target.id + 'Input').value = value;
             updateChart();
         });
     });
 
-    // Preload data if needed
+    numberInputs.forEach(input => {
+        input.addEventListener('input', (event) => {
+            const value = parseInt(event.target.value);
+            const sliderId = event.target.id.replace('Input', '');
+            if (!isNaN(value)) {
+                state[sliderId] = value;
+                document.getElementById(sliderId).value = value;
+                updateChart();
+            }
+        });
+    });
+
     updateChart();
   });
 });
