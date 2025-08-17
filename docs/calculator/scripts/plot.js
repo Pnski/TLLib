@@ -108,7 +108,6 @@ function updateChart() {
         state.sdb, 0,
         state.critDamage, state.critHit, state.heavyHit
     )
-    console.log(avgDotDmg)
 
     // reference marker (assign it to one axis, e.g. minDmg)
     datasetsSkills.push({
