@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemTraits",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLSchemeItemTraits'",
@@ -1065,6 +1065,86 @@
         "ItemTraitsEnchantValueId": "trait_unique_enchant",
         "TraitStat": [
           "EItemTraitStats::kCriticalDamageTakenModifier"
+        ]
+      },
+      "Unique_kAllAccuracy": {
+        "TraitNum": 1670377963,
+        "ItemTraitsBaseValueId": "trait_unique_base",
+        "ItemTraitsEnchantValueId": "trait_unique_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kAllAccuracy"
+        ]
+      },
+      "Unique_kAllDoubleAttack": {
+        "TraitNum": 1670377964,
+        "ItemTraitsBaseValueId": "trait_unique_base",
+        "ItemTraitsEnchantValueId": "trait_unique_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kAllDoubleAttack"
+        ]
+      },
+      "Unique_kAllCriticalAttack": {
+        "TraitNum": 1670377965,
+        "ItemTraitsBaseValueId": "trait_unique_base",
+        "ItemTraitsEnchantValueId": "trait_unique_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kAllCriticalAttack"
+        ]
+      },
+      "kContinuousHealModifier": {
+        "TraitNum": 1670377967,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kContinuousHealModifier"
+        ]
+      },
+      "kContinuousHealTakenModifier": {
+        "TraitNum": 1670377968,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kContinuousHealTakenModifier"
+        ]
+      },
+      "kShieldModifier": {
+        "TraitNum": 1670377969,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kShieldModifier"
+        ]
+      },
+      "kShieldTakenModifier": {
+        "TraitNum": 1670377970,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kShieldTakenModifier"
+        ]
+      },
+      "kDoubleDamageDealtModifier": {
+        "TraitNum": 1670377973,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kDoubleDamageDealtModifier"
+        ]
+      },
+      "kDoubleDamageTakenModifier": {
+        "TraitNum": 1670377974,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kDoubleDamageTakenModifier"
+        ]
+      },
+      "kSkillHealTakenModifier": {
+        "TraitNum": 1670377975,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kSkillHealTakenModifier"
         ]
       }
     }

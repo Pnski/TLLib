@@ -5275,7 +5275,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_NAME_SkillSet_WP_WA_GR_S_CurseBurst_trait_3",
           "SourceString": "사용 대상 집중",
-          "LocalizedString": "Focus target"
+          "LocalizedString": "Focus Target"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON056.SP_COMMON056",

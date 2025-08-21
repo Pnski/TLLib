@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemLotteryPrivateGroup",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLJsonItemLotteryPrivateGroupEntry'",
@@ -6042,6 +6042,66 @@
             "id": "MagicDoll_Dark_6241",
             "Count": 1,
             "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Armor",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
           }
         ]
       },
@@ -6052,6 +6112,66 @@
             "id": "MagicDoll_LavaGolem_6242",
             "Count": 1,
             "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_T2_Acc",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
           }
         ]
       },
@@ -6059,9 +6179,69 @@
         "Name": "Raid_Dungeon_Reward_03_03_Hard_Box",
         "ItemLotteryPrivateGroupEntry": [
           {
-            "id": "MagicDoll_Calanthia_6240",
+            "id": "polymorph_Taurus_501305",
             "Count": 1,
             "prob": 1000000
+          },
+          {
+            "id": "Raid_stone_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ChaosMaterial_kAAA_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "RaidBox_Equip_Unic_3_3",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 3700000
+          },
+          {
+            "id": "Riad_Total_Rune_kAA_351",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Raid_Artifact_kA_351",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 6,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skill_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_01",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_01",
+            "Count": 1,
+            "prob": 1250000
           }
         ]
       },
@@ -27600,6 +27780,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Package_Random_Raid_001_351",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Random_Raid_002_365": {
+        "Name": "Package_Random_Raid_002_365",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Random_Raid_002_365",
             "Count": 1,
             "prob": 10000000
           }

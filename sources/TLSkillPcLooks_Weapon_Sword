@@ -1249,20 +1249,6 @@
                     "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
                     "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
                   }
-                },
-                {
-                  "OptionName": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-                    "SourceString": "피해량 경감 증가",
-                    "LocalizedString": "Damage Reduction ▲"
-                  },
-                  "OptionParameter": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-                    "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-                    "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-                    "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
-                  }
                 }
               ]
             }
@@ -1295,20 +1281,6 @@
               "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_SW_SH_S_CounterMove_ContextSkill",
               "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
               "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
-            }
-          },
-          {
-            "OptionName": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-              "SourceString": "피해량 경감 증가",
-              "LocalizedString": "Damage Reduction ▲"
-            },
-            "OptionParameter": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-              "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-              "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-              "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
             }
           }
         ],
@@ -1564,20 +1536,6 @@
                     "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
                     "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
                   }
-                },
-                {
-                  "OptionName": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-                    "SourceString": "피해량 경감 증가",
-                    "LocalizedString": "Damage Reduction ▲"
-                  },
-                  "OptionParameter": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-                    "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-                    "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-                    "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
-                  }
                 }
               ]
             }
@@ -1610,20 +1568,6 @@
               "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_SW_SH_S_CounterMove_ContextSkill",
               "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
               "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
-            }
-          },
-          {
-            "OptionName": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-              "SourceString": "피해량 경감 증가",
-              "LocalizedString": "Damage Reduction ▲"
-            },
-            "OptionParameter": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-              "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-              "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-              "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
             }
           }
         ],
@@ -1879,20 +1823,6 @@
                     "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
                     "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
                   }
-                },
-                {
-                  "OptionName": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-                    "SourceString": "피해량 경감 증가",
-                    "LocalizedString": "Damage Reduction ▲"
-                  },
-                  "OptionParameter": {
-                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-                    "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-                    "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-                    "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
-                  }
                 }
               ]
             }
@@ -1925,20 +1855,6 @@
               "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_SW_SH_S_CounterMove_ContextSkill",
               "SourceString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]",
               "LocalizedString": "$[CM_SW_CounterMove_ContextSkill_DD_1.tooltip1]% + $[CM_SW_CounterMove_ContextSkill_DD_1.tooltip2]"
-            }
-          },
-          {
-            "OptionName": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
-              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGEREDUCTION_UP",
-              "SourceString": "피해량 경감 증가",
-              "LocalizedString": "Damage Reduction ▲"
-            },
-            "OptionParameter": {
-              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
-              "Key": "TEXT_SKILL_LEVEL_OPTION_2_CM_SW_CounterMove_ActionSkill",
-              "SourceString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]",
-              "LocalizedString": "$[CM_SW_CounterMove_DamageReduction.tooltip1]"
             }
           }
         ],
@@ -29514,8 +29430,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WP_SW_SH_S_ShieldBuff_trait3",
-              "SourceString": "$[SW_ShieldBuff_DamageReductionUp_Duration.tooltip1]초 동안 자신의 피해량 경감 ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_trait3.tooltip1]^</c>, 전방 피해량 경감을 ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_Front.tooltip1]^</c> 증가시킵니다.",
-              "LocalizedString": "Increases user's Damage Reduction by ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_trait3.tooltip1]^</c> and Front Damage Reduction by ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_Front.tooltip1]^</c> for $[SW_ShieldBuff_DamageReductionUp_Duration.tooltip1]s."
+              "SourceString": "$[SW_ShieldBuff_DamageReductionUp_Duration.tooltip1]초 동안 자신의 피해량 경감 ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_trait3.tooltip1]^</c>, 전방 피해량 경감을 ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_Front.tooltip1]^</c> 증가시킵니다. 효과를 받은 대상은 45초 동안 다른 시전자의 철옹성 효과를 받을 수 없습니다.",
+              "LocalizedString": "Increases the user's Damage Reduction by ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_trait3.tooltip1]^</c> and Front Damage Reduction by ^<c=@SkillTooltipChange>$[SW_ShieldBuff_DamageReductionUp_Front.tooltip1]^</c> for $[SW_ShieldBuff_DamageReductionUp_Duration.tooltip1]s. Target cannot receive the Stalwart Bastion effect from another caster for 45s."
             }
           }
         ],

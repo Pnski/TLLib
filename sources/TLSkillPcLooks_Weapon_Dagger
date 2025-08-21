@@ -7538,7 +7538,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
           "Key": "TEXT_TRAIT_NAME_ADD_BOTH_RATE",
           "SourceString": "부무기 발동",
-          "LocalizedString": "Off-Hand Weapon Activation"
+          "LocalizedString": "Off-hand Weapon Activation"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON085.SP_COMMON085",
@@ -7555,7 +7555,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_LegAttack_trait_2",
               "SourceString": "적중 시 $[DA_LegAttack_Trait_2_Duration.tooltip1]초 동안 부무기 발동확률이 $[DA_LegAttack_Trait_2.tooltip1]% 증폭됩니다.",
-              "LocalizedString": "Upon hit, Off-Hand Weapon Activation Rate increases by $[DA_LegAttack_Trait_2.tooltip1]% for $[DA_LegAttack_Trait_2_Duration.tooltip1]s."
+              "LocalizedString": "Upon hit, Off-hand Weapon Activation Rate increases by $[DA_LegAttack_Trait_2.tooltip1]% for $[DA_LegAttack_Trait_2_Duration.tooltip1]s."
             }
           }
         ],
@@ -7618,7 +7618,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillPcLooks_Weapon_Dagger.TLStringSkillPcLooks_Weapon_Dagger",
           "Key": "SkillSet_WP_DA_DA_S_LegAttack_trait_2_SkillTraitDescription",
           "SourceString": "부무기 발동 확률 증가",
-          "LocalizedString": "Off-Hand Weapon Activation Rate ▲"
+          "LocalizedString": "Off-hand Weapon Activation Rate ▲"
         },
         "UnAvailableSkillHandle": {
           "RowName": "None"
@@ -19672,7 +19672,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -19914,7 +19914,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -20156,7 +20156,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -20398,7 +20398,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -32509,7 +32509,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -32751,7 +32751,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -32993,7 +32993,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -33235,7 +33235,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
               "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>. The number of attacks increases up to 4 times upon the Off-hand Weapon activation."
             }
           }
         ],
@@ -38690,7 +38690,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_CriticalOffHandAttack",
               "SourceString": "백조의 기사단장 로엔의 직감을 이용한 스킬로, 스킬을 사용해 치명타를 적중시킨 뒤 $[DA_CriticalOffhandAttack_Duration.tooltip1]초 동안 부무기의 공격 확률이 ^<c=@SkillTooltipAbnormal>$[DA_CriticalOffhandAttack_OffhandUp_By_Critical.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Channel the instincts of Roen, captain of the Order of the Swan. On Critical Hit, Off-Hand Weapon Attack Chance increases by ^<c=@SkillTooltipAbnormal>$[DA_CriticalOffhandAttack_OffhandUp_By_Critical.tooltip1]%^</c> for $[DA_CriticalOffhandAttack_Duration.tooltip1]s."
+              "LocalizedString": "Channel the instincts of Roen, captain of the Order of the Swan. On Critical Hit, Off-hand Weapon Attack Chance increases by ^<c=@SkillTooltipAbnormal>$[DA_CriticalOffhandAttack_OffhandUp_By_Critical.tooltip1]%^</c> for $[DA_CriticalOffhandAttack_Duration.tooltip1]s."
             }
           }
         ],
@@ -38707,7 +38707,7 @@
                     "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
                     "Key": "TEXT_RES_SKILL_LEVELUP_STAT_OFFHANDATTACKSPEED_UP",
                     "SourceString": "부무기 공격 확률 증가",
-                    "LocalizedString": "Off-Hand Weapon Attack Chance ▲"
+                    "LocalizedString": "Off-hand Weapon Attack Chance ▲"
                   },
                   "OptionParameter": {
                     "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
@@ -38726,7 +38726,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
               "Key": "TEXT_RES_SKILL_LEVELUP_STAT_OFFHANDATTACKSPEED_UP",
               "SourceString": "부무기 공격 확률 증가",
-              "LocalizedString": "Off-Hand Weapon Attack Chance ▲"
+              "LocalizedString": "Off-hand Weapon Attack Chance ▲"
             },
             "OptionParameter": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
