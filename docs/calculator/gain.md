@@ -1,5 +1,7 @@
 # Graph
 
+- Zoom in / out or Pan to find desired value
+
 | | | |
 | --- | --- | --- |
 | <label for="skillPer" class="block text-sm font-medium text-slate-700">Skill % Damage: </label> | <input type="range" id="skillPer" min="0" max="3000" value="550" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="skillPerInput" min="0" max="3000" value="550"> |

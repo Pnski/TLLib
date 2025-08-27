@@ -53,7 +53,21 @@ function makeConfig() {
             aspectRatio: 1,
             plugins: {
                 legend: { position: 'right' },
-                tooltip: { mode: 'index', intersect: false }
+                //tooltip: { mode: 'index', intersect: false }
+                 zoom: {
+                    zoom: {
+                        wheel: { enabled: true },   // Zoom with mouse wheel
+                        pinch: { enabled: true },   // Zoom with pinch gesture
+                        mode: "xy"                  // Zoom both axes
+                    },
+                    pan: {
+                        enabled: true,
+                        mode: "xy",
+                        modifierKey: null,
+                        scaleMode: "xy",
+                        treshold: 1
+                    }
+                }
             },
             scales: {
                 y: {

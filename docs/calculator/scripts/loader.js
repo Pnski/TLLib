@@ -1,6 +1,6 @@
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@5.2.5/+esm';
 
-async function fetchGzip(URL) {
+export async function fetchGzip(URL) {
     const response = await fetch(URL+'.gz');
 
     if (!response.ok) {
