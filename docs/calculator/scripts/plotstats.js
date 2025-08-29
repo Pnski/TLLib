@@ -91,7 +91,7 @@ function updateCharts(stats) {
                 label: element,
                 data: [],
                 tension: 0.1,
-                hidden: false
+                hidden: true
             };
 
             for (const key in baseStats) {
