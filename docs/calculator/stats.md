@@ -2,7 +2,7 @@
 
 - Values directly taken from gamefiles, without modification, some values have to be devided by 1000 for beeing shown as ingame!
 - Zoom in / out or Pan to find desired value
-- since there are so many different values they are deactivated and you have to activate the value you want to see manually
+- lines can be deactivated via the legend
 
 ## Strength
 
