@@ -1,4 +1,4 @@
-import * as loader from './loader.js'
+import { fetchGzip } from './loader.js'
 
 var baseStats = {}
 const charts = {};
@@ -14,7 +14,23 @@ function makeConfig() {
             maintainAspectRatio: false,
             aspectRatio: 0.5,
             plugins: {
-                legend: { position: 'right' },
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        boxWidth: 8,   // smaller color boxes
+                        padding: 8,     // tighter spacing
+                        align: 'start',
+                        filter: function (legendItem, chart) {
+                            const chartData = chart.datasets[legendItem.datasetIndex].data
+                            const allZero = chartData.every(point => {
+                                if (typeof point === "number") return point === 0;
+                                if (typeof point === "object" && "y" in point) return point.y === 0;
+                                return false;
+                            });
+                            return !allZero; // only keep if not all zero
+                        }
+                    }
+                },
                 //tooltip: { mode: 'index', intersect: false },
                 zoom: {
                     zoom: {
@@ -44,7 +60,8 @@ function makeConfig() {
                     type: 'linear',
                     position: 'left',
                     title: {
-                        display: true
+                        display: true,
+                        text: 'Value'
                     }
                 }
             }
@@ -53,8 +70,6 @@ function makeConfig() {
 }
 
 function createCharts(stats) {
-
-
     [
         'EPcStatsType::kSTR',
         'EPcStatsType::kDEX',
@@ -75,7 +90,8 @@ function updateCharts(stats) {
             const dataSet = {
                 label: element,
                 data: [],
-                tension: 0.1
+                tension: 0.1,
+                hidden: false
             };
 
             for (const key in baseStats) {
@@ -116,7 +132,7 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
         }
 
         try {
-            baseStats = JSON.parse(await loader.fetchGzip('sources/TLBaseMainStat'))[0]["Rows"];
+            baseStats = JSON.parse(await fetchGzip('sources/TLBaseMainStat'))[0]["Rows"];
             const stats = new Set();
             for (const point in baseStats) {
                 for (const statName in baseStats[point].Stat) {
