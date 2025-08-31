@@ -239,22 +239,19 @@ function updateChart() {
     centerAxes();
 }
 
-console.log("✅ plot.js loaded");
+console.log("plot.js loaded");
 
 const CALCULATOR_PATH = '/calculator/gain';
 
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
-    console.log("✅ Docsify plugin registered");
-
     hook.doneEach(async () => {
         const currentPage = vm.route.path;
         if (!currentPage.includes(CALCULATOR_PATH)) {
-            console.log("Skipping calculator logic on non-calculator page.");
             return;
         }
 
-        console.log("✅ Executing calculator logic for:", currentPage);
+        console.log(currentPage);
         createCharts();
 
         const sliders = document.querySelectorAll('input[type="range"]');

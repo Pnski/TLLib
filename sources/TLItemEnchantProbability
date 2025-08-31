@@ -1,0 +1,120 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLItemEnchantProbability",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeItemEnchantProbability'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "1to3_Enchant_Prob": {
+        "EnchantResult": [
+          {
+            "EnchantResultType": "EEnchantResultType::C",
+            "EnchantPoint": 35,
+            "Probability": 4000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::B",
+            "EnchantPoint": 40,
+            "Probability": 3000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::A",
+            "EnchantPoint": 60,
+            "Probability": 2000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::S",
+            "EnchantPoint": 100,
+            "Probability": 1000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "4to6_Enchant_Prob": {
+        "EnchantResult": [
+          {
+            "EnchantResultType": "EEnchantResultType::C",
+            "EnchantPoint": 25,
+            "Probability": 4000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::B",
+            "EnchantPoint": 30,
+            "Probability": 3000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::A",
+            "EnchantPoint": 50,
+            "Probability": 2000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::S",
+            "EnchantPoint": 80,
+            "Probability": 1000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "7to9_Enchant_Prob": {
+        "EnchantResult": [
+          {
+            "EnchantResultType": "EEnchantResultType::C",
+            "EnchantPoint": 15,
+            "Probability": 4000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::B",
+            "EnchantPoint": 20,
+            "Probability": 3000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::A",
+            "EnchantPoint": 40,
+            "Probability": 2000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::S",
+            "EnchantPoint": 70,
+            "Probability": 1000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "10to12_Enchant_Prob": {
+        "EnchantResult": [
+          {
+            "EnchantResultType": "EEnchantResultType::C",
+            "EnchantPoint": 15,
+            "Probability": 4000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::B",
+            "EnchantPoint": 20,
+            "Probability": 3000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::A",
+            "EnchantPoint": 40,
+            "Probability": 2000
+          },
+          {
+            "EnchantResultType": "EEnchantResultType::S",
+            "EnchantPoint": 70,
+            "Probability": 1000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      }
+    }
+  }
+]

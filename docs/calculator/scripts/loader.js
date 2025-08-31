@@ -1,7 +1,7 @@
 import { XMLParser } from 'https://cdn.jsdelivr.net/npm/fast-xml-parser@5.2.5/+esm';
 
 export async function fetchGzip(URL) {
-    const response = await fetch(URL+'.gz');
+    const response = await fetch(URL + '.gz');
 
     if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -179,4 +179,48 @@ export async function SkillList(weapon) {
     }
 
     return filtered;
+}
+
+export async function ItemStats() {
+    const statsPaths = {
+        TLItemStats: 'sources/TLItemStats',
+        TLItemMainStatInit: 'sources/TLItemMainStatInit',
+        TLItemMainStatEnchant: 'sources/TLItemMainStatEnchant',
+        ItemExtraStatInit: 'sources/TLItemExtraStatInit',
+        TLItemExtraStatEnchant: 'sources/TLItemExtraStatEnchant',
+    };
+
+    const loadedData = {};
+
+    for (const [key, path] of Object.entries(statsPaths)) {
+        try {
+            const jsonString = await fetchGzip(path);
+            const rows = JSON.parse(jsonString)[0].Rows;
+
+            // If this dataset needs an index, build it
+            if (key === "TLItemMainStatInit") {
+                const index = {};
+                for (const k in rows) {
+                    const item = rows[k];
+                    const compositeKey = `${item.id}:${item.seed}`;
+                    index[compositeKey] = item;
+                }
+                loadedData[key] = index;
+            } else if (key === "TLItemMainStatEnchant") {
+                const index = {};
+                for (const k in rows) {
+                    const item = rows[k];
+                    const compositeKey = `${item.id}:${item.enchant_level}`;
+                    index[compositeKey] = item;
+                }
+                loadedData[key] = index;
+            } else {
+                loadedData[key] = rows;
+            }
+        } catch (error) {
+            console.error(`Error loading data for ${key}:`, error);
+        }
+    }
+
+    return loadedData;
 }

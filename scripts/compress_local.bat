@@ -4,6 +4,7 @@ setlocal EnableDelayedExpansion
 rem === Path to source and output folders ===
 set "SOURCE=G:\Cue4TnL\exports"
 set "OUTPUT=H:\TLLib\docs\sources"
+set "OUTPUT2=H:\TLLib\sources"
 
 rem === Make sure output folder exists ===
 if not exist "%OUTPUT%" mkdir "%OUTPUT%"
@@ -16,6 +17,7 @@ for /R "%SOURCE%" %%F in (*) do (
 
     rem Compress using 7z (GZIP format)
     7z a -tgzip "%OUTPUT%\!filename!.gz" "!filepath!" >nul
+    copy "!filepath!" "%OUTPUT2%" >nul
 
     echo Compressed: !filename!.gz
 )

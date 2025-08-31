@@ -389,25 +389,21 @@ function fillSelectWeapon() {
   })
 }
 
-console.log("✅ skills.js loaded");
+console.log("skills.js loaded");
 
 // --- Main Docsify Plugin Logic ---
 
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
-  console.log("✅ Docsify plugin registered");
-
   // This hook runs after each page is loaded.
   hook.doneEach(async () => {
     const currentPage = vm.route.path;
 
     // Only execute specific logic for the calculator page.
     if (!currentPage.includes(dom.CALCULATOR_PATH)) {
-      console.log("Skipping calculator logic on non-calculator page.");
       return;
     }
-
-    console.log("✅ Executing calculator logic for:", currentPage);
+    console.log(currentPage);
 
     // Preload data if needed
     await preloadSkillData();
