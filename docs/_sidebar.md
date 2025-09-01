@@ -29,5 +29,6 @@
 - Articles
     - [Loot Distribution](Articles/lootdist)
     - [Stats/Calculation](Articles/stats)
+    - [Stats/Graphs](Articles/statsGraphs)
     - Transcription
         - [English](Articles/transcription_output_english)

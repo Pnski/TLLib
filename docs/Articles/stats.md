@@ -54,6 +54,7 @@ $$
 ## Buff Duration and Debuff Duration
 Debuff Duration Diminishing Returns Data Points:
 Debuff Reduction | Debuff Duration
+
 --- | ---
 |34.2% | 28.21%
 |30% | 25.28%
@@ -88,6 +89,14 @@ Heavy Attack Chance Formula:
 
 $$
 HeavyAttackChance = \frac{HeavyAttack}{HeavyAttack + 1000}*100
+$$
+
+## Defense
+
+Defense Formula:
+
+$$
+DmgReduction = \frac{Defense}{Defense + 2500}*100
 $$
 
 Source: [Maxroll](https://maxroll.gg/throne-and-liberty/resources/in-depth-stats-guide)
