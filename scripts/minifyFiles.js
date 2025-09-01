@@ -10,7 +10,6 @@ const parser = new XMLParser({
   ignoreAttributes: false,
   ignoreDeclaration: true,
   removeNSPrefix: true,
-  // add other options as needed
 });
 const builder = new XMLBuilder({
   ignoreAttributes: false,
@@ -28,7 +27,6 @@ function isJson(content) {
 }
 
 function isXml(content) {
-  // naive check: starts with < and ends with >
   return content.trim().startsWith('<') && content.trim().endsWith('>');
 }
 
@@ -41,15 +39,12 @@ async function processFile(filePath) {
   let minified;
 
   if (isJson(content)) {
-    // minify JSON
     const obj = JSON.parse(content);
     minified = JSON.stringify(obj);
   } else if (isXml(content)) {
-    // minify XML
     const jsonObj = parser.parse(content);
     minified = builder.build(jsonObj);
   } else {
-    // copy as is (e.g., images)
     await fs.copy(filePath, outputPath);
     return;
   }

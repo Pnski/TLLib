@@ -34,13 +34,15 @@ jobs:
         run: |
           python scripts/resize_images.py
 
-      - name: generate static .md files
+      - name: Running Python to create necessary files
         run: |
           python scripts/amitoi.py
           python scripts/fish.py
           python scripts/items.py
           # python scripts/skills.py
           python scripts/wMastery.py
+          python scripts/stats.helper.py
+          python scripts/stats.base.helper.py
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
