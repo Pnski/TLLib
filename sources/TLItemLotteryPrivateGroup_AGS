@@ -1,0 +1,2436 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLItemLotteryPrivateGroup_AGS",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLJsonItemLotteryPrivateGroupEntry'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "package_guild_reward_box_001": {
+        "Name": "package_guild_reward_box_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_guild_reward_box_gold",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_guild_reward_box_Trait_Extract",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_UnselectRandom_Fishing_box_01": {
+        "Name": "Package_UnselectRandom_Fishing_box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_UnselectRandom_Fishing_box_01_gold",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_Trait_Stone",
+            "Count": 1,
+            "prob": 360000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_ele_stone",
+            "Count": 1,
+            "prob": 1200000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_wb_material",
+            "Count": 1,
+            "prob": 27300
+          }
+        ]
+      },
+      "Package_UnselectRandom_Fishing_box_02": {
+        "Name": "Package_UnselectRandom_Fishing_box_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_UnselectRandom_Fishing_box_02_gold",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_Trait_Stone",
+            "Count": 1,
+            "prob": 4200000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_ele_stone",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_wb_material",
+            "Count": 1,
+            "prob": 58000
+          }
+        ]
+      },
+      "Package_UnselectRandom_Fishing_box_03": {
+        "Name": "Package_UnselectRandom_Fishing_box_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_UnselectRandom_Fishing_box_03_bait",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_03_event_food",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_03_sollant",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_03_Trait_Open",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "Package_UnselectRandom_Fishing_box_03_skill_misc_scout",
+            "Count": 1,
+            "prob": 3420000
+          },
+          {
+            "id": "material_jewel_sapphire_04",
+            "Count": 1,
+            "prob": 180000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_001": {
+        "Name": "package_fixed_fieldboss_box_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_01",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_002": {
+        "Name": "package_fixed_fieldboss_box_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_02",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_003": {
+        "Name": "package_fixed_fieldboss_box_003",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_03",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_004": {
+        "Name": "package_fixed_fieldboss_box_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_04",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_005": {
+        "Name": "package_fixed_fieldboss_box_005",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_05",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_006": {
+        "Name": "package_fixed_fieldboss_box_006",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_06",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_007": {
+        "Name": "package_fixed_fieldboss_box_007",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_07",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_008": {
+        "Name": "package_fixed_fieldboss_box_008",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_08",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_009": {
+        "Name": "package_fixed_fieldboss_box_009",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_09",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_010": {
+        "Name": "package_fixed_fieldboss_box_010",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_10",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_011": {
+        "Name": "package_fixed_fieldboss_box_011",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_11",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_012": {
+        "Name": "package_fixed_fieldboss_box_012",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_12",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_013": {
+        "Name": "package_fixed_fieldboss_box_013",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_13",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_014": {
+        "Name": "package_fixed_fieldboss_box_014",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_14",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_015": {
+        "Name": "package_fixed_fieldboss_box_015",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_15",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_016": {
+        "Name": "package_fixed_fieldboss_box_016",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_16",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_017": {
+        "Name": "package_fixed_fieldboss_box_017",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_17",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_018": {
+        "Name": "package_fixed_fieldboss_box_018",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_18",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_019": {
+        "Name": "package_fixed_fieldboss_box_019",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "material_blueprint_piece",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_jewel_sapphire_03_bound_c",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_ALL_kAA_001",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "potion_normal_03",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_stellaboom_kB_1000",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Selectable_FieldBoss_Equipbox_19",
+            "Count": 1,
+            "prob": 30000
+          }
+        ]
+      },
+      "Package_Unselectable_Nebula_AllEquip_001_1": {
+        "Name": "Package_Unselectable_Nebula_AllEquip_001_1",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Unselectable_Nebula_AllEquip_001_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_020_351": {
+        "Name": "package_fixed_fieldboss_box_020_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_01",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_021_351": {
+        "Name": "package_fixed_fieldboss_box_021_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 7,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Trait_Change_Material_02_kAA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_wb_sandworm_01_351": {
+        "Name": "package_wb_sandworm_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_sandworm_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_sandworm_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_sandworm_05_1",
+            "Count": 1,
+            "prob": 50000
+          }
+        ]
+      },
+      "package_wb_giantwarrior_01_351": {
+        "Name": "package_wb_giantwarrior_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_giantwarrior_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_giantwarrior_04",
+            "Count": 1,
+            "prob": 50000
+          },
+          {
+            "id": "package_wb_giantwarrior_01_07",
+            "Count": 1,
+            "prob": 1250000
+          }
+        ]
+      },
+      "package_wb_DelugeNoah_01_351": {
+        "Name": "package_wb_DelugeNoah_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_DelugeNoah_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_DelugeNoah_05",
+            "Count": 1,
+            "prob": 10000
+          },
+          {
+            "id": "package_wb_DelugeNoah_01_07",
+            "Count": 1,
+            "prob": 833333
+          }
+        ]
+      },
+      "package_wb_GiantBroork_01_351": {
+        "Name": "package_wb_GiantBroork_01_351",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_wb_GiantBrook_01_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_03",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_04",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_wb_GiantBrook_01_06",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_Broork_05",
+            "Count": 1,
+            "prob": 10000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_020_353": {
+        "Name": "package_fixed_fieldboss_box_020_353",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_01",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_fieldboss_box_021_353": {
+        "Name": "package_fixed_fieldboss_box_021_353",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "potion_normal_04",
+            "Count": 7,
+            "prob": 10000000
+          },
+          {
+            "id": "Nebula_coin_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Unselectable_Nebula_ACC_002",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Trait_Change_Material_02_kAA",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_base_01": {
+        "Name": "Alchemy_Equip_base_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_base_01_material_crystal",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_material_main_kA",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_01_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_base_02": {
+        "Name": "Alchemy_Equip_base_02",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_base_02_material_crystal",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_material_main_kA",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_02_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_base_03": {
+        "Name": "Alchemy_Equip_base_03",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_base_03_material_crystal",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_material_main_kA",
+            "Count": 5,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_03_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_base_04": {
+        "Name": "Alchemy_Equip_base_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_base_05_material_crystal",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_material_main_kAA",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_04_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_base_05": {
+        "Name": "Alchemy_Equip_base_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_base_05_material_crystal",
+            "Count": 15,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_material_main_kAA",
+            "Count": 15,
+            "prob": 10000000
+          },
+          {
+            "id": "Alchemy_Equip_base_05_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_010_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_010_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_010_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_031_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_011_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_011_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_011_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_028_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_012_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_012_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_012_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_030_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_013_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_013_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_013_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_014_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_014_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_014_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_029_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_015_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_015_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_500302",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_015_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_030_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_016_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_016_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_500601",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_016_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_031_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_017_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_017_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_5087",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_017_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_028_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_018_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_018_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_5084",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_018_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_019_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_019_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_510502",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_019_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_029_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_021_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_021_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_021_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_020_kNormal_01_Normal_Box": {
+        "Name": "EA_L07_PD_020_kNormal_01_Normal_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "EA_L07_PD_020_kNormal_01_Normal_Group_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_020_kNormal_01_Normal_Group_B",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "Material_Dimennsion_Pumpkin_001",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Abundance_Gift_Box_001",
+            "Count": 5,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_010_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_010_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_010_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_031_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_011_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_011_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_011_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_028_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_012_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_012_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_012_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_030_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_013_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_013_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_013_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_014_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_014_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_all_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Skillscroll_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_900P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_014_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Enchant_Drop_Weapon_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Armor_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Accessory_02",
+            "Count": 1,
+            "prob": 1250000
+          },
+          {
+            "id": "Enchant_Drop_Skill_02",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_029_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_015_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_015_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_500302",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_015_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_030_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_016_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_016_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_500601",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_016_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_031_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_017_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_017_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_5087",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_017_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_028_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_018_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_018_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_5084",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_018_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_019_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_019_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "polymorph_kA_510502",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 3,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_019_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_029_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_021_kNormal_01_Random_Match_Box_01": {
+        "Name": "EA_L07_PD_021_kNormal_01_Random_Match_Box_01",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T2",
+            "Count": 4,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_021_kNormal_01_Normal_Equip",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Unselectable_Party_Match_Reward_2star_311": {
+        "Name": "Package_Unselectable_Party_Match_Reward_2star_311",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectableFixed_Token_T2_5",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "Package_Unselectable_Party_Match_Reward_3star_311": {
+        "Name": "Package_Unselectable_Party_Match_Reward_3star_311",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Adventure_Token_T1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_UnselectableFixed_Token_T2_5",
+            "Count": 1,
+            "prob": 1000000
+          }
+        ]
+      },
+      "contract_random_package_04_281": {
+        "Name": "contract_random_package_04_281",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "contract_random_package_04_281",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Solo_Dungeon_Reward_01_05": {
+        "Name": "Solo_Dungeon_Reward_01_05",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Solo_Dungeon_Reward_01_03_Acc",
+            "Count": 1,
+            "prob": 511000
+          },
+          {
+            "id": "Solo_Dungeon_Reward_01_Equip_05",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Random_Total_Rune_kAA_001_R_341",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "Package_Select_Chaos_Rune_002_341",
+            "Count": 1,
+            "prob": 850000
+          },
+          {
+            "id": "material_obsidian_shard_01",
+            "Count": 1,
+            "prob": 1840000
+          },
+          {
+            "id": "Package_Random_Artifact_kA_009",
+            "Count": 5,
+            "prob": 10000000
+          }
+        ]
+      }
+    }
+  }
+]

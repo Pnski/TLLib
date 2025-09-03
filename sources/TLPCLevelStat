@@ -1,0 +1,616 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLPCLevelStat",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemePCLevelStat'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "0": {
+        "level": 1,
+        "hp_max": 1500,
+        "cost_max": 1500,
+        "attack_rating": 233
+      },
+      "1": {
+        "level": 2,
+        "hp_max": 1575,
+        "cost_max": 1575,
+        "attack_rating": 280
+      },
+      "2": {
+        "level": 3,
+        "hp_max": 1650,
+        "cost_max": 1650,
+        "attack_rating": 327
+      },
+      "3": {
+        "level": 4,
+        "hp_max": 1725,
+        "cost_max": 1725,
+        "attack_rating": 373
+      },
+      "4": {
+        "level": 5,
+        "hp_max": 1800,
+        "cost_max": 1800,
+        "attack_rating": 420
+      },
+      "5": {
+        "level": 6,
+        "hp_max": 1875,
+        "cost_max": 1875,
+        "attack_rating": 467
+      },
+      "6": {
+        "level": 7,
+        "hp_max": 1950,
+        "cost_max": 1950,
+        "attack_rating": 513
+      },
+      "7": {
+        "level": 8,
+        "hp_max": 2025,
+        "cost_max": 2025,
+        "attack_rating": 560
+      },
+      "8": {
+        "level": 9,
+        "hp_max": 2100,
+        "cost_max": 2100,
+        "attack_rating": 607
+      },
+      "9": {
+        "level": 10,
+        "hp_max": 2175,
+        "cost_max": 2175,
+        "attack_rating": 653
+      },
+      "10": {
+        "level": 11,
+        "hp_max": 2250,
+        "cost_max": 2250,
+        "attack_rating": 700
+      },
+      "11": {
+        "level": 12,
+        "hp_max": 2325,
+        "cost_max": 2325,
+        "attack_rating": 747
+      },
+      "12": {
+        "level": 13,
+        "hp_max": 2400,
+        "cost_max": 2400,
+        "attack_rating": 793
+      },
+      "13": {
+        "level": 14,
+        "hp_max": 2475,
+        "cost_max": 2475,
+        "attack_rating": 840
+      },
+      "14": {
+        "level": 15,
+        "hp_max": 2550,
+        "cost_max": 2550,
+        "attack_rating": 887
+      },
+      "15": {
+        "level": 16,
+        "hp_max": 2625,
+        "cost_max": 2625,
+        "attack_rating": 933
+      },
+      "16": {
+        "level": 17,
+        "hp_max": 2700,
+        "cost_max": 2700,
+        "attack_rating": 980
+      },
+      "17": {
+        "level": 18,
+        "hp_max": 2775,
+        "cost_max": 2775,
+        "attack_rating": 1027
+      },
+      "18": {
+        "level": 19,
+        "hp_max": 2850,
+        "cost_max": 2850,
+        "attack_rating": 1073
+      },
+      "19": {
+        "level": 20,
+        "hp_max": 2925,
+        "cost_max": 2925,
+        "attack_rating": 1120
+      },
+      "20": {
+        "level": 21,
+        "hp_max": 3000,
+        "cost_max": 3000,
+        "attack_rating": 1167
+      },
+      "21": {
+        "level": 22,
+        "hp_max": 3075,
+        "cost_max": 3075,
+        "attack_rating": 1213
+      },
+      "22": {
+        "level": 23,
+        "hp_max": 3150,
+        "cost_max": 3150,
+        "attack_rating": 1260
+      },
+      "23": {
+        "level": 24,
+        "hp_max": 3225,
+        "cost_max": 3225,
+        "attack_rating": 1307
+      },
+      "24": {
+        "level": 25,
+        "hp_max": 3300,
+        "cost_max": 3300,
+        "attack_rating": 1353
+      },
+      "25": {
+        "level": 26,
+        "hp_max": 3375,
+        "cost_max": 3375,
+        "attack_rating": 1400
+      },
+      "26": {
+        "level": 27,
+        "hp_max": 3450,
+        "cost_max": 3450,
+        "attack_rating": 1447
+      },
+      "27": {
+        "level": 28,
+        "hp_max": 3525,
+        "cost_max": 3525,
+        "attack_rating": 1493
+      },
+      "28": {
+        "level": 29,
+        "hp_max": 3600,
+        "cost_max": 3600,
+        "attack_rating": 1540
+      },
+      "29": {
+        "level": 30,
+        "hp_max": 3675,
+        "cost_max": 3675,
+        "attack_rating": 1587
+      },
+      "30": {
+        "level": 31,
+        "hp_max": 3750,
+        "cost_max": 3750,
+        "attack_rating": 1633
+      },
+      "31": {
+        "level": 32,
+        "hp_max": 3825,
+        "cost_max": 3825,
+        "attack_rating": 1680
+      },
+      "32": {
+        "level": 33,
+        "hp_max": 3900,
+        "cost_max": 3900,
+        "attack_rating": 1727
+      },
+      "33": {
+        "level": 34,
+        "hp_max": 3975,
+        "cost_max": 3975,
+        "attack_rating": 1773
+      },
+      "34": {
+        "level": 35,
+        "hp_max": 4050,
+        "cost_max": 4050,
+        "attack_rating": 1820
+      },
+      "35": {
+        "level": 36,
+        "hp_max": 4125,
+        "cost_max": 4125,
+        "attack_rating": 1867
+      },
+      "36": {
+        "level": 37,
+        "hp_max": 4200,
+        "cost_max": 4200,
+        "attack_rating": 1913
+      },
+      "37": {
+        "level": 38,
+        "hp_max": 4275,
+        "cost_max": 4275,
+        "attack_rating": 1960
+      },
+      "38": {
+        "level": 39,
+        "hp_max": 4350,
+        "cost_max": 4350,
+        "attack_rating": 2007
+      },
+      "39": {
+        "level": 40,
+        "hp_max": 4425,
+        "cost_max": 4425,
+        "attack_rating": 2053
+      },
+      "40": {
+        "level": 41,
+        "hp_max": 4500,
+        "cost_max": 4500,
+        "attack_rating": 2100
+      },
+      "41": {
+        "level": 42,
+        "hp_max": 4575,
+        "cost_max": 4575,
+        "attack_rating": 2147
+      },
+      "42": {
+        "level": 43,
+        "hp_max": 4650,
+        "cost_max": 4650,
+        "attack_rating": 2193
+      },
+      "43": {
+        "level": 44,
+        "hp_max": 4725,
+        "cost_max": 4725,
+        "attack_rating": 2240
+      },
+      "44": {
+        "level": 45,
+        "hp_max": 4800,
+        "cost_max": 4800,
+        "attack_rating": 2287
+      },
+      "45": {
+        "level": 46,
+        "hp_max": 4875,
+        "cost_max": 4875,
+        "attack_rating": 2333
+      },
+      "46": {
+        "level": 47,
+        "hp_max": 4950,
+        "cost_max": 4950,
+        "attack_rating": 2380
+      },
+      "47": {
+        "level": 48,
+        "hp_max": 5025,
+        "cost_max": 5025,
+        "attack_rating": 2427
+      },
+      "48": {
+        "level": 49,
+        "hp_max": 5100,
+        "cost_max": 5100,
+        "attack_rating": 2473
+      },
+      "49": {
+        "level": 50,
+        "hp_max": 5175,
+        "cost_max": 5175,
+        "attack_rating": 2520
+      },
+      "50": {
+        "level": 51,
+        "hp_max": 5475,
+        "cost_max": 5250,
+        "attack_rating": 2567
+      },
+      "51": {
+        "level": 52,
+        "hp_max": 5775,
+        "cost_max": 5325,
+        "attack_rating": 2613
+      },
+      "52": {
+        "level": 53,
+        "hp_max": 6075,
+        "cost_max": 5400,
+        "attack_rating": 2660
+      },
+      "53": {
+        "level": 54,
+        "hp_max": 6375,
+        "cost_max": 5475,
+        "attack_rating": 2707
+      },
+      "54": {
+        "level": 55,
+        "hp_max": 6675,
+        "cost_max": 5550,
+        "attack_rating": 2753
+      },
+      "55": {
+        "level": 56,
+        "hp_max": 6975,
+        "cost_max": 5625,
+        "attack_rating": 2800
+      },
+      "56": {
+        "level": 57,
+        "hp_max": 7275,
+        "cost_max": 5700,
+        "attack_rating": 2847
+      },
+      "57": {
+        "level": 58,
+        "hp_max": 7575,
+        "cost_max": 5775,
+        "attack_rating": 2893
+      },
+      "58": {
+        "level": 59,
+        "hp_max": 7875,
+        "cost_max": 5850,
+        "attack_rating": 2940
+      },
+      "59": {
+        "level": 60,
+        "hp_max": 8175,
+        "cost_max": 5925,
+        "attack_rating": 2987
+      },
+      "60": {
+        "level": 61,
+        "hp_max": 8475,
+        "cost_max": 6000,
+        "attack_rating": 3033
+      },
+      "61": {
+        "level": 62,
+        "hp_max": 8775,
+        "cost_max": 6075,
+        "attack_rating": 3080
+      },
+      "62": {
+        "level": 63,
+        "hp_max": 9075,
+        "cost_max": 6150,
+        "attack_rating": 3127
+      },
+      "63": {
+        "level": 64,
+        "hp_max": 9375,
+        "cost_max": 6225,
+        "attack_rating": 3173
+      },
+      "64": {
+        "level": 65,
+        "hp_max": 9675,
+        "cost_max": 6300,
+        "attack_rating": 3220
+      },
+      "65": {
+        "level": 66,
+        "hp_max": 9975,
+        "cost_max": 6375,
+        "attack_rating": 3267
+      },
+      "66": {
+        "level": 67,
+        "hp_max": 10275,
+        "cost_max": 6450,
+        "attack_rating": 3313
+      },
+      "67": {
+        "level": 68,
+        "hp_max": 10575,
+        "cost_max": 6525,
+        "attack_rating": 3360
+      },
+      "68": {
+        "level": 69,
+        "hp_max": 10875,
+        "cost_max": 6600,
+        "attack_rating": 3407
+      },
+      "69": {
+        "level": 70,
+        "hp_max": 11175,
+        "cost_max": 6675,
+        "attack_rating": 3453
+      },
+      "70": {
+        "level": 71,
+        "hp_max": 11475,
+        "cost_max": 6750,
+        "attack_rating": 3500
+      },
+      "71": {
+        "level": 72,
+        "hp_max": 11775,
+        "cost_max": 6825,
+        "attack_rating": 3547
+      },
+      "72": {
+        "level": 73,
+        "hp_max": 12075,
+        "cost_max": 6900,
+        "attack_rating": 3593
+      },
+      "73": {
+        "level": 74,
+        "hp_max": 12375,
+        "cost_max": 6975,
+        "attack_rating": 3640
+      },
+      "74": {
+        "level": 75,
+        "hp_max": 12675,
+        "cost_max": 7050,
+        "attack_rating": 3687
+      },
+      "75": {
+        "level": 76,
+        "hp_max": 12975,
+        "cost_max": 7125,
+        "attack_rating": 3733
+      },
+      "76": {
+        "level": 77,
+        "hp_max": 13275,
+        "cost_max": 7200,
+        "attack_rating": 3780
+      },
+      "77": {
+        "level": 78,
+        "hp_max": 13575,
+        "cost_max": 7275,
+        "attack_rating": 3827
+      },
+      "78": {
+        "level": 79,
+        "hp_max": 13875,
+        "cost_max": 7350,
+        "attack_rating": 3873
+      },
+      "79": {
+        "level": 80,
+        "hp_max": 14175,
+        "cost_max": 7425,
+        "attack_rating": 3920
+      },
+      "80": {
+        "level": 81,
+        "hp_max": 14475,
+        "cost_max": 7500,
+        "attack_rating": 3967
+      },
+      "81": {
+        "level": 82,
+        "hp_max": 14775,
+        "cost_max": 7575,
+        "attack_rating": 4013
+      },
+      "82": {
+        "level": 83,
+        "hp_max": 15075,
+        "cost_max": 7650,
+        "attack_rating": 4060
+      },
+      "83": {
+        "level": 84,
+        "hp_max": 15375,
+        "cost_max": 7725,
+        "attack_rating": 4107
+      },
+      "84": {
+        "level": 85,
+        "hp_max": 15675,
+        "cost_max": 7800,
+        "attack_rating": 4153
+      },
+      "85": {
+        "level": 86,
+        "hp_max": 15975,
+        "cost_max": 7875,
+        "attack_rating": 4200
+      },
+      "86": {
+        "level": 87,
+        "hp_max": 16275,
+        "cost_max": 7950,
+        "attack_rating": 4247
+      },
+      "87": {
+        "level": 88,
+        "hp_max": 16575,
+        "cost_max": 8025,
+        "attack_rating": 4293
+      },
+      "88": {
+        "level": 89,
+        "hp_max": 16875,
+        "cost_max": 8100,
+        "attack_rating": 4340
+      },
+      "89": {
+        "level": 90,
+        "hp_max": 17175,
+        "cost_max": 8175,
+        "attack_rating": 4387
+      },
+      "90": {
+        "level": 91,
+        "hp_max": 17475,
+        "cost_max": 8250,
+        "attack_rating": 4433
+      },
+      "91": {
+        "level": 92,
+        "hp_max": 17775,
+        "cost_max": 8325,
+        "attack_rating": 4480
+      },
+      "92": {
+        "level": 93,
+        "hp_max": 18075,
+        "cost_max": 8400,
+        "attack_rating": 4527
+      },
+      "93": {
+        "level": 94,
+        "hp_max": 18375,
+        "cost_max": 8475,
+        "attack_rating": 4573
+      },
+      "94": {
+        "level": 95,
+        "hp_max": 18675,
+        "cost_max": 8550,
+        "attack_rating": 4620
+      },
+      "95": {
+        "level": 96,
+        "hp_max": 18975,
+        "cost_max": 8625,
+        "attack_rating": 4667
+      },
+      "96": {
+        "level": 97,
+        "hp_max": 19275,
+        "cost_max": 8700,
+        "attack_rating": 4713
+      },
+      "97": {
+        "level": 98,
+        "hp_max": 19575,
+        "cost_max": 8775,
+        "attack_rating": 4760
+      },
+      "98": {
+        "level": 99,
+        "hp_max": 19875,
+        "cost_max": 8850,
+        "attack_rating": 4807
+      },
+      "99": {
+        "level": 100,
+        "hp_max": 20175,
+        "cost_max": 8925,
+        "attack_rating": 4853
+      }
+    }
+  }
+]

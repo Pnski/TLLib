@@ -99,4 +99,8 @@ $$
 DmgReduction = \frac{Defense}{Defense + 2500}*100
 $$
 
+## Sources
+
 Source: [Maxroll](https://maxroll.gg/throne-and-liberty/resources/in-depth-stats-guide)
+
+Source: [Reddit](https://www.reddit.com/r/throneandliberty/comments/1ig5mjt/comment/mam1ek2)

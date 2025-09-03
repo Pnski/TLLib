@@ -1,0 +1,412 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLDynamicStatLooks",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeDynamicStatLooks'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "CurseDuration_Weaken": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "CurseDuration_Weaken_StatName",
+          "SourceString": "저주 지속 시간",
+          "LocalizedString": "Curse Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "StunDuration": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "StunDuration_StatName",
+          "SourceString": "기절 지속 시간",
+          "LocalizedString": "Stun Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "BindDuration": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "BindDuration_StatName",
+          "SourceString": "속박 지속 시간",
+          "LocalizedString": "Bind Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "BurnDuration": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "BurnDuration_StatName",
+          "SourceString": "착화 지속 시간",
+          "LocalizedString": "Burning Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "PoisonDuration": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "PoisonDuration_StatName",
+          "SourceString": "독 지속 시간",
+          "LocalizedString": "Poison Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "CurseDamage": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "CurseDamage_StatName",
+          "SourceString": "저주 피해량",
+          "LocalizedString": "Curse Damage"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_VALUE",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        }
+      },
+      "BurnDamage": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "BurnDamage_StatName",
+          "SourceString": "착화 피해량",
+          "LocalizedString": "Burning Damage"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_VALUE",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        }
+      },
+      "PoisonDamage": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "PoisonDamage_StatName",
+          "SourceString": "독 피해량",
+          "LocalizedString": "Poison Damage"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_VALUE",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        }
+      },
+      "HealEffect": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "HealEffect_StatName",
+          "SourceString": "스킬 회복량",
+          "LocalizedString": "Healing"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_VALUE",
+          "SourceString": "{0}",
+          "LocalizedString": "{0}"
+        }
+      },
+      "SkillAreaWiden": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SkillAreaWiden_StatName",
+          "SourceString": "광역 스킬 범위 증가",
+          "LocalizedString": "Area Skill Range ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_DISTANCE",
+          "SourceString": "{0}cm",
+          "LocalizedString": "{0}cm"
+        }
+      },
+      "CurseAttackRange": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "CurseAttackRange_StatName",
+          "SourceString": "저주 스킬 사거리 증가",
+          "LocalizedString": "Curse Skill Range ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_DISTANCE",
+          "SourceString": "{0}cm",
+          "LocalizedString": "{0}cm"
+        }
+      },
+      "HealAttackRange": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "HealAttackRange_StatName",
+          "SourceString": "회복 스킬 사거리 증가",
+          "LocalizedString": "Recovery Skill Range ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 1.0,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_DISTANCE",
+          "SourceString": "{0}cm",
+          "LocalizedString": "{0}cm"
+        }
+      },
+      "CurseEffectRate": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "CurseEffectRate_StatName",
+          "SourceString": "저주 발동 확률",
+          "LocalizedString": "Curse Activation Rate"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.01,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE_POINT",
+          "SourceString": "{0}%p",
+          "LocalizedString": "{0}%p"
+        }
+      },
+      "DeathResistChance": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "DeathResistChance_StatName",
+          "SourceString": "죽음 저항 발동 확률",
+          "LocalizedString": "Death Resistance Activation Rate"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.01,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE_POINT",
+          "SourceString": "{0}%p",
+          "LocalizedString": "{0}%p"
+        }
+      },
+      "WeakenDuration": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "WeakenDuration_StatName",
+          "SourceString": "쇠약 지속 시간",
+          "LocalizedString": "Weakened Duration"
+        },
+        "MultiplyFormulaMultiplyFactor": 0.01,
+        "AddFormulaMultiplyFactor": 0.001,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_RATE",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+          "Key": "TEXT_RES_DYNAMICSTAT_SECOND",
+          "SourceString": "{0}초",
+          "LocalizedString": "{0}s"
+        }
+      },
+      "SprintStaminaConsumption": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SprintStaminaConsumption_StatName",
+          "SourceString": "질주 가속 스태미나 소모 효율 증가",
+          "LocalizedString": "Dashing Accel. Stamina Cost Efficiency ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": -0.01,
+        "AddFormulaMultiplyFactor": 0.01,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SprintStaminaConsumption_MultiplyFormulaValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SprintStaminaConsumption_AddFormulaValueFormat",
+          "SourceString": "{0}%p",
+          "LocalizedString": "{0}%p"
+        }
+      },
+      "SwimmingStaminaConsumption": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SwimmingStaminaConsumption_StatName",
+          "SourceString": "수영 가속 스태미나 소모 효율 증가",
+          "LocalizedString": "Swimming Acceleration Stamina Cost Efficiency ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": -0.01,
+        "AddFormulaMultiplyFactor": 0.01,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SwimmingStaminaConsumption_MultiplyFormulaValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "SwimmingStaminaConsumption_AddFormulaValueFormat",
+          "SourceString": "{0}%p",
+          "LocalizedString": "{0}%p"
+        }
+      },
+      "GlidingStaminaConsumption": {
+        "StatName": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "GlidingStaminaConsumption_StatName",
+          "SourceString": "활공 가속 스태미나 소모 효율 증가",
+          "LocalizedString": "Gliding Acceleration Stamina Cost Efficiency ▲"
+        },
+        "MultiplyFormulaMultiplyFactor": -0.01,
+        "AddFormulaMultiplyFactor": 0.01,
+        "MultiplyFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "GlidingStaminaConsumption_MultiplyFormulaValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "AddFormulaValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringDynamicStatLooks.TLStringDynamicStatLooks",
+          "Key": "GlidingStaminaConsumption_AddFormulaValueFormat",
+          "SourceString": "{0}%p",
+          "LocalizedString": "{0}%p"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,2512 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLGlobalCommon",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeGlobalCommon'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "GlobalCommonData": {
+        "CharacterCardInfo": {
+          "MessageMaximum": 40
+        },
+        "GuildCreateCost": {
+          "MoneyType": "EMoneyType::kGold",
+          "MoneyCost": 30000,
+          "MonarchTeamLevelLimit": 3,
+          "GuildLevelLimit": 0
+        },
+        "GuildChangeEmblemCost": {
+          "GuildResourceTableRow": {
+            "RowName": "GR_Sollant"
+          },
+          "Amount": 10000,
+          "MonarchTeamLevelLimit": 0,
+          "GuildLevelLimit": 0
+        },
+        "GuildOccupationCost": {
+          "GuildResourceTableRow": {
+            "RowName": "GR_Guild_Flag"
+          },
+          "Amount": 1,
+          "MonarchTeamLevelLimit": 0,
+          "GuildLevelLimit": 0
+        },
+        "GuildRejoinWaitTimeSeconds": 129600,
+        "GuildRejoinWaitTimeSecondsUnderLevelCap": 0,
+        "GuildRejoinWaitTimeSecondsLevelCap": 129600,
+        "GuildHomeEnterableLevel": 2,
+        "GuildHomeMapId": 10405,
+        "LegionHomeMapId": 10406,
+        "GuildMasterDelegationRequestPossibleHour": 48,
+        "GuildMasterDelegationCompleteWaitHour": 24,
+        "GuildMasterDelegationRequestPossibleMinute": 10080,
+        "GuildMasterDelegationCompleteWaitMinute": 4320,
+        "PostGuildMasterChangeAnnounceUid": 37,
+        "PostGuildMasterChangeCompleteUid": 38,
+        "PostGuildMasterChangeCancelUid": 39,
+        "PostGuildMasterChangeFailUid": 40,
+        "GuildAttackedAlertSendingSeconds": 780,
+        "GuildAttackedAlertValidSeconds": 600,
+        "GuildAttackedAlertMessageIntervalSec": 15,
+        "AdditionalFeePercentPerPenaltyKillCount": 0,
+        "MinimumPolymorphableLevel": 1,
+        "CustomizationCost": {
+          "Gold": 0,
+          "Diamond": 0,
+          "ItemId": "Appearance_changeTicket_001",
+          "ItemQuantity": 1,
+          "MembershipItemQuantity": 0
+        },
+        "EndSlowDownStamina": 15,
+        "StaminaRequiredForDashPolymorph": 20,
+        "DashPolymorphNeutralInputDurationMS": 200,
+        "SpecifiedPolymorphCount": 10,
+        "ProfileImageTakeCooldownSeconds": 3,
+        "BaseTaxRatePercent": 20,
+        "ManorTaxRatePercentMin": 1,
+        "ManorTaxRatePercentMax": 3,
+        "CharacterCreateMaxStatPoint": 13,
+        "UserIncreaseMaxStatPoint": 10000,
+        "ConsumptionStatPoints": [
+          {
+            "Key": "20",
+            "Value": 1
+          },
+          {
+            "Key": "30",
+            "Value": 2
+          },
+          {
+            "Key": "40",
+            "Value": 4
+          },
+          {
+            "Key": "50",
+            "Value": 8
+          },
+          {
+            "Key": "60",
+            "Value": 16
+          },
+          {
+            "Key": "70",
+            "Value": 32
+          },
+          {
+            "Key": "10000",
+            "Value": 64
+          }
+        ],
+        "ExchangeSlotSize": 8,
+        "ExchangeRestrictionTimeSeconds": 30,
+        "HangTimeSec": 0.7,
+        "JumpHeightMax": 170.0,
+        "JumpSpeedDecelRate": 0.5,
+        "GlidingAccelDownwardMinMaxModifier": {
+          "X": 1.0,
+          "Y": 1.0
+        },
+        "ChangeJumpToGlidingHeight": 500.0,
+        "EndFastGlidingHeight": 150.0,
+        "EndNormalGlidingHeight": 150.0,
+        "EndDropGlidingHeight": 150.0,
+        "EndSlowDownGlidingHeight": 150.0,
+        "EndFastGlidingDegree": 40.0,
+        "EndNormalGlidingDegree": 40.0,
+        "EndDropGlidingDegree": 85.0,
+        "EndSlowDownGlidingDegree": 40.0,
+        "EndFastGlidingActingDuration": 0,
+        "EndNormalGlidingActingDuration": 0,
+        "EndDropGlidingActingDuration": 0,
+        "EndSlowDownGlidingActingDuration": 0,
+        "GlidingMinDuration": 1000,
+        "LandingDuration": 400,
+        "GlidingIgnoreGravitySec": 0.5,
+        "GlidingJumpStartCoolTimeSec": 3.0,
+        "GlidingJumpCoolTimeSec": 3.0,
+        "GlidingJumpCoolDistanceXY": 1500,
+        "GlidingJumpCoolDistanceZ": 500,
+        "GlidingJumpMinDurationSec": 1.0,
+        "GlidingJumpMaxDurationSec": 1.5,
+        "GlidingJumpMinXY": 500,
+        "GlidingJumpMaxXY": 1500,
+        "GlidingJumpMinZ": 100,
+        "GlidingJumpMaxZ": 600,
+        "ClientMoveModeWalkSpeedRatio": 0.2,
+        "ClientMoveModeWallFollowingSpeedRatio": 0.7,
+        "GlidingBaseSpeed": 1500.0,
+        "ChangeSwimAnimHeight_Enter": 0.5,
+        "ChangeSwimAnimHeight_Leave": 0.4,
+        "ContentsDailyResetHourUTC": 21,
+        "ContentsWeeklyResetDayOfWeek": "EDayOfWeekScheme::Tuesday",
+        "ContentsMonthlyResetDate": 1,
+        "DungeonPointInitialGiftPercent": 20,
+        "TradableLevel": 40,
+        "PurchaseMaxCount": 5,
+        "SellMinPrice": 10,
+        "RefreshTradePriceIntervalSec": 600,
+        "SellingTradeMinute": 4320,
+        "RepresentativeMaterialItems": [
+          {
+            "Key": "EMaterialCategory::kMaterialFabric",
+            "Value": "material_mana_steel_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialIron",
+            "Value": "material_mana_steel_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialWood",
+            "Value": "material_mana_leather_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialLeather",
+            "Value": "material_mana_leather_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialSilver",
+            "Value": "material_mana_fabric_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialBone",
+            "Value": "material_mana_fabric_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialBeast",
+            "Value": "material_mana_wood_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialAnimal",
+            "Value": "material_mana_wood_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialInsect",
+            "Value": "material_gold_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialPlant",
+            "Value": "material_gold_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialGold",
+            "Value": "material_jewel_ruby_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialFragment",
+            "Value": "material_jewel_ruby_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialElement",
+            "Value": "material_jewel_emerald_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialPlatinum",
+            "Value": "material_jewel_emerald_03"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialMithril",
+            "Value": "material_jewel_topaz_02"
+          },
+          {
+            "Key": "EMaterialCategory::kMaterialSeed",
+            "Value": "material_jewel_topaz_03"
+          }
+        ],
+        "WeaponMasteryNodeSelectionCount": 2,
+        "WeaponMasterySecondaryWeaponCombinationPointGainPercent": 100,
+        "WeaponMasteryCanGainFromHunting": false,
+        "WeaponSpecializationGainPointMultiplierPerExpPercent": 200,
+        "QuickStoreCategoryList": [
+          "EItemCategory::kMaterialMain",
+          "EItemCategory::kMaterialSub",
+          "EItemCategory::kMaterialJewel",
+          "EItemCategory::kMaterialPowder",
+          "EItemCategory::kMaterialFood",
+          "EItemCategory::kMaterialEtc",
+          "EItemCategory::kMaterial",
+          "EItemCategory::kMisc"
+        ],
+        "PcMaxRangeCm": 3000,
+        "TutorialMapIds": [
+          10100,
+          10101,
+          10102,
+          10103,
+          10106,
+          10107
+        ],
+        "BmTutorialItemId": "package_fixed_inky_gift_tuto",
+        "BmTutorialItemRow": {
+          "RowName": "package_fixed_inky_gift_tuto"
+        },
+        "BmTutorialAchievementGuid": 4994835116683208022,
+        "bActiveBmTutorial": false,
+        "ExternalForceMaxStepHeight": 60.0,
+        "MaxStepHeightDefault": 50.0,
+        "TimeLimitDungeonResetHour": 21,
+        "UserPinMaxCount": 10,
+        "PartyPinMaxCount": 10,
+        "MultiPartyPinMaxCount": 10,
+        "GuildPinMaxCount": 20,
+        "OrderPinMaxCount": 10,
+        "UIGroupTextList": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J"
+        ],
+        "PartyMarkTypeCount": 8,
+        "WorldClock": {
+          "GameHoursInADay": 20,
+          "GameMonthToDays": 30,
+          "BeginDayHour": 2,
+          "EndDayHour": 18,
+          "SecondsPerHour": 450
+        },
+        "AwakeningSkillLevel": 6,
+        "MaxSkillLevel": 5,
+        "MaxItemUILevel": 20,
+        "HitTimeCompensation": 100,
+        "DefaultAmmoItemName": "Ammo_kC_000",
+        "DefaultFishingBaitItemName": "material_fish_bait_000",
+        "MagicDoll": {
+          "SummonCooldownTimeSeconds": 3,
+          "MagicDollSummonByAchievements": [
+            {
+              "AchievementGuid": {
+                "DataTable": {
+                  "ObjectName": "CompositeDataTable'GuidContent'",
+                  "ObjectPath": "/Game/Game/Client/GuidContent.0"
+                },
+                "RowName": "454B3814282E6E08"
+              },
+              "MagicDollID": "Helpie_1"
+            },
+            {
+              "AchievementGuid": {
+                "DataTable": {
+                  "ObjectName": "CompositeDataTable'GuidContent'",
+                  "ObjectPath": "/Game/Game/Client/GuidContent.0"
+                },
+                "RowName": "454B3811282E6DE9"
+              },
+              "MagicDollID": "Helpie_2"
+            }
+          ],
+          "DismissMagicDollByAchievementGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "4571381629C83509"
+          },
+          "CanSummonByUserAfterAchievementGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "454B38582828CE8C"
+          },
+          "MagicDollHealSkills": [
+            "MDH_Herpy_InstantHeal1_01"
+          ]
+        },
+        "DistributionSetting": {
+          "SiegeWarfareRewardDistributionExpirationMinutes": 60,
+          "SiegeWarfareRewardDistributionMinimumLimitPercent": 10,
+          "GuildSiegeWarfareRewardDistributionMinimumLimitPercent": 1,
+          "InterDynamicEventDistributionMinimumLimitPercent": 1,
+          "InterFieldBossDistributionMinimumLimitPercent": 1,
+          "GuildDistributionExpirationMinutes": 1440,
+          "PostItemAcquisition": "Post_Guild_Distribution_Item",
+          "PostProfitDistribution": "Post_Guild_Distribution_Profit",
+          "PostExpirationAcquisitionGuildMaster": "Post_Guild_Distribution_Expire",
+          "PostExpirationAcquisitionParticipant": "Post_Guild_Distribution_Expire_Participant",
+          "PostExpirationUnacquisition": "Post_Guild_Distribution_Expire_LIMITED",
+          "PostRefund": "Post_Guild_Distribution_Refund",
+          "GuildBiddingAddMinPercent": 1
+        },
+        "GuildIntroduceTextLimit": 500,
+        "GuildTagSelectLimit": 10,
+        "GuildDonationItemPerCount": 5,
+        "GuildDonationRewardGuildCoin": 10,
+        "GuildDonationRewardReputation": 10,
+        "GuildDonationRewardRankPoint": 5,
+        "GuildDonationRewardGuildRewardBoxPoint": 3,
+        "GuildDonationMaxRechargeCount": 10,
+        "GuildDonationRechargeSec": 3600,
+        "DeletableGuildResourceItemIds": [],
+        "BossInstanceRandomGroupCount": 4,
+        "DeathEffectBlendTime": 3.0,
+        "PcRelationshipFavoriteMaxCount": 20,
+        "PcRelationshipUnfavoriteMaxCount": 20,
+        "PcRelationshipFriendMaxCount": 50,
+        "PcRelationshipFavoriteRegisteredMaxCount": 200,
+        "PcRelationshipUnFavoriteRegisteredMaxCount": 200,
+        "FriendInviteMaxCount": 20,
+        "FriendInviteWaitTimeSeconds": 3600,
+        "OccupationContributionRegionPercent": 25,
+        "OccupationContributionBossPercent": 25,
+        "OccupationProtectDurationSecond": 14400,
+        "OccupationBoostGaugePercent": 60,
+        "DeclarationTimeBeforeOccupationMatchingHour": 1440,
+        "MatchingTimeBeforeOccupationStartHour": 720,
+        "InterServerOccupationMatchingHour": 5,
+        "DistributionAdenaFeePercent": 20,
+        "DistributionDiamondFeePercent": 20,
+        "GuildDistributionStorageOwnershipMinute": 1440,
+        "GuildDistributionStorageLimitHour": 504,
+        "GuildDistributionLimitHour": 504,
+        "GuildDistributionMemberJoinMinute": 0,
+        "GuildDistributionMemberReputation": 0,
+        "GuildDistributionExtendTimeSetting": {
+          "SellingTimeRemainingSecondsForExtend": 30,
+          "SellingTimeExtendedSeconds": 15
+        },
+        "GuildDistributionEquipItemSettings": {
+          "FilterDefaultItemGrade": "EItemGrade::kA",
+          "FilterMinGrade": "EItemGrade::kB",
+          "FilterMaxGrade": "EItemGrade::kAA"
+        },
+        "GuildDistributionSkillbookItemSettings": {
+          "FilterDefaultItemGrade": "EItemGrade::kA",
+          "FilterMinGrade": "EItemGrade::kB",
+          "FilterMaxGrade": "EItemGrade::kAA"
+        },
+        "GuildDistributionEtcItemSettings": {
+          "FilterDefaultItemGrade": "EItemGrade::kA",
+          "FilterMinGrade": "EItemGrade::kC",
+          "FilterMaxGrade": "EItemGrade::kAA"
+        },
+        "RotationEventGracePeriod": 2,
+        "NonPvPDynamicEventRankingModify": 50,
+        "RotationEventItemRankingGradeModify": [
+          {
+            "Key": "EItemGrade::kC",
+            "Value": 0
+          },
+          {
+            "Key": "EItemGrade::kB",
+            "Value": 200
+          },
+          {
+            "Key": "EItemGrade::kA",
+            "Value": 800
+          },
+          {
+            "Key": "EItemGrade::kAA",
+            "Value": 3000
+          },
+          {
+            "Key": "EItemGrade::kAAA",
+            "Value": 12000
+          }
+        ],
+        "RotationEventItemEnchantRankingGradeModify": [
+          {
+            "Key": "EItemGrade::kC",
+            "Value": 100
+          },
+          {
+            "Key": "EItemGrade::kB",
+            "Value": 200
+          },
+          {
+            "Key": "EItemGrade::kA",
+            "Value": 800
+          },
+          {
+            "Key": "EItemGrade::kAA",
+            "Value": 3000
+          },
+          {
+            "Key": "EItemGrade::kAAA",
+            "Value": 12000
+          }
+        ],
+        "RotationEventAccessaryItemRankingGradeModify": [
+          {
+            "Key": "EItemGrade::kC",
+            "Value": 100
+          },
+          {
+            "Key": "EItemGrade::kB",
+            "Value": 200
+          },
+          {
+            "Key": "EItemGrade::kA",
+            "Value": 800
+          },
+          {
+            "Key": "EItemGrade::kAA",
+            "Value": 3000
+          },
+          {
+            "Key": "EItemGrade::kAAA",
+            "Value": 12000
+          }
+        ],
+        "RotationEventJoinLevel": 1,
+        "TreausreBoxKeyDeleteReadyHour": 72,
+        "FieldBossGuildRaidRechargeItemNames": [],
+        "WorldBossGuildRaidRechargeItemNames": [],
+        "FieldBossGuildRaidRechargeGuildResourceList": [
+          {
+            "RowName": "GR_GuildRaid_Charger_Boss"
+          }
+        ],
+        "WorldBossGuildRaidRechargeGuildResourceList": [
+          {
+            "RowName": "GR_GuildRaid_Charger_WorldBoss"
+          }
+        ],
+        "GuildRaidCountdownList": [
+          {
+            "Key": "180",
+            "Value": "TEXT_MSG_GUILDRAID_EXITREMAINTIME_3M"
+          },
+          {
+            "Key": "60",
+            "Value": "TEXT_MSG_GUILDRAID_EXITREMAINTIME_1M"
+          },
+          {
+            "Key": "3",
+            "Value": "TEXT_MSG_GUILDRAID_EXITREMAINTIME_3S"
+          },
+          {
+            "Key": "2",
+            "Value": "TEXT_MSG_GUILDRAID_EXITREMAINTIME_2S"
+          },
+          {
+            "Key": "1",
+            "Value": "TEXT_MSG_GUILDRAID_EXITREMAINTIME_1S"
+          }
+        ],
+        "SkillWarpReturn": {
+          "RowName": "Skill_PC_Common_Warp_Start_Return"
+        },
+        "SkillEmergencyExit": {
+          "RowName": "Skill_PC_Common_Warp_Start_NoAT"
+        },
+        "WindGradeLimits": [
+          {
+            "GradeLimit": 0
+          },
+          {
+            "GradeLimit": 799
+          },
+          {
+            "GradeLimit": 1599
+          },
+          {
+            "GradeLimit": 2399
+          }
+        ],
+        "DungeonPointUnlockMemorialRecordRow": {
+          "RowName": "MEMORIAL_CHAPTER_01_RECORD_01"
+        },
+        "RegionStoneUnlockMemorialRecordRow": {
+          "RowName": "MEMORIAL_CHAPTER_03_RECORD_01"
+        },
+        "BossStoneUnlockMemorialRecordRow": {
+          "RowName": "MEMORIAL_CHAPTER_01_RECORD_08"
+        },
+        "RotationEventUnlockMemorialRecordRow": {
+          "RowName": "None"
+        },
+        "GuildTradeMinGuildLevel": 1,
+        "GuildTradeMaxCount": 30,
+        "FishingGradeParams": [
+          {
+            "Key": "ETLFishGrade::kCommon",
+            "Value": {
+              "BiteCount": 1,
+              "BiteIntervalMilliSec": 2000,
+              "HookTimeLimitMilliSec": 1000,
+              "HookBubbleCount": 1
+            }
+          },
+          {
+            "Key": "ETLFishGrade::kUncommon",
+            "Value": {
+              "BiteCount": 2,
+              "BiteIntervalMilliSec": 3000,
+              "HookTimeLimitMilliSec": 500,
+              "HookBubbleCount": 2
+            }
+          },
+          {
+            "Key": "ETLFishGrade::kRare",
+            "Value": {
+              "BiteCount": 2,
+              "BiteIntervalMilliSec": 2000,
+              "HookTimeLimitMilliSec": 500,
+              "HookBubbleCount": 2
+            }
+          },
+          {
+            "Key": "ETLFishGrade::kHeroic",
+            "Value": {
+              "BiteCount": 3,
+              "BiteIntervalMilliSec": 3000,
+              "HookTimeLimitMilliSec": 300,
+              "HookBubbleCount": 3
+            }
+          },
+          {
+            "Key": "ETLFishGrade::kLegendary",
+            "Value": {
+              "BiteCount": 3,
+              "BiteIntervalMilliSec": 2000,
+              "HookTimeLimitMilliSec": 300,
+              "HookBubbleCount": 3
+            }
+          },
+          {
+            "Key": "ETLFishGrade::kNone",
+            "Value": {
+              "BiteCount": 1,
+              "BiteIntervalMilliSec": 3000,
+              "HookTimeLimitMilliSec": 1000,
+              "HookBubbleCount": 1
+            }
+          }
+        ],
+        "MinSizeProb": 5,
+        "MaxSizeProb": 5,
+        "FishingProbArray": [
+          {
+            "MinVal": 1,
+            "MaxVal": 10,
+            "Probability": 10
+          },
+          {
+            "MinVal": 11,
+            "MaxVal": 20,
+            "Probability": 200
+          },
+          {
+            "MinVal": 21,
+            "MaxVal": 40,
+            "Probability": 500
+          },
+          {
+            "MinVal": 41,
+            "MaxVal": 59,
+            "Probability": 8570
+          },
+          {
+            "MinVal": 60,
+            "MaxVal": 79,
+            "Probability": 500
+          },
+          {
+            "MinVal": 80,
+            "MaxVal": 89,
+            "Probability": 200
+          },
+          {
+            "MinVal": 90,
+            "MaxVal": 99,
+            "Probability": 10
+          }
+        ],
+        "FishRallyRankingCount": 30,
+        "Post": {
+          "ReceiverMaxLength": 15,
+          "TitleMaxLength": 20,
+          "BodyMaxLength": 500,
+          "UnreadPostRetentionDuration": 43200,
+          "ReadPostRetentionDuration": 10080,
+          "PostStoreCount": 30,
+          "GuildLevelAvailableGuildPost": 3,
+          "UserPostMaxCount": 50,
+          "UserPostToPlayer": {
+            "LevelLimit": 0,
+            "Cost": [
+              {
+                "Key": "1",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 0
+                }
+              },
+              {
+                "Key": "2",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "3",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "4",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "5",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "6",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "7",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "8",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "9",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "10",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "11",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "12",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "13",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "14",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "15",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "16",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "17",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "18",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "19",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "20",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 2000
+                }
+              }
+            ]
+          },
+          "UserPostToGuild": {
+            "LevelLimit": 0,
+            "Cost": [
+              {
+                "Key": "1",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 0
+                }
+              },
+              {
+                "Key": "2",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "3",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "4",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100
+                }
+              },
+              {
+                "Key": "5",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "6",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "7",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 500
+                }
+              },
+              {
+                "Key": "8",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "9",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "10",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1000
+                }
+              },
+              {
+                "Key": "11",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "12",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "13",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 1500
+                }
+              },
+              {
+                "Key": "14",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 2000
+                }
+              },
+              {
+                "Key": "15",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 2000
+                }
+              },
+              {
+                "Key": "16",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 3000
+                }
+              },
+              {
+                "Key": "17",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 3000
+                }
+              },
+              {
+                "Key": "18",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 4000
+                }
+              },
+              {
+                "Key": "19",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 4000
+                }
+              },
+              {
+                "Key": "20",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 5000
+                }
+              },
+              {
+                "Key": "21",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 5000
+                }
+              },
+              {
+                "Key": "22",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 6000
+                }
+              },
+              {
+                "Key": "23",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 6000
+                }
+              },
+              {
+                "Key": "24",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 7000
+                }
+              },
+              {
+                "Key": "25",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 7000
+                }
+              },
+              {
+                "Key": "26",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 8000
+                }
+              },
+              {
+                "Key": "27",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 8000
+                }
+              },
+              {
+                "Key": "28",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 9000
+                }
+              },
+              {
+                "Key": "29",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 9000
+                }
+              },
+              {
+                "Key": "30",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 10000
+                }
+              },
+              {
+                "Key": "31",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 11000
+                }
+              },
+              {
+                "Key": "32",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 12000
+                }
+              },
+              {
+                "Key": "33",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 13000
+                }
+              },
+              {
+                "Key": "34",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 14000
+                }
+              },
+              {
+                "Key": "35",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 15000
+                }
+              },
+              {
+                "Key": "36",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 16000
+                }
+              },
+              {
+                "Key": "37",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 17000
+                }
+              },
+              {
+                "Key": "38",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 18000
+                }
+              },
+              {
+                "Key": "39",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 19000
+                }
+              },
+              {
+                "Key": "40",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 20000
+                }
+              }
+            ]
+          },
+          "UserPostToUnion": {
+            "LevelLimit": 10,
+            "Cost": [
+              {
+                "Key": "1",
+                "Value": {
+                  "Type": "EMoneyType::kGold",
+                  "Amount": 100000
+                }
+              },
+              {
+                "Key": "2",
+                "Value": {
+                  "Type": "EMoneyType::kBmCoin",
+                  "Amount": 10
+                }
+              },
+              {
+                "Key": "3",
+                "Value": {
+                  "Type": "EMoneyType::kBmCoin",
+                  "Amount": 20
+                }
+              }
+            ]
+          }
+        },
+        "Report": {
+          "CotentsMaxLength": 200
+        },
+        "CombatPreset": {
+          "PresetNameMaxLength": 12
+        },
+        "GuildSkillSetting": {
+          "GuildSkillResurrectionRadius": 10940.0,
+          "GuildSkillResurrectionHeight": 2000.0
+        },
+        "GuildRewardBoxSetting": {
+          "GuildRewardBoxGuildLevelLimit": 1,
+          "GuildRewardBoxResetDays": 1,
+          "GuildRewardBoxResetHour": 0,
+          "GuildRewardBoxExpirationHours": 24,
+          "GuildRewardBoxContentRewardExpirationHours": 24,
+          "GuildRewardBoxGoalPoint": 5550
+        },
+        "ItemEnchantSetting": {
+          "ItemEnchantTransferableInfos": [
+            {
+              "Key": "EItemGrade::kB",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kC",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kA",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA2",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA3",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA3",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kA2",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAAA",
+              "Value": {
+                "TransferableInfos": [
+                  {
+                    "Key": "EItemGrade::kAAA",
+                    "Value": {
+                      "ValueExcludedFromTraitEnchant": 1,
+                      "RatioOfTransfer": 30000
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "ItemEnchantMaxLevels": [
+            {
+              "Key": "EItemGrade::kC",
+              "Value": {
+                "ItemGrade": "EItemGrade::kC",
+                "MaxLevel": 3
+              }
+            },
+            {
+              "Key": "EItemGrade::kB",
+              "Value": {
+                "ItemGrade": "EItemGrade::kB",
+                "MaxLevel": 6
+              }
+            },
+            {
+              "Key": "EItemGrade::kA",
+              "Value": {
+                "ItemGrade": "EItemGrade::kA",
+                "MaxLevel": 9
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA",
+              "Value": {
+                "ItemGrade": "EItemGrade::kAA",
+                "MaxLevel": 12
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA2",
+              "Value": {
+                "ItemGrade": "EItemGrade::kAA2",
+                "MaxLevel": 12
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA3",
+              "Value": {
+                "ItemGrade": "EItemGrade::kAA3",
+                "MaxLevel": 9
+              }
+            },
+            {
+              "Key": "EItemGrade::kA2",
+              "Value": {
+                "ItemGrade": "EItemGrade::kA2",
+                "MaxLevel": 9
+              }
+            },
+            {
+              "Key": "EItemGrade::kAAA",
+              "Value": {
+                "ItemGrade": "EItemGrade::kAAA",
+                "MaxLevel": 12
+              }
+            }
+          ],
+          "ItemEnchantTransferCount": 1
+        },
+        "ItemTraitSetting": {
+          "MaxBlessPoint": 999999,
+          "TraitInfoMap": [
+            {
+              "Key": "EItemGrade::kB",
+              "Value": {
+                "TraitMaxCount": 2,
+                "ItemTraitMaxLevel": 2,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 1,
+                  "Gold": 3000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 1,
+                  "Gold": 3000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 3000,
+                      "EnchantPaybackBlessPoint": 1,
+                      "BlessPointForPercent": 1,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 3000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kA",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 3,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 5,
+                  "Gold": 15000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 5,
+                  "Gold": 15000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 3600,
+                      "EnchantPaybackBlessPoint": 8,
+                      "BlessPointForPercent": 1,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 15000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 15000,
+                      "EnchantPaybackBlessPoint": 8,
+                      "BlessPointForPercent": 1,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 15000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 25,
+                  "Gold": 75000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 25,
+                  "Gold": 75000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "EnchantSuccessProbability": 100,
+                      "EnchantGold": 3600,
+                      "EnchantPaybackBlessPoint": 8,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 18000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 5,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 75000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 5,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 2000,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 60,
+                      "BlessPointForPercent": 3,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA2",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 150000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 150000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 100,
+                      "EnchantGold": 18000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 20,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 90000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 150000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 200,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 60,
+                      "BlessPointForPercent": 15,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 150000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kA2",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 3,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 10,
+                  "Gold": 30000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 10,
+                  "Gold": 30000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 3600,
+                      "EnchantPaybackBlessPoint": 8,
+                      "BlessPointForPercent": 2,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 5000,
+                      "EnchantGold": 18000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 1,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 30000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 1,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 30000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAAA",
+              "Value": {
+                "TraitMaxCount": 4,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 100,
+                  "Gold": 300000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 400,
+                  "Gold": 600000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 100,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 60,
+                      "BlessPointForPercent": 20,
+                      "TransferSuccessProbability": 100,
+                      "TransferGold": 300000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 200,
+                      "EnchantGold": 90000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 15,
+                      "TransferSuccessProbability": 200,
+                      "TransferGold": 300000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 150000,
+                      "EnchantPaybackBlessPoint": 100,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 1000,
+                      "TransferGold": 300000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 300000,
+                      "EnchantPaybackBlessPoint": 100,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 600000
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "InvenSetting": {
+          "MaxInventorySlotCount": 130,
+          "MaxTemporaryInventorySlotCount": 100,
+          "TemporaryInventoryItemLifeTimeMinutes": 480,
+          "MaxKeyringSlotCount": 300,
+          "DefaultStorageSlotCount": 30,
+          "AddMemberShipStorageSlotCount": 100,
+          "BundleItemCount1": 10,
+          "BundleItemCount2": 30,
+          "BundleItemCount3": 50,
+          "BundleItemCount4": 100
+        },
+        "WelcomeUserBenefitSetting": {
+          "NewbieUserBenefitRetentionDays": 50,
+          "NewbieUserBenefitEffectIdList": [
+            "Effect_NewbieBenefit_DND"
+          ],
+          "CombackUserCheckDays": 15,
+          "CombackUserBenefitRetentionDays": 50,
+          "CombackUserEffectIdList": [
+            "Effect_ComebackBenefit_DND"
+          ]
+        },
+        "ItemPickableRadius": 300.0,
+        "GoldPickableRadius": 300.0,
+        "BMWarehouseWithdrawalDays": 8,
+        "BMWarehouseAllRecvCount": 50,
+        "BMWarehouseAllRecvDelaySec": 40,
+        "BMItemNumFormDummyItemNum": [
+          {
+            "Key": "1",
+            "Value": 15990001
+          },
+          {
+            "Key": "2",
+            "Value": 15990002
+          }
+        ],
+        "PartyInviteLinkExpirationSec": 1800,
+        "PartyKickLinkJoinWaitingSec": 300,
+        "PartyInviteLinkMaxCreateCount": 99,
+        "PartyMapForceExitSeconds": 10,
+        "SkipTutorialContents": {
+          "BaseLandmarkGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "None"
+          },
+          "BaseItems": [
+            {
+              "Key": "90040011",
+              "Value": 1
+            },
+            {
+              "Key": "90010011",
+              "Value": 1
+            },
+            {
+              "Key": "90050011",
+              "Value": 1
+            },
+            {
+              "Key": "90060011",
+              "Value": 1
+            },
+            {
+              "Key": "90080011",
+              "Value": 1
+            },
+            {
+              "Key": "90090011",
+              "Value": 1
+            },
+            {
+              "Key": "90080012",
+              "Value": 1
+            }
+          ],
+          "BaseAchievementGuids": [
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "455438132ADCBFFC"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "454B380E2880FCCE"
+            }
+          ],
+          "BaseCodexObjectiveGuids": [
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "DF71380228FE56E2"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "DF5B381127E1C460"
+            }
+          ]
+        },
+        "PassiveSkillSlotCountLevelLimits": [
+          {
+            "LevelLimit": 1,
+            "SlotCount": 1
+          },
+          {
+            "LevelLimit": 1,
+            "SlotCount": 2
+          },
+          {
+            "LevelLimit": 1,
+            "SlotCount": 3
+          },
+          {
+            "LevelLimit": 20,
+            "SlotCount": 4
+          },
+          {
+            "LevelLimit": 25,
+            "SlotCount": 5
+          },
+          {
+            "LevelLimit": 30,
+            "SlotCount": 6
+          },
+          {
+            "LevelLimit": 35,
+            "SlotCount": 7
+          },
+          {
+            "LevelLimit": 40,
+            "SlotCount": 8
+          }
+        ],
+        "QuickSlotPresetCount": 3,
+        "QuickSlotPresetMembershipCount": 3,
+        "CombatPresetCount": 3,
+        "CombatPresetMembershipCount": 3,
+        "QuickSlotPresetShowRemainTimeMin": 1440,
+        "IntegratedPresetMembershipCount": 3,
+        "WeaponSpecializationPresetCount": 3,
+        "WeaponSpecializationPresetMembershipCount": 3,
+        "WaypointCostMembershipDiscountPercent": 90,
+        "DiceCooldownSeconds": 5,
+        "LostExpSetting": {
+          "RecoverExpMaxCount": 99,
+          "RecoverFreeMaxCount": 3,
+          "RecoverFreeMembershipMaxCount": 10,
+          "RecoverExpRateUsingAdena": 100,
+          "RecoverableTimeSeconds": 864000,
+          "MinimumLostExpCountForPenalty": 0,
+          "PenaltyEffectIdList": []
+        },
+        "ItemEnchantLevelPerUniqueSkillLevel": 20,
+        "ChattingSetting": {
+          "JoinChattingAchievementGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "45BE39132B034175"
+          },
+          "UseWorldChattingAchievementGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "453038132B301DF8"
+          },
+          "UsePartyMatchingChattingAchievementGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "453038162B301DFE"
+          }
+        },
+        "PartySetting": {
+          "PartyMemberLogoutHoldingTime": 180,
+          "PartyRecruitmentListCount": 100,
+          "PartyRecruitmentListRefreshCooldownSeconds": 5,
+          "PartyRecruitmentListSearchCooldownSeconds": 2,
+          "PartyRecruitmentListSearchMinimumLength": 2,
+          "PartyRecruitmentMaxApplicantCount": 10,
+          "PartyRecruitmentMaxApplyRequestCount": 3,
+          "MyPartyRecruitmentRefreshCooldownSeconds": 30,
+          "MyPartyRecruitmentDeregisterWaitSeconds": 1800,
+          "PartyRecruitmentFavoriteMaxCount": 20,
+          "PartyMatchingSelectTimeLimit": 30,
+          "PartyMatchingSelectRequestTimeLimit": 30,
+          "PartyMatchingConfirmTimeLimit": 30,
+          "PartyMatchingPenalty": [
+            {
+              "Count": 1,
+              "TimeLimit": 180
+            },
+            {
+              "Count": 2,
+              "TimeLimit": 300
+            },
+            {
+              "Count": 3,
+              "TimeLimit": 600
+            },
+            {
+              "Count": 4,
+              "TimeLimit": 1200
+            },
+            {
+              "Count": 5,
+              "TimeLimit": 2400
+            },
+            {
+              "Count": 6,
+              "TimeLimit": 3600
+            }
+          ],
+          "PartyKickElection": [
+            {
+              "AttendableCharacterCount": 6,
+              "AgreementMinimumLimitCount": 4
+            },
+            {
+              "AttendableCharacterCount": 5,
+              "AgreementMinimumLimitCount": 3
+            },
+            {
+              "AttendableCharacterCount": 4,
+              "AgreementMinimumLimitCount": 3
+            },
+            {
+              "AttendableCharacterCount": 3,
+              "AgreementMinimumLimitCount": 2
+            }
+          ],
+          "PartyKickElectionReasonMinimumLength": 2,
+          "PartyKickElectionReasonMaximumLength": 100,
+          "PartyMemberVoteKickElectionExpiredSeconds": 20,
+          "PartyMemberKickElectionCooldownLimit": 60,
+          "PartyDungeonRandomMatchMemberLimit": 4
+        },
+        "MultiPartySetting": {
+          "MultiPartyLimitCount": 8,
+          "MultiPartyMarkTypeCount": 8,
+          "MultiPartyJoinConditions": [
+            "ETLMultiPartyJoinConditionType::MyGuildMember",
+            "ETLMultiPartyJoinConditionType::AllianceGuildMember",
+            "ETLMultiPartyJoinConditionType::All"
+          ]
+        },
+        "ServerTransferSetting": {
+          "DailyRefreshHour": 0,
+          "ServerCongestionCheckDays": 7,
+          "ServerAveragePCUCheckDays": 7,
+          "ServerTransferCharacterLevelLimit": 1,
+          "ServerTransferCoolTimeInHours": 3,
+          "ServerTransferGoldLimit": 9223372036854775807,
+          "BaseLandmarkGuid": {
+            "DataTable": {
+              "ObjectName": "CompositeDataTable'GuidContent'",
+              "ObjectPath": "/Game/Game/Client/GuidContent.0"
+            },
+            "RowName": "143812A91FA99134"
+          },
+          "ServerTransferItemId": "ServerTransfer_Pc_001",
+          "ServerTransferItemGoodsId": "25_0521_ServerTransfer_Pc_001",
+          "ServerTransferItemCount": 1,
+          "ServerListRefreshCooldownSeconds": 10,
+          "TransferExclusiveMapId": 11300,
+          "TransferExclusiveMapCapacity": 5000,
+          "UseCrossRegionTransfer": false
+        },
+        "RenameSetting": {
+          "RenameCharacterLevelLimit": 1,
+          "RenameGuildLevelLimit": 1,
+          "RenameCoolTimeDay": 7,
+          "CharacterRenameCostItemId": "NameChange_Common_001",
+          "CharacterRenameCostItemIdByAdmin": "NameChange_Common_002",
+          "GuildRenameCostItemId": "NameChange_Common_001",
+          "GuildRenameCoolTimeDay": 7
+        },
+        "InitNpcContractCount": 15,
+        "ContractPartyShareTimeoutSeconds": 15,
+        "SkillGrowthExchangeCostSettings": [
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kActiveB",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kActiveA",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kActiveAA",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kActiveSp01",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kPassiveB",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kPassiveA",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kPassiveAA",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          },
+          {
+            "Key": "ESkillGrowthExchangeableGroup::kPassiveSp01",
+            "Value": {
+              "CostItemId": "Material_SkillSweep_001",
+              "CostItemCount": 1
+            }
+          }
+        ],
+        "WeaponSpecializationExchangeCostSetting": {
+          "CostItemId": "Material_MasterySweep_001",
+          "CostItemCount": 1
+        },
+        "BillingLanguage": [
+          {
+            "LanguageStringCode": "ko-KR",
+            "LanguageCode": 1
+          },
+          {
+            "LanguageStringCode": "zh-TW",
+            "LanguageCode": 3
+          },
+          {
+            "LanguageStringCode": "en-US",
+            "LanguageCode": 5
+          },
+          {
+            "LanguageStringCode": "ja-JP",
+            "LanguageCode": 6
+          },
+          {
+            "LanguageStringCode": "fr-FR",
+            "LanguageCode": 7
+          },
+          {
+            "LanguageStringCode": "de-DE",
+            "LanguageCode": 8
+          },
+          {
+            "LanguageStringCode": "es-ES",
+            "LanguageCode": 9
+          },
+          {
+            "LanguageStringCode": "pt-BR",
+            "LanguageCode": 16
+          },
+          {
+            "LanguageStringCode": "es-419",
+            "LanguageCode": 17
+          },
+          {
+            "LanguageStringCode": "pt-PT",
+            "LanguageCode": 16
+          }
+        ],
+        "ItemCollectionGradeLimits": [
+          {
+            "CollectionItemGrade": "EItemGrade::kC",
+            "OpenAchievementGuid": {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45BE391329C1DCC4"
+            }
+          },
+          {
+            "CollectionItemGrade": "EItemGrade::kB",
+            "OpenAchievementGuid": {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "455A39142C12D306"
+            }
+          },
+          {
+            "CollectionItemGrade": "EItemGrade::kA",
+            "OpenAchievementGuid": {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "455A391F2C12D348"
+            }
+          },
+          {
+            "CollectionItemGrade": "EItemGrade::kAA",
+            "OpenAchievementGuid": {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "455A39022C12D365"
+            }
+          }
+        ],
+        "DisableEnterOtherContentsInSpecificContents": [
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInterServerRegionStone",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInterServerBossStone",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kArena",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::PARTY_MATCHING",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kPartyDungeon",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kBattleField",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInstanceRegionStoneWarfare",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInstanceBossStoneWarfare",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kWorldBossGate",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kFieldBossGate",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kChallengeSingleDungeon",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInterServerSiegeWarfare",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::INFINITY_DUNGEON",
+              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLE_FIELD",
+              "ETLContentsOpenType::CUSTOM_GAME",
+              "ETLContentsOpenType::PARTY_DUNGEON",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+            ]
+          }
+        ],
+        "ChallengePartyDungeonMaxLevel": 99,
+        "ChallengePartyDungeonKillPointSettings": [
+          {
+            "GimmickCount": 1,
+            "KillPointRateBp": 20000
+          },
+          {
+            "GimmickCount": 2,
+            "KillPointRateBp": 25000
+          }
+        ],
+        "SkillSpeedModifier": 0.7,
+        "world_level": 2,
+        "SiegeLooks": {
+          "MyParty": {
+            "Costume": {
+              "RowName": "Siege_Myparty"
+            },
+            "MasterName": {
+              "CultureInvariantString": null
+            },
+            "SubMasterName": {
+              "CultureInvariantString": null
+            },
+            "GuardianName": {
+              "CultureInvariantString": null
+            },
+            "NormalName": {
+              "CultureInvariantString": null
+            }
+          },
+          "Ally": {
+            "Costume": {
+              "RowName": "Siege_Ally_Green"
+            },
+            "MasterName": {
+              "CultureInvariantString": null
+            },
+            "SubMasterName": {
+              "CultureInvariantString": null
+            },
+            "GuardianName": {
+              "CultureInvariantString": null
+            },
+            "NormalName": {
+              "CultureInvariantString": null
+            }
+          },
+          "Enemy": {
+            "Costume": {
+              "RowName": "Siege_Enemy"
+            },
+            "MasterName": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_GUILD_INFO_MASTER_NAME",
+              "SourceString": "길드장",
+              "LocalizedString": "Guild Leader"
+            },
+            "SubMasterName": {
+              "TableId": "/Game/Game/Client/Table/TLStringContents.TLStringContents",
+              "Key": "TEXT_CONTETNS_DYNAMICEVENT_TEMANAME_02",
+              "SourceString": "레드",
+              "LocalizedString": "Red"
+            },
+            "GuardianName": {
+              "TableId": "/Game/Game/Client/Table/TLStringContents.TLStringContents",
+              "Key": "TEXT_CONTETNS_DYNAMICEVENT_TEMANAME_02",
+              "SourceString": "레드",
+              "LocalizedString": "Red"
+            },
+            "NormalName": {
+              "TableId": "/Game/Game/Client/Table/TLStringContents.TLStringContents",
+              "Key": "TEXT_CONTETNS_DYNAMICEVENT_TEMANAME_02",
+              "SourceString": "레드",
+              "LocalizedString": "Red"
+            }
+          },
+          "Usurper": {
+            "Costume": {
+              "RowName": "Siege_Usurper"
+            },
+            "MasterName": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_GUILD_INFO_MASTER_NAME",
+              "SourceString": "길드장",
+              "LocalizedString": "Guild Leader"
+            },
+            "SubMasterName": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_SIEGE_USURPE_GUILD",
+              "SourceString": "찬탈",
+              "LocalizedString": "Capture"
+            },
+            "GuardianName": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_SIEGE_USURPE_GUILD",
+              "SourceString": "찬탈",
+              "LocalizedString": "Capture"
+            },
+            "NormalName": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_SIEGE_USURPE_GUILD",
+              "SourceString": "찬탈",
+              "LocalizedString": "Capture"
+            }
+          }
+        },
+        "SageSystemSetting": {
+          "NoviceDailyLikeLimit": 10,
+          "NoviceLikeQueryDays": 30,
+          "SagePcSubtitleName": "PS_PcSubtitle_090",
+          "NovicePcSubtitleName": "PS_PcSubtitle_091",
+          "SageCostumePortraitLineName": "System_Sage",
+          "NoviceCostumePortraitLineName": "System_Novice",
+          "SageEffectIdList": [
+            "Effect_System_Sage"
+          ],
+          "NoviceEffectIdList": [
+            "Effect_System_Novice"
+          ],
+          "NoviceCompletionAchievements": [
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA381B2CC885DA"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38192CC885FC"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38162CEB283C"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38192CEB28E1"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA380B2CEB2979"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38072CEB2938"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38022CEB2917"
+            }
+          ],
+          "SageAchievements": [
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA380A2CC888A2"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38012CC887B1"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38342CC889AE"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38382CC889D1"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38562CEB2D2A"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA38172CCA130D"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA380C2CC888C7"
+            },
+            {
+              "DataTable": {
+                "ObjectName": "CompositeDataTable'GuidContent'",
+                "ObjectPath": "/Game/Game/Client/GuidContent.0"
+              },
+              "RowName": "45EA382C2CEB2CD9"
+            }
+          ],
+          "NoviceWhenCharacterCreated": true
+        },
+        "PressingDelaySecToStart": 0.30000001192092896,
+        "PressingDeltaSecBeforeQuickMoving": 0.10000000149011612,
+        "PressingDelaySecToQuickMoving": 0.6000000238418579,
+        "PressingDeltaSecWhenQuickMoving": 0.03999999910593033,
+        "SiegeWarfareSetting": {
+          "SiegeVaultRate": 20,
+          "TotalPlunderRate": 50
+        },
+        "InterServerGuildBattleSetting": {
+          "TaxRate": 100
+        },
+        "InterServerSiegeWarfareSetting": {
+          "LeagueEntryDurationMinutes": 1440,
+          "LeagueMatchingPresentationStartDurationMinutes": 720,
+          "LeagueEntryStartDurationMinutes": 720,
+          "LeagueEntryPriorityGuaranteedDurationMinutes": 1,
+          "LeagueExpectedGameDurationMinutes": 90,
+          "LeagueEntryFeePerGuild": 1500000,
+          "MaxEntryPerGuild": 70,
+          "MinFederationCount": 2,
+          "LeagueFederationApplicationEditableAuthorities": [
+            "EGuildMemeberGrade::kMaster",
+            "EGuildMemeberGrade::kSubMaster"
+          ],
+          "ApplicationDelaySeconds": 3,
+          "TaxRate": 20,
+          "VictoryRewardRate": 75
+        },
+        "MaxDynamicEventPoint": 15,
+        "MaxMobilityPolymorphFestaSpecialRewardPoint": 10,
+        "ChallengeSingleDungeonMaxLevel": 5,
+        "MaxChallengeSingleDungeonWeeklyRewardPoint": 3,
+        "MaxArenaWinRewardPoint": 3000,
+        "DeductedArenaWinRewardPoint": 300,
+        "ChargeArenaWinRewardPoint": 600,
+        "ArenaAcceptWaitingSeconds": 30,
+        "MaxHouseCount": 3,
+        "LimitShareStorageDecoCount": 100,
+        "LimitEntranceablePcCount": 10,
+        "LimitPlaceableDecoCount": 100,
+        "ProcessingQueueMaxCount": 4,
+        "MembershipContractMultiplier": 2
+      }
+    }
+  }
+]
