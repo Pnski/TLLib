@@ -9686,7 +9686,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "192_CharacterUIName",
           "SourceString": "수영 변신 시 가속 속도 증가",
-          "LocalizedString": "Aqua. Morph Accel. Bonus"
+          "LocalizedString": "Aqua Morph Accel. Bonus"
         },
         "ItemUIName": {
           "CultureInvariantString": null
@@ -9702,7 +9702,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "192_TooltipTitle",
           "SourceString": "수영 변신 시 가속 이동 속도 증가 ^<c=@stat_white>{0}^</c>",
-          "LocalizedString": "Aqua. Morph Accel. Bonus ^<c=@stat_white>{0}^</c>"
+          "LocalizedString": "Aqua Morph Accel. Bonus ^<c=@stat_white>{0}^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -9734,7 +9734,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "193_CharacterUIName",
           "SourceString": "수영 변신 시 이동 속도 증가",
-          "LocalizedString": "Aqua. Morph Speed Bonus"
+          "LocalizedString": "Aqua Morph Speed Bonus"
         },
         "ItemUIName": {
           "CultureInvariantString": null
@@ -9750,7 +9750,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "193_TooltipTitle",
           "SourceString": "수영 변신 시 일반 이동 속도 증가 ^<c=@stat_white>{0}^</c>",
-          "LocalizedString": "Aqua. Morph Speed Bonus ^<c=@stat_white>{0}^</c>"
+          "LocalizedString": "Aqua Morph Speed Bonus ^<c=@stat_white>{0}^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
