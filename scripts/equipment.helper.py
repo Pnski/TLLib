@@ -290,23 +290,20 @@ def clearResonance(ListID, trait_resonance_id):
 def clearMainStats(ListID, baseId, baseSeed, enchantId, maxLevel):
     mainStats = {}
 
-    # Base: per-list lookup with fallback to NC
     baseValue = plookup(MainStatInitLookup, ListID, MAIN_INIT_KEYS, seed=baseSeed, id=baseId)
     if baseValue:
         for k, v in baseValue.items():
             if k in TLStatsValueKeys and v is not None and v != 0:
                 mainStats[k] = [v]
 
-    # Enchant progression: per-list lookup with fallback to NC
     for level in range(1, (maxLevel or 0) + 1):
         ench = plookup(MainStatEnchantLookup, ListID, MAIN_ENCH_KEYS, enchant_level=level, id=enchantId)
         if not ench:
-            # if a level is missing entirely, we just stop progression (matches old behavior of "skip")
             continue
         for k, v in ench.items():
             if k in TLStatsValueKeys and v is not None and v != 0:
                 if k not in mainStats:
-                    # If base missing for this key, treat base as 0 for progression alignment
+                    # dropped all 0 values before
                     mainStats[k] = [0]
                 mainStats[k].append(mainStats[k][0] + v)
 
@@ -325,7 +322,6 @@ def clearExtraStats(ListID, item_value, maxLevel):
         if not stat_id or stat_id == "None":
             continue
 
-        # get base values
         baseVal = plookup(
             ExtraStatInitLookup, ListID, EXTRA_INIT_KEYS,
             stat_seed=seed, seed_group_id=baseId
@@ -341,8 +337,8 @@ def clearExtraStats(ListID, item_value, maxLevel):
         value = baseVal_ci.get(stat_key)
         if value is None:
             continue
-
-        # initialize stat list
+        
+        #level 0
         extraStats[stat_key] = [value]
 
         # add enchant values per level
@@ -393,6 +389,8 @@ def getItemStats(ListID, key, value):
         value,
         value.get("enchant_level_max")
     )
+
+    itemStats['slot'] = TLItemEquip.get(key).get("equip_category")
 
     return itemStats
 

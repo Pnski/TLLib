@@ -1,3 +1,5 @@
 docs/Image/**/*.json
 docs/sources
 docs/Image
+sources/TLEquipment.AGS.helper
+sources/TLEquipment.NC.helper
