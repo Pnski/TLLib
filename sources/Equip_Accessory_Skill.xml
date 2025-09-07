@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="951404625" id="Equip_Accessory_Skill" revision="0" feature_tag="BASE_LH" publisher_tag="ALL" _fsg_copyable="true" _fsg_movable="true" description="장신구 장비 스킬">
+  <skill_complex_list>
+    <skill_complex guid="951535889" id="SkillSet_Unique_Accessory_Skill_01" skill_slot_affinity="kNotAssigned" skill_type="kPassiveSkill" is_basic_attack="false" skill_enchant_category="kNone" feature_tag="BASE_LH" publisher_tag="ALL" is_for_polymorphed_only="false" unlock_level="1" description="칼란시아의 인지 왜곡">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="1" unlock_level="1">
+        <presets>
+          <preset guid="951406367" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="Equip_Unique_Accessory_Skill_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list />
+</hero_skill_set>

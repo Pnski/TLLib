@@ -1,5 +1,6 @@
 import json
 import os
+import xml.etree.ElementTree as ET
 
 outputNC = 'sources/TLEquipment.NC.helper'
 outputAGS = 'sources/TLEquipment.AGS.helper'
@@ -17,8 +18,6 @@ class CaseInsensitiveDict(dict):
     def get(self, key, default=None):
         return super().get(key.lower(), default)
 
-
-
 # =========
 # Load all data
 # =========
@@ -26,11 +25,16 @@ class CaseInsensitiveDict(dict):
 TLStats = loadFile('sources/TLStats')
 
 TLItemLooks = loadFile('sources/TLItemLooks')
+TLItemLooksSkills = loadFile('sources/TLSKillPcLooks_Item')
+
+TLRuneSocket = loadFile('sources/TLRuneSocket')
+TLRuneSynergy = loadFile('sources/TLRuneSynergy')
+TLRuneInfo = loadFile('sources/TLRuneInfo')
 
 TLItemEquip = loadFile('sources/TLItemEquip')  # item_grade
 TLItemMisc = loadFile('sources/TLItemMisc')    # item_grade
 TLGlobalCommon = loadFile('sources/TLGlobalCommon')  # TraitInfoMap
-TLItemRandomStatGroup = loadFile('sources/TLItemRandomStatGroup')  # TraitResonance
+TLItemRandomStatGroup = loadFile('sources/TLItemRandomStatGroup')  # TraitResonance #runes
 
 # Traits (global)
 TLItemTraits = loadFile('sources/TLItemTraits')
@@ -180,6 +184,40 @@ def build_extrastat_lookups():
     global ExtraStatInitLookup, ExtraStatEnchantLookup
     ExtraStatInitLookup = build_per_list_lookup(TLItemExtraStatInit, EXTRA_INIT_KEYS)
     ExtraStatEnchantLookup = build_per_list_lookup(TLItemExtraStatEnchant, EXTRA_ENCH_KEYS)
+
+def load_wp_items_as_dict(folder):
+    wp_items = {}
+
+    for filename in os.listdir(folder):
+        if filename.startswith("WP_Item_") or filename.startswith('Equip_'):
+            filepath = os.path.join(folder, filename)
+
+            try:
+                tree = ET.parse(filepath)
+                root = tree.getroot()
+
+                skill_complexes = []
+                for sc in root.findall("./skill_complex_list/skill_complex"):
+                    guid = sc.get("guid", "")
+                    skill_complex_id = sc.get("id", "")
+                    skill_id = None
+
+                    simple = sc.find(".//simple")
+                    if simple is not None:
+                        skill_id = simple.get("skill_id", "")
+
+                    skill_complexes.append({
+                        "guid": guid,
+                        "skillComplex": skill_complex_id,
+                        "skill_id": skill_id
+                    })
+
+                wp_items[os.path.splitext(filename)[0]] = skill_complexes
+
+            except Exception as e:
+                print(f"[Error] Failed to parse {filename}: {e}")
+
+    return wp_items
 
 
 # =========
@@ -360,7 +398,21 @@ def clearExtraStats(ListID, item_value, maxLevel):
 
     return extraStats
 
-
+def getItemSkill(unique_skill_set_id, unique_skill_complex_id):
+    itemSkills = TLWeaponItemSkills.get(unique_skill_set_id)
+    def getSkill(selfList):
+        for k in selfList:
+            if k.get("skillComplex") == unique_skill_complex_id:
+                return k.get("skill_id")
+    
+    itemSkill = getSkill(itemSkills)
+    weaponSkillLook = TLItemLooksSkills.get(itemSkill,{})
+    return {
+            'Icon': weaponSkillLook.get("IconPath", {}).get("AssetPathName"),
+            'Id': itemSkill, #helpfull for future references
+            'Name': weaponSkillLook.get("UIName", {}).get("LocalizedString"),
+            'Description': weaponSkillLook.get("UIOptions", {})[0].get("Option", {}).get("LocalizedString"),
+        }
 
 def getItemStats(ListID, key, value):
     itemStats = {}
@@ -391,6 +443,18 @@ def getItemStats(ListID, key, value):
     )
 
     itemStats['slot'] = TLItemEquip.get(key).get("equip_category")
+    unique_skill_set_id = TLItemEquip.get(key).get("unique_skill_set_id")
+    unique_skill_complex_id = TLItemEquip.get(key).get("unique_skill_complex_id")
+
+    if unique_skill_set_id != "None" and unique_skill_complex_id != "None":
+        itemStats['skill'] = getItemSkill(unique_skill_set_id, unique_skill_complex_id)
+    else:
+        itemStats['skill'] = None
+
+    itemStats['runes'] = {
+        'socket': value.get("rune_socket_id")
+        'synergy': value.get("rune_synergy_id")
+    }
 
     return itemStats
 
@@ -407,6 +471,7 @@ build_trait_lookups()
 build_resonance_lookups()
 build_mainstat_lookups()
 build_extrastat_lookups()
+TLWeaponItemSkills = load_wp_items_as_dict('sources')
 
 # Build NC first
 makeList('NC')

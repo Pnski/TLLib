@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="951657647" id="WP_Item_kAAA_ST_60" revision="0" description="전설_지팡이_액티브스킬" feature_tag="BASE_LH" publisher_tag="ALL" defense_complex_guid="0">
+  <skill_complex_list>
+    <skill_complex guid="951723183" is_basic_attack="false" is_for_polymorphed_only="false" description="" unlock_level="1" id="SkillSet_WP_Item_kAAA_ST_60" skill_enchant_category="kNone" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" unlock_level="1" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="951788719" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="1" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="2" max_skill_level="2">
+        <presets>
+          <preset guid="943275069" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="2" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="3" max_skill_level="3">
+        <presets>
+          <preset guid="943340610" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="3" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="4" max_skill_level="4">
+        <presets>
+          <preset guid="943406147" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="4" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="5" max_skill_level="5">
+        <presets>
+          <preset guid="941898820" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="5" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="6" max_skill_level="6">
+        <presets>
+          <preset guid="966073495" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="6" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="7" max_skill_level="7">
+        <presets>
+          <preset guid="966007960" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="7" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="8" max_skill_level="8">
+        <presets>
+          <preset guid="965418137" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="8" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="9" max_skill_level="9">
+        <presets>
+          <preset guid="965352602" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="9" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="10" max_skill_level="10">
+        <presets>
+          <preset guid="965287067" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="10" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="11" max_skill_level="11">
+        <presets>
+          <preset guid="965221532" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="11" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="12" max_skill_level="12">
+        <presets>
+          <preset guid="965680285" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="12" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="13" max_skill_level="13">
+        <presets>
+          <preset guid="965614750" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="13" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="14" max_skill_level="14">
+        <presets>
+          <preset guid="965549215" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="14" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="15" max_skill_level="15">
+        <presets>
+          <preset guid="964893859" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="15" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="16" max_skill_level="16">
+        <presets>
+          <preset guid="964828324" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="16" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="17" max_skill_level="17">
+        <presets>
+          <preset guid="964762789" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="17" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="18" max_skill_level="18">
+        <presets>
+          <preset guid="964697254" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="18" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="19" max_skill_level="19">
+        <presets>
+          <preset guid="965156007" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <context uid="19" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="20" max_skill_level="20">
+        <presets>
+          <preset guid="965090522" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_kAAA_ST_60" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_kAAA_ST_60" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list />
+</hero_skill_set>

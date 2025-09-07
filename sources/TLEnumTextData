@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "TLEnumTextData",
+    "Name": "TLEnumTextData",
+    "Class": "UScriptClass'TLEnumTextData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ItemCategory": [
+        {
+          "Key": "EItemCategory::kDagger",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_DAGGER",
+            "SourceString": "단검",
+            "LocalizedString": "Daggers"
+          }
+        },
+        {
+          "Key": "EItemCategory::kSword",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_SWORD",
+            "SourceString": "장검",
+            "LocalizedString": "Sword"
+          }
+        },
+        {
+          "Key": "EItemCategory::kSword2h",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_SWORD2H",
+            "SourceString": "양손검",
+            "LocalizedString": "Greatsword"
+          }
+        },
+        {
+          "Key": "EItemCategory::kStaff",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_STAFF",
+            "SourceString": "지팡이",
+            "LocalizedString": "Staff"
+          }
+        },
+        {
+          "Key": "EItemCategory::kBow",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_BOW",
+            "SourceString": "장궁",
+            "LocalizedString": "Longbow"
+          }
+        },
+        {
+          "Key": "EItemCategory::kCrossbow",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_CROSSBOW",
+            "SourceString": "석궁",
+            "LocalizedString": "Crossbows"
+          }
+        },
+        {
+          "Key": "EItemCategory::kWand",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_WAND",
+            "SourceString": "마법봉",
+            "LocalizedString": "Wand"
+          }
+        },
+        {
+          "Key": "EItemCategory::kSpear",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_SKILL_LIST_TYPE_SPEAR",
+            "SourceString": "창",
+            "LocalizedString": "Spear"
+          }
+        }
+      ],
+      "CreatureRank": [
+        {
+          "Key": "ETLCreatureRank::NoRank",
+          "Value": {
+            "CultureInvariantString": null
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::Solo",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_SOLO",
+            "SourceString": "일반",
+            "LocalizedString": "Common"
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::SoloElite",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_SOLO_ELITE",
+            "SourceString": "일반 정예",
+            "LocalizedString": "Common Elite"
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::Party",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_PARTY",
+            "SourceString": "파티",
+            "LocalizedString": "Party"
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::PartyElite",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_PARTY_ELITE",
+            "SourceString": "파티 정예",
+            "LocalizedString": "Party Elite"
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::Boss",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_BOSS",
+            "SourceString": "보스",
+            "LocalizedString": "Boss"
+          }
+        },
+        {
+          "Key": "ETLCreatureRank::BossWorld",
+          "Value": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_TARGETUI_RANK_BOSS",
+            "SourceString": "보스",
+            "LocalizedString": "Boss"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="951053259" id="WP_Item_SP" revision="0" description="아이템 창 스킬" feature_tag="BASE_LH" publisher_tag="ALL" defense_complex_guid="0" _fsg_copyable="true" _fsg_movable="true">
+  <skill_complex_list>
+    <skill_complex guid="950987723" is_basic_attack="false" is_for_polymorphed_only="false" description="광기 망령의 공포창" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_SP_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="950660043" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_SP_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T2_SP_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="950791214" is_basic_attack="false" is_for_polymorphed_only="false" description="질풍노도의 바람창" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_SP_02" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="950725678" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_SP_02" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T2_SP_02" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="951381091" is_basic_attack="false" is_for_polymorphed_only="false" description="크림슨의 살육창" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_SP_03" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="951577699" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_SP_03" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T2_SP_03" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="951184528" is_basic_attack="false" is_for_polymorphed_only="false" description="미사용" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_SP_04" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="951118992" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_SP_04" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T2_SP_04" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="950527707" is_basic_attack="false" is_for_polymorphed_only="false" description="샤이칼의 촉수창" unlock_level="1" id="SkillSet_WP_Item_Boss_T1_SP_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="950462171" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T1_SP_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T1_SP_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="950069038" is_basic_attack="false" is_for_polymorphed_only="false" description="쥬노보트의 용암창" unlock_level="1" id="SkillSet_WP_Item_Boss_T1_SP_02" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="950265646" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T1_SP_02" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T1_SP_02" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="950921118" is_basic_attack="false" is_for_polymorphed_only="false" description="파킬로 나루의 톱니창" unlock_level="1" id="SkillSet_WP_Item_Boss_T1_SP_03" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="950855582" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T1_SP_03" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T1_SP_03" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list />
+</hero_skill_set>
