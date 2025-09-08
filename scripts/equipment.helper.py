@@ -418,7 +418,7 @@ def getItemStats(ListID, key, value):
     itemStats = {}
     itemStats['grade'] = getEquipGrade(key)
     if itemStats['grade'] is None:
-        return itemStats  # skip items without valid grade
+        return None  # skip items without valid grade
 
     itemStats['traits'] = clearTraits(value.get("trait_group_id"), itemStats['grade'])
 
@@ -452,16 +452,24 @@ def getItemStats(ListID, key, value):
         itemStats['skill'] = None
 
     itemStats['runes'] = {
-        'socket': value.get("rune_socket_id")
+        'socket': value.get("rune_socket_id"),
         'synergy': value.get("rune_synergy_id")
     }
 
     return itemStats
 
-def makeList(ListID):
-    for key, value in TLItemStats[ListID].items():
-        itemList[ListID][key] = getItemStats(ListID, key, value)
 
+def makeList(ListID):
+    itemList['dropped'] = []
+    for key, value in TLItemStats[ListID].items():
+        itemStats = getItemStats(ListID, key, value)
+        if itemStats == None:
+            itemList['dropped'].append(key)
+        else:
+            itemList[ListID][key] = itemStats
+    print("dropping items:",itemList['dropped'])
+
+    
 # =========
 # Build lookups & run
 # =========
