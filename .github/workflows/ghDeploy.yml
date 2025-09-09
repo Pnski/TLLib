@@ -30,10 +30,6 @@ jobs:
           pip install xmltodict
           pip install Pillow
 
-      - name : resizing images
-        run: |
-          python scripts/resize_images.py
-
       - name: Running Python to create necessary files
         run: |
           python scripts/amitoi.py
@@ -63,6 +59,10 @@ jobs:
             base=$(basename "$file")
             gzip -c "$file" > "compressed/${base}.gz"
           done
+
+      - name : resizing images
+        run: |
+          python scripts/resize_images.py
 
       - name: Prepare output for Pages (no write to repo)
         run: |

@@ -14,8 +14,13 @@ weaponList = [
 
 def loadFile(filepath):
     try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
+        data = json.load(open(filepath, encoding="utf-8"))
+        if not data or 'Rows' not in data[0]:
+            print(f"[Warning] {filepath} is empty or missing 'Rows'")
+            return {}
+        return data[0]['Rows']
     except FileNotFoundError:
+        print(f"[Warning] {filepath} not found")
         return {}
 
 outputFolder = 'docs/weapon/skills/'
@@ -42,7 +47,7 @@ for skillName, skillData in TLFormulaParameterNew.items():
             print(f"No valid skill_levels <= 15 found for {skillName}, clearing FormulaParameter")
 
 def TLSkillPCLooks(short):
-    return 'sources/TLSkillPcLooks_Weapon_'+short
+    return f"sources/TLSkillPcLooks_Weapon_{short}"
 
 for weapon in weaponList:
 
@@ -91,8 +96,12 @@ for weapon in weaponList:
     with open(outputName, "w", encoding="utf-8") as md:
         md.write(f"# {weapon} Skill Types\n\n")
 
-        md.write("| " + " | ".join(skillListMD[0].keys()) + " |\n")
-        md.write("| " + " | ".join(['-' * 3 for h in skillListMD[0].keys()]) + " |\n")
-        for key, row in skillListMD.items():
-            md.write("| " + " | ".join(str(v) for v in skillListMD[key].values()) + " |\n")
+        if skillListMD:
+            md.write("| " + " | ".join(skillListMD[0].keys()) + " |\n")
+            md.write("| " + " | ".join(['-' * 3 for _ in skillListMD[0].keys()]) + " |\n")
+            for row in skillListMD.values():
+                md.write("| " + " | ".join(str(v) for v in row.values()) + " |\n")
+        else:
+            print(f"[Warning] No skills found for {weapon}, skipping table")
+
     print(f"Skill Types table written to {outputName}")
