@@ -1,0 +1,4291 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLTableGlobalSettingsUX",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLGlobalSettingsUX'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "BlankSprite": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/Tex_HUD_BlankTexture_Sprite.Tex_HUD_BlankTexture_Sprite",
+          "SubPathString": ""
+        },
+        "WeaponNameText": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex0",
+              "SourceString": "단검",
+              "LocalizedString": "Daggers"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex1",
+              "SourceString": "장검",
+              "LocalizedString": "Sword"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex2",
+              "SourceString": "양손검",
+              "LocalizedString": "Greatsword"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex3",
+              "SourceString": "지팡이",
+              "LocalizedString": "Staff"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex4",
+              "SourceString": "장궁",
+              "LocalizedString": "Longbow"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex5",
+              "SourceString": "석궁",
+              "LocalizedString": "Crossbows"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+              "Key": "Default_WeaponNameText_ValueIndex6",
+              "SourceString": "마법봉",
+              "LocalizedString": "Wand"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_ITEM_CATEGORY_kSpear",
+              "SourceString": "창",
+              "LocalizedString": "Spear"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_ITEM_CATEGORY_kOrb",
+              "SourceString": "오브",
+              "LocalizedString": "Orb"
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+              "Key": "TEXT_RES_ITEM_CATEGORY_kGauntlet",
+              "SourceString": "건틀릿",
+              "LocalizedString": "Gauntlet"
+            }
+          }
+        ],
+        "WeaponCombination": [
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Crusader",
+                    "LocalizedString": "Crusader"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Berserker",
+                    "LocalizedString": "Berserker"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Raider",
+                    "LocalizedString": "Raider"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Warden",
+                    "LocalizedString": "Warden"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Disciple",
+                    "LocalizedString": "Disciple"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Templar",
+                    "LocalizedString": "Templar"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Steelheart",
+                    "LocalizedString": "Steelheart"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Crusader",
+                    "LocalizedString": "Crusader"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Ravager",
+                    "LocalizedString": "Ravager"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Outrider",
+                    "LocalizedString": "Outrider"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Ranger",
+                    "LocalizedString": "Ranger"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Sentinel",
+                    "LocalizedString": "Sentinel"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Paladin",
+                    "LocalizedString": "Paladin"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Gladiator",
+                    "LocalizedString": "Gladiator"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Berserker",
+                    "LocalizedString": "Berserker"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Ravager",
+                    "LocalizedString": "Ravager"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Scorpion",
+                    "LocalizedString": "Scorpion"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Infiltrator",
+                    "LocalizedString": "Infiltrator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Spellblade",
+                    "LocalizedString": "Spellblade"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Darkblighter",
+                    "LocalizedString": "Darkblighter"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Shadowdancer",
+                    "LocalizedString": "Shadowdancer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Raider",
+                    "LocalizedString": "Raider"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Outrider",
+                    "LocalizedString": "Outrider"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Scorpion",
+                    "LocalizedString": "Scorpion"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Scout",
+                    "LocalizedString": "Scout"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Battleweaver",
+                    "LocalizedString": "Battleweaver"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Fury",
+                    "LocalizedString": "Fury"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Cavalier",
+                    "LocalizedString": "Cavalier"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Warden",
+                    "LocalizedString": "Warden"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Ranger",
+                    "LocalizedString": "Ranger"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Infiltrator",
+                    "LocalizedString": "Infiltrator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Scout",
+                    "LocalizedString": "Scout"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Liberator",
+                    "LocalizedString": "Liberator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Seeker",
+                    "LocalizedString": "Seeker"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Impaler",
+                    "LocalizedString": "Impaler"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Disciple",
+                    "LocalizedString": "Disciple"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Sentinel",
+                    "LocalizedString": "Sentinel"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Spellblade",
+                    "LocalizedString": "Spellblade"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Battleweaver",
+                    "LocalizedString": "Battleweaver"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Liberator",
+                    "LocalizedString": "Liberator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Invocator",
+                    "LocalizedString": "Invocator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Forsaker",
+                    "LocalizedString": "Eradicator"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Templar",
+                    "LocalizedString": "Templar"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Paladin",
+                    "LocalizedString": "Paladin"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Darkblighter",
+                    "LocalizedString": "Darkblighter"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Fury",
+                    "LocalizedString": "Fury"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Seeker",
+                    "LocalizedString": "Seeker"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Invocator",
+                    "LocalizedString": "Invocator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Voidlance",
+                    "LocalizedString": "Voidlance"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex0",
+                    "SourceString": "Steelheart",
+                    "LocalizedString": "Steelheart"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex1",
+                    "SourceString": "Gladiator",
+                    "LocalizedString": "Gladiator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex2",
+                    "SourceString": "Shadowdancer",
+                    "LocalizedString": "Shadowdancer"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex3",
+                    "SourceString": "Impaler",
+                    "LocalizedString": "Impaler"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex4",
+                    "SourceString": "Forsaker",
+                    "LocalizedString": "Eradicator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex5",
+                    "SourceString": "Voidlance",
+                    "LocalizedString": "Voidlance"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSpear",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "Shadowdancer",
+                    "LocalizedString": "Shadowdancer"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "WeaponIconHud": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Dagger_Sprite.Tex_WPT_Dagger_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Dagger_Sprite.Tex_WPT_Dagger_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Dagger_Sprite.Tex_WPT_Dagger_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordA_Sprite.Tex_WPT_SwordA_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordA_Sprite.Tex_WPT_SwordA_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordA_Sprite.Tex_WPT_SwordA_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordB_Sprite.Tex_WPT_SwordB_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordB_Sprite.Tex_WPT_SwordB_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_SwordB_Sprite.Tex_WPT_SwordB_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_MagicStaff_Sprite.Tex_WPT_MagicStaff_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_MagicStaff_Sprite.Tex_WPT_MagicStaff_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_MagicStaff_Sprite.Tex_WPT_MagicStaff_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Bow_Sprite.Tex_WPT_Bow_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Bow_Sprite.Tex_WPT_Bow_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Bow_Sprite.Tex_WPT_Bow_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_CrossBow_Sprite.Tex_WPT_CrossBow_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_CrossBow_Sprite.Tex_WPT_CrossBow_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_CrossBow_Sprite.Tex_WPT_CrossBow_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Wand_Sprite.Tex_WPT_Wand_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Wand_Sprite.Tex_WPT_Wand_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Wand_Sprite.Tex_WPT_Wand_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Spear_Sprite.Tex_WPT_Spear_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Spear_Sprite.Tex_WPT_Spear_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Spear_Sprite.Tex_WPT_Spear_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Orb_Sprite.Tex_WPT_Orb_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Orb_Sprite.Tex_WPT_Orb_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Orb_Sprite.Tex_WPT_Orb_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Gauntlet_Sprite.Tex_WPT_Gauntlet_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Gauntlet_Sprite.Tex_WPT_Gauntlet_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Gauntlet_Sprite.Tex_WPT_Gauntlet_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kNone",
+            "Value": {
+              "IconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Hand_Sprite.Tex_WPT_Hand_Sprite",
+                "SubPathString": ""
+              },
+              "HoverIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Hand_Sprite.Tex_WPT_Hand_Sprite",
+                "SubPathString": ""
+              },
+              "CheckIconImage": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CombatControl/Tex_WPT_Hand_Sprite.Tex_WPT_Hand_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "WeaponIconHudSmall": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Dagger_Mark_Sprite.HUD_Weapon_Dagger_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_sword_Mark_Sprite.HUD_Weapon_sword_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_2Hsword_Mark_Sprite.HUD_Weapon_2Hsword_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Staff_Mark_Sprite.HUD_Weapon_Staff_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Bow_Mark_Sprite.HUD_Weapon_Bow_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Crossbow_Mark_Sprite.HUD_Weapon_Crossbow_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Wand_Mark_Sprite.HUD_Weapon_Wand_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Spear_Mark_Sprite.HUD_Weapon_Spear_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Orb_Mark_Sprite.HUD_Weapon_Orb_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_Gauntlet_Mark_Sprite.HUD_Weapon_Gauntlet_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kNone",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/00_TemplateHUD/HUD_Weapon_NotEquip_Sprite.HUD_Weapon_NotEquip_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "WeaponIconWindowLarge": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Dagger_BigMark_Sprite.Weapon_Dagger_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_sword_BigMark_Sprite.Weapon_sword_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_2Hsword_BigMark_Sprite.Weapon_2Hsword_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Staff_BigMark_Sprite.Weapon_Staff_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Bow_BigMark_Sprite.Weapon_Bow_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Crossbow_BigMark_Sprite.Weapon_Crossbow_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Wand_BigMark_Sprite.Weapon_Wand_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Spear_BigMark_Sprite.Weapon_Spear_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Orb_BigMark_Sprite.Weapon_Orb_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kNone",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Gauntlet_BigMark_Sprite.Weapon_Gauntlet_BigMark_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "WeaponIconWindowSmall": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Dagger_Mark_Sprite.Weapon_Dagger_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_sword_Mark_Sprite.Weapon_sword_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_2Hsword_Mark_Sprite.Weapon_2Hsword_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Staff_Mark_Sprite.Weapon_Staff_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Bow_Mark_Sprite.Weapon_Bow_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Crossbow_Mark_Sprite.Weapon_Crossbow_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Wand_Mark_Sprite.Weapon_Wand_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Spear_Mark_Sprite.Weapon_Spear_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Orb_Mark_Sprite.Weapon_Orb_Mark_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Weapon/Weapon_Gauntlet_Mark_Sprite.Weapon_Gauntlet_Mark_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "WeaponUISortPriority": [
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": 0
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": 1
+          },
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": 2
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": 3
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": 4
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": 5
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": 6
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": 7
+          }
+        ],
+        "ContractGradeSpriteMap": [],
+        "MoneyIconData": [
+          {
+            "Key": "EMoneyType::kContractCoin",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/Contractcoin_001_Sprite.Contractcoin_001_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/Contractcoin_001.Contractcoin_001",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kGuildCoin",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_GuildCoin_Large_Sprite.ICO_GuildCoin_Large_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_GuildCoin_Large.ICO_GuildCoin_Large",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kBmCoin",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/Image/Icon/Item_128/Misc/I_Laslancoin_001.I_Laslancoin_001",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/Image/Icon/Item_128/Misc/I_Laslancoin_001.I_Laslancoin_001",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kLostAndFoundCoin",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_Token_Einhasad_Sprite.ICO_Token_Einhasad_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_Token_Einhasad.ICO_Token_Einhasad",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kDiamond",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_BMCoin_Gold_Sprite.ICO_BMCoin_Gold_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_BMCoin_Gold.ICO_BMCoin_Gold",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kGold",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_Adena_Sprite.ICO_Adena_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_Adena.ICO_Adena",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kSocialCoin",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_SocialCoin_Sprite.ICO_SocialCoin_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/ICO_SocialCoin.ICO_SocialCoin",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMoneyType::kMileage",
+            "Value": {
+              "SpriteIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/TL_Currency_Mileage_Sprite.TL_Currency_Mileage_Sprite",
+                "SubPathString": ""
+              },
+              "TextureIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/TL_Currency_Mileage.TL_Currency_Mileage",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "ItemSlotGradeLooks": [
+          {
+            "Key": "EItemGrade::kMisc",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_00_Sprite.BG_ItemGrade_00_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_00_Sprite.BG_ItemGrade_00_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekMisc",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kMisc",
+                "SourceString": "잡화",
+                "LocalizedString": "Miscellaneous"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kMisc",
+                "SourceString": "잡화",
+                "LocalizedString": "Miscellaneous"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kC",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekC",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kC",
+                "SourceString": "일반",
+                "LocalizedString": "Common"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kC",
+                "SourceString": "일반",
+                "LocalizedString": "Common"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kB",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekB",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kB",
+                "SourceString": "고급",
+                "LocalizedString": "Uncommon"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kB",
+                "SourceString": "고급",
+                "LocalizedString": "Uncommon"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekA",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kA",
+                "SourceString": "희귀",
+                "LocalizedString": "Rare"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kA",
+                "SourceString": "희귀",
+                "LocalizedString": "Rare"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kAA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAA",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA",
+                "SourceString": "영웅",
+                "LocalizedString": "Epic"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA1",
+                "SourceString": "영웅",
+                "LocalizedString": "Epic"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kAAA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05.BG_ItemGrade_05",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05.BG_ItemGrade_05",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "/Game/UI/Material/ItemGrade/MAT_ITEM_AAA.MAT_ITEM_AAA",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAAA",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAAA",
+                "SourceString": "유니크",
+                "LocalizedString": "Heroic"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAAA",
+                "SourceString": "유니크",
+                "LocalizedString": "Heroic"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kS",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_06_Sprite.BG_ItemGrade_06_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_06_Sprite.BG_ItemGrade_06_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekS",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kS",
+                "SourceString": "신화",
+                "LocalizedString": "Celestial"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kS",
+                "SourceString": "신화",
+                "LocalizedString": "Celestial"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kSS",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_07_Sprite.BG_ItemGrade_07_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_07_Sprite.BG_ItemGrade_07_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekSS",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kSS",
+                "SourceString": "고대",
+                "LocalizedString": "Ancient"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kSS",
+                "SourceString": "고대",
+                "LocalizedString": "Ancient"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kSSS",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_07_Sprite.BG_ItemGrade_07_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_07_Sprite.BG_ItemGrade_07_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekSS",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kSS",
+                "SourceString": "고대",
+                "LocalizedString": "Ancient"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kSS",
+                "SourceString": "고대",
+                "LocalizedString": "Ancient"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kAA2",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "/Game/UI/Material/ItemGrade/MI_ITEM_AA2.MI_ITEM_AA2",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAA",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA",
+                "SourceString": "영웅",
+                "LocalizedString": "Epic"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA2",
+                "SourceString": "영웅 2단",
+                "LocalizedString": "Epic II"
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kAA3",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "/Game/UI/Material/ItemGrade/MI_ITEM_AA3.MI_ITEM_AA3",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAA",
+              "GradeGroupName": {
+                "CultureInvariantString": null
+              },
+              "GradeName": {
+                "CultureInvariantString": null
+              }
+            }
+          },
+          {
+            "Key": "EItemGrade::kA2",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_A2_Sprite.BG_ItemGrade_03_A2_Sprite",
+                "SubPathString": ""
+              },
+              "BigIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_A2_Sprite.BG_ItemGrade_03_A2_Sprite",
+                "SubPathString": ""
+              },
+              "EffectImagePath": {
+                "AssetPathName": "/Game/UI/Material/ItemGrade/MI_ITEM_A2.MI_ITEM_A2",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekA",
+              "GradeGroupName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kA",
+                "SourceString": "희귀",
+                "LocalizedString": "Rare"
+              },
+              "GradeName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kA2",
+                "SourceString": "희귀 2단",
+                "LocalizedString": "Rare II"
+              }
+            }
+          }
+        ],
+        "SkillSlotGradeLooks": [
+          {
+            "Key": "ESkillGrade::kC",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01.BG_ItemGrade_01",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekC",
+              "ColorAndOpacityForBackground": {
+                "R": 0.28125,
+                "G": 0.28125,
+                "B": 0.28125,
+                "A": 0.35,
+                "Hex": "59919191"
+              }
+            }
+          },
+          {
+            "Key": "ESkillGrade::kB",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02.BG_ItemGrade_02",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekB",
+              "ColorAndOpacityForBackground": {
+                "R": 0.0,
+                "G": 0.102242,
+                "B": 0.029557,
+                "A": 0.247059,
+                "Hex": "3F005A30"
+              }
+            }
+          },
+          {
+            "Key": "ESkillGrade::kA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03.BG_ItemGrade_03",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekA",
+              "ColorAndOpacityForBackground": {
+                "R": 0.007499,
+                "G": 0.07036,
+                "B": 0.152926,
+                "A": 0.45098,
+                "Hex": "73154B6D"
+              }
+            }
+          },
+          {
+            "Key": "ESkillGrade::kAA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04.BG_ItemGrade_04",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAA",
+              "ColorAndOpacityForBackground": {
+                "R": 0.396078,
+                "G": 0.188235,
+                "B": 0.596078,
+                "A": 0.45,
+                "Hex": "73A978CB"
+              }
+            }
+          },
+          {
+            "Key": "ESkillGrade::kAAA",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05.BG_ItemGrade_05",
+                "SubPathString": ""
+              },
+              "ColorKey": "ItemGradekAAA",
+              "ColorAndOpacityForBackground": {
+                "R": 0.564706,
+                "G": 0.168627,
+                "B": 0.011765,
+                "A": 1.0,
+                "Hex": "C6721C"
+              }
+            }
+          }
+        ],
+        "PolymorphSlotGradeLooks": [
+          {
+            "Key": "EPolymorphGrade::kC",
+            "Value": {
+              "GradeText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_POLYMORPH_TAB_LABEL_GRADE_kC",
+                "SourceString": "일반",
+                "LocalizedString": "Common"
+              },
+              "GradeColorKey": "ItemGradekC",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EPolymorphGrade::kB",
+            "Value": {
+              "GradeText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_POLYMORPH_TAB_LABEL_GRADE_kB",
+                "SourceString": "고급",
+                "LocalizedString": "Uncommon"
+              },
+              "GradeColorKey": "ItemGradekB",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EPolymorphGrade::kA",
+            "Value": {
+              "GradeText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_POLYMORPH_TAB_LABEL_GRADE_kA",
+                "SourceString": "희귀",
+                "LocalizedString": "Rare"
+              },
+              "GradeColorKey": "ItemGradekA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EPolymorphGrade::kAA",
+            "Value": {
+              "GradeText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_POLYMORPH_TAB_LABEL_GRADE_kAA",
+                "SourceString": "영웅",
+                "LocalizedString": "Epic"
+              },
+              "GradeColorKey": "ItemGradekAA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EPolymorphGrade::kAAA",
+            "Value": {
+              "GradeText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_POLYMORPH_TAB_LABEL_GRADE_kAAA",
+                "SourceString": "유니크",
+                "LocalizedString": "Heroic"
+              },
+              "GradeColorKey": "ItemGradekAAA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_Sprite.BG_ItemGrade_05_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_Sprite.BG_ItemGrade_05_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "MagicDollSlotGradeLooks": [
+          {
+            "Key": "EMagicDollGrade::kC",
+            "Value": {
+              "GradeColorKey": "ItemGradekC",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMagicDollGrade::kB",
+            "Value": {
+              "GradeColorKey": "ItemGradekB",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_02_Sprite.BG_ItemGrade_02_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMagicDollGrade::kA",
+            "Value": {
+              "GradeColorKey": "ItemGradekA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_03_Sprite.BG_ItemGrade_03_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMagicDollGrade::kAA",
+            "Value": {
+              "GradeColorKey": "ItemGradekAA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_04_Sprite.BG_ItemGrade_04_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EMagicDollGrade::kAAA",
+            "Value": {
+              "GradeColorKey": "ItemGradekAAA",
+              "PortraitBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_Sprite.BG_ItemGrade_05_Sprite",
+                "SubPathString": ""
+              },
+              "SlotBGIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_Sprite.BG_ItemGrade_05_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "ObtentionTypeLooks": [
+          {
+            "Key": "ETLObtentionType::Play",
+            "Value": {
+              "Text": {
+                "CultureInvariantString": null
+              },
+              "ColorKey": "PlayGrade",
+              "BGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_PlayGrade_256_Sprite.BG_PlayGrade_256_Sprite",
+                "SubPathString": ""
+              },
+              "SmallBGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_PlayGrade_128_Sprite.BG_PlayGrade_128_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ETLObtentionType::Other",
+            "Value": {
+              "Text": {
+                "CultureInvariantString": null
+              },
+              "ColorKey": "OtherGrade",
+              "BGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_OtherGrade_128_Sprite.BG_OtherGrade_128_Sprite",
+                "SubPathString": ""
+              },
+              "SmallBGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_OtherGrade_256_Sprite.BG_OtherGrade_256_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ETLObtentionType::None",
+            "Value": {
+              "Text": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_COLLECTION_STATUS_GRADE_KC",
+                "SourceString": "일반",
+                "LocalizedString": "Common"
+              },
+              "ColorKey": "ItemGradekC",
+              "BGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              },
+              "SmallBGSpritePath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_01_Sprite.BG_ItemGrade_01_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "CustomizeHistoryTypeIcon": [
+          {
+            "Key": "ECustomizeHistoryType::DesignerPreset",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Preset_Sprite.ICO_Lobby_HistoryIcon_Preset_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::Preset",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Preset_Sprite.ICO_Lobby_HistoryIcon_Preset_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::Randomize",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Dice_Sprite.ICO_Lobby_HistoryIcon_Dice_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::Reset",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Reset_Sprite.ICO_Lobby_HistoryIcon_Reset_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::ArmorPreset",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Custom_Sprite.ICO_Lobby_HistoryIcon_Custom_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::VoicePreset",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/Lobby_StereoICO_Hover_Sprite.Lobby_StereoICO_Hover_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::LoadSnapshot",
+            "Value": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::LoadFile",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_LoadFile_Sprite.ICO_Lobby_HistoryIcon_LoadFile_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::AICustomize",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_AICustom_Sprite.ICO_Lobby_HistoryIcon_AICustom_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeHistoryType::Default",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Body_Type_A_Nomal_Sprite.ICO_Body_Type_A_Nomal_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "CustomizeUIMiddleCategoryIcon": [
+          {
+            "Key": "ECustomizeUIMiddleCategory::Face",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Face_Sprite.ICO_Lobby_HistoryIcon_Face_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Eyes",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Eyes_Sprite.ICO_Lobby_HistoryIcon_Eyes_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Eyebrow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Eyebrow_Sprite.ICO_Lobby_HistoryIcon_Eyebrow_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Nose",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Nose_Sprite.ICO_Lobby_HistoryIcon_Nose_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Mouth",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Mouth_Sprite.ICO_Lobby_HistoryIcon_Mouth_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Ear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Ear_Sprite.ICO_Lobby_HistoryIcon_Ear_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Makeup",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Makeup_Sprite.ICO_Lobby_HistoryIcon_Makeup_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Hair",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Hair_Sprite.ICO_Lobby_HistoryIcon_Hair_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Body",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Body_Sprite.ICO_Lobby_HistoryIcon_Body_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Costume",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Custom_Sprite.ICO_Lobby_HistoryIcon_Custom_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Voice",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/Lobby_SOUNDKEY_BTN_Normal_Sprite.Lobby_SOUNDKEY_BTN_Normal_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Facial",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Face_Sprite.ICO_Lobby_HistoryIcon_Face_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Lighting",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_Light_Sprite.ICO_Lobby_Light_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Polymorph",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_PolyMorph_Sprite.ICO_Lobby_PolyMorph_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "CustomizeUIMiddleCategoryIconFemale": [
+          {
+            "Key": "ECustomizeUIMiddleCategory::Face",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Face_Sprite.ICO_Lobby_HistoryIcon_Face_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Eyes",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Eyes_Sprite.ICO_Lobby_HistoryIcon_Eyes_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Eyebrow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Eyebrow_Sprite.ICO_Lobby_HistoryIcon_Eyebrow_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Nose",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Nose_Sprite.ICO_Lobby_HistoryIcon_Nose_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Mouth",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Mouth_Sprite.ICO_Lobby_HistoryIcon_Mouth_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Ear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Ear_Sprite.ICO_Lobby_HistoryIcon_Ear_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Makeup",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Makeup_Sprite.ICO_Lobby_HistoryIcon_Makeup_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Hair",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Hair_F_Sprite.ICO_Lobby_HistoryIcon_Hair_F_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Body",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Body_Sprite.ICO_Lobby_HistoryIcon_Body_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Costume",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Custom_Sprite.ICO_Lobby_HistoryIcon_Custom_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Voice",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/Lobby_SOUNDKEY_BTN_Normal_Sprite.Lobby_SOUNDKEY_BTN_Normal_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Facial",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_HistoryIcon_Face_Sprite.ICO_Lobby_HistoryIcon_Face_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Lighting",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_Light_Sprite.ICO_Lobby_Light_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ECustomizeUIMiddleCategory::Polymorph",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/Lobby/LobbyIcon/ICO_Lobby_PolyMorph_Sprite.ICO_Lobby_PolyMorph_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "EmptyProfileImagePath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/CharacterInfo/Tex_Chat_Icon_PersonTemp_Sprite.Tex_Chat_Icon_PersonTemp_Sprite",
+          "SubPathString": ""
+        },
+        "ExchangableImagePath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/Inventory/ICO_Bind_02_Sprite.ICO_Bind_02_Sprite",
+          "SubPathString": ""
+        },
+        "OverwriteExchangableImagePath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/Inventory/ICO_Bind_Sprite.ICO_Bind_Sprite",
+          "SubPathString": ""
+        },
+        "GamepadTargetPrioirtyList": [
+          "ETLUITargetPriority::All",
+          "ETLUITargetPriority::Custom",
+          "ETLUITargetPriority::NpcOnly"
+        ],
+        "CreatureRankBackgroundImagePathMap": null,
+        "HighRankImageMap": null,
+        "DamageFloaterWidgetMap": [
+          {
+            "Key": "EFloaterCategory::NormalHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ShieldHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::GreatHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ContinuousHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::SkillInstantStaminaHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::CriticalHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Critical_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Critical_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::DoubleHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Critical_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Critical_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::DoubleCriticalHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Critical_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Critical_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::Miss",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Default_Text_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Default_Text.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::DamageShieldHit",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::Immuned",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Default_Text_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Default_Text.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::Resist",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Default_Text_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Default_Text.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::NormalDefenseByDefenseAction",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Defence_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Defence.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::HeavyDefenseByDefenseAction",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Defence_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Defence.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::JustPerfectDefenseByDefenseAction",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Defence_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Defence.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::NormalHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::CriticalHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::NormalHealDouble",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::CriticalHealDouble",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ContinuousHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ItemHpHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::MagicDollHpHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::SkillInstantCostHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ItemCostHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::ItemStaminaHeal",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Recovery_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Recovery_Number.3"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::AbnormalGood",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Abnormal_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Abnormal.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::AbnormalBad",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_Abnormal_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_Abnormal.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::Debug",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::DamageShieldBreak",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          },
+          {
+            "Key": "EFloaterCategory::Glancing",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'BP_DamageFloaterGroup_DefaultHit_Number_C'",
+              "ObjectPath": "/Game/UI/Widget/Damage/BP_DamageFloaterGroup_DefaultHit_Number.5"
+            }
+          }
+        ],
+        "DamageFloaterScaleDefaultGraph": {
+          "AssetPathName": "/Game/System/Settings/Curves/DamageFloaterScaleCurve.DamageFloaterScaleCurve",
+          "SubPathString": ""
+        },
+        "DamageFloaterScaleGraphMap": null,
+        "DamageFloaterSmallerScaleDefaultGraph": {
+          "AssetPathName": "/Game/System/Settings/Curves/DamageFloaterScaleCurve_Small.DamageFloaterScaleCurve_Small",
+          "SubPathString": ""
+        },
+        "DamageFloaterSmallerScaleGraphMap": null,
+        "RandomRuneSocketLooks": {
+          "IconPath": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_BTNIcon_Rune_Attack_Normal_Sprite.Tex_BTNIcon_Rune_Attack_Normal_Sprite",
+            "SubPathString": ""
+          },
+          "TinyEmptyIconPath": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_BTNIcon_Rune_Attack_Normal_Sprite.Tex_BTNIcon_Rune_Attack_Normal_Sprite",
+            "SubPathString": ""
+          },
+          "TinyEquipIconPath": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_BTNIcon_Rune_Attack_Normal_Sprite.Tex_BTNIcon_Rune_Attack_Normal_Sprite",
+            "SubPathString": ""
+          },
+          "RuneSocketName": {
+            "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+            "Key": "TEXT_RES_CONTEXTMENU_PC_PARTY_ITEM_RANDOM",
+            "SourceString": "무작위 획득",
+            "LocalizedString": "Random Acquisition"
+          }
+        },
+        "RuneSocketLooks": [
+          {
+            "Key": "ETLRuneSocketType::Attack",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_Rune_Sockettype_Attack_Sprite.Tex_RuneBook_Rune_Sockettype_Attack_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEmptyIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_AttackOFF_Sprite.Tex_RuneBook_SynergyICO_AttackOFF_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEquipIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_AttackON_Sprite.Tex_RuneBook_SynergyICO_AttackON_Sprite",
+                "SubPathString": ""
+              },
+              "RuneSocketName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_CATEGORY_kAttackRune",
+                "SourceString": "공격 룬",
+                "LocalizedString": "Attack Rune"
+              }
+            }
+          },
+          {
+            "Key": "ETLRuneSocketType::Defense",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_Rune_Sockettype_Defense_Sprite.Tex_RuneBook_Rune_Sockettype_Defense_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEmptyIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_DefenseOFF_Sprite.Tex_RuneBook_SynergyICO_DefenseOFF_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEquipIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_DefenseON_Sprite.Tex_RuneBook_SynergyICO_DefenseON_Sprite",
+                "SubPathString": ""
+              },
+              "RuneSocketName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_CATEGORY_kDefenseRune",
+                "SourceString": "방어 룬",
+                "LocalizedString": "Defense Rune"
+              }
+            }
+          },
+          {
+            "Key": "ETLRuneSocketType::Assist",
+            "Value": {
+              "IconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_Rune_Sockettype_Support_Sprite.Tex_RuneBook_Rune_Sockettype_Support_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEmptyIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_SupportOFF_Sprite.Tex_RuneBook_SynergyICO_SupportOFF_Sprite",
+                "SubPathString": ""
+              },
+              "TinyEquipIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/RuneSystem/Texture/Tex_RuneBook_SynergyICO_SupportON_Sprite.Tex_RuneBook_SynergyICO_SupportON_Sprite",
+                "SubPathString": ""
+              },
+              "RuneSocketName": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_CATEGORY_kAssistRune",
+                "SourceString": "지원 룬",
+                "LocalizedString": "Support Rune"
+              }
+            }
+          }
+        ],
+        "RuneTypeLooks": null,
+        "RuneTargetCategoryImagePaths": null,
+        "CombatPowerNormalColorId": "UI_TXT_Normal",
+        "CombatPowerWarningColorId": "UI_TXT_Red_Disable",
+        "EmptyGimmickSlotImagePath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Template_UI/List/Tex_Common_Costume_Slot_Lock_Sprite.Tex_Common_Costume_Slot_Lock_Sprite",
+          "SubPathString": ""
+        },
+        "NormalLevelCorlorId": "UI_TXT_Point02",
+        "WarningLevelCorlorId": "UI_TXT_Red_Disable",
+        "SpecialFishColorId": "Fishing_Grade_Special",
+        "CommonFishColorId": "Fishing_Grade_Common",
+        "NotAcquiredFishColorId": "Fishing_Notacquired",
+        "MainRewardPointPath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/IMG_PartyDungeon_ICO_SpecialPoint_2_Sprite.IMG_PartyDungeon_ICO_SpecialPoint_2_Sprite",
+          "SubPathString": ""
+        },
+        "MainRewardPointColorId": "DungeonRewardPoint_2",
+        "OldRewardPointPath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Cost/IMG_PartyDungeon_ICO_SpecialPoint_Sprite.IMG_PartyDungeon_ICO_SpecialPoint_Sprite",
+          "SubPathString": ""
+        },
+        "OldRewardPointColorId": "DungeonRewardPoint",
+        "InventoryItemGroupFilters": [
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kAll",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_ALL",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_ItemAll_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_ItemAll_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_ItemAll_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_ItemAll_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_ItemAll_On_Nomal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_ItemAll_On_Nomal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_ItemAll_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_ItemAll_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kEquip",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_EQUIP",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Weapon_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Weapon_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Weapon_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Weapon_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Weapon_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Weapon_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Weapon_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Weapon_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kUsable",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_USABLE",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Usable_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Usable_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Usable_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Usable_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Usable_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Usable_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Usable_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Usable_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kReinforcer",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_REINFORCE",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Reinforce_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Reinforce_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Reinforce_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Reinforce_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Reinforce_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Reinforce_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 64.0,
+                "Y": 64.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Reinforce_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Reinforce_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kMaterials",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_MISC",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Misc_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Misc_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Misc_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Misc_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Misc_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Misc_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Misc_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Misc_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kMiscs",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_ETC",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Etc_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Etc_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Etc_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Etc_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Etc_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Etc_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 56.0,
+                "Y": 56.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Etc_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Etc_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "None",
+            "CheckButtonStyleTableId": "None",
+            "IsInventoryBag": false,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kArtifact",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_ARTIFACT",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Artifact_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Artifact_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Artifact_Off_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Artifact_Off_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Artifact_On_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Artifact_On_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Common_Tab_Artifact_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Tex_Common_Tab_Artifact_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
+            "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
+            "IsInventoryBag": true,
+            "IsDivideInventory": true,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kToken",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_TOKEN",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_Life_Off_Normal_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_Life_Off_Normal_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_Life_Off_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_Life_Off_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_Life_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_Life_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 128.0,
+                "Y": 128.0
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_Life_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_Life_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
+            "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
+            "IsInventoryBag": true,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": false
+          },
+          {
+            "ItemGroupFilter": "ETLItemGroupFilter::kLifeBag",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_LIFTBAG",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_Off_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_Off_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
+            "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
+            "IsInventoryBag": true,
+            "IsDivideInventory": false,
+            "IsIncludeBagTradeAndSell": true
+          }
+        ],
+        "SpeciesIconData": [
+          {
+            "Key": "ESpeciesGroup::kGrankus",
+            "Value": {
+              "SpeciesIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Grankus_Sprite.TEX_HUD_TargetSpecies_Grankus_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ESpeciesGroup::kDemon",
+            "Value": {
+              "SpeciesIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Demon_Sprite.TEX_HUD_TargetSpecies_Demon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ESpeciesGroup::kUndead",
+            "Value": {
+              "SpeciesIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Undead_Sprite.TEX_HUD_TargetSpecies_Undead_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ESpeciesGroup::kCreation",
+            "Value": {
+              "SpeciesIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Creation_Sprite.TEX_HUD_TargetSpecies_Creation_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "ESpeciesGroup::kAnimal",
+            "Value": {
+              "SpeciesIconPath": {
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Animal_Sprite.TEX_HUD_TargetSpecies_Animal_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "PartyNamePlateData": {
+          "NormalPartyImage": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/NamePlate_Opt2x/Slot_NamePanel/Tex_Nameplate_SlotL_Party_Sprite.Tex_Nameplate_SlotL_Party_Sprite",
+            "SubPathString": ""
+          },
+          "MultiPartyImageMyParty": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/NamePlate_Opt2x/Slot_NamePanel/Tex_Nameplate_SlotL_Party_Sprite.Tex_Nameplate_SlotL_Party_Sprite",
+            "SubPathString": ""
+          },
+          "MultiPartyImageOtherParty": {
+            "AssetPathName": "/Game/UI/Texture/UI_Texture/NamePlate_Opt2x/Slot_NamePanel/Tex_Nameplate_SlotL_MultiOtherParty_Sprite.Tex_Nameplate_SlotL_MultiOtherParty_Sprite",
+            "SubPathString": ""
+          }
+        },
+        "EventBoardHTTPRequestFailedImagePath": {
+          "AssetPathName": "/Game/Image/Solisium_AD/EB_AGS_BG_Default_Sprite.EB_AGS_BG_Default_Sprite",
+          "SubPathString": ""
+        },
+        "CraftingBookMainGroup": {
+          "RowName": "None"
+        }
+      }
+    }
+  }
+]
