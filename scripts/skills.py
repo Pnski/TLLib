@@ -60,25 +60,25 @@ for weapon in weaponList:
             skillList[i] = {
                 'Skill Name': value.get("UIName",{}).get("LocalizedString",None),
                 'Skill Internal': key,
-                'Skill Picture': f"<img src='{imgPath}' style='height:75px; width:auto;'>",
+                'Skill Picture': f"<img src='{imgPath}' style='height:auto; width:auto;'>",
                 'Skill Type': TLSkill.get(key,{}).get("damage_type","").split('::k')[-1],
                 'Skill Delay': TLSkill.get(key,{}).get("skill_delay", None),
                 'Hit Delay': TLSkill.get(key,{}).get("hit_delay", None),
                 'Max Charge Delay': TLSkill.get(key,{}).get("max_charge_delay", None),
-                'MP Consumption Name': (
+                'MP Consumption': (
                     (fp_list := TLFormulaParameterNew
                         .get(TLSkillOptionalDataForPC.get(key, {}).get("cost_consumption", None), {})
                         .get("FormulaParameter", []))
                     and fp_list[0].get("tooltip1")
                 ),
 
-                'HP Consumption Name': (
+                'HP Consumption': (
                     (fp_list := TLFormulaParameterNew
                         .get(TLSkillOptionalDataForPC.get(key, {}).get("hp_consumption", None), {})
                         .get("FormulaParameter", []))
                     and fp_list[0].get("tooltip1")
                 ),
-                'Cooldown Name': (
+                'Cooldown (s)': (
                     (fp_list := TLFormulaParameterNew
                         .get(TLSkillOptionalDataForPC.get(key,{}).get("cooldown_time",None),{})
                         .get("FormulaParameter", []))
