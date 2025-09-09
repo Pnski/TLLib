@@ -7,8 +7,13 @@ outputAGS = 'sources/TLEquipment.AGS.helper'
 
 def loadFile(filepath):
     try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
+        data = json.load(open(filepath, encoding="utf-8"))
+        if not data or 'Rows' not in data[0]:
+            print(f"[Warning] {filepath} is empty or missing 'Rows'")
+            return {}
+        return data[0]['Rows']
     except FileNotFoundError:
+        print(f"[Warning] {filepath} not found")
         return {}
 
 
