@@ -41,10 +41,6 @@ for skillName, skillData in TLFormulaParameterNew.items():
             skillData["FormulaParameter"] = []
             print(f"No valid skill_levels <= 15 found for {skillName}, clearing FormulaParameter")
 
-skillList = {}
-for k in weaponList:
-    skillList[k] = {} #generate empty objects for weapons
-
 def TLSkillPCLooks(short):
     return 'sources/TLSkillPcLooks_Weapon_'+short
 
@@ -89,7 +85,6 @@ for weapon in weaponList:
         return skillList
 
     skillListMD = getSkills(loadFile(TLSkillPCLooks(weapon)))
-
 
     outputName = outputFolder + weapon + '.md'
     os.makedirs(os.path.dirname(outputName), exist_ok=True)
