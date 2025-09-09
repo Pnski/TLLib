@@ -26,7 +26,7 @@ def loadFile(filepath):
 outputFolder = 'docs/weapon/skills/'
 
 TLFormulaParameterNew = loadFile('sources/TLFormulaParameterNew')
-TLSkillOptionalDataForPC = loadFile("sources/TLSkillOptionalDataForPC")
+TLSkillOptionalDataForPc = loadFile("sources/TLSkillOptionalDataForPc")
 TLSkill = loadFile('sources/TLSkill')
 
 for skillName, skillData in TLFormulaParameterNew.items():
@@ -55,7 +55,7 @@ for weapon in weaponList:
         skillList = {}
         i = 0
         for key, value in skillPcLooks.items():
-            if key not in TLSkillOptionalDataForPC:
+            if key not in TLSkillOptionalDataForPc:
                 continue
             imgPath = value.get("IconPath", {}).get("AssetPathName", None).split('.')[0].replace("/Game", ".") + ".png"
             skillList[i] = {
@@ -68,20 +68,20 @@ for weapon in weaponList:
                 'Max Charge Delay': TLSkill.get(key,{}).get("max_charge_delay", None),
                 'MP Consumption': (
                     (fp_list := TLFormulaParameterNew
-                        .get(TLSkillOptionalDataForPC.get(key, {}).get("cost_consumption", None), {})
+                        .get(TLSkillOptionalDataForPc.get(key, {}).get("cost_consumption", None), {})
                         .get("FormulaParameter", []))
                     and fp_list[0].get("tooltip1")
                 ),
 
                 'HP Consumption': (
                     (fp_list := TLFormulaParameterNew
-                        .get(TLSkillOptionalDataForPC.get(key, {}).get("hp_consumption", None), {})
+                        .get(TLSkillOptionalDataForPc.get(key, {}).get("hp_consumption", None), {})
                         .get("FormulaParameter", []))
                     and fp_list[0].get("tooltip1")
                 ),
                 'Cooldown (s)': (
                     (fp_list := TLFormulaParameterNew
-                        .get(TLSkillOptionalDataForPC.get(key,{}).get("cooldown_time",None),{})
+                        .get(TLSkillOptionalDataForPc.get(key,{}).get("cooldown_time",None),{})
                         .get("FormulaParameter", []))
                     and fp_list[0].get("tooltip1")
                 )
