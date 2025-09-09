@@ -5,7 +5,7 @@
         - [Expedition Rewards](doll/expeditionRewards)
     - Fishing
         - [Level](fish/Level)
-        - [Habitat](fish/Info)
+        - [Habitat](fish/Habitat)
     - Skill Damage Type
         - [Bow](weapon/skills/Bow)
         - [Crossbow](weapon/skills/Crossbow)

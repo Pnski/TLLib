@@ -27,10 +27,6 @@ TLStats = loadFile('sources/TLStats')
 TLItemLooks = loadFile('sources/TLItemLooks')
 TLItemLooksSkills = loadFile('sources/TLSKillPcLooks_Item')
 
-TLRuneSocket = loadFile('sources/TLRuneSocket')
-TLRuneSynergy = loadFile('sources/TLRuneSynergy')
-TLRuneInfo = loadFile('sources/TLRuneInfo')
-
 TLItemEquip = loadFile('sources/TLItemEquip')  # item_grade
 TLItemMisc = loadFile('sources/TLItemMisc')    # item_grade
 TLGlobalCommon = loadFile('sources/TLGlobalCommon')  # TraitInfoMap
@@ -458,7 +454,6 @@ def getItemStats(ListID, key, value):
 
     return itemStats
 
-
 def makeList(ListID):
     itemList['dropped'] = []
     for key, value in TLItemStats[ListID].items():
@@ -469,7 +464,6 @@ def makeList(ListID):
             itemList[ListID][key] = itemStats
     print("dropping items:",itemList['dropped'])
 
-    
 # =========
 # Build lookups & run
 # =========

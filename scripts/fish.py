@@ -7,64 +7,65 @@ def loadFile(filepath):
     except FileNotFoundError:
         return {}
 
-def extract_value(data, key_path):
-    """Recursively walk through data using dot-separated key paths, handling lists and empty gracefully."""
-    keys = key_path.split(".")
-    for key in keys:
-        if isinstance(data, dict):
-            data = data.get(key, "")
-        elif isinstance(data, list):
-            try:
-                key = int(key)
-                data = data[key]
-            except (ValueError, IndexError):
-                return "[null]"
-        else:
-            return "[null]" if isinstance(data, list) and not data else ""
+outputDir = 'docs/fish/'
 
-    if isinstance(data, list):
-        if not data:
-            return "[null]"
-        return ", ".join(str(item.get("Key", item)) if isinstance(item, dict) else str(item) for item in data)
-    
-    return str(data) if data != "" else "[null]"
+TLFishingFishGroupInfo = loadFile('sources/TLFishingFishGroupInfo')
+TLFishingCommonInfo = loadFile('sources/TLFishingCommonInfo')
 
-def getRows(fields, filepath):
-    rows = []
-    for _, row in loadFile(filepath).items():
-        extracted = [extract_value(row, field) for field in fields]
-        rows.append(extracted)
-    return rows
+def FishingLevel():
+    fishLevel = {}
+    TLFishingLevel = loadFile('sources/TLFishingLevel')
+    i = 0
+    for key, value in TLFishingLevel.items():
+        fishLevel[i] = {
+            'Name': key,
+            'expNext': value.get("LevelExpThreshold") - fishLevel.get(i-1,{}).get("TotalExp",0),
+            'TotalExp': value.get("LevelExpThreshold"),
+            'Title': value.get("Title",{}).get("LocalizedString",""),
+        }
+        i += 1
 
-def writeMarkdown(title, head, dataField, filepath, output):
-
-    markdown = "\n\n".join(title) + "\n\n"
-    markdown += "| " + " | ".join(head) + " |\n"
-    markdown += "| " + " | ".join(['-' * len(h) for h in head]) + " |\n"
-    for data in getRows(dataField, filepath):
-        markdown += "| " + " | ".join(data) + " |\n"
-
-    markdown += "\n\n" + filepath
-
+    outputName = 'Level.md'
+    output = outputDir + outputName 
     os.makedirs(os.path.dirname(output), exist_ok=True)
+    with open(output, "w", encoding="utf-8") as md:
+        md.write(f"# Fishing Level\n\n")
 
-    with open(output, "w", encoding="utf-8") as f:
-        f.write(markdown)
-    print(filepath, "success")
+        md.write("| " + " | ".join(fishLevel[0].keys()) + " |\n")
+        md.write("| " + " | ".join(['-' * 3 for h in fishLevel[0].keys()]) + " |\n")
+        for key in fishLevel.keys():
+            md.write("| " + " | ".join(str(v) for v in fishLevel[key].values()) + " |\n")
+    print(f"FishingLevel table written to {output}")
 
-#FishInfo
-writeMarkdown(
-    title=['# Fishing', '## Habitat'],
-    head=["FishName", "Level", "HabitatList"],
-    dataField=["FishName.LocalizedString", "Level", "HabitatInfo.HabitatList"],
-    filepath="sources/TLFishingFishInfo.json",
-    output="docs/fish/Info.md",
-)
-#FishLevel
-writeMarkdown(
-    title=['# Fishing', '## Level'],
-    head=["Level", "LocalizedString", "LevelExpThreshold"],
-    dataField=["Level", "Title.LocalizedString", "LevelExpThreshold"],
-    filepath="sources/TLFishingLevel.json",
-    output="docs/fish/Level.md"
-)
+def FishHabitat():
+    fishHabitat = {}
+    TLFishingFishInfo = loadFile('sources/TLFishingFishInfo')
+    i = 0
+    for key, value in TLFishingFishInfo.items():
+        fishHabitat[i] = {
+            'Name': value.get("FishName",{}).get("LocalizedString"),
+            'Level': value.get("Level"),
+            'Habitat': [h["RowName"] for h in value.get("HabitatInfo", {}).get("HabitatList", [])]
+        }
+        i += 1
+
+    outputName = 'Habitat.md'
+    output = outputDir + outputName 
+    os.makedirs(os.path.dirname(output), exist_ok=True)
+    with open(output, "w", encoding="utf-8") as md:
+        md.write(f"# Fish Habitat\n\n")
+
+        md.write("| " + " | ".join(fishHabitat[0].keys()) + " |\n")
+        md.write("| " + " | ".join(['-' * 3 for h in fishHabitat[0].keys()]) + " |\n")
+        for key, row in fishHabitat.items():
+            row_values = []
+            for v in row.values():
+                if isinstance(v, list):
+                    row_values.append("<br>".join(f"- {x}" for x in v))
+                else:
+                    row_values.append(str(v))
+            md.write("| " + " | ".join(row_values) + " |\n")
+    print(f"Fishing Habitat table written to {output}")
+
+FishingLevel()
+FishHabitat()

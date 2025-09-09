@@ -7,15 +7,12 @@ def loadFile(filepath):
     except FileNotFoundError:
         return {}
 
-regionPath = "sources/TLMagicDollExpeditionRegion.json"
-groupPath = "sources/TLItemLotteryPrivateGroup.json"
-unitPath = "sources/TLItemLotteryUnit.json"
-imgPath = "sources/TLItemLooks.json"
+output="docs/doll/expeditionRewards.md"
 
-regionData = loadFile(regionPath)
-groupData = loadFile(groupPath)
-unitData = loadFile(unitPath)
-imgData = loadFile(imgPath)
+regionData = loadFile("sources/TLMagicDollExpeditionRegion")
+groupData = loadFile("sources/TLItemLotteryPrivateGroup")
+unitData = loadFile("sources/TLItemLotteryUnit")
+imgData = loadFile("sources/TLItemLooks")
 
 def avgQuantity(entries):
     return sum(entry['quantity'] * (entry['prob'] / 10000) for entry in entries) / sum(entry['prob'] / 10000 for entry in entries)
@@ -24,7 +21,7 @@ def getImg(item):
     rPath = imgData[item]["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
     return f"<img src='{rPath}' style='height:75px; width:auto;'>"
 
-def writeMarkdown(output):
+def writeMarkdown():
     os.makedirs(os.path.dirname(output), exist_ok=True)
     with open(output, "w", encoding="utf-8") as md:
         md.write("Amitoi Expedition\n\n")
@@ -50,8 +47,5 @@ def writeMarkdown(output):
             md.write("\n\n")
 
         md.write("All Propabilitys are averages\n\n")
-        md.write("sources = "+", ".join([regionPath,groupPath,unitPath]))
 
-writeMarkdown(
-    output="docs/doll/expeditionRewards.md"
-)
+writeMarkdown()
