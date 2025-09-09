@@ -30,7 +30,7 @@ class CaseInsensitiveDict(dict):
 TLStats = loadFile('sources/TLStats')
 
 TLItemLooks = loadFile('sources/TLItemLooks')
-TLItemLooksSkills = loadFile('sources/TLSKillPcLooks_Item')
+TLItemLooksSkills = loadFile('sources/TLSkillPcLooks_Item')
 
 TLItemEquip = loadFile('sources/TLItemEquip')  # item_grade
 TLItemMisc = loadFile('sources/TLItemMisc')    # item_grade
