@@ -20,11 +20,6 @@ const weaponRules = {
     Greatsword: { min: 1, max: 2 },
     Wand: { min: 1, max: 2 },
 };
-//Cavalier (Crossbows / Spear)
-//min wert not reached, green for min
-//steelheart sns = max reached = rot
-//speer+dolche dolche min reached = gelb ABER
-//speer min not reached = shadowdancer = green
 
 const buffProviders = {
     heal: {
@@ -176,12 +171,12 @@ function renderButtons() {
 
         const icon1 = document.createElement('img');
         icon1.src = pair.w1.icon;
-        icon1.style.height = '24px';
+        //icon1.style.height = '24px';
         btn.appendChild(icon1);
 
         const icon2 = document.createElement('img');
         icon2.src = pair.w2.icon;
-        icon2.style.height = '24px';
+        //icon2.style.height = '24px';
         btn.appendChild(icon2);
 
         btn.onclick = () => {
@@ -284,11 +279,10 @@ function renderParties() {
 
         // Members
         const members = document.createElement('ul');
-        party.forEach(member => {
-            const li = document.createElement('li');
-            li.textContent = `${member.name} (${member.w1} / ${member.w2})`;
-            members.appendChild(li);
-        });
+        members.innerHTML = party
+            .map(m => `<li>${m.name} (${m.w1} / ${m.w2})</li>`)
+            .join('');
+
         div.appendChild(members);
 
         container.appendChild(div);
@@ -338,64 +332,71 @@ function addToPool(w1, w2, name) {
 // ------------------------------------------------
 // Logic: calculate best party
 // ------------------------------------------------
-
 function calculateParties() {
-    // empty parties but keep same count
-    parties = Array.from({ length: parties.length }, () => []);
+    parties = parties.map(() => []);
 
-    function findParty(player) {
+    function pickParty(player, mode = "strict") {
         let bestParty = null;
-        let bestScore = Infinity; // lower is better
+        let bestScore = Infinity;
 
-        parties.forEach(party => {
-            // Count weapons in this party
-            const counts = {};
-            Object.keys(weaponRules).forEach(key => counts[key] = 0);
+        for (const party of parties) {
+            // count weapons in this party
+            const counts = Object.fromEntries(Object.keys(weaponRules).map(k => [k, 0]));
             for (const member of party) {
                 counts[member.w1]++;
                 counts[member.w2]++;
             }
 
-            // Check max rules
-            if (
-                counts[player.w1] < weaponRules[player.w1].max &&
-                counts[player.w2] < weaponRules[player.w2].max &&
-                party.length < maxPartySize
-            ) {
-                // score: party size + weapon presence bias
-                let score = party.length;
+            // check rules
+            const c1 = counts[player.w1] || 0;
+            const c2 = counts[player.w2] || 0;
+            const r1 = weaponRules[player.w1];
+            const r2 = weaponRules[player.w2];
 
-                // bias: prefer parties with fewer of this player's weapons
-                score += counts[player.w1] + counts[player.w2];
+            const valid = mode === "strict"
+                ? (c1 < r1.max && c2 < r2.max && party.length < maxPartySize)
+                : ((c1 < r1.max || c2 < r2.max) && party.length < maxPartySize);
 
+            if (valid) {
+                let score = party.length + c1 + c2;
                 if (score < bestScore) {
                     bestScore = score;
                     bestParty = party;
                 }
             }
-        });
-
+        }
         return bestParty;
     }
 
-    for (const player of playerPool) {
-        const party = findParty(player);
+    const leftovers = [];
+    const unwanted = [];
 
-        if (party) {
-            party.push(player);
-        } else {
-            // fallback: dump into the least filled party
-            let smallest = parties.reduce((a, b) => (a.length <= b.length ? a : b));
-            if (smallest.length < maxPartySize) {
-                smallest.push(player);
-            }
+    // Phase 1: strict assignment
+    for (const player of playerPool) {
+        const party = pickParty(player, "strict");
+        if (party) party.push(player);
+        else leftovers.push(player);
+    }
+
+    // Phase 2: looser assignment
+    for (const player of leftovers) {
+        const party = pickParty(player, "loose");
+        if (party) party.push(player);
+        else unwanted.push(player);
+    }
+
+    // Phase 3: fallback into smallest parties
+    for (const player of unwanted) {
+        const smallest = parties.reduce((a, b) => (a.length <= b.length ? a : b));
+        if (smallest.length < maxPartySize) {
+            smallest.push(player);
         }
     }
 
-    console.log("Calculated Parties:", parties);
     renderParties();
     updateButtonColors();
 }
+
 
 
 // ------------------------------------------------
