@@ -1,6 +1,6 @@
 # PvE Buff Group Calculator
 
-<div id='buttons'></div>
+<div id='buttons' style="marginBottom=3em"></div>
 
 <div id='partys'></div>
 

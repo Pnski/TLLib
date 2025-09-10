@@ -11,9 +11,9 @@ const weaponRules = {
     Longbow: { min: 2, max: 3 },
     Crossbows: { min: 1, max: 1 },
     Daggers: { min: 1, max: 2 },
-    Gauntlet: { min: 0, max: 0 },
-    Hand: { min: 0, max: 0 },
-    Orb: { min: 0, max: 0 },
+    //Gauntlet: { min: 0, max: 0 },
+    //Hand: { min: 0, max: 0 },
+    //Orb: { min: 0, max: 0 },
     Spear: { min: 1, max: 2 },
     Staff: { min: 1, max: 2 },
     Sword: { min: 1, max: 1 },
@@ -171,12 +171,10 @@ function renderButtons() {
 
         const icon1 = document.createElement('img');
         icon1.src = pair.w1.icon;
-        //icon1.style.height = '24px';
         btn.appendChild(icon1);
 
         const icon2 = document.createElement('img');
         icon2.src = pair.w2.icon;
-        //icon2.style.height = '24px';
         btn.appendChild(icon2);
 
         btn.onclick = () => {
@@ -270,23 +268,63 @@ function renderParties() {
     container.innerHTML = '';
 
     parties.forEach((party, idx) => {
+        // Party container
         const div = document.createElement('div');
         div.className = 'party';
+        div.style.display = 'flex';
+        div.style.alignItems = 'flex-start';
+        div.style.marginBottom = '1em';
+        div.style.gap = '2em';
+        div.style.padding = '1em';
+        div.style.borderRadius = '8px';
+        div.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+
+        // Members column
+        const membersDiv = document.createElement('div');
+        membersDiv.style.minWidth = '220px';
+        membersDiv.style.flex = '0 0 220px';
 
         const title = document.createElement('h3');
         title.textContent = `Party ${idx + 1}`;
-        div.appendChild(title);
+        title.style.marginTop = '0';
+        membersDiv.appendChild(title);
 
-        // Members
         const members = document.createElement('ul');
+        members.style.paddingLeft = '1em';
         members.innerHTML = party
             .map(m => `<li>${m.name} (${m.w1} / ${m.w2})</li>`)
             .join('');
+        membersDiv.appendChild(members);
 
-        div.appendChild(members);
+        div.appendChild(membersDiv);
+
+        // Buff Summary column
+        const summary = analyzePartyBuffs(party);
+
+        const summaryDiv = document.createElement('div');
+        summaryDiv.className = 'buff-summary';
+        summaryDiv.style.flex = '1';
+        summaryDiv.style.minWidth = '300px';
+        summaryDiv.style.padding = '0.5em';
+        summaryDiv.style.borderRadius = '6px';
+        summaryDiv.style.boxShadow = 'inset 0 0 5px rgba(0,0,0,0.05)';
+
+        summaryDiv.innerHTML = `
+            <div><strong>Missing Buffs:</strong> ${summary.missing.join(", ") || "None"}</div>
+            <div><strong>Current Buffs:</strong> ${summary.current.join(", ") || "None"}</div>
+            <div><strong>Maxed Buffs:</strong> ${summary.maxed.join(", ") || "None"}</div>
+        `;
+
+        div.appendChild(summaryDiv);
 
         container.appendChild(div);
     });
+
+    // Controls container
+    const controlsDiv = document.createElement('div');
+    controlsDiv.style.marginTop = '3em';
+    controlsDiv.style.display = 'flex';
+    controlsDiv.style.gap = '1em';
 
     // Add Party Button
     const addBtn = document.createElement('button');
@@ -295,25 +333,31 @@ function renderParties() {
         parties.push([]);
         calculateParties();
     };
-    container.appendChild(addBtn);
-    // Add Clear Button
+    controlsDiv.appendChild(addBtn);
+
+    // Clear Button
     const clearBtn = document.createElement('button');
     clearBtn.textContent = 'CLEAR';
     clearBtn.onclick = () => {
         parties = [[]];
-        playerPool = []
+        playerPool = [];
         calculateParties();
     };
-    container.appendChild(clearBtn);
-    // Add Clear Button
+    controlsDiv.appendChild(clearBtn);
+
+    // Back Button
     const backBtn = document.createElement('button');
     backBtn.textContent = '🔙';
     backBtn.onclick = () => {
-        playerPool.pop()
+        playerPool.pop();
         calculateParties();
     };
-    container.appendChild(backBtn);
+    controlsDiv.appendChild(backBtn);
+
+    container.appendChild(controlsDiv);
 }
+
+
 
 // ------------------------------------------------
 // Logic: add weapons to party
@@ -397,14 +441,48 @@ function calculateParties() {
     updateButtonColors();
 }
 
-
-
 // ------------------------------------------------
-// Buff Summary (respecting priority + order of adding)
+// Buff Summary per equipped weapon
 // ------------------------------------------------
-function summarizeBuffs() {
+function analyzePartyBuffs(party) {
+    const buffSummary = {
+        current: [],
+        missing: [],
+        maxed: []
+    };
 
+    const counts = Object.fromEntries(Object.keys(weaponRules).map(k => [k, 0]));
+    for (const member of party) {
+        counts[member.w1]++;
+        counts[member.w2]++;
+    }
+
+    for (const weapon in counts) {
+        if (counts[weapon] >= weaponRules[weapon].max) {
+            buffSummary.maxed.push(weapon)
+        } else if (counts[weapon] > 0) {
+            buffSummary.current.push(weapon)
+        } else {
+            buffSummary.missing.push(weapon)
+        }
+    }
+    // Helper to map weapon to its skills
+    function mapWeaponToSkills(list) {
+        return list.map(weapon => {
+            const skills = Object.values(buffProviders)
+                .flatMap(providers => providers[weapon] || []);
+            return `${weapon} (${skills.join(", ")})`;
+        });
+    }
+
+    // Attach skills
+    return {
+        current: mapWeaponToSkills(buffSummary.current),
+        maxed: mapWeaponToSkills(buffSummary.maxed),
+        missing: mapWeaponToSkills(buffSummary.missing)
+    };
 }
+
 
 // ------------------------------------------------
 // Inject page-specific styles (only for this page)
@@ -462,6 +540,6 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
 
         const TLTableGlobalSettingsUX = JSON.parse(await fetchGzip('sources/TLTableGlobalSettingsUX'))[0].Rows.Default
         createTLTableGlobalSettingsUXLookup(TLTableGlobalSettingsUX);
-        console.log("finishd")
+
     });
 });
