@@ -374,72 +374,64 @@ function addToPool(w1, w2, name) {
 }
 
 // ------------------------------------------------
-// Logic: calculate best party
+// Logic: calculate best party (fixed & improved)
 // ------------------------------------------------
 function calculateParties() {
     parties = parties.map(() => []);
 
-    function pickParty(player, mode = "strict") {
+    const weaponKeys = Object.keys(weaponRules);
+
+    // variance of distribution across parties for a given weapon
+    function distributionVariance(weapon) {
+        const values = parties.map(p => {
+            let count = 0;
+            for (const m of p) {
+                if (m.w1 === weapon) count++;
+                if (m.w2 === weapon) count++;
+            }
+            return count;
+        });
+        const mean = values.reduce((a, b) => a + b, 0) / values.length;
+        return values.reduce((a, b) => a + Math.pow(b - mean, 2), 0);
+    }
+
+    // compute global variance across all weapons
+    function totalVariance() {
+        return weaponKeys.reduce((acc, w) => acc + distributionVariance(w), 0);
+    }
+
+    function pickParty(player) {
         let bestParty = null;
         let bestScore = Infinity;
 
         for (const party of parties) {
-            // count weapons in this party
-            const counts = Object.fromEntries(Object.keys(weaponRules).map(k => [k, 0]));
-            for (const member of party) {
-                counts[member.w1]++;
-                counts[member.w2]++;
-            }
+            if (party.length >= maxPartySize) continue;
 
-            // check rules
-            const c1 = counts[player.w1] || 0;
-            const c2 = counts[player.w2] || 0;
-            const r1 = weaponRules[player.w1];
-            const r2 = weaponRules[player.w2];
+            // simulate placing player
+            party.push(player);
+            const score = totalVariance(); // global balance score
+            party.pop();
 
-            const valid = mode === "strict"
-                ? (c1 < r1.max && c2 < r2.max && party.length < maxPartySize)
-                : ((c1 < r1.max || c2 < r2.max) && party.length < maxPartySize);
-
-            if (valid) {
-                let score = party.length + c1 + c2;
-                if (score < bestScore) {
-                    bestScore = score;
-                    bestParty = party;
-                }
+            if (score < bestScore) {
+                bestScore = score;
+                bestParty = party;
             }
         }
         return bestParty;
     }
 
-    const leftovers = [];
-    const unwanted = [];
-
-    // Phase 1: strict assignment
+    // assign all players
     for (const player of playerPool) {
-        const party = pickParty(player, "strict");
-        if (party) party.push(player);
-        else leftovers.push(player);
-    }
-
-    // Phase 2: looser assignment
-    for (const player of leftovers) {
-        const party = pickParty(player, "loose");
-        if (party) party.push(player);
-        else unwanted.push(player);
-    }
-
-    // Phase 3: fallback into smallest parties
-    for (const player of unwanted) {
-        const smallest = parties.reduce((a, b) => (a.length <= b.length ? a : b));
-        if (smallest.length < maxPartySize) {
-            smallest.push(player);
+        const party = pickParty(player);
+        if (party) {
+            party.push(player);
         }
     }
 
     renderParties();
     updateButtonColors();
 }
+
 
 // ------------------------------------------------
 // Buff Summary per equipped weapon
