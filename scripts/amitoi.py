@@ -1,11 +1,7 @@
 import json
 import os
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+from _utils import sidebarjson, loadFile
 
 output="docs/doll/expeditionRewards.md"
 
@@ -49,3 +45,4 @@ def writeMarkdown():
         md.write("All Propabilitys are averages\n\n")
 
 writeMarkdown()
+sidebarjson("Basics", "Amitoi", "Expedition Rewards", "doll/expeditionRewards.md", "docs/sidebar.json")

@@ -1,6 +1,8 @@
 import json
 import os
 
+from _utils import sidebarjson, loadFile
+
 weaponList = [
     'Bow',
     'Crossbow',
@@ -11,17 +13,6 @@ weaponList = [
     'Sword2h',
     'Wand'
 ]
-
-def loadFile(filepath):
-    try:
-        data = json.load(open(filepath, encoding="utf-8"))
-        if not data or 'Rows' not in data[0]:
-            print(f"[Warning] {filepath} is empty or missing 'Rows'")
-            return {}
-        return data[0]['Rows']
-    except FileNotFoundError:
-        print(f"[Warning] {filepath} not found")
-        return {}
 
 outputFolder = 'docs/weapon/skills/'
 
@@ -105,3 +96,4 @@ for weapon in weaponList:
             print(f"[Warning] No skills found for {weapon}, skipping table")
 
     print(f"Skill Types table written to {outputName}")
+    sidebarjson("Basics", "Skill Damage Type", weapon, outputName.removeprefix("docs/"), "docs/sidebar.json")

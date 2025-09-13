@@ -7,3 +7,6 @@ sources/TLRunes.helper
 docs/fish
 docs/doll
 docs/weapon/
+scripts/__pycache__
+docs/_sidebar.bak.md
+docs/_sidebar.md

@@ -3,28 +3,23 @@ import os
 
 from collections import defaultdict
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+from _utils import sidebarjson, loadFile
 
 def getImg(item):
     try:
         rPath = itemLooks[item]["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"
-        return f"<img src='{rPath}' style='height:75px; width:auto;'>"
+        return f"<img src='{rPath}'>"
     except:
         return "noIMG"
 
 oFolder = 'docs/weapon/items'
 os.makedirs(os.path.dirname(oFolder), exist_ok=True)
 
-itemStats = loadFile('sources/TLItemStats.json')
-itemLooks = loadFile('sources/TLItemLooks.json')
+itemLooks = loadFile('sources/TLItemLooks')
 
 itemDict = defaultdict(lambda: defaultdict(list))
 
-for itemName, itemKeys in itemStats.items():
+for itemName, itemKeys in loadFile('sources/TLItemStats').items():
     if 'test' in itemName.lower():
         continue
     category = itemKeys.get("enchant_category")
@@ -33,12 +28,12 @@ for itemName, itemKeys in itemStats.items():
         continue
     if 'test' in enchant_id.lower():
         continue
-    if category is None or enchant_id is 'None':
+    if category == None or enchant_id == 'None':
         continue  # skip items missing these keys
     itemDict[category][enchant_id].append(itemName)
 
 for category in itemDict.keys():
-    print(category.split("::")[-1])
+    print(category.split("::"))
     oName = os.path.join(oFolder, category.split("::k")[-1]) + ".md"
     with open(oName, "w", encoding="utf-8") as md:
         md.write(f"# {category.split('::k')[-1]}\n\n")

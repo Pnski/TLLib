@@ -2,11 +2,7 @@ import json
 import os
 from collections import defaultdict
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+from _utils import sidebarjson, loadFile
 
 def getImg(item):
     rPath = itemLooks[item]["IconPath"]["AssetPathName"].split('.')[0].replace("/Game", ".") + ".png"

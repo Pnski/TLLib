@@ -41,6 +41,8 @@ jobs:
           python scripts/stats.base.helper.py
           python scripts/equipment.helper.py
 
+          python scripts/generate.sidebar.py
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:

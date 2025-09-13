@@ -1,0 +1,30 @@
+{
+  "Basics": {
+    "Weapon": [
+      { "headline": "Items", "file": "weapon/items.md" },
+      { "headline": "Armor", "file": "weapon/items/Armor.md" },
+      { "headline": "Weapon", "file": "weapon/items/Weapon.md" },
+      { "headline": "Accessory", "file": "weapon/items/Accessory.md" },
+      { "headline": "Weapon Mastery", "file": "weapon/mLevel.md" }
+    ]
+  },
+  "Calculator": {
+    "": [
+      { "headline": "Graphs", "file": "calculator/gain.md" },
+      { "headline": "Stats Graphs", "file": "calculator/stats.md" },
+      { "headline": "Group Buff Calculator", "file": "calculator/group.md" },
+      { "headline": "SkillDamage", "file": "calculator/dd_calc.md" },
+      { "headline": "BiSGear", "file": "calculator/gear_dd_calc.md" }
+    ]
+  },
+  "Articles": {
+    "": [
+      { "headline": "Loot Distribution", "file": "Articles/lootdist.md" },
+      { "headline": "Stats/Calculation", "file": "Articles/stats.md" },
+      { "headline": "Stats/Graphs", "file": "Articles/statsGraphs.md" }
+    ],
+    "Transcription": [
+      { "headline": "English", "file": "Articles/transcription_output_english.md" }
+    ]
+  }
+}

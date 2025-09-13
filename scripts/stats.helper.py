@@ -1,11 +1,7 @@
 import json
 import os
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+from _utils import sidebarjson, loadFile
 
 source = 'sources/TLStats'
 output = 'sources/TLStats.helper'

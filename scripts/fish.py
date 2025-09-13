@@ -1,11 +1,7 @@
 import json
 import os
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+from _utils import sidebarjson, loadFile
 
 outputDir = 'docs/fish/'
 
@@ -36,6 +32,7 @@ def FishingLevel():
         for key in fishLevel.keys():
             md.write("| " + " | ".join(str(v) for v in fishLevel[key].values()) + " |\n")
     print(f"FishingLevel table written to {output}")
+    sidebarjson("Basics", "Fishing", "Level", output.removeprefix("docs/"), "docs/sidebar.json")
 
 def FishHabitat():
     fishHabitat = {}
@@ -66,6 +63,8 @@ def FishHabitat():
                     row_values.append(str(v))
             md.write("| " + " | ".join(row_values) + " |\n")
     print(f"Fishing Habitat table written to {output}")
+    sidebarjson("Basics", "Fishing", "Habitat", output.removeprefix("docs/"), "docs/sidebar.json")
 
 FishingLevel()
+
 FishHabitat()

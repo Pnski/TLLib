@@ -1,13 +1,9 @@
 import json
 import os
 
-output = 'sources/TLRunes.helper'
+from _utils import sidebarjson, loadFile
 
-def loadFile(filepath):
-    try:
-        return json.load(open(filepath, encoding="utf-8"))[0]['Rows']
-    except FileNotFoundError:
-        return {}
+output = 'sources/TLRunes.helper'
 
 # =========
 # Load all data
