@@ -1,0 +1,122 @@
+{
+  "Articles": {
+    "": [
+      {
+        "headline": "Loot Distribution",
+        "file": "Articles/lootdist.md"
+      },
+      {
+        "headline": "Stats/Calculation",
+        "file": "Articles/stats.md"
+      },
+      {
+        "headline": "Stats/Graphs",
+        "file": "Articles/statsGraphs.md"
+      }
+    ],
+    "Transcription": [
+      {
+        "headline": "English",
+        "file": "Articles/transcription_output_english.md"
+      }
+    ]
+  },
+  "Basics": {
+    "Amitoi": [
+      {
+        "headline": "Expedition Rewards",
+        "file": "doll/expeditionRewards.md"
+      }
+    ],
+    "Fishing": [
+      {
+        "headline": "Habitat",
+        "file": "fish/Habitat.md"
+      },
+      {
+        "headline": "Level",
+        "file": "fish/Level.md"
+      }
+    ],
+    "Skill Damage Type": [
+      {
+        "headline": "Bow",
+        "file": "weapon/skills/Bow.md"
+      },
+      {
+        "headline": "Crossbow",
+        "file": "weapon/skills/Crossbow.md"
+      },
+      {
+        "headline": "Dagger",
+        "file": "weapon/skills/Dagger.md"
+      },
+      {
+        "headline": "Spear",
+        "file": "weapon/skills/Spear.md"
+      },
+      {
+        "headline": "Staff",
+        "file": "weapon/skills/Staff.md"
+      },
+      {
+        "headline": "Sword",
+        "file": "weapon/skills/Sword.md"
+      },
+      {
+        "headline": "Sword2h",
+        "file": "weapon/skills/Sword2h.md"
+      },
+      {
+        "headline": "Wand",
+        "file": "weapon/skills/Wand.md"
+      }
+    ],
+    "Weapon": [
+      {
+        "headline": "Accessory",
+        "file": "weapon/items/Accessory.md"
+      },
+      {
+        "headline": "Armor",
+        "file": "weapon/items/Armor.md"
+      },
+      {
+        "headline": "Items",
+        "file": "weapon/items.md"
+      },
+      {
+        "headline": "Weapon",
+        "file": "weapon/items/Weapon.md"
+      },
+      {
+        "headline": "Weapon Mastery",
+        "file": "weapon/mLevel.md"
+      }
+    ]
+  },
+  "Calculator": {
+    "": [
+      {
+        "headline": "Graphs",
+        "file": "calculator/gain.md"
+      },
+      {
+        "headline": "Stats Graphs",
+        "file": "calculator/stats.md"
+      },
+      {
+        "headline": "Group Buff Calculator",
+        "file": "calculator/group.md"
+      },
+      {
+        "headline": "SkillDamage",
+        "file": "calculator/dd_calc.md"
+      },
+      {
+        "headline": "BiSGear",
+        "file": "calculator/gear_dd_calc.md"
+      }
+    ]
+  }
+}

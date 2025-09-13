@@ -1,0 +1,35 @@
+<!-- Auto-generated file. Do not edit manually. -->
+
+- Articles
+    - [Loot Distribution](Articles/lootdist)
+    - [Stats/Calculation](Articles/stats)
+    - [Stats/Graphs](Articles/statsGraphs)
+    - Transcription
+        - [English](Articles/transcription_output_english)
+- Basics
+    - Amitoi
+        - [Expedition Rewards](doll/expeditionRewards)
+    - Fishing
+        - [Habitat](fish/Habitat)
+        - [Level](fish/Level)
+    - Skill Damage Type
+        - [Bow](weapon/skills/Bow)
+        - [Crossbow](weapon/skills/Crossbow)
+        - [Dagger](weapon/skills/Dagger)
+        - [Spear](weapon/skills/Spear)
+        - [Staff](weapon/skills/Staff)
+        - [Sword](weapon/skills/Sword)
+        - [Sword2h](weapon/skills/Sword2h)
+        - [Wand](weapon/skills/Wand)
+    - Weapon
+        - [Accessory](weapon/items/Accessory)
+        - [Armor](weapon/items/Armor)
+        - [Items](weapon/items)
+        - [Weapon](weapon/items/Weapon)
+        - [Weapon Mastery](weapon/mLevel)
+- Calculator
+    - [Graphs](calculator/gain)
+    - [Stats Graphs](calculator/stats)
+    - [Group Buff Calculator](calculator/group)
+    - [SkillDamage](calculator/dd_calc)
+    - [BiSGear](calculator/gear_dd_calc)
