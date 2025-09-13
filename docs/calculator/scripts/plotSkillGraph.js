@@ -239,15 +239,13 @@ function updateChart() {
     centerAxes();
 }
 
-console.log("plot.js loaded");
-
-const CALCULATOR_PATH = '/calculator/gain';
+console.log("plotSkillGraph.js loaded");
 
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
     hook.doneEach(async () => {
         const currentPage = vm.route.path;
-        if (!currentPage.includes(CALCULATOR_PATH)) {
+        if (!currentPage.includes('/calculator/skillGraph')) {
             return;
         }
 

@@ -1,4 +1,4 @@
-import { fillTraits, SkillCalcNew, parseQuestLogStats } from './skills.js'; // Added parseQuestLogStats as well
+import { fillTraits, SkillCalcNew, parseQuestLogStats } from './skillDmgCalculator.js'; // Added parseQuestLogStats as well
 
 // --- Global Configuration / Constants (if any) ---
 // Define constants for IDs to avoid magic strings
@@ -11,9 +11,6 @@ const DOM_IDS = {
     PARSE_CLIPBOARD_BTN: 'parseClipboard',
     SKILL_TABLE_TBODY: 'table-skills-select',
 };
-
-// Define constants for paths
-export const CALCULATOR_PATH = '/calculator/dd_calc';
 
 // --- Utility Functions ---
 

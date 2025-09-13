@@ -389,7 +389,7 @@ function fillSelectWeapon() {
   })
 }
 
-console.log("skills.js loaded");
+console.log("skillDmgCalc.js loaded");
 
 // --- Main Docsify Plugin Logic ---
 
@@ -400,10 +400,9 @@ window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook,
     const currentPage = vm.route.path;
 
     // Only execute specific logic for the calculator page.
-    if (!currentPage.includes(dom.CALCULATOR_PATH)) {
+    if (!currentPage.includes('/calculator/skillDmgCalc')) {
       return;
     }
-    console.log(currentPage);
 
     // Preload data if needed
     await preloadSkillData();

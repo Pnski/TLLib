@@ -520,13 +520,13 @@ function injectStyles() {
 // Docsify Plugin
 // ------------------------------------------------
 
-console.log("groupbuffs.js loaded")
+console.log("groupBuffCalculator.js loaded")
 
 window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
     hook.doneEach(async () => {
         const currentPage = vm.route.path;
-        if (!currentPage.includes('/calculator/group')) return;
+        if (!currentPage.includes('/calculator/groupBuffs')) return;
 
         injectStyles();
 

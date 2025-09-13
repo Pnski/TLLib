@@ -67,7 +67,7 @@ window.$docsify = window.$docsify || {};
 window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook, vm) {
     hook.doneEach(async () => {
         const currentPage = vm.route.path;
-        if (!currentPage.includes('/calculator/stats')) return;
+        if (!currentPage.includes('/calculator/statsGraph')) return;
 
         try {
             const helperData = JSON.parse(await fetchGzip('sources/TLBaseMainStat.helper'))
