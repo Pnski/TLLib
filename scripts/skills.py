@@ -1,7 +1,4 @@
-import json
-import os
-
-from _utils import sidebarjson, loadFile
+from _utils import sidebarjson, loadFile, writeMarkdown
 
 weaponList = [
     'Bow',
@@ -83,17 +80,9 @@ for weapon in weaponList:
     skillListMD = getSkills(loadFile(TLSkillPCLooks(weapon)))
 
     outputName = outputFolder + weapon + '.md'
-    os.makedirs(os.path.dirname(outputName), exist_ok=True)
-    with open(outputName, "w", encoding="utf-8") as md:
-        md.write(f"# {weapon} Skill Types\n\n")
 
-        if skillListMD:
-            md.write("| " + " | ".join(skillListMD[0].keys()) + " |\n")
-            md.write("| " + " | ".join(['-' * 3 for _ in skillListMD[0].keys()]) + " |\n")
-            for row in skillListMD.values():
-                md.write("| " + " | ".join(str(v) for v in row.values()) + " |\n")
-        else:
-            print(f"[Warning] No skills found for {weapon}, skipping table")
-
-    print(f"Skill Types table written to {outputName}")
-    sidebarjson("Basics", "Skill Damage Type", weapon, outputName.removeprefix("docs/"), "docs/sidebar.json")
+    writeMarkdown( outputName, weapon,
+    {
+        'cat1': "Basics",
+        'sub1': "Skill Damage Type"
+    }, skillListMD)

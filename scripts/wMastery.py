@@ -1,7 +1,4 @@
-import json
-import os
-
-from _utils import sidebarjson, loadFile
+from _utils import sidebarjson, loadFile, writeMarkdown
 
 outputDir = 'docs/weapon/'
 
@@ -19,22 +16,12 @@ def weaponSpecialization():
         i += 1
 
     outputName = 'mLevel.md'
-    output = outputDir + outputName 
-    os.makedirs(os.path.dirname(output), exist_ok=True)
-    with open(output, "w", encoding="utf-8") as md:
-        md.write(f"# Master Level\n\n")
+    output = outputDir + outputName
 
-        md.write("| " + " | ".join(weaponLevel[0].keys()) + " |\n")
-        md.write("| " + " | ".join(['-' * 3 for h in weaponLevel[0].keys()]) + " |\n")
-        for key, row in weaponLevel.items():
-            row_values = []
-            for v in row.values():
-                if isinstance(v, list):
-                    row_values.append("<br>".join(f"- {x}" for x in v))
-                else:
-                    row_values.append(str(v))
-            md.write("| " + " | ".join(row_values) + " |\n")
-    print(f"Weapon Mastery table written to {output}")
-    sidebarjson("Basics", "Weapon", "Weapon Mastery Level", output.removeprefix("docs/"), "docs/sidebar.json")
+    writeMarkdown( output, "Weapon Mastery Level",
+    {
+        'cat1': "Basics",
+        'sub1': "Weapon"
+    }, weaponLevel)
 
 weaponSpecialization()

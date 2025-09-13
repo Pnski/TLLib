@@ -1,3 +1,4 @@
+import os
 import json
 from pathlib import Path
 
@@ -44,10 +45,8 @@ def sidebarjson(cat1, sub1, headline, file, json_path="sidebar.json"):
 
     # Write back to file
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=1, ensure_ascii=False)
 
-
-# Example usage:
 # sidebarjson("Basics", "Amitoi", "Expedition Rewards", "doll/expeditionRewards.md")
 
 def loadFile(filepath):
@@ -60,3 +59,48 @@ def loadFile(filepath):
     except FileNotFoundError:
         print(f"[Warning] {filepath} not found")
         return {}
+
+def get_image_url(asset_path_name):
+    """Converts a raw asset path name to a clean image URL."""
+    if not asset_path_name:
+        return None
+    return asset_path_name.split('.')[0].replace("/Game", ".") + ".png"
+
+def get_image_tag(asset_path_name, style='height:75px; width:auto;'):
+    """Generates an HTML <img> tag with a specified style."""
+    img_url = get_image_url(asset_path_name)
+    if not img_url:
+        return ""
+    return f"<img src='{img_url}' style='{style}'>"
+
+def writeMarkdown(output_path, title, sidebar_config, content):
+    """
+    Writes content to a markdown file and updates the sidebar.
+    :param output_path: Full path to the output markdown file.
+    :param title: The title for the markdown file.
+    :param sidebar_config: A dictionary with 'cat1', 'sub1', and 'headline'.
+    :param content_writer_func: A function that takes a file handle and writes content.
+    """
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as md:
+        md.write(f"# {title}\n\n")
+
+        md.write("| " + " | ".join(content[0].keys()) + " |\n")
+        md.write("| " + " | ".join(['-' * 3 for h in content[0].keys()]) + " |\n")
+        for key, row in content.items():
+            row_values = []
+            for v in row.values():
+                if isinstance(v, list):
+                    row_values.append("<br>".join(f"- {x}" for x in v))
+                else:
+                    row_values.append(str(v))
+            md.write("| " + " | ".join(row_values) + " |\n")
+    
+    sidebarjson(
+        cat1=sidebar_config['cat1'],
+        sub1=sidebar_config['sub1'],
+        headline=title,
+        file=output_path.removeprefix("docs/"),
+        json_path="docs/sidebar.json"
+    )
+    print(f"File written to {output_path}")
