@@ -3,7 +3,7 @@
     "": [
       { "headline": "Skill Dmg Graphs", "file": "calculator/skillGraph.md" },
       { "headline": "primary Stats Graphs", "file": "calculator/statsGraph.md" },
-      { "headline": "Group Buff Calculator", "file": "calculator/group.md" },
+      { "headline": "Group Buff Calculator", "file": "calculator/groupBuffs.md" },
       { "headline": "Skill Damage Calculator", "file": "calculator/skillDmgCalc.md" },
       { "headline": "BiSGear", "file": "calculator/gear_dd_calc.md" }
     ]
