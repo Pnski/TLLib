@@ -4,6 +4,7 @@ weaponList = [
     'Bow',
     'Crossbow',
     'Dagger',
+    'Orb',
     'Spear',
     'Staff',
     'Sword',
