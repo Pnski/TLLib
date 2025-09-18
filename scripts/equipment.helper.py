@@ -397,12 +397,14 @@ def getItemSkill(unique_skill_set_id, unique_skill_complex_id):
                 return k.get("skill_id")
     
     itemSkill = getSkill(itemSkills)
-    weaponSkillLook = TLItemLooksSkills.get(itemSkill,{})
+    weaponSkillLook = TLItemLooksSkills.get(itemSkill)
+    if not weaponSkillLook:
+        return {}
     return {
             'Icon': weaponSkillLook.get("IconPath", {}).get("AssetPathName"),
             'Id': itemSkill, #helpfull for future references
             'Name': weaponSkillLook.get("UIName", {}).get("LocalizedString"),
-            'Description': weaponSkillLook.get("UIOptions", {})[0].get("Option", {}).get("LocalizedString"),
+            'Description': weaponSkillLook.get("UIOptions", {})[-1].get("Option", {}).get("LocalizedString", "NoTranslation"),
         }
 
 def getItemStats(ListID, key, value):
