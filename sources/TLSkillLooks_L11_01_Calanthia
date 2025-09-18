@@ -10948,7 +10948,7 @@
       },
       "Skill_DragonRadeath_FireIceGroundSlam_Type2_Extreme": {
         "Sct": {
-          "AssetPathName": "/Game/ActionTree/NPC/Monster/Dragon/Dragon/M_Dragon_Radeath/AT_Skill_DragonRadeath_FireIceGroundSlam.AT_Skill_DragonRadeath_FireIceGroundSlam",
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Dragon/Dragon/M_Dragon_Radeath/AT_Skill_DragonRadeath_FireIceGroundSlam_Extreme.AT_Skill_DragonRadeath_FireIceGroundSlam_Extreme",
           "SubPathString": ""
         },
         "ProjectileSct": {
@@ -11191,7 +11191,7 @@
       },
       "Skill_DragonRadeath_IceFireGroundSlam_Type2_Extreme": {
         "Sct": {
-          "AssetPathName": "/Game/ActionTree/NPC/Monster/Dragon/Dragon/M_Dragon_Radeath/AT_Skill_DragonRadeath_IceFireGroundSlam.AT_Skill_DragonRadeath_IceFireGroundSlam",
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Dragon/Dragon/M_Dragon_Radeath/AT_Skill_DragonRadeath_IceFireGroundSlam_Extreme.AT_Skill_DragonRadeath_IceFireGroundSlam_Extreme",
           "SubPathString": ""
         },
         "ProjectileSct": {

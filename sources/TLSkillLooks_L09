@@ -5275,6 +5275,1383 @@
           "SubPathString": ""
         },
         "UseFloaterSummation": false
+      },
+      "Skill_DarkBadBreath_Breath": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Crasher/AT_Skill_DarkBadBreath_BadBreath.AT_Skill_DarkBadBreath_BadBreath",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Crasher/AT_Effect_DarkBadBreath_BadBreath_AoeProjectile.AT_Effect_DarkBadBreath_BadBreath_AoeProjectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkBadbreath_InnerFire": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Crasher/AT_Skill_DarkBadBreath_BadBreath.AT_Skill_DarkBadBreath_BadBreath",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkDestroyer_Disaster": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Destroyer/AT_Skill_DarkDestroyer_Disaster.AT_Skill_DarkDestroyer_Disaster",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkDestroyer_Earthquake": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Destroyer/AT_Skill_DarkDestroyer_Earthquake.AT_Skill_DarkDestroyer_Earthquake",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkJumper_DoubleSmash": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Jumper/AT_Skill_DarkJumper_DoubleSmash.AT_Skill_DarkJumper_DoubleSmash",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkJumper_JumpAttack": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Jumper/AT_Skill_DarkJumper_JumpAttack.AT_Skill_DarkJumper_JumpAttack",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DarkJumper_StampSmash": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/Siege/Jumper/AT_Skill_DarkJumper_StampSmash.AT_Skill_DarkJumper_StampSmash",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_AxeWave": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_AxeWave.AT_Skill_OrcDraug_AxeWave",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_Dash": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_Dash.AT_Skill_OrcDraug_Dash",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 1.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Strong_Notify_1000_forAll.AT_Common_Counter_Move_Strong_Notify_1000_forAll",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_EyeLight": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_EyeLight.AT_Skill_OrcDraug_EyeLight",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Turka/AT_FX_OrcTurka_EyeLight_Projectile.AT_FX_OrcTurka_EyeLight_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_FallOver": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_FallOver.AT_Skill_OrcDraug_FallOver",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_Roar": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_Roar.AT_Skill_OrcDraug_Roar",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_Shelling": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_Shelling.AT_Skill_OrcDraug_Shelling",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_SpinAttack": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_SpinAttack.AT_Skill_OrcDraug_SpinAttack",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.65,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Notify_1000_forAll.AT_Common_Counter_Move_Notify_1000_forAll",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_Stamp": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_Stamp.AT_Skill_OrcDraug_Stamp",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_Swing": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_Swing.AT_Skill_OrcDraug_Swing",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_OrcDraug_TakeDown": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Orc/M_Orc_Draug/AT_Skill_OrcDraug_TakeDown.AT_Skill_OrcDraug_TakeDown",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
       }
     }
   }

@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemTraits",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLSchemeItemTraits'",
@@ -987,6 +987,14 @@
           "EItemTraitStats::kRearDamageReduction"
         ]
       },
+      "kSkillHealTakenModifier": {
+        "TraitNum": 1670377966,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kSkillHealTakenModifier"
+        ]
+      },
       "Unique_kSTR": {
         "TraitNum": 1670377953,
         "ItemTraitsBaseValueId": "trait_unique_base",
@@ -1123,6 +1131,22 @@
           "EItemTraitStats::kShieldTakenModifier"
         ]
       },
+      "kShieldDamageDealtModifier": {
+        "TraitNum": 1670377971,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kShieldDamageDealtModifier"
+        ]
+      },
+      "kShieldDamageTakenModifier": {
+        "TraitNum": 1670377972,
+        "ItemTraitsBaseValueId": "trait_base",
+        "ItemTraitsEnchantValueId": "trait_enchant",
+        "TraitStat": [
+          "EItemTraitStats::kShieldDamageTakenModifier"
+        ]
+      },
       "kDoubleDamageDealtModifier": {
         "TraitNum": 1670377973,
         "ItemTraitsBaseValueId": "trait_base",
@@ -1137,14 +1161,6 @@
         "ItemTraitsEnchantValueId": "trait_enchant",
         "TraitStat": [
           "EItemTraitStats::kDoubleDamageTakenModifier"
-        ]
-      },
-      "kSkillHealTakenModifier": {
-        "TraitNum": 1670377975,
-        "ItemTraitsBaseValueId": "trait_base",
-        "ItemTraitsEnchantValueId": "trait_enchant",
-        "TraitStat": [
-          "EItemTraitStats::kSkillHealTakenModifier"
         ]
       }
     }

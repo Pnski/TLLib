@@ -1886,6 +1886,251 @@
         "item_id": "belt_aa_t2_upgrade_006",
         "publisher_tag": "ETLPublisherTag::ALL",
         "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "269": {
+        "id": "set_aa_t3_plate_001",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_plate_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "270": {
+        "id": "set_aa_t3_plate_001",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_plate_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "271": {
+        "id": "set_aa_t3_plate_001",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_plate_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "272": {
+        "id": "set_aa_t3_plate_001",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_plate_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "273": {
+        "id": "set_aa_t3_plate_001",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_plate_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "274": {
+        "id": "set_aa_t3_plate_002",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_plate_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "275": {
+        "id": "set_aa_t3_plate_002",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_plate_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "276": {
+        "id": "set_aa_t3_plate_002",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_plate_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "277": {
+        "id": "set_aa_t3_plate_002",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_plate_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "278": {
+        "id": "set_aa_t3_plate_002",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_plate_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "279": {
+        "id": "set_aa_t3_lether_001",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_leather_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "280": {
+        "id": "set_aa_t3_lether_001",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_leather_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "281": {
+        "id": "set_aa_t3_lether_001",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_leather_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "282": {
+        "id": "set_aa_t3_lether_001",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_leather_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "283": {
+        "id": "set_aa_t3_lether_001",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_leather_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "284": {
+        "id": "set_aa_t3_lether_002",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_leather_aa_t3_normal_004",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "285": {
+        "id": "set_aa_t3_lether_002",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_leather_aa_t3_normal_004",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "286": {
+        "id": "set_aa_t3_lether_002",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_leather_aa_t3_normal_004",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "287": {
+        "id": "set_aa_t3_lether_002",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_leather_aa_t3_normal_004",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "288": {
+        "id": "set_aa_t3_lether_002",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_leather_aa_t3_normal_004",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "289": {
+        "id": "set_aa_t3_lether_003",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_leather_aa_t3_normal_005",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "290": {
+        "id": "set_aa_t3_lether_003",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_leather_aa_t3_normal_005",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "291": {
+        "id": "set_aa_t3_lether_003",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_leather_aa_t3_normal_005",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "292": {
+        "id": "set_aa_t3_lether_003",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_leather_aa_t3_normal_005",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "293": {
+        "id": "set_aa_t3_lether_003",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_leather_aa_t3_normal_005",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "294": {
+        "id": "set_aa_t3_fabric_001",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_fabric_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "295": {
+        "id": "set_aa_t3_fabric_001",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_fabric_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "296": {
+        "id": "set_aa_t3_fabric_001",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_fabric_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "297": {
+        "id": "set_aa_t3_fabric_001",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_fabric_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "298": {
+        "id": "set_aa_t3_fabric_001",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_fabric_aa_t3_normal_002",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "299": {
+        "id": "set_aa_t3_fabric_002",
+        "category": "ETLItemSetParts::kA",
+        "item_id": "head_fabric_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "300": {
+        "id": "set_aa_t3_fabric_002",
+        "category": "ETLItemSetParts::kB",
+        "item_id": "chest_fabric_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "301": {
+        "id": "set_aa_t3_fabric_002",
+        "category": "ETLItemSetParts::kC",
+        "item_id": "hands_fabric_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "302": {
+        "id": "set_aa_t3_fabric_002",
+        "category": "ETLItemSetParts::kD",
+        "item_id": "legs_fabric_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "303": {
+        "id": "set_aa_t3_fabric_002",
+        "category": "ETLItemSetParts::kE",
+        "item_id": "feet_fabric_aa_t3_normal_003",
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       }
     }
   }

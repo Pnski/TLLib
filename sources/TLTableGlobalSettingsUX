@@ -94,7 +94,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
               "Key": "TEXT_RES_ITEM_CATEGORY_kOrb",
-              "SourceString": "오브",
+              "SourceString": "마력구",
               "LocalizedString": "Orb"
             }
           },
@@ -118,7 +118,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Crusader",
+                    "SourceString": "철기사",
                     "LocalizedString": "Crusader"
                   }
                 },
@@ -127,7 +127,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Berserker",
+                    "SourceString": "광전사",
                     "LocalizedString": "Berserker"
                   }
                 },
@@ -136,7 +136,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Raider",
+                    "SourceString": "약탈자",
                     "LocalizedString": "Raider"
                   }
                 },
@@ -145,7 +145,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Warden",
+                    "SourceString": "감시자",
                     "LocalizedString": "Warden"
                   }
                 },
@@ -154,7 +154,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Disciple",
+                    "SourceString": "수행자",
                     "LocalizedString": "Disciple"
                   }
                 },
@@ -163,7 +163,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Templar",
+                    "SourceString": "성기사",
                     "LocalizedString": "Templar"
                   }
                 },
@@ -172,8 +172,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex0_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Steelheart",
+                    "SourceString": "기갑전사",
                     "LocalizedString": "Steelheart"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_SNS_AND_ORB",
+                    "SourceString": "수호사",
+                    "LocalizedString": "Guardian"
                   }
                 }
               ]
@@ -188,7 +197,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Crusader",
+                    "SourceString": "철기사",
                     "LocalizedString": "Crusader"
                   }
                 },
@@ -197,7 +206,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Ravager",
+                    "SourceString": "파괴자",
                     "LocalizedString": "Ravager"
                   }
                 },
@@ -206,7 +215,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Outrider",
+                    "SourceString": "순찰자",
                     "LocalizedString": "Outrider"
                   }
                 },
@@ -215,7 +224,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Ranger",
+                    "SourceString": "추적자",
                     "LocalizedString": "Ranger"
                   }
                 },
@@ -224,7 +233,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Sentinel",
+                    "SourceString": "파수자",
                     "LocalizedString": "Sentinel"
                   }
                 },
@@ -233,7 +242,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Paladin",
+                    "SourceString": "성전사",
                     "LocalizedString": "Paladin"
                   }
                 },
@@ -242,8 +251,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex1_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Gladiator",
+                    "SourceString": "검투사",
                     "LocalizedString": "Gladiator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Sword2h_AND_ORB",
+                    "SourceString": "집행자",
+                    "LocalizedString": "Justicar"
                   }
                 }
               ]
@@ -258,7 +276,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Berserker",
+                    "SourceString": "광전사",
                     "LocalizedString": "Berserker"
                   }
                 },
@@ -267,7 +285,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Ravager",
+                    "SourceString": "파괴자",
                     "LocalizedString": "Ravager"
                   }
                 },
@@ -276,7 +294,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Scorpion",
+                    "SourceString": "독전사",
                     "LocalizedString": "Scorpion"
                   }
                 },
@@ -285,7 +303,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Infiltrator",
+                    "SourceString": "잠입자",
                     "LocalizedString": "Infiltrator"
                   }
                 },
@@ -294,7 +312,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Spellblade",
+                    "SourceString": "마검사",
                     "LocalizedString": "Spellblade"
                   }
                 },
@@ -303,7 +321,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Darkblighter",
+                    "SourceString": "파멸자",
                     "LocalizedString": "Darkblighter"
                   }
                 },
@@ -312,8 +330,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex2_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Shadowdancer",
+                    "SourceString": "암영사",
                     "LocalizedString": "Shadowdancer"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Dagger_AND_ORB",
+                    "SourceString": "월광사",
+                    "LocalizedString": "Lunarch"
                   }
                 }
               ]
@@ -328,7 +355,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Raider",
+                    "SourceString": "약탈자",
                     "LocalizedString": "Raider"
                   }
                 },
@@ -337,7 +364,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Outrider",
+                    "SourceString": "순찰자",
                     "LocalizedString": "Outrider"
                   }
                 },
@@ -346,7 +373,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Scorpion",
+                    "SourceString": "독전사",
                     "LocalizedString": "Scorpion"
                   }
                 },
@@ -355,7 +382,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Scout",
+                    "SourceString": "정찰자",
                     "LocalizedString": "Scout"
                   }
                 },
@@ -364,7 +391,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Battleweaver",
+                    "SourceString": "전술사",
                     "LocalizedString": "Battleweaver"
                   }
                 },
@@ -373,7 +400,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Fury",
+                    "SourceString": "광폭자",
                     "LocalizedString": "Fury"
                   }
                 },
@@ -382,8 +409,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Cavalier",
+                    "SourceString": "선봉자",
                     "LocalizedString": "Cavalier"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_CrossBow_AND_ORB",
+                    "SourceString": "심판자",
+                    "LocalizedString": "Crucifix"
                   }
                 }
               ]
@@ -398,7 +434,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Warden",
+                    "SourceString": "감시자",
                     "LocalizedString": "Warden"
                   }
                 },
@@ -407,7 +443,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Ranger",
+                    "SourceString": "추적자",
                     "LocalizedString": "Ranger"
                   }
                 },
@@ -416,7 +452,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Infiltrator",
+                    "SourceString": "잠입자",
                     "LocalizedString": "Infiltrator"
                   }
                 },
@@ -425,7 +461,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Scout",
+                    "SourceString": "정찰자",
                     "LocalizedString": "Scout"
                   }
                 },
@@ -434,7 +470,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Liberator",
+                    "SourceString": "해방자",
                     "LocalizedString": "Liberator"
                   }
                 },
@@ -443,7 +479,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Seeker",
+                    "SourceString": "탐구자",
                     "LocalizedString": "Seeker"
                   }
                 },
@@ -452,8 +488,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex4_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Impaler",
+                    "SourceString": "창투사",
                     "LocalizedString": "Impaler"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Bow_AND_ORB",
+                    "SourceString": "점술사",
+                    "LocalizedString": "Scryer"
                   }
                 }
               ]
@@ -468,7 +513,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Disciple",
+                    "SourceString": "수행자",
                     "LocalizedString": "Disciple"
                   }
                 },
@@ -477,7 +522,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Sentinel",
+                    "SourceString": "파수자",
                     "LocalizedString": "Sentinel"
                   }
                 },
@@ -486,7 +531,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Spellblade",
+                    "SourceString": "마검사",
                     "LocalizedString": "Spellblade"
                   }
                 },
@@ -495,7 +540,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Battleweaver",
+                    "SourceString": "전술사",
                     "LocalizedString": "Battleweaver"
                   }
                 },
@@ -504,7 +549,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Liberator",
+                    "SourceString": "해방자",
                     "LocalizedString": "Liberator"
                   }
                 },
@@ -513,7 +558,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Invocator",
+                    "SourceString": "기원자",
                     "LocalizedString": "Invocator"
                   }
                 },
@@ -522,8 +567,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex5_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Forsaker",
+                    "SourceString": "마창사",
                     "LocalizedString": "Eradicator"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Staff_AND_ORB",
+                    "SourceString": "신비사",
+                    "LocalizedString": "Enigma"
                   }
                 }
               ]
@@ -538,7 +592,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Templar",
+                    "SourceString": "성기사",
                     "LocalizedString": "Templar"
                   }
                 },
@@ -547,7 +601,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Paladin",
+                    "SourceString": "성전사",
                     "LocalizedString": "Paladin"
                   }
                 },
@@ -556,7 +610,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Darkblighter",
+                    "SourceString": "파멸자",
                     "LocalizedString": "Darkblighter"
                   }
                 },
@@ -565,7 +619,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Fury",
+                    "SourceString": "광폭자",
                     "LocalizedString": "Fury"
                   }
                 },
@@ -574,7 +628,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Seeker",
+                    "SourceString": "탐구자",
                     "LocalizedString": "Seeker"
                   }
                 },
@@ -583,7 +637,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Invocator",
+                    "SourceString": "기원자",
                     "LocalizedString": "Invocator"
                   }
                 },
@@ -592,8 +646,17 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex6_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Voidlance",
+                    "SourceString": "영창사",
                     "LocalizedString": "Voidlance"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Wand_AND_ORB",
+                    "SourceString": "예언자",
+                    "LocalizedString": "Oracle"
                   }
                 }
               ]
@@ -608,7 +671,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex0",
-                    "SourceString": "Steelheart",
+                    "SourceString": "기갑전사",
                     "LocalizedString": "Steelheart"
                   }
                 },
@@ -617,7 +680,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex1",
-                    "SourceString": "Gladiator",
+                    "SourceString": "검투사",
                     "LocalizedString": "Gladiator"
                   }
                 },
@@ -626,7 +689,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex2",
-                    "SourceString": "Shadowdancer",
+                    "SourceString": "암영사",
                     "LocalizedString": "Shadowdancer"
                   }
                 },
@@ -635,7 +698,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex3",
-                    "SourceString": "Impaler",
+                    "SourceString": "창투사",
                     "LocalizedString": "Impaler"
                   }
                 },
@@ -644,7 +707,7 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex4",
-                    "SourceString": "Forsaker",
+                    "SourceString": "마창사",
                     "LocalizedString": "Eradicator"
                   }
                 },
@@ -653,17 +716,105 @@
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
                     "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex5",
-                    "SourceString": "Voidlance",
+                    "SourceString": "영창사",
                     "LocalizedString": "Voidlance"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "Default_WeaponCombination_ValueIndex3_InnerWeaponCombinationText_ValueIndex6",
+                    "SourceString": "선봉자",
+                    "LocalizedString": "Cavalier"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kOrb",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Spear_AND_ORB",
+                    "SourceString": "성도사",
+                    "LocalizedString": "Polaris"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "InnerWeaponCombinationText": [
+                {
+                  "Key": "EWeaponCategory::kDagger",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Dagger_AND_ORB",
+                    "SourceString": "월광사",
+                    "LocalizedString": "Lunarch"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_SNS_AND_ORB",
+                    "SourceString": "수호사",
+                    "LocalizedString": "Guardian"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kSword2h",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Sword2h_AND_ORB",
+                    "SourceString": "집행자",
+                    "LocalizedString": "Justicar"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kStaff",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Staff_AND_ORB",
+                    "SourceString": "신비사",
+                    "LocalizedString": "Enigma"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kBow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Bow_AND_ORB",
+                    "SourceString": "점술사",
+                    "LocalizedString": "Scryer"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kCrossbow",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_CrossBow_AND_ORB",
+                    "SourceString": "심판자",
+                    "LocalizedString": "Crucifix"
+                  }
+                },
+                {
+                  "Key": "EWeaponCategory::kWand",
+                  "Value": {
+                    "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
+                    "Key": "JOB_DESC_Wand_AND_ORB",
+                    "SourceString": "예언자",
+                    "LocalizedString": "Oracle"
                   }
                 },
                 {
                   "Key": "EWeaponCategory::kSpear",
                   "Value": {
                     "TableId": "/Game/UI/System/TLStringTableGlobalSettingsUX.TLStringTableGlobalSettingsUX",
-                    "Key": "Default_WeaponCombination_ValueIndex7_InnerWeaponCombinationText_ValueIndex6",
-                    "SourceString": "Shadowdancer",
-                    "LocalizedString": "Shadowdancer"
+                    "Key": "JOB_DESC_Spear_AND_ORB",
+                    "SourceString": "성도사",
+                    "LocalizedString": "Polaris"
                   }
                 }
               ]
@@ -1114,6 +1265,86 @@
           {
             "Key": "EWeaponCategory::kSpear",
             "Value": 7
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": 8
+          },
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": 9
+          }
+        ],
+        "WeaponIconGrowthNavi": [
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Dagger_Sprite.GrowthNavi_Weapon_Dagger_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_sword_Sprite.GrowthNavi_Weapon_sword_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_2Hsword_Sprite.GrowthNavi_Weapon_2Hsword_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Staff_Sprite.GrowthNavi_Weapon_Staff_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Bow_Sprite.GrowthNavi_Weapon_Bow_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Crossbow_Sprite.GrowthNavi_Weapon_Crossbow_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Wand_Sprite.GrowthNavi_Weapon_Wand_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Spear_Sprite.GrowthNavi_Weapon_Spear_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_Orb_Sprite.GrowthNavi_Weapon_Orb_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kNone",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Weapon_NotEquip_Sprite.GrowthNavi_Weapon_NotEquip_Sprite",
+              "SubPathString": ""
+            }
           }
         ],
         "ContractGradeSpriteMap": [],
@@ -1528,11 +1759,11 @@
             "Key": "EItemGrade::kAA3",
             "Value": {
               "IconPath": {
-                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA3_Sprite.BG_ItemGrade_05_AA3_Sprite",
                 "SubPathString": ""
               },
               "BigIconPath": {
-                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA2_Sprite.BG_ItemGrade_05_AA2_Sprite",
+                "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/IMG_Itembg/BG_ItemGrade_05_AA3_Sprite.BG_ItemGrade_05_AA3_Sprite",
                 "SubPathString": ""
               },
               "EffectImagePath": {
@@ -1541,10 +1772,16 @@
               },
               "ColorKey": "ItemGradekAA",
               "GradeGroupName": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA",
+                "SourceString": "영웅",
+                "LocalizedString": "Epic"
               },
               "GradeName": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_RES_ITEM_GRADE_kAA3",
+                "SourceString": "영웅 3단",
+                "LocalizedString": "Epic III"
               }
             }
           },
@@ -2501,11 +2738,16 @@
           }
         ],
         "RuneTypeLooks": null,
+        "ChoasRuneLevelImagePaths": null,
         "RuneTargetCategoryImagePaths": null,
         "CombatPowerNormalColorId": "UI_TXT_Normal",
         "CombatPowerWarningColorId": "UI_TXT_Red_Disable",
         "EmptyGimmickSlotImagePath": {
           "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Template_UI/List/Tex_Common_Costume_Slot_Lock_Sprite.Tex_Common_Costume_Slot_Lock_Sprite",
+          "SubPathString": ""
+        },
+        "EmptyCustomGGimmickSlotImagePath": {
+          "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/Template_UI/Tex_Common_BlankTexture_Sprite.Tex_Common_BlankTexture_Sprite",
           "SubPathString": ""
         },
         "NormalLevelCorlorId": "UI_TXT_Point02",
@@ -3653,6 +3895,194 @@
             "IsIncludeBagTradeAndSell": false
           },
           {
+            "ItemGroupFilter": "ETLItemGroupFilter::kLifeBag",
+            "ButtonText": {
+              "CultureInvariantString": null
+            },
+            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_LIFTBAG",
+            "ToolTipText": {
+              "CultureInvariantString": null
+            },
+            "bIconVisible": true,
+            "Icon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_Off_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_Off_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "HoverIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "CheckHoverIcon": {
+              "ImageSize": {
+                "X": 127.99999,
+                "Y": 127.99999
+              },
+              "Margin": {
+                "Left": 0.0,
+                "Top": 0.0,
+                "Right": 0.0,
+                "Bottom": 0.0
+              },
+              "TintColor": {
+                "SpecifiedColor": {
+                  "R": 1.0,
+                  "G": 1.0,
+                  "B": 1.0,
+                  "A": 1.0,
+                  "Hex": "FFFFFF"
+                },
+                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+              },
+              "ResourceObject": {
+                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
+                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
+              },
+              "ResourceName": "None",
+              "UVRegion": {
+                "Min": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Max": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "bIsValid": 0
+              },
+              "DrawAs": "ESlateBrushDrawType::Image",
+              "Tiling": "ESlateBrushTileType::NoTile",
+              "Mirroring": "ESlateBrushMirrorType::NoMirror",
+              "ImageType": "ESlateBrushImageType::NoImage",
+              "bIsDynamicallyLoaded": false
+            },
+            "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
+            "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
+            "IsInventoryBag": true,
+            "IsDivideInventory": true,
+            "IsIncludeBagTradeAndSell": true
+          },
+          {
             "ItemGroupFilter": "ETLItemGroupFilter::kArtifact",
             "ButtonText": {
               "CultureInvariantString": null
@@ -3837,7 +4267,7 @@
             "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
             "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
             "IsInventoryBag": true,
-            "IsDivideInventory": true,
+            "IsDivideInventory": false,
             "IsIncludeBagTradeAndSell": false
           },
           {
@@ -4027,194 +4457,6 @@
             "IsInventoryBag": true,
             "IsDivideInventory": false,
             "IsIncludeBagTradeAndSell": false
-          },
-          {
-            "ItemGroupFilter": "ETLItemGroupFilter::kLifeBag",
-            "ButtonText": {
-              "CultureInvariantString": null
-            },
-            "TextTooltipId": "TEXT_TOOLTIP_INVEN_FILTER_LIFTBAG",
-            "ToolTipText": {
-              "CultureInvariantString": null
-            },
-            "bIconVisible": true,
-            "Icon": {
-              "ImageSize": {
-                "X": 127.99999,
-                "Y": 127.99999
-              },
-              "Margin": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "TintColor": {
-                "SpecifiedColor": {
-                  "R": 1.0,
-                  "G": 1.0,
-                  "B": 1.0,
-                  "A": 1.0,
-                  "Hex": "FFFFFF"
-                },
-                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-              },
-              "ResourceObject": {
-                "ObjectName": "PaperSprite'Tex_Char_Tap_living_Off_Hover_Sprite'",
-                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_Off_Hover_Sprite.0"
-              },
-              "ResourceName": "None",
-              "UVRegion": {
-                "Min": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Max": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "bIsValid": 0
-              },
-              "DrawAs": "ESlateBrushDrawType::Image",
-              "Tiling": "ESlateBrushTileType::NoTile",
-              "Mirroring": "ESlateBrushMirrorType::NoMirror",
-              "ImageType": "ESlateBrushImageType::NoImage",
-              "bIsDynamicallyLoaded": false
-            },
-            "HoverIcon": {
-              "ImageSize": {
-                "X": 127.99999,
-                "Y": 127.99999
-              },
-              "Margin": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "TintColor": {
-                "SpecifiedColor": {
-                  "R": 1.0,
-                  "G": 1.0,
-                  "B": 1.0,
-                  "A": 1.0,
-                  "Hex": "FFFFFF"
-                },
-                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-              },
-              "ResourceObject": {
-                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
-                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
-              },
-              "ResourceName": "None",
-              "UVRegion": {
-                "Min": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Max": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "bIsValid": 0
-              },
-              "DrawAs": "ESlateBrushDrawType::Image",
-              "Tiling": "ESlateBrushTileType::NoTile",
-              "Mirroring": "ESlateBrushMirrorType::NoMirror",
-              "ImageType": "ESlateBrushImageType::NoImage",
-              "bIsDynamicallyLoaded": false
-            },
-            "CheckIcon": {
-              "ImageSize": {
-                "X": 127.99999,
-                "Y": 127.99999
-              },
-              "Margin": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "TintColor": {
-                "SpecifiedColor": {
-                  "R": 1.0,
-                  "G": 1.0,
-                  "B": 1.0,
-                  "A": 1.0,
-                  "Hex": "FFFFFF"
-                },
-                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-              },
-              "ResourceObject": {
-                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
-                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
-              },
-              "ResourceName": "None",
-              "UVRegion": {
-                "Min": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Max": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "bIsValid": 0
-              },
-              "DrawAs": "ESlateBrushDrawType::Image",
-              "Tiling": "ESlateBrushTileType::NoTile",
-              "Mirroring": "ESlateBrushMirrorType::NoMirror",
-              "ImageType": "ESlateBrushImageType::NoImage",
-              "bIsDynamicallyLoaded": false
-            },
-            "CheckHoverIcon": {
-              "ImageSize": {
-                "X": 127.99999,
-                "Y": 127.99999
-              },
-              "Margin": {
-                "Left": 0.0,
-                "Top": 0.0,
-                "Right": 0.0,
-                "Bottom": 0.0
-              },
-              "TintColor": {
-                "SpecifiedColor": {
-                  "R": 1.0,
-                  "G": 1.0,
-                  "B": 1.0,
-                  "A": 1.0,
-                  "Hex": "FFFFFF"
-                },
-                "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
-              },
-              "ResourceObject": {
-                "ObjectName": "PaperSprite'Tex_Char_Tap_living_On_Hover_Sprite'",
-                "ObjectPath": "/Game/UI/Texture/UI_Texture/01_Common/IconTab/Char/Tex_Char_Tap_living_On_Hover_Sprite.0"
-              },
-              "ResourceName": "None",
-              "UVRegion": {
-                "Min": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "Max": {
-                  "X": 0.0,
-                  "Y": 0.0
-                },
-                "bIsValid": 0
-              },
-              "DrawAs": "ESlateBrushDrawType::Image",
-              "Tiling": "ESlateBrushTileType::NoTile",
-              "Mirroring": "ESlateBrushMirrorType::NoMirror",
-              "ImageType": "ESlateBrushImageType::NoImage",
-              "bIsDynamicallyLoaded": false
-            },
-            "ButtonStyleTableId": "Inventory_ETCTab_UnCheck",
-            "CheckButtonStyleTableId": "Inventory_ETCTab_Check",
-            "IsInventoryBag": true,
-            "IsDivideInventory": false,
-            "IsIncludeBagTradeAndSell": true
           }
         ],
         "SpeciesIconData": [
@@ -4283,8 +4525,56 @@
           "SubPathString": ""
         },
         "CraftingBookMainGroup": {
-          "RowName": "None"
-        }
+          "RowName": "craft_recipe_all"
+        },
+        "PartyRoleIcons": null,
+        "PartyRoleIconsSmall": null,
+        "GrowthNaviBG": [
+          {
+            "Key": "ETLGrowthNaviStyle::Attack",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Card_RoleImage_Dealer_Sprite.GrowthNavi_Card_RoleImage_Dealer_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ETLGrowthNaviStyle::Defence",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Card_RoleImage_Tanker_Sprite.GrowthNavi_Card_RoleImage_Tanker_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ETLGrowthNaviStyle::Assist",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Card_RoleImage_Healer_Sprite.GrowthNavi_Card_RoleImage_Healer_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "GrowthNaviStyleIcon": [
+          {
+            "Key": "ETLGrowthNaviStyle::Attack",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Role_Dealer_ON_Sprite.GrowthNavi_Role_Dealer_ON_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ETLGrowthNaviStyle::Defence",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Role_Tanker_On_Sprite.GrowthNavi_Role_Tanker_On_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "ETLGrowthNaviStyle::Assist",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Role_Healer_On_Sprite.GrowthNavi_Role_Healer_On_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ]
       }
     }
   }

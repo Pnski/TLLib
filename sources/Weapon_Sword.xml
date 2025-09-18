@@ -461,25 +461,7 @@
             <default uid="0">
               <combo_state_default>
                 <complex default_skill_id="CM_SW_CounterMove_ActionSkill_slot_Hero" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                  <if_abnormal_state min_count="0" description="넘어짐 해제 - NPC" contents_tag="kNPC_Knockdown">
                     <set_skill skill_id="CM_SW_S_CounterMove_RollActionSkill_Hero_Escape" skill_id_disable="false" />
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="4">
@@ -493,6 +475,9 @@
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_CM_SW_CounterMove_ContextSkill" min_count="1">
                     <set_skill skill_id="CM_SW_CounterMove_ContextSkill_Stack1_Hero" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" description="T3 네르자툼 장검" contents_tag="kPC_Knockdown" abnormal_state_id="abn_WP_Item_Boss_T3_SW_01">
+                    <set_skill skill_id="CM_SW_CounterMove_Item_Boss_T3_SW_01" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>
                 <transition>

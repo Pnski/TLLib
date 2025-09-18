@@ -832,7 +832,7 @@
             "BowAttackPower": 1,
             "WandAttackPower": 0,
             "SpearAttackPower": 1,
-            "OrbAttackPower": 1,
+            "OrbAttackPower": 0,
             "GauntletAttackPower": 1
           },
           "AttackSpeedModifier": 0,
@@ -911,7 +911,7 @@
             "BowAttackPower": 2,
             "WandAttackPower": 1,
             "SpearAttackPower": 2,
-            "OrbAttackPower": 2,
+            "OrbAttackPower": 1,
             "GauntletAttackPower": 2
           },
           "AttackSpeedModifier": 0,
@@ -990,7 +990,7 @@
             "BowAttackPower": 3,
             "WandAttackPower": 2,
             "SpearAttackPower": 3,
-            "OrbAttackPower": 4,
+            "OrbAttackPower": 2,
             "GauntletAttackPower": 4
           },
           "AttackSpeedModifier": 0,
@@ -1069,7 +1069,7 @@
             "BowAttackPower": 4,
             "WandAttackPower": 3,
             "SpearAttackPower": 5,
-            "OrbAttackPower": 5,
+            "OrbAttackPower": 3,
             "GauntletAttackPower": 5
           },
           "AttackSpeedModifier": 0,
@@ -1148,7 +1148,7 @@
             "BowAttackPower": 5,
             "WandAttackPower": 4,
             "SpearAttackPower": 6,
-            "OrbAttackPower": 6,
+            "OrbAttackPower": 4,
             "GauntletAttackPower": 6
           },
           "AttackSpeedModifier": 0,
@@ -1227,7 +1227,7 @@
             "BowAttackPower": 6,
             "WandAttackPower": 4,
             "SpearAttackPower": 7,
-            "OrbAttackPower": 8,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 8
           },
           "AttackSpeedModifier": 0,
@@ -1306,7 +1306,7 @@
             "BowAttackPower": 7,
             "WandAttackPower": 5,
             "SpearAttackPower": 9,
-            "OrbAttackPower": 9,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 9
           },
           "AttackSpeedModifier": 0,
@@ -1385,7 +1385,7 @@
             "BowAttackPower": 8,
             "WandAttackPower": 6,
             "SpearAttackPower": 10,
-            "OrbAttackPower": 10,
+            "OrbAttackPower": 6,
             "GauntletAttackPower": 10
           },
           "AttackSpeedModifier": 0,
@@ -1464,7 +1464,7 @@
             "BowAttackPower": 9,
             "WandAttackPower": 7,
             "SpearAttackPower": 11,
-            "OrbAttackPower": 12,
+            "OrbAttackPower": 7,
             "GauntletAttackPower": 12
           },
           "AttackSpeedModifier": 0,
@@ -1543,7 +1543,7 @@
             "BowAttackPower": 10,
             "WandAttackPower": 8,
             "SpearAttackPower": 12,
-            "OrbAttackPower": 13,
+            "OrbAttackPower": 8,
             "GauntletAttackPower": 13
           },
           "AttackSpeedModifier": 0,
@@ -1622,7 +1622,7 @@
             "BowAttackPower": 11,
             "WandAttackPower": 8,
             "SpearAttackPower": 14,
-            "OrbAttackPower": 14,
+            "OrbAttackPower": 9,
             "GauntletAttackPower": 14
           },
           "AttackSpeedModifier": 0,
@@ -1701,7 +1701,7 @@
             "BowAttackPower": 12,
             "WandAttackPower": 9,
             "SpearAttackPower": 15,
-            "OrbAttackPower": 16,
+            "OrbAttackPower": 10,
             "GauntletAttackPower": 16
           },
           "AttackSpeedModifier": 0,
@@ -1780,7 +1780,7 @@
             "BowAttackPower": 14,
             "WandAttackPower": 10,
             "SpearAttackPower": 16,
-            "OrbAttackPower": 17,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 17
           },
           "AttackSpeedModifier": 0,
@@ -1859,7 +1859,7 @@
             "BowAttackPower": 15,
             "WandAttackPower": 11,
             "SpearAttackPower": 18,
-            "OrbAttackPower": 18,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 18
           },
           "AttackSpeedModifier": 0,
@@ -1938,7 +1938,7 @@
             "BowAttackPower": 16,
             "WandAttackPower": 12,
             "SpearAttackPower": 19,
-            "OrbAttackPower": 20,
+            "OrbAttackPower": 12,
             "GauntletAttackPower": 20
           },
           "AttackSpeedModifier": 0,
@@ -2017,7 +2017,7 @@
             "BowAttackPower": 17,
             "WandAttackPower": 12,
             "SpearAttackPower": 20,
-            "OrbAttackPower": 21,
+            "OrbAttackPower": 13,
             "GauntletAttackPower": 21
           },
           "AttackSpeedModifier": 0,
@@ -2096,7 +2096,7 @@
             "BowAttackPower": 18,
             "WandAttackPower": 13,
             "SpearAttackPower": 21,
-            "OrbAttackPower": 22,
+            "OrbAttackPower": 14,
             "GauntletAttackPower": 22
           },
           "AttackSpeedModifier": 0,
@@ -2175,7 +2175,7 @@
             "BowAttackPower": 19,
             "WandAttackPower": 14,
             "SpearAttackPower": 23,
-            "OrbAttackPower": 24,
+            "OrbAttackPower": 15,
             "GauntletAttackPower": 24
           },
           "AttackSpeedModifier": 0,
@@ -2254,7 +2254,7 @@
             "BowAttackPower": 20,
             "WandAttackPower": 15,
             "SpearAttackPower": 24,
-            "OrbAttackPower": 25,
+            "OrbAttackPower": 16,
             "GauntletAttackPower": 25
           },
           "AttackSpeedModifier": 0,
@@ -2333,7 +2333,7 @@
             "BowAttackPower": 21,
             "WandAttackPower": 16,
             "SpearAttackPower": 25,
-            "OrbAttackPower": 27,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 27
           },
           "AttackSpeedModifier": 0,
@@ -2412,7 +2412,7 @@
             "BowAttackPower": 22,
             "WandAttackPower": 17,
             "SpearAttackPower": 27,
-            "OrbAttackPower": 28,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 28
           },
           "AttackSpeedModifier": 0,
@@ -2491,7 +2491,7 @@
             "BowAttackPower": 23,
             "WandAttackPower": 17,
             "SpearAttackPower": 28,
-            "OrbAttackPower": 29,
+            "OrbAttackPower": 18,
             "GauntletAttackPower": 29
           },
           "AttackSpeedModifier": 0,
@@ -2570,7 +2570,7 @@
             "BowAttackPower": 24,
             "WandAttackPower": 18,
             "SpearAttackPower": 29,
-            "OrbAttackPower": 31,
+            "OrbAttackPower": 19,
             "GauntletAttackPower": 31
           },
           "AttackSpeedModifier": 0,
@@ -2649,7 +2649,7 @@
             "BowAttackPower": 25,
             "WandAttackPower": 19,
             "SpearAttackPower": 30,
-            "OrbAttackPower": 32,
+            "OrbAttackPower": 20,
             "GauntletAttackPower": 32
           },
           "AttackSpeedModifier": 0,
@@ -2728,7 +2728,7 @@
             "BowAttackPower": 27,
             "WandAttackPower": 20,
             "SpearAttackPower": 32,
-            "OrbAttackPower": 33,
+            "OrbAttackPower": 21,
             "GauntletAttackPower": 33
           },
           "AttackSpeedModifier": 0,
@@ -2807,7 +2807,7 @@
             "BowAttackPower": 28,
             "WandAttackPower": 21,
             "SpearAttackPower": 33,
-            "OrbAttackPower": 35,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 35
           },
           "AttackSpeedModifier": 0,
@@ -2886,7 +2886,7 @@
             "BowAttackPower": 29,
             "WandAttackPower": 21,
             "SpearAttackPower": 34,
-            "OrbAttackPower": 36,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 36
           },
           "AttackSpeedModifier": 0,
@@ -2965,7 +2965,7 @@
             "BowAttackPower": 30,
             "WandAttackPower": 22,
             "SpearAttackPower": 36,
-            "OrbAttackPower": 37,
+            "OrbAttackPower": 23,
             "GauntletAttackPower": 37
           },
           "AttackSpeedModifier": 0,
@@ -3044,7 +3044,7 @@
             "BowAttackPower": 31,
             "WandAttackPower": 23,
             "SpearAttackPower": 37,
-            "OrbAttackPower": 39,
+            "OrbAttackPower": 24,
             "GauntletAttackPower": 39
           },
           "AttackSpeedModifier": 0,
@@ -3123,7 +3123,7 @@
             "BowAttackPower": 32,
             "WandAttackPower": 24,
             "SpearAttackPower": 38,
-            "OrbAttackPower": 40,
+            "OrbAttackPower": 25,
             "GauntletAttackPower": 40
           },
           "AttackSpeedModifier": 0,
@@ -3202,7 +3202,7 @@
             "BowAttackPower": 33,
             "WandAttackPower": 25,
             "SpearAttackPower": 39,
-            "OrbAttackPower": 41,
+            "OrbAttackPower": 26,
             "GauntletAttackPower": 41
           },
           "AttackSpeedModifier": 0,
@@ -3281,7 +3281,7 @@
             "BowAttackPower": 34,
             "WandAttackPower": 25,
             "SpearAttackPower": 41,
-            "OrbAttackPower": 43,
+            "OrbAttackPower": 27,
             "GauntletAttackPower": 43
           },
           "AttackSpeedModifier": 0,
@@ -3360,7 +3360,7 @@
             "BowAttackPower": 35,
             "WandAttackPower": 26,
             "SpearAttackPower": 42,
-            "OrbAttackPower": 44,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 44
           },
           "AttackSpeedModifier": 0,
@@ -3439,7 +3439,7 @@
             "BowAttackPower": 36,
             "WandAttackPower": 27,
             "SpearAttackPower": 43,
-            "OrbAttackPower": 45,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 45
           },
           "AttackSpeedModifier": 0,
@@ -3518,7 +3518,7 @@
             "BowAttackPower": 37,
             "WandAttackPower": 28,
             "SpearAttackPower": 45,
-            "OrbAttackPower": 47,
+            "OrbAttackPower": 29,
             "GauntletAttackPower": 47
           },
           "AttackSpeedModifier": 0,
@@ -3597,7 +3597,7 @@
             "BowAttackPower": 38,
             "WandAttackPower": 29,
             "SpearAttackPower": 46,
-            "OrbAttackPower": 48,
+            "OrbAttackPower": 30,
             "GauntletAttackPower": 48
           },
           "AttackSpeedModifier": 0,
@@ -3676,7 +3676,7 @@
             "BowAttackPower": 39,
             "WandAttackPower": 29,
             "SpearAttackPower": 47,
-            "OrbAttackPower": 49,
+            "OrbAttackPower": 31,
             "GauntletAttackPower": 49
           },
           "AttackSpeedModifier": 0,
@@ -3755,7 +3755,7 @@
             "BowAttackPower": 41,
             "WandAttackPower": 30,
             "SpearAttackPower": 49,
-            "OrbAttackPower": 51,
+            "OrbAttackPower": 32,
             "GauntletAttackPower": 51
           },
           "AttackSpeedModifier": 0,
@@ -3834,7 +3834,7 @@
             "BowAttackPower": 42,
             "WandAttackPower": 31,
             "SpearAttackPower": 50,
-            "OrbAttackPower": 52,
+            "OrbAttackPower": 33,
             "GauntletAttackPower": 52
           },
           "AttackSpeedModifier": 0,
@@ -3913,7 +3913,7 @@
             "BowAttackPower": 43,
             "WandAttackPower": 32,
             "SpearAttackPower": 51,
-            "OrbAttackPower": 54,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 54
           },
           "AttackSpeedModifier": 0,
@@ -3992,7 +3992,7 @@
             "BowAttackPower": 44,
             "WandAttackPower": 33,
             "SpearAttackPower": 52,
-            "OrbAttackPower": 55,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 55
           },
           "AttackSpeedModifier": 0,
@@ -4071,7 +4071,7 @@
             "BowAttackPower": 45,
             "WandAttackPower": 34,
             "SpearAttackPower": 54,
-            "OrbAttackPower": 56,
+            "OrbAttackPower": 35,
             "GauntletAttackPower": 56
           },
           "AttackSpeedModifier": 0,
@@ -4150,7 +4150,7 @@
             "BowAttackPower": 46,
             "WandAttackPower": 34,
             "SpearAttackPower": 55,
-            "OrbAttackPower": 58,
+            "OrbAttackPower": 36,
             "GauntletAttackPower": 58
           },
           "AttackSpeedModifier": 0,
@@ -4229,7 +4229,7 @@
             "BowAttackPower": 47,
             "WandAttackPower": 35,
             "SpearAttackPower": 56,
-            "OrbAttackPower": 59,
+            "OrbAttackPower": 37,
             "GauntletAttackPower": 59
           },
           "AttackSpeedModifier": 0,
@@ -4308,7 +4308,7 @@
             "BowAttackPower": 48,
             "WandAttackPower": 36,
             "SpearAttackPower": 58,
-            "OrbAttackPower": 60,
+            "OrbAttackPower": 38,
             "GauntletAttackPower": 60
           },
           "AttackSpeedModifier": 0,
@@ -4387,7 +4387,7 @@
             "BowAttackPower": 49,
             "WandAttackPower": 37,
             "SpearAttackPower": 59,
-            "OrbAttackPower": 62,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 62
           },
           "AttackSpeedModifier": 0,
@@ -4466,7 +4466,7 @@
             "BowAttackPower": 50,
             "WandAttackPower": 38,
             "SpearAttackPower": 60,
-            "OrbAttackPower": 63,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 63
           },
           "AttackSpeedModifier": 0,
@@ -4545,7 +4545,7 @@
             "BowAttackPower": 51,
             "WandAttackPower": 38,
             "SpearAttackPower": 61,
-            "OrbAttackPower": 64,
+            "OrbAttackPower": 40,
             "GauntletAttackPower": 64
           },
           "AttackSpeedModifier": 0,
@@ -4624,7 +4624,7 @@
             "BowAttackPower": 52,
             "WandAttackPower": 39,
             "SpearAttackPower": 63,
-            "OrbAttackPower": 66,
+            "OrbAttackPower": 41,
             "GauntletAttackPower": 66
           },
           "AttackSpeedModifier": 0,
@@ -4703,7 +4703,7 @@
             "BowAttackPower": 54,
             "WandAttackPower": 40,
             "SpearAttackPower": 64,
-            "OrbAttackPower": 67,
+            "OrbAttackPower": 42,
             "GauntletAttackPower": 67
           },
           "AttackSpeedModifier": 0,
@@ -4782,7 +4782,7 @@
             "BowAttackPower": 55,
             "WandAttackPower": 41,
             "SpearAttackPower": 65,
-            "OrbAttackPower": 68,
+            "OrbAttackPower": 43,
             "GauntletAttackPower": 68
           },
           "AttackSpeedModifier": 0,
@@ -4861,7 +4861,7 @@
             "BowAttackPower": 56,
             "WandAttackPower": 42,
             "SpearAttackPower": 67,
-            "OrbAttackPower": 70,
+            "OrbAttackPower": 44,
             "GauntletAttackPower": 70
           },
           "AttackSpeedModifier": 0,
@@ -4940,7 +4940,7 @@
             "BowAttackPower": 57,
             "WandAttackPower": 42,
             "SpearAttackPower": 68,
-            "OrbAttackPower": 71,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 71
           },
           "AttackSpeedModifier": 0,
@@ -5019,7 +5019,7 @@
             "BowAttackPower": 58,
             "WandAttackPower": 43,
             "SpearAttackPower": 69,
-            "OrbAttackPower": 72,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 72
           },
           "AttackSpeedModifier": 0,
@@ -5098,7 +5098,7 @@
             "BowAttackPower": 59,
             "WandAttackPower": 44,
             "SpearAttackPower": 70,
-            "OrbAttackPower": 74,
+            "OrbAttackPower": 46,
             "GauntletAttackPower": 74
           },
           "AttackSpeedModifier": 0,
@@ -5177,7 +5177,7 @@
             "BowAttackPower": 60,
             "WandAttackPower": 45,
             "SpearAttackPower": 72,
-            "OrbAttackPower": 75,
+            "OrbAttackPower": 47,
             "GauntletAttackPower": 75
           },
           "AttackSpeedModifier": 0,
@@ -5256,7 +5256,7 @@
             "BowAttackPower": 61,
             "WandAttackPower": 46,
             "SpearAttackPower": 73,
-            "OrbAttackPower": 76,
+            "OrbAttackPower": 48,
             "GauntletAttackPower": 76
           },
           "AttackSpeedModifier": 0,
@@ -5335,7 +5335,7 @@
             "BowAttackPower": 62,
             "WandAttackPower": 46,
             "SpearAttackPower": 74,
-            "OrbAttackPower": 78,
+            "OrbAttackPower": 49,
             "GauntletAttackPower": 78
           },
           "AttackSpeedModifier": 0,
@@ -5414,7 +5414,7 @@
             "BowAttackPower": 63,
             "WandAttackPower": 47,
             "SpearAttackPower": 76,
-            "OrbAttackPower": 79,
+            "OrbAttackPower": 50,
             "GauntletAttackPower": 79
           },
           "AttackSpeedModifier": 0,
@@ -5493,7 +5493,7 @@
             "BowAttackPower": 64,
             "WandAttackPower": 48,
             "SpearAttackPower": 77,
-            "OrbAttackPower": 81,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 81
           },
           "AttackSpeedModifier": 0,
@@ -5572,7 +5572,7 @@
             "BowAttackPower": 65,
             "WandAttackPower": 49,
             "SpearAttackPower": 78,
-            "OrbAttackPower": 82,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 82
           },
           "AttackSpeedModifier": 0,
@@ -5651,7 +5651,7 @@
             "BowAttackPower": 66,
             "WandAttackPower": 50,
             "SpearAttackPower": 79,
-            "OrbAttackPower": 83,
+            "OrbAttackPower": 52,
             "GauntletAttackPower": 83
           },
           "AttackSpeedModifier": 0,
@@ -5730,7 +5730,7 @@
             "BowAttackPower": 68,
             "WandAttackPower": 51,
             "SpearAttackPower": 81,
-            "OrbAttackPower": 85,
+            "OrbAttackPower": 53,
             "GauntletAttackPower": 85
           },
           "AttackSpeedModifier": 0,
@@ -5809,7 +5809,7 @@
             "BowAttackPower": 69,
             "WandAttackPower": 51,
             "SpearAttackPower": 82,
-            "OrbAttackPower": 86,
+            "OrbAttackPower": 54,
             "GauntletAttackPower": 86
           },
           "AttackSpeedModifier": 0,
@@ -5888,7 +5888,7 @@
             "BowAttackPower": 70,
             "WandAttackPower": 52,
             "SpearAttackPower": 83,
-            "OrbAttackPower": 87,
+            "OrbAttackPower": 55,
             "GauntletAttackPower": 87
           },
           "AttackSpeedModifier": 0,
@@ -5967,7 +5967,7 @@
             "BowAttackPower": 71,
             "WandAttackPower": 53,
             "SpearAttackPower": 85,
-            "OrbAttackPower": 89,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 89
           },
           "AttackSpeedModifier": 0,
@@ -6046,7 +6046,7 @@
             "BowAttackPower": 72,
             "WandAttackPower": 54,
             "SpearAttackPower": 86,
-            "OrbAttackPower": 90,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 90
           },
           "AttackSpeedModifier": 0,
@@ -6125,7 +6125,7 @@
             "BowAttackPower": 73,
             "WandAttackPower": 55,
             "SpearAttackPower": 87,
-            "OrbAttackPower": 91,
+            "OrbAttackPower": 57,
             "GauntletAttackPower": 91
           },
           "AttackSpeedModifier": 0,
@@ -6204,7 +6204,7 @@
             "BowAttackPower": 74,
             "WandAttackPower": 55,
             "SpearAttackPower": 89,
-            "OrbAttackPower": 93,
+            "OrbAttackPower": 58,
             "GauntletAttackPower": 93
           },
           "AttackSpeedModifier": 0,
@@ -6283,7 +6283,7 @@
             "BowAttackPower": 75,
             "WandAttackPower": 56,
             "SpearAttackPower": 90,
-            "OrbAttackPower": 94,
+            "OrbAttackPower": 59,
             "GauntletAttackPower": 94
           },
           "AttackSpeedModifier": 0,
@@ -6362,7 +6362,7 @@
             "BowAttackPower": 76,
             "WandAttackPower": 57,
             "SpearAttackPower": 91,
-            "OrbAttackPower": 95,
+            "OrbAttackPower": 60,
             "GauntletAttackPower": 95
           },
           "AttackSpeedModifier": 0,
@@ -6441,7 +6441,7 @@
             "BowAttackPower": 77,
             "WandAttackPower": 58,
             "SpearAttackPower": 92,
-            "OrbAttackPower": 97,
+            "OrbAttackPower": 61,
             "GauntletAttackPower": 97
           },
           "AttackSpeedModifier": 0,
@@ -6520,7 +6520,7 @@
             "BowAttackPower": 78,
             "WandAttackPower": 59,
             "SpearAttackPower": 94,
-            "OrbAttackPower": 98,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 98
           },
           "AttackSpeedModifier": 0,
@@ -6599,7 +6599,7 @@
             "BowAttackPower": 79,
             "WandAttackPower": 59,
             "SpearAttackPower": 95,
-            "OrbAttackPower": 99,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 99
           },
           "AttackSpeedModifier": 0,
@@ -6678,7 +6678,7 @@
             "BowAttackPower": 81,
             "WandAttackPower": 60,
             "SpearAttackPower": 96,
-            "OrbAttackPower": 101,
+            "OrbAttackPower": 63,
             "GauntletAttackPower": 101
           },
           "AttackSpeedModifier": 0,
@@ -6757,7 +6757,7 @@
             "BowAttackPower": 82,
             "WandAttackPower": 61,
             "SpearAttackPower": 98,
-            "OrbAttackPower": 102,
+            "OrbAttackPower": 64,
             "GauntletAttackPower": 102
           },
           "AttackSpeedModifier": 0,
@@ -6836,7 +6836,7 @@
             "BowAttackPower": 83,
             "WandAttackPower": 62,
             "SpearAttackPower": 99,
-            "OrbAttackPower": 103,
+            "OrbAttackPower": 65,
             "GauntletAttackPower": 103
           },
           "AttackSpeedModifier": 0,
@@ -6915,7 +6915,7 @@
             "BowAttackPower": 84,
             "WandAttackPower": 63,
             "SpearAttackPower": 100,
-            "OrbAttackPower": 105,
+            "OrbAttackPower": 66,
             "GauntletAttackPower": 105
           },
           "AttackSpeedModifier": 0,
@@ -6994,7 +6994,7 @@
             "BowAttackPower": 85,
             "WandAttackPower": 63,
             "SpearAttackPower": 101,
-            "OrbAttackPower": 106,
+            "OrbAttackPower": 67,
             "GauntletAttackPower": 106
           },
           "AttackSpeedModifier": 0,
@@ -7073,7 +7073,7 @@
             "BowAttackPower": 86,
             "WandAttackPower": 64,
             "SpearAttackPower": 103,
-            "OrbAttackPower": 108,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 108
           },
           "AttackSpeedModifier": 0,
@@ -7152,7 +7152,7 @@
             "BowAttackPower": 87,
             "WandAttackPower": 65,
             "SpearAttackPower": 104,
-            "OrbAttackPower": 109,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 109
           },
           "AttackSpeedModifier": 0,
@@ -7231,7 +7231,7 @@
             "BowAttackPower": 88,
             "WandAttackPower": 66,
             "SpearAttackPower": 105,
-            "OrbAttackPower": 110,
+            "OrbAttackPower": 69,
             "GauntletAttackPower": 110
           },
           "AttackSpeedModifier": 0,
@@ -7310,7 +7310,7 @@
             "BowAttackPower": 89,
             "WandAttackPower": 67,
             "SpearAttackPower": 107,
-            "OrbAttackPower": 112,
+            "OrbAttackPower": 70,
             "GauntletAttackPower": 112
           },
           "AttackSpeedModifier": 0,
@@ -7389,7 +7389,7 @@
             "BowAttackPower": 90,
             "WandAttackPower": 68,
             "SpearAttackPower": 108,
-            "OrbAttackPower": 113,
+            "OrbAttackPower": 71,
             "GauntletAttackPower": 113
           },
           "AttackSpeedModifier": 0,
@@ -7468,7 +7468,7 @@
             "BowAttackPower": 91,
             "WandAttackPower": 68,
             "SpearAttackPower": 109,
-            "OrbAttackPower": 114,
+            "OrbAttackPower": 72,
             "GauntletAttackPower": 114
           },
           "AttackSpeedModifier": 0,
@@ -7547,7 +7547,7 @@
             "BowAttackPower": 92,
             "WandAttackPower": 69,
             "SpearAttackPower": 110,
-            "OrbAttackPower": 116,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 116
           },
           "AttackSpeedModifier": 0,
@@ -7626,7 +7626,7 @@
             "BowAttackPower": 93,
             "WandAttackPower": 70,
             "SpearAttackPower": 112,
-            "OrbAttackPower": 117,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 117
           },
           "AttackSpeedModifier": 0,
@@ -7705,7 +7705,7 @@
             "BowAttackPower": 95,
             "WandAttackPower": 71,
             "SpearAttackPower": 113,
-            "OrbAttackPower": 118,
+            "OrbAttackPower": 74,
             "GauntletAttackPower": 118
           },
           "AttackSpeedModifier": 0,
@@ -7784,7 +7784,7 @@
             "BowAttackPower": 96,
             "WandAttackPower": 72,
             "SpearAttackPower": 114,
-            "OrbAttackPower": 120,
+            "OrbAttackPower": 75,
             "GauntletAttackPower": 120
           },
           "AttackSpeedModifier": 0,
@@ -7863,7 +7863,7 @@
             "BowAttackPower": 97,
             "WandAttackPower": 72,
             "SpearAttackPower": 116,
-            "OrbAttackPower": 121,
+            "OrbAttackPower": 76,
             "GauntletAttackPower": 121
           },
           "AttackSpeedModifier": 0,
@@ -8717,7 +8717,7 @@
             "BowAttackPower": 2,
             "WandAttackPower": 2,
             "SpearAttackPower": 3,
-            "OrbAttackPower": 3,
+            "OrbAttackPower": 2,
             "GauntletAttackPower": 3
           },
           "BonusAttackPowers": {
@@ -8796,7 +8796,7 @@
             "BowAttackPower": 4,
             "WandAttackPower": 3,
             "SpearAttackPower": 5,
-            "OrbAttackPower": 5,
+            "OrbAttackPower": 3,
             "GauntletAttackPower": 5
           },
           "BonusAttackPowers": {
@@ -8875,7 +8875,7 @@
             "BowAttackPower": 6,
             "WandAttackPower": 5,
             "SpearAttackPower": 7,
-            "OrbAttackPower": 7,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 7
           },
           "BonusAttackPowers": {
@@ -8954,7 +8954,7 @@
             "BowAttackPower": 8,
             "WandAttackPower": 6,
             "SpearAttackPower": 9,
-            "OrbAttackPower": 10,
+            "OrbAttackPower": 6,
             "GauntletAttackPower": 10
           },
           "BonusAttackPowers": {
@@ -9033,7 +9033,7 @@
             "BowAttackPower": 10,
             "WandAttackPower": 7,
             "SpearAttackPower": 11,
-            "OrbAttackPower": 12,
+            "OrbAttackPower": 8,
             "GauntletAttackPower": 12
           },
           "BonusAttackPowers": {
@@ -9112,7 +9112,7 @@
             "BowAttackPower": 11,
             "WandAttackPower": 9,
             "SpearAttackPower": 13,
-            "OrbAttackPower": 14,
+            "OrbAttackPower": 9,
             "GauntletAttackPower": 14
           },
           "BonusAttackPowers": {
@@ -9191,7 +9191,7 @@
             "BowAttackPower": 13,
             "WandAttackPower": 10,
             "SpearAttackPower": 16,
-            "OrbAttackPower": 16,
+            "OrbAttackPower": 10,
             "GauntletAttackPower": 16
           },
           "BonusAttackPowers": {
@@ -9270,7 +9270,7 @@
             "BowAttackPower": 15,
             "WandAttackPower": 11,
             "SpearAttackPower": 18,
-            "OrbAttackPower": 19,
+            "OrbAttackPower": 12,
             "GauntletAttackPower": 19
           },
           "BonusAttackPowers": {
@@ -9349,7 +9349,7 @@
             "BowAttackPower": 17,
             "WandAttackPower": 13,
             "SpearAttackPower": 20,
-            "OrbAttackPower": 21,
+            "OrbAttackPower": 13,
             "GauntletAttackPower": 21
           },
           "BonusAttackPowers": {
@@ -9428,7 +9428,7 @@
             "BowAttackPower": 19,
             "WandAttackPower": 14,
             "SpearAttackPower": 22,
-            "OrbAttackPower": 23,
+            "OrbAttackPower": 15,
             "GauntletAttackPower": 23
           },
           "BonusAttackPowers": {
@@ -9507,7 +9507,7 @@
             "BowAttackPower": 20,
             "WandAttackPower": 15,
             "SpearAttackPower": 24,
-            "OrbAttackPower": 25,
+            "OrbAttackPower": 16,
             "GauntletAttackPower": 25
           },
           "BonusAttackPowers": {
@@ -9586,7 +9586,7 @@
             "BowAttackPower": 22,
             "WandAttackPower": 17,
             "SpearAttackPower": 26,
-            "OrbAttackPower": 28,
+            "OrbAttackPower": 18,
             "GauntletAttackPower": 28
           },
           "BonusAttackPowers": {
@@ -9665,7 +9665,7 @@
             "BowAttackPower": 24,
             "WandAttackPower": 18,
             "SpearAttackPower": 28,
-            "OrbAttackPower": 30,
+            "OrbAttackPower": 19,
             "GauntletAttackPower": 30
           },
           "BonusAttackPowers": {
@@ -9744,7 +9744,7 @@
             "BowAttackPower": 26,
             "WandAttackPower": 19,
             "SpearAttackPower": 31,
-            "OrbAttackPower": 32,
+            "OrbAttackPower": 20,
             "GauntletAttackPower": 32
           },
           "BonusAttackPowers": {
@@ -9823,7 +9823,7 @@
             "BowAttackPower": 28,
             "WandAttackPower": 21,
             "SpearAttackPower": 33,
-            "OrbAttackPower": 34,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 34
           },
           "BonusAttackPowers": {
@@ -9902,7 +9902,7 @@
             "BowAttackPower": 29,
             "WandAttackPower": 22,
             "SpearAttackPower": 35,
-            "OrbAttackPower": 37,
+            "OrbAttackPower": 23,
             "GauntletAttackPower": 37
           },
           "BonusAttackPowers": {
@@ -9981,7 +9981,7 @@
             "BowAttackPower": 31,
             "WandAttackPower": 23,
             "SpearAttackPower": 37,
-            "OrbAttackPower": 39,
+            "OrbAttackPower": 25,
             "GauntletAttackPower": 39
           },
           "BonusAttackPowers": {
@@ -10060,7 +10060,7 @@
             "BowAttackPower": 33,
             "WandAttackPower": 25,
             "SpearAttackPower": 39,
-            "OrbAttackPower": 41,
+            "OrbAttackPower": 26,
             "GauntletAttackPower": 41
           },
           "BonusAttackPowers": {
@@ -10139,7 +10139,7 @@
             "BowAttackPower": 35,
             "WandAttackPower": 26,
             "SpearAttackPower": 41,
-            "OrbAttackPower": 43,
+            "OrbAttackPower": 27,
             "GauntletAttackPower": 43
           },
           "BonusAttackPowers": {
@@ -10218,7 +10218,7 @@
             "BowAttackPower": 37,
             "WandAttackPower": 28,
             "SpearAttackPower": 44,
-            "OrbAttackPower": 46,
+            "OrbAttackPower": 29,
             "GauntletAttackPower": 46
           },
           "BonusAttackPowers": {
@@ -10297,7 +10297,7 @@
             "BowAttackPower": 38,
             "WandAttackPower": 29,
             "SpearAttackPower": 46,
-            "OrbAttackPower": 48,
+            "OrbAttackPower": 30,
             "GauntletAttackPower": 48
           },
           "BonusAttackPowers": {
@@ -10376,7 +10376,7 @@
             "BowAttackPower": 40,
             "WandAttackPower": 30,
             "SpearAttackPower": 48,
-            "OrbAttackPower": 50,
+            "OrbAttackPower": 32,
             "GauntletAttackPower": 50
           },
           "BonusAttackPowers": {
@@ -10455,7 +10455,7 @@
             "BowAttackPower": 42,
             "WandAttackPower": 32,
             "SpearAttackPower": 50,
-            "OrbAttackPower": 52,
+            "OrbAttackPower": 33,
             "GauntletAttackPower": 52
           },
           "BonusAttackPowers": {
@@ -10534,7 +10534,7 @@
             "BowAttackPower": 44,
             "WandAttackPower": 33,
             "SpearAttackPower": 52,
-            "OrbAttackPower": 55,
+            "OrbAttackPower": 35,
             "GauntletAttackPower": 55
           },
           "BonusAttackPowers": {
@@ -10613,7 +10613,7 @@
             "BowAttackPower": 46,
             "WandAttackPower": 34,
             "SpearAttackPower": 54,
-            "OrbAttackPower": 57,
+            "OrbAttackPower": 36,
             "GauntletAttackPower": 57
           },
           "BonusAttackPowers": {
@@ -10692,7 +10692,7 @@
             "BowAttackPower": 47,
             "WandAttackPower": 36,
             "SpearAttackPower": 56,
-            "OrbAttackPower": 59,
+            "OrbAttackPower": 37,
             "GauntletAttackPower": 59
           },
           "BonusAttackPowers": {
@@ -10771,7 +10771,7 @@
             "BowAttackPower": 49,
             "WandAttackPower": 37,
             "SpearAttackPower": 59,
-            "OrbAttackPower": 61,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 61
           },
           "BonusAttackPowers": {
@@ -10850,7 +10850,7 @@
             "BowAttackPower": 51,
             "WandAttackPower": 38,
             "SpearAttackPower": 61,
-            "OrbAttackPower": 64,
+            "OrbAttackPower": 40,
             "GauntletAttackPower": 64
           },
           "BonusAttackPowers": {
@@ -10929,7 +10929,7 @@
             "BowAttackPower": 53,
             "WandAttackPower": 40,
             "SpearAttackPower": 63,
-            "OrbAttackPower": 66,
+            "OrbAttackPower": 42,
             "GauntletAttackPower": 66
           },
           "BonusAttackPowers": {
@@ -11008,7 +11008,7 @@
             "BowAttackPower": 55,
             "WandAttackPower": 41,
             "SpearAttackPower": 65,
-            "OrbAttackPower": 68,
+            "OrbAttackPower": 43,
             "GauntletAttackPower": 68
           },
           "BonusAttackPowers": {
@@ -11087,7 +11087,7 @@
             "BowAttackPower": 56,
             "WandAttackPower": 42,
             "SpearAttackPower": 67,
-            "OrbAttackPower": 70,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 70
           },
           "BonusAttackPowers": {
@@ -11166,7 +11166,7 @@
             "BowAttackPower": 58,
             "WandAttackPower": 44,
             "SpearAttackPower": 69,
-            "OrbAttackPower": 73,
+            "OrbAttackPower": 46,
             "GauntletAttackPower": 73
           },
           "BonusAttackPowers": {
@@ -11245,7 +11245,7 @@
             "BowAttackPower": 60,
             "WandAttackPower": 45,
             "SpearAttackPower": 71,
-            "OrbAttackPower": 75,
+            "OrbAttackPower": 47,
             "GauntletAttackPower": 75
           },
           "BonusAttackPowers": {
@@ -11324,7 +11324,7 @@
             "BowAttackPower": 62,
             "WandAttackPower": 46,
             "SpearAttackPower": 74,
-            "OrbAttackPower": 77,
+            "OrbAttackPower": 49,
             "GauntletAttackPower": 77
           },
           "BonusAttackPowers": {
@@ -11403,7 +11403,7 @@
             "BowAttackPower": 64,
             "WandAttackPower": 48,
             "SpearAttackPower": 76,
-            "OrbAttackPower": 79,
+            "OrbAttackPower": 50,
             "GauntletAttackPower": 79
           },
           "BonusAttackPowers": {
@@ -11482,7 +11482,7 @@
             "BowAttackPower": 65,
             "WandAttackPower": 49,
             "SpearAttackPower": 78,
-            "OrbAttackPower": 82,
+            "OrbAttackPower": 52,
             "GauntletAttackPower": 82
           },
           "BonusAttackPowers": {
@@ -11561,7 +11561,7 @@
             "BowAttackPower": 67,
             "WandAttackPower": 50,
             "SpearAttackPower": 80,
-            "OrbAttackPower": 84,
+            "OrbAttackPower": 53,
             "GauntletAttackPower": 84
           },
           "BonusAttackPowers": {
@@ -11640,7 +11640,7 @@
             "BowAttackPower": 69,
             "WandAttackPower": 52,
             "SpearAttackPower": 82,
-            "OrbAttackPower": 86,
+            "OrbAttackPower": 54,
             "GauntletAttackPower": 86
           },
           "BonusAttackPowers": {
@@ -11719,7 +11719,7 @@
             "BowAttackPower": 71,
             "WandAttackPower": 53,
             "SpearAttackPower": 84,
-            "OrbAttackPower": 88,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 88
           },
           "BonusAttackPowers": {
@@ -11798,7 +11798,7 @@
             "BowAttackPower": 73,
             "WandAttackPower": 55,
             "SpearAttackPower": 87,
-            "OrbAttackPower": 91,
+            "OrbAttackPower": 57,
             "GauntletAttackPower": 91
           },
           "BonusAttackPowers": {
@@ -11877,7 +11877,7 @@
             "BowAttackPower": 74,
             "WandAttackPower": 56,
             "SpearAttackPower": 89,
-            "OrbAttackPower": 93,
+            "OrbAttackPower": 59,
             "GauntletAttackPower": 93
           },
           "BonusAttackPowers": {
@@ -11956,7 +11956,7 @@
             "BowAttackPower": 76,
             "WandAttackPower": 57,
             "SpearAttackPower": 91,
-            "OrbAttackPower": 95,
+            "OrbAttackPower": 60,
             "GauntletAttackPower": 95
           },
           "BonusAttackPowers": {
@@ -12035,7 +12035,7 @@
             "BowAttackPower": 78,
             "WandAttackPower": 59,
             "SpearAttackPower": 93,
-            "OrbAttackPower": 97,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 97
           },
           "BonusAttackPowers": {
@@ -12114,7 +12114,7 @@
             "BowAttackPower": 80,
             "WandAttackPower": 60,
             "SpearAttackPower": 95,
-            "OrbAttackPower": 100,
+            "OrbAttackPower": 63,
             "GauntletAttackPower": 100
           },
           "BonusAttackPowers": {
@@ -12193,7 +12193,7 @@
             "BowAttackPower": 82,
             "WandAttackPower": 61,
             "SpearAttackPower": 97,
-            "OrbAttackPower": 102,
+            "OrbAttackPower": 64,
             "GauntletAttackPower": 102
           },
           "BonusAttackPowers": {
@@ -12272,7 +12272,7 @@
             "BowAttackPower": 83,
             "WandAttackPower": 63,
             "SpearAttackPower": 99,
-            "OrbAttackPower": 104,
+            "OrbAttackPower": 66,
             "GauntletAttackPower": 104
           },
           "BonusAttackPowers": {
@@ -12351,7 +12351,7 @@
             "BowAttackPower": 85,
             "WandAttackPower": 64,
             "SpearAttackPower": 102,
-            "OrbAttackPower": 106,
+            "OrbAttackPower": 67,
             "GauntletAttackPower": 106
           },
           "BonusAttackPowers": {
@@ -12430,7 +12430,7 @@
             "BowAttackPower": 87,
             "WandAttackPower": 65,
             "SpearAttackPower": 104,
-            "OrbAttackPower": 109,
+            "OrbAttackPower": 69,
             "GauntletAttackPower": 109
           },
           "BonusAttackPowers": {
@@ -12509,7 +12509,7 @@
             "BowAttackPower": 89,
             "WandAttackPower": 67,
             "SpearAttackPower": 106,
-            "OrbAttackPower": 111,
+            "OrbAttackPower": 70,
             "GauntletAttackPower": 111
           },
           "BonusAttackPowers": {
@@ -12588,7 +12588,7 @@
             "BowAttackPower": 91,
             "WandAttackPower": 68,
             "SpearAttackPower": 108,
-            "OrbAttackPower": 113,
+            "OrbAttackPower": 72,
             "GauntletAttackPower": 113
           },
           "BonusAttackPowers": {
@@ -12667,7 +12667,7 @@
             "BowAttackPower": 92,
             "WandAttackPower": 69,
             "SpearAttackPower": 110,
-            "OrbAttackPower": 115,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 115
           },
           "BonusAttackPowers": {
@@ -12746,7 +12746,7 @@
             "BowAttackPower": 94,
             "WandAttackPower": 71,
             "SpearAttackPower": 112,
-            "OrbAttackPower": 118,
+            "OrbAttackPower": 74,
             "GauntletAttackPower": 118
           },
           "BonusAttackPowers": {
@@ -12825,7 +12825,7 @@
             "BowAttackPower": 96,
             "WandAttackPower": 72,
             "SpearAttackPower": 114,
-            "OrbAttackPower": 120,
+            "OrbAttackPower": 76,
             "GauntletAttackPower": 120
           },
           "BonusAttackPowers": {
@@ -12904,7 +12904,7 @@
             "BowAttackPower": 98,
             "WandAttackPower": 73,
             "SpearAttackPower": 117,
-            "OrbAttackPower": 122,
+            "OrbAttackPower": 77,
             "GauntletAttackPower": 122
           },
           "BonusAttackPowers": {
@@ -12983,7 +12983,7 @@
             "BowAttackPower": 100,
             "WandAttackPower": 75,
             "SpearAttackPower": 119,
-            "OrbAttackPower": 124,
+            "OrbAttackPower": 79,
             "GauntletAttackPower": 124
           },
           "BonusAttackPowers": {
@@ -13062,7 +13062,7 @@
             "BowAttackPower": 101,
             "WandAttackPower": 76,
             "SpearAttackPower": 121,
-            "OrbAttackPower": 127,
+            "OrbAttackPower": 80,
             "GauntletAttackPower": 127
           },
           "BonusAttackPowers": {
@@ -13141,7 +13141,7 @@
             "BowAttackPower": 103,
             "WandAttackPower": 77,
             "SpearAttackPower": 123,
-            "OrbAttackPower": 129,
+            "OrbAttackPower": 81,
             "GauntletAttackPower": 129
           },
           "BonusAttackPowers": {
@@ -13220,7 +13220,7 @@
             "BowAttackPower": 105,
             "WandAttackPower": 79,
             "SpearAttackPower": 125,
-            "OrbAttackPower": 131,
+            "OrbAttackPower": 83,
             "GauntletAttackPower": 131
           },
           "BonusAttackPowers": {
@@ -13299,7 +13299,7 @@
             "BowAttackPower": 107,
             "WandAttackPower": 80,
             "SpearAttackPower": 127,
-            "OrbAttackPower": 133,
+            "OrbAttackPower": 84,
             "GauntletAttackPower": 133
           },
           "BonusAttackPowers": {
@@ -13378,7 +13378,7 @@
             "BowAttackPower": 109,
             "WandAttackPower": 82,
             "SpearAttackPower": 130,
-            "OrbAttackPower": 136,
+            "OrbAttackPower": 86,
             "GauntletAttackPower": 136
           },
           "BonusAttackPowers": {
@@ -13457,7 +13457,7 @@
             "BowAttackPower": 110,
             "WandAttackPower": 83,
             "SpearAttackPower": 132,
-            "OrbAttackPower": 138,
+            "OrbAttackPower": 87,
             "GauntletAttackPower": 138
           },
           "BonusAttackPowers": {
@@ -13536,7 +13536,7 @@
             "BowAttackPower": 112,
             "WandAttackPower": 84,
             "SpearAttackPower": 134,
-            "OrbAttackPower": 140,
+            "OrbAttackPower": 89,
             "GauntletAttackPower": 140
           },
           "BonusAttackPowers": {
@@ -13615,7 +13615,7 @@
             "BowAttackPower": 114,
             "WandAttackPower": 86,
             "SpearAttackPower": 136,
-            "OrbAttackPower": 142,
+            "OrbAttackPower": 90,
             "GauntletAttackPower": 142
           },
           "BonusAttackPowers": {
@@ -13694,7 +13694,7 @@
             "BowAttackPower": 116,
             "WandAttackPower": 87,
             "SpearAttackPower": 138,
-            "OrbAttackPower": 145,
+            "OrbAttackPower": 91,
             "GauntletAttackPower": 145
           },
           "BonusAttackPowers": {
@@ -13773,7 +13773,7 @@
             "BowAttackPower": 118,
             "WandAttackPower": 88,
             "SpearAttackPower": 140,
-            "OrbAttackPower": 147,
+            "OrbAttackPower": 93,
             "GauntletAttackPower": 147
           },
           "BonusAttackPowers": {
@@ -13852,7 +13852,7 @@
             "BowAttackPower": 119,
             "WandAttackPower": 90,
             "SpearAttackPower": 142,
-            "OrbAttackPower": 149,
+            "OrbAttackPower": 94,
             "GauntletAttackPower": 149
           },
           "BonusAttackPowers": {
@@ -13931,7 +13931,7 @@
             "BowAttackPower": 121,
             "WandAttackPower": 91,
             "SpearAttackPower": 145,
-            "OrbAttackPower": 151,
+            "OrbAttackPower": 96,
             "GauntletAttackPower": 151
           },
           "BonusAttackPowers": {
@@ -14010,7 +14010,7 @@
             "BowAttackPower": 123,
             "WandAttackPower": 92,
             "SpearAttackPower": 147,
-            "OrbAttackPower": 154,
+            "OrbAttackPower": 97,
             "GauntletAttackPower": 154
           },
           "BonusAttackPowers": {
@@ -14089,7 +14089,7 @@
             "BowAttackPower": 125,
             "WandAttackPower": 94,
             "SpearAttackPower": 149,
-            "OrbAttackPower": 156,
+            "OrbAttackPower": 98,
             "GauntletAttackPower": 156
           },
           "BonusAttackPowers": {
@@ -14168,7 +14168,7 @@
             "BowAttackPower": 127,
             "WandAttackPower": 95,
             "SpearAttackPower": 151,
-            "OrbAttackPower": 158,
+            "OrbAttackPower": 100,
             "GauntletAttackPower": 158
           },
           "BonusAttackPowers": {
@@ -14247,7 +14247,7 @@
             "BowAttackPower": 128,
             "WandAttackPower": 96,
             "SpearAttackPower": 153,
-            "OrbAttackPower": 160,
+            "OrbAttackPower": 101,
             "GauntletAttackPower": 160
           },
           "BonusAttackPowers": {
@@ -14326,7 +14326,7 @@
             "BowAttackPower": 130,
             "WandAttackPower": 98,
             "SpearAttackPower": 155,
-            "OrbAttackPower": 163,
+            "OrbAttackPower": 103,
             "GauntletAttackPower": 163
           },
           "BonusAttackPowers": {
@@ -14405,7 +14405,7 @@
             "BowAttackPower": 132,
             "WandAttackPower": 99,
             "SpearAttackPower": 157,
-            "OrbAttackPower": 165,
+            "OrbAttackPower": 104,
             "GauntletAttackPower": 165
           },
           "BonusAttackPowers": {
@@ -14484,7 +14484,7 @@
             "BowAttackPower": 134,
             "WandAttackPower": 100,
             "SpearAttackPower": 160,
-            "OrbAttackPower": 167,
+            "OrbAttackPower": 106,
             "GauntletAttackPower": 167
           },
           "BonusAttackPowers": {
@@ -14563,7 +14563,7 @@
             "BowAttackPower": 136,
             "WandAttackPower": 102,
             "SpearAttackPower": 162,
-            "OrbAttackPower": 169,
+            "OrbAttackPower": 107,
             "GauntletAttackPower": 169
           },
           "BonusAttackPowers": {
@@ -14642,7 +14642,7 @@
             "BowAttackPower": 137,
             "WandAttackPower": 103,
             "SpearAttackPower": 164,
-            "OrbAttackPower": 172,
+            "OrbAttackPower": 108,
             "GauntletAttackPower": 172
           },
           "BonusAttackPowers": {
@@ -14721,7 +14721,7 @@
             "BowAttackPower": 139,
             "WandAttackPower": 104,
             "SpearAttackPower": 166,
-            "OrbAttackPower": 174,
+            "OrbAttackPower": 110,
             "GauntletAttackPower": 174
           },
           "BonusAttackPowers": {
@@ -14800,7 +14800,7 @@
             "BowAttackPower": 141,
             "WandAttackPower": 106,
             "SpearAttackPower": 168,
-            "OrbAttackPower": 176,
+            "OrbAttackPower": 111,
             "GauntletAttackPower": 176
           },
           "BonusAttackPowers": {
@@ -14879,7 +14879,7 @@
             "BowAttackPower": 143,
             "WandAttackPower": 107,
             "SpearAttackPower": 170,
-            "OrbAttackPower": 178,
+            "OrbAttackPower": 113,
             "GauntletAttackPower": 178
           },
           "BonusAttackPowers": {
@@ -14958,7 +14958,7 @@
             "BowAttackPower": 145,
             "WandAttackPower": 109,
             "SpearAttackPower": 173,
-            "OrbAttackPower": 181,
+            "OrbAttackPower": 114,
             "GauntletAttackPower": 181
           },
           "BonusAttackPowers": {
@@ -15037,7 +15037,7 @@
             "BowAttackPower": 146,
             "WandAttackPower": 110,
             "SpearAttackPower": 175,
-            "OrbAttackPower": 183,
+            "OrbAttackPower": 116,
             "GauntletAttackPower": 183
           },
           "BonusAttackPowers": {
@@ -15116,7 +15116,7 @@
             "BowAttackPower": 148,
             "WandAttackPower": 111,
             "SpearAttackPower": 177,
-            "OrbAttackPower": 185,
+            "OrbAttackPower": 117,
             "GauntletAttackPower": 185
           },
           "BonusAttackPowers": {
@@ -15195,7 +15195,7 @@
             "BowAttackPower": 150,
             "WandAttackPower": 113,
             "SpearAttackPower": 179,
-            "OrbAttackPower": 187,
+            "OrbAttackPower": 118,
             "GauntletAttackPower": 187
           },
           "BonusAttackPowers": {
@@ -15274,7 +15274,7 @@
             "BowAttackPower": 152,
             "WandAttackPower": 114,
             "SpearAttackPower": 181,
-            "OrbAttackPower": 190,
+            "OrbAttackPower": 120,
             "GauntletAttackPower": 190
           },
           "BonusAttackPowers": {
@@ -15353,7 +15353,7 @@
             "BowAttackPower": 154,
             "WandAttackPower": 115,
             "SpearAttackPower": 183,
-            "OrbAttackPower": 192,
+            "OrbAttackPower": 121,
             "GauntletAttackPower": 192
           },
           "BonusAttackPowers": {
@@ -15432,7 +15432,7 @@
             "BowAttackPower": 155,
             "WandAttackPower": 117,
             "SpearAttackPower": 185,
-            "OrbAttackPower": 194,
+            "OrbAttackPower": 123,
             "GauntletAttackPower": 194
           },
           "BonusAttackPowers": {
@@ -15511,7 +15511,7 @@
             "BowAttackPower": 157,
             "WandAttackPower": 118,
             "SpearAttackPower": 188,
-            "OrbAttackPower": 196,
+            "OrbAttackPower": 124,
             "GauntletAttackPower": 196
           },
           "BonusAttackPowers": {
@@ -15590,7 +15590,7 @@
             "BowAttackPower": 159,
             "WandAttackPower": 119,
             "SpearAttackPower": 190,
-            "OrbAttackPower": 199,
+            "OrbAttackPower": 125,
             "GauntletAttackPower": 199
           },
           "BonusAttackPowers": {
@@ -15669,7 +15669,7 @@
             "BowAttackPower": 161,
             "WandAttackPower": 121,
             "SpearAttackPower": 192,
-            "OrbAttackPower": 201,
+            "OrbAttackPower": 127,
             "GauntletAttackPower": 201
           },
           "BonusAttackPowers": {
@@ -15748,7 +15748,7 @@
             "BowAttackPower": 163,
             "WandAttackPower": 122,
             "SpearAttackPower": 194,
-            "OrbAttackPower": 203,
+            "OrbAttackPower": 128,
             "GauntletAttackPower": 203
           },
           "BonusAttackPowers": {
@@ -16617,7 +16617,7 @@
             "BowAttackPower": 2,
             "WandAttackPower": 2,
             "SpearAttackPower": 3,
-            "OrbAttackPower": 3,
+            "OrbAttackPower": 2,
             "GauntletAttackPower": 3
           },
           "BonusAttackPowers": {
@@ -16696,7 +16696,7 @@
             "BowAttackPower": 4,
             "WandAttackPower": 3,
             "SpearAttackPower": 5,
-            "OrbAttackPower": 5,
+            "OrbAttackPower": 3,
             "GauntletAttackPower": 5
           },
           "BonusAttackPowers": {
@@ -16775,7 +16775,7 @@
             "BowAttackPower": 6,
             "WandAttackPower": 5,
             "SpearAttackPower": 7,
-            "OrbAttackPower": 7,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 7
           },
           "BonusAttackPowers": {
@@ -16854,7 +16854,7 @@
             "BowAttackPower": 8,
             "WandAttackPower": 6,
             "SpearAttackPower": 9,
-            "OrbAttackPower": 10,
+            "OrbAttackPower": 6,
             "GauntletAttackPower": 10
           },
           "BonusAttackPowers": {
@@ -16933,7 +16933,7 @@
             "BowAttackPower": 10,
             "WandAttackPower": 7,
             "SpearAttackPower": 11,
-            "OrbAttackPower": 12,
+            "OrbAttackPower": 8,
             "GauntletAttackPower": 12
           },
           "BonusAttackPowers": {
@@ -17012,7 +17012,7 @@
             "BowAttackPower": 11,
             "WandAttackPower": 9,
             "SpearAttackPower": 13,
-            "OrbAttackPower": 14,
+            "OrbAttackPower": 9,
             "GauntletAttackPower": 14
           },
           "BonusAttackPowers": {
@@ -17091,7 +17091,7 @@
             "BowAttackPower": 13,
             "WandAttackPower": 10,
             "SpearAttackPower": 16,
-            "OrbAttackPower": 16,
+            "OrbAttackPower": 10,
             "GauntletAttackPower": 16
           },
           "BonusAttackPowers": {
@@ -17170,7 +17170,7 @@
             "BowAttackPower": 15,
             "WandAttackPower": 11,
             "SpearAttackPower": 18,
-            "OrbAttackPower": 19,
+            "OrbAttackPower": 12,
             "GauntletAttackPower": 19
           },
           "BonusAttackPowers": {
@@ -17249,7 +17249,7 @@
             "BowAttackPower": 17,
             "WandAttackPower": 13,
             "SpearAttackPower": 20,
-            "OrbAttackPower": 21,
+            "OrbAttackPower": 13,
             "GauntletAttackPower": 21
           },
           "BonusAttackPowers": {
@@ -17328,7 +17328,7 @@
             "BowAttackPower": 19,
             "WandAttackPower": 14,
             "SpearAttackPower": 22,
-            "OrbAttackPower": 23,
+            "OrbAttackPower": 15,
             "GauntletAttackPower": 23
           },
           "BonusAttackPowers": {
@@ -17407,7 +17407,7 @@
             "BowAttackPower": 20,
             "WandAttackPower": 15,
             "SpearAttackPower": 24,
-            "OrbAttackPower": 25,
+            "OrbAttackPower": 16,
             "GauntletAttackPower": 25
           },
           "BonusAttackPowers": {
@@ -17486,7 +17486,7 @@
             "BowAttackPower": 22,
             "WandAttackPower": 17,
             "SpearAttackPower": 26,
-            "OrbAttackPower": 28,
+            "OrbAttackPower": 18,
             "GauntletAttackPower": 28
           },
           "BonusAttackPowers": {
@@ -17565,7 +17565,7 @@
             "BowAttackPower": 24,
             "WandAttackPower": 18,
             "SpearAttackPower": 28,
-            "OrbAttackPower": 30,
+            "OrbAttackPower": 19,
             "GauntletAttackPower": 30
           },
           "BonusAttackPowers": {
@@ -17644,7 +17644,7 @@
             "BowAttackPower": 26,
             "WandAttackPower": 19,
             "SpearAttackPower": 31,
-            "OrbAttackPower": 32,
+            "OrbAttackPower": 20,
             "GauntletAttackPower": 32
           },
           "BonusAttackPowers": {
@@ -17723,7 +17723,7 @@
             "BowAttackPower": 28,
             "WandAttackPower": 21,
             "SpearAttackPower": 33,
-            "OrbAttackPower": 34,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 34
           },
           "BonusAttackPowers": {
@@ -17802,7 +17802,7 @@
             "BowAttackPower": 29,
             "WandAttackPower": 22,
             "SpearAttackPower": 35,
-            "OrbAttackPower": 37,
+            "OrbAttackPower": 23,
             "GauntletAttackPower": 37
           },
           "BonusAttackPowers": {
@@ -17881,7 +17881,7 @@
             "BowAttackPower": 31,
             "WandAttackPower": 23,
             "SpearAttackPower": 37,
-            "OrbAttackPower": 39,
+            "OrbAttackPower": 25,
             "GauntletAttackPower": 39
           },
           "BonusAttackPowers": {
@@ -17960,7 +17960,7 @@
             "BowAttackPower": 33,
             "WandAttackPower": 25,
             "SpearAttackPower": 39,
-            "OrbAttackPower": 41,
+            "OrbAttackPower": 26,
             "GauntletAttackPower": 41
           },
           "BonusAttackPowers": {
@@ -18039,7 +18039,7 @@
             "BowAttackPower": 35,
             "WandAttackPower": 26,
             "SpearAttackPower": 41,
-            "OrbAttackPower": 43,
+            "OrbAttackPower": 27,
             "GauntletAttackPower": 43
           },
           "BonusAttackPowers": {
@@ -18118,7 +18118,7 @@
             "BowAttackPower": 37,
             "WandAttackPower": 28,
             "SpearAttackPower": 44,
-            "OrbAttackPower": 46,
+            "OrbAttackPower": 29,
             "GauntletAttackPower": 46
           },
           "BonusAttackPowers": {
@@ -18197,7 +18197,7 @@
             "BowAttackPower": 38,
             "WandAttackPower": 29,
             "SpearAttackPower": 46,
-            "OrbAttackPower": 48,
+            "OrbAttackPower": 30,
             "GauntletAttackPower": 48
           },
           "BonusAttackPowers": {
@@ -18276,7 +18276,7 @@
             "BowAttackPower": 40,
             "WandAttackPower": 30,
             "SpearAttackPower": 48,
-            "OrbAttackPower": 50,
+            "OrbAttackPower": 32,
             "GauntletAttackPower": 50
           },
           "BonusAttackPowers": {
@@ -18355,7 +18355,7 @@
             "BowAttackPower": 42,
             "WandAttackPower": 32,
             "SpearAttackPower": 50,
-            "OrbAttackPower": 52,
+            "OrbAttackPower": 33,
             "GauntletAttackPower": 52
           },
           "BonusAttackPowers": {
@@ -18434,7 +18434,7 @@
             "BowAttackPower": 44,
             "WandAttackPower": 33,
             "SpearAttackPower": 52,
-            "OrbAttackPower": 55,
+            "OrbAttackPower": 35,
             "GauntletAttackPower": 55
           },
           "BonusAttackPowers": {
@@ -18513,7 +18513,7 @@
             "BowAttackPower": 46,
             "WandAttackPower": 34,
             "SpearAttackPower": 54,
-            "OrbAttackPower": 57,
+            "OrbAttackPower": 36,
             "GauntletAttackPower": 57
           },
           "BonusAttackPowers": {
@@ -18592,7 +18592,7 @@
             "BowAttackPower": 47,
             "WandAttackPower": 36,
             "SpearAttackPower": 56,
-            "OrbAttackPower": 59,
+            "OrbAttackPower": 37,
             "GauntletAttackPower": 59
           },
           "BonusAttackPowers": {
@@ -18671,7 +18671,7 @@
             "BowAttackPower": 49,
             "WandAttackPower": 37,
             "SpearAttackPower": 59,
-            "OrbAttackPower": 61,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 61
           },
           "BonusAttackPowers": {
@@ -18750,7 +18750,7 @@
             "BowAttackPower": 51,
             "WandAttackPower": 38,
             "SpearAttackPower": 61,
-            "OrbAttackPower": 64,
+            "OrbAttackPower": 40,
             "GauntletAttackPower": 64
           },
           "BonusAttackPowers": {
@@ -18829,7 +18829,7 @@
             "BowAttackPower": 53,
             "WandAttackPower": 40,
             "SpearAttackPower": 63,
-            "OrbAttackPower": 66,
+            "OrbAttackPower": 42,
             "GauntletAttackPower": 66
           },
           "BonusAttackPowers": {
@@ -18908,7 +18908,7 @@
             "BowAttackPower": 55,
             "WandAttackPower": 41,
             "SpearAttackPower": 65,
-            "OrbAttackPower": 68,
+            "OrbAttackPower": 43,
             "GauntletAttackPower": 68
           },
           "BonusAttackPowers": {
@@ -18987,7 +18987,7 @@
             "BowAttackPower": 56,
             "WandAttackPower": 42,
             "SpearAttackPower": 67,
-            "OrbAttackPower": 70,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 70
           },
           "BonusAttackPowers": {
@@ -19066,7 +19066,7 @@
             "BowAttackPower": 58,
             "WandAttackPower": 44,
             "SpearAttackPower": 69,
-            "OrbAttackPower": 73,
+            "OrbAttackPower": 46,
             "GauntletAttackPower": 73
           },
           "BonusAttackPowers": {
@@ -19145,7 +19145,7 @@
             "BowAttackPower": 60,
             "WandAttackPower": 45,
             "SpearAttackPower": 71,
-            "OrbAttackPower": 75,
+            "OrbAttackPower": 47,
             "GauntletAttackPower": 75
           },
           "BonusAttackPowers": {
@@ -19224,7 +19224,7 @@
             "BowAttackPower": 62,
             "WandAttackPower": 46,
             "SpearAttackPower": 74,
-            "OrbAttackPower": 77,
+            "OrbAttackPower": 49,
             "GauntletAttackPower": 77
           },
           "BonusAttackPowers": {
@@ -19303,7 +19303,7 @@
             "BowAttackPower": 64,
             "WandAttackPower": 48,
             "SpearAttackPower": 76,
-            "OrbAttackPower": 79,
+            "OrbAttackPower": 50,
             "GauntletAttackPower": 79
           },
           "BonusAttackPowers": {
@@ -19382,7 +19382,7 @@
             "BowAttackPower": 65,
             "WandAttackPower": 49,
             "SpearAttackPower": 78,
-            "OrbAttackPower": 82,
+            "OrbAttackPower": 52,
             "GauntletAttackPower": 82
           },
           "BonusAttackPowers": {
@@ -19461,7 +19461,7 @@
             "BowAttackPower": 67,
             "WandAttackPower": 50,
             "SpearAttackPower": 80,
-            "OrbAttackPower": 84,
+            "OrbAttackPower": 53,
             "GauntletAttackPower": 84
           },
           "BonusAttackPowers": {
@@ -19540,7 +19540,7 @@
             "BowAttackPower": 69,
             "WandAttackPower": 52,
             "SpearAttackPower": 82,
-            "OrbAttackPower": 86,
+            "OrbAttackPower": 54,
             "GauntletAttackPower": 86
           },
           "BonusAttackPowers": {
@@ -19619,7 +19619,7 @@
             "BowAttackPower": 71,
             "WandAttackPower": 53,
             "SpearAttackPower": 84,
-            "OrbAttackPower": 88,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 88
           },
           "BonusAttackPowers": {
@@ -19698,7 +19698,7 @@
             "BowAttackPower": 73,
             "WandAttackPower": 55,
             "SpearAttackPower": 87,
-            "OrbAttackPower": 91,
+            "OrbAttackPower": 57,
             "GauntletAttackPower": 91
           },
           "BonusAttackPowers": {
@@ -19777,7 +19777,7 @@
             "BowAttackPower": 74,
             "WandAttackPower": 56,
             "SpearAttackPower": 89,
-            "OrbAttackPower": 93,
+            "OrbAttackPower": 59,
             "GauntletAttackPower": 93
           },
           "BonusAttackPowers": {
@@ -19856,7 +19856,7 @@
             "BowAttackPower": 76,
             "WandAttackPower": 57,
             "SpearAttackPower": 91,
-            "OrbAttackPower": 95,
+            "OrbAttackPower": 60,
             "GauntletAttackPower": 95
           },
           "BonusAttackPowers": {
@@ -19935,7 +19935,7 @@
             "BowAttackPower": 78,
             "WandAttackPower": 59,
             "SpearAttackPower": 93,
-            "OrbAttackPower": 97,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 97
           },
           "BonusAttackPowers": {
@@ -20014,7 +20014,7 @@
             "BowAttackPower": 80,
             "WandAttackPower": 60,
             "SpearAttackPower": 95,
-            "OrbAttackPower": 100,
+            "OrbAttackPower": 63,
             "GauntletAttackPower": 100
           },
           "BonusAttackPowers": {
@@ -20093,7 +20093,7 @@
             "BowAttackPower": 82,
             "WandAttackPower": 61,
             "SpearAttackPower": 97,
-            "OrbAttackPower": 102,
+            "OrbAttackPower": 64,
             "GauntletAttackPower": 102
           },
           "BonusAttackPowers": {
@@ -20172,7 +20172,7 @@
             "BowAttackPower": 83,
             "WandAttackPower": 63,
             "SpearAttackPower": 99,
-            "OrbAttackPower": 104,
+            "OrbAttackPower": 66,
             "GauntletAttackPower": 104
           },
           "BonusAttackPowers": {
@@ -20251,7 +20251,7 @@
             "BowAttackPower": 85,
             "WandAttackPower": 64,
             "SpearAttackPower": 102,
-            "OrbAttackPower": 106,
+            "OrbAttackPower": 67,
             "GauntletAttackPower": 106
           },
           "BonusAttackPowers": {
@@ -20330,7 +20330,7 @@
             "BowAttackPower": 87,
             "WandAttackPower": 65,
             "SpearAttackPower": 104,
-            "OrbAttackPower": 109,
+            "OrbAttackPower": 69,
             "GauntletAttackPower": 109
           },
           "BonusAttackPowers": {
@@ -20409,7 +20409,7 @@
             "BowAttackPower": 89,
             "WandAttackPower": 67,
             "SpearAttackPower": 106,
-            "OrbAttackPower": 111,
+            "OrbAttackPower": 70,
             "GauntletAttackPower": 111
           },
           "BonusAttackPowers": {
@@ -20488,7 +20488,7 @@
             "BowAttackPower": 91,
             "WandAttackPower": 68,
             "SpearAttackPower": 108,
-            "OrbAttackPower": 113,
+            "OrbAttackPower": 72,
             "GauntletAttackPower": 113
           },
           "BonusAttackPowers": {
@@ -20567,7 +20567,7 @@
             "BowAttackPower": 92,
             "WandAttackPower": 69,
             "SpearAttackPower": 110,
-            "OrbAttackPower": 115,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 115
           },
           "BonusAttackPowers": {
@@ -20646,7 +20646,7 @@
             "BowAttackPower": 94,
             "WandAttackPower": 71,
             "SpearAttackPower": 112,
-            "OrbAttackPower": 118,
+            "OrbAttackPower": 74,
             "GauntletAttackPower": 118
           },
           "BonusAttackPowers": {
@@ -20725,7 +20725,7 @@
             "BowAttackPower": 96,
             "WandAttackPower": 72,
             "SpearAttackPower": 114,
-            "OrbAttackPower": 120,
+            "OrbAttackPower": 76,
             "GauntletAttackPower": 120
           },
           "BonusAttackPowers": {
@@ -20804,7 +20804,7 @@
             "BowAttackPower": 98,
             "WandAttackPower": 73,
             "SpearAttackPower": 117,
-            "OrbAttackPower": 122,
+            "OrbAttackPower": 77,
             "GauntletAttackPower": 122
           },
           "BonusAttackPowers": {
@@ -20883,7 +20883,7 @@
             "BowAttackPower": 100,
             "WandAttackPower": 75,
             "SpearAttackPower": 119,
-            "OrbAttackPower": 124,
+            "OrbAttackPower": 79,
             "GauntletAttackPower": 124
           },
           "BonusAttackPowers": {
@@ -20962,7 +20962,7 @@
             "BowAttackPower": 101,
             "WandAttackPower": 76,
             "SpearAttackPower": 121,
-            "OrbAttackPower": 127,
+            "OrbAttackPower": 80,
             "GauntletAttackPower": 127
           },
           "BonusAttackPowers": {
@@ -21041,7 +21041,7 @@
             "BowAttackPower": 103,
             "WandAttackPower": 77,
             "SpearAttackPower": 123,
-            "OrbAttackPower": 129,
+            "OrbAttackPower": 81,
             "GauntletAttackPower": 129
           },
           "BonusAttackPowers": {
@@ -21120,7 +21120,7 @@
             "BowAttackPower": 105,
             "WandAttackPower": 79,
             "SpearAttackPower": 125,
-            "OrbAttackPower": 131,
+            "OrbAttackPower": 83,
             "GauntletAttackPower": 131
           },
           "BonusAttackPowers": {
@@ -21199,7 +21199,7 @@
             "BowAttackPower": 107,
             "WandAttackPower": 80,
             "SpearAttackPower": 127,
-            "OrbAttackPower": 133,
+            "OrbAttackPower": 84,
             "GauntletAttackPower": 133
           },
           "BonusAttackPowers": {
@@ -21278,7 +21278,7 @@
             "BowAttackPower": 109,
             "WandAttackPower": 82,
             "SpearAttackPower": 130,
-            "OrbAttackPower": 136,
+            "OrbAttackPower": 86,
             "GauntletAttackPower": 136
           },
           "BonusAttackPowers": {
@@ -21357,7 +21357,7 @@
             "BowAttackPower": 110,
             "WandAttackPower": 83,
             "SpearAttackPower": 132,
-            "OrbAttackPower": 138,
+            "OrbAttackPower": 87,
             "GauntletAttackPower": 138
           },
           "BonusAttackPowers": {
@@ -21436,7 +21436,7 @@
             "BowAttackPower": 112,
             "WandAttackPower": 84,
             "SpearAttackPower": 134,
-            "OrbAttackPower": 140,
+            "OrbAttackPower": 89,
             "GauntletAttackPower": 140
           },
           "BonusAttackPowers": {
@@ -21515,7 +21515,7 @@
             "BowAttackPower": 114,
             "WandAttackPower": 86,
             "SpearAttackPower": 136,
-            "OrbAttackPower": 142,
+            "OrbAttackPower": 90,
             "GauntletAttackPower": 142
           },
           "BonusAttackPowers": {
@@ -21594,7 +21594,7 @@
             "BowAttackPower": 116,
             "WandAttackPower": 87,
             "SpearAttackPower": 138,
-            "OrbAttackPower": 145,
+            "OrbAttackPower": 91,
             "GauntletAttackPower": 145
           },
           "BonusAttackPowers": {
@@ -21673,7 +21673,7 @@
             "BowAttackPower": 118,
             "WandAttackPower": 88,
             "SpearAttackPower": 140,
-            "OrbAttackPower": 147,
+            "OrbAttackPower": 93,
             "GauntletAttackPower": 147
           },
           "BonusAttackPowers": {
@@ -21752,7 +21752,7 @@
             "BowAttackPower": 119,
             "WandAttackPower": 90,
             "SpearAttackPower": 142,
-            "OrbAttackPower": 149,
+            "OrbAttackPower": 94,
             "GauntletAttackPower": 149
           },
           "BonusAttackPowers": {
@@ -21831,7 +21831,7 @@
             "BowAttackPower": 121,
             "WandAttackPower": 91,
             "SpearAttackPower": 145,
-            "OrbAttackPower": 151,
+            "OrbAttackPower": 96,
             "GauntletAttackPower": 151
           },
           "BonusAttackPowers": {
@@ -21910,7 +21910,7 @@
             "BowAttackPower": 123,
             "WandAttackPower": 92,
             "SpearAttackPower": 147,
-            "OrbAttackPower": 154,
+            "OrbAttackPower": 97,
             "GauntletAttackPower": 154
           },
           "BonusAttackPowers": {
@@ -21989,7 +21989,7 @@
             "BowAttackPower": 125,
             "WandAttackPower": 94,
             "SpearAttackPower": 149,
-            "OrbAttackPower": 156,
+            "OrbAttackPower": 98,
             "GauntletAttackPower": 156
           },
           "BonusAttackPowers": {
@@ -22068,7 +22068,7 @@
             "BowAttackPower": 127,
             "WandAttackPower": 95,
             "SpearAttackPower": 151,
-            "OrbAttackPower": 158,
+            "OrbAttackPower": 100,
             "GauntletAttackPower": 158
           },
           "BonusAttackPowers": {
@@ -22147,7 +22147,7 @@
             "BowAttackPower": 128,
             "WandAttackPower": 96,
             "SpearAttackPower": 153,
-            "OrbAttackPower": 160,
+            "OrbAttackPower": 101,
             "GauntletAttackPower": 160
           },
           "BonusAttackPowers": {
@@ -22226,7 +22226,7 @@
             "BowAttackPower": 130,
             "WandAttackPower": 98,
             "SpearAttackPower": 155,
-            "OrbAttackPower": 163,
+            "OrbAttackPower": 103,
             "GauntletAttackPower": 163
           },
           "BonusAttackPowers": {
@@ -22305,7 +22305,7 @@
             "BowAttackPower": 132,
             "WandAttackPower": 99,
             "SpearAttackPower": 157,
-            "OrbAttackPower": 165,
+            "OrbAttackPower": 104,
             "GauntletAttackPower": 165
           },
           "BonusAttackPowers": {
@@ -22384,7 +22384,7 @@
             "BowAttackPower": 134,
             "WandAttackPower": 100,
             "SpearAttackPower": 160,
-            "OrbAttackPower": 167,
+            "OrbAttackPower": 106,
             "GauntletAttackPower": 167
           },
           "BonusAttackPowers": {
@@ -22463,7 +22463,7 @@
             "BowAttackPower": 136,
             "WandAttackPower": 102,
             "SpearAttackPower": 162,
-            "OrbAttackPower": 169,
+            "OrbAttackPower": 107,
             "GauntletAttackPower": 169
           },
           "BonusAttackPowers": {
@@ -22542,7 +22542,7 @@
             "BowAttackPower": 137,
             "WandAttackPower": 103,
             "SpearAttackPower": 164,
-            "OrbAttackPower": 172,
+            "OrbAttackPower": 108,
             "GauntletAttackPower": 172
           },
           "BonusAttackPowers": {
@@ -22621,7 +22621,7 @@
             "BowAttackPower": 139,
             "WandAttackPower": 104,
             "SpearAttackPower": 166,
-            "OrbAttackPower": 174,
+            "OrbAttackPower": 110,
             "GauntletAttackPower": 174
           },
           "BonusAttackPowers": {
@@ -22700,7 +22700,7 @@
             "BowAttackPower": 141,
             "WandAttackPower": 106,
             "SpearAttackPower": 168,
-            "OrbAttackPower": 176,
+            "OrbAttackPower": 111,
             "GauntletAttackPower": 176
           },
           "BonusAttackPowers": {
@@ -22779,7 +22779,7 @@
             "BowAttackPower": 143,
             "WandAttackPower": 107,
             "SpearAttackPower": 170,
-            "OrbAttackPower": 178,
+            "OrbAttackPower": 113,
             "GauntletAttackPower": 178
           },
           "BonusAttackPowers": {
@@ -22858,7 +22858,7 @@
             "BowAttackPower": 145,
             "WandAttackPower": 109,
             "SpearAttackPower": 173,
-            "OrbAttackPower": 181,
+            "OrbAttackPower": 114,
             "GauntletAttackPower": 181
           },
           "BonusAttackPowers": {
@@ -22937,7 +22937,7 @@
             "BowAttackPower": 146,
             "WandAttackPower": 110,
             "SpearAttackPower": 175,
-            "OrbAttackPower": 183,
+            "OrbAttackPower": 116,
             "GauntletAttackPower": 183
           },
           "BonusAttackPowers": {
@@ -23016,7 +23016,7 @@
             "BowAttackPower": 148,
             "WandAttackPower": 111,
             "SpearAttackPower": 177,
-            "OrbAttackPower": 185,
+            "OrbAttackPower": 117,
             "GauntletAttackPower": 185
           },
           "BonusAttackPowers": {
@@ -23095,7 +23095,7 @@
             "BowAttackPower": 150,
             "WandAttackPower": 113,
             "SpearAttackPower": 179,
-            "OrbAttackPower": 187,
+            "OrbAttackPower": 118,
             "GauntletAttackPower": 187
           },
           "BonusAttackPowers": {
@@ -23174,7 +23174,7 @@
             "BowAttackPower": 152,
             "WandAttackPower": 114,
             "SpearAttackPower": 181,
-            "OrbAttackPower": 190,
+            "OrbAttackPower": 120,
             "GauntletAttackPower": 190
           },
           "BonusAttackPowers": {
@@ -23253,7 +23253,7 @@
             "BowAttackPower": 154,
             "WandAttackPower": 115,
             "SpearAttackPower": 183,
-            "OrbAttackPower": 192,
+            "OrbAttackPower": 121,
             "GauntletAttackPower": 192
           },
           "BonusAttackPowers": {
@@ -23332,7 +23332,7 @@
             "BowAttackPower": 155,
             "WandAttackPower": 117,
             "SpearAttackPower": 185,
-            "OrbAttackPower": 194,
+            "OrbAttackPower": 123,
             "GauntletAttackPower": 194
           },
           "BonusAttackPowers": {
@@ -23411,7 +23411,7 @@
             "BowAttackPower": 157,
             "WandAttackPower": 118,
             "SpearAttackPower": 188,
-            "OrbAttackPower": 196,
+            "OrbAttackPower": 124,
             "GauntletAttackPower": 196
           },
           "BonusAttackPowers": {
@@ -23490,7 +23490,7 @@
             "BowAttackPower": 159,
             "WandAttackPower": 119,
             "SpearAttackPower": 190,
-            "OrbAttackPower": 199,
+            "OrbAttackPower": 125,
             "GauntletAttackPower": 199
           },
           "BonusAttackPowers": {
@@ -23569,7 +23569,7 @@
             "BowAttackPower": 161,
             "WandAttackPower": 121,
             "SpearAttackPower": 192,
-            "OrbAttackPower": 201,
+            "OrbAttackPower": 127,
             "GauntletAttackPower": 201
           },
           "BonusAttackPowers": {
@@ -23648,7 +23648,7 @@
             "BowAttackPower": 163,
             "WandAttackPower": 122,
             "SpearAttackPower": 194,
-            "OrbAttackPower": 203,
+            "OrbAttackPower": 128,
             "GauntletAttackPower": 203
           },
           "BonusAttackPowers": {
@@ -24532,7 +24532,7 @@
             "BowAttackPower": 1,
             "WandAttackPower": 0,
             "SpearAttackPower": 1,
-            "OrbAttackPower": 1,
+            "OrbAttackPower": 0,
             "GauntletAttackPower": 1
           },
           "AttackSpeedModifier": 0,
@@ -24611,7 +24611,7 @@
             "BowAttackPower": 2,
             "WandAttackPower": 1,
             "SpearAttackPower": 2,
-            "OrbAttackPower": 2,
+            "OrbAttackPower": 1,
             "GauntletAttackPower": 2
           },
           "AttackSpeedModifier": 0,
@@ -24690,7 +24690,7 @@
             "BowAttackPower": 3,
             "WandAttackPower": 2,
             "SpearAttackPower": 3,
-            "OrbAttackPower": 4,
+            "OrbAttackPower": 2,
             "GauntletAttackPower": 4
           },
           "AttackSpeedModifier": 0,
@@ -24769,7 +24769,7 @@
             "BowAttackPower": 4,
             "WandAttackPower": 3,
             "SpearAttackPower": 5,
-            "OrbAttackPower": 5,
+            "OrbAttackPower": 3,
             "GauntletAttackPower": 5
           },
           "AttackSpeedModifier": 0,
@@ -24848,7 +24848,7 @@
             "BowAttackPower": 5,
             "WandAttackPower": 4,
             "SpearAttackPower": 6,
-            "OrbAttackPower": 6,
+            "OrbAttackPower": 4,
             "GauntletAttackPower": 6
           },
           "AttackSpeedModifier": 0,
@@ -24927,7 +24927,7 @@
             "BowAttackPower": 6,
             "WandAttackPower": 4,
             "SpearAttackPower": 7,
-            "OrbAttackPower": 8,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 8
           },
           "AttackSpeedModifier": 0,
@@ -25006,7 +25006,7 @@
             "BowAttackPower": 7,
             "WandAttackPower": 5,
             "SpearAttackPower": 9,
-            "OrbAttackPower": 9,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 9
           },
           "AttackSpeedModifier": 0,
@@ -25085,7 +25085,7 @@
             "BowAttackPower": 8,
             "WandAttackPower": 6,
             "SpearAttackPower": 10,
-            "OrbAttackPower": 10,
+            "OrbAttackPower": 6,
             "GauntletAttackPower": 10
           },
           "AttackSpeedModifier": 0,
@@ -25164,7 +25164,7 @@
             "BowAttackPower": 9,
             "WandAttackPower": 7,
             "SpearAttackPower": 11,
-            "OrbAttackPower": 12,
+            "OrbAttackPower": 7,
             "GauntletAttackPower": 12
           },
           "AttackSpeedModifier": 0,
@@ -25243,7 +25243,7 @@
             "BowAttackPower": 10,
             "WandAttackPower": 8,
             "SpearAttackPower": 12,
-            "OrbAttackPower": 13,
+            "OrbAttackPower": 8,
             "GauntletAttackPower": 13
           },
           "AttackSpeedModifier": 0,
@@ -25322,7 +25322,7 @@
             "BowAttackPower": 11,
             "WandAttackPower": 8,
             "SpearAttackPower": 14,
-            "OrbAttackPower": 14,
+            "OrbAttackPower": 9,
             "GauntletAttackPower": 14
           },
           "AttackSpeedModifier": 0,
@@ -25401,7 +25401,7 @@
             "BowAttackPower": 12,
             "WandAttackPower": 9,
             "SpearAttackPower": 15,
-            "OrbAttackPower": 16,
+            "OrbAttackPower": 10,
             "GauntletAttackPower": 16
           },
           "AttackSpeedModifier": 0,
@@ -25480,7 +25480,7 @@
             "BowAttackPower": 14,
             "WandAttackPower": 10,
             "SpearAttackPower": 16,
-            "OrbAttackPower": 17,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 17
           },
           "AttackSpeedModifier": 0,
@@ -25559,7 +25559,7 @@
             "BowAttackPower": 15,
             "WandAttackPower": 11,
             "SpearAttackPower": 18,
-            "OrbAttackPower": 18,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 18
           },
           "AttackSpeedModifier": 0,
@@ -25638,7 +25638,7 @@
             "BowAttackPower": 16,
             "WandAttackPower": 12,
             "SpearAttackPower": 19,
-            "OrbAttackPower": 20,
+            "OrbAttackPower": 12,
             "GauntletAttackPower": 20
           },
           "AttackSpeedModifier": 0,
@@ -25717,7 +25717,7 @@
             "BowAttackPower": 17,
             "WandAttackPower": 12,
             "SpearAttackPower": 20,
-            "OrbAttackPower": 21,
+            "OrbAttackPower": 13,
             "GauntletAttackPower": 21
           },
           "AttackSpeedModifier": 0,
@@ -25796,7 +25796,7 @@
             "BowAttackPower": 18,
             "WandAttackPower": 13,
             "SpearAttackPower": 21,
-            "OrbAttackPower": 22,
+            "OrbAttackPower": 14,
             "GauntletAttackPower": 22
           },
           "AttackSpeedModifier": 0,
@@ -25875,7 +25875,7 @@
             "BowAttackPower": 19,
             "WandAttackPower": 14,
             "SpearAttackPower": 23,
-            "OrbAttackPower": 24,
+            "OrbAttackPower": 15,
             "GauntletAttackPower": 24
           },
           "AttackSpeedModifier": 0,
@@ -25954,7 +25954,7 @@
             "BowAttackPower": 20,
             "WandAttackPower": 15,
             "SpearAttackPower": 24,
-            "OrbAttackPower": 25,
+            "OrbAttackPower": 16,
             "GauntletAttackPower": 25
           },
           "AttackSpeedModifier": 0,
@@ -26033,7 +26033,7 @@
             "BowAttackPower": 21,
             "WandAttackPower": 16,
             "SpearAttackPower": 25,
-            "OrbAttackPower": 27,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 27
           },
           "AttackSpeedModifier": 0,
@@ -26112,7 +26112,7 @@
             "BowAttackPower": 22,
             "WandAttackPower": 17,
             "SpearAttackPower": 27,
-            "OrbAttackPower": 28,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 28
           },
           "AttackSpeedModifier": 0,
@@ -26191,7 +26191,7 @@
             "BowAttackPower": 23,
             "WandAttackPower": 17,
             "SpearAttackPower": 28,
-            "OrbAttackPower": 29,
+            "OrbAttackPower": 18,
             "GauntletAttackPower": 29
           },
           "AttackSpeedModifier": 0,
@@ -26270,7 +26270,7 @@
             "BowAttackPower": 24,
             "WandAttackPower": 18,
             "SpearAttackPower": 29,
-            "OrbAttackPower": 31,
+            "OrbAttackPower": 19,
             "GauntletAttackPower": 31
           },
           "AttackSpeedModifier": 0,
@@ -26349,7 +26349,7 @@
             "BowAttackPower": 25,
             "WandAttackPower": 19,
             "SpearAttackPower": 30,
-            "OrbAttackPower": 32,
+            "OrbAttackPower": 20,
             "GauntletAttackPower": 32
           },
           "AttackSpeedModifier": 0,
@@ -26428,7 +26428,7 @@
             "BowAttackPower": 27,
             "WandAttackPower": 20,
             "SpearAttackPower": 32,
-            "OrbAttackPower": 33,
+            "OrbAttackPower": 21,
             "GauntletAttackPower": 33
           },
           "AttackSpeedModifier": 0,
@@ -26507,7 +26507,7 @@
             "BowAttackPower": 28,
             "WandAttackPower": 21,
             "SpearAttackPower": 33,
-            "OrbAttackPower": 35,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 35
           },
           "AttackSpeedModifier": 0,
@@ -26586,7 +26586,7 @@
             "BowAttackPower": 29,
             "WandAttackPower": 21,
             "SpearAttackPower": 34,
-            "OrbAttackPower": 36,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 36
           },
           "AttackSpeedModifier": 0,
@@ -26665,7 +26665,7 @@
             "BowAttackPower": 30,
             "WandAttackPower": 22,
             "SpearAttackPower": 36,
-            "OrbAttackPower": 37,
+            "OrbAttackPower": 23,
             "GauntletAttackPower": 37
           },
           "AttackSpeedModifier": 0,
@@ -26744,7 +26744,7 @@
             "BowAttackPower": 31,
             "WandAttackPower": 23,
             "SpearAttackPower": 37,
-            "OrbAttackPower": 39,
+            "OrbAttackPower": 24,
             "GauntletAttackPower": 39
           },
           "AttackSpeedModifier": 0,
@@ -26823,7 +26823,7 @@
             "BowAttackPower": 32,
             "WandAttackPower": 24,
             "SpearAttackPower": 38,
-            "OrbAttackPower": 40,
+            "OrbAttackPower": 25,
             "GauntletAttackPower": 40
           },
           "AttackSpeedModifier": 0,
@@ -26902,7 +26902,7 @@
             "BowAttackPower": 33,
             "WandAttackPower": 25,
             "SpearAttackPower": 39,
-            "OrbAttackPower": 41,
+            "OrbAttackPower": 26,
             "GauntletAttackPower": 41
           },
           "AttackSpeedModifier": 0,
@@ -26981,7 +26981,7 @@
             "BowAttackPower": 34,
             "WandAttackPower": 25,
             "SpearAttackPower": 41,
-            "OrbAttackPower": 43,
+            "OrbAttackPower": 27,
             "GauntletAttackPower": 43
           },
           "AttackSpeedModifier": 0,
@@ -27060,7 +27060,7 @@
             "BowAttackPower": 35,
             "WandAttackPower": 26,
             "SpearAttackPower": 42,
-            "OrbAttackPower": 44,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 44
           },
           "AttackSpeedModifier": 0,
@@ -27139,7 +27139,7 @@
             "BowAttackPower": 36,
             "WandAttackPower": 27,
             "SpearAttackPower": 43,
-            "OrbAttackPower": 45,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 45
           },
           "AttackSpeedModifier": 0,
@@ -27218,7 +27218,7 @@
             "BowAttackPower": 37,
             "WandAttackPower": 28,
             "SpearAttackPower": 45,
-            "OrbAttackPower": 47,
+            "OrbAttackPower": 29,
             "GauntletAttackPower": 47
           },
           "AttackSpeedModifier": 0,
@@ -27297,7 +27297,7 @@
             "BowAttackPower": 38,
             "WandAttackPower": 29,
             "SpearAttackPower": 46,
-            "OrbAttackPower": 48,
+            "OrbAttackPower": 30,
             "GauntletAttackPower": 48
           },
           "AttackSpeedModifier": 0,
@@ -27376,7 +27376,7 @@
             "BowAttackPower": 39,
             "WandAttackPower": 29,
             "SpearAttackPower": 47,
-            "OrbAttackPower": 49,
+            "OrbAttackPower": 31,
             "GauntletAttackPower": 49
           },
           "AttackSpeedModifier": 0,
@@ -27455,7 +27455,7 @@
             "BowAttackPower": 41,
             "WandAttackPower": 30,
             "SpearAttackPower": 49,
-            "OrbAttackPower": 51,
+            "OrbAttackPower": 32,
             "GauntletAttackPower": 51
           },
           "AttackSpeedModifier": 0,
@@ -27534,7 +27534,7 @@
             "BowAttackPower": 42,
             "WandAttackPower": 31,
             "SpearAttackPower": 50,
-            "OrbAttackPower": 52,
+            "OrbAttackPower": 33,
             "GauntletAttackPower": 52
           },
           "AttackSpeedModifier": 0,
@@ -27613,7 +27613,7 @@
             "BowAttackPower": 43,
             "WandAttackPower": 32,
             "SpearAttackPower": 51,
-            "OrbAttackPower": 54,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 54
           },
           "AttackSpeedModifier": 0,
@@ -27692,7 +27692,7 @@
             "BowAttackPower": 44,
             "WandAttackPower": 33,
             "SpearAttackPower": 52,
-            "OrbAttackPower": 55,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 55
           },
           "AttackSpeedModifier": 0,
@@ -27771,7 +27771,7 @@
             "BowAttackPower": 45,
             "WandAttackPower": 34,
             "SpearAttackPower": 54,
-            "OrbAttackPower": 56,
+            "OrbAttackPower": 35,
             "GauntletAttackPower": 56
           },
           "AttackSpeedModifier": 0,
@@ -27850,7 +27850,7 @@
             "BowAttackPower": 46,
             "WandAttackPower": 34,
             "SpearAttackPower": 55,
-            "OrbAttackPower": 58,
+            "OrbAttackPower": 36,
             "GauntletAttackPower": 58
           },
           "AttackSpeedModifier": 0,
@@ -27929,7 +27929,7 @@
             "BowAttackPower": 47,
             "WandAttackPower": 35,
             "SpearAttackPower": 56,
-            "OrbAttackPower": 59,
+            "OrbAttackPower": 37,
             "GauntletAttackPower": 59
           },
           "AttackSpeedModifier": 0,
@@ -28008,7 +28008,7 @@
             "BowAttackPower": 48,
             "WandAttackPower": 36,
             "SpearAttackPower": 58,
-            "OrbAttackPower": 60,
+            "OrbAttackPower": 38,
             "GauntletAttackPower": 60
           },
           "AttackSpeedModifier": 0,
@@ -28087,7 +28087,7 @@
             "BowAttackPower": 49,
             "WandAttackPower": 37,
             "SpearAttackPower": 59,
-            "OrbAttackPower": 62,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 62
           },
           "AttackSpeedModifier": 0,
@@ -28166,7 +28166,7 @@
             "BowAttackPower": 50,
             "WandAttackPower": 38,
             "SpearAttackPower": 60,
-            "OrbAttackPower": 63,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 63
           },
           "AttackSpeedModifier": 0,
@@ -28245,7 +28245,7 @@
             "BowAttackPower": 51,
             "WandAttackPower": 38,
             "SpearAttackPower": 61,
-            "OrbAttackPower": 64,
+            "OrbAttackPower": 40,
             "GauntletAttackPower": 64
           },
           "AttackSpeedModifier": 0,
@@ -28324,7 +28324,7 @@
             "BowAttackPower": 52,
             "WandAttackPower": 39,
             "SpearAttackPower": 63,
-            "OrbAttackPower": 66,
+            "OrbAttackPower": 41,
             "GauntletAttackPower": 66
           },
           "AttackSpeedModifier": 0,
@@ -28403,7 +28403,7 @@
             "BowAttackPower": 54,
             "WandAttackPower": 40,
             "SpearAttackPower": 64,
-            "OrbAttackPower": 67,
+            "OrbAttackPower": 42,
             "GauntletAttackPower": 67
           },
           "AttackSpeedModifier": 0,
@@ -28482,7 +28482,7 @@
             "BowAttackPower": 55,
             "WandAttackPower": 41,
             "SpearAttackPower": 65,
-            "OrbAttackPower": 68,
+            "OrbAttackPower": 43,
             "GauntletAttackPower": 68
           },
           "AttackSpeedModifier": 0,
@@ -28561,7 +28561,7 @@
             "BowAttackPower": 56,
             "WandAttackPower": 42,
             "SpearAttackPower": 67,
-            "OrbAttackPower": 70,
+            "OrbAttackPower": 44,
             "GauntletAttackPower": 70
           },
           "AttackSpeedModifier": 0,
@@ -28640,7 +28640,7 @@
             "BowAttackPower": 57,
             "WandAttackPower": 42,
             "SpearAttackPower": 68,
-            "OrbAttackPower": 71,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 71
           },
           "AttackSpeedModifier": 0,
@@ -28719,7 +28719,7 @@
             "BowAttackPower": 58,
             "WandAttackPower": 43,
             "SpearAttackPower": 69,
-            "OrbAttackPower": 72,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 72
           },
           "AttackSpeedModifier": 0,
@@ -28798,7 +28798,7 @@
             "BowAttackPower": 59,
             "WandAttackPower": 44,
             "SpearAttackPower": 70,
-            "OrbAttackPower": 74,
+            "OrbAttackPower": 46,
             "GauntletAttackPower": 74
           },
           "AttackSpeedModifier": 0,
@@ -28877,7 +28877,7 @@
             "BowAttackPower": 60,
             "WandAttackPower": 45,
             "SpearAttackPower": 72,
-            "OrbAttackPower": 75,
+            "OrbAttackPower": 47,
             "GauntletAttackPower": 75
           },
           "AttackSpeedModifier": 0,
@@ -28956,7 +28956,7 @@
             "BowAttackPower": 61,
             "WandAttackPower": 46,
             "SpearAttackPower": 73,
-            "OrbAttackPower": 76,
+            "OrbAttackPower": 48,
             "GauntletAttackPower": 76
           },
           "AttackSpeedModifier": 0,
@@ -29035,7 +29035,7 @@
             "BowAttackPower": 62,
             "WandAttackPower": 46,
             "SpearAttackPower": 74,
-            "OrbAttackPower": 78,
+            "OrbAttackPower": 49,
             "GauntletAttackPower": 78
           },
           "AttackSpeedModifier": 0,
@@ -29114,7 +29114,7 @@
             "BowAttackPower": 63,
             "WandAttackPower": 47,
             "SpearAttackPower": 76,
-            "OrbAttackPower": 79,
+            "OrbAttackPower": 50,
             "GauntletAttackPower": 79
           },
           "AttackSpeedModifier": 0,
@@ -29193,7 +29193,7 @@
             "BowAttackPower": 64,
             "WandAttackPower": 48,
             "SpearAttackPower": 77,
-            "OrbAttackPower": 81,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 81
           },
           "AttackSpeedModifier": 0,
@@ -29272,7 +29272,7 @@
             "BowAttackPower": 65,
             "WandAttackPower": 49,
             "SpearAttackPower": 78,
-            "OrbAttackPower": 82,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 82
           },
           "AttackSpeedModifier": 0,
@@ -29351,7 +29351,7 @@
             "BowAttackPower": 66,
             "WandAttackPower": 50,
             "SpearAttackPower": 79,
-            "OrbAttackPower": 83,
+            "OrbAttackPower": 52,
             "GauntletAttackPower": 83
           },
           "AttackSpeedModifier": 0,
@@ -29430,7 +29430,7 @@
             "BowAttackPower": 68,
             "WandAttackPower": 51,
             "SpearAttackPower": 81,
-            "OrbAttackPower": 85,
+            "OrbAttackPower": 53,
             "GauntletAttackPower": 85
           },
           "AttackSpeedModifier": 0,
@@ -29509,7 +29509,7 @@
             "BowAttackPower": 69,
             "WandAttackPower": 51,
             "SpearAttackPower": 82,
-            "OrbAttackPower": 86,
+            "OrbAttackPower": 54,
             "GauntletAttackPower": 86
           },
           "AttackSpeedModifier": 0,
@@ -29588,7 +29588,7 @@
             "BowAttackPower": 70,
             "WandAttackPower": 52,
             "SpearAttackPower": 83,
-            "OrbAttackPower": 87,
+            "OrbAttackPower": 55,
             "GauntletAttackPower": 87
           },
           "AttackSpeedModifier": 0,
@@ -29667,7 +29667,7 @@
             "BowAttackPower": 71,
             "WandAttackPower": 53,
             "SpearAttackPower": 85,
-            "OrbAttackPower": 89,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 89
           },
           "AttackSpeedModifier": 0,
@@ -29746,7 +29746,7 @@
             "BowAttackPower": 72,
             "WandAttackPower": 54,
             "SpearAttackPower": 86,
-            "OrbAttackPower": 90,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 90
           },
           "AttackSpeedModifier": 0,
@@ -29825,7 +29825,7 @@
             "BowAttackPower": 73,
             "WandAttackPower": 55,
             "SpearAttackPower": 87,
-            "OrbAttackPower": 91,
+            "OrbAttackPower": 57,
             "GauntletAttackPower": 91
           },
           "AttackSpeedModifier": 0,
@@ -29904,7 +29904,7 @@
             "BowAttackPower": 74,
             "WandAttackPower": 55,
             "SpearAttackPower": 89,
-            "OrbAttackPower": 93,
+            "OrbAttackPower": 58,
             "GauntletAttackPower": 93
           },
           "AttackSpeedModifier": 0,
@@ -29983,7 +29983,7 @@
             "BowAttackPower": 75,
             "WandAttackPower": 56,
             "SpearAttackPower": 90,
-            "OrbAttackPower": 94,
+            "OrbAttackPower": 59,
             "GauntletAttackPower": 94
           },
           "AttackSpeedModifier": 0,
@@ -30062,7 +30062,7 @@
             "BowAttackPower": 76,
             "WandAttackPower": 57,
             "SpearAttackPower": 91,
-            "OrbAttackPower": 95,
+            "OrbAttackPower": 60,
             "GauntletAttackPower": 95
           },
           "AttackSpeedModifier": 0,
@@ -30141,7 +30141,7 @@
             "BowAttackPower": 77,
             "WandAttackPower": 58,
             "SpearAttackPower": 92,
-            "OrbAttackPower": 97,
+            "OrbAttackPower": 61,
             "GauntletAttackPower": 97
           },
           "AttackSpeedModifier": 0,
@@ -30220,7 +30220,7 @@
             "BowAttackPower": 78,
             "WandAttackPower": 59,
             "SpearAttackPower": 94,
-            "OrbAttackPower": 98,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 98
           },
           "AttackSpeedModifier": 0,
@@ -30299,7 +30299,7 @@
             "BowAttackPower": 79,
             "WandAttackPower": 59,
             "SpearAttackPower": 95,
-            "OrbAttackPower": 99,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 99
           },
           "AttackSpeedModifier": 0,
@@ -30378,7 +30378,7 @@
             "BowAttackPower": 81,
             "WandAttackPower": 60,
             "SpearAttackPower": 96,
-            "OrbAttackPower": 101,
+            "OrbAttackPower": 63,
             "GauntletAttackPower": 101
           },
           "AttackSpeedModifier": 0,
@@ -30457,7 +30457,7 @@
             "BowAttackPower": 82,
             "WandAttackPower": 61,
             "SpearAttackPower": 98,
-            "OrbAttackPower": 102,
+            "OrbAttackPower": 64,
             "GauntletAttackPower": 102
           },
           "AttackSpeedModifier": 0,
@@ -30536,7 +30536,7 @@
             "BowAttackPower": 83,
             "WandAttackPower": 62,
             "SpearAttackPower": 99,
-            "OrbAttackPower": 103,
+            "OrbAttackPower": 65,
             "GauntletAttackPower": 103
           },
           "AttackSpeedModifier": 0,
@@ -30615,7 +30615,7 @@
             "BowAttackPower": 84,
             "WandAttackPower": 63,
             "SpearAttackPower": 100,
-            "OrbAttackPower": 105,
+            "OrbAttackPower": 66,
             "GauntletAttackPower": 105
           },
           "AttackSpeedModifier": 0,
@@ -30694,7 +30694,7 @@
             "BowAttackPower": 85,
             "WandAttackPower": 63,
             "SpearAttackPower": 101,
-            "OrbAttackPower": 106,
+            "OrbAttackPower": 67,
             "GauntletAttackPower": 106
           },
           "AttackSpeedModifier": 0,
@@ -30773,7 +30773,7 @@
             "BowAttackPower": 86,
             "WandAttackPower": 64,
             "SpearAttackPower": 103,
-            "OrbAttackPower": 108,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 108
           },
           "AttackSpeedModifier": 0,
@@ -30852,7 +30852,7 @@
             "BowAttackPower": 87,
             "WandAttackPower": 65,
             "SpearAttackPower": 104,
-            "OrbAttackPower": 109,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 109
           },
           "AttackSpeedModifier": 0,
@@ -30931,7 +30931,7 @@
             "BowAttackPower": 88,
             "WandAttackPower": 66,
             "SpearAttackPower": 105,
-            "OrbAttackPower": 110,
+            "OrbAttackPower": 69,
             "GauntletAttackPower": 110
           },
           "AttackSpeedModifier": 0,
@@ -31010,7 +31010,7 @@
             "BowAttackPower": 89,
             "WandAttackPower": 67,
             "SpearAttackPower": 107,
-            "OrbAttackPower": 112,
+            "OrbAttackPower": 70,
             "GauntletAttackPower": 112
           },
           "AttackSpeedModifier": 0,
@@ -31089,7 +31089,7 @@
             "BowAttackPower": 90,
             "WandAttackPower": 68,
             "SpearAttackPower": 108,
-            "OrbAttackPower": 113,
+            "OrbAttackPower": 71,
             "GauntletAttackPower": 113
           },
           "AttackSpeedModifier": 0,
@@ -31168,7 +31168,7 @@
             "BowAttackPower": 91,
             "WandAttackPower": 68,
             "SpearAttackPower": 109,
-            "OrbAttackPower": 114,
+            "OrbAttackPower": 72,
             "GauntletAttackPower": 114
           },
           "AttackSpeedModifier": 0,
@@ -31247,7 +31247,7 @@
             "BowAttackPower": 92,
             "WandAttackPower": 69,
             "SpearAttackPower": 110,
-            "OrbAttackPower": 116,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 116
           },
           "AttackSpeedModifier": 0,
@@ -31326,7 +31326,7 @@
             "BowAttackPower": 93,
             "WandAttackPower": 70,
             "SpearAttackPower": 112,
-            "OrbAttackPower": 117,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 117
           },
           "AttackSpeedModifier": 0,
@@ -31405,7 +31405,7 @@
             "BowAttackPower": 95,
             "WandAttackPower": 71,
             "SpearAttackPower": 113,
-            "OrbAttackPower": 118,
+            "OrbAttackPower": 74,
             "GauntletAttackPower": 118
           },
           "AttackSpeedModifier": 0,
@@ -31484,7 +31484,7 @@
             "BowAttackPower": 96,
             "WandAttackPower": 72,
             "SpearAttackPower": 114,
-            "OrbAttackPower": 120,
+            "OrbAttackPower": 75,
             "GauntletAttackPower": 120
           },
           "AttackSpeedModifier": 0,
@@ -31563,7 +31563,7 @@
             "BowAttackPower": 97,
             "WandAttackPower": 72,
             "SpearAttackPower": 116,
-            "OrbAttackPower": 121,
+            "OrbAttackPower": 76,
             "GauntletAttackPower": 121
           },
           "AttackSpeedModifier": 0,
@@ -32432,7 +32432,7 @@
             "BowAttackPower": 1,
             "WandAttackPower": 0,
             "SpearAttackPower": 1,
-            "OrbAttackPower": 1,
+            "OrbAttackPower": 0,
             "GauntletAttackPower": 1
           },
           "AttackSpeedModifier": 0,
@@ -32511,7 +32511,7 @@
             "BowAttackPower": 2,
             "WandAttackPower": 1,
             "SpearAttackPower": 2,
-            "OrbAttackPower": 2,
+            "OrbAttackPower": 1,
             "GauntletAttackPower": 2
           },
           "AttackSpeedModifier": 0,
@@ -32590,7 +32590,7 @@
             "BowAttackPower": 3,
             "WandAttackPower": 2,
             "SpearAttackPower": 3,
-            "OrbAttackPower": 4,
+            "OrbAttackPower": 2,
             "GauntletAttackPower": 4
           },
           "AttackSpeedModifier": 0,
@@ -32669,7 +32669,7 @@
             "BowAttackPower": 4,
             "WandAttackPower": 3,
             "SpearAttackPower": 5,
-            "OrbAttackPower": 5,
+            "OrbAttackPower": 3,
             "GauntletAttackPower": 5
           },
           "AttackSpeedModifier": 0,
@@ -32748,7 +32748,7 @@
             "BowAttackPower": 5,
             "WandAttackPower": 4,
             "SpearAttackPower": 6,
-            "OrbAttackPower": 6,
+            "OrbAttackPower": 4,
             "GauntletAttackPower": 6
           },
           "AttackSpeedModifier": 0,
@@ -32827,7 +32827,7 @@
             "BowAttackPower": 6,
             "WandAttackPower": 4,
             "SpearAttackPower": 7,
-            "OrbAttackPower": 8,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 8
           },
           "AttackSpeedModifier": 0,
@@ -32906,7 +32906,7 @@
             "BowAttackPower": 7,
             "WandAttackPower": 5,
             "SpearAttackPower": 9,
-            "OrbAttackPower": 9,
+            "OrbAttackPower": 5,
             "GauntletAttackPower": 9
           },
           "AttackSpeedModifier": 0,
@@ -32985,7 +32985,7 @@
             "BowAttackPower": 8,
             "WandAttackPower": 6,
             "SpearAttackPower": 10,
-            "OrbAttackPower": 10,
+            "OrbAttackPower": 6,
             "GauntletAttackPower": 10
           },
           "AttackSpeedModifier": 0,
@@ -33064,7 +33064,7 @@
             "BowAttackPower": 9,
             "WandAttackPower": 7,
             "SpearAttackPower": 11,
-            "OrbAttackPower": 12,
+            "OrbAttackPower": 7,
             "GauntletAttackPower": 12
           },
           "AttackSpeedModifier": 0,
@@ -33143,7 +33143,7 @@
             "BowAttackPower": 10,
             "WandAttackPower": 8,
             "SpearAttackPower": 12,
-            "OrbAttackPower": 13,
+            "OrbAttackPower": 8,
             "GauntletAttackPower": 13
           },
           "AttackSpeedModifier": 0,
@@ -33222,7 +33222,7 @@
             "BowAttackPower": 11,
             "WandAttackPower": 8,
             "SpearAttackPower": 14,
-            "OrbAttackPower": 14,
+            "OrbAttackPower": 9,
             "GauntletAttackPower": 14
           },
           "AttackSpeedModifier": 0,
@@ -33301,7 +33301,7 @@
             "BowAttackPower": 12,
             "WandAttackPower": 9,
             "SpearAttackPower": 15,
-            "OrbAttackPower": 16,
+            "OrbAttackPower": 10,
             "GauntletAttackPower": 16
           },
           "AttackSpeedModifier": 0,
@@ -33380,7 +33380,7 @@
             "BowAttackPower": 14,
             "WandAttackPower": 10,
             "SpearAttackPower": 16,
-            "OrbAttackPower": 17,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 17
           },
           "AttackSpeedModifier": 0,
@@ -33459,7 +33459,7 @@
             "BowAttackPower": 15,
             "WandAttackPower": 11,
             "SpearAttackPower": 18,
-            "OrbAttackPower": 18,
+            "OrbAttackPower": 11,
             "GauntletAttackPower": 18
           },
           "AttackSpeedModifier": 0,
@@ -33538,7 +33538,7 @@
             "BowAttackPower": 16,
             "WandAttackPower": 12,
             "SpearAttackPower": 19,
-            "OrbAttackPower": 20,
+            "OrbAttackPower": 12,
             "GauntletAttackPower": 20
           },
           "AttackSpeedModifier": 0,
@@ -33617,7 +33617,7 @@
             "BowAttackPower": 17,
             "WandAttackPower": 12,
             "SpearAttackPower": 20,
-            "OrbAttackPower": 21,
+            "OrbAttackPower": 13,
             "GauntletAttackPower": 21
           },
           "AttackSpeedModifier": 0,
@@ -33696,7 +33696,7 @@
             "BowAttackPower": 18,
             "WandAttackPower": 13,
             "SpearAttackPower": 21,
-            "OrbAttackPower": 22,
+            "OrbAttackPower": 14,
             "GauntletAttackPower": 22
           },
           "AttackSpeedModifier": 0,
@@ -33775,7 +33775,7 @@
             "BowAttackPower": 19,
             "WandAttackPower": 14,
             "SpearAttackPower": 23,
-            "OrbAttackPower": 24,
+            "OrbAttackPower": 15,
             "GauntletAttackPower": 24
           },
           "AttackSpeedModifier": 0,
@@ -33854,7 +33854,7 @@
             "BowAttackPower": 20,
             "WandAttackPower": 15,
             "SpearAttackPower": 24,
-            "OrbAttackPower": 25,
+            "OrbAttackPower": 16,
             "GauntletAttackPower": 25
           },
           "AttackSpeedModifier": 0,
@@ -33933,7 +33933,7 @@
             "BowAttackPower": 21,
             "WandAttackPower": 16,
             "SpearAttackPower": 25,
-            "OrbAttackPower": 27,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 27
           },
           "AttackSpeedModifier": 0,
@@ -34012,7 +34012,7 @@
             "BowAttackPower": 22,
             "WandAttackPower": 17,
             "SpearAttackPower": 27,
-            "OrbAttackPower": 28,
+            "OrbAttackPower": 17,
             "GauntletAttackPower": 28
           },
           "AttackSpeedModifier": 0,
@@ -34091,7 +34091,7 @@
             "BowAttackPower": 23,
             "WandAttackPower": 17,
             "SpearAttackPower": 28,
-            "OrbAttackPower": 29,
+            "OrbAttackPower": 18,
             "GauntletAttackPower": 29
           },
           "AttackSpeedModifier": 0,
@@ -34170,7 +34170,7 @@
             "BowAttackPower": 24,
             "WandAttackPower": 18,
             "SpearAttackPower": 29,
-            "OrbAttackPower": 31,
+            "OrbAttackPower": 19,
             "GauntletAttackPower": 31
           },
           "AttackSpeedModifier": 0,
@@ -34249,7 +34249,7 @@
             "BowAttackPower": 25,
             "WandAttackPower": 19,
             "SpearAttackPower": 30,
-            "OrbAttackPower": 32,
+            "OrbAttackPower": 20,
             "GauntletAttackPower": 32
           },
           "AttackSpeedModifier": 0,
@@ -34328,7 +34328,7 @@
             "BowAttackPower": 27,
             "WandAttackPower": 20,
             "SpearAttackPower": 32,
-            "OrbAttackPower": 33,
+            "OrbAttackPower": 21,
             "GauntletAttackPower": 33
           },
           "AttackSpeedModifier": 0,
@@ -34407,7 +34407,7 @@
             "BowAttackPower": 28,
             "WandAttackPower": 21,
             "SpearAttackPower": 33,
-            "OrbAttackPower": 35,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 35
           },
           "AttackSpeedModifier": 0,
@@ -34486,7 +34486,7 @@
             "BowAttackPower": 29,
             "WandAttackPower": 21,
             "SpearAttackPower": 34,
-            "OrbAttackPower": 36,
+            "OrbAttackPower": 22,
             "GauntletAttackPower": 36
           },
           "AttackSpeedModifier": 0,
@@ -34565,7 +34565,7 @@
             "BowAttackPower": 30,
             "WandAttackPower": 22,
             "SpearAttackPower": 36,
-            "OrbAttackPower": 37,
+            "OrbAttackPower": 23,
             "GauntletAttackPower": 37
           },
           "AttackSpeedModifier": 0,
@@ -34644,7 +34644,7 @@
             "BowAttackPower": 31,
             "WandAttackPower": 23,
             "SpearAttackPower": 37,
-            "OrbAttackPower": 39,
+            "OrbAttackPower": 24,
             "GauntletAttackPower": 39
           },
           "AttackSpeedModifier": 0,
@@ -34723,7 +34723,7 @@
             "BowAttackPower": 32,
             "WandAttackPower": 24,
             "SpearAttackPower": 38,
-            "OrbAttackPower": 40,
+            "OrbAttackPower": 25,
             "GauntletAttackPower": 40
           },
           "AttackSpeedModifier": 0,
@@ -34802,7 +34802,7 @@
             "BowAttackPower": 33,
             "WandAttackPower": 25,
             "SpearAttackPower": 39,
-            "OrbAttackPower": 41,
+            "OrbAttackPower": 26,
             "GauntletAttackPower": 41
           },
           "AttackSpeedModifier": 0,
@@ -34881,7 +34881,7 @@
             "BowAttackPower": 34,
             "WandAttackPower": 25,
             "SpearAttackPower": 41,
-            "OrbAttackPower": 43,
+            "OrbAttackPower": 27,
             "GauntletAttackPower": 43
           },
           "AttackSpeedModifier": 0,
@@ -34960,7 +34960,7 @@
             "BowAttackPower": 35,
             "WandAttackPower": 26,
             "SpearAttackPower": 42,
-            "OrbAttackPower": 44,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 44
           },
           "AttackSpeedModifier": 0,
@@ -35039,7 +35039,7 @@
             "BowAttackPower": 36,
             "WandAttackPower": 27,
             "SpearAttackPower": 43,
-            "OrbAttackPower": 45,
+            "OrbAttackPower": 28,
             "GauntletAttackPower": 45
           },
           "AttackSpeedModifier": 0,
@@ -35118,7 +35118,7 @@
             "BowAttackPower": 37,
             "WandAttackPower": 28,
             "SpearAttackPower": 45,
-            "OrbAttackPower": 47,
+            "OrbAttackPower": 29,
             "GauntletAttackPower": 47
           },
           "AttackSpeedModifier": 0,
@@ -35197,7 +35197,7 @@
             "BowAttackPower": 38,
             "WandAttackPower": 29,
             "SpearAttackPower": 46,
-            "OrbAttackPower": 48,
+            "OrbAttackPower": 30,
             "GauntletAttackPower": 48
           },
           "AttackSpeedModifier": 0,
@@ -35276,7 +35276,7 @@
             "BowAttackPower": 39,
             "WandAttackPower": 29,
             "SpearAttackPower": 47,
-            "OrbAttackPower": 49,
+            "OrbAttackPower": 31,
             "GauntletAttackPower": 49
           },
           "AttackSpeedModifier": 0,
@@ -35355,7 +35355,7 @@
             "BowAttackPower": 41,
             "WandAttackPower": 30,
             "SpearAttackPower": 49,
-            "OrbAttackPower": 51,
+            "OrbAttackPower": 32,
             "GauntletAttackPower": 51
           },
           "AttackSpeedModifier": 0,
@@ -35434,7 +35434,7 @@
             "BowAttackPower": 42,
             "WandAttackPower": 31,
             "SpearAttackPower": 50,
-            "OrbAttackPower": 52,
+            "OrbAttackPower": 33,
             "GauntletAttackPower": 52
           },
           "AttackSpeedModifier": 0,
@@ -35513,7 +35513,7 @@
             "BowAttackPower": 43,
             "WandAttackPower": 32,
             "SpearAttackPower": 51,
-            "OrbAttackPower": 54,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 54
           },
           "AttackSpeedModifier": 0,
@@ -35592,7 +35592,7 @@
             "BowAttackPower": 44,
             "WandAttackPower": 33,
             "SpearAttackPower": 52,
-            "OrbAttackPower": 55,
+            "OrbAttackPower": 34,
             "GauntletAttackPower": 55
           },
           "AttackSpeedModifier": 0,
@@ -35671,7 +35671,7 @@
             "BowAttackPower": 45,
             "WandAttackPower": 34,
             "SpearAttackPower": 54,
-            "OrbAttackPower": 56,
+            "OrbAttackPower": 35,
             "GauntletAttackPower": 56
           },
           "AttackSpeedModifier": 0,
@@ -35750,7 +35750,7 @@
             "BowAttackPower": 46,
             "WandAttackPower": 34,
             "SpearAttackPower": 55,
-            "OrbAttackPower": 58,
+            "OrbAttackPower": 36,
             "GauntletAttackPower": 58
           },
           "AttackSpeedModifier": 0,
@@ -35829,7 +35829,7 @@
             "BowAttackPower": 47,
             "WandAttackPower": 35,
             "SpearAttackPower": 56,
-            "OrbAttackPower": 59,
+            "OrbAttackPower": 37,
             "GauntletAttackPower": 59
           },
           "AttackSpeedModifier": 0,
@@ -35908,7 +35908,7 @@
             "BowAttackPower": 48,
             "WandAttackPower": 36,
             "SpearAttackPower": 58,
-            "OrbAttackPower": 60,
+            "OrbAttackPower": 38,
             "GauntletAttackPower": 60
           },
           "AttackSpeedModifier": 0,
@@ -35987,7 +35987,7 @@
             "BowAttackPower": 49,
             "WandAttackPower": 37,
             "SpearAttackPower": 59,
-            "OrbAttackPower": 62,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 62
           },
           "AttackSpeedModifier": 0,
@@ -36066,7 +36066,7 @@
             "BowAttackPower": 50,
             "WandAttackPower": 38,
             "SpearAttackPower": 60,
-            "OrbAttackPower": 63,
+            "OrbAttackPower": 39,
             "GauntletAttackPower": 63
           },
           "AttackSpeedModifier": 0,
@@ -36145,7 +36145,7 @@
             "BowAttackPower": 51,
             "WandAttackPower": 38,
             "SpearAttackPower": 61,
-            "OrbAttackPower": 64,
+            "OrbAttackPower": 40,
             "GauntletAttackPower": 64
           },
           "AttackSpeedModifier": 0,
@@ -36224,7 +36224,7 @@
             "BowAttackPower": 52,
             "WandAttackPower": 39,
             "SpearAttackPower": 63,
-            "OrbAttackPower": 66,
+            "OrbAttackPower": 41,
             "GauntletAttackPower": 66
           },
           "AttackSpeedModifier": 0,
@@ -36303,7 +36303,7 @@
             "BowAttackPower": 54,
             "WandAttackPower": 40,
             "SpearAttackPower": 64,
-            "OrbAttackPower": 67,
+            "OrbAttackPower": 42,
             "GauntletAttackPower": 67
           },
           "AttackSpeedModifier": 0,
@@ -36382,7 +36382,7 @@
             "BowAttackPower": 55,
             "WandAttackPower": 41,
             "SpearAttackPower": 65,
-            "OrbAttackPower": 68,
+            "OrbAttackPower": 43,
             "GauntletAttackPower": 68
           },
           "AttackSpeedModifier": 0,
@@ -36461,7 +36461,7 @@
             "BowAttackPower": 56,
             "WandAttackPower": 42,
             "SpearAttackPower": 67,
-            "OrbAttackPower": 70,
+            "OrbAttackPower": 44,
             "GauntletAttackPower": 70
           },
           "AttackSpeedModifier": 0,
@@ -36540,7 +36540,7 @@
             "BowAttackPower": 57,
             "WandAttackPower": 42,
             "SpearAttackPower": 68,
-            "OrbAttackPower": 71,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 71
           },
           "AttackSpeedModifier": 0,
@@ -36619,7 +36619,7 @@
             "BowAttackPower": 58,
             "WandAttackPower": 43,
             "SpearAttackPower": 69,
-            "OrbAttackPower": 72,
+            "OrbAttackPower": 45,
             "GauntletAttackPower": 72
           },
           "AttackSpeedModifier": 0,
@@ -36698,7 +36698,7 @@
             "BowAttackPower": 59,
             "WandAttackPower": 44,
             "SpearAttackPower": 70,
-            "OrbAttackPower": 74,
+            "OrbAttackPower": 46,
             "GauntletAttackPower": 74
           },
           "AttackSpeedModifier": 0,
@@ -36777,7 +36777,7 @@
             "BowAttackPower": 60,
             "WandAttackPower": 45,
             "SpearAttackPower": 72,
-            "OrbAttackPower": 75,
+            "OrbAttackPower": 47,
             "GauntletAttackPower": 75
           },
           "AttackSpeedModifier": 0,
@@ -36856,7 +36856,7 @@
             "BowAttackPower": 61,
             "WandAttackPower": 46,
             "SpearAttackPower": 73,
-            "OrbAttackPower": 76,
+            "OrbAttackPower": 48,
             "GauntletAttackPower": 76
           },
           "AttackSpeedModifier": 0,
@@ -36935,7 +36935,7 @@
             "BowAttackPower": 62,
             "WandAttackPower": 46,
             "SpearAttackPower": 74,
-            "OrbAttackPower": 78,
+            "OrbAttackPower": 49,
             "GauntletAttackPower": 78
           },
           "AttackSpeedModifier": 0,
@@ -37014,7 +37014,7 @@
             "BowAttackPower": 63,
             "WandAttackPower": 47,
             "SpearAttackPower": 76,
-            "OrbAttackPower": 79,
+            "OrbAttackPower": 50,
             "GauntletAttackPower": 79
           },
           "AttackSpeedModifier": 0,
@@ -37093,7 +37093,7 @@
             "BowAttackPower": 64,
             "WandAttackPower": 48,
             "SpearAttackPower": 77,
-            "OrbAttackPower": 81,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 81
           },
           "AttackSpeedModifier": 0,
@@ -37172,7 +37172,7 @@
             "BowAttackPower": 65,
             "WandAttackPower": 49,
             "SpearAttackPower": 78,
-            "OrbAttackPower": 82,
+            "OrbAttackPower": 51,
             "GauntletAttackPower": 82
           },
           "AttackSpeedModifier": 0,
@@ -37251,7 +37251,7 @@
             "BowAttackPower": 66,
             "WandAttackPower": 50,
             "SpearAttackPower": 79,
-            "OrbAttackPower": 83,
+            "OrbAttackPower": 52,
             "GauntletAttackPower": 83
           },
           "AttackSpeedModifier": 0,
@@ -37330,7 +37330,7 @@
             "BowAttackPower": 68,
             "WandAttackPower": 51,
             "SpearAttackPower": 81,
-            "OrbAttackPower": 85,
+            "OrbAttackPower": 53,
             "GauntletAttackPower": 85
           },
           "AttackSpeedModifier": 0,
@@ -37409,7 +37409,7 @@
             "BowAttackPower": 69,
             "WandAttackPower": 51,
             "SpearAttackPower": 82,
-            "OrbAttackPower": 86,
+            "OrbAttackPower": 54,
             "GauntletAttackPower": 86
           },
           "AttackSpeedModifier": 0,
@@ -37488,7 +37488,7 @@
             "BowAttackPower": 70,
             "WandAttackPower": 52,
             "SpearAttackPower": 83,
-            "OrbAttackPower": 87,
+            "OrbAttackPower": 55,
             "GauntletAttackPower": 87
           },
           "AttackSpeedModifier": 0,
@@ -37567,7 +37567,7 @@
             "BowAttackPower": 71,
             "WandAttackPower": 53,
             "SpearAttackPower": 85,
-            "OrbAttackPower": 89,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 89
           },
           "AttackSpeedModifier": 0,
@@ -37646,7 +37646,7 @@
             "BowAttackPower": 72,
             "WandAttackPower": 54,
             "SpearAttackPower": 86,
-            "OrbAttackPower": 90,
+            "OrbAttackPower": 56,
             "GauntletAttackPower": 90
           },
           "AttackSpeedModifier": 0,
@@ -37725,7 +37725,7 @@
             "BowAttackPower": 73,
             "WandAttackPower": 55,
             "SpearAttackPower": 87,
-            "OrbAttackPower": 91,
+            "OrbAttackPower": 57,
             "GauntletAttackPower": 91
           },
           "AttackSpeedModifier": 0,
@@ -37804,7 +37804,7 @@
             "BowAttackPower": 74,
             "WandAttackPower": 55,
             "SpearAttackPower": 89,
-            "OrbAttackPower": 93,
+            "OrbAttackPower": 58,
             "GauntletAttackPower": 93
           },
           "AttackSpeedModifier": 0,
@@ -37883,7 +37883,7 @@
             "BowAttackPower": 75,
             "WandAttackPower": 56,
             "SpearAttackPower": 90,
-            "OrbAttackPower": 94,
+            "OrbAttackPower": 59,
             "GauntletAttackPower": 94
           },
           "AttackSpeedModifier": 0,
@@ -37962,7 +37962,7 @@
             "BowAttackPower": 76,
             "WandAttackPower": 57,
             "SpearAttackPower": 91,
-            "OrbAttackPower": 95,
+            "OrbAttackPower": 60,
             "GauntletAttackPower": 95
           },
           "AttackSpeedModifier": 0,
@@ -38041,7 +38041,7 @@
             "BowAttackPower": 77,
             "WandAttackPower": 58,
             "SpearAttackPower": 92,
-            "OrbAttackPower": 97,
+            "OrbAttackPower": 61,
             "GauntletAttackPower": 97
           },
           "AttackSpeedModifier": 0,
@@ -38120,7 +38120,7 @@
             "BowAttackPower": 78,
             "WandAttackPower": 59,
             "SpearAttackPower": 94,
-            "OrbAttackPower": 98,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 98
           },
           "AttackSpeedModifier": 0,
@@ -38199,7 +38199,7 @@
             "BowAttackPower": 79,
             "WandAttackPower": 59,
             "SpearAttackPower": 95,
-            "OrbAttackPower": 99,
+            "OrbAttackPower": 62,
             "GauntletAttackPower": 99
           },
           "AttackSpeedModifier": 0,
@@ -38278,7 +38278,7 @@
             "BowAttackPower": 81,
             "WandAttackPower": 60,
             "SpearAttackPower": 96,
-            "OrbAttackPower": 101,
+            "OrbAttackPower": 63,
             "GauntletAttackPower": 101
           },
           "AttackSpeedModifier": 0,
@@ -38357,7 +38357,7 @@
             "BowAttackPower": 82,
             "WandAttackPower": 61,
             "SpearAttackPower": 98,
-            "OrbAttackPower": 102,
+            "OrbAttackPower": 64,
             "GauntletAttackPower": 102
           },
           "AttackSpeedModifier": 0,
@@ -38436,7 +38436,7 @@
             "BowAttackPower": 83,
             "WandAttackPower": 62,
             "SpearAttackPower": 99,
-            "OrbAttackPower": 103,
+            "OrbAttackPower": 65,
             "GauntletAttackPower": 103
           },
           "AttackSpeedModifier": 0,
@@ -38515,7 +38515,7 @@
             "BowAttackPower": 84,
             "WandAttackPower": 63,
             "SpearAttackPower": 100,
-            "OrbAttackPower": 105,
+            "OrbAttackPower": 66,
             "GauntletAttackPower": 105
           },
           "AttackSpeedModifier": 0,
@@ -38594,7 +38594,7 @@
             "BowAttackPower": 85,
             "WandAttackPower": 63,
             "SpearAttackPower": 101,
-            "OrbAttackPower": 106,
+            "OrbAttackPower": 67,
             "GauntletAttackPower": 106
           },
           "AttackSpeedModifier": 0,
@@ -38673,7 +38673,7 @@
             "BowAttackPower": 86,
             "WandAttackPower": 64,
             "SpearAttackPower": 103,
-            "OrbAttackPower": 108,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 108
           },
           "AttackSpeedModifier": 0,
@@ -38752,7 +38752,7 @@
             "BowAttackPower": 87,
             "WandAttackPower": 65,
             "SpearAttackPower": 104,
-            "OrbAttackPower": 109,
+            "OrbAttackPower": 68,
             "GauntletAttackPower": 109
           },
           "AttackSpeedModifier": 0,
@@ -38831,7 +38831,7 @@
             "BowAttackPower": 88,
             "WandAttackPower": 66,
             "SpearAttackPower": 105,
-            "OrbAttackPower": 110,
+            "OrbAttackPower": 69,
             "GauntletAttackPower": 110
           },
           "AttackSpeedModifier": 0,
@@ -38910,7 +38910,7 @@
             "BowAttackPower": 89,
             "WandAttackPower": 67,
             "SpearAttackPower": 107,
-            "OrbAttackPower": 112,
+            "OrbAttackPower": 70,
             "GauntletAttackPower": 112
           },
           "AttackSpeedModifier": 0,
@@ -38989,7 +38989,7 @@
             "BowAttackPower": 90,
             "WandAttackPower": 68,
             "SpearAttackPower": 108,
-            "OrbAttackPower": 113,
+            "OrbAttackPower": 71,
             "GauntletAttackPower": 113
           },
           "AttackSpeedModifier": 0,
@@ -39068,7 +39068,7 @@
             "BowAttackPower": 91,
             "WandAttackPower": 68,
             "SpearAttackPower": 109,
-            "OrbAttackPower": 114,
+            "OrbAttackPower": 72,
             "GauntletAttackPower": 114
           },
           "AttackSpeedModifier": 0,
@@ -39147,7 +39147,7 @@
             "BowAttackPower": 92,
             "WandAttackPower": 69,
             "SpearAttackPower": 110,
-            "OrbAttackPower": 116,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 116
           },
           "AttackSpeedModifier": 0,
@@ -39226,7 +39226,7 @@
             "BowAttackPower": 93,
             "WandAttackPower": 70,
             "SpearAttackPower": 112,
-            "OrbAttackPower": 117,
+            "OrbAttackPower": 73,
             "GauntletAttackPower": 117
           },
           "AttackSpeedModifier": 0,
@@ -39305,7 +39305,7 @@
             "BowAttackPower": 95,
             "WandAttackPower": 71,
             "SpearAttackPower": 113,
-            "OrbAttackPower": 118,
+            "OrbAttackPower": 74,
             "GauntletAttackPower": 118
           },
           "AttackSpeedModifier": 0,
@@ -39384,7 +39384,7 @@
             "BowAttackPower": 96,
             "WandAttackPower": 72,
             "SpearAttackPower": 114,
-            "OrbAttackPower": 120,
+            "OrbAttackPower": 75,
             "GauntletAttackPower": 120
           },
           "AttackSpeedModifier": 0,
@@ -39463,7 +39463,7 @@
             "BowAttackPower": 97,
             "WandAttackPower": 72,
             "SpearAttackPower": 116,
-            "OrbAttackPower": 121,
+            "OrbAttackPower": 76,
             "GauntletAttackPower": 121
           },
           "AttackSpeedModifier": 0,

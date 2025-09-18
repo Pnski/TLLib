@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLSkillLooks_L07_01",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLInfoSkillLooks'",
@@ -43244,6 +43244,2112 @@
             },
             "UpperBound": {
               "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Absorption_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Absorption.AT_Skill_DeathBringer_Absorption",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_AreaSlash_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_AreaSlash.AT_Skill_DeathBringer_AreaSlash",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -35.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -30.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 110.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 115.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Blink_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Blink.AT_Skill_DeathBringer_Blink",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -40.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -35.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 115.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 120.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_DeathSentence_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Death.AT_Skill_DeathBringer_Death",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Death_Projectile.AT_Skill_DeathBringer_Death_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Execution_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_BlinkSlash2.AT_Skill_DeathBringer_BlinkSlash2",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Penalty_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Penalty.AT_Skill_DeathBringer_Penalty",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.5,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Notify_1000_forAll.AT_Common_Counter_Move_Notify_1000_forAll",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Prepare_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Prepare.AT_Skill_DeathBringer_Prepare",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Sacrifice_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Sacrifice.AT_Skill_DeathBringer_Sacrifice",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 1.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Notify_1000_forAll.AT_Common_Counter_Move_Notify_1000_forAll",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Slash1_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Slash1.AT_Skill_DeathBringer_Slash1",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_DeathBringer_Slash2_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Death/M_Death_Bringer/AT_Skill_DeathBringer_Slash2.AT_Skill_DeathBringer_Slash2",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_AntiKingArmySoulMage_ForceArea_INS_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/AntiKingArmy/M_AntiKingArmySoul_SoulMage/AT_Skill_AntiKingArmySoulMage_ForceArea_INS.AT_Skill_AntiKingArmySoulMage_ForceArea_INS",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::PartyMember"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_CombatStart_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_CombatStart.AT_Skill_GiantAntErzabe_CombatStart",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_GemPowder_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_Takeoff.AT_Skill_GiantAntErzabe_Takeoff",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_HoveringEffect_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_HoveringEffect.AT_Skill_GiantAntErzabe_HoveringEffect",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Effect_GiantAntErzabe_HoveringEffect_Projectile.AT_Effect_GiantAntErzabe_HoveringEffect_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_Landing_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_Landing.AT_Skill_GiantAntErzabe_Landing",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_MagicBombA_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_MagicBombA.AT_Skill_GiantAntErzabe_MagicBombA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Effect_GiantAntErzabe_MagicBombA_Projectile.AT_Effect_GiantAntErzabe_MagicBombA_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_ManaExplosion_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_ManaExplosion.AT_Skill_GiantAntErzabe_ManaExplosion",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_Rage_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_Rage.AT_Skill_GiantAntErzabe_Rage",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_Summon_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_Summon.AT_Skill_GiantAntErzabe_Summon",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Effect_GiantAntErzabe_Summon_Projectile.AT_Effect_GiantAntErzabe_Summon_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_SwingA_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_SwingA.AT_Skill_GiantAntErzabe_SwingA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_SwingB_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_SwingB.AT_Skill_GiantAntErzabe_SwingB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.6,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Notify_1000_forAll.AT_Common_Counter_Move_Notify_1000_forAll",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_Takeoff_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_Takeoff.AT_Skill_GiantAntErzabe_Takeoff",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_TripleSwing_G3_M_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_TripleSwing_G3.AT_Skill_GiantAntErzabe_TripleSwing_G3",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_GiantAntErzabe_TripleSwing_G3_R_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Skill_GiantAntErzabe_TripleSwing_G3.AT_Skill_GiantAntErzabe_TripleSwing_G3",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/GiantAnt/M_GiantAnt_Erzabe/AT_Effect_GiantAntErzabe_TripleSwing_Projectile.AT_Effect_GiantAntErzabe_TripleSwing_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnRightToLeft",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_ZombieDogS100A_RabiesBite_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Undead/Zombie/M_Zombie_Dog_S100A/AT_Skill_ZombieDogS100A_RabiesBite.AT_Skill_ZombieDogS100A_RabiesBite",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.75,
+          "SkillNotifyAT": {
+            "AssetPathName": "/Game/ActionTree/Common/AT_Common_Counter_Move_Notify_1000.AT_Common_Counter_Move_Notify_1000",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::MyPc"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_ChimeraKimerKing_LeapAttack_Growth": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Animal/Chimera/KimerKing/AT_Skill_KimerKing_LeapAttack.AT_Skill_KimerKing_LeapAttack",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 10.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 10.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
               "Value": 0.0
             }
           }

@@ -14,7 +14,7 @@
       "GlobalItemSettings": {
         "DefaultRuneSocketOpenItemId": "gold",
         "RuneProbabilityURL": "https://probability.plaync.com/tl/view?probCategoryId=6719d774f12e865848e0e542",
-        "RuneGrowthScreenMessageLevel": 70,
+        "RuneGrowthScreenMessageLevel": 100,
         "RuneInfoSettings": {
           "MaxChaosRuneCount": 100,
           "RuneCombatPowerIds": [
@@ -315,6 +315,126 @@
             {
               "Key": "89",
               "Value": 2560
+            },
+            {
+              "Key": "90",
+              "Value": 2560
+            },
+            {
+              "Key": "91",
+              "Value": 2560
+            },
+            {
+              "Key": "92",
+              "Value": 2560
+            },
+            {
+              "Key": "93",
+              "Value": 2560
+            },
+            {
+              "Key": "94",
+              "Value": 2560
+            },
+            {
+              "Key": "95",
+              "Value": 2560
+            },
+            {
+              "Key": "96",
+              "Value": 2560
+            },
+            {
+              "Key": "97",
+              "Value": 2560
+            },
+            {
+              "Key": "98",
+              "Value": 2560
+            },
+            {
+              "Key": "99",
+              "Value": 2560
+            },
+            {
+              "Key": "100",
+              "Value": 12800
+            },
+            {
+              "Key": "101",
+              "Value": 12800
+            },
+            {
+              "Key": "102",
+              "Value": 12800
+            },
+            {
+              "Key": "103",
+              "Value": 12800
+            },
+            {
+              "Key": "104",
+              "Value": 12800
+            },
+            {
+              "Key": "105",
+              "Value": 12800
+            },
+            {
+              "Key": "106",
+              "Value": 12800
+            },
+            {
+              "Key": "107",
+              "Value": 12800
+            },
+            {
+              "Key": "108",
+              "Value": 12800
+            },
+            {
+              "Key": "109",
+              "Value": 12800
+            },
+            {
+              "Key": "110",
+              "Value": 12800
+            },
+            {
+              "Key": "111",
+              "Value": 12800
+            },
+            {
+              "Key": "112",
+              "Value": 12800
+            },
+            {
+              "Key": "113",
+              "Value": 12800
+            },
+            {
+              "Key": "114",
+              "Value": 12800
+            },
+            {
+              "Key": "115",
+              "Value": 12800
+            },
+            {
+              "Key": "116",
+              "Value": 12800
+            },
+            {
+              "Key": "117",
+              "Value": 12800
+            },
+            {
+              "Key": "118",
+              "Value": 12800
+            },
+            {
+              "Key": "119",
+              "Value": 12800
             }
           ],
           "RuneFailureValueFromGrade": [
@@ -333,6 +453,10 @@
             {
               "Key": "EItemGrade::kAA",
               "Value": 160
+            },
+            {
+              "Key": "EItemGrade::kAA2",
+              "Value": 220
             }
           ]
         },
@@ -424,6 +548,17 @@
                               }
                             ]
                           }
+                        },
+                        {
+                          "Key": "EItemGrade::kAA3",
+                          "Value": {
+                            "PointList": [
+                              {
+                                "EnchantLevel": 0,
+                                "Point": 8000
+                              }
+                            ]
+                          }
                         }
                       ]
                     }
@@ -505,6 +640,17 @@
                               {
                                 "EnchantLevel": 0,
                                 "Point": 11
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Key": "EItemGrade::kAA3",
+                          "Value": {
+                            "PointList": [
+                              {
+                                "EnchantLevel": 0,
+                                "Point": 8000
                               }
                             ]
                           }
@@ -592,6 +738,17 @@
                               }
                             ]
                           }
+                        },
+                        {
+                          "Key": "EItemGrade::kAA3",
+                          "Value": {
+                            "PointList": [
+                              {
+                                "EnchantLevel": 0,
+                                "Point": 8000
+                              }
+                            ]
+                          }
                         }
                       ]
                     }
@@ -609,13 +766,35 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 1
+                                "Point": 25
                               }
                             ]
                           }
                         },
                         {
                           "Key": "EItemGrade::kAA",
+                          "Value": {
+                            "PointList": [
+                              {
+                                "EnchantLevel": 0,
+                                "Point": 125
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Key": "EItemGrade::kC",
+                          "Value": {
+                            "PointList": [
+                              {
+                                "EnchantLevel": 0,
+                                "Point": 1
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "Key": "EItemGrade::kB",
                           "Value": {
                             "PointList": [
                               {
@@ -1095,7 +1274,8 @@
           "EItemCategory::kToken",
           "EItemCategory::kFish",
           "EItemCategory::kMaterialFood",
-          "EItemCategory::kHousingDeco"
+          "EItemCategory::kHousingDeco",
+          "EItemCategory::kMaterialMain"
         ],
         "RuneFilterTargetCategories": [],
         "RuneFilterEquipCategories": [
@@ -1174,7 +1354,8 @@
           "EItemGrade::kC",
           "EItemGrade::kB",
           "EItemGrade::kA",
-          "EItemGrade::kAA"
+          "EItemGrade::kAA",
+          "EItemGrade::kAA2"
         ],
         "RuneFilterItemStats": [
           {
@@ -1252,7 +1433,11 @@
               "EItemStats::kHpMax",
               "EItemStats::kHpRegen",
               "EItemStats::kCostMax",
-              "EItemStats::kCostRegen"
+              "EItemStats::kCostRegen",
+              "EItemStats::kContinuousHealModifier",
+              "EItemStats::kContinuousHealTakenModifier",
+              "EItemStats::kShieldModifier",
+              "EItemStats::kShieldTakenModifier"
             ]
           },
           {
@@ -1292,7 +1477,7 @@
             ]
           }
         ],
-        "RuneFilterMaxLevel": 80,
+        "RuneFilterMaxLevel": 120,
         "DisplayedItemGradeInUI": [
           "EItemGrade::kC",
           "EItemGrade::kB",
@@ -1300,6 +1485,7 @@
           "EItemGrade::kA2",
           "EItemGrade::kAA",
           "EItemGrade::kAA2",
+          "EItemGrade::kAA3",
           "EItemGrade::kAAA"
         ],
         "TokenInventoryInfos": [
@@ -1367,6 +1553,10 @@
               },
               {
                 "ItemNameId": "Adventure_Token_T2",
+                "VisibleOnZero": true
+              },
+              {
+                "ItemNameId": "Adventure_Token_T3",
                 "VisibleOnZero": true
               }
             ]
@@ -1494,11 +1684,11 @@
                 "VisibleOnZero": false
               },
               {
-                "ItemNameId": "Arena_coin_001",
+                "ItemNameId": "Arena_coin_002",
                 "VisibleOnZero": true
               },
               {
-                "ItemNameId": "Arena_coin_002",
+                "ItemNameId": "Battle_coin_001",
                 "VisibleOnZero": true
               }
             ]
@@ -1517,6 +1707,24 @@
             "TokenItems": [
               {
                 "ItemNameId": "Raid_stone_01",
+                "VisibleOnZero": true
+              }
+            ]
+          },
+          {
+            "GroupName": {
+              "TableId": "/Game/Game/Client/Table/TLStringItemLooks.TLStringItemLooks",
+              "Key": "TEXT_RES_Token_LifeContents",
+              "SourceString": "생활 주화",
+              "LocalizedString": "Life Coin"
+            },
+            "GroupIconPath": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "TokenItems": [
+              {
+                "ItemNameId": "life_contents_coin_001",
                 "VisibleOnZero": true
               }
             ]
@@ -1975,12 +2183,205 @@
           "LifeBagCategoryList": [
             "EItemCategory::kFish",
             "EItemCategory::kMaterialFood",
-            "EItemCategory::kHousingDeco"
+            "EItemCategory::kHousingDeco",
+            "EItemCategory::kMaterialMain"
           ]
         },
-        "WeaponItemIconSettings": [],
-        "ArmorItemIconSettings": [],
-        "AccessoryItemIconSettings": []
+        "WeaponItemIconSettings": [
+          {
+            "Key": "EWeaponCategory::kGauntlet",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kDagger",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSword2h",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kStaff",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kBow",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kCrossbow",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kWand",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kSpear",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EWeaponCategory::kOrb",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Weapon_Sprite.Tex_Icon_TraitCategory_Weapon_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "ArmorItemIconSettings": [
+          {
+            "Key": "EArmorItemCategory::kCloak",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Cloak_Sprite.Tex_Icon_TraitCategory_Cloak_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EArmorItemCategory::kHead",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Helmet_Sprite.Tex_Icon_TraitCategory_Helmet_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EArmorItemCategory::kChest",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Top_Sprite.Tex_Icon_TraitCategory_Top_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EArmorItemCategory::kHands",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Gloves_Sprite.Tex_Icon_TraitCategory_Gloves_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EArmorItemCategory::kLegs",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Pants_Sprite.Tex_Icon_TraitCategory_Pants_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EArmorItemCategory::kFeet",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Shoes_Sprite.Tex_Icon_TraitCategory_Shoes_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ],
+        "AccessoryItemIconSettings": [
+          {
+            "Key": "EAccessoryItemCategory::kEarring",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Earring_Sprite.Tex_Icon_TraitCategory_Earring_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EAccessoryItemCategory::kNecklace",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Necklace_Sprite.Tex_Icon_TraitCategory_Necklace_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EAccessoryItemCategory::kRing",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Ring_Sprite.Tex_Icon_TraitCategory_Ring_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EAccessoryItemCategory::kBracelet",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Wrist_Sprite.Tex_Icon_TraitCategory_Wrist_Sprite",
+                "SubPathString": ""
+              }
+            }
+          },
+          {
+            "Key": "EAccessoryItemCategory::kBelt",
+            "Value": {
+              "ItemIcon": {
+                "AssetPathName": "/Game/Image/TraitIcon/Tex_Icon_TraitCategory_Belt_Sprite.Tex_Icon_TraitCategory_Belt_Sprite",
+                "SubPathString": ""
+              }
+            }
+          }
+        ]
       }
     }
   }

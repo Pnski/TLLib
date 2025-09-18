@@ -18,24 +18,35 @@
         "GuildCreateCost": {
           "MoneyType": "EMoneyType::kGold",
           "MoneyCost": 30000,
-          "MonarchTeamLevelLimit": 3,
-          "GuildLevelLimit": 0
+          "MonarchTeamLevelLimit": 3
         },
         "GuildChangeEmblemCost": {
           "GuildResourceTableRow": {
             "RowName": "GR_Sollant"
           },
           "Amount": 10000,
-          "MonarchTeamLevelLimit": 0,
-          "GuildLevelLimit": 0
+          "MonarchTeamLevelLimit": 0
         },
         "GuildOccupationCost": {
           "GuildResourceTableRow": {
             "RowName": "GR_Guild_Flag"
           },
           "Amount": 1,
-          "MonarchTeamLevelLimit": 0,
-          "GuildLevelLimit": 0
+          "MonarchTeamLevelLimit": 0
+        },
+        "GuildOccupationProtectCost": {
+          "GuildResourceTableRow": {
+            "RowName": "GR_DungeonStone"
+          },
+          "Amount": 35,
+          "MonarchTeamLevelLimit": 0
+        },
+        "GuildOccupationGiveupCost": {
+          "GuildResourceTableRow": {
+            "RowName": "GR_DungeonStone"
+          },
+          "Amount": 150,
+          "MonarchTeamLevelLimit": 0
         },
         "GuildRejoinWaitTimeSeconds": 129600,
         "GuildRejoinWaitTimeSecondsUnderLevelCap": 0,
@@ -51,6 +62,10 @@
         "PostGuildMasterChangeCompleteUid": 38,
         "PostGuildMasterChangeCancelUid": 39,
         "PostGuildMasterChangeFailUid": 40,
+        "BonusGuildRewardBoxPoint": {
+          "NewBieBenefit": 400.0,
+          "ComeBackBenefit": 400.0
+        },
         "GuildAttackedAlertSendingSeconds": 780,
         "GuildAttackedAlertValidSeconds": 600,
         "GuildAttackedAlertMessageIntervalSec": 15,
@@ -143,7 +158,7 @@
         "GlidingBaseSpeed": 1500.0,
         "ChangeSwimAnimHeight_Enter": 0.5,
         "ChangeSwimAnimHeight_Leave": 0.4,
-        "ContentsDailyResetHourUTC": 21,
+        "ContentsDailyResetHourUTC": 1,
         "ContentsWeeklyResetDayOfWeek": "EDayOfWeekScheme::Tuesday",
         "ContentsMonthlyResetDate": 1,
         "DungeonPointInitialGiftPercent": 20,
@@ -355,11 +370,19 @@
         "PcRelationshipFriendMaxCount": 50,
         "PcRelationshipFavoriteRegisteredMaxCount": 200,
         "PcRelationshipUnFavoriteRegisteredMaxCount": 200,
+        "PcRelationshipHousingWhitelistMaxCount": 20,
+        "PcRelationshipHousingWhitelistRegisteredMaxCount": 200,
         "FriendInviteMaxCount": 20,
         "FriendInviteWaitTimeSeconds": 3600,
         "OccupationContributionRegionPercent": 25,
         "OccupationContributionBossPercent": 25,
-        "OccupationProtectDurationSecond": 14400,
+        "OccupationDungeonStoneProtectDurationMinute": 480,
+        "OccupationDungeonStoneProtectSkill": {
+          "RowName": "Skill_Guild_DungeonStone_Protect"
+        },
+        "OccupationDungeonStoneGiveUpSkill": {
+          "RowName": "Skill_Guild_DungeonStone_Waiver"
+        },
         "OccupationBoostGaugePercent": 60,
         "DeclarationTimeBeforeOccupationMatchingHour": 1440,
         "MatchingTimeBeforeOccupationStartHour": 720,
@@ -378,17 +401,26 @@
         "GuildDistributionEquipItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kB",
-          "FilterMaxGrade": "EItemGrade::kAA"
+          "FilterMaxGrade": "EItemGrade::kAA",
+          "IgnoreGrades": [
+            "EItemGrade::kA2"
+          ]
         },
         "GuildDistributionSkillbookItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kB",
-          "FilterMaxGrade": "EItemGrade::kAA"
+          "FilterMaxGrade": "EItemGrade::kAA",
+          "IgnoreGrades": [
+            "EItemGrade::kA2"
+          ]
         },
         "GuildDistributionEtcItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kC",
-          "FilterMaxGrade": "EItemGrade::kAA"
+          "FilterMaxGrade": "EItemGrade::kAA",
+          "IgnoreGrades": [
+            "EItemGrade::kA2"
+          ]
         },
         "RotationEventGracePeriod": 2,
         "NonPvPDynamicEventRankingModify": 50,
@@ -515,13 +547,16 @@
           }
         ],
         "DungeonPointUnlockMemorialRecordRow": {
-          "RowName": "MEMORIAL_CHAPTER_01_RECORD_01"
+          "RowName": "MEMORIAL_NEW_CHAPTER_01_RECORD_02"
         },
         "RegionStoneUnlockMemorialRecordRow": {
-          "RowName": "MEMORIAL_CHAPTER_03_RECORD_01"
+          "RowName": "MEMORIAL_NEW_CHAPTER_02_RECORD_01"
         },
         "BossStoneUnlockMemorialRecordRow": {
-          "RowName": "MEMORIAL_CHAPTER_01_RECORD_08"
+          "RowName": "MEMORIAL_NEW_CHAPTER_03_RECORD_01"
+        },
+        "DungeonStoneUnlockMemorialRecordRow": {
+          "RowName": "MEMORIAL_NEW_CHAPTER_05_RECORD_04"
         },
         "RotationEventUnlockMemorialRecordRow": {
           "RowName": "None"
@@ -1305,7 +1340,7 @@
               "Key": "EItemGrade::kAA3",
               "Value": {
                 "ItemGrade": "EItemGrade::kAA3",
-                "MaxLevel": 9
+                "MaxLevel": 12
               }
             },
             {
@@ -1400,132 +1435,6 @@
               }
             },
             {
-              "Key": "EItemGrade::kAA",
-              "Value": {
-                "TraitMaxCount": 3,
-                "ItemTraitMaxLevel": 4,
-                "TraitExtractInfo": {
-                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
-                  "MaterialItemCount": 25,
-                  "Gold": 75000
-                },
-                "TraitChangeInfo": {
-                  "MaterialItemId": "Trait_Change_Material_02_kAA",
-                  "MaterialItemCount": 25,
-                  "Gold": 75000
-                },
-                "ResourceTraitInfos": [
-                  {
-                    "Key": "EItemGrade::kB",
-                    "Value": {
-                      "EnchantSuccessProbability": 100,
-                      "EnchantGold": 3600,
-                      "EnchantPaybackBlessPoint": 8,
-                      "BlessPointForPercent": 10,
-                      "TransferSuccessProbability": 0,
-                      "TransferGold": 75000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kA",
-                    "Value": {
-                      "EnchantSuccessProbability": 1000,
-                      "EnchantGold": 18000,
-                      "EnchantPaybackBlessPoint": 40,
-                      "BlessPointForPercent": 5,
-                      "TransferSuccessProbability": 10000,
-                      "TransferGold": 75000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kAA",
-                    "Value": {
-                      "EnchantSuccessProbability": 10000,
-                      "EnchantGold": 75000,
-                      "EnchantPaybackBlessPoint": 40,
-                      "BlessPointForPercent": 5,
-                      "TransferSuccessProbability": 10000,
-                      "TransferGold": 75000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kA2",
-                    "Value": {
-                      "EnchantSuccessProbability": 2000,
-                      "EnchantGold": 36000,
-                      "EnchantPaybackBlessPoint": 60,
-                      "BlessPointForPercent": 3,
-                      "TransferSuccessProbability": 0,
-                      "TransferGold": 0
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "Key": "EItemGrade::kAA2",
-              "Value": {
-                "TraitMaxCount": 3,
-                "ItemTraitMaxLevel": 4,
-                "TraitExtractInfo": {
-                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
-                  "MaterialItemCount": 50,
-                  "Gold": 150000
-                },
-                "TraitChangeInfo": {
-                  "MaterialItemId": "Trait_Change_Material_02_kAA",
-                  "MaterialItemCount": 50,
-                  "Gold": 150000
-                },
-                "ResourceTraitInfos": [
-                  {
-                    "Key": "EItemGrade::kA",
-                    "Value": {
-                      "EnchantSuccessProbability": 100,
-                      "EnchantGold": 18000,
-                      "EnchantPaybackBlessPoint": 40,
-                      "BlessPointForPercent": 20,
-                      "TransferSuccessProbability": 0,
-                      "TransferGold": 150000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kAA",
-                    "Value": {
-                      "EnchantSuccessProbability": 1000,
-                      "EnchantGold": 90000,
-                      "EnchantPaybackBlessPoint": 80,
-                      "BlessPointForPercent": 10,
-                      "TransferSuccessProbability": 10000,
-                      "TransferGold": 150000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kAA2",
-                    "Value": {
-                      "EnchantSuccessProbability": 10000,
-                      "EnchantGold": 150000,
-                      "EnchantPaybackBlessPoint": 80,
-                      "BlessPointForPercent": 10,
-                      "TransferSuccessProbability": 10000,
-                      "TransferGold": 150000
-                    }
-                  },
-                  {
-                    "Key": "EItemGrade::kA2",
-                    "Value": {
-                      "EnchantSuccessProbability": 200,
-                      "EnchantGold": 36000,
-                      "EnchantPaybackBlessPoint": 60,
-                      "BlessPointForPercent": 15,
-                      "TransferSuccessProbability": 0,
-                      "TransferGold": 150000
-                    }
-                  }
-                ]
-              }
-            },
-            {
               "Key": "EItemGrade::kA2",
               "Value": {
                 "TraitMaxCount": 3,
@@ -1578,6 +1487,173 @@
               }
             },
             {
+              "Key": "EItemGrade::kAA",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 25,
+                  "Gold": 75000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 25,
+                  "Gold": 75000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kB",
+                    "Value": {
+                      "EnchantSuccessProbability": 100,
+                      "EnchantGold": 3600,
+                      "EnchantPaybackBlessPoint": 8,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 18000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 5,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 2000,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 60,
+                      "BlessPointForPercent": 3,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 75000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 75000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 5,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 75000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA2",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 150000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 150000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kA",
+                    "Value": {
+                      "EnchantSuccessProbability": 100,
+                      "EnchantGold": 18000,
+                      "EnchantPaybackBlessPoint": 40,
+                      "BlessPointForPercent": 20,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 200,
+                      "EnchantGold": 36000,
+                      "EnchantPaybackBlessPoint": 60,
+                      "BlessPointForPercent": 15,
+                      "TransferSuccessProbability": 0,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 90000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 150000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 150000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 150000
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Key": "EItemGrade::kAA3",
+              "Value": {
+                "TraitMaxCount": 3,
+                "ItemTraitMaxLevel": 4,
+                "TraitExtractInfo": {
+                  "MaterialItemId": "Trait_Extract_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 300000
+                },
+                "TraitChangeInfo": {
+                  "MaterialItemId": "Trait_Change_Material_02_kAA",
+                  "MaterialItemCount": 50,
+                  "Gold": 300000
+                },
+                "ResourceTraitInfos": [
+                  {
+                    "Key": "EItemGrade::kAA2",
+                    "Value": {
+                      "EnchantSuccessProbability": 1000,
+                      "EnchantGold": 180000,
+                      "EnchantPaybackBlessPoint": 400,
+                      "BlessPointForPercent": 50,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 300000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA3",
+                    "Value": {
+                      "EnchantSuccessProbability": 10000,
+                      "EnchantGold": 300000,
+                      "EnchantPaybackBlessPoint": 80,
+                      "BlessPointForPercent": 10,
+                      "TransferSuccessProbability": 10000,
+                      "TransferGold": 300000
+                    }
+                  }
+                ]
+              }
+            },
+            {
               "Key": "EItemGrade::kAAA",
               "Value": {
                 "TraitMaxCount": 4,
@@ -1594,17 +1670,6 @@
                 },
                 "ResourceTraitInfos": [
                   {
-                    "Key": "EItemGrade::kA2",
-                    "Value": {
-                      "EnchantSuccessProbability": 100,
-                      "EnchantGold": 36000,
-                      "EnchantPaybackBlessPoint": 60,
-                      "BlessPointForPercent": 20,
-                      "TransferSuccessProbability": 100,
-                      "TransferGold": 300000
-                    }
-                  },
-                  {
                     "Key": "EItemGrade::kAA",
                     "Value": {
                       "EnchantSuccessProbability": 200,
@@ -1620,8 +1685,19 @@
                     "Value": {
                       "EnchantSuccessProbability": 1000,
                       "EnchantGold": 150000,
-                      "EnchantPaybackBlessPoint": 100,
-                      "BlessPointForPercent": 10,
+                      "EnchantPaybackBlessPoint": 400,
+                      "BlessPointForPercent": 40,
+                      "TransferSuccessProbability": 1000,
+                      "TransferGold": 300000
+                    }
+                  },
+                  {
+                    "Key": "EItemGrade::kAA3",
+                    "Value": {
+                      "EnchantSuccessProbability": 1500,
+                      "EnchantGold": 150000,
+                      "EnchantPaybackBlessPoint": 600,
+                      "BlessPointForPercent": 80,
                       "TransferSuccessProbability": 1000,
                       "TransferGold": 300000
                     }
@@ -1657,12 +1733,12 @@
         "WelcomeUserBenefitSetting": {
           "NewbieUserBenefitRetentionDays": 50,
           "NewbieUserBenefitEffectIdList": [
-            "Effect_NewbieBenefit_DND"
+            "Effect_NewbieBenefit_DND_New"
           ],
-          "CombackUserCheckDays": 15,
+          "CombackUserCheckDays": 30,
           "CombackUserBenefitRetentionDays": 50,
           "CombackUserEffectIdList": [
-            "Effect_ComebackBenefit_DND"
+            "Effect_NewbieBenefit_DND_New"
           ]
         },
         "ItemPickableRadius": 300.0,
@@ -2086,154 +2162,113 @@
         ],
         "DisableEnterOtherContentsInSpecificContents": [
           {
-            "SpecificContentsMapType": "ETLJsonMapType::kInterServerRegionStone",
-            "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
-            ]
-          },
-          {
-            "SpecificContentsMapType": "ETLJsonMapType::kInterServerBossStone",
-            "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
-            ]
-          },
-          {
             "SpecificContentsMapType": "ETLJsonMapType::kArena",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
               "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::PARTY_MATCHING",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::BATTLEGROUNDS"
             ]
           },
           {
             "SpecificContentsMapType": "ETLJsonMapType::kPartyDungeon",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
               "ETLContentsOpenType::PARTY_DUNGEON",
               "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
             ]
           },
           {
             "SpecificContentsMapType": "ETLJsonMapType::kBattleField",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
               "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
             ]
           },
           {
-            "SpecificContentsMapType": "ETLJsonMapType::kInstanceRegionStoneWarfare",
+            "SpecificContentsMapType": "ETLJsonMapType::kInfinityDungeon",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::ARENA"
             ]
           },
           {
-            "SpecificContentsMapType": "ETLJsonMapType::kInstanceBossStoneWarfare",
+            "SpecificContentsMapType": "ETLJsonMapType::kTimeAttackDungeon",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
-            ]
-          },
-          {
-            "SpecificContentsMapType": "ETLJsonMapType::kWorldBossGate",
-            "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
-            ]
-          },
-          {
-            "SpecificContentsMapType": "ETLJsonMapType::kFieldBossGate",
-            "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
-              "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::ARENA"
             ]
           },
           {
             "SpecificContentsMapType": "ETLJsonMapType::kChallengeSingleDungeon",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON"
+              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::ARENA"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kBattleGround",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::BATTLEGROUNDS",
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON"
             ]
           },
           {
             "SpecificContentsMapType": "ETLJsonMapType::kInterServerSiegeWarfare",
             "DisableEnterTargetContentsOpenTypes": [
-              "ETLContentsOpenType::INFINITY_DUNGEON",
-              "ETLContentsOpenType::TIME_ATTACK_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_SINGLE_DUNGEON",
+              "ETLContentsOpenType::INTER_SERVER_SIEGE",
               "ETLContentsOpenType::ARENA",
-              "ETLContentsOpenType::BATTLE_FIELD",
-              "ETLContentsOpenType::CUSTOM_GAME",
-              "ETLContentsOpenType::PARTY_DUNGEON",
-              "ETLContentsOpenType::CHALLENGE_PARTY_DUNGEON",
-              "ETLContentsOpenType::INTER_SERVER_SIEGE"
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kWorldBossGate",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kFieldBossGate",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInterServerRegionStone",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInterServerBossStone",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInstanceBossStoneWarfare",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
+            ]
+          },
+          {
+            "SpecificContentsMapType": "ETLJsonMapType::kInstanceRegionStoneWarfare",
+            "DisableEnterTargetContentsOpenTypes": [
+              "ETLContentsOpenType::ARENA",
+              "ETLContentsOpenType::BATTLEGROUNDS"
             ]
           }
         ],
-        "ChallengePartyDungeonMaxLevel": 99,
+        "ChallengePartyDungeonMaxLevel": 10,
+        "DeathPenaltyGimmickRow": [
+          {
+            "RowName": "CPD_Custom_N_Gimmick_OneDeathFail"
+          }
+        ],
         "ChallengePartyDungeonKillPointSettings": [
           {
             "GimmickCount": 1,
@@ -2244,6 +2279,7 @@
             "KillPointRateBp": 25000
           }
         ],
+        "MaxChallengePartyDungeonWeeklyRewardCount": 5,
         "SkillSpeedModifier": 0.7,
         "world_level": 2,
         "SiegeLooks": {
@@ -2492,7 +2528,7 @@
           "TaxRate": 20,
           "VictoryRewardRate": 75
         },
-        "MaxDynamicEventPoint": 15,
+        "MaxDynamicEventPoint": 7,
         "MaxMobilityPolymorphFestaSpecialRewardPoint": 10,
         "ChallengeSingleDungeonMaxLevel": 5,
         "MaxChallengeSingleDungeonWeeklyRewardPoint": 3,
@@ -2500,12 +2536,33 @@
         "DeductedArenaWinRewardPoint": 300,
         "ChargeArenaWinRewardPoint": 600,
         "ArenaAcceptWaitingSeconds": 30,
-        "MaxHouseCount": 3,
-        "LimitShareStorageDecoCount": 100,
-        "LimitEntranceablePcCount": 10,
-        "LimitPlaceableDecoCount": 100,
+        "MaxHouseCount": 4,
+        "LimitShareStorageDecoCount": 0,
+        "LimitEntranceablePcCount": 100,
+        "LimitPlaceableDecoCount": 500,
+        "HouseRenameCoolTimeSec": 5,
+        "InitialPurchasableHouseCount": 0,
+        "InitialHouseSize": "ETLHousingHouseSizeType::kBase",
         "ProcessingQueueMaxCount": 4,
-        "MembershipContractMultiplier": 2
+        "MembershipContractMultiplier": 2,
+        "BattleGroundsSetting": {
+          "AcceptWaitingSec": 30,
+          "WeeklyMaxItemRewardCount": 10,
+          "WeeklyMaxBattlegroundMedalPoint": 800
+        },
+        "AdditionalCategoryMenuCount": 2,
+        "TLNaviPushbackTime": 1.75,
+        "TLNaviPushbackTimeAfterCutscene": 1.75,
+        "GrowthMissionSetting": {
+          "CurrentGrowthPassGroupUidList": [
+            3
+          ],
+          "UnclaimedGrowthMissionRewardPostUid": 68,
+          "UnclaimedGrowthPassRewardPostUid": 69
+        },
+        "BattleFieldSetting": {
+          "MinCombatPower": 6000
+        }
       }
     }
   }

@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemEnchant",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLSchemeItemEnchant'",
@@ -1034,6 +1034,207 @@
         "publisher_tag": "ETLPublisherTag::ALL",
         "feature_tag": "ETLFeatureTag::BASE_LH"
       },
+      "kWeapon_kAA3": {
+        "EnchantMaxLevel": 12,
+        "EnchantPointOverRatios": [
+          {
+            "EnchantLevel": 1,
+            "Ratio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Ratio": 5000
+          },
+          {
+            "EnchantLevel": 3,
+            "Ratio": 5300
+          },
+          {
+            "EnchantLevel": 4,
+            "Ratio": 5600
+          },
+          {
+            "EnchantLevel": 5,
+            "Ratio": 5900
+          },
+          {
+            "EnchantLevel": 6,
+            "Ratio": 6200
+          },
+          {
+            "EnchantLevel": 7,
+            "Ratio": 6500
+          },
+          {
+            "EnchantLevel": 8,
+            "Ratio": 7000
+          },
+          {
+            "EnchantLevel": 9,
+            "Ratio": 7500
+          },
+          {
+            "EnchantLevel": 10,
+            "Ratio": 8000
+          },
+          {
+            "EnchantLevel": 11,
+            "Ratio": 8500
+          },
+          {
+            "EnchantLevel": 12,
+            "Ratio": 0
+          }
+        ],
+        "EnchantEntities": [
+          {
+            "EnchantLevel": 1,
+            "Gold": 22000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 1
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Gold": 29200,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 2
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 3,
+            "Gold": 44000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 3
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 4,
+            "Gold": 64000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 4
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 5,
+            "Gold": 104000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 5
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 6,
+            "Gold": 148000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 6
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 7,
+            "Gold": 208000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 7
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 8,
+            "Gold": 296000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 8
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 9,
+            "Gold": 400000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 9
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 10,
+            "Gold": 600000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 10
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 11,
+            "Gold": 900000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 11
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 12,
+            "Gold": 1350000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_weapon_str_06",
+                "Quantity": 12
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
       "kWeapon_kAAA": {
         "EnchantMaxLevel": 12,
         "EnchantPointOverRatios": [
@@ -2048,6 +2249,207 @@
               {
                 "ItemId": "material_enchant_armor_04",
                 "Quantity": 24
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "kArmor_kAA3": {
+        "EnchantMaxLevel": 12,
+        "EnchantPointOverRatios": [
+          {
+            "EnchantLevel": 1,
+            "Ratio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Ratio": 5000
+          },
+          {
+            "EnchantLevel": 3,
+            "Ratio": 5300
+          },
+          {
+            "EnchantLevel": 4,
+            "Ratio": 5600
+          },
+          {
+            "EnchantLevel": 5,
+            "Ratio": 5900
+          },
+          {
+            "EnchantLevel": 6,
+            "Ratio": 6200
+          },
+          {
+            "EnchantLevel": 7,
+            "Ratio": 6500
+          },
+          {
+            "EnchantLevel": 8,
+            "Ratio": 7000
+          },
+          {
+            "EnchantLevel": 9,
+            "Ratio": 7500
+          },
+          {
+            "EnchantLevel": 10,
+            "Ratio": 8000
+          },
+          {
+            "EnchantLevel": 11,
+            "Ratio": 8500
+          },
+          {
+            "EnchantLevel": 12,
+            "Ratio": 0
+          }
+        ],
+        "EnchantEntities": [
+          {
+            "EnchantLevel": 1,
+            "Gold": 11000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 1
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Gold": 14600,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 2
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 3,
+            "Gold": 22000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 3
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 4,
+            "Gold": 32000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 4
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 5,
+            "Gold": 52000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 5
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 6,
+            "Gold": 74000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 6
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 7,
+            "Gold": 104000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 7
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 8,
+            "Gold": 148000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 8
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 9,
+            "Gold": 200000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 9
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 10,
+            "Gold": 300000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 10
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 11,
+            "Gold": 450000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 11
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 12,
+            "Gold": 675000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_armor_06",
+                "Quantity": 12
               }
             ],
             "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
@@ -3224,6 +3626,207 @@
               {
                 "ItemId": "material_enchant_accessary_04",
                 "Quantity": 24
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          }
+        ],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "kAccessory_kAA3": {
+        "EnchantMaxLevel": 12,
+        "EnchantPointOverRatios": [
+          {
+            "EnchantLevel": 1,
+            "Ratio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Ratio": 5000
+          },
+          {
+            "EnchantLevel": 3,
+            "Ratio": 5300
+          },
+          {
+            "EnchantLevel": 4,
+            "Ratio": 5600
+          },
+          {
+            "EnchantLevel": 5,
+            "Ratio": 5900
+          },
+          {
+            "EnchantLevel": 6,
+            "Ratio": 6200
+          },
+          {
+            "EnchantLevel": 7,
+            "Ratio": 6500
+          },
+          {
+            "EnchantLevel": 8,
+            "Ratio": 7000
+          },
+          {
+            "EnchantLevel": 9,
+            "Ratio": 7500
+          },
+          {
+            "EnchantLevel": 10,
+            "Ratio": 8000
+          },
+          {
+            "EnchantLevel": 11,
+            "Ratio": 8500
+          },
+          {
+            "EnchantLevel": 12,
+            "Ratio": 0
+          }
+        ],
+        "EnchantEntities": [
+          {
+            "EnchantLevel": 1,
+            "Gold": 11000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 1
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 2,
+            "Gold": 14600,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 2
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 3,
+            "Gold": 22000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 3
+              }
+            ],
+            "ItemEnchantProbabilityId": "1to3_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 4,
+            "Gold": 32000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 4
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 5,
+            "Gold": 52000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 5
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 6,
+            "Gold": 74000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 6
+              }
+            ],
+            "ItemEnchantProbabilityId": "4to6_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 7,
+            "Gold": 104000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 7
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 8,
+            "Gold": 148000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 8
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 9,
+            "Gold": 200000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 9
+              }
+            ],
+            "ItemEnchantProbabilityId": "7to9_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 10,
+            "Gold": 300000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 10
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 11,
+            "Gold": 450000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 11
+              }
+            ],
+            "ItemEnchantProbabilityId": "10to12_Enchant_Prob",
+            "OverEnchantPointRatio": 10000
+          },
+          {
+            "EnchantLevel": 12,
+            "Gold": 675000,
+            "ResourceItems": [
+              {
+                "ItemId": "material_enchant_accessary_06",
+                "Quantity": 12
               }
             ],
             "ItemEnchantProbabilityId": "10to12_Enchant_Prob",

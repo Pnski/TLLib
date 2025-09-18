@@ -2016,6 +2016,57 @@
       </context>
       <trait_list />
     </skill_complex>
+    <skill_complex guid="951424192" is_basic_attack="false" is_for_polymorphed_only="false" description="벨렌트라의 흑월장" unlock_level="1" id="SkillSet_WP_Item_Boss_T3_ST_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="951489728" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T3_ST_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T3_ST_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="943058206" is_basic_attack="false" is_for_polymorphed_only="false" description="t3 탈루스 공명봉" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T3_ST_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="942992670" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T3_Staff_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_FieldBoss_T3_Staff_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="943189292" is_basic_attack="false" is_for_polymorphed_only="false" description="t3 아리두스" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T3_ST_02" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="943123756" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T3_ST_02" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_FieldBoss_T3_ST_02" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
   </skill_complex_list>
   <custom_list />
 </hero_skill_set>

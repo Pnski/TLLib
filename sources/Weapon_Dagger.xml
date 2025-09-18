@@ -339,25 +339,7 @@
             <default uid="0">
               <combo_state_default>
                 <complex default_skill_id="CM_DA_CounterMove_ActionSkill_Guard_Hero" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                  <if_abnormal_state min_count="0" description="넘어짐 해제 - NPC" contents_tag="kNPC_Knockdown">
                     <set_skill skill_id="CM_DA_CounterMove_ActionSkill_Slot_Hero_Escape" skill_id_disable="false" />
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_WP_DA_CM_Stealth" min_count="0">
@@ -535,6 +517,7 @@
       <trait_list>
         <trait trait_id="SkillSet_WP_DA_DA_S_BloodStrike_trait_1" uid="0" point="7" unlock_level="15" />
         <trait trait_id="SkillSet_WP_DA_DA_S_BloodStrike_trait_2" uid="1" point="5" description="blood rate" unlock_level="15" trait_dynamic_stat_id_01="DA_BloodStrike_Trait_2" trait_dynamic_stat_adder_formula_01="DA_BloodStrike_Trait_2" />
+        <trait trait_id="SkillSet_WP_DA_DA_S_BloodStrike_trait_3" uid="2" point="3" description="blood rate" unlock_level="15" />
       </trait_list>
     </skill_complex>
   </skill_complex_list>

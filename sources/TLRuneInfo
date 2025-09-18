@@ -66,6 +66,17 @@
           "RowName": "None"
         }
       },
+      "Rune_Earring_Attack": {
+        "RuneNum": 106,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
+        "RuneType": "ETLRuneType::Attack",
+        "PositiveRandomStatGroup": {
+          "RowName": "Atk_Rune_rng_Earring"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "None"
+        }
+      },
       "Rune_Weapon_Defense": {
         "RuneNum": 201,
         "RuneTargetCategory": "ETLRuneTargetCategory::Weapon",
@@ -121,6 +132,17 @@
           "RowName": "None"
         }
       },
+      "Rune_Earring_Defense": {
+        "RuneNum": 206,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
+        "RuneType": "ETLRuneType::Defense",
+        "PositiveRandomStatGroup": {
+          "RowName": "Def_Rune_rng_Earring"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "None"
+        }
+      },
       "Rune_Weapon_Assist": {
         "RuneNum": 301,
         "RuneTargetCategory": "ETLRuneTargetCategory::Weapon",
@@ -171,6 +193,17 @@
         "RuneType": "ETLRuneType::Assist",
         "PositiveRandomStatGroup": {
           "RowName": "Sup_Rune_rng_Belt"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "None"
+        }
+      },
+      "Rune_Earring_Assist": {
+        "RuneNum": 306,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
+        "RuneType": "ETLRuneType::Assist",
+        "PositiveRandomStatGroup": {
+          "RowName": "Sup_Rune_rng_Earring"
         },
         "NegativeRandomStatGroup": {
           "RowName": "None"
@@ -396,39 +429,6 @@
           "RowName": "All_Rune_neg_rng_kaa_Belt"
         }
       },
-      "Rune_Earring_Attack": {
-        "RuneNum": 106,
-        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
-        "RuneType": "ETLRuneType::Attack",
-        "PositiveRandomStatGroup": {
-          "RowName": "Atk_Rune_rng_Earring"
-        },
-        "NegativeRandomStatGroup": {
-          "RowName": "None"
-        }
-      },
-      "Rune_Earring_Defense": {
-        "RuneNum": 206,
-        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
-        "RuneType": "ETLRuneType::Defense",
-        "PositiveRandomStatGroup": {
-          "RowName": "Def_Rune_rng_Earring"
-        },
-        "NegativeRandomStatGroup": {
-          "RowName": "None"
-        }
-      },
-      "Rune_Earring_Assist": {
-        "RuneNum": 306,
-        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
-        "RuneType": "ETLRuneType::Assist",
-        "PositiveRandomStatGroup": {
-          "RowName": "Sup_Rune_rng_Earring"
-        },
-        "NegativeRandomStatGroup": {
-          "RowName": "None"
-        }
-      },
       "Rune_Earring_Chaos_kC": {
         "RuneNum": 1021,
         "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
@@ -471,6 +471,72 @@
         },
         "NegativeRandomStatGroup": {
           "RowName": "All_Rune_neg_rng_kaa_Earring"
+        }
+      },
+      "Rune_Weapon_Chaos_kAA2": {
+        "RuneNum": 1025,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Weapon",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Weapon"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Weapon"
+        }
+      },
+      "Rune_Ring_Chaos_kAA2": {
+        "RuneNum": 1026,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Ring",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Ring"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Ring"
+        }
+      },
+      "Rune_Necklace_Chaos_kAA2": {
+        "RuneNum": 1027,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Necklace",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Necklace"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Necklace"
+        }
+      },
+      "Rune_Bracelet_Chaos_kAA2": {
+        "RuneNum": 1028,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Bracelet",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Bracelet"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Bracelet"
+        }
+      },
+      "Rune_Belt_Chaos_kAA2": {
+        "RuneNum": 1029,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Belt",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Belt"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Belt"
+        }
+      },
+      "Rune_Earring_Chaos_kAA2": {
+        "RuneNum": 1030,
+        "RuneTargetCategory": "ETLRuneTargetCategory::Earring",
+        "RuneType": "ETLRuneType::Chaos",
+        "PositiveRandomStatGroup": {
+          "RowName": "All_Rune_rng_kaa2_Earring"
+        },
+        "NegativeRandomStatGroup": {
+          "RowName": "All_Rune_neg_rng_kaa2_Earring"
         }
       }
     }

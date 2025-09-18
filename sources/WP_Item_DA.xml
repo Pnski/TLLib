@@ -2016,6 +2016,57 @@
       </context>
       <trait_list />
     </skill_complex>
+    <skill_complex guid="940283132" is_basic_attack="false" is_for_polymorphed_only="false" description="네르자툼 단검" unlock_level="1" id="SkillSet_WP_Item_Boss_T3_DA_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="940217596" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T3_DA_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_Boss_T3_DA_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="940545434" is_basic_attack="false" is_for_polymorphed_only="false" description="마인제로크 단검 t3" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T3_DA_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="940479898" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T3_DA_01" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_FieldBoss_T3_DA_01" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="942773674" is_basic_attack="false" is_for_polymorphed_only="false" description="코완주키 단검 t3" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T3_DA_02" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="942708138" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T3_DA_02" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_FieldBoss_T3_DA_02" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
   </skill_complex_list>
   <custom_list />
 </hero_skill_set>

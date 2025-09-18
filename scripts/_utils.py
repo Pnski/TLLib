@@ -104,3 +104,14 @@ def writeMarkdown(output_path, title, sidebar_config, content):
         json_path="docs/sidebar.json"
     )
     print(f"File written to {output_path}")
+    
+
+def TLStatsLookup():
+    TLStatsLookup = {}  # short_name -> stat key used in value tables
+
+    for key, value in loadFile("sources/TLStats").items():
+        stat_enum = value.get("stat_enum")
+        if stat_enum:
+            TLStatsLookup[stat_enum] = key
+
+    return TLStatsLookup

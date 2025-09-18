@@ -47,26 +47,8 @@
             <default uid="0">
               <combo_state_default>
                 <complex default_skill_id="WP_CR_CR_S_ActionSkill_Defense_Hero" default_skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ActionSkill_Defense_Hero">
-                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                  <if_abnormal_state min_count="0" description="넘어짐 해제 - NPC" contents_tag="kNPC_Knockdown">
                     <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" conditional_formula="CR_Both_Attack_Rate" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" conditional_formula="CR_Both_Attack_Rate" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" conditional_formula="CR_Both_Attack_Rate" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="WP_CR_S_ActionSkill_Hero_Escape" skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ActionSkill_Hero_Escape" />
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_WP_CR_ActionSkill_Context_Buff" min_count="0">
                     <set_skill skill_id="WP_CR_CR_D_ActionSkill_CounterAttack2_Hero" skill_id_disable="false" show_transition_notify="true" />
@@ -156,12 +138,17 @@
                 <simple skill_id="WP_CR_CR_S_ArmorBreakShot_Hero" skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ArmorBreakShot_Hero" />
               </combo_state_default>
             </default>
+            <specialization traits="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_2" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_CR_CR_S_ArmorBreakShot_Hero_Trait2" default_skill_id_disable="false" conditional_formula="CR_Both_Attack_Rate" conditional_skill_id="WP_CR_CR_D_ArmorBreakShot_Hero_Trait2" />
+              </combo_state_default>
+            </specialization>
           </preset>
         </presets>
       </context>
       <trait_list>
-        <trait trait_id="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_1" uid="0" point="5" unlock_level="15" />
-        <trait trait_id="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_2" uid="1" point="7" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_1" uid="0" point="5" unlock_level="15" exclusive_group="kGroup_01" />
+        <trait trait_id="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_2" uid="1" point="7" unlock_level="15" exclusive_group="kGroup_01" />
         <trait trait_id="SkillSet_WP_CR_CR_S_ArmorBreakShot_Trait_3" uid="2" point="5" unlock_level="15" />
       </trait_list>
     </skill_complex>
@@ -589,6 +576,7 @@
       <trait_list>
         <trait trait_id="SkillSet_WP_CR_D_WeakPointShot_Trait_1" uid="0" point="7" unlock_level="50" />
         <trait trait_id="SkillSet_WP_CR_D_WeakPointShot_Trait_2" uid="1" point="5" unlock_level="50" trait_dynamic_stat_id_01="CR_WeakPointShot_Cooldown" trait_dynamic_stat_multiplier_formula_01="CR_WeakPointShot_Trait2_CoolDown_DynamicStat" />
+        <trait trait_id="SkillSet_WP_CR_D_WeakPointShot_Trait_3" uid="2" point="3" unlock_level="50" />
       </trait_list>
     </skill_complex>
     <skill_complex guid="947573918" is_basic_attack="false" is_for_polymorphed_only="false" description="[P] [고급] 독수리 시야" skill_grade="kB" id="SkillSet_WP_CR_CR_S_DistanceRangeAcc" skill_enchant_category="kBuff" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kPassiveSkill01" unlock_level="3" growth_exchangeable_group="kPassiveB">

@@ -751,7 +751,7 @@
             "MagicDollCountRewards": [
               {
                 "ExploreMagicDollCount": 1,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_1_1",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_1_1",
                 "SpecialRewardRate": 417,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -760,7 +760,7 @@
               },
               {
                 "ExploreMagicDollCount": 2,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_1_2",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_1_2",
                 "SpecialRewardRate": 417,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -769,7 +769,7 @@
               },
               {
                 "ExploreMagicDollCount": 3,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_1_3",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_1_3",
                 "SpecialRewardRate": 417,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -778,7 +778,7 @@
               },
               {
                 "ExploreMagicDollCount": 4,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_1_4",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_1_4",
                 "SpecialRewardRate": 417,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -787,7 +787,7 @@
               },
               {
                 "ExploreMagicDollCount": 5,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_1_5",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_1_5",
                 "SpecialRewardRate": 417,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -802,7 +802,7 @@
             "MagicDollCountRewards": [
               {
                 "ExploreMagicDollCount": 1,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_2_1",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_2_1",
                 "SpecialRewardRate": 833,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -811,7 +811,7 @@
               },
               {
                 "ExploreMagicDollCount": 2,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_2_2",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_2_2",
                 "SpecialRewardRate": 833,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -820,7 +820,7 @@
               },
               {
                 "ExploreMagicDollCount": 3,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_2_3",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_2_3",
                 "SpecialRewardRate": 833,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -829,7 +829,7 @@
               },
               {
                 "ExploreMagicDollCount": 4,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_2_4",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_2_4",
                 "SpecialRewardRate": 833,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -838,7 +838,7 @@
               },
               {
                 "ExploreMagicDollCount": 5,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_2_5",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_2_5",
                 "SpecialRewardRate": 833,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -853,7 +853,7 @@
             "MagicDollCountRewards": [
               {
                 "ExploreMagicDollCount": 1,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_4_1",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_4_1",
                 "SpecialRewardRate": 1667,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -862,7 +862,7 @@
               },
               {
                 "ExploreMagicDollCount": 2,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_4_2",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_4_2",
                 "SpecialRewardRate": 1667,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -871,7 +871,7 @@
               },
               {
                 "ExploreMagicDollCount": 3,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_4_3",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_4_3",
                 "SpecialRewardRate": 1667,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -880,7 +880,7 @@
               },
               {
                 "ExploreMagicDollCount": 4,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_4_4",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_4_4",
                 "SpecialRewardRate": 1667,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -889,7 +889,7 @@
               },
               {
                 "ExploreMagicDollCount": 5,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_4_5",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_4_5",
                 "SpecialRewardRate": 1667,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -904,7 +904,7 @@
             "MagicDollCountRewards": [
               {
                 "ExploreMagicDollCount": 1,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_8_1",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_8_1",
                 "SpecialRewardRate": 3333,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -913,7 +913,7 @@
               },
               {
                 "ExploreMagicDollCount": 2,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_8_2",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_8_2",
                 "SpecialRewardRate": 3333,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -922,7 +922,7 @@
               },
               {
                 "ExploreMagicDollCount": 3,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_8_3",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_8_3",
                 "SpecialRewardRate": 3333,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -931,7 +931,7 @@
               },
               {
                 "ExploreMagicDollCount": 4,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_8_4",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_8_4",
                 "SpecialRewardRate": 3333,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"
@@ -940,7 +940,7 @@
               },
               {
                 "ExploreMagicDollCount": 5,
-                "DefaultPrivateLotteryGroupId": "Expedition_kDesert_4_8_5",
+                "DefaultPrivateLotteryGroupId": "Expedition_kPlain_4_8_5",
                 "SpecialRewardRate": 3333,
                 "SpecialLotteryUnit": {
                   "RowName": "Expedition_Special_012"

@@ -10703,6 +10703,87 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_ElderBalthasar_Summon_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Elder/M_Elder_Balthasar/AT_Skill_ElderBalthasar_Summon.AT_Skill_ElderBalthasar_Summon",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_ElderKaspar_Blink": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Humanoid/Elder/M_Elder_Kaspar/AT_FX_ElderKaspar_Blink.AT_FX_ElderKaspar_Blink",
@@ -55415,6 +55496,168 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_Sowing_Normal_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_Sowing.AT_Skill_SpiritTreeGuardian_Sowing",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_Sowing_Normal_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_Sowing.AT_Skill_SpiritTreeGuardian_Sowing",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_Stamp": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_Stamp.AT_Skill_SpiritTreeGuardian_Stamp",
@@ -56144,7 +56387,331 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_ThornPrisonA_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonA.AT_Skill_SpiritTreeGuardian_ThornPrisonA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonA_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonA.AT_Skill_SpiritTreeGuardian_ThornPrisonA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_ThornPrisonA_MainTarget": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonA.AT_Skill_SpiritTreeGuardian_ThornPrisonA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonA_MainTarget_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonA.AT_Skill_SpiritTreeGuardian_ThornPrisonA",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonA_MainTarget_Blaze_IS": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonA.AT_Skill_SpiritTreeGuardian_ThornPrisonA",
           "SubPathString": ""
@@ -56306,7 +56873,331 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_ThornPrisonB_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonB_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_ThornPrisonB_MainTarget": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonB_MainTarget_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonB_MainTarget_Blaze_IS": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
           "SubPathString": ""
@@ -56468,7 +57359,331 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_ThornPrisonC_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonC_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_ThornPrisonD": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonD_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonD_Blaze_IS": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
           "SubPathString": ""
@@ -56630,7 +57845,331 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_ThornPrisonE_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonE_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_ThornPrisonF": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonF_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonF_Blaze_IS": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
           "SubPathString": ""
@@ -56792,7 +58331,331 @@
         },
         "UseFloaterSummation": false
       },
+      "Skill_SpiritTreeGuardian_ThornPrisonG_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonG_Blaze_IS": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "Skill_SpiritTreeGuardian_ThornPrisonH": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonH_Blaze": {
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "Skill_SpiritTreeGuardian_ThornPrisonH_Blaze_IS": {
         "Sct": {
           "AssetPathName": "/Game/ActionTree/NPC/Monster/Elemental/SpiritTree/M_SpiritTree_Guardian/AT_Skill_SpiritTreeGuardian_ThornPrisonB.AT_Skill_SpiritTreeGuardian_ThornPrisonB",
           "SubPathString": ""

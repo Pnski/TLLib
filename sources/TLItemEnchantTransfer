@@ -383,6 +383,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 135000
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 450000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 885000
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 1680000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 2565000
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 3630000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 5355000
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 7720000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 10280000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 13770000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 19305000
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 27607000
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 27607000
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -775,6 +845,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 135000
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 450000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 885000
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 1680000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 2565000
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 3630000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 5355000
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 7720000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 10280000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 13770000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 19305000
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 27607000
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 27607000
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -1150,6 +1290,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }
@@ -1529,6 +1739,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -1904,6 +2184,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }
@@ -2283,6 +2633,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -2658,6 +3078,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }
@@ -3037,6 +3527,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -3412,6 +3972,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }
@@ -3791,6 +4421,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -4166,6 +4866,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }
@@ -4545,6 +5315,76 @@
                 "AccumulatedGold": 27607000
               }
             ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              }
+            ]
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
@@ -4920,6 +5760,76 @@
                 "EnchantLevel": 12,
                 "AccumulatedPoint": 60226000,
                 "AccumulatedGold": 27607000
+              }
+            ]
+          },
+          {
+            "ItemGrade": "EItemGrade::kAA3",
+            "EnchantLevelEntities": [
+              {
+                "EnchantLevel": 0,
+                "AccumulatedPoint": 1273000,
+                "AccumulatedGold": 67500
+              },
+              {
+                "EnchantLevel": 1,
+                "AccumulatedPoint": 3820000,
+                "AccumulatedGold": 225000
+              },
+              {
+                "EnchantLevel": 2,
+                "AccumulatedPoint": 7639000,
+                "AccumulatedGold": 442500
+              },
+              {
+                "EnchantLevel": 3,
+                "AccumulatedPoint": 14246000,
+                "AccumulatedGold": 840000
+              },
+              {
+                "EnchantLevel": 4,
+                "AccumulatedPoint": 22505000,
+                "AccumulatedGold": 1282500
+              },
+              {
+                "EnchantLevel": 5,
+                "AccumulatedPoint": 32415000,
+                "AccumulatedGold": 1815000
+              },
+              {
+                "EnchantLevel": 6,
+                "AccumulatedPoint": 48259000,
+                "AccumulatedGold": 2677500
+              },
+              {
+                "EnchantLevel": 7,
+                "AccumulatedPoint": 66367000,
+                "AccumulatedGold": 3860000
+              },
+              {
+                "EnchantLevel": 8,
+                "AccumulatedPoint": 86738000,
+                "AccumulatedGold": 5140000
+              },
+              {
+                "EnchantLevel": 9,
+                "AccumulatedPoint": 109373000,
+                "AccumulatedGold": 6885000
+              },
+              {
+                "EnchantLevel": 10,
+                "AccumulatedPoint": 134271000,
+                "AccumulatedGold": 9652500
+              },
+              {
+                "EnchantLevel": 11,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
+              },
+              {
+                "EnchantLevel": 12,
+                "AccumulatedPoint": 161433000,
+                "AccumulatedGold": 13803500
               }
             ]
           }

@@ -52,6 +52,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -80,7 +82,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -325,6 +330,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -353,7 +360,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -530,6 +540,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -558,7 +570,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -803,6 +818,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -831,7 +848,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1008,6 +1028,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -1036,7 +1058,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1216,6 +1241,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -1244,7 +1271,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1424,6 +1454,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -1452,7 +1484,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1632,6 +1667,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -1660,7 +1697,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1840,6 +1880,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -1868,7 +1910,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2048,6 +2093,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -2076,7 +2123,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2256,6 +2306,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -2284,7 +2336,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2464,6 +2519,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -2492,7 +2549,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2672,6 +2732,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -2700,7 +2762,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2880,6 +2945,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -2908,7 +2975,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3088,6 +3158,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3116,7 +3188,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3296,6 +3371,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3324,7 +3401,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3504,6 +3584,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3532,7 +3614,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3712,6 +3797,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3740,7 +3827,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3920,6 +4010,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3948,7 +4040,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4128,6 +4223,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4156,7 +4253,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4336,6 +4436,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4364,7 +4466,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4544,6 +4649,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4572,7 +4679,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4752,6 +4862,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4780,7 +4892,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4960,6 +5075,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4988,7 +5105,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5168,6 +5288,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5196,7 +5318,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5376,6 +5501,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5404,7 +5531,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5584,6 +5714,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5612,7 +5744,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5792,6 +5927,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5820,7 +5957,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6000,6 +6140,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6028,7 +6170,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6208,6 +6353,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6236,7 +6383,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6416,6 +6566,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6444,7 +6596,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6624,6 +6779,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6652,7 +6809,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6832,6 +6992,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6860,7 +7022,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7040,6 +7205,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7068,7 +7235,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7248,6 +7418,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7276,7 +7448,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7456,6 +7631,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7484,7 +7661,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7664,6 +7844,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7692,7 +7874,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7872,6 +8057,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7900,7 +8087,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8080,6 +8270,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8108,7 +8300,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8288,6 +8483,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8316,7 +8513,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8496,6 +8696,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8524,7 +8726,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8704,6 +8909,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8732,7 +8939,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8912,6 +9122,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8940,7 +9152,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9117,6 +9332,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9145,7 +9362,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9322,6 +9542,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9350,7 +9572,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9527,6 +9752,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9555,7 +9782,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9732,6 +9962,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9760,7 +9992,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9937,6 +10172,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9965,7 +10202,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10142,6 +10382,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10170,7 +10412,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10347,6 +10592,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10375,7 +10622,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10552,6 +10802,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10580,7 +10832,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10757,6 +11012,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10785,7 +11042,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10962,6 +11222,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10990,7 +11252,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11167,6 +11432,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11195,7 +11462,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11372,6 +11642,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11400,7 +11672,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11577,6 +11852,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11605,7 +11882,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11782,6 +12062,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11810,7 +12092,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11987,6 +12272,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12015,7 +12302,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12192,6 +12482,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12220,7 +12512,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12490,6 +12785,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12518,7 +12815,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12788,6 +13088,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12816,7 +13118,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13086,6 +13391,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13114,7 +13421,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13285,6 +13595,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13313,7 +13625,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13555,6 +13870,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "SP_AbnormalTolerance_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13583,7 +13900,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13797,6 +14117,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "SP_AbnormalTolerance_Party_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13825,7 +14147,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14067,6 +14392,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "SP_AbnormalTolerance_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14095,7 +14422,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14262,6 +14592,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14290,7 +14622,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14467,6 +14802,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14495,7 +14832,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14672,6 +15012,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14700,7 +15042,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14877,6 +15222,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14905,7 +15252,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15082,6 +15432,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15110,7 +15462,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15352,6 +15707,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "SP_Target_Range_100",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15380,7 +15737,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15622,6 +15982,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "SP_Target_Range_100",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15650,7 +16012,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15827,6 +16192,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15855,7 +16222,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16032,6 +16402,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16060,7 +16432,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16237,6 +16612,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16265,7 +16642,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16507,6 +16887,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16535,7 +16917,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16777,6 +17162,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16805,7 +17192,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16982,6 +17372,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17010,7 +17402,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17187,6 +17582,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17215,7 +17612,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17392,6 +17792,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17420,7 +17822,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17597,6 +18002,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17625,7 +18032,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17802,6 +18212,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17830,7 +18242,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18044,6 +18459,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18072,7 +18489,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18249,6 +18669,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18277,7 +18699,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18454,6 +18879,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18482,7 +18909,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18659,6 +19089,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18687,7 +19119,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18864,6 +19299,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18892,7 +19329,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": true,
         "SkillCheckAbnormalPainShare": false,
@@ -19069,6 +19509,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -19097,7 +19539,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19274,6 +19719,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -19302,7 +19749,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": true,
         "SkillCheckAbnormalPainShare": false,
@@ -19558,6 +20008,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -19586,7 +20038,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19842,6 +20297,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -19870,7 +20327,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20126,6 +20586,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20154,7 +20616,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20410,6 +20875,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20438,7 +20905,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20652,6 +21122,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20680,7 +21152,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20857,6 +21332,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20885,7 +21362,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21099,6 +21579,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21127,7 +21609,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21341,6 +21826,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21369,7 +21856,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21540,6 +22030,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21568,7 +22060,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21810,6 +22305,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21838,7 +22335,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22052,6 +22552,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22080,7 +22582,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22294,6 +22799,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22322,7 +22829,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22480,7 +22990,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
               "Key": "TEXT_SKILL_DESC_WP_SP_Passive_LowHPAttack",
               "SourceString": "대상의 측방, 후방에 사용 스킬이 강타로 적중 시 $[SP_LowHPAttack_SideRear_Rate.tooltip1]% 확률로 기본 피해의 ^<c=@SkillTooltipChange>$[SP_LowHPAttack_DD.tooltip1]% + $[SP_LowHPAttack_DD.tooltip2]^</c> 만큼 추가 피해를 줍니다. 생명력이 30% 이하인 대상은 확률과 방향에 관계없이 강타 적중 시 발동됩니다. 스킬 1회 당 최대 3회까지 발동할 수 있습니다.\r\n\r\n^<c=@UI_TXT_Red_Disable>적용 불가 스킬^</c>\r\n^<c=@SkillTooltipChange>대자연의 시위, 흑풍령, 천둥령, 재앙의 광선^</c>",
-              "LocalizedString": "When the skill lands a Heavy Attack on the side or back of the target, it deals additional ^<c=@SkillTooltipChange>$[SP_LowHPAttack_DD.tooltip1]% of Base Damage + $[SP_LowHPAttack_DD.tooltip2]^</c> damage with a $[SP_LowHPAttack_SideRear_Rate.tooltip1]% chance. For targets with less than 30% Health, the attack always triggers from a Heavy Attack. The skill can be activated up to 3 times per skill.\r\n\r\n^<c=@UI_TXT_Red_Disable>Ineligible skills^</c>\r\n^<c=@SkillTooltipChange>Mother Nature's Protest, Umbral Spirit, Thunder Spirit, Ray of Disaster^</c>."
+              "LocalizedString": "When the skill lands a Heavy Attack on the side or back of the target, it deals additional ^<c=@SkillTooltipChange>$[SP_LowHPAttack_DD.tooltip1]% of Base Damage + $[SP_LowHPAttack_DD.tooltip2]^</c> damage with a $[SP_LowHPAttack_SideRear_Rate.tooltip1]% chance. For targets with less than 30% Health, the attack always triggers from a Heavy Attack. The skill can be activated up to 3 times per skill.\n\n^<c=@UI_TXT_Red_Disable>Ineligible skills^</c>\n^<c=@SkillTooltipChange>Mother Nature's Protest, Umbral Spirit, Thunder Spirit, Ray of Disaster^</c>."
             }
           }
         ],
@@ -22536,6 +23046,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22564,7 +23076,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22806,6 +23321,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22834,7 +23351,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23048,6 +23568,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23076,7 +23598,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23290,6 +23815,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23318,7 +23845,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23560,6 +24090,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "Range_Constant_500",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23588,7 +24120,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23830,6 +24365,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "Range_Constant_500",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23858,7 +24395,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24100,6 +24640,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24128,7 +24670,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24370,6 +24915,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "Range_Constant_500",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24398,7 +24945,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24640,6 +25190,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "Range_Constant_500",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24668,7 +25220,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24882,6 +25437,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24910,7 +25467,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25124,6 +25684,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25152,7 +25714,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25366,6 +25931,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25394,7 +25961,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25608,6 +26178,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25636,7 +26208,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25813,6 +26388,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25841,7 +26418,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26018,6 +26598,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26046,7 +26628,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26223,6 +26808,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26251,7 +26838,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26428,6 +27018,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26456,7 +27048,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26670,6 +27265,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26698,7 +27295,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26875,6 +27475,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26903,7 +27505,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27080,6 +27685,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27108,7 +27715,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27285,6 +27895,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27313,7 +27925,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27490,6 +28105,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27518,7 +28135,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27732,6 +28352,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27760,7 +28382,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27937,6 +28562,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27965,7 +28592,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28242,6 +28872,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -28270,7 +28902,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28482,6 +29117,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -28510,7 +29147,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28752,6 +29392,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -28780,7 +29422,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28957,6 +29602,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -28985,7 +29632,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29199,6 +29849,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -29227,7 +29879,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29569,6 +30224,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -29597,7 +30254,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29774,6 +30434,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -29802,7 +30464,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hero_skill_set guid="980534352" id="WP_Item_ORB" revision="0" description="아이템 오브 스킬" feature_tag="BASE_LH" publisher_tag="ALL" defense_complex_guid="0" _fsg_copyable="true" _fsg_movable="true">
+  <skill_complex_list>
+    <skill_complex guid="981124176" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어1) 검은 서약의 성보 (카르닉스 오브)" unlock_level="1" id="SkillSet_WP_Item_Boss_T1_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="981189712" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T1_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="981255248" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어1) 탈루스 오브" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T1_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="981320784" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T1_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980599888" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어2-2) 운명의 조화 구슬 (1인 던전)" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="980665424" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980730960" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어2-2) 성운의 신비 보주 (네뷸라)" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_ORB_02" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="980796496" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_ORB_02" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980862032" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어2-3) 그라이아이 오브" unlock_level="1" id="SkillSet_WP_Item_Boss_T2_ORB_03" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="980927568" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T2_ORB_03" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980993104" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어2-3) 만티쿠스 형제 오브" unlock_level="1" id="SkillSet_WP_Item_fieldBoss_T2_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="981058640" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T2_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980666512" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어3) 네르자툼 오브 (네르자툼의 악령혼)" unlock_level="1" id="SkillSet_WP_Item_Boss_T3_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="980732048" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_Boss_T3_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+    <skill_complex guid="980535438" is_basic_attack="false" is_for_polymorphed_only="false" description="(티어3) 탈루스 오브 업그레이드 (광염: 탈루스의 광휘핵)" unlock_level="1" id="SkillSet_WP_Item_FieldBoss_T3_ORB_01" skill_enchant_category="kNone" skill_type="kPassiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kNotAssigned">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" unlock_level="1" min_skill_level="1" max_skill_level="1">
+        <presets>
+          <preset guid="980600974" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_FieldBoss_T3_ORB_01" skill_id_disable="false" />
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
+  </skill_complex_list>
+  <custom_list />
+</hero_skill_set>

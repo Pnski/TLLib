@@ -287,25 +287,7 @@
             <default uid="0">
               <combo_state_default>
                 <complex default_skill_id="CM_WA_CounterMove_ActionSkill_Defence" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                  <if_abnormal_state min_count="0" description="넘어짐 해제 - NPC" contents_tag="kNPC_Knockdown">
                     <set_skill skill_id="CM_WA_CounterMove_ActionSkill_Rolling_Hero_Escape" skill_id_disable="false" />
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_WP_WA_Countermove_Contextbuff_Rolling" min_count="0">

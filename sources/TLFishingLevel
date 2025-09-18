@@ -19,14 +19,10 @@
           "SourceString": "[1레벨] 초보 낚시꾼",
           "LocalizedString": "[Lv. 1] Novice Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1299,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_2": {
         "Level": 2,
@@ -36,14 +32,10 @@
           "SourceString": "[2레벨] 초보 낚시꾼",
           "LocalizedString": "[Lv. 2] Novice Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 3897,
         "LevelUpRewardId": "Fishing_Level2",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_3": {
         "Level": 3,
@@ -53,14 +45,10 @@
           "SourceString": "[3레벨] 초보 낚시꾼",
           "LocalizedString": "[Lv. 3] Novice Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 7015,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_4": {
         "Level": 4,
@@ -70,14 +58,10 @@
           "SourceString": "[4레벨] 초보 낚시꾼",
           "LocalizedString": "[Lv. 4] Novice Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 10133,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_5": {
         "Level": 5,
@@ -87,14 +71,10 @@
           "SourceString": "[5레벨] 초보 낚시꾼",
           "LocalizedString": "[Lv. 5] Novice Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 16368,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_6": {
         "Level": 6,
@@ -104,14 +84,10 @@
           "SourceString": "[6레벨] 손맛을 아는 낚시꾼",
           "LocalizedString": "[Lv. 6] Seasoned Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 22603,
         "LevelUpRewardId": "Fishing_Level6",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_7": {
         "Level": 7,
@@ -121,14 +97,10 @@
           "SourceString": "[7레벨] 손맛을 아는 낚시꾼",
           "LocalizedString": "[Lv. 7] Seasoned Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 32476,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_8": {
         "Level": 8,
@@ -138,14 +110,10 @@
           "SourceString": "[8레벨] 손맛을 아는 낚시꾼",
           "LocalizedString": "[Lv. 8] Seasoned Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 41829,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_9": {
         "Level": 9,
@@ -155,14 +123,10 @@
           "SourceString": "[9레벨] 손맛을 아는 낚시꾼",
           "LocalizedString": "[Lv. 9] Seasoned Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 54300,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_10": {
         "Level": 10,
@@ -172,14 +136,10 @@
           "SourceString": "[10레벨] 손맛을 아는 낚시꾼",
           "LocalizedString": "[Lv. 10] Seasoned Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 69888,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_11": {
         "Level": 11,
@@ -189,14 +149,10 @@
           "SourceString": "[11레벨] 노련한 낚시꾼",
           "LocalizedString": "[Lv. 11] Skillful Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 91712,
         "LevelUpRewardId": "Fishing_Level11",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_12": {
         "Level": 12,
@@ -206,14 +162,10 @@
           "SourceString": "[12레벨] 노련한 낚시꾼",
           "LocalizedString": "[Lv. 12] Skillful Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 119771,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_13": {
         "Level": 13,
@@ -223,14 +175,10 @@
           "SourceString": "[13레벨] 노련한 낚시꾼",
           "LocalizedString": "[Lv. 13] Skillful Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 154066,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_14": {
         "Level": 14,
@@ -240,14 +188,10 @@
           "SourceString": "[14레벨] 노련한 낚시꾼",
           "LocalizedString": "[Lv. 14] Skillful Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 200831,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_15": {
         "Level": 15,
@@ -257,14 +201,10 @@
           "SourceString": "[15레벨] 노련한 낚시꾼",
           "LocalizedString": "[Lv. 15] Skillful Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 260067,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_16": {
         "Level": 16,
@@ -274,14 +214,10 @@
           "SourceString": "[16레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 16] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 338009,
         "LevelUpRewardId": "Fishing_Level16",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_17": {
         "Level": 17,
@@ -291,14 +227,10 @@
           "SourceString": "[17레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 17] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 441153,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_18": {
         "Level": 18,
@@ -308,14 +240,10 @@
           "SourceString": "[18레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 18] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 578591,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_19": {
         "Level": 19,
@@ -325,14 +253,10 @@
           "SourceString": "[19레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 19] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 759677,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_20": {
         "Level": 20,
@@ -342,14 +266,10 @@
           "SourceString": "[20레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 20] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1000000,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_21": {
         "Level": 21,
@@ -359,14 +279,10 @@
           "SourceString": "[21레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 21] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1162379,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_22": {
         "Level": 22,
@@ -376,14 +292,10 @@
           "SourceString": "[22레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 22] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1353078,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_23": {
         "Level": 23,
@@ -393,14 +305,10 @@
           "SourceString": "[23레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 23] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1553909,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_24": {
         "Level": 24,
@@ -410,14 +318,10 @@
           "SourceString": "[24레벨] 프로 낚시꾼",
           "LocalizedString": "[Lv. 24] Pro Angler"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 1768510,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_25": {
         "Level": 25,
@@ -427,84 +331,60 @@
           "SourceString": "[25레벨] 낚시의 달인",
           "LocalizedString": "[Lv. 25] Baitmaster"
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 2000000,
         "LevelUpRewardId": "Fishing_Level25",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_26": {
         "Level": 26,
         "Title": {
           "CultureInvariantString": null
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 2162379,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_27": {
         "Level": 27,
         "Title": {
           "CultureInvariantString": null
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 2353078,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_28": {
         "Level": 28,
         "Title": {
           "CultureInvariantString": null
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 2553909,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_29": {
         "Level": 29,
         "Title": {
           "CultureInvariantString": null
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 2768510,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       },
       "Level_30": {
         "Level": 30,
         "Title": {
           "CultureInvariantString": null
         },
-        "SystemMessageId": {
-          "CultureInvariantString": null
-        },
+        "SystemMessageId": "",
         "LevelExpThreshold": 3000000,
         "LevelUpRewardId": "",
-        "EffectID": {
-          "CultureInvariantString": null
-        }
+        "EffectID": ""
       }
     }
   }

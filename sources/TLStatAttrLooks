@@ -71,13 +71,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "3_CharacterUIName",
           "SourceString": "부무기 공격 확률",
-          "LocalizedString": "Off-hand Weapon Attack Chance"
+          "LocalizedString": "Off-Hand Weapon Attack Chance "
         },
         "ItemUIName": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "3_ItemUIName",
           "SourceString": "부무기 공격 확률",
-          "LocalizedString": "Off-hand Weapon Attack Chance"
+          "LocalizedString": "Off-Hand Weapon Attack Chance"
         },
         "ValueFormat": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -90,7 +90,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "3_TooltipTitle",
           "SourceString": "부무기 공격 확률 ^<c=@stat_white>{0}%^</c>",
-          "LocalizedString": "Off-hand Weapon Attack Chance ^<c=@stat_white>{0}%^</c>"
+          "LocalizedString": "Off-Hand Weapon Attack Chance ^<c=@stat_white>{0}%^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -179,7 +179,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "5_ItemUIName",
           "SourceString": "부무기 피해",
-          "LocalizedString": "Off-hand Weapon Damage"
+          "LocalizedString": "Off-Hand Weapon Damage"
         },
         "ValueFormat": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -281,7 +281,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "7_ItemUIName",
           "SourceString": "부무기 기본 피해",
-          "LocalizedString": "Off-hand Weapon Base Damage"
+          "LocalizedString": "Off-Hand Weapon Base Damage"
         },
         "ValueFormat": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -431,8 +431,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "9_TooltipDesc",
-          "SourceString": "걷고 뛰는 속도를 나타냅니다. 점프 거리에도 영향을 줍니다.",
-          "LocalizedString": "Basic move speed. Also impacts jump distance."
+          "SourceString": "걷고 뛰는 속도를 나타냅니다. 점프 거리에도 영향을 줍니다. 최대 1250 까지 증가할 수 있습니다. 야성 변신을 통해 추가적인 가속을 받을 수 있습니다.",
+          "LocalizedString": "Basic move speed. Also impacts jump distance. Increases up to max 1,250. Can be further accelerated through Morphing."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -1757,8 +1757,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "31_TooltipDesc",
-          "SourceString": "근거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Melee Heavy Attacks. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "근거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Melee Heavy Attacks. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -1808,8 +1808,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "31_0_TooltipDesc",
-          "SourceString": "원거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increase the chance to deal double damage with Ranged Heavy Attacks. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "원거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Ranged Heavy Attacks. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -1859,8 +1859,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "31_1_TooltipDesc",
-          "SourceString": "마법 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Magic Heavy Attacks. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "마법 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Magic Heavy Attacks. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -1910,8 +1910,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "32_TooltipDesc",
-          "SourceString": "근거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from Melee Heavy Attacks. For every 10 points, chance decreases by about 1%."
+          "SourceString": "근거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from Melee Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -1961,8 +1961,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "32_0_TooltipDesc",
-          "SourceString": "원거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from Ranged Heavy Attack. For every 10 points, chance decreases by about 1%."
+          "SourceString": "원거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from Ranged Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -2012,8 +2012,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "32_1_TooltipDesc",
-          "SourceString": "마법 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from Magic Heavy Attacks. For every 10 points, chance decreases by about 1%."
+          "SourceString": "마법 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from Magic Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -3239,8 +3239,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "55_TooltipDesc",
-          "SourceString": "스킬 재사용이 가능한 시간이 더 빠르게 감소합니다. 최대 200% 까지 증가할 수 있습니다.",
-          "LocalizedString": "Decreases cooldown of skills by up to 200%."
+          "SourceString": "스킬 재사용이 가능한 시간이 더 빠르게 감소합니다. 최대 120% 까지 증가할 수 있습니다.",
+          "LocalizedString": "Decreases cooldown of skills by up to 120%."
         },
         "DecreaseDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -3396,7 +3396,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "58_TooltipDesc",
           "SourceString": "이로운 효과를 받았을 때의 이로운 효과의 지속 시간이 증가합니다. 최대 150% 까지 증가할 수 있습니다.",
-          "LocalizedString": "Increases the duration of beneficial effects when receiving one by up to 150%."
+          "LocalizedString": "Increases the duration of beneficial effects when receiving one, up to 150%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -4158,7 +4158,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "91_TooltipDesc",
           "SourceString": "공격 속도가 추가로 증가하는 비율을 나타냅니다. 최대 150% 까지 증가할 수 있습니다.",
-          "LocalizedString": "The increased percentage in Attack Speed. Can increase by up to 150%."
+          "LocalizedString": "Increases the effectiveness of Attack Speed bonuses, up to 150%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -4184,13 +4184,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "92_CharacterUIName",
           "SourceString": "부무기 공격 확률",
-          "LocalizedString": "Off-hand Weapon Attack Chance"
+          "LocalizedString": "Off-Hand Weapon Attack Chance "
         },
         "ItemUIName": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "92_ItemUIName",
           "SourceString": "부무기 공격 확률",
-          "LocalizedString": "Off-hand Weapon Attack Chance"
+          "LocalizedString": "Off-Hand Weapon Attack Chance"
         },
         "ValueFormat": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -4203,13 +4203,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "92_TooltipTitle",
           "SourceString": "부무기 공격 확률 ^<c=@stat_white>{0}%^</c>",
-          "LocalizedString": "Off-hand Weapon Attack Chance ^<c=@stat_white>{0}%^</c>"
+          "LocalizedString": "Off-Hand Weapon Attack Chance ^<c=@stat_white>{0}%^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "92_TooltipDesc",
           "SourceString": "부무기 공격 확률이 추가로 증가하는 비율을 나타냅니다.",
-          "LocalizedString": "The increased percentage in Off-hand Weapon Attack Chance."
+          "LocalizedString": "The increased percentage in Off-Hand Weapon Attack Chance."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6656,8 +6656,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "140_TooltipDesc",
-          "SourceString": "대인 상황에서 근거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Melee Heavy Attacks in PvP. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "대인 상황에서 근거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Melee Heavy Attacks in PvP. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6707,8 +6707,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "140_0_TooltipDesc",
-          "SourceString": "대인 상황에서 원거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Ranged Heavy Attacks in PvP. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "대인 상황에서 원거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Ranged Heavy Attacks in PvP. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6758,8 +6758,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "140_1_TooltipDesc",
-          "SourceString": "대인 상황에서 마법 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Magic Heavy Attack in PvP. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "대인 상황에서 마법 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Magic Heavy Attacks in PvP. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6809,8 +6809,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "141_TooltipDesc",
-          "SourceString": "대인 상황에서 근거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance to get hit by Melee Heavy Attack and take double damage in PvP. For every 10 points, chance decreases by about 1%."
+          "SourceString": "대인 상황에서 근거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Melee Heavy Attacks in PvP. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6860,8 +6860,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "141_0_TooltipDesc",
-          "SourceString": "대인 상황에서 원거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Ranged Heavy Attack decreases the chance to take double damage during PvP. For every 10 points, chance decreases by about 1%."
+          "SourceString": "대인 상황에서 원거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Ranged Heavy Attacks in PvP. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -6911,8 +6911,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "141_1_TooltipDesc",
-          "SourceString": "대인 상황에서 마법 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Magic Heavy Attack decreases the chance to take double damage during PvP. For every 10 points, chance decreases by about 1%."
+          "SourceString": "대인 상황에서 마법 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Magic Heavy Attacks in PvP. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9062,8 +9062,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "181_TooltipDesc",
-          "SourceString": "보스에게 근거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Melee Heavy Attacks against bosses. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "보스에게 근거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 근거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Melee Heavy Attacks against bosses. If your stat is higher than the target's Melee Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9113,8 +9113,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "181_0_TooltipDesc",
-          "SourceString": "보스에게 원거리 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Ranged Heavy Attacks against bosses. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "보스에게 원거리 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 원거리 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Ranged Heavy Attacks against bosses. If your stat is higher than the target's Ranged Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9164,8 +9164,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "181_1_TooltipDesc",
-          "SourceString": "보스에게 마법 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with Magic Heavy Attacks against bosses. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "보스에게 마법 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 마법 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Magic Heavy Attacks against bosses. If your stat is higher than the target's Magic Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9215,8 +9215,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "182_TooltipDesc",
-          "SourceString": "보스에게서 근거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Boss's Melee Heavy Attack decreases the chance to take double damage. For every 10 points, decrease the chance by about 1%."
+          "SourceString": "보스에게서 근거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Melee Heavy Attacks from bosses. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9266,8 +9266,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "182_0_TooltipDesc",
-          "SourceString": "보스에게서 원거리 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Boss's Ranged Heavy Attack decreases the chance to take double damage. For every 10 points, decrease the chance by about 1%."
+          "SourceString": "보스에게서 원거리 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Ranged Heavy Attacks from bosses. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9317,8 +9317,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "182_1_TooltipDesc",
-          "SourceString": "보스에게서 마법 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Boss's Magic Heavy Attack decreases the chance to take double damage. For every 10 points, decrease the chance by about 1%."
+          "SourceString": "보스에게서 마법 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Magic Heavy Attacks from bosses. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -9686,7 +9686,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "192_CharacterUIName",
           "SourceString": "수영 변신 시 가속 속도 증가",
-          "LocalizedString": "Aqua Morph Accel. Bonus"
+          "LocalizedString": "Aqua. Morph Accel. Bonus"
         },
         "ItemUIName": {
           "CultureInvariantString": null
@@ -9702,7 +9702,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "192_TooltipTitle",
           "SourceString": "수영 변신 시 가속 이동 속도 증가 ^<c=@stat_white>{0}^</c>",
-          "LocalizedString": "Aqua Morph Accel. Bonus ^<c=@stat_white>{0}^</c>"
+          "LocalizedString": "Aqua. Morph Accel. Bonus ^<c=@stat_white>{0}^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -9734,7 +9734,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "193_CharacterUIName",
           "SourceString": "수영 변신 시 이동 속도 증가",
-          "LocalizedString": "Aqua Morph Speed Bonus"
+          "LocalizedString": "Aqua. Morph Speed Bonus"
         },
         "ItemUIName": {
           "CultureInvariantString": null
@@ -9750,7 +9750,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "193_TooltipTitle",
           "SourceString": "수영 변신 시 일반 이동 속도 증가 ^<c=@stat_white>{0}^</c>",
-          "LocalizedString": "Aqua Morph Speed Bonus ^<c=@stat_white>{0}^</c>"
+          "LocalizedString": "Aqua. Morph Speed Bonus ^<c=@stat_white>{0}^</c>"
         },
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
@@ -10052,8 +10052,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "199_TooltipDesc",
-          "SourceString": "강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
-          "LocalizedString": "Increase the chance to deal double damage with Heavy Attacks. For every 10 points, chance +1%."
+          "SourceString": "강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Heavy Attacks. For every 10 points, chance increases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -10256,8 +10256,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "203_TooltipDesc",
-          "SourceString": "강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from Heavy Attacks. For every 10 points, Critical Hit Chance decreases by about 1%."
+          "SourceString": "강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -10409,8 +10409,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "206_TooltipDesc",
-          "SourceString": "보스에게 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
-          "LocalizedString": "Increase the chance to deal double damage to bosses with Heavy Attacks. For every 10 points, chance increases by about 1%."
+          "SourceString": "보스에게 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage to bosses with Heavy Attacks. For every 10 points, chance increases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -10562,8 +10562,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "209_TooltipDesc",
-          "SourceString": "보스에게서 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from a boss's Heavy Attacks. For every 10 points, chance decreases by about 1%."
+          "SourceString": "보스에게서 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Heavy Attacks from bosses. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -10715,8 +10715,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "212_TooltipDesc",
-          "SourceString": "대인 상황에서 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
-          "LocalizedString": "Increases the chance to deal double damage by Heavy Attack during PvP. For every 10 points, chance increases by about 1%."
+          "SourceString": "대인 상황에서 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 스탯 10마다 강타 확률이 약 1% 증가합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with Heavy Attacks in PvP. For every 10 points, chance increases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -10868,8 +10868,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "215_TooltipDesc",
-          "SourceString": "대인 상황에서 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Getting hit by Heavy Attack decreases the chance to take double damage in PvP. For every 10 points, chance decreases by about 1%."
+          "SourceString": "대인 상황에서 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance to take powerful damage dealt with Heavy Attacks in PvP. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -11041,7 +11041,7 @@
       },
       "219": {
         "PcStatsType": "EPcStatsType::kCriticalDamageDealtModifier",
-        "ItemAttrType": "EItemAttrType::kNone",
+        "ItemAttrType": "EItemAttrType::kCriticalDamageDealtModifier",
         "AdjustStatType": "EAdjustStatType::kNone",
         "MagicDollStatType": "ETLMagicDollStatType::None",
         "CharacterUIName": {
@@ -11092,7 +11092,7 @@
       },
       "220": {
         "PcStatsType": "EPcStatsType::kCriticalDamageTakenModifier",
-        "ItemAttrType": "EItemAttrType::kNone",
+        "ItemAttrType": "EItemAttrType::kCriticalDamageTakenModifier",
         "AdjustStatType": "EAdjustStatType::kNone",
         "MagicDollStatType": "ETLMagicDollStatType::None",
         "CharacterUIName": {
@@ -12755,8 +12755,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "252_TooltipDesc",
-          "SourceString": "적 전방 공격 시 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with front Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "적 전방 공격 시 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with front Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -12806,8 +12806,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "253_TooltipDesc",
-          "SourceString": "적 측방 공격 시 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with side Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "적 측방 공격 시 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with side Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -12857,8 +12857,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "254_TooltipDesc",
-          "SourceString": "적 후방 공격 시 강타 공격을 가해 두배 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
-          "LocalizedString": "Increases the chance to deal double damage with back Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
+          "SourceString": "적 후방 공격 시 강타 공격을 가해 강력한 피해를 가하는 확률이 증가합니다. 피격자의 강타 회피 스탯보다 높을 경우 스탯 10차이당 강타 확률이 약 1% 증가합니다. 수치 차이가 커질수록 효율은 점차 감소합니다.",
+          "LocalizedString": "Increases the chance to deal powerful damage with back Heavy Attacks. If your stat is higher than the target's Heavy Attack Evasion, for every 10 points of difference, increase the chance by about 1%. As the difference increases, efficiency decreases."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -13367,8 +13367,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "264_TooltipDesc",
-          "SourceString": "전방 공격 피격 시 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from front Heavy Attacks. For every 10 points, Critical Hit Chance decreases by about 1%."
+          "SourceString": "전방 공격 피격 시 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from front Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -13418,8 +13418,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "265_TooltipDesc",
-          "SourceString": "측방 공격 피격 시 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from side Heavy Attacks. For every 10 points, Critical Hit Chance decreases by about 1%."
+          "SourceString": "측방 공격 피격 시 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from side Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -13469,8 +13469,8 @@
         "TooltipDesc": {
           "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
           "Key": "266_TooltipDesc",
-          "SourceString": "후방 공격 피격 시 강타 공격을 맞아 두배 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
-          "LocalizedString": "Decreases the chance of taking double damage from back Heavy Attacks. For every 10 points, Critical Hit Chance decreases by about 1%."
+          "SourceString": "후방 공격 피격 시 강타 공격을 맞아 강력한 피해를 입을 확률이 감소합니다. 스탯 10마다 강타 확률이 약 1% 감소합니다.",
+          "LocalizedString": "Decreases the chance of taking powerful damage from back Heavy Attacks. For every 10 points, chance decreases by about 1%."
         },
         "DecreaseDesc": {
           "CultureInvariantString": null
@@ -13631,6 +13631,414 @@
         "Multiply": 1.0,
         "Inversely": false,
         "UISortPriority": 60023,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "270": {
+        "PcStatsType": "EPcStatsType::kContinuousHealModifier",
+        "ItemAttrType": "EItemAttrType::kContinuousHealModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "270_CharacterUIName",
+          "SourceString": "스킬 지속 회복량",
+          "LocalizedString": "Skill Healing over Time"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "270_ItemUIName",
+          "SourceString": "스킬 지속 회복량",
+          "LocalizedString": "Skill Healing over Time"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "270_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "270_TooltipTitle",
+          "SourceString": "스킬 지속 회복량 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Skill Healing over Time ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "270_TooltipDesc",
+          "SourceString": "사용하는 스킬의 지속 회복량이 증가합니다.",
+          "LocalizedString": "Increases the amount healed over time by skills."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "271": {
+        "PcStatsType": "EPcStatsType::kContinuousHealTakenModifier",
+        "ItemAttrType": "EItemAttrType::kContinuousHealTakenModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "271_CharacterUIName",
+          "SourceString": "받는 스킬 지속 회복량",
+          "LocalizedString": "Targeted Skill Healing over Time"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "271_ItemUIName",
+          "SourceString": "받는 스킬 지속 회복량",
+          "LocalizedString": "Targeted Skill Healing over Time"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "271_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "271_TooltipTitle",
+          "SourceString": "받는 스킬 지속 회복량 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Targeted Skill Healing over Time ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "271_TooltipDesc",
+          "SourceString": "나에게 사용하는 스킬의 지속 회복량이 증가합니다.",
+          "LocalizedString": "Increases the amount healed over time by skills that target you."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "272": {
+        "PcStatsType": "EPcStatsType::kShieldModifier",
+        "ItemAttrType": "EItemAttrType::kShieldModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "272_CharacterUIName",
+          "SourceString": "보호막 생명력",
+          "LocalizedString": "Shield Health"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "272_ItemUIName",
+          "SourceString": "보호막 생명력",
+          "LocalizedString": "Shield Health"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "272_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "272_TooltipTitle",
+          "SourceString": "보호막 생명력 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Shield Health ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "272_TooltipDesc",
+          "SourceString": "사용하는 보호막 스킬의 생명력이 증가합니다.",
+          "LocalizedString": "Increases Health of Shield skills."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "273": {
+        "PcStatsType": "EPcStatsType::kShieldTakenModifier",
+        "ItemAttrType": "EItemAttrType::kShieldTakenModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "273_CharacterUIName",
+          "SourceString": "받는 보호막 생명력",
+          "LocalizedString": "Shield Health Received"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "273_ItemUIName",
+          "SourceString": "받는 보호막 생명력",
+          "LocalizedString": "Shield Health Received"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "273_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "273_TooltipTitle",
+          "SourceString": "받는 보호막 생명력 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Shield Health Received ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "273_TooltipDesc",
+          "SourceString": "나에게 사용하는 보호막 스킬의 생명력이 증가합니다.",
+          "LocalizedString": "Increases the Health of Shield skills cast on the player."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "274": {
+        "PcStatsType": "EPcStatsType::kShieldDamageDealtModifier",
+        "ItemAttrType": "EItemAttrType::kShieldDamageDealtModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "274_CharacterUIName",
+          "SourceString": "보호막 대상 피해 증가",
+          "LocalizedString": "Shielded Target Damage Increase"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "274_ItemUIName",
+          "SourceString": "보호막 대상 피해 증가",
+          "LocalizedString": "Shielded Target Damage Increase"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "274_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "274_TooltipTitle",
+          "SourceString": "보호막 대상 피해 증가 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Shielded Target Damage Increase ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "274_TooltipDesc",
+          "SourceString": "보호막 상태인 적에게 가하는 피해가 증가합니다.",
+          "LocalizedString": "Increases damage dealt to shielded enemies."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": true,
+        "HideOnEnchant": true,
+        "ShowOnTrade": false,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "275": {
+        "PcStatsType": "EPcStatsType::kShieldDamageTakenModifier",
+        "ItemAttrType": "EItemAttrType::kShieldDamageTakenModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "275_CharacterUIName",
+          "SourceString": "보호막 상태 피해 감소",
+          "LocalizedString": "Shield Damage Reduction"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "275_ItemUIName",
+          "SourceString": "보호막 상태 피해 감소",
+          "LocalizedString": "Shield Damage Reduction"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "275_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "275_TooltipTitle",
+          "SourceString": "보호막 상태 피해 감소 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Shield Damage Reduction ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "275_TooltipDesc",
+          "SourceString": "내가 보호막 상태일 때 받는 피해가 감소합니다.",
+          "LocalizedString": "Reduces damage taken while shielded."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": true,
+        "HideOnEnchant": true,
+        "ShowOnTrade": false,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "276": {
+        "PcStatsType": "EPcStatsType::kDoubleDamageDealtModifier",
+        "ItemAttrType": "EItemAttrType::kDoubleDamageDealtModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "276_CharacterUIName",
+          "SourceString": "강타 피해",
+          "LocalizedString": "Heavy Attack Damage"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "276_ItemUIName",
+          "SourceString": "강타 피해",
+          "LocalizedString": "Heavy Attack Damage"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "276_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "276_TooltipTitle",
+          "SourceString": "강타 피해 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Heavy Attack Damage ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "276_TooltipDesc",
+          "SourceString": "강타 공격을 가했을 때에 증가하는 피해량입니다.",
+          "LocalizedString": "Damage that increases upon dealing Heavy Attacks."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
+        "ShowOnItemCollection": false,
+        "HideOnItemTooltip": false,
+        "HideOnEnchant": false,
+        "ShowOnTrade": true,
+        "StatIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        }
+      },
+      "277": {
+        "PcStatsType": "EPcStatsType::kDoubleDamageTakenModifier",
+        "ItemAttrType": "EItemAttrType::kDoubleDamageTakenModifier",
+        "AdjustStatType": "EAdjustStatType::kNone",
+        "MagicDollStatType": "ETLMagicDollStatType::None",
+        "CharacterUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "277_CharacterUIName",
+          "SourceString": "강타 피해 저항",
+          "LocalizedString": "Heavy Attack Damage Resistance"
+        },
+        "ItemUIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "277_ItemUIName",
+          "SourceString": "강타 피해 저항",
+          "LocalizedString": "Heavy Attack Damage Resistance"
+        },
+        "ValueFormat": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "277_ValueFormat",
+          "SourceString": "{0}%",
+          "LocalizedString": "{0}%"
+        },
+        "UseSign": false,
+        "TooltipTitle": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "277_TooltipTitle",
+          "SourceString": "강타 피해 저항 ^<c=@stat_white>{0}%^</c>",
+          "LocalizedString": "Heavy Attack Damage Resistance ^<c=@stat_white>{0}%^</c>"
+        },
+        "TooltipDesc": {
+          "TableId": "/Game/Game/Client/Table/TLStringStatAttrLooks.TLStringStatAttrLooks",
+          "Key": "277_TooltipDesc",
+          "SourceString": "강타 공격을 받았을 때의 피해량이 감소합니다. 강타 피해는 기본 피해의 150% 미만으로 감소시킬 수 없습니다.",
+          "LocalizedString": "Reduces Heavy Attack Damage taken. Cannot reduce Heavy Attack Damage below 150% of Base Damage."
+        },
+        "DecreaseDesc": {
+          "CultureInvariantString": null
+        },
+        "Multiply": 0.01,
+        "Inversely": false,
+        "UISortPriority": 0,
         "ShowOnItemCollection": false,
         "HideOnItemTooltip": false,
         "HideOnEnchant": false,

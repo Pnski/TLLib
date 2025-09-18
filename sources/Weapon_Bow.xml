@@ -60,7 +60,11 @@
           <preset guid="963002466" is_toggle_slot="false">
             <default uid="0">
               <combo_state_default>
-                <complex default_skill_id="WP_BO_S_BindShot_Hero" default_skill_id_disable="false" />
+                <complex default_skill_id="WP_BO_S_BindShot_Hero" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_Boss_T3_BO_01">
+                    <set_skill skill_id="WP_BO_S_WP_Item_Boss_T3_BO_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
           </preset>
@@ -413,25 +417,7 @@
             <default uid="0">
               <combo_state_default>
                 <complex default_skill_id="CM_BO_CounterMove_ActionSkill_Slot_Hero" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_MazeLionHead_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_LycanthropeLeader_KnockDown_Back" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_OrcMagnaduk_Knockdown_Backward" min_count="0" description="넘어짐 해제 - NPC">
-                    <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
-                  </if_abnormal_state>
-                  <if_abnormal_state abnormal_state_id="abn_NPC_Marta_Knockdown" min_count="0" description="넘어짐 해제 - NPC">
+                  <if_abnormal_state min_count="0" description="넘어짐 해제 - NPC" contents_tag="kNPC_Knockdown">
                     <set_skill skill_id="CM_BO_CounterMove_ActionSkill_Tumbling_Escape" skill_id_disable="false" />
                   </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_CM_BO_CounterMove_ContextSkill" min_count="0">

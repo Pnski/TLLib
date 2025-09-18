@@ -52,6 +52,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -80,7 +82,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -260,6 +265,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -288,7 +295,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -505,6 +515,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -533,7 +545,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -831,6 +846,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -859,7 +876,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1157,6 +1177,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -1185,7 +1207,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1427,6 +1452,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -1455,7 +1482,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -1753,6 +1783,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -1781,7 +1813,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2023,6 +2058,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -2051,7 +2088,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2293,6 +2333,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -2321,7 +2363,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2563,6 +2608,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -2591,7 +2638,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -2833,6 +2883,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -2861,7 +2913,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3038,6 +3093,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3066,7 +3123,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3243,6 +3303,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3271,7 +3333,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3448,6 +3513,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3476,7 +3543,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3653,6 +3723,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3681,7 +3753,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -3858,6 +3933,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -3886,7 +3963,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4063,6 +4143,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4091,7 +4173,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4271,6 +4356,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4299,7 +4386,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4479,6 +4569,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4507,7 +4599,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4687,6 +4782,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4715,7 +4812,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -4895,6 +4995,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -4923,7 +5025,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5103,6 +5208,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5131,7 +5238,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5275,7 +5385,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_NAME_SkillSet_WP_WA_GR_S_CurseBurst_trait_3",
           "SourceString": "사용 대상 집중",
-          "LocalizedString": "Focus Target"
+          "LocalizedString": "Focus target"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON056.SP_COMMON056",
@@ -5311,6 +5421,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5339,7 +5451,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5519,6 +5634,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5547,7 +5664,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5727,6 +5847,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5755,7 +5877,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -5935,6 +6060,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -5963,7 +6090,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6143,6 +6273,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6171,7 +6303,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6351,6 +6486,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6379,7 +6516,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6559,6 +6699,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6587,7 +6729,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6767,6 +6912,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -6795,7 +6942,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -6975,6 +7125,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7003,7 +7155,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7183,6 +7338,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7211,7 +7368,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7391,6 +7551,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7419,7 +7581,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7599,6 +7764,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7627,7 +7794,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -7807,6 +7977,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -7835,7 +8007,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8015,6 +8190,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8043,7 +8220,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8223,6 +8403,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8251,7 +8433,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8431,6 +8616,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8459,7 +8646,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8639,6 +8829,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -8667,7 +8859,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -8847,6 +9042,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -8875,7 +9072,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9055,6 +9255,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9083,7 +9285,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9263,6 +9468,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9291,7 +9498,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9471,6 +9681,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9499,7 +9711,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9679,6 +9894,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9707,7 +9924,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -9887,6 +10107,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -9915,7 +10137,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10095,6 +10320,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10123,7 +10350,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10303,6 +10533,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10331,7 +10563,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10511,6 +10746,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10539,7 +10776,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10719,6 +10959,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10747,7 +10989,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -10927,6 +11172,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -10955,7 +11202,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11135,6 +11385,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11163,7 +11415,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11343,6 +11598,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11371,7 +11628,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11588,6 +11848,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11616,7 +11878,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -11830,6 +12095,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -11858,7 +12125,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12072,6 +12342,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12100,7 +12372,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12314,6 +12589,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12342,7 +12619,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12556,6 +12836,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12584,7 +12866,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -12798,6 +13083,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -12826,7 +13113,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13040,6 +13330,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13068,7 +13360,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13282,6 +13577,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13310,7 +13607,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13524,6 +13824,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13552,7 +13854,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -13766,6 +14071,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -13794,7 +14101,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14008,6 +14318,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14036,7 +14348,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14250,6 +14565,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14278,7 +14595,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14492,6 +14812,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14520,7 +14842,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14677,8 +15002,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_DESC_WM_WA_RARE_DEF",
-              "SourceString": "증강의 시간 적용 시 대상을 관통하여 지나갈 수 있습니다. 기본 피해의 $[WM_WA_RARE_DEF_Shield.tooltip1]% 만큼의 피해 보호 효과를 추가로 줍니다. 지속 시간이 $[WM_WA_RARE_DEF_Duration.tooltip1]초로 변경됩니다.",
-              "LocalizedString": "Applying Enchanting Time enables the user to pass through the target and grants an effect that absorbs Damage equal to $[WM_WA_RARE_DEF_Shield.tooltip1]% of Base Damage. Lasts for $[WM_WA_RARE_DEF_Duration.tooltip1]s."
+              "SourceString": "증강의 시간 적용 시 대상을 관통하여 지나갈 수 있습니다. 기본 피해의 $[WM_WA_RARE_DEF_Shield.tooltip1]% 만큼의 생명력을 가지는 보호막 효과를 줍니다. 지속 시간이 $[WM_WA_RARE_DEF_Duration.tooltip1]초로 변경됩니다.",
+              "LocalizedString": "Applying Enchanting Time enables the user to pass through the target and grants a Shield with Health equal to $[WM_WA_RARE_DEF_Shield.tooltip1]% of Base Damage. Lasts for $[WM_WA_RARE_DEF_Duration.tooltip1]s."
             }
           }
         ],
@@ -14734,6 +15059,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -14762,7 +15089,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -14976,6 +15306,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15004,7 +15336,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15218,6 +15553,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15246,7 +15583,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15460,6 +15800,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15488,7 +15830,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15702,6 +16047,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15730,7 +16077,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -15870,8 +16220,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -15907,6 +16257,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -15935,7 +16287,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16075,8 +16430,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -16112,6 +16467,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16140,7 +16497,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16280,8 +16640,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -16317,6 +16677,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16345,7 +16707,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16485,8 +16850,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -16522,6 +16887,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -16550,7 +16917,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -16764,6 +17134,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -16792,7 +17164,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17070,6 +17445,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -17098,7 +17475,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17312,6 +17692,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -17340,7 +17722,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17480,8 +17865,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -17517,6 +17902,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17545,7 +17932,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17685,8 +18075,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -17722,6 +18112,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17750,7 +18142,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -17890,8 +18285,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -17927,6 +18322,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -17955,7 +18352,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18095,8 +18495,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
           "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
-          "SourceString": "마력구",
-          "LocalizedString": "Magic Orb"
+          "SourceString": "마나구",
+          "LocalizedString": "Manaball"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_WA_GR_S_BasicAttack.S_WP_WA_GR_S_BasicAttack",
@@ -18132,6 +18532,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -18160,7 +18562,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18374,6 +18779,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -18402,7 +18809,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18616,6 +19026,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -18644,7 +19056,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -18858,6 +19273,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -18886,7 +19303,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19100,6 +19520,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -19128,7 +19550,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19342,6 +19767,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -19370,7 +19797,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19584,6 +20014,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -19612,7 +20044,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -19826,6 +20261,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -19854,7 +20291,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20068,6 +20508,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20096,7 +20538,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20310,6 +20755,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20338,7 +20785,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20616,6 +21066,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -20644,7 +21096,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -20922,6 +21377,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -20950,7 +21407,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21164,6 +21624,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21192,7 +21654,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21406,6 +21871,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21434,7 +21901,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21648,6 +22118,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21676,7 +22148,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -21890,6 +22365,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -21918,7 +22395,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22132,6 +22612,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22160,7 +22642,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22374,6 +22859,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22402,7 +22889,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22651,6 +23141,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -22679,7 +23171,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -22921,6 +23416,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -22949,7 +23446,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23191,6 +23691,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23219,7 +23721,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23461,6 +23966,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -23489,7 +23996,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -23775,6 +24285,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -23803,7 +24315,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24017,6 +24532,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -24045,7 +24562,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24266,8 +24786,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_DefenseUp",
-              "SourceString": "$[WA_DefenseUp_Buff_Duration.tooltip2]초 동안 우호 대상의 근거리, 원거리, 마법 방어가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]^</c> 증가합니다. 낮에는 받는 스킬 회복량이 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> 증가하고, 밤에는 근거리, 원거리, 마법 인내가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> 증가합니다. 효과가 발동한 후 $[WA_DefenseUp_Buff_Enhanced_Duration.tooltip1]초 동안 증가량이 $[WA_DefenseUp_Buff_Enhanced_Defense.tooltip2]배 적용됩니다.",
-              "LocalizedString": "Grants a Blessed Barrier that increases an ally's Magic, Melee, and Ranged Defense by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]^</c> for $[WA_DefenseUp_Buff_Duration.tooltip2]s.\r\nAdditionally, the barrier increases Healing Received by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> during the day, and increases Magic, Melee, and Ranged Endurance by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> at night.\r\nFor the initial $[WA_DefenseUp_Buff_Enhanced_Duration.tooltip1]s, the effect is $[WA_DefenseUp_Buff_Enhanced_Defense.tooltip2] times greater than the base amount."
+              "SourceString": "$[WA_DefenseUp_Buff_Duration.tooltip2]초 동안 우호 대상의 방어가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]%^</c> 증가합니다. 낮에는 받는 스킬 회복량이 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> 증가하고, 밤에는 근거리, 원거리, 마법 인내가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> 증가합니다. 효과가 발동한 후 $[WA_DefenseUp_Buff_Enhanced_Duration.tooltip1]초 동안 증가량이 $[WA_DefenseUp_Buff_Enhanced_Defense.tooltip2]배 적용됩니다. 효과를 받은 대상은 $[WA_DefenseUp_CoolCheck.tooltip1]초 동안 은총의 결계 효과를 받을 수 없습니다.",
+              "LocalizedString": "Increases an ally's Magic, Melee, and Ranged Defense by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]%^</c> for $[WA_DefenseUp_Buff_Duration.tooltip2]s. Additionally, increases Healing Received by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> during the day, and increases Magic, Melee, and Ranged Endurance by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> at night. For the initial $[WA_DefenseUp_Buff_Enhanced_Duration.tooltip1]s, the effect is $[WA_DefenseUp_Buff_Enhanced_Defense.tooltip2] times greater than the base amount. The affected target cannot be affected by Blessed Barrier for $[WA_DefenseUp_CoolCheck.tooltip1]s."
             }
           }
         ],
@@ -24289,8 +24809,8 @@
                   "OptionParameter": {
                     "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
                     "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_WA_DefenseUp",
-                    "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]",
-                    "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]"
+                    "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%",
+                    "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%"
                   }
                 },
                 {
@@ -24336,8 +24856,8 @@
             "OptionParameter": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_WA_DefenseUp",
-              "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]",
-              "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]"
+              "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%",
+              "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%"
             }
           },
           {
@@ -24379,6 +24899,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24407,7 +24929,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24564,8 +25089,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_DefenseUp_trait_2",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 파티원의 근거리, 원거리, 마법 방어가 $[WA_DefenseUp_Buff_Duration.tooltip2]초 동안 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]^</c> 증가합니다. 낮에는 받는 스킬 회복량이 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> 증가하고, 밤에는 근거리, 원거리, 마법 인내가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> 증가합니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area to the designated direction, and increase Magic, Melee, and Ranged Defense of the party members within the area by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]^</c> for $[WA_DefenseUp_Buff_Duration.tooltip2]s. Healing Received increases by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> during the day, and Magic, Melee, and Ranged Endurance increase by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> at night."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 파티원의 방어가 $[WA_DefenseUp_Buff_Duration.tooltip2]초 동안 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]%^</c> 증가합니다. 낮에는 받는 스킬 회복량이 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> 증가하고, 밤에는 근거리, 원거리, 마법 인내가 ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> 증가합니다. 효과를 받은 대상은 $[WA_DefenseUp_CoolCheck.tooltip1]초 동안 은총의 결계 효과를 받을 수 없습니다.",
+              "LocalizedString": "Creates a(n) $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the designated location, and increases Magic, Melee, and Ranged Defense of party members within the area by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Defense.tooltip1]%^</c> for $[WA_DefenseUp_Buff_Duration.tooltip2]s. Additionally, increases Healing Received by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Day_HealTakenMod.tooltip1]%^</c> during the day, and increases Magic, Melee, and Ranged Endurance by ^<c=@SkillTooltipChange>$[WA_DefenseUp_Buff_Night_CriticalDefense.tooltip1]^</c> at night. The affected target cannot be affected by Blessed Barrier for $[WA_DefenseUp_CoolCheck.tooltip1]s."
             }
           }
         ],
@@ -24587,8 +25112,8 @@
                   "OptionParameter": {
                     "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
                     "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_WA_DefenseUp",
-                    "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]",
-                    "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]"
+                    "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%",
+                    "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%"
                   }
                 },
                 {
@@ -24634,8 +25159,8 @@
             "OptionParameter": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_WA_DefenseUp",
-              "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]",
-              "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]"
+              "SourceString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%",
+              "LocalizedString": "$[WA_DefenseUp_Buff_Defense.tooltip1]%"
             }
           },
           {
@@ -24677,6 +25202,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -24705,7 +25232,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -24862,8 +25392,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -24919,6 +25449,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -24947,7 +25479,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25161,6 +25696,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "WA_HealAll_Area_AttackRange_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25189,7 +25726,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25403,6 +25943,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25431,7 +25973,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25639,12 +26184,14 @@
         "AwakeningOptionList": [],
         "TargetApproachType": "ETLTargetApproachType::None",
         "ClearFixTarget": false,
-        "SkillType": "ETLSkillBuffType::Normal",
+        "SkillType": "ETLSkillBuffType::ShortBuff",
         "bHasFxId": false,
         "FoSubTypes": [],
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "WA_HealAll_Area_AttackRange_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25673,7 +26220,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -25943,6 +26493,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -25971,7 +26523,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26185,6 +26740,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -26213,7 +26770,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26384,7 +26944,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HealField",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 파티원은 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% + $[WA_HealField_Heal.tooltip2]^</c> 만큼 회복합니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 파티원은 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% + $[WA_HealField_Heal.tooltip2]^</c> 만큼 회복합니다.",
               "LocalizedString": "Creates a $[WA_HealField_Area_Fixed_Range.tooltip1]m radius area at the designated location for $[WA_HealField_Time.tooltip1]s. Party members within the area recover ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% of Base Damage + $[WA_HealField_Heal.tooltip2]^</c> every 0.5s.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
             }
           }
@@ -26441,6 +27001,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -26469,7 +27031,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26626,7 +27191,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_DESC_WP_WA_GR_S_HealField_Mastery",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 대상에게 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> 만큼 피해를 줍니다. 피해를 입은 대상에게는 3초 동안 ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과 대상에게는 타락한 사멸 범위가 3m로 증가합니다. ^<c=@SkillTooltipChange>마나 회복^</c> 스킬 특화는 적용되지 않습니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 대상에게 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> 만큼 피해를 줍니다. 피해를 입은 대상에게는 3초 동안 ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과 대상에게는 타락한 사멸 범위가 3m로 증가합니다. ^<c=@SkillTooltipChange>마나 회복^</c> 스킬 특화는 적용되지 않습니다.",
               "LocalizedString": "A special growth skill that can only be grown with ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\r\n\r\nCreates a(n) $[WA_HealField_Area_Fixed_Range.tooltip1]m radius area at the designated location for $[WA_HealField_Time.tooltip1]s. Deals ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% of Base Damage + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> damage to targets within range every 0.5s. Applies the ^<c=@SkillTooltipChange>Obliterating Swamp^</c> effect to the targets for 3s. Corrupted Obliteration's AOE range increases to 3m against ^<c=@SkillTooltipChange>Obliterating Swamp^</c> targets. ^<c=@SkillTooltipChange>Mana Recovery^</c> Skill Specialization does not apply."
             }
           }
@@ -26683,6 +27248,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -26711,7 +27278,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -26882,7 +27452,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HealField",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 파티원은 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% + $[WA_HealField_Heal.tooltip2]^</c> 만큼 회복합니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 파티원은 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% + $[WA_HealField_Heal.tooltip2]^</c> 만큼 회복합니다.",
               "LocalizedString": "Creates a $[WA_HealField_Area_Fixed_Range.tooltip1]m radius area at the designated location for $[WA_HealField_Time.tooltip1]s. Party members within the area recover ^<c=@SkillTooltipChange>$[WA_HealField_Heal.tooltip1]% of Base Damage + $[WA_HealField_Heal.tooltip2]^</c> every 0.5s.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
             }
           }
@@ -26939,6 +27509,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -26967,7 +27539,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27124,7 +27699,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_DESC_WP_WA_GR_S_HealField_Mastery",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 대상에게 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> 만큼 피해를 줍니다. 피해를 입은 대상에게는 3초 동안 ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과 대상에게는 타락한 사멸 범위가 3m로 증가합니다. ^<c=@SkillTooltipChange>마나 회복^</c> 스킬 특화는 적용되지 않습니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n지정한 위치에 $[WA_HealField_Time.tooltip1]초 동안 반경 $[WA_HealField_Area_Fixed_Range.tooltip1]m의 영역을 생성합니다. 영역 내의 대상에게 0.5초마다 기본 피해의 ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> 만큼 피해를 줍니다. 피해를 입은 대상에게는 3초 동안 ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>사멸의 늪^</c> 효과 대상에게는 타락한 사멸 범위가 3m로 증가합니다. ^<c=@SkillTooltipChange>마나 회복^</c> 스킬 특화는 적용되지 않습니다.",
               "LocalizedString": "A special growth skill that can only be grown with ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\r\n\r\nCreates a(n) $[WA_HealField_Area_Fixed_Range.tooltip1]m radius area at the designated location for $[WA_HealField_Time.tooltip1]s. Deals ^<c=@SkillTooltipChange>$[WM_WA_RARE_TAC_HealField_DD.tooltip1]% of Base Damage + $[WM_WA_RARE_TAC_HealField_DD.tooltip2]^</c> damage to targets within range every 0.5s. Applies the ^<c=@SkillTooltipChange>Obliterating Swamp^</c> effect to the targets for 3s. Corrupted Obliteration's AOE range increases to 3m against ^<c=@SkillTooltipChange>Obliterating Swamp^</c> targets. ^<c=@SkillTooltipChange>Mana Recovery^</c> Skill Specialization does not apply."
             }
           }
@@ -27181,6 +27756,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -27209,7 +27786,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27366,8 +27946,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -27423,6 +28003,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27451,7 +28033,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27629,8 +28214,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -27686,6 +28271,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27714,7 +28301,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -27885,8 +28475,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -27942,6 +28532,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -27970,7 +28562,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28198,6 +28793,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -28226,7 +28823,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28454,6 +29054,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -28482,7 +29084,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28710,6 +29315,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -28738,7 +29345,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -28895,8 +29505,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -28952,6 +29562,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -28980,7 +29592,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29137,8 +29752,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -29194,6 +29809,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -29222,7 +29839,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29379,8 +29999,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Heal_Rare",
-              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>과 재사용 시간을 공유합니다.",
-              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2] damage^</c>. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c>."
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% + $[WA_Heal_Heal.tooltip2]^</c> 만큼 우호 대상의 생명력을 회복합니다. 연속으로 최대 2회까지 사용할 수 있으며 연속 사용시 이전 회복량 대비 회복량이 30% 감소합니다. ^<c=@SkillTooltipChange>치유의 손길^</c>, ^<c=@SkillTooltipChange>왜곡 장막^</c>과 재사용 시간을 공유합니다.",
+              "LocalizedString": "Restores an ally's Health equal to ^<c=@SkillTooltipChange>$[WA_Heal_Heal.tooltip1]% of Base Damage + $[WA_Heal_Heal.tooltip2]^</c> damage. Can be used up to 2 times in a row. Healing amount is decreased by 30% each time it is used when used consecutively. Shares cooldown with ^<c=@SkillTooltipChange>Healing Touch^</c> and ^<c=@SkillTooltipChange>Distortion Veil^</c>."
             }
           }
         ],
@@ -29436,6 +30056,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -29464,7 +30086,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29621,7 +30246,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HpShrink",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
               "LocalizedString": "Links the target with the user for $[WA_HPShrink_Duration.tooltip1]s and deals ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% of Base Damage + $[WA_HPShrink_DD.tooltip2] damage^</c> to all targets in range every 0.5s. Damage increases by $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% of Healing. Damage increases by $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% against monsters. When the target dies while under the effect, the effect is applied 1 additional time to another enemy within 10m radius.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Skill Growth Book: Omnipotence^</c>."
             }
           }
@@ -29678,6 +30303,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -29706,7 +30333,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -29863,7 +30493,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HpShrink",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
               "LocalizedString": "Links the target with the user for $[WA_HPShrink_Duration.tooltip1]s and deals ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% of Base Damage + $[WA_HPShrink_DD.tooltip2] damage^</c> to all targets in range every 0.5s. Damage increases by $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% of Healing. Damage increases by $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% against monsters. When the target dies while under the effect, the effect is applied 1 additional time to another enemy within 10m radius.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Skill Growth Book: Omnipotence^</c>."
             }
           }
@@ -29920,6 +30550,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -29948,7 +30580,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -30113,7 +30748,7 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
                   "Key": "TEXT_SKILL_DESC_WP_WA_HpShrink_trait1",
-                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상 및 주변 10m 범위 내의 2대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD_trait1.tooltip1]% + $[WA_HPShrink_DD_trait1.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
+                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상 및 주변 10m 범위 내의 2대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD_trait1.tooltip1]% + $[WA_HPShrink_DD_trait1.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
                   "LocalizedString": "Links the user, the primary target, as well as 2 additional targets within 5m of the primary target for $[WA_HPShrink_Duration.tooltip1]s, dealing ^<c=@SkillTooltipChange>$[WA_HPShrink_DD_trait1.tooltip1]% of Base Damage + $[WA_HPShrink_DD_trait1.tooltip2]^</c> to all enemies in range every 0.5s. Damage increases by $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% against monsters. When the target dies while under the effect, the effect is applied 1 additional time to another enemy within 10m. Damage increases by $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% of Healing.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Skill Growth Book: Omnipotence^</c>."
                 }
               }
@@ -30129,7 +30764,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HpShrink",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
               "LocalizedString": "Links the target with the user for $[WA_HPShrink_Duration.tooltip1]s and deals ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% of Base Damage + $[WA_HPShrink_DD.tooltip2] damage^</c> to all targets in range every 0.5s. Damage increases by $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% of Healing. Damage increases by $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% against monsters. When the target dies while under the effect, the effect is applied 1 additional time to another enemy within 10m radius.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Skill Growth Book: Omnipotence^</c>."
             }
           }
@@ -30186,6 +30821,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -30214,7 +30851,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -30371,7 +31011,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_HpShrink",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상과 자신을 $[WA_HPShrink_Duration.tooltip1]초 동안 연결하여 사이에 있는 모든 적대 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% + $[WA_HPShrink_DD.tooltip2]^</c> 만큼 0.5초마다 피해를 줍니다. 몬스터에게는 피해량이 $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% 증폭됩니다. 적용 중인 대상이 사망하면 주변 10m 범위 내의 대상에게 1회 추가로 부여됩니다. 스킬 회복량의 $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% 만큼 피해량이 증폭됩니다.",
               "LocalizedString": "Links the target with the user for $[WA_HPShrink_Duration.tooltip1]s and deals ^<c=@SkillTooltipChange>$[WA_HPShrink_DD.tooltip1]% of Base Damage + $[WA_HPShrink_DD.tooltip2] damage^</c> to all targets in range every 0.5s. Damage increases by $[WA_HPShrink_DamageUp_HealModifier.tooltip1]% of Healing. Damage increases by $[WA_HPShrink_DD_PVE_tooltip.tooltip1]% against monsters. When the target dies while under the effect, the effect is applied 1 additional time to another enemy within 10m radius.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Skill Growth Book: Omnipotence^</c>."
             }
           }
@@ -30391,6 +31031,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -30419,7 +31061,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -30576,8 +31221,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_GR_S_MAGICSHIELD_trait1",
-              "SourceString": "공격 거리 내에 존재하는 모든 파티원들에게 $[WA_MagicShield_Time.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> 만큼의 피해 보호 효과를 줍니다.",
-              "LocalizedString": "Grants a shield that absorbs damage equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% of Base Damage + $[WA_MagicShield_Shield_Trait1.tooltip2] damage^</c> to all party members within range for $[WA_MagicShield_Time.tooltip1]s."
+              "SourceString": "공격 거리 내에 존재하는 모든 파티원들에게 $[WA_MagicShield_Time.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> 만큼의 생명력을 가지는 보호막 효과를 줍니다.",
+              "LocalizedString": "Grants a Shield with Health equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% of Base Damage + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> to all party members within Attack Range for $[WA_MagicShield_Time.tooltip1]s."
             }
           }
         ],
@@ -30633,6 +31278,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "WA_MaigcShield_Target_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -30661,7 +31308,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -30818,8 +31468,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_GR_S_MAGICSHIELD",
-              "SourceString": "$[WA_MagicShield_Time.tooltip1]초 동안 우호 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% + $[WA_MagicShield_Shield.tooltip2]^</c> 만큼의 피해 보호 효과를 줍니다.",
-              "LocalizedString": "Grants a shield that absorbs damage equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% of Base Damage + $[WA_MagicShield_Shield.tooltip2] damage^</c> to an ally for $[WA_MagicShield_Time.tooltip1]s."
+              "SourceString": "$[WA_MagicShield_Time.tooltip1]초 동안 우호 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% + $[WA_MagicShield_Shield.tooltip2]^</c> 만큼의 생명력을 가지는 보호막 효과를 줍니다.",
+              "LocalizedString": "Grants a Shield with Health equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% of Base Damage + $[WA_MagicShield_Shield.tooltip2]^</c> to an ally for $[WA_MagicShield_Time.tooltip1]s."
             }
           }
         ],
@@ -30875,6 +31525,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -30903,7 +31555,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -31060,8 +31715,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_GR_S_MAGICSHIELD",
-              "SourceString": "$[WA_MagicShield_Time.tooltip1]초 동안 우호 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% + $[WA_MagicShield_Shield.tooltip2]^</c> 만큼의 피해 보호 효과를 줍니다.",
-              "LocalizedString": "Grants a shield that absorbs damage equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% of Base Damage + $[WA_MagicShield_Shield.tooltip2] damage^</c> to an ally for $[WA_MagicShield_Time.tooltip1]s."
+              "SourceString": "$[WA_MagicShield_Time.tooltip1]초 동안 우호 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% + $[WA_MagicShield_Shield.tooltip2]^</c> 만큼의 생명력을 가지는 보호막 효과를 줍니다.",
+              "LocalizedString": "Grants a Shield with Health equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield.tooltip1]% of Base Damage + $[WA_MagicShield_Shield.tooltip2]^</c> to an ally for $[WA_MagicShield_Time.tooltip1]s."
             }
           }
         ],
@@ -31117,6 +31772,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -31145,7 +31802,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -31302,8 +31962,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_GR_S_MAGICSHIELD_trait1",
-              "SourceString": "공격 거리 내에 존재하는 모든 파티원들에게 $[WA_MagicShield_Time.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> 만큼의 피해 보호 효과를 줍니다.",
-              "LocalizedString": "Grants a shield that absorbs damage equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% of Base Damage + $[WA_MagicShield_Shield_Trait1.tooltip2] damage^</c> to all party members within range for $[WA_MagicShield_Time.tooltip1]s."
+              "SourceString": "공격 거리 내에 존재하는 모든 파티원들에게 $[WA_MagicShield_Time.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> 만큼의 생명력을 가지는 보호막 효과를 줍니다.",
+              "LocalizedString": "Grants a Shield with Health equal to ^<c=@SkillTooltipChange>$[WA_MagicShield_Shield_Trait1.tooltip1]% of Base Damage + $[WA_MagicShield_Shield_Trait1.tooltip2]^</c> to all party members within Attack Range for $[WA_MagicShield_Time.tooltip1]s."
             }
           }
         ],
@@ -31359,6 +32019,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "WA_MaigcShield_Target_Range",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -31387,7 +32049,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -31601,6 +32266,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -31629,7 +32296,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -31864,6 +32534,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -31892,7 +32564,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -32106,6 +32781,8 @@
         "bReleaseSpecialPolymorph": true,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "/Game/Image/Skill/Abnormal/kCurse.kCurse",
@@ -32134,7 +32811,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -32376,6 +33056,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -32404,7 +33086,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
@@ -32561,7 +33246,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_GR_S_WeakAttackCurseCoolDown",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 준 대상에게 내 공격이 적중할 때마다 모든 ^<c=@SkillTooltipAbnormal>저주^</c> 스킬의 남은 재사용 시간이 ^<c=@SkillTooltipChange>$[WA_GR_WeakAttackCurseCoolDown_CoolDown.tooltip1]초^</c> 감소합니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 준 대상에게 내 공격이 적중할 때마다 모든 ^<c=@SkillTooltipAbnormal>저주^</c> 스킬의 남은 재사용 시간이 ^<c=@SkillTooltipChange>$[WA_GR_WeakAttackCurseCoolDown_CoolDown.tooltip1]초^</c> 감소합니다.",
               "LocalizedString": "On hitting a ^<c=@SkillTooltipAbnormal>Weakened^</c> target, remaining ^<c=@SkillTooltipAbnormal>Curse^</c> skill cooldown decreases by ^<c=@SkillTooltipChange>$[WA_GR_WeakAttackCurseCoolDown_CoolDown.tooltip1]s^</c>.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
             }
           }
@@ -32618,6 +33303,8 @@
         "bReleaseSpecialPolymorph": false,
         "SkillRangeEffectFilter": "None",
         "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
         "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
         "AbnormalTypeIconPath1": {
           "AssetPathName": "None",
@@ -32646,7 +33333,10 @@
           },
           "TwoDepthIndicatorHeightBase": 100.0,
           "TwoDepthIndicatorLengthBase": 100.0,
-          "TwoDepthIndicatorWidthBase": 100.0
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
         },
         "SkillTargetExceptMe": false,
         "SkillCheckAbnormalPainShare": false,
