@@ -1675,7 +1675,7 @@
                       "EnchantSuccessProbability": 200,
                       "EnchantGold": 90000,
                       "EnchantPaybackBlessPoint": 80,
-                      "BlessPointForPercent": 15,
+                      "BlessPointForPercent": 80,
                       "TransferSuccessProbability": 200,
                       "TransferGold": 300000
                     }
@@ -1697,7 +1697,7 @@
                       "EnchantSuccessProbability": 1500,
                       "EnchantGold": 150000,
                       "EnchantPaybackBlessPoint": 600,
-                      "BlessPointForPercent": 80,
+                      "BlessPointForPercent": 30,
                       "TransferSuccessProbability": 1000,
                       "TransferGold": 300000
                     }
