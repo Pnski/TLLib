@@ -13,7 +13,7 @@ const weaponRules = {
     Daggers: { min: 1, max: 2 },
     //Gauntlet: { min: 0, max: 0 },
     //Hand: { min: 0, max: 0 },
-    //Orb: { min: 0, max: 0 },
+    Orb: { min: 0, max: 1 },
     Spear: { min: 1, max: 2 },
     Staff: { min: 1, max: 2 },
     Sword: { min: 1, max: 1 },
@@ -23,7 +23,8 @@ const weaponRules = {
 
 const buffProviders = {
     heal: {
-        Longbow: ["Flash Wave", "Healing Touch", "Nature's Blessing"]
+        Longbow: ["Flash Wave", "Healing Touch", "Nature's Blessing"],
+        Orb: ["Restoration Constellation", "Pierce Damage"]
     },
     mana: {
         Longbow: ["Nature's Blessing"]

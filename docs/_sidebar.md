@@ -30,6 +30,6 @@
 - Calculator
     - [Graphs](calculator/gain)
     - [Stats Graphs](calculator/stats)
-    - [Group Buff Calculator](calculator/group)
+    - [Group Buff Calculator](calculator/groupBuffs)
     - [SkillDamage](calculator/dd_calc)
     - [BiSGear](calculator/gear_dd_calc)
