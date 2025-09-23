@@ -146,13 +146,13 @@ function updateChart() {
         state.skillPer, state.skillFlat,
         { Min: state.minDmg, Max: state.maxDmg },
         state.sdb, state.bonusDmg, state.ssdb,
-        state.critDamage, state.critHit, state.heavyHit
+        state.critDamage, state.critHit, state.heavyHit, state.heavyDmg
     );
     const avgDot = math.calcAvgDotDmg(
         state.skillPer, state.skillFlat,
         { Min: state.minDmg, Max: state.maxDmg },
         state.sdb, state.ssdb,
-        state.critDamage, state.critHit, state.heavyHit,
+        state.critDamage, state.critHit, state.heavyHit, state.heavyDmg,
         state.curse
     );
     const avgHeal = avgBaseDamage * (1 + state.curse / 100);
