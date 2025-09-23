@@ -11,10 +11,11 @@ const state = {
     critHit: 1600,
     critDamage: 34,
     heavyHit: 1400,
+    heavyDmg: 100,
     curse: 113
 };
 
-const stats = ['minDmg', 'maxDmg', 'sdb', 'ssdb', 'bonusDmg', 'critHit', 'critDamage', 'heavyHit', 'curse'];
+const stats = ['minDmg', 'maxDmg', 'sdb', 'ssdb', 'bonusDmg', 'critHit', 'critDamage', 'heavyHit', 'heavyDmg', 'curse'];
 
 const colors = {
     minDmg: 'rgba(79, 70, 229, 1)',
@@ -25,6 +26,7 @@ const colors = {
     critHit: 'rgba(139, 92, 246, 1)',
     critDamage: 'rgba(0, 238, 255, 1)',
     heavyHit: 'rgba(59, 130, 246, 1)',
+    heavyDmg: 'rgba(0, 37, 97, 1)',
     curse: 'rgba(100, 0, 131, 1)'
 };
 
@@ -37,6 +39,7 @@ const statLabels = {
     critHit: 'Critical Hit Chance',
     critDamage: 'Critical Damage',
     heavyHit: 'Heavy Hit Chance',
+    heavyDmg: 'Heavy % Increase',
     curse: 'Curse/Heal %'
 };
 
@@ -190,7 +193,8 @@ function updateChart() {
                 s.skillPer, s.skillFlat,
                 { Min: s.minDmg, Max: s.maxDmg },
                 s.sdb, s.bonusDmg, s.ssdb,
-                s.critDamage, s.critHit, s.heavyHit
+                s.critDamage, s.critHit,
+                s.heavyHit, s.heavyDmg
             ))
         });
 
@@ -200,7 +204,8 @@ function updateChart() {
                 s.skillPer, s.skillFlat,
                 { Min: s.minDmg, Max: s.maxDmg },
                 s.sdb, s.ssdb,
-                s.critDamage, s.critHit, s.heavyHit,
+                s.critDamage, s.critHit,
+                s.heavyHit, s.heavyDmg,
                 s.curse
             ))
         });
@@ -212,7 +217,8 @@ function updateChart() {
                     s.skillPer, s.skillFlat,
                     { Min: s.minDmg, Max: s.maxDmg },
                     s.sdb, s.bonusDmg, s.ssdb,
-                    s.critDamage, s.critHit, s.heavyHit
+                    s.critDamage, s.critHit,
+                s.heavyHit, s.heavyDmg
                 ) * (1 + s.curse / 100)
             )
         });
@@ -223,7 +229,8 @@ function updateChart() {
                 s.skillPer, s.skillFlat,
                 { Min: s.minDmg, Max: s.maxDmg },
                 s.sdb, s.ssdb,
-                s.critDamage, s.critHit, s.heavyHit,
+                s.critDamage, s.critHit,
+                s.heavyHit, s.heavyDmg,
                 s.curse
             ))
         });

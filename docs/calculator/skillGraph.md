@@ -14,6 +14,7 @@
 | <label for="critHit" class="block text-sm font-medium text-slate-700">Critical Hit Chance: </label> | <input type="range" id="critHit" min="0" max="5000" value="1600" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="critHitInput" min="0" max="5000" value="1600"> |
 | <label for="critDamage" class="block text-sm font-medium text-slate-700">Critical Damage: </label> | <input type="range" id="critDamage" min="0" max="150" value="34" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="critDamageInput" min="0" max="150" value="34"> |
 | <label for="heavyHit" class="block text-sm font-medium text-slate-700">Heavy Hit Chance: </label> | <input type="range" id="heavyHit" min="0" max="3000" value="1400" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="heavyHitInput" min="0" max="3000" value="1400"> |
+| <label for="heavyDmg" class="block text-sm font-medium text-slate-700">Heavy % Increase: </label> | <input type="range" id="heavyDmg" min="0" max="300" value="100" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="heavyDmgInput" min="0" max="300" value="100"> |
 | <label for="curse" class="block text-sm font-medium text-slate-700">Curse/Heal %: </label> | <input type="range" id="curse" min="0" max="300" value="113" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer"> | <input type="float" id="curseInput" min="0" max="300" value="113"> |
 
 
