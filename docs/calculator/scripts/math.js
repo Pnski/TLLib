@@ -9,13 +9,8 @@ function skillDamageBoost(SDB) {
     return 1 + SDB / (SDB + 1000)
 }
 
-/* 
-Buff Duration Formula:
-Duration of your skill's buff ( 1 + Buff duration)
- */
-
-function buffDuration(buffD) {
-    return 0
+function skillHealBoost(SDB) {
+    return 1 + SDB / (SDB + 3000)
 }
 
 /* 
@@ -37,6 +32,10 @@ Heavy Attack Chance = ((Heavy Attack) / (Heavy Attack + 1,000)) × 100%
 
 export function AttackModChance(AttackRate) {
     return ((AttackRate) / (AttackRate + 1000))
+}
+
+export function HealModChance(AttackRate) {
+    return ((AttackRate) / (AttackRate + 6000))
 }
 
 /* 
@@ -70,11 +69,19 @@ function calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) {
  * @param {*} CritHit 
  * @returns 
  */
-export function calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species, CritDmg = 0) {
-    return calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg) * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100)) + BonusDamage
+export function calcSkillDmg(skillDmgBase, SDB, BonusDamage, SDB_Species, CritDmg = 0) {
+    return skillDmgBase * skillDamageBoost(SDB) * skillDamageBoost(SDB_Species) * (1+(CritDmg / 100)) + BonusDamage
 }
 
+function calcAvgDmgNonCrit(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species, CritDmg) {
+    const maxCritDmg = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg.Max, SDB, BonusDamage, SDB_Species, CritDmg)
+    const avgDmgNonCrit = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, ((WeaponDmg.Min + WeaponDmg.Max) / 2), SDB, BonusDamage, SDB_Species, 0)
+}
+
+
+
 export function calcAvgSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg, SDB, BonusDamage, SDB_Species,  CritDmg = 0, critHit,heavyDmg, heavyHit) {
+    const skillDmgBase = calcSkillDmgBase(SkillBaseDamage, SkillBonusDamage, WeaponDmg)
     const maxCritDmg = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, WeaponDmg.Max, SDB, BonusDamage, SDB_Species, CritDmg)
     const avgDmgNonCrit = calcSkillDmg(SkillBaseDamage, SkillBonusDamage, ((WeaponDmg.Min + WeaponDmg.Max) / 2), SDB, BonusDamage, SDB_Species, 0)
     const avgDmgNonHeavy = (avgDmgNonCrit * (1 - AttackModChance(critHit)) + maxCritDmg * AttackModChance(critHit))

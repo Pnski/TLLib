@@ -40170,6 +40170,26 @@
           }
         ]
       },
+      "Decompose_SeasonPass_Ticket_Monthly_2025_09_18_Housing": {
+        "Name": "Decompose_SeasonPass_Ticket_Monthly_2025_09_18_Housing",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_SeasonPass_Ticket_Monthly_2025_09_18_Housing",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_GrowthPass_Ticket_04": {
+        "Name": "Decompose_GrowthPass_Ticket_04",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_GrowthPass_Ticket_04",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_wb_sandworm_default": {
         "Name": "package_wb_sandworm_default",
         "ItemLotteryPrivateGroupEntry": []

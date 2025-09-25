@@ -1,21 +1,56 @@
 {
-  "Calculator": {
-    "": [
-      { "headline": "Skill Dmg Graphs", "file": "calculator/skillGraph.md" },
-      { "headline": "Group Buff Calculator", "file": "calculator/groupBuffs.md" },
-      { "headline": "Skill Damage Calculator", "file": "calculator/skillDmgCalc.md" },
-      { "headline": "BiSGear", "file": "calculator/gear_dd_calc.md" }
-    ]
-  },
-  "Articles": {
-    "": [
-      { "headline": "Loot Distribution", "file": "Articles/lootdist.md" },
-      { "headline": "secondary Stats/Calculation", "file": "Articles/statsCalc.md" },
-      { "headline": "secondary Stats/Graphs", "file": "Articles/statsGraphs.md" },
-      { "headline": "primary Stats&Graphs", "file": "calculator/statsGraph.md" }
-    ],
-    "Transcription": [
-      { "headline": "English", "file": "Articles/transcription_output_english.md" }
-    ]
-  }
+ "Articles": {
+  "": [
+   {
+    "headline": "Loot Distribution",
+    "file": "Articles/lootdist.md"
+   },
+   {
+    "headline": "secondary Stats/Calculation",
+    "file": "Articles/statsCalc.md"
+   },
+   {
+    "headline": "secondary Stats/Graphs",
+    "file": "Articles/statsGraphs.md"
+   },
+   {
+    "headline": "primary Stats&Graphs",
+    "file": "calculator/statsGraph.md"
+   }
+  ],
+  "Transcription": [
+   {
+    "headline": "English",
+    "file": "Articles/transcription_output_english.md"
+   }
+  ]
+ },
+ "Basics": {
+  "Fishing": [
+   {
+    "headline": "Fishing Level",
+    "file": "items/Level.md"
+   }
+  ]
+ },
+ "Calculator": {
+  "": [
+   {
+    "headline": "Skill Dmg Graphs",
+    "file": "calculator/skillGraph.md"
+   },
+   {
+    "headline": "Group Buff Calculator",
+    "file": "calculator/groupBuffs.md"
+   },
+   {
+    "headline": "Skill Damage Calculator",
+    "file": "calculator/skillDmgCalc.md"
+   },
+   {
+    "headline": "BiSGear",
+    "file": "calculator/gear_dd_calc.md"
+   }
+  ]
+ }
 }
