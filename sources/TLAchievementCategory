@@ -1,0 +1,510 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLAchievementCategory",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeAchievementCategoryInfo'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "All": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_ALL",
+          "SourceString": "개요",
+          "LocalizedString": "Summary"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Exploration": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_EXPLORATION",
+          "SourceString": "모험",
+          "LocalizedString": "Adventure"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Exploration_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_NORMAL",
+          "SourceString": "일반",
+          "LocalizedString": "General"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Exploration"
+        },
+        "bHidden": false
+      },
+      "Exploration_laslan": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_EXPLORATION_LASLAN",
+          "SourceString": "라슬란",
+          "LocalizedString": "Laslan"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Exploration"
+        },
+        "bHidden": false
+      },
+      "Exploration_stonegard": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_EXPLORATION_STONEGARD",
+          "SourceString": "스톤가드",
+          "LocalizedString": "Stonegard"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Exploration"
+        },
+        "bHidden": false
+      },
+      "Exploration_talland": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_EXPLORATION_TALLAND",
+          "SourceString": "톨랜드",
+          "LocalizedString": "Talandre"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Exploration"
+        },
+        "bHidden": false
+      },
+      "Contents": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS",
+          "SourceString": "콘텐츠",
+          "LocalizedString": "Content"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Contents_codex": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_CODEX",
+          "SourceString": "모험 코덱스",
+          "LocalizedString": "Adventure Codex"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": true
+      },
+      "Contents_codex_etc": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_CODEX_ETC",
+          "SourceString": "코덱스",
+          "LocalizedString": "Codex"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Contents_de": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_DE",
+          "SourceString": "지역 이벤트",
+          "LocalizedString": "Dynamic Event"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Contents_dungeon_secret": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_DUNGEON_SECRET",
+          "SourceString": "특수 던전",
+          "LocalizedString": "Secret Dungeon"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Contents_dungeon_coop": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_DUNGEON",
+          "SourceString": "협력 던전",
+          "LocalizedString": "Co-Op Dungeon"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Contents_dungeon_coop_challenge": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CONTENTS_DUNGEON_CHALLENGE",
+          "SourceString": "협력 던전: 도전",
+          "LocalizedString": "Co-Op Dungeon: Challenge"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Contents_etc": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_ETC",
+          "SourceString": "기타",
+          "LocalizedString": "Other"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Contents"
+        },
+        "bHidden": false
+      },
+      "Character": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CHARACTER",
+          "SourceString": "캐릭터",
+          "LocalizedString": "Character"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Character_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_NORMAL",
+          "SourceString": "일반",
+          "LocalizedString": "General"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Character"
+        },
+        "bHidden": false
+      },
+      "Character_growth": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CHARACTER_GROWTH",
+          "SourceString": "성장",
+          "LocalizedString": "Growth"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Character"
+        },
+        "bHidden": false
+      },
+      "Character_money": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CHARACTER_MONEY",
+          "SourceString": "재화",
+          "LocalizedString": "Currency"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Character"
+        },
+        "bHidden": false
+      },
+      "Character_item": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_CHARACTER_ITEM",
+          "SourceString": "아이템",
+          "LocalizedString": "Items"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Character"
+        },
+        "bHidden": false
+      },
+      "Combat": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMBAT",
+          "SourceString": "전투",
+          "LocalizedString": "Combat"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Combat_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_NORMAL",
+          "SourceString": "일반",
+          "LocalizedString": "General"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Combat"
+        },
+        "bHidden": false
+      },
+      "Combat_monster": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMBAT_MONSTER",
+          "SourceString": "토벌",
+          "LocalizedString": "Raid"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Combat"
+        },
+        "bHidden": false
+      },
+      "Combat_challenge": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMBAT_CHALLENGE",
+          "SourceString": "토벌: 도전",
+          "LocalizedString": "Raid: Challenge"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Combat"
+        },
+        "bHidden": false
+      },
+      "Combat_pvp": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMBAT_PVP",
+          "SourceString": "대인전투",
+          "LocalizedString": "PvP Combat"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Combat"
+        },
+        "bHidden": false
+      },
+      "Life": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE",
+          "SourceString": "생활",
+          "LocalizedString": "Life"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Life_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_NORMAL",
+          "SourceString": "일반",
+          "LocalizedString": "General"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Life_normal_gather": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_GATHERING",
+          "SourceString": "채집",
+          "LocalizedString": "Gathering"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Life_normal_craft": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_CRAFT",
+          "SourceString": "제작",
+          "LocalizedString": "Crafting"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Life_normal_cook": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_COOK",
+          "SourceString": "요리",
+          "LocalizedString": "Cooking"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Life_normal_fishing": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_FISHING",
+          "SourceString": "낚시",
+          "LocalizedString": "Fishing"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Life_normal_photo": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_PHOTO",
+          "SourceString": "사진찍기",
+          "LocalizedString": "Photography"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false
+      },
+      "Community": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMMUNITY",
+          "SourceString": "협력",
+          "LocalizedString": "Co-Op"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Community_guild": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMMUNITY_GUILD",
+          "SourceString": "길드",
+          "LocalizedString": "Guild"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Community"
+        },
+        "bHidden": false
+      },
+      "Community_raid": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_COMMUNITY_RAID",
+          "SourceString": "공격대",
+          "LocalizedString": "Vanguard"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Community"
+        },
+        "bHidden": false
+      },
+      "Great": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_GREAT",
+          "SourceString": "특별 업적",
+          "LocalizedString": "Special Achievements"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": false
+      },
+      "Great_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_GREAT_NORMAL",
+          "SourceString": "위업",
+          "LocalizedString": "Feats"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Great"
+        },
+        "bHidden": false
+      },
+      "Hidden": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_HIDDEN",
+          "SourceString": "히든",
+          "LocalizedString": "Hidden"
+        },
+        "bIsRootCategory": true,
+        "ParentCategory": {
+          "RowName": "None"
+        },
+        "bHidden": true
+      },
+      "Hidden_normal": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_NORMAL",
+          "SourceString": "일반",
+          "LocalizedString": "General"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Hidden"
+        },
+        "bHidden": true
+      }
+    }
+  }
+]

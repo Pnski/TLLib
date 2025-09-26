@@ -1,0 +1,2612 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLAchievementLooks_Economy",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeAchievementLooks'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "achv_economy_test_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_test_001_TitleText",
+          "SourceString": "#기반팀 업적",
+          "LocalizedString": "#기반팀 업적"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_test_001_Description",
+          "SourceString": "#기반팀 화이팅",
+          "LocalizedString": "#기반팀 화이팅"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_001_TitleText",
+          "SourceString": "전설의 품격을 입히다 {0}",
+          "LocalizedString": "Legendary Spender {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_001_Description",
+          "SourceString": "루센트 소모",
+          "LocalizedString": "Spend Lucent"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_164.icon_achv_164",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_002_TitleText",
+          "SourceString": "슬슬 지갑이 얇아진다 {0}",
+          "LocalizedString": "It's a Bottomless Coin Purse, Right? {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_002_Description",
+          "SourceString": "솔란트 소모",
+          "LocalizedString": "Spend Sollant"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_003_TitleText",
+          "SourceString": "여기 물건이 좋네요 {0}",
+          "LocalizedString": "You've Got Some Nice Stuff {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_003_Description",
+          "SourceString": "상점에서 솔란트 소모",
+          "LocalizedString": "Spend Sollant in the shop"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_004_TitleText",
+          "SourceString": "특성에 진심인 편 {0}",
+          "LocalizedString": "Devoted to Traits {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_004_Description",
+          "SourceString": "특성 개방, 강화, 전환에 솔란트 소모",
+          "LocalizedString": "Spend Sollant on trait unlocks, enchantments, and conversions"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_005_TitleText",
+          "SourceString": "연금술 투자자 {0}",
+          "LocalizedString": "Invest in Alchemy! It's Better Than Gold! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_005_Description",
+          "SourceString": "물질변환에 솔란트 소모",
+          "LocalizedString": "Spend Sollant on Material Transmutation"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_006_TitleText",
+          "SourceString": "티끌모아 태산 {0}",
+          "LocalizedString": "Many a Little Makes a Mickle {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_006_Description",
+          "SourceString": "솔란트 획득",
+          "LocalizedString": "Acquire Sollant"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_007": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_007_TitleText",
+          "SourceString": "쏠쏠한 일당 {0}",
+          "LocalizedString": "Decent Day's Pay {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_007_Description",
+          "SourceString": "의뢰 보상으로 솔란트 획득",
+          "LocalizedString": "Acquire Sollant from Contract rewards"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_008": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_008_TitleText",
+          "SourceString": "장사의 신 {0}",
+          "LocalizedString": "God of Commerce {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_008_Description",
+          "SourceString": "상점 판매로 솔란트 획득",
+          "LocalizedString": "Acquire Sollant by selling in the shop"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_165.icon_achv_165",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_009": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_009_TitleText",
+          "SourceString": "의뢰의 대가 {0}",
+          "LocalizedString": "Contractual Obligations {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_009_Description",
+          "SourceString": "의뢰주화 획득",
+          "LocalizedString": "Acquire Contract Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_170.icon_achv_170",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_010": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_010_TitleText",
+          "SourceString": "어디에 썼더라 {0}",
+          "LocalizedString": "Coin Well Spent {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_010_Description",
+          "SourceString": "의뢰주화 소모",
+          "LocalizedString": "Spend Contract Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_170.icon_achv_170",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_011": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_011_TitleText",
+          "SourceString": "길드 활동의 결실 {0}",
+          "LocalizedString": "Fruits of Labor {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_011_Description",
+          "SourceString": "길드주화 획득",
+          "LocalizedString": "Acquire Guild Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_168.icon_achv_168",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_012": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_012_TitleText",
+          "SourceString": "길드는 나를 강하게 하네~ {0}",
+          "LocalizedString": "Guild Financing {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_012_Description",
+          "SourceString": "길드주화 소모",
+          "LocalizedString": "Spend Guild Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_168.icon_achv_168",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_013": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_013_TitleText",
+          "SourceString": "은근히 쓸 데가 많아요 {0}",
+          "LocalizedString": "It All Adds Up {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_013_Description",
+          "SourceString": "꾸밈주화 소모",
+          "LocalizedString": "Spend Ornate Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_171.icon_achv_171",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_014": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_014_TitleText",
+          "SourceString": "마일리지 대방출 {0}",
+          "LocalizedString": "Loyalty Point Spree {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_014_Description",
+          "SourceString": "마일리지 소모",
+          "LocalizedString": "Spend Loyalty Points"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_172.icon_achv_172",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_015": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_015_TitleText",
+          "SourceString": "다시 살아온 전설 {0}",
+          "LocalizedString": "Legend Reborn {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_015_Description",
+          "SourceString": "복구주화 소모",
+          "LocalizedString": "Spend Restoration Coins"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_169.icon_achv_169",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_money"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_016": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_016_TitleText",
+          "SourceString": "잎새를 태운 자 {0}",
+          "LocalizedString": "Burn That Sollant {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_016_Description",
+          "SourceString": "세계수 잎 소모",
+          "LocalizedString": "Spend World Tree Leaves"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_104.icon_achv_104",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_017": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_017_TitleText",
+          "SourceString": "힐링이 필요해 {0}",
+          "LocalizedString": "I Need Healing {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_017_Description",
+          "SourceString": "회복의 영석 소모",
+          "LocalizedString": "Spend Recovery Crystals"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_105.icon_achv_105",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_018": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_018_TitleText",
+          "SourceString": "살고 싶다고 말 해 {0}",
+          "LocalizedString": "So Where Do You Live? {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_018_Description",
+          "SourceString": "진귀한 회복의 영석 소모",
+          "LocalizedString": "Spend Precious Recovery Crystals"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_105.icon_achv_105",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_019": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_019_TitleText",
+          "SourceString": "쏴라! {0}",
+          "LocalizedString": "Fire! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_019_Description",
+          "SourceString": "스텔라붐 소모",
+          "LocalizedString": "Spend Stellarite"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_072.icon_achv_072",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_020": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_020_TitleText",
+          "SourceString": "약발이 잘 받는 날 {0}",
+          "LocalizedString": "Potion Addiction {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_020_Description",
+          "SourceString": "영약 소모",
+          "LocalizedString": "Spend Remedies"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_075.icon_achv_075",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_021": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_021_TitleText",
+          "SourceString": "공격력은 약발로 {0}",
+          "LocalizedString": "Powered by Potions: Offense {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_021_Description",
+          "SourceString": "희귀한 공격 영약 소모",
+          "LocalizedString": "Spend Rare Attack Remedies"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_075.icon_achv_075",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_022": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_022_TitleText",
+          "SourceString": "방어력도 약발로 {0}",
+          "LocalizedString": "Powered by Potions: Defense {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_022_Description",
+          "SourceString": "희귀한 방어 영약 소모",
+          "LocalizedString": "Spend Rare Defense Remedies"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_075.icon_achv_075",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_023": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_023_TitleText",
+          "SourceString": "깨끗하게 한 잔 {0}",
+          "LocalizedString": "Chug! Chug! Chug! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_023_Description",
+          "SourceString": "희귀한 정화 영약 소모",
+          "LocalizedString": "Spend Rare Purification Remedies"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_075.icon_achv_075",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_024": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_024_TitleText",
+          "SourceString": "궁극의 영약 {0}",
+          "LocalizedString": "Ultimate Remedy {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_024_Description",
+          "SourceString": "진귀한 영약 소모",
+          "LocalizedString": "Spend Precious Remedies"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_075.icon_achv_075",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_025": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_025_TitleText",
+          "SourceString": "푸드 파이터 {0}",
+          "LocalizedString": "Food Fight! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_025_Description",
+          "SourceString": "요리 사용",
+          "LocalizedString": "Use a cooked dish"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_074.icon_achv_074",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_026": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_026_TitleText",
+          "SourceString": "흑흑.... 맛있었다. 오늘 밥은. {0}",
+          "LocalizedString": "A Meal to Cry For {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_026_Description",
+          "SourceString": "만찬이나 정찬 사용",
+          "LocalizedString": "Use Feasts or Banquets"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_074.icon_achv_074",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_027": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_027_TitleText",
+          "SourceString": "골라요 골라 {0}",
+          "LocalizedString": "You Can Never Go Wrong {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_027_Description",
+          "SourceString": "선택 상자 사용",
+          "LocalizedString": "Use Selection Chests"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_076.icon_achv_076",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_028": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_028_TitleText",
+          "SourceString": "못 골라요 못 골라 {0}",
+          "LocalizedString": "You Can Sometimes Go Wrong {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_028_Description",
+          "SourceString": "확률 상자 사용",
+          "LocalizedString": "Use Chance Chests"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_076.icon_achv_076",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_029": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_029_TitleText",
+          "SourceString": "첫 번째 계약 {0}",
+          "LocalizedString": "First Contract {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_029_Description",
+          "SourceString": "계약의 증표: 차원I 포인트 소모",
+          "LocalizedString": "Spend Dimensional Contract Token I Points"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_174.icon_achv_174",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_030": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_030_TitleText",
+          "SourceString": "두 번째 계약 {0}",
+          "LocalizedString": "Second Contract {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_030_Description",
+          "SourceString": "계약의 증표: 차원II 포인트 소모",
+          "LocalizedString": "Spend Dimensional Contract Token II Points"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_173.icon_achv_173",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_031": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_031_TitleText",
+          "SourceString": "첫 망치질 {0}",
+          "LocalizedString": "First Swing of the Hammer {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_031_Description",
+          "SourceString": "장비 성장 시도",
+          "LocalizedString": "Attempt to upgrade an equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_032": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_032_TitleText",
+          "SourceString": "희귀한 장비의 흔적 {0}",
+          "LocalizedString": "Traces of Rare Equipment {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_032_Description",
+          "SourceString": "희귀 장비 탁본",
+          "LocalizedString": "Add a Rare equipment to the Lithograph"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_080.icon_achv_080",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_033": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_033_TitleText",
+          "SourceString": "더 희귀한 장비의 흔적 {0}",
+          "LocalizedString": "Traces of Even Rarer Equipment {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_033_Description",
+          "SourceString": "희귀 2단 장비 탁본",
+          "LocalizedString": "Add a Rare II equipment to the Lithograph"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_080.icon_achv_080",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_034": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_034_TitleText",
+          "SourceString": "진귀한 장비의 흔적 {0}",
+          "LocalizedString": "Traces of Precious Equipment {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_034_Description",
+          "SourceString": "영웅 장비 탁본",
+          "LocalizedString": "Add an Epic equipment to the Lithograph"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_080.icon_achv_080",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_035": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_035_TitleText",
+          "SourceString": "더 진귀한 장비의 흔적 {0}",
+          "LocalizedString": "Traces of Even More Precious Equipment {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_035_Description",
+          "SourceString": "영웅 2단 장비 탁본",
+          "LocalizedString": "Add an Epic II equipment to the Lithograph"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_080.icon_achv_080",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_036": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_036_TitleText",
+          "SourceString": "장검을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Sword {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_036_Description",
+          "SourceString": "장검류 성장 시도",
+          "LocalizedString": "Attempt to upgrade a sword"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_059.icon_achv_059",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_037": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_037_TitleText",
+          "SourceString": "대검을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Greatsword {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_037_Description",
+          "SourceString": "대검류 성장 시도",
+          "LocalizedString": "Attempt to upgrade a greatsword"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_058.icon_achv_058",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_038": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_038_TitleText",
+          "SourceString": "단검을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Daggers {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_038_Description",
+          "SourceString": "단검 성장 시도",
+          "LocalizedString": "Attempt to upgrade daggers"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_060.icon_achv_060",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_039": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_039_TitleText",
+          "SourceString": "석궁을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Crossbows {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_039_Description",
+          "SourceString": "석궁 성장 시도",
+          "LocalizedString": "Attempt to upgrade crossbows"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_061.icon_achv_061",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_040": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_040_TitleText",
+          "SourceString": "장궁을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Longbow {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_040_Description",
+          "SourceString": "장궁 성장 시도",
+          "LocalizedString": "Attempt to upgrade a longbow"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_062.icon_achv_062",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_041": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_041_TitleText",
+          "SourceString": "지팡이를 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Staff {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_041_Description",
+          "SourceString": "지팡이 성장 시도",
+          "LocalizedString": "Attempt to upgrade a staff"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_063.icon_achv_063",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_042": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_042_TitleText",
+          "SourceString": "마법봉을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Wand {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_042_Description",
+          "SourceString": "마법봉 성장 시도",
+          "LocalizedString": "Attempt to upgrade a wand"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_064.icon_achv_064",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_043": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_043_TitleText",
+          "SourceString": "창을 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Spear {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_043_Description",
+          "SourceString": "창 성장 시도",
+          "LocalizedString": "Attempt to upgrade a spear"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_065.icon_achv_065",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_044": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_044_TitleText",
+          "SourceString": "마력구를 더 강하게 {0}",
+          "LocalizedString": "Behold, My Big Beautiful Orb {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_044_Description",
+          "SourceString": "마력구 성장 시도",
+          "LocalizedString": "Attempt to upgrade an Orb"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_034.icon_achv_034",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_045": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_045_TitleText",
+          "SourceString": "투구를 더 튼튼하게 {0}",
+          "LocalizedString": "Better Headpiece {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_045_Description",
+          "SourceString": "투구 성장 시도",
+          "LocalizedString": "Attempt to upgrade a headpiece"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_046": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_046_TitleText",
+          "SourceString": "상의를 더 튼튼하게 {0}",
+          "LocalizedString": "Better Chest Armor {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_046_Description",
+          "SourceString": "상의 성장 시도",
+          "LocalizedString": "Attempt to upgrade a chest armor"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_047": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_047_TitleText",
+          "SourceString": "하의를 더 튼튼하게 {0}",
+          "LocalizedString": "Better Leg Armor {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_047_Description",
+          "SourceString": "하의 성장 시도",
+          "LocalizedString": "Attempt to upgrade a leg armor"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_048": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_048_TitleText",
+          "SourceString": "장갑을 더 튼튼하게 {0}",
+          "LocalizedString": "Better Gloves {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_048_Description",
+          "SourceString": "장갑 성장 시도",
+          "LocalizedString": "Attempt to upgrade gloves"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_049": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_049_TitleText",
+          "SourceString": "신발을 더 튼튼하게 {0}",
+          "LocalizedString": "Better Shoes {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_049_Description",
+          "SourceString": "신발 성장 시도",
+          "LocalizedString": "Attempt to upgrade shoes"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_050": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_050_TitleText",
+          "SourceString": "망토를 더 튼튼하게 {0}",
+          "LocalizedString": "Better Cloaks {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_050_Description",
+          "SourceString": "망토 성장 시도",
+          "LocalizedString": "Attempt to upgrade a cloak"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_051": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_051_TitleText",
+          "SourceString": "목걸이를 더 화려하게 {0}",
+          "LocalizedString": "Fancier Necklaces {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_051_Description",
+          "SourceString": "목걸이 성장 시도",
+          "LocalizedString": "Attempt to upgrade a necklace"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_052": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_052_TitleText",
+          "SourceString": "팔찌를 더 화려하게 {0}",
+          "LocalizedString": "Fancier Bracelets {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_052_Description",
+          "SourceString": "팔찌 성장 시도",
+          "LocalizedString": "Attempt to upgrade a bracelet"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_053": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_053_TitleText",
+          "SourceString": "반지를 더 화려하게 {0}",
+          "LocalizedString": "Fancier Rings {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_053_Description",
+          "SourceString": "반지 성장 시도",
+          "LocalizedString": "Attempt to upgrade a ring"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_054": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_054_TitleText",
+          "SourceString": "허리띠를 더 화려하게 {0}",
+          "LocalizedString": "Fancier Belts {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_054_Description",
+          "SourceString": "허리띠 성장 시도",
+          "LocalizedString": "Attempt to upgrade a belt"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_055": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_055_TitleText",
+          "SourceString": "귀걸이를 더 화려하게 {0}",
+          "LocalizedString": "Fancier Earrings {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_055_Description",
+          "SourceString": "귀걸이 성장 시도",
+          "LocalizedString": "Attempt to upgrade earrings"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_056": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_056_TitleText",
+          "SourceString": "타오르는 불꽃 {0}",
+          "LocalizedString": "Blazing Flames {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_056_Description",
+          "SourceString": "영웅 장비 성장 시도",
+          "LocalizedString": "Attempt to upgrade Epic equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_057": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_057_TitleText",
+          "SourceString": "강철의 울림 {0}",
+          "LocalizedString": "Resonance of Steel {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_057_Description",
+          "SourceString": "영웅 2단 장비 성장 시도",
+          "LocalizedString": "Attempt to upgrade Epic II equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_058": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_058_TitleText",
+          "SourceString": "끝없는 담금질 {0}",
+          "LocalizedString": "Endless Tempering {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_058_Description",
+          "SourceString": "영웅 3단 장비 성장 시도",
+          "LocalizedString": "Attempt to upgrade Epic III equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_059": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_059_TitleText",
+          "SourceString": "신의 망치질 {0}",
+          "LocalizedString": "Godly Hammering {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_059_Description",
+          "SourceString": "유니크 장비 성장 시도",
+          "LocalizedString": "Attempt to upgrade Heroic equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_060": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_060_TitleText",
+          "SourceString": "운도 실력 {0}",
+          "LocalizedString": "Even Luck Takes Skill {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_060_Description",
+          "SourceString": "장비 강화 - 성장 시도하여 장비 레벨 상승",
+          "LocalizedString": "Increase Equipment Level through Equipment Enchanting - Level Up"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_061": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_061_TitleText",
+          "SourceString": "장비의 숨결 {0}",
+          "LocalizedString": "Breathing New Life {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_061_Description",
+          "SourceString": "장비 강화 - 전승",
+          "LocalizedString": "Equipment Enchanting - Transfer"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_088.icon_achv_088",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_062": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_062_TitleText",
+          "SourceString": "힘을 숨긴 장비 {0}",
+          "LocalizedString": "Power Hidden Within {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_062_Description",
+          "SourceString": "장비 특성 개방",
+          "LocalizedString": "Unlock equipment traits"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_090.icon_achv_090",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_063": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_063_TitleText",
+          "SourceString": "숨겨진 힘에 불을 붙이다 {0}",
+          "LocalizedString": "Power Hidden Within {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_063_Description",
+          "SourceString": "장비 특성 강화 시도",
+          "LocalizedString": "Attempt equipment trait enchantment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_090.icon_achv_090",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_064": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_064_TitleText",
+          "SourceString": "장비의 발현 {0}",
+          "LocalizedString": "Manifestation of Power {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_064_Description",
+          "SourceString": "장비 특성 강화 성공",
+          "LocalizedString": "Succeed in equipment trait enchantment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_090.icon_achv_090",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_065": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_065_TitleText",
+          "SourceString": "진귀한 힘의 파동 {0}",
+          "LocalizedString": "Resonating With Power {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_065_Description",
+          "SourceString": "장비 공명 개방",
+          "LocalizedString": "Unlock equipment resonance"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_090.icon_achv_090",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_066": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_066_TitleText",
+          "SourceString": "새로운 장비에 숨결 계승 {0}",
+          "LocalizedString": "Pass It Forward {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_066_Description",
+          "SourceString": "장비 강화 - 연동",
+          "LocalizedString": "Equipment Enchanting - Sync"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_091.icon_achv_091",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_067": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_067_TitleText",
+          "SourceString": "장비의 마지막 임무 {0}",
+          "LocalizedString": "All Equipment Go to Heaven {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_067_Description",
+          "SourceString": "장비 용해",
+          "LocalizedString": "Dissolve equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_081.icon_achv_081",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_068": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_068_TitleText",
+          "SourceString": "운명을 맞이한 장비 {0}",
+          "LocalizedString": "What Is My Purpose? {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_068_Description",
+          "SourceString": "장비 특성 추출",
+          "LocalizedString": "Extract an equipment trait"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_082.icon_achv_082",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_069": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_069_TitleText",
+          "SourceString": "우수한 장비의 마지막 임무 {0}",
+          "LocalizedString": "All Uncommon Equipment Go to Heaven {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_069_Description",
+          "SourceString": "고급 장비 용해",
+          "LocalizedString": "Dissolve Uncommon equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_081.icon_achv_081",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_070": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_070_TitleText",
+          "SourceString": "희귀한 장비의 마지막 임무 {0}",
+          "LocalizedString": "All Rare Equipment Go to Heaven {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_070_Description",
+          "SourceString": "희귀 장비 용해",
+          "LocalizedString": "Dissolve Rare equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_081.icon_achv_081",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_071": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_071_TitleText",
+          "SourceString": "진귀한 장비의 마지막 임무 {0}",
+          "LocalizedString": "All Epic Equipment Go to Heaven {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_071_Description",
+          "SourceString": "영웅 장비 용해",
+          "LocalizedString": "Dissolve Epic equipment"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_081.icon_achv_081",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_072": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_072_TitleText",
+          "SourceString": "소소하지만 확실한 제작 {0}",
+          "LocalizedString": "Coming Right Up {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_072_Description",
+          "SourceString": "잡화 아이템 제작",
+          "LocalizedString": "Craft a sundry item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_073": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_073_TitleText",
+          "SourceString": "제작의 신이 오늘은 내 편 {0}",
+          "LocalizedString": "I'm Beginning to Feel Like a Craft God {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_073_Description",
+          "SourceString": "잡화 아이템 제작 대성공",
+          "LocalizedString": "Get a Great Success when crafting a sundry item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_074": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_074_TitleText",
+          "SourceString": "장비 탄생의 순간 {0}",
+          "LocalizedString": "An Equipment Is Born {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_074_Description",
+          "SourceString": "장비 아이템 제작",
+          "LocalizedString": "Craft an equipment item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_075": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_075_TitleText",
+          "SourceString": "장비 탄생의 순간, 신이 속삭이다 {0}",
+          "LocalizedString": "An Equipment Is Born Gleaming {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_075_Description",
+          "SourceString": "장비 아이템 제작 대성공",
+          "LocalizedString": "Get a Great Success when crafting an equipment item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_076": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_076_TitleText",
+          "SourceString": "대장간의 불꽃 쇼 {0}",
+          "LocalizedString": "Let the Sparks Hit the Floor {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_076_Description",
+          "SourceString": "무기류 아이템 제작",
+          "LocalizedString": "Craft a weapon item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_077": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_077_TitleText",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 검을 빚었다 {0}",
+          "LocalizedString": "A Weapon Is Born Gleaming {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_077_Description",
+          "SourceString": "무기류 아이템 제작 대성공",
+          "LocalizedString": "Get a Great Success when crafting a weapon item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_078": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_078_TitleText",
+          "SourceString": "철갑의 예술 {0}",
+          "LocalizedString": "Iron Out Those Kinks {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_078_Description",
+          "SourceString": "방어구류 아이템 제작",
+          "LocalizedString": "Craft an armor item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_079": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_079_TitleText",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 갑주를 빚었다 {0}",
+          "LocalizedString": "An Armor is Born Gleaming {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_079_Description",
+          "SourceString": "방어구류 아이템 제작 대성공",
+          "LocalizedString": "Get a Great Success when crafting an armor item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_080": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_080_TitleText",
+          "SourceString": "보석 세공사 {0}",
+          "LocalizedString": "Gemcutter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_080_Description",
+          "SourceString": "장신구류 아이템 제작",
+          "LocalizedString": "Craft an accessory item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_081": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_081_TitleText",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 반지를 빚었다 {0}",
+          "LocalizedString": "A Ring is Born Gleaming {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_081_Description",
+          "SourceString": "장신구류 아이템 제작 대성공",
+          "LocalizedString": "Get a Great Success when crafting an accessory item"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_086.icon_achv_086",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_craft"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_082": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_082_TitleText",
+          "SourceString": "기술 다듬기 {0}",
+          "LocalizedString": "Honing Your Skills {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_082_Description",
+          "SourceString": "스킬 성장 시도",
+          "LocalizedString": "Attempt to upgrade a skill"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_097.icon_achv_097",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_083": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_083_TitleText",
+          "SourceString": "기술의 수련 {0}",
+          "LocalizedString": "Perfecting Your Skills {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_083_Description",
+          "SourceString": "희귀 스킬 성장 시도",
+          "LocalizedString": "Attempt to upgrade a Rare skill"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_097.icon_achv_097",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_084": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_084_TitleText",
+          "SourceString": "궁극의 수련 {0}",
+          "LocalizedString": "Mastering Your Skills {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_084_Description",
+          "SourceString": "영웅 스킬 성장 시도",
+          "LocalizedString": "Attempt to upgrade an Epic skill"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_097.icon_achv_097",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_growth"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_085": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_085_TitleText",
+          "SourceString": "먼 길 떠난 아미토이 {0}",
+          "LocalizedString": "I'll Be Back {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_085_Description",
+          "SourceString": "아미토이 원정 누적 시간",
+          "LocalizedString": "Get an accumulated Amitoi Expedition time"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_107.icon_achv_107",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_086": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_086_TitleText",
+          "SourceString": "원정으로 단련된 아미토이 {0}",
+          "LocalizedString": "Expedition Amitoi {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_086_Description",
+          "SourceString": "아미토이 원정 레벨 달성",
+          "LocalizedString": "Reach Amitoi Expedition Level"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_107.icon_achv_107",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_087": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_087_TitleText",
+          "SourceString": "이 정도는 할 줄 알아 {0}",
+          "LocalizedString": "Yes, Chef! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_087_Description",
+          "SourceString": "요리 성공",
+          "LocalizedString": "Succeed in cooking"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_088": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_088_TitleText",
+          "SourceString": "이븐하게 익었네요 {0}",
+          "LocalizedString": "Evenly Cooked {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_088_Description",
+          "SourceString": "요리 대성공",
+          "LocalizedString": "Get a Great Success when cooking"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_089": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_089_TitleText",
+          "SourceString": "오늘의 한 상 차림 {0}",
+          "LocalizedString": "Top It off With a Thin Wafer {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_089_Description",
+          "SourceString": "만찬이나 정찬 요리 성공",
+          "LocalizedString": "Succeed in cooking a Feast or Banquet"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_090": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_090_TitleText",
+          "SourceString": "둘이 먹다 하나 죽어도 {0}",
+          "LocalizedString": "Stand Proud, You Can Cook {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_090_Description",
+          "SourceString": "만찬이나 정찬 요리 대성공",
+          "LocalizedString": "Get a Great Success when cooking a Feast or Banquet"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_091": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_091_TitleText",
+          "SourceString": "손맛 숙련도 상승 중 {0}",
+          "LocalizedString": "Homemade Is Where It's At {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_091_Description",
+          "SourceString": "요리 레벨 달성",
+          "LocalizedString": "Reach Cooking Level"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_092": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_092_TitleText",
+          "SourceString": "신메뉴 추가",
+          "LocalizedString": "I've Got a New Recipe!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_092_Description",
+          "SourceString": "요리 레시피 50개 보유",
+          "LocalizedString": "Acquire 50 cooking recipes"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_cook"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_093": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_093_TitleText",
+          "SourceString": "오늘도 재료 줍줍 {0}",
+          "LocalizedString": "A Dash of This, a Pinch of That {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_093_Description",
+          "SourceString": "채집으로 채집물 획득",
+          "LocalizedString": "Obtain materials through gathering"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_152.icon_achv_152",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_094": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_094_TitleText",
+          "SourceString": "공격 룬 수집 대작전 {0}",
+          "LocalizedString": "Mission: Attack Rune Collection {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_094_Description",
+          "SourceString": "공격 룬 획득",
+          "LocalizedString": "Acquire an Attack Rune"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_095": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_095_TitleText",
+          "SourceString": "방어 룬 수집 대작전 {0}",
+          "LocalizedString": "Mission: Defense Rune Collection {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_095_Description",
+          "SourceString": "방어 룬 획득",
+          "LocalizedString": "Acquire a Defense Rune"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_096": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_096_TitleText",
+          "SourceString": "지원 룬 수집 대작전 {0}",
+          "LocalizedString": "Mission: Support Rune Collection {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_096_Description",
+          "SourceString": "지원 룬 획득",
+          "LocalizedString": "Acquire a Support Rune"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_097": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_097_TitleText",
+          "SourceString": "최고의 공격 룬을 향해 {0}",
+          "LocalizedString": "An Attack Rune Like No Other {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_097_Description",
+          "SourceString": "80레벨 이상 공격 룬 획득",
+          "LocalizedString": "Obtain an Attack Rune of Lv. 80 or above"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_098": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_098_TitleText",
+          "SourceString": "최고의 방어 룬을 향해 {0}",
+          "LocalizedString": "A Defense Rune Like No Other {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_098_Description",
+          "SourceString": "80레벨 이상 방어 룬 획득",
+          "LocalizedString": "Obtain a Defense Rune of Lv. 80 or above"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_099": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_099_TitleText",
+          "SourceString": "최고의 지원 룬을 향해 {0}",
+          "LocalizedString": "A Support Rune Like No Other {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_099_Description",
+          "SourceString": "80레벨 이상 지원 룬 획득",
+          "LocalizedString": "Obtain a Support Rune of Lv. 80 or above"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_100": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_100_TitleText",
+          "SourceString": "혼돈 룬 수집 대작전 {0}",
+          "LocalizedString": "Mission: Chaos Rune Collection {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_100_Description",
+          "SourceString": "혼돈 룬 획득",
+          "LocalizedString": "Acquire a Chaos Rune"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_092.icon_achv_092",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_101": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_101_TitleText",
+          "SourceString": "장터의 제왕 {0}",
+          "LocalizedString": "King of the Marketplace {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_101_Description",
+          "SourceString": "거래소 아이템 판매 성공",
+          "LocalizedString": "Successfully sell an item at the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_102": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_102_TitleText",
+          "SourceString": "셰프의 주식 상장 {0}",
+          "LocalizedString": "Chef Executive Officer {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_102_Description",
+          "SourceString": "거래소 음식 판매 성공",
+          "LocalizedString": "Successfully sell food at the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_103": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_103_TitleText",
+          "SourceString": "거상 {0}",
+          "LocalizedString": "Tycoon {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_103_Description",
+          "SourceString": "거래소 추출물 판매 성공",
+          "LocalizedString": "Successfully sell extracts at the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_104": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_104_TitleText",
+          "SourceString": "#거래소 보석 판매 성공 {0}",
+          "LocalizedString": "#거래소 보석 판매 성공 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_104_Description",
+          "SourceString": "거래소 보석 판매 성공",
+          "LocalizedString": "Successfully sell a gem at the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_105": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_105_TitleText",
+          "SourceString": "쇼퍼홀릭 {0}",
+          "LocalizedString": "Shopaholic {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_105_Description",
+          "SourceString": "거래소 아이템 구매",
+          "LocalizedString": "Purchase an item from the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_106": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_106_TitleText",
+          "SourceString": "나는 아직 배가 고프다 {0}",
+          "LocalizedString": "I Require Sustenance {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_106_Description",
+          "SourceString": "거래소 음식 구매",
+          "LocalizedString": "Purchase food from the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_107": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_107_TitleText",
+          "SourceString": "#거래소 추출물 구매 {0}",
+          "LocalizedString": "#거래소 추출물 구매 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_107_Description",
+          "SourceString": "거래소 추출물 구매",
+          "LocalizedString": "Purchase extracts from the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_108": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_108_TitleText",
+          "SourceString": "#거래소 보석 구매 {0}",
+          "LocalizedString": "#거래소 보석 구매 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_108_Description",
+          "SourceString": "거래소 보석 구매",
+          "LocalizedString": "Purchase a gem from the Auction House"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_070.icon_achv_070",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "None"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_109": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_109_TitleText",
+          "SourceString": "#가방 슬롯 칸 달성 {0}",
+          "LocalizedString": "#가방 슬롯 칸 달성 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_109_Description",
+          "SourceString": "가방 슬롯 칸 달성",
+          "LocalizedString": "Expand inventory slots"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_132.icon_achv_132",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_110": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_110_TitleText",
+          "SourceString": "#창고 슬롯 칸 달성 {0}",
+          "LocalizedString": "#창고 슬롯 칸 달성 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_110_Description",
+          "SourceString": "창고 슬롯 칸 달성",
+          "LocalizedString": "Expand storage slots"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_131.icon_achv_131",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_111": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_111_TitleText",
+          "SourceString": "탁본집 완성의 끝을 향해 {0}",
+          "LocalizedString": "99 Problems and a Lithograph Ain't One {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_111_Description",
+          "SourceString": "탁본집 완성",
+          "LocalizedString": "Complete a Lithograph Book"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_094.icon_achv_094",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_112": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_112_TitleText",
+          "SourceString": "연금술의 첫걸음 {0}",
+          "LocalizedString": "Alchemical Baby Steps {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_112_Description",
+          "SourceString": "물질 변환",
+          "LocalizedString": "Transmute materials"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_113": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_113_TitleText",
+          "SourceString": "1단계 연금술 {0}",
+          "LocalizedString": "Alchemy Stage 1 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_113_Description",
+          "SourceString": "물질 변환 1단계에서 변환",
+          "LocalizedString": "Perform a Material Transmutation at Tier 1"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_114": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_114_TitleText",
+          "SourceString": "2단계 연금술 {0}",
+          "LocalizedString": "Alchemy Stage 2 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_114_Description",
+          "SourceString": "물질 변환 2단계에서 변환",
+          "LocalizedString": "Perform a Material Transmutation at Tier 2"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_115": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_115_TitleText",
+          "SourceString": "3단계 연금술 {0}",
+          "LocalizedString": "Alchemy Stage 3 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_115_Description",
+          "SourceString": "물질 변환 3단계에서 변환",
+          "LocalizedString": "Perform a Material Transmutation at Tier 3"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_116": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_116_TitleText",
+          "SourceString": "4단계 연금술 {0}",
+          "LocalizedString": "Alchemy Stage 4 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_116_Description",
+          "SourceString": "물질 변환 4단계에서 변환",
+          "LocalizedString": "Perform a Material Transmutation at Tier 4"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_economy_117": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_117_TitleText",
+          "SourceString": "5단계 연금술 {0}",
+          "LocalizedString": "Alchemy Stage 5 {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
+          "Key": "achv_economy_117_Description",
+          "SourceString": "물질 변환 5단계에서 변환",
+          "LocalizedString": "Perform a Material Transmutation at Tier 5"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_079.icon_achv_079",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_item"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      }
+    }
+  }
+]

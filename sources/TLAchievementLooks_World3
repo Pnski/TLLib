@@ -1,0 +1,3052 @@
+[
+  {
+    "Type": "TLJsonDataTable",
+    "Name": "TLAchievementLooks_World3",
+    "Class": "UScriptClass'TLJsonDataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'TLSchemeAchievementLooks'",
+        "ObjectPath": "/Script/TLScheme"
+      }
+    },
+    "Rows": {
+      "achv_world3_test_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_test_001_TitleText",
+          "SourceString": "#월드3팀 업적",
+          "LocalizedString": "#월드3팀 업적"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_test_001_Description",
+          "SourceString": "#월드3팀 화이팅\t\t",
+          "LocalizedString": "#월드3팀 화이팅\t\t"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_016.icon_achv_016",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_001_TitleText",
+          "SourceString": "걸어서 세계 속으로",
+          "LocalizedString": "Expedition Stonegard"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_001_Description",
+          "SourceString": "스톤가드의 모든 순간이동석 개방",
+          "LocalizedString": "Unlock all Waypoints in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_007.icon_achv_007",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_002_TitleText",
+          "SourceString": "스톤가드 심연 속의 심연 {0}",
+          "LocalizedString": "Stonegard's Abyss Within the Abyss {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_002_Description",
+          "SourceString": "스톤가드의 던전에서 계약의 증표: 심연 포인트 소모",
+          "LocalizedString": "Consume Abyssal Contract Token Points in a Stonegard dungeon"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_175.icon_achv_175",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_003_TitleText",
+          "SourceString": "빨간 공 여기도 있네",
+          "LocalizedString": "Great, More Red Balls"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_003_Description",
+          "SourceString": "스톤가드의 모든 지역에서 미스틱 글로브 조작",
+          "LocalizedString": "Interact with Mystic Globes in all regions of Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_147.icon_achv_147",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_004_TitleText",
+          "SourceString": "포탈 어딨는지 진짜 다 파악했어",
+          "LocalizedString": "No More Portals, Please"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_004_Description",
+          "SourceString": "스톤가드의 모든 지역에서 미스틱 포탈 조작",
+          "LocalizedString": "Interact with Mystic Portals in all regions of Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_148.icon_achv_148",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_005_TitleText",
+          "SourceString": "찾았다 요놈",
+          "LocalizedString": "Gotcha"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_005_Description",
+          "SourceString": "스톤가드의 모든 지역에서 흰 까마귀 놀아주기",
+          "LocalizedString": "Play with a White Crow in all regions of Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_204.icon_achv_204",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_006_TitleText",
+          "SourceString": "스톤가드의 차원석 점령",
+          "LocalizedString": "Occupy Stonegard's Riftstone"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_006_Description",
+          "SourceString": "스톤가드의 차원석 점령",
+          "LocalizedString": "Occupy Stonegard's Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_007": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_007_TitleText",
+          "SourceString": "스톤가드의 기원석 점령",
+          "LocalizedString": "Occupy Stonegard's Boonstone"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_007_Description",
+          "SourceString": "스톤가드의 기원석 점령",
+          "LocalizedString": "Occupy Stonegard's Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_008": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_008_TitleText",
+          "SourceString": "스톤가드의 심연석 점령",
+          "LocalizedString": "Occupy Stonegard's Abysstone"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_008_Description",
+          "SourceString": "스톤가드의 심연석 점령",
+          "LocalizedString": "Occupy Stonegard's Abysstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_009": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_009_TitleText",
+          "SourceString": "꿀 발라놨어? {0}",
+          "LocalizedString": "Honey! Gimme! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_009_Description",
+          "SourceString": "개미굴에서 꿀단지 개미 누적 처치",
+          "LocalizedString": "Accumulate Honeypot Ant kills in the Ant Nest"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_009.icon_achv_009",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_010": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_010_TitleText",
+          "SourceString": "혹시 초록 옷의 그 녀석인가 {0}",
+          "LocalizedString": "Is That the Guy in Green? {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_010_Description",
+          "SourceString": "실라베스 사원에서 망자의 항아리 부수기",
+          "LocalizedString": "Destroy the Jar of the Dead in the Temple of Sylaveth"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_050.icon_achv_050",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_011": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_011_TitleText",
+          "SourceString": "서커스 {0}",
+          "LocalizedString": "Circus {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_011_Description",
+          "SourceString": "실라베스 사원 2층에서 키마킹 걸쇠 사용",
+          "LocalizedString": "Use the Piton of King Chimaerus in the Temple of Sylaveth 2F"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_051.icon_achv_051",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_012": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_012_TitleText",
+          "SourceString": "절하고 갑니다",
+          "LocalizedString": "Respectfully, Bow"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_012_Description",
+          "SourceString": "욕망의 성소 1층에 존재하는 모든 제단에서 모션: 감사 사용",
+          "LocalizedString": "Use Gesture: Gratitude at all Altars on Sanctum of Desire 1F"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_140.icon_achv_140",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_014": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_014_TitleText",
+          "SourceString": "힘세고 오래가는 골렘",
+          "LocalizedString": "The Everlasting Golem"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_014_Description",
+          "SourceString": "비엔타 마을 힘자랑 골렘 앞에서 모션: 긍정 사용",
+          "LocalizedString": "Use Gesture: Positive in front of the Strength Golem in Vienta Village"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_140.icon_achv_140",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_015": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_015_TitleText",
+          "SourceString": "건드리지 마세양 {0}",
+          "LocalizedString": "Don't Ewe Dare {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_015_Description",
+          "SourceString": "송곳니 마을 양과 상호작용",
+          "LocalizedString": "Interact with a Sheep in Canina Village"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_050.icon_achv_050",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_016": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_016_TitleText",
+          "SourceString": "정신수양",
+          "LocalizedString": "The Way Monks Train"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_016_Description",
+          "SourceString": "성소 발굴지 폭포 근처에서 모션: 앉기 사용",
+          "LocalizedString": "Use Gesture: Sit near the Sanctuary Oasis Falls"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_045.icon_achv_045",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_017": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_017_TitleText",
+          "SourceString": "이 성의 주인공은 나야 나",
+          "LocalizedString": "My Castle, My Rules"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_017_Description",
+          "SourceString": "스톤가드 아성 내에서 포즈: 위엄 사용",
+          "LocalizedString": "Use Pose: Flourish in the Stonegard Citadel"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_140.icon_achv_140",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_018": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_018_TitleText",
+          "SourceString": "섬 위의 여행자",
+          "LocalizedString": "Traveler on the Island"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_018_Description",
+          "SourceString": "네뷸라 섬의 순간이동석 개방",
+          "LocalizedString": "Unlock a Waypoint on Nebula Island"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_007.icon_achv_007",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_019": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_019_TitleText",
+          "SourceString": "바쁘다 바빠",
+          "LocalizedString": "Busy, Busy"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_019_Description",
+          "SourceString": "네뷸라 섬의 모든 사냥터 포탈 조작",
+          "LocalizedString": "Operate all Territory Portals on Nebula Island"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_050.icon_achv_050",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_021": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_021_TitleText",
+          "SourceString": "네뷸라 섬 정예 몬스터 전문가",
+          "LocalizedString": "Nebula Island Elite Monster Expert"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_021_Description",
+          "SourceString": "네뷸라 섬의 모든 정예 몬스터 처치",
+          "LocalizedString": "Defeat all Elite Monsters on Nebula Island"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_009.icon_achv_009",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_020": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_020_TitleText",
+          "SourceString": "네뷸라 섬 죽돌이",
+          "LocalizedString": "Nebulaholic"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_020_Description",
+          "SourceString": "네뷸라 섬에서 100시간 플레이",
+          "LocalizedString": "Explore Nebula Island for 100h"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_129.icon_achv_129",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_022": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_022_TitleText",
+          "SourceString": "고소공포증 극복",
+          "LocalizedString": "Fear of Heights, Conquered"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_022_Description",
+          "SourceString": "스톤가드의 가장 높은 위치 도달",
+          "LocalizedString": "Reach the highest point in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_042.icon_achv_042",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_023": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_023_TitleText",
+          "SourceString": "스톤가드 포토그래퍼",
+          "LocalizedString": "Stonegard Photographer"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_023_Description",
+          "SourceString": "스톤가드 랜드마크 촬영",
+          "LocalizedString": "Photograph a landmark in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_054.icon_achv_054",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_024": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_024_TitleText",
+          "SourceString": "탈루스 차원의 승자",
+          "LocalizedString": "Talus Rift Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_024_Description",
+          "SourceString": "탈루스 차원석 점령",
+          "LocalizedString": "Occupy the Talus Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_028.icon_achv_028",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_025": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_025_TitleText",
+          "SourceString": "코완주키 차원의 승자",
+          "LocalizedString": "Kowazan Rift Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_025_Description",
+          "SourceString": "코완주키 차원석 점령",
+          "LocalizedString": "Occupy the Kowazan Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_030.icon_achv_030",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_026": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_026_TitleText",
+          "SourceString": "말라카 차원의 승자",
+          "LocalizedString": "Malakar Rift Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_026_Description",
+          "SourceString": "말라카 차원석 점령",
+          "LocalizedString": "Occupy the Malakar Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_029.icon_achv_029",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_027": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_027_TitleText",
+          "SourceString": "케르노보그 차원의 승자",
+          "LocalizedString": "Chernobog Rift Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_027_Description",
+          "SourceString": "케르노보그 차원석 점령",
+          "LocalizedString": "Occupy the Chernobog Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_027.icon_achv_027",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_028": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_028_TitleText",
+          "SourceString": "킹 마인붐 차원의 승자",
+          "LocalizedString": "Excavator Rift Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_028_Description",
+          "SourceString": "킹 마인붐 차원석 점령",
+          "LocalizedString": "Occupy the Excavator Riftstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_026.icon_achv_026",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_029": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_029_TitleText",
+          "SourceString": "쐐기 사막의 기원의 승자",
+          "LocalizedString": "Monolith Wastelands Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_029_Description",
+          "SourceString": "쐐기 사막의 기원석 점령",
+          "LocalizedString": "Occupy the Monolith Wastelands Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_030": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_030_TitleText",
+          "SourceString": "버려진 석공 마을의 기원의 승자",
+          "LocalizedString": "Abandoned Stonemason Town Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_030_Description",
+          "SourceString": "버려진 석공 마을의 기원석 점령",
+          "LocalizedString": "Occupy the Abandoned Stonemason Town Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_031": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_031_TitleText",
+          "SourceString": "샌드웜 은신처의 기원의 승자",
+          "LocalizedString": "Sandworm Lair Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_031_Description",
+          "SourceString": "샌드웜 은신처의 기원석 점령",
+          "LocalizedString": "Occupy the Sandworm Lair Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_032": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_032_TitleText",
+          "SourceString": "달빛 사막의 기원의 승자",
+          "LocalizedString": "Moonlight Desert Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_032_Description",
+          "SourceString": "달빛 사막의 기원석 점령",
+          "LocalizedString": "Occupy the Moonlight Desert Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_033": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_033_TitleText",
+          "SourceString": "여명 해안의 기원의 승자",
+          "LocalizedString": "Daybreak Shore Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_033_Description",
+          "SourceString": "여명 해안의 기원석 점령",
+          "LocalizedString": "Occupy the Daybreak Shore Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_034": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_034_TitleText",
+          "SourceString": "마력의 황무지의 기원의 승자",
+          "LocalizedString": "Manawastes Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_034_Description",
+          "SourceString": "마력의 황무지의 기원석 점령",
+          "LocalizedString": "Occupy the Manawastes Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_035": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_035_TitleText",
+          "SourceString": "아키두 협곡의 기원의 승자",
+          "LocalizedString": "Akidu Valley Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_035_Description",
+          "SourceString": "아키두 협곡의 기원석 점령",
+          "LocalizedString": "Occupy the Akidu Valley Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_036": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_036_TitleText",
+          "SourceString": "회색발톱 숲의 기원의 승자",
+          "LocalizedString": "Grayclaw Forest Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_036_Description",
+          "SourceString": "회색발톱 숲의 기원석 점령",
+          "LocalizedString": "Occupy the Grayclaw Forest Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_037": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_037_TitleText",
+          "SourceString": "성난 나무 황야의 기원의 승자",
+          "LocalizedString": "The Raging Wilds Boon Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_037_Description",
+          "SourceString": "성난 나무 황야의 기원석 점령",
+          "LocalizedString": "Occupy the Raging Wilds Boonstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_038": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_038_TitleText",
+          "SourceString": "개미굴 심연의 승자",
+          "LocalizedString": "Ant Nest Abyss Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_038_Description",
+          "SourceString": "개미굴 심연석 점령",
+          "LocalizedString": "Occupy the Ant Nest Abysstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_039": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_039_TitleText",
+          "SourceString": "욕망의 성소 심연의 승자",
+          "LocalizedString": "Sanctum of Desire Abyss Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_039_Description",
+          "SourceString": "욕망의 성소 심연석 점령",
+          "LocalizedString": "Occupy the Sanctum of Desire Abysstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_040": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_040_TitleText",
+          "SourceString": "실라베스 사원 심연의 승자",
+          "LocalizedString": "Temple of Sylaveth Abyss Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_040_Description",
+          "SourceString": "실라베스 사원 심연석 점령",
+          "LocalizedString": "Occupy the Temple of Sylaveth Abysstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_041": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_041_TitleText",
+          "SourceString": "리자드 섬 심연의 승자",
+          "LocalizedString": "Saurodoma Island Abyss Victor"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_041_Description",
+          "SourceString": "리자드 섬 심연석 점령",
+          "LocalizedString": "Occupy the Saurodoma Island Abysstone"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_124.icon_achv_124",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_guild"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_042": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_042_TitleText",
+          "SourceString": "쐐기 사막 안전요원",
+          "LocalizedString": "Monolith Wastelands Safety Officer"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_042_Description",
+          "SourceString": "쐐기 사막에서 조사단원 호위하기",
+          "LocalizedString": "Escort the Investigation Team Member at the Monolith Wastelands"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_120.icon_achv_120",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_044": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_044_TitleText",
+          "SourceString": "위험한 주술인가요?",
+          "LocalizedString": "Is It a Dangerous Incantation?"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_044_Description",
+          "SourceString": "회색발톱 숲에서 주술 연구가 호위하기",
+          "LocalizedString": "Escort the Incantation Researcher at the Grayclaw Forest"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_120.icon_achv_120",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_045": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_045_TitleText",
+          "SourceString": "요리왕을 지켜라",
+          "LocalizedString": "Protect the Cooking King!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_045_Description",
+          "SourceString": "아키두 협곡에서 떠돌이 요리사 호위하기",
+          "LocalizedString": "Escort the Traveling Chef in Akidu Valley"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_120.icon_achv_120",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_046": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_046_TitleText",
+          "SourceString": "드워프 안전제일",
+          "LocalizedString": "Dwarf Safety Enforcer"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_046_Description",
+          "SourceString": "버려진 석공 마을에서 드워프 석공 호위하기",
+          "LocalizedString": "Escort the Dwarf Stonemason in the Abandoned Stonemason Town"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_120.icon_achv_120",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Exploration_043": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_043_TitleText",
+          "SourceString": "달빛 사막 경호원",
+          "LocalizedString": "Moonlight Desert Bodyguard"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Exploration_043_Description",
+          "SourceString": "달빛 사막에서 상단원 호위하기",
+          "LocalizedString": "Escort the merchant at the Moonlight Desert"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_120.icon_achv_120",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Life_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_002_TitleText",
+          "SourceString": "하늘 화보집",
+          "LocalizedString": "Skye Photobook"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_002_Description",
+          "SourceString": "비엔타 마을의 웰시코기 '하늘' 사진 찍기",
+          "LocalizedString": "Take a photo of Skye, the Welsh Corgi in Vienta Village"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_054.icon_achv_054",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_photo"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Life_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_003_TitleText",
+          "SourceString": "하람 화보집",
+          "LocalizedString": "Hollie Photobook"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_003_Description",
+          "SourceString": "성소 발굴지의 비글 '하람' 사진 찍기",
+          "LocalizedString": "Take a photo of Hollie, the Beagle at the Sanctuary Oasis"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_054.icon_achv_054",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_photo"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Life_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_004_TitleText",
+          "SourceString": "가온 화보집",
+          "LocalizedString": "Gabby Photobook"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_004_Description",
+          "SourceString": "송곳니 마을의 스코티쉬 폴드 '가온' 사진 찍기",
+          "LocalizedString": "Take a photo of Gabby, the Scottish Fold in Canina Village"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_054.icon_achv_054",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_photo"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Life_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_005_TitleText",
+          "SourceString": "푸름 화보집",
+          "LocalizedString": "Happy Photobook"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Life_005_Description",
+          "SourceString": "스톤가드 성의 리트리버 '푸름' 사진 찍기",
+          "LocalizedString": "Take a photo of Happy, the Retriever at Stonegard Castle"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_054.icon_achv_054",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_photo"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_001_TitleText",
+          "SourceString": "노력상 드립니다",
+          "LocalizedString": "Here's Your Participation Award"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_001_Description",
+          "SourceString": "스톤가드의 모든 지역 이벤트에서 노력 보상 획득",
+          "LocalizedString": "Acquire Performance Rewards from all Dynamic Events in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_035.icon_achv_035",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_002_TitleText",
+          "SourceString": "#핏빛 버섯 채취 1등 달성",
+          "LocalizedString": "#핏빛 버섯 채취 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_002_Description",
+          "SourceString": "#핏빛 버섯 채취 1등 달성",
+          "LocalizedString": "#핏빛 버섯 채취 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_187.icon_achv_187",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_003_TitleText",
+          "SourceString": "#사막의 카라반 1등 달성",
+          "LocalizedString": "#사막의 카라반 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_003_Description",
+          "SourceString": "#사막의 카라반 1등 달성",
+          "LocalizedString": "#사막의 카라반 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_188.icon_achv_188",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_004_TitleText",
+          "SourceString": "#달빛 주술 해제 1등 달성",
+          "LocalizedString": "#달빛 주술 해제 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_004_Description",
+          "SourceString": "#달빛 주술 해제 1등 달성",
+          "LocalizedString": "#달빛 주술 해제 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_189.icon_achv_189",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_005_TitleText",
+          "SourceString": "#탈리스만 전송 작전 1등 달성",
+          "LocalizedString": "#탈리스만 전송 작전 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_005_Description",
+          "SourceString": "#탈리스만 전송 작전 1등 달성",
+          "LocalizedString": "#탈리스만 전송 작전 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_190.icon_achv_190",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_006_TitleText",
+          "SourceString": "#마력 폭주 저지 1등 달성",
+          "LocalizedString": "#마력 폭주 저지 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_006_Description",
+          "SourceString": "#마력 폭주 저지 1등 달성",
+          "LocalizedString": "#마력 폭주 저지 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_191.icon_achv_191",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_DE_007": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_007_TitleText",
+          "SourceString": "#숨겨진 금운모 1등 달성",
+          "LocalizedString": "#숨겨진 금운모 1등 달성"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_DE_007_Description",
+          "SourceString": "#숨겨진 금운모 1등 달성",
+          "LocalizedString": "#숨겨진 금운모 1등 달성"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_192.icon_achv_192",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_de"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_001_TitleText",
+          "SourceString": "킹 마인붐-09 사냥꾼 {0}",
+          "LocalizedString": "Excavator-9 Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_001_Description",
+          "SourceString": "킹 마인붐-09 처치",
+          "LocalizedString": "Defeat Excavator-9"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_026.icon_achv_026",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_002_TitleText",
+          "SourceString": "케르노보그 사냥꾼 {0}",
+          "LocalizedString": "Chernobog Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_002_Description",
+          "SourceString": "케르노보그 처치",
+          "LocalizedString": "Defeat Chernobog"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_027.icon_achv_027",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_003_TitleText",
+          "SourceString": "탈루스 사냥꾼 {0}",
+          "LocalizedString": "Talus Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_003_Description",
+          "SourceString": "탈루스 처치",
+          "LocalizedString": "Defeat Talus"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_028.icon_achv_028",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_004_TitleText",
+          "SourceString": "말라카 사냥꾼 {0}",
+          "LocalizedString": "Malakar Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_004_Description",
+          "SourceString": "말라카 처치",
+          "LocalizedString": "Defeat Malakar"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_029.icon_achv_029",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_005_TitleText",
+          "SourceString": "코완주키 사냥꾼 {0}",
+          "LocalizedString": "Kowazan Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_005_Description",
+          "SourceString": "코완주키/라이칸 코완주키 처치",
+          "LocalizedString": "Defeat Kowazan / Lycan Kowazan"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_030.icon_achv_030",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_006_TitleText",
+          "SourceString": "쥬노보트 사냥꾼 {0}",
+          "LocalizedString": "Junobote Hunter {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_006_Description",
+          "SourceString": "쥬노보트 처치",
+          "LocalizedString": "Defeat Junobote"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_031.icon_achv_031",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Combat_monster"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_007": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_007_TitleText",
+          "SourceString": "스톤가드 보스 전문가",
+          "LocalizedString": "Stonegard Boss Expert"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_007_Description",
+          "SourceString": "스톤가드의 모든 필드 보스 처치",
+          "LocalizedString": "Defeat all Field Bosses in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_010.icon_achv_010",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_008": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_008_TitleText",
+          "SourceString": "스톤가드 정예 몬스터 전문가",
+          "LocalizedString": "Stonegard Elite Monster Expert"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_008_Description",
+          "SourceString": "스톤가드의 모든 일반 정예 몬스터 처치",
+          "LocalizedString": "Defeat all Normal Elite Monsters in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_009.icon_achv_009",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_009": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_009_TitleText",
+          "SourceString": "스톤가드 보물 추적자",
+          "LocalizedString": "Stonegard Treasure Tracker"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_009_Description",
+          "SourceString": "스톤가드의 모든 사냥터에서 보물 고블린 처치",
+          "LocalizedString": "Defeat Treasure Goblins in all Stonegard Territories"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_011.icon_achv_011",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Combat_010": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_010_TitleText",
+          "SourceString": "스톤가드 파티 정예 몬스터 전문가",
+          "LocalizedString": "Stonegard Party Elite Monster Expert"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Combat_010_Description",
+          "SourceString": "스톤가드의 모든 파티 정예 몬스터 처치",
+          "LocalizedString": "Defeat all Party Elite Monsters in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_010.icon_achv_010",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contract_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contract_001_TitleText",
+          "SourceString": "스톤가드의 모든 지역 의뢰 완료",
+          "LocalizedString": "Complete All Region Contracts in Stonegard"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contract_001_Description",
+          "SourceString": "스톤가드의 모든 지역 의뢰 완료",
+          "LocalizedString": "Complete all Region Contracts in Stonegard"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_066.icon_achv_066",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Exploration_stonegard"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_001_TitleText",
+          "SourceString": "모든 실전 차원진 완료",
+          "LocalizedString": "Normal Dimensional Circle Completion"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_001_Description",
+          "SourceString": "모든 실전 차원진 완료",
+          "LocalizedString": "Complete all Normal Dimensional Circles"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_002_TitleText",
+          "SourceString": "공포의 섬 정복자 {0}",
+          "LocalizedString": "Island of Terror Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_002_Description",
+          "SourceString": "공포의 섬 완료",
+          "LocalizedString": "Complete Island of Terror"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_003_TitleText",
+          "SourceString": "공허의 황무지 정복자 {0}",
+          "LocalizedString": "Voidwastes Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_003_Description",
+          "SourceString": "공허의 황무지 완료",
+          "LocalizedString": "Complete Voidwastes"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_004_TitleText",
+          "SourceString": "학살자의 협곡 정복자 {0}",
+          "LocalizedString": "Valley of Slaughter Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_004_Description",
+          "SourceString": "학살자의 협곡 완료",
+          "LocalizedString": "Complete Valley of Slaughter"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_005_TitleText",
+          "SourceString": "핏빛 분노의 섬 정복자 {0}",
+          "LocalizedString": "Carmine Rage Island Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_005_Description",
+          "SourceString": "핏빛 분노의 섬 완료",
+          "LocalizedString": "Complete Carmine Rage Island"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_006_TitleText",
+          "SourceString": "비명의 고문실 정복자 {0}",
+          "LocalizedString": "Torture Chamber of Screams Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_006_Description",
+          "SourceString": "비명의 고문실 완료",
+          "LocalizedString": "Complete Torture Chamber of Screams"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_007_01": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_01_TitleText",
+          "SourceString": "#도전 차원진: 공포의 섬 완료",
+          "LocalizedString": "#도전 차원진: 공포의 섬 완료"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_01_Description",
+          "SourceString": "#도전 차원진: 공포의 섬 완료",
+          "LocalizedString": "#도전 차원진: 공포의 섬 완료"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_007_02": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_02_TitleText",
+          "SourceString": "#도전 차원진: 공허의 황무지 완료",
+          "LocalizedString": "#도전 차원진: 공허의 황무지 완료"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_02_Description",
+          "SourceString": "#도전 차원진: 공허의 황무지 완료",
+          "LocalizedString": "#도전 차원진: 공허의 황무지 완료"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_007_03": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_03_TitleText",
+          "SourceString": "#도전 차원진: 학살자의 협곡 완료",
+          "LocalizedString": "#도전 차원진: 학살자의 협곡 완료"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_03_Description",
+          "SourceString": "#도전 차원진: 학살자의 협곡 완료",
+          "LocalizedString": "#도전 차원진: 학살자의 협곡 완료"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_007_04": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_04_TitleText",
+          "SourceString": "#도전 차원진: 핏빛 분노의 섬 완료",
+          "LocalizedString": "#도전 차원진: 핏빛 분노의 섬 완료"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_04_Description",
+          "SourceString": "#도전 차원진: 핏빛 분노의 섬 완료",
+          "LocalizedString": "#도전 차원진: 핏빛 분노의 섬 완료"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_007_05": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_05_TitleText",
+          "SourceString": "#도전 차원진: 비명의 고문실 완료",
+          "LocalizedString": "#도전 차원진: 비명의 고문실 완료"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_007_05_Description",
+          "SourceString": "#도전 차원진: 비명의 고문실 완료",
+          "LocalizedString": "#도전 차원진: 비명의 고문실 완료"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_008": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_008_TitleText",
+          "SourceString": "실전 도전 차원진 제압자",
+          "LocalizedString": "Normal Dimensional Trials Conqueror"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_008_Description",
+          "SourceString": "모든 실전 도전 차원진 5단계 완료",
+          "LocalizedString": "Complete Tier 5 of all Normal Dimensional Trials"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_009": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_009_TitleText",
+          "SourceString": "실전 도전 차원진 지배자",
+          "LocalizedString": "Normal Dimensional Trials Overlord"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_009_Description",
+          "SourceString": "모든 실전 도전 차원진 10단계 완료",
+          "LocalizedString": "Complete Tier 10 of all Normal Dimensional Trials"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_010": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_010_TitleText",
+          "SourceString": "실전 도전 차원진 종결자",
+          "LocalizedString": "Normal Dimensional Trials Terminator"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_010_Description",
+          "SourceString": "모든 실전 도전 차원진 15단계 완료",
+          "LocalizedString": "Complete Tier 15 of all Normal Dimensional Trials"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_232.icon_achv_232",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_012": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_012_TitleText",
+          "SourceString": "앞이 보이지 않아",
+          "LocalizedString": "Can't Even See My Hands"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_012_Description",
+          "SourceString": "공포의 섬 도전: 케르타키 처치 전까지 펼쳐지는 모든 안개를 지우기",
+          "LocalizedString": "Island of Terror Challenge: Clear all fog before defeating Kertaki"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_013": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_013_TitleText",
+          "SourceString": "앗 뜨거!",
+          "LocalizedString": "Ah! That's Hot!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_013_Description",
+          "SourceString": "공포의 섬 도전: 난이도 10 이상에서 메테오 맞지 않고 완료",
+          "LocalizedString": "Island of Terror Challenge: Clear on Tier 10 or higher without being hit by Meteor"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_014": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_014_TitleText",
+          "SourceString": "나무 빨리 베기 대회",
+          "LocalizedString": "Lumberjack Royale"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_014_Description",
+          "SourceString": "공허의 황무지 도전: 전투 시작 후 3분 안에 샤카룩스 처치",
+          "LocalizedString": "Voidwastes Challenge: Defeat Shakarux within 3min after the start of battle"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_015": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_015_TitleText",
+          "SourceString": "적당한 온도",
+          "LocalizedString": "Just the Right Heat"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_015_Description",
+          "SourceString": "공허의 황무지 도전: 난이도 10 이상에서 샤카룩스에게 적용된 암흑의 손길 효과가 10 이하인 상태로 완료",
+          "LocalizedString": "Voidwastes Challenge: Clear on Tier 10 or higher while the Touch of Darkness effect on Shakarux is 10 or lower"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_016": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_016_TitleText",
+          "SourceString": "제단을 향해 돌진",
+          "LocalizedString": "Straight To The Altar"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_016_Description",
+          "SourceString": "학살자의 협곡 도전: 일반 구간을 5분 안에 돌파",
+          "LocalizedString": "Valley of Slaughter Challenge: Clear the pre-boss area within 5min"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_017": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_017_TitleText",
+          "SourceString": "민첩한 하루 되세요",
+          "LocalizedString": "Stay Nimble My Friends"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_017_Description",
+          "SourceString": "학살자의 협곡 도전: 난이도 10 이상에서 모든 파티원이 떨어지는 불/발 구르기에 피해를 받지 않고 완료",
+          "LocalizedString": "Valley of Slaughter Challenge: Clear on Tier 10 or higher without any party members receiving damage from Falling Fire / Stomping"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_018": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_018_TitleText",
+          "SourceString": "빨간 선을 잘라!",
+          "LocalizedString": "Cut the Red Line!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_018_Description",
+          "SourceString": "핏빛 분노의 섬 도전: 파티원이 아무도 죽지 않고 폭발하는 붉은 고블린들을 3초 이내에 모두 처치",
+          "LocalizedString": "Carmine Rage Island Challenge: Defeat all Exploding Red Goblins within 3s without any party member deaths"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_019": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_019_TitleText",
+          "SourceString": "퍼즐의 왕",
+          "LocalizedString": "King of Puzzles"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_019_Description",
+          "SourceString": "핏빛 분노의 섬 도전: 난이도 10 이상에서 가이탄이 소환하는 색상 도형을 한 번의 시도로 모두 제거한 후 완료",
+          "LocalizedString": "Carmine Rage Island Challenge: Clear on Tier 10 or higher after eliminating all colored shapes summoned by Gaitan in one attempt"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_020": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_020_TitleText",
+          "SourceString": "피가 가득해...",
+          "LocalizedString": "Drenched in Red..."
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_020_Description",
+          "SourceString": "비명의 고문실 도전: 피 저장소 인터랙션하지 않고 칼리그라스 처치",
+          "LocalizedString": "Torture Chamber of Screams Challenge: Defeat Kaligras without interacting with a Blood Reservoir"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_021": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_021_TitleText",
+          "SourceString": "피가 부족해...",
+          "LocalizedString": "Running Dry..."
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_021_Description",
+          "SourceString": "비명의 고문실 도전: 난이도 10 이상에서 피 저장소가 2개 이하로만 찬 상태를 유지하며 완료",
+          "LocalizedString": "Torture Chamber of Screams Challenge: Clear on Tier 10 or higher while filing only 2 Blood Reservoirs or less"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_029": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_029_TitleText",
+          "SourceString": "계란으로 바위치기 {0}",
+          "LocalizedString": "Time to Get Cracking {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_029_Description",
+          "SourceString": "공포의 섬 도전: 알을 깨면 등장하는 도마뱀 유생체 처치",
+          "LocalizedString": "Island of Terror Challenge: Defeat the Ravenous Hatchlings that appear when breaking eggs"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_030": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_030_TitleText",
+          "SourceString": "절대 뒤를 돌아보지마",
+          "LocalizedString": "Never Look Back"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_030_Description",
+          "SourceString": "공포의 섬 도전: 파티원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Island of Terror Challenge: Clear without a single party member dying"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_031": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_031_TitleText",
+          "SourceString": "장판 사이로 막가",
+          "LocalizedString": "Dancing in Circles"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_031_Description",
+          "SourceString": "공허의 황무지 도전: 모든 파티원이 빛 균열을 한 번도 밟지 않고 완료",
+          "LocalizedString": "Voidwastes Challenge: Clear without any party member stepping on a crack of light"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_032": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_032_TitleText",
+          "SourceString": "공허 탈출",
+          "LocalizedString": "Escape The Void"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_032_Description",
+          "SourceString": "공허의 황무지 도전: 파티원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Voidwastes Challenge: Clear without a single party member dying"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_033": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_033_TitleText",
+          "SourceString": "땡겨!",
+          "LocalizedString": "Pull it!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_033_Description",
+          "SourceString": "학살자의 협곡 도전: 레버와 10회 상호 작용",
+          "LocalizedString": "Valley of Slaughter Challenge: Interact with the lever 10 times"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_034": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_034_TitleText",
+          "SourceString": "대탈출",
+          "LocalizedString": "The Great Escape"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_034_Description",
+          "SourceString": "학살자의 협곡 도전: 파티원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Valley of Slaughter Challenge: Clear without a single party member dying"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_035": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_035_TitleText",
+          "SourceString": "불멍...",
+          "LocalizedString": "Lost in the Rainbow Flames..."
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_035_Description",
+          "SourceString": "핏빛 분노의 섬 도전: 무지개색 모닥불 앞에서 포즈: 앉기 사용",
+          "LocalizedString": "Carmine Rage Island Challenge: Use the Pose: Sit in Front of the Rainbow-Colored Bonfire"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_036": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_036_TitleText",
+          "SourceString": "불멸의 방문객",
+          "LocalizedString": "The Immortal Guest"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_036_Description",
+          "SourceString": "핏빛 분노의 섬 도전: 파티원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Carmine Rage Island Challenge: Clear without a single party member dying"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_037": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_037_TitleText",
+          "SourceString": "두뇌 풀가동!",
+          "LocalizedString": "Big Brain Time"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_037_Description",
+          "SourceString": "비명의 고문실 도전: 문양 퍼즐 연속으로 3번 틀리기",
+          "LocalizedString": "Torture Chamber of Screams Challenge: Fail the puzzle 3 times in a row"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_PD_038": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_038_TitleText",
+          "SourceString": "안전 제일",
+          "LocalizedString": "Safety First!"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_PD_038_Description",
+          "SourceString": "비명의 고문실 도전: 파티원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Torture Chamber of Screams Challenge: Clear without a single party member dying"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_224.icon_achv_224",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_dungeon_coop_challenge"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_001_TitleText",
+          "SourceString": "망각의 유적지 정복자 {0}",
+          "LocalizedString": "The Forgotten Citadel Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_001_Description",
+          "SourceString": "망각의 유적지 완료",
+          "LocalizedString": "Clear the Forgotten Citadel"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_002_TitleText",
+          "SourceString": "바위보다 단단하게",
+          "LocalizedString": "Harder Than a Rock"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_002_Description",
+          "SourceString": "망각의 유적지 극한 난이도 완료",
+          "LocalizedString": "Clear the Forgotten Citadel on Nightmare difficulty"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_003_TitleText",
+          "SourceString": "오픈 더 도어! {0}",
+          "LocalizedString": "Let Me In! {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_003_Description",
+          "SourceString": "망각의 유적지에서 레버 인터랙션",
+          "LocalizedString": "Interact with the Lever in the Forgotten Citadel"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_227.icon_achv_227",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_004_TitleText",
+          "SourceString": "무사 귀환: 망각의 유적지 (일반)",
+          "LocalizedString": "Safe Return: The Forgotten Citadel (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_004_Description",
+          "SourceString": "망각의 유적지 일반 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Forgotten Citadel without any party members dying on Normal"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_005_TitleText",
+          "SourceString": "무사 귀환: 망각의 유적지 (숙련)",
+          "LocalizedString": "Safe Return: The Forgotten Citadel (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_005_Description",
+          "SourceString": "망각의 유적지 숙련 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Forgotten Citadel without any party members dying on Difficult"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_006_TitleText",
+          "SourceString": "무사 귀환: 망각의 유적지 (극한)",
+          "LocalizedString": "Safe Return: The Forgotten Citadel (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_006_Description",
+          "SourceString": "망각의 유적지 극한 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Forgotten Citadel without any party members dying on Nightmare"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_007": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_007_TitleText",
+          "SourceString": "비탄의 회랑 정복자 {0}",
+          "LocalizedString": "The Corridor of Anguish Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_007_Description",
+          "SourceString": "비탄의 회랑 완료",
+          "LocalizedString": "Clear the Corridor of Anguish"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_008": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_008_TitleText",
+          "SourceString": "온탕냉탕",
+          "LocalizedString": "Hot and Cold"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_008_Description",
+          "SourceString": "비탄의 회랑 극한 난이도 완료",
+          "LocalizedString": "Clear the Corridor of Anguish on Nightmare difficulty"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_009": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_009_TitleText",
+          "SourceString": "돌리고~ 돌리고~ {0}",
+          "LocalizedString": "Spin to Win {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_009_Description",
+          "SourceString": "비탄의 회랑의 조작 장치 상호 작용",
+          "LocalizedString": "Interact with the control panel in the Corridor of Anguish"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_227.icon_achv_227",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_010": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_010_TitleText",
+          "SourceString": "무사 귀환: 비탄의 회랑 (일반)",
+          "LocalizedString": "Safe Return: The Corridor of Anguish (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_010_Description",
+          "SourceString": "비탄의 회랑 일반 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Corridor of Anguish without any party members dying on Normal"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_011": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_011_TitleText",
+          "SourceString": "무사 귀환: 비탄의 회랑 (숙련)",
+          "LocalizedString": "Safe Return: The Corridor of Anguish (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_011_Description",
+          "SourceString": "비탄의 회랑 숙련 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Corridor of Anguish without any party members dying on Difficult"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_012": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_012_TitleText",
+          "SourceString": "무사 귀환: 비탄의 회랑 (극한)",
+          "LocalizedString": "Safe Return: The Corridor of Anguish (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_012_Description",
+          "SourceString": "비탄의 회랑 극한 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Corridor of Anguish without any party members dying on Nightmare"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_013": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_013_TitleText",
+          "SourceString": "부활의 제단 정복자 {0}",
+          "LocalizedString": "The Altar of Rebirth Conqueror {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_013_Description",
+          "SourceString": "부활의 제단 완료",
+          "LocalizedString": "Clear the Altar of Rebirth"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_014": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_014_TitleText",
+          "SourceString": "다음은 누구냐",
+          "LocalizedString": "Who's Next"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_014_Description",
+          "SourceString": "부활의 제단 극한 난이도 완료",
+          "LocalizedString": "Clear the Altar of Rebirth on Nightmare difficulty"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_015": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_015_TitleText",
+          "SourceString": "마력이 부족해 {0}",
+          "LocalizedString": "Out of Mana {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_015_Description",
+          "SourceString": "부활의 제단에 존재하는 마력의 샘 파괴",
+          "LocalizedString": "Destroy the Mana Spring at the Altar of Rebirth"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_227.icon_achv_227",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_016": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_016_TitleText",
+          "SourceString": "무사 귀환: 부활의 제단 (일반)",
+          "LocalizedString": "Safe Return: The Altar of Rebirth (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_016_Description",
+          "SourceString": "부활의 제단 일반 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Altar of Rebirth without any party members dying on Normal"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_017": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_017_TitleText",
+          "SourceString": "무사 귀환: 부활의 제단 (숙련)",
+          "LocalizedString": "Safe Return: The Altar of Rebirth (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_017_Description",
+          "SourceString": "부활의 제단 숙련 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Altar of Rebirth without any party members dying on Difficult"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_018": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_018_TitleText",
+          "SourceString": "무사 귀환: 부활의 제단 (극한)",
+          "LocalizedString": "Safe Return: The Altar of Rebirth (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_018_Description",
+          "SourceString": "부활의 제단 극한 난이도 공대원이 한 번도 죽지 않고 완료",
+          "LocalizedString": "Clear the Altar of Rebirth without any party members dying on Nightmare"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_019": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_019_TitleText",
+          "SourceString": "찰나의 승리: 드라가일 (극한)",
+          "LocalizedString": "Instant Triumph: Dragaryle (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_019_Description",
+          "SourceString": "전투 시작 후 5분 안에 드라가일 처치",
+          "LocalizedString": "Defeat Dragaryle within 5min after the start of battle"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_020": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_020_TitleText",
+          "SourceString": "찰나의 승리: 불칸/자이로스/라데스 (극한)",
+          "LocalizedString": "Instant Triumph: Vulkan/Zairos/Radeth (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_020_Description",
+          "SourceString": "전투 시작 후 5분 안에 불칸/자이로스/라데스 처치",
+          "LocalizedString": "Defeat Vulkan/Zairos/Radeth within 5min after the start of battle"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_021": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_021_TitleText",
+          "SourceString": "찰나의 승리: 칼란시아 (극한)",
+          "LocalizedString": "Instant Triumph: Calanthia (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_021_Description",
+          "SourceString": "전투 시작 후 5분 안에 칼란시아 처치",
+          "LocalizedString": "Defeat Calanthia within 5min after the start of battle"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_022": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_022_TitleText",
+          "SourceString": "찰나의 승리: 드라가일 (일반)",
+          "LocalizedString": "Instant Triumph: Dragaryle (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_022_Description",
+          "SourceString": "전투 시작 후 5분 안에 드라가일 처치 (일반 난이도)",
+          "LocalizedString": "Defeat Dragaryle within 5min after the start of battle (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_023": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_023_TitleText",
+          "SourceString": "찰나의 승리: 드라가일 (숙련)",
+          "LocalizedString": "Instant Triumph: Dragaryle (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_023_Description",
+          "SourceString": "전투 시작 후 5분 안에 드라가일 처치 (숙련 난이도)",
+          "LocalizedString": "Defeat Dragaryle within 5min after the start of battle (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_024": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_024_TitleText",
+          "SourceString": "찰나의 승리: 불칸/자이로스 (일반)",
+          "LocalizedString": "Instant Triumph: Vulkan/Zairos (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_024_Description",
+          "SourceString": "전투 시작 후 5분 안에 불칸/자이로스 처치 (일반 난이도)",
+          "LocalizedString": "Defeat Vulkan/Zairos within 5min after the start of battle (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_025": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_025_TitleText",
+          "SourceString": "찰나의 승리: 불칸/자이로스/라데스 (숙련)",
+          "LocalizedString": "Instant Triumph: Vulkan/Zairos/Radeth (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_025_Description",
+          "SourceString": "전투 시작 후 5분 안에 불칸/자이로스/라데스 처치 (숙련 난이도)",
+          "LocalizedString": "Defeat Vulkan/Zairos/Radeth within 5min after the start of battle (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_026": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_026_TitleText",
+          "SourceString": "찰나의 승리: 칼란시아 (일반)",
+          "LocalizedString": "Instant Triumph: Calanthia (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_026_Description",
+          "SourceString": "전투 시작 후 5분 안에 칼란시아 처치 (일반 난이도)",
+          "LocalizedString": "Defeat Calanthia within 5min after the start of battle (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_027": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_027_TitleText",
+          "SourceString": "찰나의 승리: 칼란시아 처치 (숙련)",
+          "LocalizedString": "Instant Triumph: Calanthia (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_027_Description",
+          "SourceString": "전투 시작 후 5분 안에 칼란시아 처치 (숙련 난이도)",
+          "LocalizedString": "Defeat Calanthia within 5min after the start of battle (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_028": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_028_TitleText",
+          "SourceString": "초고속 정복: 망각의 유적지 (일반)",
+          "LocalizedString": "Blitz Conquest: The Forgotten Citadel (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_028_Description",
+          "SourceString": "망각의 유적지 일반 구간을 5분 안에 돌파 (일반 난이도)",
+          "LocalizedString": "Clear the general section of the Forgotten Citadel within 5min (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_029": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_029_TitleText",
+          "SourceString": "초고속 정복: 망각의 유적지 (숙련)",
+          "LocalizedString": "Blitz Conquest: The Forgotten Citadel (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_029_Description",
+          "SourceString": "망각의 유적지 일반 구간을 5분 안에 돌파 (숙련 난이도)",
+          "LocalizedString": "Clear the general section of the Forgotten Citadel within 5min (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_030": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_030_TitleText",
+          "SourceString": "초고속 정복: 망각의 유적지 (극한)",
+          "LocalizedString": "Blitz Conquest: The Forgotten Citadel (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_030_Description",
+          "SourceString": "망각의 유적지 일반 구간을 5분 안에 돌파 (극한 난이도)",
+          "LocalizedString": "Clear the general section of the Forgotten Citadel within 5min (Nightmare)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_031": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_031_TitleText",
+          "SourceString": "초고속 정복: 비탄의 회랑 (일반)",
+          "LocalizedString": "Blitz Conquest: The Corridor of Anguish (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_031_Description",
+          "SourceString": "비탄의 회랑 일반 구간을 5분 안에 돌파 (일반 난이도)",
+          "LocalizedString": "Clear the general section of the Corridor of Anguish within 5min (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_032": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_032_TitleText",
+          "SourceString": "초고속 정복: 비탄의 회랑 (숙련)",
+          "LocalizedString": "Blitz Conquest: The Corridor of Anguish (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_032_Description",
+          "SourceString": "비탄의 회랑 일반 구간을 5분 안에 돌파 (숙련 난이도)",
+          "LocalizedString": "Clear the general section of the Corridor of Anguish within 5min (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_033": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_033_TitleText",
+          "SourceString": "초고속 정복: 비탄의 회랑 (극한)",
+          "LocalizedString": "Blitz Conquest: The Corridor of Anguish (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_033_Description",
+          "SourceString": "비탄의 회랑 일반 구간을 5분 안에 돌파 (극한 난이도)",
+          "LocalizedString": "Clear the general section of the Corridor of Anguish within 5min (Nightmare)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_034": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_034_TitleText",
+          "SourceString": "초고속 정복: 부활의 제단 (일반)",
+          "LocalizedString": "Blitz Conquest: The Altar of Rebirth (Normal)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_034_Description",
+          "SourceString": "부활의 제단 일반 구간을 5분 안에 돌파 (일반 난이도)",
+          "LocalizedString": "Clear the general section of the Altar of Rebirth within 5min (Normal)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_035": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_035_TitleText",
+          "SourceString": "초고속 정복: 부활의 제단 (숙련)",
+          "LocalizedString": "Blitz Conquest: The Altar of Rebirth (Difficult)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_035_Description",
+          "SourceString": "부활의 제단 일반 구간을 5분 안에 돌파 (숙련 난이도)",
+          "LocalizedString": "Clear the general section of the Altar of Rebirth within 5min (Difficult)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_world3_Contents_Raid_036": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_036_TitleText",
+          "SourceString": "초고속 정복: 부활의 제단 (극한)",
+          "LocalizedString": "Blitz Conquest: The Altar of Rebirth (Nightmare)"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
+          "Key": "achv_world3_Contents_Raid_036_Description",
+          "SourceString": "부활의 제단 일반 구간을 5분 안에 돌파 (극한 난이도)",
+          "LocalizedString": "Clear the general section of the Altar of Rebirth within 5min (Nightmare)"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_130.icon_achv_130",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Community_raid"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      }
+    }
+  }
+]
