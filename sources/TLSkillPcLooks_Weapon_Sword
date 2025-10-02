@@ -36646,8 +36646,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc.TLStringSkillDesc",
               "Key": "TEXT_SKILL_DESC_WP_Item_Boss_T3_SW_01",
-              "SourceString": "승천베기, 발목 타격, 필살의 격돌, 승천 가르기, 돌풍 가르기 스킬의 충돌: 넘어짐 상태가 되었을 때 사용 가능하며, 기절, 속박, 수면, 침묵, 공포, 충돌 상태를 즉시 해제하고 주변 3m의 적에게 기본 피해의 100% 만큼 피해를 주고 충돌: 밀어냄 효과 부여 재발동 제한 시간 2분",
-              "LocalizedString": "Usable when affected by Collision: Prone from Ascending Slash, Ankle Strike, Desperate Clash, Ascending Cleave, Tempest Strike. Immediately removes Bind, Collision, Fear, Silence, Sleep, and Stun and attacks enemies within 3m for 100% of Base Damage and applies Collision: Push. Cooldown: 2min."
+              "SourceString": "승천베기, 발목 타격, 필살의 격돌, 승천 가르기, 돌풍 가르기 스킬의 충돌: 넘어짐 상태가 되었을 때 방패 생존술 스킬로 사용 가능하며, 기절, 속박, 수면, 침묵, 공포, 충돌 상태를 즉시 해제하고 주변 3m의 적에게 기본 피해의 100% 만큼 피해를 주고 $[WP_Item_Boss_T3_SW_01_Rate.tooltip1]% 확률로 충돌: 밀어냄 효과 부여 재발동 제한 시간 2분",
+              "LocalizedString": "When affected by Collision: Prone from Ascending Cleave, Ascending Slash, Ankle Strike, Desperate Clash, or Tempest Strike, Shield Survival Technique can be used. Immediately removes Bind, Collision, Fear, Silence, Sleep and Stun, dealing 100% of Base Damage to enemies within 3m, and has a $[WP_Item_Boss_T3_SW_01_Rate.tooltip1]% chance to apply Collision: Push. Cooldown: 2 min"
             }
           }
         ],

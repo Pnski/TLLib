@@ -2,6 +2,7 @@ const FilesList = [
   'Bow',
   'Crossbow',
   'Dagger',
+  'Orb',
   'Spear',
   'Staff',
   'Sword',

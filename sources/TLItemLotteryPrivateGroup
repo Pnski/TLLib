@@ -29930,6 +29930,86 @@
           }
         ]
       },
+      "package_random_BFB_Baskilisk": {
+        "Name": "package_random_BFB_Baskilisk",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_BFB_Baskilisk_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_BFB_DeathAzrael": {
+        "Name": "package_random_BFB_DeathAzrael",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_BFB_DeathAzrael_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_WB_Brook": {
+        "Name": "package_random_WB_Brook",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_WB_Brook_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_BFB_Bugbear": {
+        "Name": "package_random_BFB_Bugbear",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_BFB_Bugbear_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_BWB_Tevent": {
+        "Name": "package_random_BWB_Tevent",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_BWB_Tevent_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_WB_Tevent": {
+        "Name": "package_random_WB_Tevent",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_WB_Tevent_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_FB_Leviathan": {
+        "Name": "package_random_FB_Leviathan",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_FB_Leviathan_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_random_BFB_Talus": {
+        "Name": "package_random_BFB_Talus",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_random_BFB_Talus_care",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_equipset_lottery_kA_fgt_01": {
         "Name": "package_equipset_lottery_kA_fgt_01",
         "ItemLotteryPrivateGroupEntry": [

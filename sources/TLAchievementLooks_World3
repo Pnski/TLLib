@@ -1275,8 +1275,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_001_Description",
-          "SourceString": "킹 마인붐-09 처치",
-          "LocalizedString": "Defeat Excavator-9"
+          "SourceString": "필드 보스 킹 마인붐-09 처치",
+          "LocalizedString": "Defeat Field Boss Excavator-9"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_026.icon_achv_026",
@@ -1297,8 +1297,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_002_Description",
-          "SourceString": "케르노보그 처치",
-          "LocalizedString": "Defeat Chernobog"
+          "SourceString": "필드 보스 케르노보그 처치",
+          "LocalizedString": "Defeat Field Boss Chernobog"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_027.icon_achv_027",
@@ -1319,8 +1319,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_003_Description",
-          "SourceString": "탈루스 처치",
-          "LocalizedString": "Defeat Talus"
+          "SourceString": "필드 보스 탈루스 처치",
+          "LocalizedString": "Defeat Field Boss Talus"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_028.icon_achv_028",
@@ -1341,8 +1341,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_004_Description",
-          "SourceString": "말라카 처치",
-          "LocalizedString": "Defeat Malakar"
+          "SourceString": "필드 보스 말라카 처치",
+          "LocalizedString": "Defeat Field Boss Malakar"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_029.icon_achv_029",
@@ -1363,8 +1363,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_005_Description",
-          "SourceString": "코완주키/라이칸 코완주키 처치",
-          "LocalizedString": "Defeat Kowazan / Lycan Kowazan"
+          "SourceString": "필드 보스 코완주키/라이칸 코완주키 처치",
+          "LocalizedString": "Defeat Field Boss Kowazan / Lycan Kowazan"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_030.icon_achv_030",
@@ -1385,8 +1385,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_006_Description",
-          "SourceString": "쥬노보트 처치",
-          "LocalizedString": "Defeat Junobote"
+          "SourceString": "필드 보스 쥬노보트 처치",
+          "LocalizedString": "Defeat Field Boss Junobote"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_031.icon_achv_031",

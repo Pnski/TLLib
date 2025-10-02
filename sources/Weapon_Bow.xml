@@ -73,7 +73,7 @@
       <trait_list>
         <trait trait_id="SkillSet_WP_BO_S_BindShot_Trait_1" uid="0" point="5" trait_effect="WP_BO_S_LongDistanceKill_DND" unlock_level="15" />
         <trait trait_id="SkillSet_WP_BO_S_BindShot_Trait_2" uid="1" point="5" unlock_level="15" />
-        <trait trait_id="SkillSet_WP_BO_S_BindShot_Trait_3" uid="2" point="5" unlock_level="15" trait_dynamic_stat_id_01="BO_BindShot_Accuracy" trait_dynamic_stat_adder_formula_01="BO_BindShot_Trait3_Accuracy_Boost" />
+        <trait trait_id="SkillSet_WP_BO_S_BindShot_Trait_3" uid="2" point="5" unlock_level="15" trait_dynamic_stat_id_01="BO_BindShot_Accuracy" trait_dynamic_stat_adder_formula_01="BO_BindShot_Trait3_Accuracy_Boost_DynamicStat" />
       </trait_list>
     </skill_complex>
     <skill_complex guid="947822301" is_basic_attack="false" is_for_polymorphed_only="false" description="[A] [희귀] 자연의 은총" skill_grade="kB" id="SkillSet_WP_BO_S_RegenAura" exclusive_group="kGroup_01" skill_enchant_category="kRecovery" skill_type="kActiveSkill" feature_tag="BASE_LH" publisher_tag="ALL" skill_slot_affinity="kButton05" unlock_level="9" growth_exchangeable_group="kActiveB">

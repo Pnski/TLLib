@@ -2,36 +2,39 @@ import json
 import os
 import xml.etree.ElementTree as ET
 
-from _utils import sidebarjson, loadFile
+from _utils import saveJson, loadFile
 
-outputNC = 'sources/TLEquipment.NC.helper'
-outputAGS = 'sources/TLEquipment.AGS.helper'
+outputNC = "sources/TLEquipment.NC.helper"
+outputAGS = "sources/TLEquipment.AGS.helper"
+
 
 class CaseInsensitiveDict(dict):
     def __getitem__(self, key):
         return super().__getitem__(key.lower())
+
     def get(self, key, default=None):
         return super().get(key.lower(), default)
+
 
 # =========
 # Load all data
 # =========
 
-TLStats = loadFile('sources/TLStats')
+TLStats = loadFile("sources/TLStats")
 
-TLItemLooks = loadFile('sources/TLItemLooks')
-TLItemLooksSkills = loadFile('sources/TLSkillPcLooks_Item')
+TLItemLooks = loadFile("sources/TLItemLooks")
+TLItemLooksSkills = loadFile("sources/TLSkillPcLooks_Item")
 
-TLItemEquip = loadFile('sources/TLItemEquip')  # item_grade
-TLItemMisc = loadFile('sources/TLItemMisc')    # item_grade
-TLGlobalCommon = loadFile('sources/TLGlobalCommon')  # TraitInfoMap
-TLItemRandomStatGroup = loadFile('sources/TLItemRandomStatGroup')  # TraitResonance #runes
+TLItemEquip = loadFile("sources/TLItemEquip")  # item_grade
+TLItemMisc = loadFile("sources/TLItemMisc")  # item_grade
+TLGlobalCommon = loadFile("sources/TLGlobalCommon")  # TraitInfoMap
+TLItemRandomStatGroup = loadFile("sources/TLItemRandomStatGroup")  # TraitResonance #runes
 
 # Traits (global)
-TLItemTraits = loadFile('sources/TLItemTraits')
-TLItemTraitGroup = loadFile('sources/TLItemTraitGroup')
-TLItemTraitsBaseValue = loadFile('sources/TLItemTraitsBaseValue')
-TLItemTraitsEnchantValue = loadFile('sources/TLItemTraitsEnchantValue')
+TLItemTraits = loadFile("sources/TLItemTraits")
+TLItemTraitGroup = loadFile("sources/TLItemTraitGroup")
+TLItemTraitsBaseValue = loadFile("sources/TLItemTraitsBaseValue")
+TLItemTraitsEnchantValue = loadFile("sources/TLItemTraitsEnchantValue")
 
 # Per-list containers
 TLItemStats = {}
@@ -48,29 +51,30 @@ TLItemExtraStatEnchant = {}
 itemList = {"NC": {}, "AGS": {}}
 
 # NC files
-TLItemStats['NC'] = loadFile('sources/TLItemStats')
-TLStatsItemBaseValue['NC'] = loadFile('sources/TLStatsItemBaseValue')
-TLStatsItemEnchantValue['NC'] = loadFile('sources/TLStatsItemEnchantValue')
-TLItemMainStatInit['NC'] = loadFile('sources/TLItemMainStatInit')
-TLItemMainStatEnchant['NC'] = loadFile('sources/TLItemMainStatEnchant')
-TLItemExtraStatInit['NC'] = loadFile('sources/TLItemExtraStatInit')
-TLItemExtraStatEnchant['NC'] = loadFile('sources/TLItemExtraStatEnchant')
+TLItemStats["NC"] = loadFile("sources/TLItemStats")
+TLStatsItemBaseValue["NC"] = loadFile("sources/TLStatsItemBaseValue")
+TLStatsItemEnchantValue["NC"] = loadFile("sources/TLStatsItemEnchantValue")
+TLItemMainStatInit["NC"] = loadFile("sources/TLItemMainStatInit")
+TLItemMainStatEnchant["NC"] = loadFile("sources/TLItemMainStatEnchant")
+TLItemExtraStatInit["NC"] = loadFile("sources/TLItemExtraStatInit")
+TLItemExtraStatEnchant["NC"] = loadFile("sources/TLItemExtraStatEnchant")
 
 # AGS files
-TLItemStats['AGS'] = loadFile('sources/TLItemStats_AGS')
-TLStatsItemBaseValue['AGS'] = loadFile('sources/TLStatsItemBaseValue_AGS')
-TLStatsItemEnchantValue['AGS'] = loadFile('sources/TLStatsItemEnchantValue_AGS')
-TLItemMainStatInit['AGS'] = loadFile('sources/TLItemMainStatInit_AGS')
-TLItemMainStatEnchant['AGS'] = loadFile('sources/TLItemMainStatEnchant_AGS')
-TLItemExtraStatInit['AGS'] = loadFile('sources/TLItemExtraStatInit_AGS')
-TLItemExtraStatEnchant['AGS'] = loadFile('sources/TLItemExtraStatEnchant_AGS')
+TLItemStats["AGS"] = loadFile("sources/TLItemStats_AGS")
+TLStatsItemBaseValue["AGS"] = loadFile("sources/TLStatsItemBaseValue_AGS")
+TLStatsItemEnchantValue["AGS"] = loadFile("sources/TLStatsItemEnchantValue_AGS")
+TLItemMainStatInit["AGS"] = loadFile("sources/TLItemMainStatInit_AGS")
+TLItemMainStatEnchant["AGS"] = loadFile("sources/TLItemMainStatEnchant_AGS")
+TLItemExtraStatInit["AGS"] = loadFile("sources/TLItemExtraStatInit_AGS")
+TLItemExtraStatEnchant["AGS"] = loadFile("sources/TLItemExtraStatEnchant_AGS")
 
 # =========
 # Lookups
 # =========
 
-TLStatsLookup = {}          # short_name -> stat key used in value tables
-TLStatsValueKeys = set()    # set of stat keys for fast membership check
+TLStatsLookup = {}  # short_name -> stat key used in value tables
+TLStatsValueKeys = set()  # set of stat keys for fast membership check
+
 
 def makeTLStatsLookup():
     for key, value in TLStats.items():
@@ -82,6 +86,7 @@ def makeTLStatsLookup():
     global TLStatsValueKeys
     TLStatsValueKeys = set(TLStatsLookup.values())
 
+
 def build_lookup_dict(data, key_order):
     """Build a dict keyed by a tuple of the given key_order."""
     entries = data.values() if isinstance(data, dict) else data
@@ -91,12 +96,13 @@ def build_lookup_dict(data, key_order):
         out[k] = entry
     return out
 
+
 def build_per_list_lookup(data_by_list, key_order):
     """Return {ListID: {(k1,...): entry}} using the same key order for all."""
     return {
-        list_id: build_lookup_dict(data_by_list[list_id], key_order)
-        for list_id in data_by_list
+        list_id: build_lookup_dict(data_by_list[list_id], key_order) for list_id in data_by_list
     }
+
 
 def plookup(lookup_by_list, list_id, key_order, **query):
     """
@@ -113,74 +119,83 @@ def plookup(lookup_by_list, list_id, key_order, **query):
             return val
 
     # 2) fallback to NC
-    if list_id != 'NC':
-        lkp_nc = lookup_by_list.get('NC')
+    if list_id != "NC":
+        lkp_nc = lookup_by_list.get("NC")
         if lkp_nc is not None:
             return lkp_nc.get(key)
 
     # 3) nothing
     return None
 
+
 # Global trait lookups (same for NC/AGS; traits tables are global)
-TraitBaseValueLookup = {}     # {trait_id: {(seed,): entry}}
+TraitBaseValueLookup = {}  # {trait_id: {(seed,): entry}}
 TraitEnchantValueLookup = {}  # {trait_id: {(enchant_level,): entry}}
+
 
 def build_trait_lookups():
     for trait_id, tval in TLItemTraits.items():
-        base_id = tval.get('ItemTraitsBaseValueId')
-        ench_id = tval.get('ItemTraitsEnchantValueId')
+        base_id = tval.get("ItemTraitsBaseValueId")
+        ench_id = tval.get("ItemTraitsEnchantValueId")
         if base_id and base_id in TLItemTraitsBaseValue:
             TraitBaseValueLookup[trait_id] = build_lookup_dict(
-                TLItemTraitsBaseValue[base_id]['Stats'], ('seed',)
+                TLItemTraitsBaseValue[base_id]["Stats"], ("seed",)
             )
         if ench_id and ench_id in TLItemTraitsEnchantValue:
             TraitEnchantValueLookup[trait_id] = build_lookup_dict(
-                TLItemTraitsEnchantValue[ench_id]['Stats'], ('enchant_level',)
+                TLItemTraitsEnchantValue[ench_id]["Stats"], ("enchant_level",)
             )
+
 
 # Resonance base lookups per ListID and group
 # ResonanceEnchant not used in your code for building the dict, so we keep base only
 ResonanceBaseLookup = {}  # {ListID: {group_id: {(seed,): entry}}}
 
+
 def build_resonance_lookups():
     for list_id, base_table in TLStatsItemBaseValue.items():
         ResonanceBaseLookup[list_id] = {}
         for group_id, group in TLItemRandomStatGroup.items():
-            base_id = group.get('BaseValueId')
+            base_id = group.get("BaseValueId")
             if base_id and base_id in base_table:
                 ResonanceBaseLookup[list_id][group_id] = build_lookup_dict(
-                    base_table[base_id]['Stats'], ('seed',)
+                    base_table[base_id]["Stats"], ("seed",)
                 )
 
-# Main stat lookups per ListID with explicit key order
-MAIN_INIT_KEYS = ('seed', 'id')
-MAIN_ENCH_KEYS = ('enchant_level', 'id')
 
-MainStatInitLookup = {}     # {ListID: {(seed,id): entry}}
+# Main stat lookups per ListID with explicit key order
+MAIN_INIT_KEYS = ("seed", "id")
+MAIN_ENCH_KEYS = ("enchant_level", "id")
+
+MainStatInitLookup = {}  # {ListID: {(seed,id): entry}}
 MainStatEnchantLookup = {}  # {ListID: {(enchant_level,id): entry}}
+
 
 def build_mainstat_lookups():
     global MainStatInitLookup, MainStatEnchantLookup
     MainStatInitLookup = build_per_list_lookup(TLItemMainStatInit, MAIN_INIT_KEYS)
     MainStatEnchantLookup = build_per_list_lookup(TLItemMainStatEnchant, MAIN_ENCH_KEYS)
 
+
 # Extra stat lookups
-EXTRA_INIT_KEYS = ('stat_seed', 'seed_group_id')   # for init tables
-EXTRA_ENCH_KEYS = ('enchant_level', "seed_group_id")         # for enchants
+EXTRA_INIT_KEYS = ("stat_seed", "seed_group_id")  # for init tables
+EXTRA_ENCH_KEYS = ("enchant_level", "seed_group_id")  # for enchants
 
 ExtraStatInitLookup = {}
 ExtraStatEnchantLookup = {}
+
 
 def build_extrastat_lookups():
     global ExtraStatInitLookup, ExtraStatEnchantLookup
     ExtraStatInitLookup = build_per_list_lookup(TLItemExtraStatInit, EXTRA_INIT_KEYS)
     ExtraStatEnchantLookup = build_per_list_lookup(TLItemExtraStatEnchant, EXTRA_ENCH_KEYS)
 
+
 def load_wp_items_as_dict(folder):
     wp_items = {}
 
     for filename in os.listdir(folder):
-        if filename.startswith("WP_Item_") or filename.startswith('Equip_'):
+        if filename.startswith("WP_Item_") or filename.startswith("Equip_"):
             filepath = os.path.join(folder, filename)
 
             try:
@@ -197,11 +212,9 @@ def load_wp_items_as_dict(folder):
                     if simple is not None:
                         skill_id = simple.get("skill_id", "")
 
-                    skill_complexes.append({
-                        "guid": guid,
-                        "skillComplex": skill_complex_id,
-                        "skill_id": skill_id
-                    })
+                    skill_complexes.append(
+                        {"guid": guid, "skillComplex": skill_complex_id, "skill_id": skill_id}
+                    )
 
                 wp_items[os.path.splitext(filename)[0]] = skill_complexes
 
@@ -215,6 +228,7 @@ def load_wp_items_as_dict(folder):
 # Value helpers
 # =========
 
+
 def getMaxTraitLevel(grade):
     trait_info_list = (
         TLGlobalCommon.get("GlobalCommonData", {})
@@ -226,9 +240,10 @@ def getMaxTraitLevel(grade):
             value = entry.get("Value", {})
             return {
                 "count": value.get("TraitMaxCount"),
-                "maxLevel": value.get("ItemTraitMaxLevel")
+                "maxLevel": value.get("ItemTraitMaxLevel"),
             }
     return None
+
 
 def getEquipGrade(item):
     return (
@@ -237,6 +252,7 @@ def getEquipGrade(item):
         or None
     )
 
+
 def getLooks(item):
     looks = TLItemLooks.get(item)
     if not looks:
@@ -244,15 +260,14 @@ def getLooks(item):
     icon_path = looks.get("IconPath", {}).get("AssetPathName", None)
     icon = None
     if icon_path:
-        icon = icon_path.split('.')[0].replace("/Game", ".") + ".png"
-    return {
-        "icon": icon,
-        "locaString": looks.get("UIName", {}).get("LocalizedString", None)
-    }
+        icon = icon_path.split(".")[0].replace("/Game", ".") + ".png"
+    return {"icon": icon, "locaString": looks.get("UIName", {}).get("LocalizedString", None)}
+
 
 # =========
 # Builders
 # =========
+
 
 def clearTraits(item_trait_group_id, itemGrade):
     itemTraitCandidates = TLItemTraitGroup.get(item_trait_group_id, {}).get("TraitCandidates")
@@ -264,11 +279,11 @@ def clearTraits(item_trait_group_id, itemGrade):
         return None
 
     traits = {}
-    max_level = maxTraitLevel['maxLevel']
+    max_level = maxTraitLevel["maxLevel"]
 
     for cand in itemTraitCandidates:
-        trait_id = cand['TraitId']
-        base_seed = cand['BaseSeed']
+        trait_id = cand["TraitId"]
+        base_seed = cand["BaseSeed"]
 
         baseMap = TraitBaseValueLookup.get(trait_id)
         enchMap = TraitEnchantValueLookup.get(trait_id)
@@ -293,20 +308,20 @@ def clearTraits(item_trait_group_id, itemGrade):
 
     return traits if traits else None
 
+
 def clearResonance(ListID, trait_resonance_id):
-    if not trait_resonance_id or trait_resonance_id == 'None':
+    if not trait_resonance_id or trait_resonance_id == "None":
         return {}
 
     # Try AGS/NC based on ListID, with fallback to NC
-    baseLookup = (
-        ResonanceBaseLookup.get(ListID, {}).get(trait_resonance_id)
-        or ResonanceBaseLookup.get('NC', {}).get(trait_resonance_id)
-    )
+    baseLookup = ResonanceBaseLookup.get(ListID, {}).get(
+        trait_resonance_id
+    ) or ResonanceBaseLookup.get("NC", {}).get(trait_resonance_id)
     if not baseLookup:
         return {}
 
     res = {}
-    for statGroup in TLItemRandomStatGroup[trait_resonance_id]['RandomStatCandidates']:
+    for statGroup in TLItemRandomStatGroup[trait_resonance_id]["RandomStatCandidates"]:
         base = baseLookup.get((statGroup.get("BaseSeed"),))
         if base is None:
             # seed missing in current list; skip this candidate
@@ -315,6 +330,7 @@ def clearResonance(ListID, trait_resonance_id):
         stat_key = TLStatsLookup[short]
         res[stat_key] = base[stat_key]
     return res
+
 
 def clearMainStats(ListID, baseId, baseSeed, enchantId, maxLevel):
     mainStats = {}
@@ -326,7 +342,9 @@ def clearMainStats(ListID, baseId, baseSeed, enchantId, maxLevel):
                 mainStats[k] = [v]
 
     for level in range(1, (maxLevel or 0) + 1):
-        ench = plookup(MainStatEnchantLookup, ListID, MAIN_ENCH_KEYS, enchant_level=level, id=enchantId)
+        ench = plookup(
+            MainStatEnchantLookup, ListID, MAIN_ENCH_KEYS, enchant_level=level, id=enchantId
+        )
         if not ench:
             continue
         for k, v in ench.items():
@@ -337,6 +355,7 @@ def clearMainStats(ListID, baseId, baseSeed, enchantId, maxLevel):
                 mainStats[k].append(mainStats[k][0] + v)
 
     return mainStats
+
 
 def clearExtraStats(ListID, item_value, maxLevel):
     extraStats = {}
@@ -352,8 +371,7 @@ def clearExtraStats(ListID, item_value, maxLevel):
             continue
 
         baseVal = plookup(
-            ExtraStatInitLookup, ListID, EXTRA_INIT_KEYS,
-            stat_seed=seed, seed_group_id=baseId
+            ExtraStatInitLookup, ListID, EXTRA_INIT_KEYS, stat_seed=seed, seed_group_id=baseId
         )
         if not baseVal:
             continue
@@ -366,15 +384,18 @@ def clearExtraStats(ListID, item_value, maxLevel):
         value = baseVal_ci.get(stat_key)
         if value is None:
             continue
-        
-        #level 0
+
+        # level 0
         extraStats[stat_key] = [value]
 
         # add enchant values per level
         for level in range(1, (maxLevel or 0) + 1):
             enchVal = plookup(
-                ExtraStatEnchantLookup, ListID, EXTRA_ENCH_KEYS,
-                enchant_level=level, seed_group_id=enchantId
+                ExtraStatEnchantLookup,
+                ListID,
+                EXTRA_ENCH_KEYS,
+                enchant_level=level,
+                seed_group_id=enchantId,
             )
             if not enchVal:
                 continue
@@ -389,39 +410,44 @@ def clearExtraStats(ListID, item_value, maxLevel):
 
     return extraStats
 
+
 def getItemSkill(unique_skill_set_id, unique_skill_complex_id):
     itemSkills = TLWeaponItemSkills.get(unique_skill_set_id)
+
     def getSkill(selfList):
         for k in selfList:
             if k.get("skillComplex") == unique_skill_complex_id:
                 return k.get("skill_id")
-    
+
     itemSkill = getSkill(itemSkills)
     weaponSkillLook = TLItemLooksSkills.get(itemSkill)
     if not weaponSkillLook:
         return {}
     return {
-            'Icon': weaponSkillLook.get("IconPath", {}).get("AssetPathName"),
-            'Id': itemSkill, #helpfull for future references
-            'Name': weaponSkillLook.get("UIName", {}).get("LocalizedString"),
-            'Description': weaponSkillLook.get("UIOptions", {})[-1].get("Option", {}).get("LocalizedString", "NoTranslation"),
-        }
+        "Icon": weaponSkillLook.get("IconPath", {}).get("AssetPathName"),
+        "Id": itemSkill,  # helpfull for future references
+        "Name": weaponSkillLook.get("UIName", {}).get("LocalizedString"),
+        "Description": weaponSkillLook.get("UIOptions", {})[-1]
+        .get("Option", {})
+        .get("LocalizedString", "NoTranslation"),
+    }
+
 
 def getItemStats(ListID, key, value):
     itemStats = {}
-    itemStats['grade'] = getEquipGrade(key)
-    if itemStats['grade'] is None:
+    itemStats["grade"] = getEquipGrade(key)
+    if itemStats["grade"] is None:
         return None  # skip items without valid grade
 
-    itemStats['traits'] = clearTraits(value.get("trait_group_id"), itemStats['grade'])
+    itemStats["traits"] = clearTraits(value.get("trait_group_id"), itemStats["grade"])
 
     looks = getLooks(key)
-    itemStats['icon'] = looks.get("icon")
-    itemStats['name'] = looks.get("locaString")
+    itemStats["icon"] = looks.get("icon")
+    itemStats["name"] = looks.get("locaString")
 
-    itemStats['resonance'] = clearResonance(ListID, value.get("trait_resonance_id"))
+    itemStats["resonance"] = clearResonance(ListID, value.get("trait_resonance_id"))
 
-    itemStats['main'] = clearMainStats(
+    itemStats["main"] = clearMainStats(
         ListID,
         value.get("main_stat_base_id"),
         value.get("main_stat_base_seed"),
@@ -429,37 +455,35 @@ def getItemStats(ListID, key, value):
         value.get("enchant_level_max"),
     )
 
-    itemStats['extra'] = clearExtraStats(
-        ListID,
-        value,
-        value.get("enchant_level_max")
-    )
+    itemStats["extra"] = clearExtraStats(ListID, value, value.get("enchant_level_max"))
 
-    itemStats['slot'] = TLItemEquip.get(key).get("equip_category")
+    itemStats["slot"] = TLItemEquip.get(key).get("equip_category")
     unique_skill_set_id = TLItemEquip.get(key).get("unique_skill_set_id")
     unique_skill_complex_id = TLItemEquip.get(key).get("unique_skill_complex_id")
 
     if unique_skill_set_id != "None" and unique_skill_complex_id != "None":
-        itemStats['skill'] = getItemSkill(unique_skill_set_id, unique_skill_complex_id)
+        itemStats["skill"] = getItemSkill(unique_skill_set_id, unique_skill_complex_id)
     else:
-        itemStats['skill'] = None
+        itemStats["skill"] = None
 
-    itemStats['runes'] = {
-        'socket': value.get("rune_socket_id"),
-        'synergy': value.get("rune_synergy_id")
+    itemStats["runes"] = {
+        "socket": value.get("rune_socket_id"),
+        "synergy": value.get("rune_synergy_id"),
     }
 
     return itemStats
 
+
 def makeList(ListID):
-    itemList['dropped'] = []
+    itemList["dropped"] = []
     for key, value in TLItemStats[ListID].items():
         itemStats = getItemStats(ListID, key, value)
         if itemStats == None:
-            itemList['dropped'].append(key)
+            itemList["dropped"].append(key)
         else:
             itemList[ListID][key] = itemStats
-    print("dropping items:",itemList['dropped'])
+    print("dropping items:", itemList["dropped"])
+
 
 # =========
 # Build lookups & run
@@ -470,25 +494,22 @@ build_trait_lookups()
 build_resonance_lookups()
 build_mainstat_lookups()
 build_extrastat_lookups()
-TLWeaponItemSkills = load_wp_items_as_dict('sources')
+TLWeaponItemSkills = load_wp_items_as_dict("sources")
 
 # Build NC first
-makeList('NC')
+makeList("NC")
 
 # Start AGS as NC fallback, then override AGS entries
-itemList['AGS'] = itemList['NC'].copy()
-makeList('AGS')
+itemList["AGS"] = itemList["NC"].copy()
+makeList("AGS")
 
 # =========
 # Save
 # =========
 
-os.makedirs(os.path.dirname(outputNC), exist_ok=True)
-with open(outputNC, "w", encoding="utf-8") as f:
-    json.dump(itemList['NC'], f, indent=2, ensure_ascii=False)
-print(f"itemList table written to {outputNC}")
+saveJson(outputNC, itemList["NC"])
 
-os.makedirs(os.path.dirname(outputAGS), exist_ok=True)
-with open(outputAGS, "w", encoding="utf-8") as f:
-    json.dump(itemList['AGS'], f, indent=2, ensure_ascii=False)
+print(f"itemList table written to {outputNC}")
+saveJson(outputAGS, itemList["AGS"])
+
 print(f"itemList table written to {outputAGS}")

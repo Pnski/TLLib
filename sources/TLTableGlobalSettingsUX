@@ -1617,7 +1617,7 @@
                 "SubPathString": ""
               },
               "EffectImagePath": {
-                "AssetPathName": "/Game/UI/Material/ItemGrade/MAT_ITEM_AAA.MAT_ITEM_AAA",
+                "AssetPathName": "/Game/UI/Material/ItemGrade/MAT_ITEM_KAAA.MAT_ITEM_KAAA",
                 "SubPathString": ""
               },
               "ColorKey": "ItemGradekAAA",
@@ -4466,6 +4466,12 @@
               "SpeciesIconPath": {
                 "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Grankus_Sprite.TEX_HUD_TargetSpecies_Grankus_Sprite",
                 "SubPathString": ""
+              },
+              "TooltipText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_Tooltip_SPECIESGROUP_GRANKUS",
+                "SourceString": "아인류",
+                "LocalizedString": "Humanoid"
               }
             }
           },
@@ -4475,6 +4481,12 @@
               "SpeciesIconPath": {
                 "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Demon_Sprite.TEX_HUD_TargetSpecies_Demon_Sprite",
                 "SubPathString": ""
+              },
+              "TooltipText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_Tooltip_SPECIESGROUP_DEMON",
+                "SourceString": "악마류",
+                "LocalizedString": "Demon"
               }
             }
           },
@@ -4484,6 +4496,12 @@
               "SpeciesIconPath": {
                 "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Undead_Sprite.TEX_HUD_TargetSpecies_Undead_Sprite",
                 "SubPathString": ""
+              },
+              "TooltipText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_Tooltip_SPECIESGROUP_UNDEAD",
+                "SourceString": "불사류",
+                "LocalizedString": "Undead"
               }
             }
           },
@@ -4493,6 +4511,12 @@
               "SpeciesIconPath": {
                 "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Creation_Sprite.TEX_HUD_TargetSpecies_Creation_Sprite",
                 "SubPathString": ""
+              },
+              "TooltipText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_Tooltip_SPECIESGROUP_CREATION",
+                "SourceString": "피조류",
+                "LocalizedString": "Construct"
               }
             }
           },
@@ -4502,6 +4526,12 @@
               "SpeciesIconPath": {
                 "AssetPathName": "/Game/UI/Texture/UI_Texture/HUD/Targetpanel/TEX_HUD_TargetSpecies_Animal_Sprite.TEX_HUD_TargetSpecies_Animal_Sprite",
                 "SubPathString": ""
+              },
+              "TooltipText": {
+                "TableId": "/Game/Game/Client/Table/TLStringUI.TLStringUI",
+                "Key": "TEXT_Tooltip_SPECIESGROUP_ANIMAL",
+                "SourceString": "야생류",
+                "LocalizedString": "Wildkin"
               }
             }
           }

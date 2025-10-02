@@ -1,4 +1,4 @@
-from _utils import sidebarjson, loadFile, TLStatsLookup
+from _utils import saveJson, loadFile, TLStatsLookup
 
 from collections import defaultdict
 from typing import List, Dict, Any
@@ -49,7 +49,7 @@ def getRuneSynergy(rune):
 def getRuneLevels(baseSeed, itemStatType, BaseValueId, EnchantValueId) -> list:
 
     statsBaseValues = TLStatsItemBaseValue.get(BaseValueId, {}).get("Stats")
-    statsEnchantValues = TLStatsItemEnchantValue.get(EnchantValueId, {}).get("Stats")
+    statsEnchantValues = TLStatsItemEnchantValue.get(EnchantValueId, {}).get("Stats", {})
 
     statsBaseValue = next(
         (d for d in statsBaseValues if d.get("seed") == baseSeed), None
@@ -61,6 +61,8 @@ def getRuneLevels(baseSeed, itemStatType, BaseValueId, EnchantValueId) -> list:
         runeLevels.append(
             levels.get(TLStatsLookup[itemStatType]) + currentStatBaseValue
         )
+    if runeLevels == []:
+        runeLevels = [currentStatBaseValue]
 
     return runeLevels
 
@@ -79,7 +81,6 @@ for category, values in getRuneCategory().items():
     for item in values:
         rune_type = item.get("RuneType")
         pos = item.get("PositiveRandomStatGroup")
-        neg = item.get("NegativeRandomStatGroup")
         stats = getRandomStat(pos)
         runes = []
         if stats:
@@ -93,44 +94,17 @@ for category, values in getRuneCategory().items():
                             baseSeed,
                             itemStatType,
                             stats["BaseValueId"],
-                            stats["EnchantValueId"],
+                            (stats["EnchantValueId"] if "Chaos" not in rune_type else None),
                         ),
                         "name": itemStatType,
                         "value": True
                     }
                 )
-        neg = item.get("NegativeRandomStatGroup")
-        stats = getRandomStat(neg)
-        if stats:
-            for candidate in stats["Candidates"]:
-                baseSeed = candidate.get("BaseSeed")
-                itemStatType = candidate.get("ItemStatType")
-
-                runes.append(
-                    {
-                        "levels": getRuneLevels(
-                            baseSeed,
-                            itemStatType,
-                            stats["BaseValueId"],
-                            None,
-                        ),
-                        "name": itemStatType,
-                        "value": False
-                    }
-                )
         runess = item.get("RandomStatCandidates")
         runesList[category][rune_type].append(runes)
-
-print(runesList)
-
-
-def runes():
-    return {
-        "stat_id": "melee_critical_attack",
-        "levels": [],
-    }
-
 
 # =========
 # Save
 # =========
+
+saveJson("sources/TLRunes.helper", runesList)

@@ -241,8 +241,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_001",
-          "SourceString": "모르쿠스 처치",
-          "LocalizedString": "Defeat Morokai"
+          "SourceString": "필드 보스 모르쿠스 처치",
+          "LocalizedString": "Defeat Field Boss Morokai"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_021.icon_achv_021",
@@ -263,8 +263,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_002",
-          "SourceString": "아덴투스 처치",
-          "LocalizedString": "Defeat Adentus"
+          "SourceString": "필드 보스 아덴투스 처치",
+          "LocalizedString": "Defeat Field Boss Adentus"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_022.icon_achv_022",
@@ -285,8 +285,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_003",
-          "SourceString": "그랜드엘론 처치",
-          "LocalizedString": "Defeat Grand Aelon"
+          "SourceString": "필드 보스 그랜드엘론 처치",
+          "LocalizedString": "Defeat Field Boss Grand Aelon"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_023.icon_achv_023",
@@ -307,8 +307,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_004",
-          "SourceString": "아즈라엘 처치",
-          "LocalizedString": "Defeat Ahzreil"
+          "SourceString": "필드 보스 아즈라엘 처치",
+          "LocalizedString": "Defeat Field Boss Ahzreil"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_024.icon_achv_024",
@@ -329,8 +329,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_005",
-          "SourceString": "코넬루스 처치",
-          "LocalizedString": "Defeat Cornelius"
+          "SourceString": "필드 보스 코넬루스 처치",
+          "LocalizedString": "Defeat Field Boss Cornelius"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_199.icon_achv_199",
@@ -351,8 +351,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_006",
-          "SourceString": "아리두스 처치",
-          "LocalizedString": "Defeat Aridus"
+          "SourceString": "필드 보스 아리두스 처치",
+          "LocalizedString": "Defeat Field Boss Aridus"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_200.icon_achv_200",
@@ -373,8 +373,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_007",
-          "SourceString": "니르마 처치",
-          "LocalizedString": "Defeat Nirma"
+          "SourceString": "필드 보스 니르마 처치",
+          "LocalizedString": "Defeat Field Boss Nirma"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_201.icon_achv_201",
@@ -395,8 +395,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_008",
-          "SourceString": "마인제로크 처치",
-          "LocalizedString": "Defeat Minezerok"
+          "SourceString": "필드 보스 마인제로크 처치",
+          "LocalizedString": "Defeat Field Boss Minezerok"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_025.icon_achv_025",
@@ -2493,7 +2493,7 @@
           "SubPathString": ""
         },
         "Category": {
-          "RowName": "Exploration_laslan"
+          "RowName": "Exploration_normal"
         },
         "ContentsOpenType": "ETLContentsOpenType::NONE"
       },

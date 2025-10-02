@@ -2023,8 +2023,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_001_Description",
-          "SourceString": "퀴티스 정복지에서 데이곤 처치",
-          "LocalizedString": "Defeat Daigon in Quietis's Demesne"
+          "SourceString": "필드 보스 데이곤 처치",
+          "LocalizedString": "Defeat Field Boss Daigon"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_202.icon_achv_202",
@@ -2045,8 +2045,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_002_Description",
-          "SourceString": "침묵의 습지에서 레비아탄 처치",
-          "LocalizedString": "Defeat Leviathan in the Swamp of Silence"
+          "SourceString": "필드 보스 레비아탄 처치",
+          "LocalizedString": "Defeat Field Boss Leviathan"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_032.icon_achv_032",
@@ -2067,8 +2067,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_003_Description",
-          "SourceString": "검은 모루 주둔지에서 파킬로 나루 처치",
-          "LocalizedString": "Defeat Pakilo Naru in the Black Anvil Forge"
+          "SourceString": "필드 보스 파킬로 나루 처치",
+          "LocalizedString": "Defeat Field Boss Pakilo Naru"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_033.icon_achv_033",
@@ -2089,8 +2089,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_004_Description",
-          "SourceString": "크림슨 장원에서 만티쿠스 형제 처치",
-          "LocalizedString": "Defeat the Manticus Brothers at the Crimson Mansion"
+          "SourceString": "필드 보스 만티쿠스 형제 처치",
+          "LocalizedString": "Defeat Field Boss Manticus Brothers"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_203.icon_achv_203",
@@ -2889,7 +2889,7 @@
           "SubPathString": ""
         },
         "Category": {
-          "RowName": "Exploration_talland"
+          "RowName": "Exploration_normal"
         },
         "ContentsOpenType": "ETLContentsOpenType::NONE"
       },

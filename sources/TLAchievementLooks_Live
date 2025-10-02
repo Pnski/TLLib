@@ -241,8 +241,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_007_Description",
-          "SourceString": "낚시로 주머니 획득",
-          "LocalizedString": "Acquire a pouch through fishing"
+          "SourceString": "낚시로 자루 획득",
+          "LocalizedString": "Acquire a sack through fishing"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_103.icon_achv_103",

@@ -32,8 +32,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_DESC_SkillSet_WP_WA_GR_S_CurseArea_trait_1",
-              "SourceString": "대상에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% + $[WA_CurseArea_CD_trait1.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> to target to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% of Base Damage + $[WA_CurseArea_CD_trait1.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "대상에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% + $[WA_CurseArea_CD_trait1.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> to target that deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% of Base Damage + $[WA_CurseArea_CD_trait1.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -458,8 +458,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -17077,8 +17077,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Corruption_Hero",
-              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2] damage^</c> over ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c> and increases Basic Attack's damage on the target by 10% per stack.\r\nStacks up to ^<c=@SkillTooltipChange>3^</c> times.\r\nUsing the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>.\r\nDoes not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 몬스터에게는 피해량이 100% 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2]^</c> per sec and increases Basic Attack damage on the target by 10% per stack for ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c>. Damage increases by 100% against monsters. Stacks up to ^<c=@SkillTooltipChange>3^</c> times. Using the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -17335,8 +17335,8 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
                   "Key": "TEXT_SKILL_DESC_WP_WA_Corruption_Hero",
-                  "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-                  "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2] damage^</c> over ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c> and increases Basic Attack's damage on the target by 10% per stack.\r\nStacks up to ^<c=@SkillTooltipChange>3^</c> times.\r\nUsing the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>.\r\nDoes not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+                  "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 몬스터에게는 피해량이 100% 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+                  "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2]^</c> per sec and increases Basic Attack damage on the target by 10% per stack for ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c>. Damage increases by 100% against monsters. Stacks up to ^<c=@SkillTooltipChange>3^</c> times. Using the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
                 }
               }
             ],
@@ -17388,8 +17388,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Corruption_Hero",
-              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2] damage^</c> over ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c> and increases Basic Attack's damage on the target by 10% per stack.\r\nStacks up to ^<c=@SkillTooltipChange>3^</c> times.\r\nUsing the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>.\r\nDoes not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 몬스터에게는 피해량이 100% 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2]^</c> per sec and increases Basic Attack damage on the target by 10% per stack for ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c>. Damage increases by 100% against monsters. Stacks up to ^<c=@SkillTooltipChange>3^</c> times. Using the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -17635,8 +17635,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_Corruption_Hero",
-              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2] damage^</c> over ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c> and increases Basic Attack's damage on the target by 10% per stack.\r\nStacks up to ^<c=@SkillTooltipChange>3^</c> times.\r\nUsing the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>.\r\nDoes not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]초^</c> 동안 1중첩 당 기본 피해의 ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% + $[WA_Corruption_CD.tooltip2]^</c> 만큼 초당 피해를 주며 내가 대상에게 가하는 기본 공격의 피해가 10%씩 증가합니다. 몬스터에게는 피해량이 100% 증가합니다. 최대 ^<c=@SkillTooltipChange>3^</c>회까지 중첩됩니다. ^<c=@SkillTooltipChange>3^</c>중첩 상태의 대상에게 다시 사용하면 지속 시간이 ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]초^</c> 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c>, which deals ^<c=@SkillTooltipChange>$[WA_Corruption_CD.tooltip1]% of Base Damage + $[WA_Corruption_CD.tooltip2]^</c> per sec and increases Basic Attack damage on the target by 10% per stack for ^<c=@SkillTooltipChange>$[WA_Corruption_Duration.tooltip1]s^</c>. Damage increases by 100% against monsters. Stacks up to ^<c=@SkillTooltipChange>3^</c> times. Using the skill on a target with ^<c=@SkillTooltipChange>3^</c> stacks increases the debuff duration by ^<c=@SkillTooltipChange>$[WA_Corruption_Hero_Duration_to_Max.tooltip1]s^</c>. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -18722,8 +18722,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -18969,8 +18969,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -19216,8 +19216,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -19463,8 +19463,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -19710,8 +19710,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_SKILL_DESC_WP_WA_CurseArea_Hero",
-              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "지정한 위치에 반경 $[WA_CurseArea_Width_Fixed_Range.tooltip1]m의 영역을 생성해 범위 내의 모든 적에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% + $[WA_CurseArea_CD.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Creates a $[WA_CurseArea_Width_Fixed_Range.tooltip1]m area at the target location and applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> on all enemies within the area which deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD.tooltip1]% of Base Damage + $[WA_CurseArea_CD.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],
@@ -19957,8 +19957,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
               "Key": "TEXT_DESC_SkillSet_WP_WA_GR_S_CurseArea_trait_1",
-              "SourceString": "대상에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% + $[WA_CurseArea_CD_trait1.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> to target to deal ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% of Base Damage + $[WA_CurseArea_CD_trait1.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Does not wake up ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
+              "SourceString": "대상에게 $[WA_CurseArea_CD_Duration.tooltip1]초 동안 기본 피해의 ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% + $[WA_CurseArea_CD_trait1.tooltip2]^</c> 만큼 초당 피해를 주는 ^<c=@SkillTooltipAbnormal>쇠약: 저주^</c> 효과를 줍니다. 몬스터에게는 피해량이 100% 증가합니다. 대상이 ^<c=@SkillTooltipAbnormal>수면^</c> 상태면 깨우지 않습니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Curse^</c> to target that deals ^<c=@SkillTooltipChange>$[WA_CurseArea_CD_trait1.tooltip1]% of Base Damage + $[WA_CurseArea_CD_trait1.tooltip2]^</c> per sec for $[WA_CurseArea_CD_Duration.tooltip1]s. Damage increases by 100% against monsters. Does not wake ^<c=@SkillTooltipAbnormal>Sleeping^</c> targets."
             }
           }
         ],

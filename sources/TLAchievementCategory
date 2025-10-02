@@ -483,8 +483,8 @@
         "DisplayText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
           "Key": "TEXT_RES_ACHV_CATEGORY_HIDDEN",
-          "SourceString": "히든",
-          "LocalizedString": "Hidden"
+          "SourceString": "숨겨진 업적",
+          "LocalizedString": "Hidden Achievements"
         },
         "bIsRootCategory": true,
         "ParentCategory": {

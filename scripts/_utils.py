@@ -2,6 +2,7 @@ import os
 import json
 from pathlib import Path
 
+
 def sidebarjson(cat1, sub1, headline, file, json_path="sidebar.json"):
     """
     Add an entry to sidebar.json in the structure:
@@ -47,31 +48,36 @@ def sidebarjson(cat1, sub1, headline, file, json_path="sidebar.json"):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=1, ensure_ascii=False)
 
+
 # sidebarjson("Basics", "Amitoi", "Expedition Rewards", "doll/expeditionRewards.md")
+
 
 def loadFile(filepath):
     try:
         data = json.load(open(filepath, encoding="utf-8"))
-        if not data or 'Rows' not in data[0]:
+        if not data or "Rows" not in data[0]:
             print(f"[Warning] {filepath} is empty or missing 'Rows'")
             return {}
-        return data[0]['Rows']
+        return data[0]["Rows"]
     except FileNotFoundError:
         print(f"[Warning] {filepath} not found")
         return {}
+
 
 def get_image_url(asset_path_name):
     """Converts a raw asset path name to a clean image URL."""
     if not asset_path_name:
         return None
-    return asset_path_name.split('.')[0].replace("/Game", ".") + ".png"
+    return asset_path_name.split(".")[0].replace("/Game", ".") + ".png"
 
-def get_image_tag(asset_path_name, style='height:75px; width:auto;'):
+
+def get_image_tag(asset_path_name, style="height:75px; width:auto;"):
     """Generates an HTML <img> tag with a specified style."""
     img_url = get_image_url(asset_path_name)
     if not img_url:
         return ""
     return f"<img src='{img_url}' style='{style}'>"
+
 
 def writeMarkdown(output_path, title, sidebar_config, content):
     """
@@ -86,7 +92,7 @@ def writeMarkdown(output_path, title, sidebar_config, content):
         md.write(f"# {title}\n\n")
 
         md.write("| " + " | ".join(content[0].keys()) + " |\n")
-        md.write("| " + " | ".join(['-' * 3 for h in content[0].keys()]) + " |\n")
+        md.write("| " + " | ".join(["-" * 3 for h in content[0].keys()]) + " |\n")
         for key, row in content.items():
             row_values = []
             for v in row.values():
@@ -95,16 +101,16 @@ def writeMarkdown(output_path, title, sidebar_config, content):
                 else:
                     row_values.append(str(v))
             md.write("| " + " | ".join(row_values) + " |\n")
-    
+
     sidebarjson(
-        cat1=sidebar_config['cat1'],
-        sub1=sidebar_config['sub1'],
+        cat1=sidebar_config["cat1"],
+        sub1=sidebar_config["sub1"],
         headline=title,
         file=output_path.removeprefix("docs/"),
-        json_path="docs/sidebar.json"
+        json_path="docs/sidebar.json",
     )
     print(f"File written to {output_path}")
-    
+
 
 def TLStatsLookup():
     TLStatsLookup = {}  # short_name -> stat key used in value tables
@@ -115,3 +121,9 @@ def TLStatsLookup():
             TLStatsLookup[stat_enum] = key
 
     return TLStatsLookup
+
+
+def saveJson(path, toDump):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(toDump, f, indent=2, ensure_ascii=False)

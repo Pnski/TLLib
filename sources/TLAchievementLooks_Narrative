@@ -2418,9 +2418,9 @@
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
-          "Key": "achv_narrative_Exp_SG_A07_01_Description",
-          "SourceString": "쥬노보트가 남긴 첫 번째 시험 통과",
-          "LocalizedString": "Pass the first test left by Junobote"
+          "Key": "achv_narrative_Exp_SG_A07_02_Description",
+          "SourceString": "쥬노보트가 남긴 두 번째 시험 통과",
+          "LocalizedString": "Pass the second test left by Junobote"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_002.icon_achv_002",
@@ -2440,9 +2440,9 @@
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
-          "Key": "achv_narrative_Exp_SG_A07_02_Description",
-          "SourceString": "쥬노보트가 남긴 두 번째 시험 통과",
-          "LocalizedString": "Pass the second test left by Junobote"
+          "Key": "achv_narrative_Exp_SG_A07_01_Description",
+          "SourceString": "쥬노보트가 남긴 첫 번째 시험 통과",
+          "LocalizedString": "Pass the first test left by Junobote"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_002.icon_achv_002",
