@@ -156,6 +156,9 @@
                   <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_01">
                     <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_3_ArchBoss_T2_SW_01" skill_id_disable="false" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_02">
+                    <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_3_ArchBoss_T2_SW_02" skill_id_disable="false" />
+                  </if_abnormal_state>
                 </complex>
               </combo_state_default>
             </specialization>
@@ -164,6 +167,9 @@
                 <complex default_skill_id="WP_SW_SH_S_PullSkill_Hero_trait1" default_skill_id_disable="false">
                   <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_01">
                     <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_ArchBoss_T2_SW_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_SW_02">
+                    <set_skill skill_id="WP_SW_SH_S_PullSkill_Hero_trait1_ArchBoss_T2_SW_02" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>
               </combo_state_default>
@@ -274,7 +280,7 @@
         </presets>
       </context>
       <trait_list>
-        <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_1" uid="0" point="7" unlock_level="15" />
+        <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_1" uid="0" point="5" unlock_level="15" />
         <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_2" uid="1" point="5" unlock_level="15" />
         <trait trait_id="SkillSet_WP_SW_SH_S_BuffAttack_trait_3" uid="2" point="5" unlock_level="15" />
       </trait_list>

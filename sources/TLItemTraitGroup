@@ -33238,7 +33238,7 @@
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
-        "feature_tag": "ETLFeatureTag::UP_B013"
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       },
       "bracelet_aa_t2_raid_001": {
         "InitCount": 1,
@@ -33361,7 +33361,7 @@
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
-        "feature_tag": "ETLFeatureTag::UP_B013"
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       },
       "ring_aa_t2_raid_001": {
         "InitCount": 1,
@@ -33484,7 +33484,7 @@
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
-        "feature_tag": "ETLFeatureTag::UP_B013"
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       },
       "belt_aa_t2_raid_001": {
         "InitCount": 1,
@@ -33607,7 +33607,7 @@
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
-        "feature_tag": "ETLFeatureTag::UP_B013"
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       },
       "ear_aa_t2_normal_001": {
         "InitCount": 1,
@@ -36226,7 +36226,7 @@
             "Probability": 980
           },
           {
-            "TraitId": "kCostConsumptionModifier",
+            "TraitId": "kHpRegen",
             "BaseSeed": 3,
             "Probability": 980
           }
@@ -42224,7 +42224,385 @@
           }
         ],
         "publisher_tag": "ETLPublisherTag::ALL",
-        "feature_tag": "ETLFeatureTag::UP_B013"
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "bow_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kAttackSpeedModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "sword2h_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kAttackSpeedModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "crossbow_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "staff_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kBuffGivenDurationModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "dagger_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kAttackSpeedModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "sword_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kBuffGivenDurationModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "wand_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCostConsumptionModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "spear_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kAttackSpeedModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
+      },
+      "orb_aa_t3_upgrade_arch_001": {
+        "InitCount": 1,
+        "TraitPaybackId": "kAA3_Weapon_Trait_Payback",
+        "TraitBlessPointPaybackId": "kaa_wep_TraitBless_Payback",
+        "TraitCandidates": [
+          {
+            "TraitId": "kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 2000
+          },
+          {
+            "TraitId": "kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCostConsumptionModifier",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1500
+          },
+          {
+            "TraitId": "kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1500
+          }
+        ],
+        "UniqueTraitCount": 0,
+        "UniqueTraitOpenProbability": 0,
+        "UniqueTraitCandidates": [],
+        "publisher_tag": "ETLPublisherTag::ALL",
+        "feature_tag": "ETLFeatureTag::BASE_LH"
       }
     }
   }

@@ -1226,6 +1226,47 @@
           "FeatureTag": "ETLFeatureTag::BASE_LH"
         }
       },
+      "Halloween_Event_FishGroup_2025": {
+        "UID": 16,
+        "FishList": [
+          {
+            "FishRowName": "Fish_2025_Redjellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_2025_Bluejellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_2025_Yellowjellyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          },
+          {
+            "FishRowName": "Fish_2025_Koreancandyfish",
+            "EntryRatio": 8.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
       "Global_Common_FreshWater_Common_001": {
         "UID": 100,
         "FishList": [

@@ -309,8 +309,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "Strikes a target to deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2] damage^</c>, and then immediately attacks up to 7 targets within 6m in a row and moves to the target's back.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>. After the move, every attack is deemed as a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nStrikes a target to deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> damage, and then immediately attacks up to 7 targets within 6m in a row and moves to the target's back. After the move, every attack is deemed as a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%."
             }
           }
         ],
@@ -5376,8 +5376,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_BloodStrike_Trait_3",
-              "SourceString": "6초 동안 보호막 생명력이 $[DA_BloodStrike_Trait_3.tooltip1]% 감소합니다.",
-              "LocalizedString": "Reduces Shield Health by $[DA_BloodStrike_Trait_3.tooltip1]% for 6s."
+              "SourceString": "6초 동안 보호막 생명력이 $[DA_BloodStrike_Trait_3.tooltip1]% 감소합니다. 공격 대상이 이미 보호막 상태일 경우 기본 피해의 $[DA_BloodStrike_Trait_3_DD.tooltip1]%만큼의 고정 피해를 입힙니다.",
+              "LocalizedString": "Shield Health -$[DA_BloodStrike_Trait_3.tooltip1]% for 6s. If the target is already Shielded, deals fixed damage equal to $[DA_BloodStrike_Trait_3_DD.tooltip1]% of Base Damage."
             }
           }
         ],
@@ -11127,8 +11127,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_Trait_1",
-              "SourceString": "대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "Approach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of the basic damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Approaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%."
             }
           }
         ],
@@ -11340,7 +11340,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_Trait_2",
-              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 뇌운^</c> 효과 적용 \n\n뇌운은 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]초^</c> 동안 지속되며 ^<c=@SkillTooltipChange>1중첩^</c> 당 근거리, 원거리, 마법 인내를 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c>만큼 감소 시키며, 최대 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c>회까지 중첩됩니다.",
+              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 뇌운^</c> 효과 적용 \r\n\r\n뇌운은 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]초^</c> 동안 지속되며 ^<c=@SkillTooltipChange>1중첩^</c> 당 근거리, 원거리, 마법 인내를 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c>만큼 감소 시키며, 최대 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c>회까지 중첩됩니다.",
               "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Thunderclouds^</c>\r\n\r\nThunderclouds lasts for ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]s^</c>, decreasing Melee, Ranged, and Magic Endurance by ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c> ^<c=@SkillTooltipChange>per stack^</c>. Stacks up to ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c> times."
             }
           }
@@ -22561,7 +22561,7 @@
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_DA_S_Smoke_SP",
                   "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬 \n\n$[DA_Smoke_Duration.tooltip1]초 동안 주변 3m 영역에 환영의 연막을 전개합니다. 영역 내에 존재하는 파티원은 모든 투사체를 무조건 회피합니다.",
-                  "LocalizedString": "Crates a 3m radius Phantom Smokescreen that lasts for $[DA_Smoke_Duration.tooltip1]s. Party members within the area always evade all projectiles.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
+                  "LocalizedString": "A special skill that can only be upgraded with ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nCreates a 3m radius Phantom Smokescreen for $[DA_Smoke_Duration.tooltip1]s that applies a buff to party members that come in contact with the area. Evades all projectiles while the buff is active."
                 }
               }
             ],
@@ -31909,8 +31909,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -32156,8 +32156,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -32403,8 +32403,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -32650,8 +32650,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -32897,8 +32897,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -33144,8 +33144,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다.",
-              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Active Skill Growth Book: Omnipotence^</c>.\r\n\r\nApproach the target and deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> of Base Damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s."
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
         ],
@@ -41496,7 +41496,7 @@
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_DA_S_Smoke_SP",
                   "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬 \n\n$[DA_Smoke_Duration.tooltip1]초 동안 주변 3m 영역에 환영의 연막을 전개합니다. 영역 내에 존재하는 파티원은 모든 투사체를 무조건 회피합니다.",
-                  "LocalizedString": "Crates a 3m radius Phantom Smokescreen that lasts for $[DA_Smoke_Duration.tooltip1]s. Party members within the area always evade all projectiles.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
+                  "LocalizedString": "A special skill that can only be upgraded with ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nCreates a 3m radius Phantom Smokescreen for $[DA_Smoke_Duration.tooltip1]s that applies a buff to party members that come in contact with the area. Evades all projectiles while the buff is active."
                 }
               }
             ],
@@ -41804,7 +41804,7 @@
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_DA_S_Smoke_SP",
                   "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬 \n\n$[DA_Smoke_Duration.tooltip1]초 동안 주변 3m 영역에 환영의 연막을 전개합니다. 영역 내에 존재하는 파티원은 모든 투사체를 무조건 회피합니다.",
-                  "LocalizedString": "Crates a 3m radius Phantom Smokescreen that lasts for $[DA_Smoke_Duration.tooltip1]s. Party members within the area always evade all projectiles.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
+                  "LocalizedString": "A special skill that can only be upgraded with ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nCreates a 3m radius Phantom Smokescreen for $[DA_Smoke_Duration.tooltip1]s that applies a buff to party members that come in contact with the area. Evades all projectiles while the buff is active."
                 }
               }
             ],

@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLStats",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLJsonSchemeStats'",
@@ -5736,7 +5736,7 @@
         "show_party": "EBool::F"
       },
       "cost_change": {
-        "stat_enum": "EItemStats::kNone",
+        "stat_enum": "EItemStats::kCostChange",
         "num": 223,
         "primary_stats": "EBool::F",
         "affected_by_primary_stats": "EBool::F",

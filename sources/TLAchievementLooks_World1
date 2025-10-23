@@ -235,7 +235,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_001",
-          "SourceString": "모르쿠스 사냥꾼 {0}",
+          "SourceString": "모르쿠스 사냥꾼{0}",
           "LocalizedString": "Morokai Hunter {0}"
         },
         "Description": {
@@ -257,7 +257,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_002",
-          "SourceString": "아덴투스 사냥꾼 {0}",
+          "SourceString": "아덴투스 사냥꾼{0}",
           "LocalizedString": "Adentus Hunter {0}"
         },
         "Description": {
@@ -279,7 +279,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_003",
-          "SourceString": "그랜드엘론 사냥꾼 {0}",
+          "SourceString": "그랜드엘론 사냥꾼{0}",
           "LocalizedString": "Grand Aelon Hunter {0}"
         },
         "Description": {
@@ -301,7 +301,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_004",
-          "SourceString": "아즈라엘 사냥꾼 {0}",
+          "SourceString": "아즈라엘 사냥꾼{0}",
           "LocalizedString": "Ahzreil Hunter {0}"
         },
         "Description": {
@@ -323,7 +323,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_005",
-          "SourceString": "코넬루스 사냥꾼 {0}",
+          "SourceString": "코넬루스 사냥꾼{0}",
           "LocalizedString": "Cornelius Hunter {0}"
         },
         "Description": {
@@ -345,7 +345,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_006",
-          "SourceString": "아리두스 사냥꾼 {0}",
+          "SourceString": "아리두스 사냥꾼{0}",
           "LocalizedString": "Aridus Hunter {0}"
         },
         "Description": {
@@ -367,7 +367,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_007",
-          "SourceString": "니르마 사냥꾼 {0}",
+          "SourceString": "니르마 사냥꾼{0}",
           "LocalizedString": "Nirma Hunter {0}"
         },
         "Description": {
@@ -389,7 +389,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_008",
-          "SourceString": "마인제로크 사냥꾼 {0}",
+          "SourceString": "마인제로크 사냥꾼{0}",
           "LocalizedString": "Minezerok Hunter {0}"
         },
         "Description": {
@@ -455,7 +455,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_battle_title_003",
-          "SourceString": "라슬란 심연 속의 심연 {0}",
+          "SourceString": "라슬란 심연 속의 심연{0}",
           "LocalizedString": "Laslan's Abyss Within the Abyss {0}"
         },
         "Description": {
@@ -813,8 +813,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_pvp_description_013",
-          "SourceString": "정화의 언덕 기원석 점령",
-          "LocalizedString": "Occupy the Purelight Hill Boonstone"
+          "SourceString": "기원석 점령",
+          "LocalizedString": "Occupy a Boonstone"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
@@ -1885,7 +1885,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_009",
-          "SourceString": "사신의 심연 정복자 {0}",
+          "SourceString": "사신의 심연 정복자{0}",
           "LocalizedString": "Death's Abyss Conqueror {0}"
         },
         "Description": {
@@ -1907,7 +1907,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_010",
-          "SourceString": "저주받은 황무지 정복자 {0}",
+          "SourceString": "저주받은 황무지 정복자{0}",
           "LocalizedString": "Cursed Wasteland Conqueror {0}"
         },
         "Description": {
@@ -1929,7 +1929,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_011",
-          "SourceString": "살육의 사원 정복자 {0}",
+          "SourceString": "살육의 사원 정복자{0}",
           "LocalizedString": "Temple of Slaughter Conqueror {0}"
         },
         "Description": {
@@ -1951,7 +1951,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_012",
-          "SourceString": "도살자의 협곡 정복자 {0}",
+          "SourceString": "도살자의 협곡 정복자{0}",
           "LocalizedString": "Butcher's Canyon Conqueror {0}"
         },
         "Description": {
@@ -1973,7 +1973,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_013",
-          "SourceString": "폭군의 섬 정복자 {0}",
+          "SourceString": "폭군의 섬 정복자{0}",
           "LocalizedString": "Tyrant's Isle Conqueror {0}"
         },
         "Description": {
@@ -1995,7 +1995,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_014",
-          "SourceString": "파멸의 지하 동굴 정복자 {0}",
+          "SourceString": "파멸의 지하 동굴 정복자{0}",
           "LocalizedString": "Cave of Destruction Conqueror {0}"
         },
         "Description": {
@@ -2017,7 +2017,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_de_title_001",
-          "SourceString": "노력의 천재 {0}",
+          "SourceString": "노력의 천재{0}",
           "LocalizedString": "Genius Through Hard Work {0}"
         },
         "Description": {
@@ -2039,7 +2039,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_001",
-          "SourceString": "행운의 빨간 공 {0}",
+          "SourceString": "행운의 빨간 공{0}",
           "LocalizedString": "Lucky Red Ball {0}"
         },
         "Description": {
@@ -2061,7 +2061,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_002",
-          "SourceString": "아무 때나 열리는 게 아니에요 {0}",
+          "SourceString": "아무 때나 열리는 게 아니에요{0}",
           "LocalizedString": "Gotta Time It Right {0}"
         },
         "Description": {
@@ -2083,7 +2083,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_015",
-          "SourceString": "너 자주 만나네 {0}",
+          "SourceString": "너 자주 만나네{0}",
           "LocalizedString": "We Meet Again {0}"
         },
         "Description": {
@@ -2105,7 +2105,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_016",
-          "SourceString": "필드 정예 사냥꾼 {0}",
+          "SourceString": "필드 정예 사냥꾼{0}",
           "LocalizedString": "Field Elite Hunter {0}"
         },
         "Description": {
@@ -2127,7 +2127,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_017",
-          "SourceString": "파티 정예 사냥꾼 {0}",
+          "SourceString": "파티 정예 사냥꾼{0}",
           "LocalizedString": "Party Elite Hunter {0}"
         },
         "Description": {
@@ -2149,7 +2149,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_018",
-          "SourceString": "파티 몬스터 사냥꾼 {0}",
+          "SourceString": "파티 몬스터 사냥꾼{0}",
           "LocalizedString": "Party Monster Hunter {0}"
         },
         "Description": {
@@ -2171,7 +2171,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_019",
-          "SourceString": "몬스터 사냥꾼 {0}",
+          "SourceString": "몬스터 사냥꾼{0}",
           "LocalizedString": "Monster Hunter {0}"
         },
         "Description": {
@@ -2193,7 +2193,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_020",
-          "SourceString": "난 오직 보스만 봐 {0}",
+          "SourceString": "난 오직 보스만 봐{0}",
           "LocalizedString": "I Got You, Boss {0}"
         },
         "Description": {
@@ -2215,14 +2215,14 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_021",
-          "SourceString": "보스도 죽이고 적도 죽인다 {0}",
+          "SourceString": "보스도 죽이고 적도 죽인다{0}",
           "LocalizedString": "And Not Just the Bosses, but the Monsters, Too! {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_description_021",
-          "SourceString": "모든 사냥터에서 진영/길드 필드 보스 처치",
-          "LocalizedString": "Defeat Dominion/Guild Field Bosses in all territories"
+          "SourceString": "모든 사냥터에서 진영전/길드 필드 보스 처치",
+          "LocalizedString": "Defeat Dominion Event/Guild Field Bosses in all territories"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_010.icon_achv_010",
@@ -2237,7 +2237,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_003",
-          "SourceString": "3스타 {0}",
+          "SourceString": "3스타{0}",
           "LocalizedString": "3-Star {0}"
         },
         "Description": {
@@ -2259,7 +2259,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_004",
-          "SourceString": "만능 해결사 {0}",
+          "SourceString": "만능 해결사{0}",
           "LocalizedString": "Troubleshooter {0}"
         },
         "Description": {
@@ -2281,7 +2281,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_005",
-          "SourceString": "언제 어디든 불러만 주십쇼 {0}",
+          "SourceString": "언제 어디든 불러만 주십쇼{0}",
           "LocalizedString": "Call Me Anytime, Anywhere {0}"
         },
         "Description": {
@@ -2303,7 +2303,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_022",
-          "SourceString": "이단 심판자 {0}",
+          "SourceString": "이단 심판자{0}",
           "LocalizedString": "Inquisitor {0}"
         },
         "Description": {
@@ -2325,7 +2325,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_023",
-          "SourceString": "사냥꾼의 길 {0}",
+          "SourceString": "사냥꾼의 길{0}",
           "LocalizedString": "Path of the Hunter {0}"
         },
         "Description": {
@@ -2347,7 +2347,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_024",
-          "SourceString": "휴머노이드의 천적 {0}",
+          "SourceString": "휴머노이드의 천적{0}",
           "LocalizedString": "Bane of Humanoids {0}"
         },
         "Description": {
@@ -2369,7 +2369,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_025",
-          "SourceString": "사신의 발자취 {0}",
+          "SourceString": "사신의 발자취{0}",
           "LocalizedString": "Footsteps of the Reaper {0}"
         },
         "Description": {
@@ -2391,7 +2391,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_battle_title_026",
-          "SourceString": "악마 사냥꾼 {0}",
+          "SourceString": "악마 사냥꾼{0}",
           "LocalizedString": "Demon Hunter {0}"
         },
         "Description": {
@@ -2413,7 +2413,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_pvp_title_001",
-          "SourceString": "차원의 주인 {0}",
+          "SourceString": "차원의 주인{0}",
           "LocalizedString": "Rift Master {0}"
         },
         "Description": {
@@ -2435,7 +2435,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_pvp_title_002",
-          "SourceString": "기원의 주인 {0}",
+          "SourceString": "기원의 주인{0}",
           "LocalizedString": "Origin Master {0}"
         },
         "Description": {
@@ -2457,7 +2457,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_pvp_title_003",
-          "SourceString": "심연석 점령 마스터 {0}",
+          "SourceString": "심연석 점령 마스터{0}",
           "LocalizedString": "Abysstone Occupation Master {0}"
         },
         "Description": {
@@ -2479,7 +2479,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_accumulated_contents_title_006",
-          "SourceString": "배는 많이 탔지만, 가끔 멀미해요 {0}",
+          "SourceString": "배는 많이 탔지만, 가끔 멀미해요{0}",
           "LocalizedString": "Seasick Sailor {0}"
         },
         "Description": {
@@ -2926,7 +2926,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_battle_description_051",
           "SourceString": "실레우스의 심연 5층~6층에 등장하는 화르르 처치",
-          "LocalizedString": "Defeat Hwaruru that appears in Syleus's Abyss 5F-6F"
+          "LocalizedString": "Defeat Sizzle that appears in Syleus's Abyss 5F-6F"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_009.icon_achv_009",
@@ -3893,8 +3893,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_026",
-          "SourceString": "어둠의 폭주자 도전: 폭주자 상태에서 죽지 않고 이벤트가 끝나기 전까지 플레이어 10명 처치",
-          "LocalizedString": "Dark Destroyer Challenge: Defeat 10 players before the event ends without dying in Destroyer mode"
+          "SourceString": "어둠의 폭주자 도전: 폭주자 상태에서 플레이어 50명 처치",
+          "LocalizedString": "Dark Destroyer Challenge: Defeat 50 players while in Destroyer mode"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_181.icon_achv_181",
@@ -3959,8 +3959,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_029",
-          "SourceString": "빛의 진혼제 도전: 악령이 깃든 갈루 시리즈 30마리 누적 처치",
-          "LocalizedString": "Requiem of Light Challenge: Defeat 30 Possessed Gallus (Total)"
+          "SourceString": "[진영전/길드] 빛의 진혼제 도전: 악령이 깃든 갈루 시리즈 30마리 누적 처치",
+          "LocalizedString": "[Dominion Event/Guild] Requiem of Light Challenge: Defeat 30 Possessed Gallus (Total)"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -3981,8 +3981,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_030",
-          "SourceString": "빛의 진혼제 도전: 빛의 파편 500개 이상 보유",
-          "LocalizedString": "Requiem of Light Challenge: Possess 500 Light Fragments or more"
+          "SourceString": "[진영전/길드] 빛의 진혼제 도전: 빛의 파편 500개 이상 보유",
+          "LocalizedString": "[Dominion Event/Guild] Requiem of Light Challenge: Possess 500 Light Fragments or more"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4003,8 +4003,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_031",
-          "SourceString": "빛의 진혼제 도전: 진혼비에 진혼하기",
-          "LocalizedString": "Requiem of Light Challenge: Perform a requiem at a Soul Stone"
+          "SourceString": "[진영전/길드] 빛의 진혼제 도전: 진혼비에 진혼하기",
+          "LocalizedString": "[Dominion Event/Guild] Requiem of Light Challenge: Perform a requiem at a Soul Stone"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4025,8 +4025,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_032",
-          "SourceString": "빛의 진혼제 도전: 한 번의 이벤트에서 4곳의 진혼비에 모두 진혼",
-          "LocalizedString": "Requiem of Light Challenge: Perform a requiem at all 4 Soul Stones during a single event"
+          "SourceString": "[진영전/길드] 빛의 진혼제 도전: 한 번의 이벤트에서 4곳의 진혼비에 모두 진혼",
+          "LocalizedString": "[Dominion Event/Guild] Requiem of Light Challenge: Perform a requiem at all 4 Soul Stones during a single event"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4047,8 +4047,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_033",
-          "SourceString": "빛의 진혼제 도전: 한 번의 이벤트에서 1곳의 진혼비에만 진혼",
-          "LocalizedString": "Requiem of Light Challenge: Perform a requiem at only 1 Soul Stone during a single event"
+          "SourceString": "[진영전/길드] 빛의 진혼제 도전: 한 번의 이벤트에서 1곳의 진혼비에만 진혼",
+          "LocalizedString": "[Dominion Event/Guild] Requiem of Light Challenge: Perform a requiem at only 1 Soul Stone during a single event"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4091,8 +4091,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_034",
-          "SourceString": "빛의 진혼제(협동) 도전: 수호탑 활성화에 기여",
-          "LocalizedString": "Requiem of Light (Co-Op) Challenge: Contribute to activating a Guard Tower"
+          "SourceString": "[협동] 빛의 진혼제 도전: 수호탑 활성화에 기여",
+          "LocalizedString": "[Co-Op] Requiem of Light Challenge: Contribute to activating a Guard Tower"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4113,8 +4113,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_035",
-          "SourceString": "빛의 진혼제(협동) 도전: 오염된 잔해를 옮기는데 성공",
-          "LocalizedString": "Requiem of Light (Co-Op) Challenge: Successfully transport Contaminated Debris"
+          "SourceString": "[협동] 빛의 진혼제 도전: 오염된 잔해를 옮기는데 성공",
+          "LocalizedString": "[Co-Op] Requiem of Light Challenge: Successfully transport Contaminated Debris"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4135,8 +4135,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_036",
-          "SourceString": "빛의 진혼제(협동) 도전: 거대 오염된 잔해 파괴에 기여",
-          "LocalizedString": "Requiem of Light (Co-Op) Challenge: Contribute to destroying Giant Contaminated Debris"
+          "SourceString": "[협동] 빛의 진혼제 도전: 거대 오염된 잔해 파괴에 기여",
+          "LocalizedString": "[Co-Op] Requiem of Light Challenge: Contribute to destroying Giant Contaminated Debris"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4157,8 +4157,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_037",
-          "SourceString": "빛의 진혼제(협동) 도전: 정화의 빛 효과를 받은 상태에서 어둠의 균열 제거",
-          "LocalizedString": "Requiem of Light (Co-Op) Challenge: Remove a Dark Rift while under the effect of Purifying Light"
+          "SourceString": "[협동] 빛의 진혼제 도전: 정화의 빛 효과를 받은 상태에서 어둠의 균열 제거",
+          "LocalizedString": "[Co-Op] Requiem of Light Challenge: Remove a Dark Rift while under the effect of Purifying Light"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4179,8 +4179,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_038",
-          "SourceString": "빛의 진혼제(협동) 도전: 혼돈의 망령이 소환한 분신에게 피해를 입지 않고 처치",
-          "LocalizedString": "Requiem of Light (Co-Op) Challenge: Defeat the clone summoned by the Chaos Wraith without taking damage"
+          "SourceString": "[협동] 빛의 진혼제 도전: 혼돈의 망령이 소환한 분신에게 피해를 입지 않고 처치",
+          "LocalizedString": "[Co-Op] Requiem of Light Challenge: Defeat the clone summoned by the Chaos Wraith without taking damage"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_182.icon_achv_182",
@@ -4201,8 +4201,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_039",
-          "SourceString": "불의 축제 도전: 불의 동굴에 등장한 몬스터 150마리 처치 (누적)",
-          "LocalizedString": "Festival of Fire Challenge: Defeat 150 monsters in the Fire Cave (Total)"
+          "SourceString": "[진영전/길드] 불의 축제 도전: 불의 동굴에 등장한 몬스터 150마리 처치 (누적)",
+          "LocalizedString": "[Dominion Event/Guild] Festival of Fire Challenge: Defeat 150 monsters in the Fire Cave (Total)"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4223,8 +4223,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_040",
-          "SourceString": "불의 축제 도전: 제사장을 처치하지 않고 불의 의식이 마무리 될 때 까지 버티기",
-          "LocalizedString": "Festival of Fire Challenge: Survive until the Fire Ritual is completed without defeating the Chief Priest"
+          "SourceString": "[진영전/길드] 불의 축제 도전: 제사장을 처치하지 않고 불의 의식이 마무리 될 때 까지 버티기",
+          "LocalizedString": "[Dominion Event/Guild] Festival of Fire Challenge: Survive until the Fire Ritual is completed without defeating the Chief Priest"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4245,8 +4245,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_041",
-          "SourceString": "불의 축제 도전: 한 번의 이벤트에서 3종류의 모든 마법진에서 불의 기운 정화",
-          "LocalizedString": "Festival of Fire Challenge: Purify Fire Energy at all 3 types of magic circles during a single event"
+          "SourceString": "[진영전/길드] 불의 축제 도전: 한 번의 이벤트에서 3종류의 모든 마법진에서 불의 기운 정화",
+          "LocalizedString": "[Dominion Event/Guild] Festival of Fire Challenge: Purify Fire Energy at all 3 types of magic circles during a single event"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4267,8 +4267,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_042",
-          "SourceString": "불의 축제 도전: 한 번의 이벤트에서 제사장 3마리 처치에 기여",
-          "LocalizedString": "Festival of Fire Challenge: Contribute to defeating 3 Chief Priests during a single event"
+          "SourceString": "[진영전/길드] 불의 축제 도전: 한 번의 이벤트에서 제사장 3마리 처치에 기여",
+          "LocalizedString": "[Dominion Event/Guild] Festival of Fire Challenge: Contribute to defeating 3 Chief Priests during a single event"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4289,8 +4289,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_043",
-          "SourceString": "불의 축제 도전: 불의 동굴에서 10분 이상 있기",
-          "LocalizedString": "Festival of Fire Challenge: Remain inside the Fire Cave for at least 10min"
+          "SourceString": "[진영전/길드] 불의 축제 도전: 불의 동굴에서 10분 이상 있기",
+          "LocalizedString": "[Dominion Event/Guild] Festival of Fire Challenge: Remain inside the Fire Cave for at least 10min"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4311,8 +4311,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_044",
-          "SourceString": "불의 축제(협동) 도전: 프라마칸의 돌 회수",
-          "LocalizedString": "Festival of Fire (Co-Op) Challenge: Retrieve Flamakan's Stones"
+          "SourceString": "[협동] 불의 축제 도전: 프라마칸의 돌 회수",
+          "LocalizedString": "[Co-Op] Festival of Fire Challenge: Retrieve Flamakan's Stones"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4333,8 +4333,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_045",
-          "SourceString": "불의 축제(협동) 도전: 제사장의 화로 불 끄는데 참여",
-          "LocalizedString": "Festival of Fire (Co-Op) Challenge: Participate in extinguishing the Chief Priest's Brazier"
+          "SourceString": "[협동] 불의 축제 도전: 제사장의 화로 불 끄는데 참여",
+          "LocalizedString": "[Co-Op] Festival of Fire Challenge: Participate in extinguishing the Chief Priest's Brazier"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4355,8 +4355,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_046",
-          "SourceString": "불의 축제(협동) 도전: 얼음 골렘으로 변신",
-          "LocalizedString": "Festival of Fire (Co-Op) Challenge: Morph into an Ice Golem"
+          "SourceString": "[협동] 불의 축제 도전: 얼음 골렘으로 변신",
+          "LocalizedString": "[Co-Op] Festival of Fire Challenge: Morph into an Ice Golem"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4377,8 +4377,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_047",
-          "SourceString": "불의 축제(협동) 도전: 제사창 처치에 참여",
-          "LocalizedString": "Festival of Fire (Co-Op) Challenge: Participate in defeating the Chief Priest"
+          "SourceString": "[협동] 불의 축제 도전: 제사창 처치에 참여",
+          "LocalizedString": "[Co-Op] Festival of Fire Challenge: Participate in defeating the Chief Priest"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",
@@ -4399,8 +4399,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_048",
-          "SourceString": "불의 축제(협동) 도전: 얼음 골렘의 숨기를 활용해 맹렬한 오크 치프틴의 발구르기를 회피",
-          "LocalizedString": "Festival of Fire (Co-Op) Challenge: Use the Ice Golem's Hide to evade the Fierce Orc Chieftain's stomping"
+          "SourceString": "[협동] 불의 축제 도전: 얼음 골렘의 숨기를 활용해 맹렬한 오크 치프틴의 발구르기를 회피",
+          "LocalizedString": "[Co-Op] Festival of Fire Challenge: Use the Ice Golem's Hide to evade the Fierce Orc Chieftain's stomping"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_184.icon_achv_184",

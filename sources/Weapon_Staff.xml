@@ -486,6 +486,9 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_Item_ArcBoss_T2_ST_01" min_count="0">
                     <set_skill skill_id="WP_ST_S_Meteor_Attack_Seperate_WP_Item_ArchBoss_T2_ST_01" skill_id_disable="false" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_ST_02">
+                    <set_skill skill_id="WP_ST_S_Meteor_Attack_Seperate_WP_Item_ArchBoss_T2_ST_02" skill_id_disable="false" />
+                  </if_abnormal_state>
                 </complex>
               </combo_state_default>
             </specialization>

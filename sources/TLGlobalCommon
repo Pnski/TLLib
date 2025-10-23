@@ -66,9 +66,6 @@
           "NewBieBenefit": 400.0,
           "ComeBackBenefit": 400.0
         },
-        "GuildAttackedAlertSendingSeconds": 780,
-        "GuildAttackedAlertValidSeconds": 600,
-        "GuildAttackedAlertMessageIntervalSec": 15,
         "AdditionalFeePercentPerPenaltyKillCount": 0,
         "MinimumPolymorphableLevel": 1,
         "CustomizationCost": {
@@ -401,26 +398,20 @@
         "GuildDistributionEquipItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kB",
-          "FilterMaxGrade": "EItemGrade::kAA",
-          "IgnoreGrades": [
-            "EItemGrade::kA2"
-          ]
+          "FilterMaxGrade": "EItemGrade::kAA3",
+          "IgnoreGrades": []
         },
         "GuildDistributionSkillbookItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kB",
-          "FilterMaxGrade": "EItemGrade::kAA",
-          "IgnoreGrades": [
-            "EItemGrade::kA2"
-          ]
+          "FilterMaxGrade": "EItemGrade::kAA3",
+          "IgnoreGrades": []
         },
         "GuildDistributionEtcItemSettings": {
           "FilterDefaultItemGrade": "EItemGrade::kA",
           "FilterMinGrade": "EItemGrade::kC",
-          "FilterMaxGrade": "EItemGrade::kAA",
-          "IgnoreGrades": [
-            "EItemGrade::kA2"
-          ]
+          "FilterMaxGrade": "EItemGrade::kAA3",
+          "IgnoreGrades": []
         },
         "RotationEventGracePeriod": 2,
         "NonPvPDynamicEventRankingModify": 50,

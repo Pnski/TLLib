@@ -7877,8 +7877,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
               "Key": "TEXT_SKILL_DESC_SW2_S_CounterAttack_Trait_2",
-              "SourceString": "스킬 재사용 시간이 $[SW2_CounterAttack_Trait_2_CooldownReduction_DynamicStat.tooltip1]% 감소합니다.",
-              "LocalizedString": "Skill Cooldown decreases by $[SW2_CounterAttack_Trait_2_CooldownReduction_DynamicStat.tooltip1]%."
+              "SourceString": "스킬 재사용 시간이 $[SW2_CounterAttack_Trait_2_CooldownReduction_DynamicStat.tooltip1]% 감소하고, 충격 상태의 대상에게 적중 시 단두대 칼날의 남은 재사용 시간이 $[SW2_CounterAttack_Cooldown_Reduction.tooltip1]% 감소합니다.",
+              "LocalizedString": "Reduces Skill Cooldown by $[SW2_CounterAttack_Trait_2_CooldownReduction_DynamicStat.tooltip1]% and when hitting a Shocked target, reduces Guillotine Blade's remaining cooldown by $[SW2_CounterAttack_Cooldown_Reduction.tooltip1]%."
             }
           }
         ],
@@ -25491,8 +25491,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
               "Key": "TEXT_SKILL_DESC_SW2_S_DefenseDebuffAttack",
-              "SourceString": "지정한 방향으로 4m의 반원형 영역 내의 모든 적에게 기본 피해의 $[SW2_DefenseDebuffAttack_DD.tooltip1]% 만큼 피해를 주고 $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]초 동안 근거리, 원거리, 마법 방어를 ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> 감소시키는 ^<c=@SkillTooltipChange>쇠약^</c> 효과를 적용합니다.",
-              "LocalizedString": "Deals $[SW2_DefenseDebuffAttack_DD.tooltip1]% of Base Damage to all targets within a 4m semicircle in a selected direction and applies ^<c=@SkillTooltipChange>Weaken^</c> that decreases Melee, Ranged, and Magic Defense by ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> for $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]s."
+              "SourceString": "전방 4m의 반원형 영역 내의 모든 적에게 기본 피해의 $[SW2_DefenseDebuffAttack_DD.tooltip1]% 만큼 피해를 주고 $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]초 동안 근거리, 원거리, 마법 방어를 ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> 감소시키는 ^<c=@SkillTooltipChange>쇠약^</c> 효과를 적용합니다.",
+              "LocalizedString": "Deals $[SW2_DefenseDebuffAttack_DD.tooltip1]% of Base Damage to all targets in a frontal 4m semicircle and applies ^<c=@SkillTooltipChange>Weaken^</c> that decreases Magic, Melee, and Ranged Defense by ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> for $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]s."
             }
           }
         ],
@@ -25738,8 +25738,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
               "Key": "TEXT_SKILL_DESC_SW2_S_DefenseDebuffAttack",
-              "SourceString": "지정한 방향으로 4m의 반원형 영역 내의 모든 적에게 기본 피해의 $[SW2_DefenseDebuffAttack_DD.tooltip1]% 만큼 피해를 주고 $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]초 동안 근거리, 원거리, 마법 방어를 ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> 감소시키는 ^<c=@SkillTooltipChange>쇠약^</c> 효과를 적용합니다.",
-              "LocalizedString": "Deals $[SW2_DefenseDebuffAttack_DD.tooltip1]% of Base Damage to all targets within a 4m semicircle in a selected direction and applies ^<c=@SkillTooltipChange>Weaken^</c> that decreases Melee, Ranged, and Magic Defense by ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> for $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]s."
+              "SourceString": "전방 4m의 반원형 영역 내의 모든 적에게 기본 피해의 $[SW2_DefenseDebuffAttack_DD.tooltip1]% 만큼 피해를 주고 $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]초 동안 근거리, 원거리, 마법 방어를 ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> 감소시키는 ^<c=@SkillTooltipChange>쇠약^</c> 효과를 적용합니다.",
+              "LocalizedString": "Deals $[SW2_DefenseDebuffAttack_DD.tooltip1]% of Base Damage to all targets in a frontal 4m semicircle and applies ^<c=@SkillTooltipChange>Weaken^</c> that decreases Magic, Melee, and Ranged Defense by ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> for $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]s."
             }
           }
         ],
@@ -40503,8 +40503,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
               "Key": "TEXT_SKILL_DESC_SW2_S_StunSuccecsDamageBoost",
-              "SourceString": "반경 5m 내에 ^<c=@SkillTooltipChange>3명^</c> 이상의 적이 있으면 스킬의 피해 증폭이 ^<c=@SkillTooltipChange>$[SW2_Passive_StunSuccecsDamageBoost.tooltip1]^</c> 만큼 증가합니다.",
-              "LocalizedString": "Increases Skill Damage Boost by ^<c=@SkillTooltipChange>$[SW2_Passive_StunSuccecsDamageBoost.tooltip1]^</c> when ^<c=@SkillTooltipChange>3^</c> or more targets are within a 5m radius."
+              "SourceString": "반경 5m 내에 ^<c=@SkillTooltipChange>3명^</c> 이상의 적이 있으면 스킬의 피해 증폭이 ^<c=@SkillTooltipChange>$[SW2_Passive_StunSuccecsDamageBoost.tooltip1]^</c> 만큼 증가합니다.\r\n대상에게 양손검으로 충격 적용 시에도 3초 동안 동일한 효과를 받습니다. ",
+              "LocalizedString": "If there are ^<c=@SkillTooltipChange>3^</c> or more enemies within a 5m radius, Skill Damage Boost +^<c=@SkillTooltipChange>$[SW2_Passive_StunSuccecsDamageBoost.tooltip1]^</c>.\nWhen applying Shock to a target with a Greatsword, gains the same effect for 3s."
             }
           }
         ],

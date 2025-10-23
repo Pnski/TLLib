@@ -7964,6 +7964,46 @@
           }
         ]
       },
+      "material_arcboss_piece_003_1_25": {
+        "Name": "material_arcboss_piece_003_1_25",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_003",
+            "Count": 25,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_004_1_25": {
+        "Name": "material_arcboss_piece_004_1_25",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_004",
+            "Count": 25,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_003_2_20": {
+        "Name": "material_arcboss_piece_003_2_20",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_003_2",
+            "Count": 20,
+            "prob": 10000000
+          }
+        ]
+      },
+      "material_arcboss_piece_004_2_20": {
+        "Name": "material_arcboss_piece_004_2_20",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "material_arcboss_piece_004_2",
+            "Count": 20,
+            "prob": 10000000
+          }
+        ]
+      },
       "GD_FD_M_Insect_Flyer_001_Equip": {
         "Name": "GD_FD_M_Insect_Flyer_001_Equip",
         "ItemLotteryPublicGroupEntry": [
@@ -30776,11 +30816,6 @@
             "prob": 71428
           },
           {
-            "id": "FD_L04_M_BlackDwarf_Magician_Equip_kA",
-            "Count": 1,
-            "prob": 11387
-          },
-          {
             "id": "FD_L04_M_BlackDwarf_Magician_Equip_kA2",
             "Count": 1,
             "prob": 5693
@@ -30804,11 +30839,6 @@
             "id": "M_BlackDwarf_Magician_S100B_Equip_kB",
             "Count": 1,
             "prob": 71428
-          },
-          {
-            "id": "M_BlackDwarf_Magician_S100B_Equip_kA",
-            "Count": 1,
-            "prob": 11387
           },
           {
             "id": "M_BlackDwarf_Magician_S100B_Equip_kA2",
@@ -32925,11 +32955,6 @@
       "FI_FD_FO_Toggle_ResistantBox_001": {
         "Name": "FI_FD_FO_Toggle_ResistantBox_001",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "sword2h_c_t1_nomal_001",
-            "Count": 1,
-            "prob": 10000000
-          },
           {
             "id": "staff_start_001",
             "Count": 1,

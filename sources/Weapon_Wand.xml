@@ -491,6 +491,9 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_Item_ArcBoss_T2_WA_01" min_count="0">
                     <set_skill skill_id="WP_WA_GR_S_MagicShield_Target_WP_Item_ArcBoss_T2_WA_01" skill_id_disable="false" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_WA_02">
+                    <set_skill skill_id="WP_WA_GR_S_MagicShield_Target_WP_Item_ArcBoss_T2_WA_02" skill_id_disable="false" />
+                  </if_abnormal_state>
                 </complex>
               </combo_state_default>
             </default>
@@ -499,6 +502,9 @@
                 <complex default_skill_id="WP_WA_GR_S_MagicShield" default_skill_id_disable="false">
                   <if_abnormal_state abnormal_state_id="abn_WP_Item_ArcBoss_T2_WA_01" min_count="0">
                     <set_skill skill_id="WP_WA_GR_S_MagicShield_WP_Item_ArcBoss_T2_WA_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_WA_02">
+                    <set_skill skill_id="WP_WA_GR_S_MagicShield_WP_Item_ArcBoss_T2_WA_02" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>
               </combo_state_default>

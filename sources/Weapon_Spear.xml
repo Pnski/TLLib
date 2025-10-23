@@ -55,8 +55,14 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_SP_CrossAttack_ContextSkill_ArchBoss" min_count="0">
                     <set_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_01_Finish" skill_id_disable="false" show_transition_notify="true" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_SP_CrossAttack_ContextSkill_ArchBoss_SP_02">
+                    <set_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_02_Finish" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
                   <if_abnormal_state abnormal_state_id="abn_WP_Item_ArchBoss_T2_SP_01" min_count="0">
                     <set_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArchBoss_T2_SP_02">
+                    <set_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_02" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>
                 <transition>
@@ -64,6 +70,8 @@
                   <use_skill skill_id="WP_SP_S_CrossAttack_Finish" next_combo_state="kComboStateDefault" />
                   <use_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_01" next_combo_state="kComboStateDefault" />
                   <use_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_01_Finish" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_02" next_combo_state="kComboStateDefault" />
+                  <use_skill skill_id="WP_SP_S_CrossAttack_ArchBoss_T2_SP_02_Finish" next_combo_state="kComboStateDefault" />
                 </transition>
               </combo_state_default>
             </default>

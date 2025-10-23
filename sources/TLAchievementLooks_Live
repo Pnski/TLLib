@@ -103,7 +103,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_001_TitleText",
-          "SourceString": "무..물고기 {0}",
+          "SourceString": "무..물고기{0}",
           "LocalizedString": "F-Fish? {0}"
         },
         "Description": {
@@ -125,7 +125,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_002_TitleText",
-          "SourceString": "여기가 낚시 명당이라던데 {0}",
+          "SourceString": "여기가 낚시 명당이라던데{0}",
           "LocalizedString": "A Fish in Water {0}"
         },
         "Description": {
@@ -147,7 +147,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_003_TitleText",
-          "SourceString": "민물의 강태공 {0}",
+          "SourceString": "민물의 강태공{0}",
           "LocalizedString": "Freshwater Angler {0}"
         },
         "Description": {
@@ -169,7 +169,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_004_TitleText",
-          "SourceString": "파도 위의 강태공 {0}",
+          "SourceString": "파도 위의 강태공{0}",
           "LocalizedString": "Saltwater Angler {0}"
         },
         "Description": {
@@ -235,7 +235,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_fishing_007_TitleText",
-          "SourceString": "응? 이건? {0}",
+          "SourceString": "응? 이건?{0}",
           "LocalizedString": "Gift From the Depths {0}"
         },
         "Description": {
@@ -653,7 +653,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_guild_001_TitleText",
-          "SourceString": "기부 버튼이 닳도록 {0}",
+          "SourceString": "기부 버튼이 닳도록{0}",
           "LocalizedString": "Never Call Me a Scrooge {0}"
         },
         "Description": {
@@ -675,7 +675,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_guild_002_TitleText",
-          "SourceString": "길드의 기둥 {0}",
+          "SourceString": "길드의 기둥{0}",
           "LocalizedString": "Pillar of the Guild {0}"
         },
         "Description": {
@@ -719,7 +719,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_community_002_TitleText",
-          "SourceString": "승리 전문가 {0}",
+          "SourceString": "승리 전문가{0}",
           "LocalizedString": "Victory Expert {0}"
         },
         "Description": {
@@ -741,7 +741,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_community_003_TitleText",
-          "SourceString": "승리의 기운 {0}",
+          "SourceString": "승리의 기운{0}",
           "LocalizedString": "Spirit of Victory {0}"
         },
         "Description": {
@@ -807,7 +807,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_char_col_01_title",
-          "SourceString": "나의 동반자 {0}",
+          "SourceString": "나의 동반자{0}",
           "LocalizedString": "My Companion {0}"
         },
         "Description": {
@@ -829,7 +829,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_002_TitleText",
-          "SourceString": "새로운 나 {0}",
+          "SourceString": "새로운 나{0}",
           "LocalizedString": "A New Me {0}"
         },
         "Description": {
@@ -1115,7 +1115,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_013_TitleText",
-          "SourceString": "별명 부자 {0}",
+          "SourceString": "별명 부자{0}",
           "LocalizedString": "Nickname Collector {0}"
         },
         "Description": {
@@ -1313,7 +1313,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_022_TitleText",
-          "SourceString": "걷는 것 보다 편해요 {0}",
+          "SourceString": "걷는 것 보다 편해요{0}",
           "LocalizedString": "Better Than on Foot {0}"
         },
         "Description": {
@@ -1335,7 +1335,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_023_TitleText",
-          "SourceString": "물에서도 숨 쉬나요? {0}",
+          "SourceString": "물에서도 숨 쉬나요?{0}",
           "LocalizedString": "Can You Breathe Underwater? {0}"
         },
         "Description": {
@@ -1379,7 +1379,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_combat_001_TitleText",
-          "SourceString": "허수아비도 아파요 {0}",
+          "SourceString": "허수아비도 아파요{0}",
           "LocalizedString": "No Pain, No Gain, Dummy {0}"
         },
         "Description": {
@@ -1401,7 +1401,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_combat_002_TitleText",
-          "SourceString": "참치마요 {0}",
+          "SourceString": "참치마요{0}",
           "LocalizedString": "Fishing For Trouble {0}"
         },
         "Description": {
@@ -1423,7 +1423,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_combat_003_TitleText",
-          "SourceString": "석상은 안 아파요 {0}",
+          "SourceString": "석상은 안 아파요{0}",
           "LocalizedString": "It's Just a Statue {0}"
         },
         "Description": {
@@ -1445,8 +1445,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_003_TitleText",
-          "SourceString": "룬의 목소리 Ⅰ",
-          "LocalizedString": "Voices of Runes I"
+          "SourceString": "룬의 목소리^<imgf=IMG_Achievement_Step_01>",
+          "LocalizedString": "Voices of Runes ^<imgf=IMG_Achievement_Step_01>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1467,8 +1467,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_004_TitleText",
-          "SourceString": "룬의 목소리 Ⅱ",
-          "LocalizedString": "Voices of Runes II"
+          "SourceString": "룬의 목소리^<imgf=IMG_Achievement_Step_02>",
+          "LocalizedString": "Voices of Runes ^<imgf=IMG_Achievement_Step_02>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1489,8 +1489,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_005_TitleText",
-          "SourceString": "룬의 목소리 Ⅲ",
-          "LocalizedString": "Voices of Runes III"
+          "SourceString": "룬의 목소리^<imgf=IMG_Achievement_Step_03>",
+          "LocalizedString": "Voices of Runes ^<imgf=IMG_Achievement_Step_03>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1511,8 +1511,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_006_TitleText",
-          "SourceString": "룬의 목소리 Ⅳ",
-          "LocalizedString": "Voices of Runes IV"
+          "SourceString": "룬의 목소리^<imgf=IMG_Achievement_Step_04>",
+          "LocalizedString": "Voices of Runes ^<imgf=IMG_Achievement_Step_04>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1533,8 +1533,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_007_TitleText",
-          "SourceString": "룬의 목소리 Ⅴ",
-          "LocalizedString": "Voices of Runes V"
+          "SourceString": "룬의 목소리^<imgf=IMG_Achievement_Step_05>",
+          "LocalizedString": "Voices of Runes ^<imgf=IMG_Achievement_Step_05>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1555,8 +1555,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_008_TitleText",
-          "SourceString": "룬의 메아리 Ⅰ",
-          "LocalizedString": "Echoes of Runes I"
+          "SourceString": "룬의 메아리^<imgf=IMG_Achievement_Step_01>",
+          "LocalizedString": "Echoes of Runes ^<imgf=IMG_Achievement_Step_01>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1577,8 +1577,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_009_TitleText",
-          "SourceString": "룬의 메아리 Ⅱ",
-          "LocalizedString": "Echoes of Runes II"
+          "SourceString": "룬의 메아리^<imgf=IMG_Achievement_Step_02>",
+          "LocalizedString": "Echoes of Runes ^<imgf=IMG_Achievement_Step_02>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1599,8 +1599,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_010_TitleText",
-          "SourceString": "룬의 메아리 Ⅲ",
-          "LocalizedString": "Echoes of Runes III"
+          "SourceString": "룬의 메아리^<imgf=IMG_Achievement_Step_03>",
+          "LocalizedString": "Echoes of Runes ^<imgf=IMG_Achievement_Step_03>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1621,8 +1621,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_011_TitleText",
-          "SourceString": "룬의 메아리 Ⅳ",
-          "LocalizedString": "Echoes of Runes IV"
+          "SourceString": "룬의 메아리^<imgf=IMG_Achievement_Step_04>",
+          "LocalizedString": "Echoes of Runes ^<imgf=IMG_Achievement_Step_04>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1643,8 +1643,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_012_TitleText",
-          "SourceString": "룬의 메아리 Ⅴ",
-          "LocalizedString": "Echoes of Runes V"
+          "SourceString": "룬의 메아리^<imgf=IMG_Achievement_Step_05>",
+          "LocalizedString": "Echoes of Runes ^<imgf=IMG_Achievement_Step_05>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1665,8 +1665,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_013_TitleText",
-          "SourceString": "룬의 각성 Ⅰ",
-          "LocalizedString": "Rune Awakening I"
+          "SourceString": "룬의 각성^<imgf=IMG_Achievement_Step_01>",
+          "LocalizedString": "Rune Awakening ^<imgf=IMG_Achievement_Step_01>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1687,8 +1687,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_014_TitleText",
-          "SourceString": "룬의 각성 Ⅱ",
-          "LocalizedString": "Rune Awakening II"
+          "SourceString": "룬의 각성^<imgf=IMG_Achievement_Step_02>",
+          "LocalizedString": "Rune Awakening ^<imgf=IMG_Achievement_Step_02>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1709,8 +1709,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_015_TitleText",
-          "SourceString": "룬의 각성 Ⅲ",
-          "LocalizedString": "Rune Awakening III"
+          "SourceString": "룬의 각성^<imgf=IMG_Achievement_Step_03>",
+          "LocalizedString": "Rune Awakening ^<imgf=IMG_Achievement_Step_03>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1731,8 +1731,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_016_TitleText",
-          "SourceString": "룬의 각성 Ⅳ",
-          "LocalizedString": "Rune Awakening IV"
+          "SourceString": "룬의 각성^<imgf=IMG_Achievement_Step_04>",
+          "LocalizedString": "Rune Awakening ^<imgf=IMG_Achievement_Step_04>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1753,8 +1753,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_017_TitleText",
-          "SourceString": "룬의 각성 Ⅴ",
-          "LocalizedString": "Rune Awakening V"
+          "SourceString": "룬의 각성^<imgf=IMG_Achievement_Step_05>",
+          "LocalizedString": "Rune Awakening ^<imgf=IMG_Achievement_Step_05>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1775,8 +1775,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_018_TitleText",
-          "SourceString": "궁극의 룬 Ⅰ",
-          "LocalizedString": "The Ultimate Rune I"
+          "SourceString": "궁극의 룬^<imgf=IMG_Achievement_Step_01>",
+          "LocalizedString": "The Ultimate Rune ^<imgf=IMG_Achievement_Step_01>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1797,8 +1797,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_019_TitleText",
-          "SourceString": "궁극의 룬 Ⅱ",
-          "LocalizedString": "The Ultimate Rune II"
+          "SourceString": "궁극의 룬^<imgf=IMG_Achievement_Step_02>",
+          "LocalizedString": "The Ultimate Rune ^<imgf=IMG_Achievement_Step_02>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1819,8 +1819,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_020_TitleText",
-          "SourceString": "궁극의 룬 Ⅲ",
-          "LocalizedString": "The Ultimate Rune III"
+          "SourceString": "궁극의 룬^<imgf=IMG_Achievement_Step_03>",
+          "LocalizedString": "The Ultimate Rune ^<imgf=IMG_Achievement_Step_03>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1841,8 +1841,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_021_TitleText",
-          "SourceString": "궁극의 룬 Ⅳ",
-          "LocalizedString": "The Ultimate Rune IV"
+          "SourceString": "궁극의 룬^<imgf=IMG_Achievement_Step_04>",
+          "LocalizedString": "The Ultimate Rune ^<imgf=IMG_Achievement_Step_04>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -1863,8 +1863,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_item_022_TitleText",
-          "SourceString": "궁극의 룬 Ⅴ",
-          "LocalizedString": "The Ultimate Rune V"
+          "SourceString": "궁극의 룬^<imgf=IMG_Achievement_Step_05>",
+          "LocalizedString": "The Ultimate Rune ^<imgf=IMG_Achievement_Step_05>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -2391,7 +2391,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_guild_005_TitleText",
-          "SourceString": "매 주 만나는 사이 {0}",
+          "SourceString": "매 주 만나는 사이{0}",
           "LocalizedString": "So, the Usual? {0}"
         },
         "Description": {
@@ -2413,8 +2413,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_025_TitleText",
-          "SourceString": "작고 소중해 Ⅰ",
-          "LocalizedString": "So Small and Precious I"
+          "SourceString": "작고 소중해^<imgf=IMG_Achievement_Step_01>",
+          "LocalizedString": "So Small and Precious ^<imgf=IMG_Achievement_Step_01>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -2435,8 +2435,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_026_TitleText",
-          "SourceString": "작고 소중해 Ⅱ",
-          "LocalizedString": "So Small and Precious II"
+          "SourceString": "작고 소중해^<imgf=IMG_Achievement_Step_02>",
+          "LocalizedString": "So Small and Precious ^<imgf=IMG_Achievement_Step_02>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -2457,8 +2457,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
           "Key": "achv_live_character_027_TitleText",
-          "SourceString": "작고 소중해 Ⅲ",
-          "LocalizedString": "So Small and Precious III"
+          "SourceString": "작고 소중해^<imgf=IMG_Achievement_Step_03>",
+          "LocalizedString": "So Small and Precious ^<imgf=IMG_Achievement_Step_03>"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",

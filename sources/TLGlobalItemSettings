@@ -460,6 +460,35 @@
             }
           ]
         },
+        "RuneSocketInfoSettings": {
+          "RuneSynergyIds": [],
+          "SocketCount": 0,
+          "AllRuneCount": 0,
+          "AttackSocketOpenMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          },
+          "AttackSocketResetMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          },
+          "DefenseSocketOpenMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          },
+          "DefenseSocketResetMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          },
+          "AssistSocketOpenMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          },
+          "AssistSocketResetMaterialInfo": {
+            "CostItemId": "None",
+            "CostItemCount": 0
+          }
+        },
         "AlchemySetting": {
           "SettingInfos": [
             {
@@ -2381,7 +2410,11 @@
               }
             }
           }
-        ]
+        ],
+        "EnchantTransferSettings": {
+          "ArmorTransferableItemCategories": [],
+          "AccessoryTransferableItemCategories": []
+        }
       }
     }
   }

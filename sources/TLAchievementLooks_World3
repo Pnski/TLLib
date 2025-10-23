@@ -59,7 +59,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Exploration_002_TitleText",
-          "SourceString": "스톤가드 심연 속의 심연 {0}",
+          "SourceString": "스톤가드 심연 속의 심연{0}",
           "LocalizedString": "Stonegard's Abyss Within the Abyss {0}"
         },
         "Description": {
@@ -213,7 +213,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Exploration_009_TitleText",
-          "SourceString": "꿀 발라놨어? {0}",
+          "SourceString": "꿀 발라놨어?{0}",
           "LocalizedString": "Honey! Gimme! {0}"
         },
         "Description": {
@@ -235,7 +235,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Exploration_010_TitleText",
-          "SourceString": "혹시 초록 옷의 그 녀석인가 {0}",
+          "SourceString": "혹시 초록 옷의 그 녀석인가{0}",
           "LocalizedString": "Is That the Guy in Green? {0}"
         },
         "Description": {
@@ -257,7 +257,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Exploration_011_TitleText",
-          "SourceString": "서커스 {0}",
+          "SourceString": "서커스{0}",
           "LocalizedString": "Circus {0}"
         },
         "Description": {
@@ -323,7 +323,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Exploration_015_TitleText",
-          "SourceString": "건드리지 마세양 {0}",
+          "SourceString": "건드리지 마세양{0}",
           "LocalizedString": "Don't Ewe Dare {0}"
         },
         "Description": {
@@ -1269,7 +1269,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_001_TitleText",
-          "SourceString": "킹 마인붐-09 사냥꾼 {0}",
+          "SourceString": "킹 마인붐-09 사냥꾼{0}",
           "LocalizedString": "Excavator-9 Hunter {0}"
         },
         "Description": {
@@ -1291,7 +1291,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_002_TitleText",
-          "SourceString": "케르노보그 사냥꾼 {0}",
+          "SourceString": "케르노보그 사냥꾼{0}",
           "LocalizedString": "Chernobog Hunter {0}"
         },
         "Description": {
@@ -1313,7 +1313,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_003_TitleText",
-          "SourceString": "탈루스 사냥꾼 {0}",
+          "SourceString": "탈루스 사냥꾼{0}",
           "LocalizedString": "Talus Hunter {0}"
         },
         "Description": {
@@ -1335,7 +1335,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_004_TitleText",
-          "SourceString": "말라카 사냥꾼 {0}",
+          "SourceString": "말라카 사냥꾼{0}",
           "LocalizedString": "Malakar Hunter {0}"
         },
         "Description": {
@@ -1357,7 +1357,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_005_TitleText",
-          "SourceString": "코완주키 사냥꾼 {0}",
+          "SourceString": "코완주키 사냥꾼{0}",
           "LocalizedString": "Kowazan Hunter {0}"
         },
         "Description": {
@@ -1379,7 +1379,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Combat_006_TitleText",
-          "SourceString": "쥬노보트 사냥꾼 {0}",
+          "SourceString": "쥬노보트 사냥꾼{0}",
           "LocalizedString": "Junobote Hunter {0}"
         },
         "Description": {
@@ -1533,7 +1533,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_002_TitleText",
-          "SourceString": "공포의 섬 정복자 {0}",
+          "SourceString": "공포의 섬 정복자{0}",
           "LocalizedString": "Island of Terror Conqueror {0}"
         },
         "Description": {
@@ -1555,7 +1555,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_003_TitleText",
-          "SourceString": "공허의 황무지 정복자 {0}",
+          "SourceString": "공허의 황무지 정복자{0}",
           "LocalizedString": "Voidwastes Conqueror {0}"
         },
         "Description": {
@@ -1577,7 +1577,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_004_TitleText",
-          "SourceString": "학살자의 협곡 정복자 {0}",
+          "SourceString": "학살자의 협곡 정복자{0}",
           "LocalizedString": "Valley of Slaughter Conqueror {0}"
         },
         "Description": {
@@ -1599,7 +1599,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_005_TitleText",
-          "SourceString": "핏빛 분노의 섬 정복자 {0}",
+          "SourceString": "핏빛 분노의 섬 정복자{0}",
           "LocalizedString": "Carmine Rage Island Conqueror {0}"
         },
         "Description": {
@@ -1621,7 +1621,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_006_TitleText",
-          "SourceString": "비명의 고문실 정복자 {0}",
+          "SourceString": "비명의 고문실 정복자{0}",
           "LocalizedString": "Torture Chamber of Screams Conqueror {0}"
         },
         "Description": {
@@ -2039,7 +2039,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_PD_029_TitleText",
-          "SourceString": "계란으로 바위치기 {0}",
+          "SourceString": "계란으로 바위치기{0}",
           "LocalizedString": "Time to Get Cracking {0}"
         },
         "Description": {
@@ -2259,7 +2259,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_001_TitleText",
-          "SourceString": "망각의 유적지 정복자 {0}",
+          "SourceString": "망각의 유적지 정복자{0}",
           "LocalizedString": "The Forgotten Citadel Conqueror {0}"
         },
         "Description": {
@@ -2303,7 +2303,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_003_TitleText",
-          "SourceString": "오픈 더 도어! {0}",
+          "SourceString": "오픈 더 도어!{0}",
           "LocalizedString": "Let Me In! {0}"
         },
         "Description": {
@@ -2391,7 +2391,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_007_TitleText",
-          "SourceString": "비탄의 회랑 정복자 {0}",
+          "SourceString": "비탄의 회랑 정복자{0}",
           "LocalizedString": "The Corridor of Anguish Conqueror {0}"
         },
         "Description": {
@@ -2435,7 +2435,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_009_TitleText",
-          "SourceString": "돌리고~ 돌리고~ {0}",
+          "SourceString": "돌리고~ 돌리고~{0}",
           "LocalizedString": "Spin to Win {0}"
         },
         "Description": {
@@ -2523,7 +2523,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_013_TitleText",
-          "SourceString": "부활의 제단 정복자 {0}",
+          "SourceString": "부활의 제단 정복자{0}",
           "LocalizedString": "The Altar of Rebirth Conqueror {0}"
         },
         "Description": {
@@ -2567,7 +2567,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World3.TLStringAchievementLooks_World3",
           "Key": "achv_world3_Contents_Raid_015_TitleText",
-          "SourceString": "마력이 부족해 {0}",
+          "SourceString": "마력이 부족해{0}",
           "LocalizedString": "Out of Mana {0}"
         },
         "Description": {

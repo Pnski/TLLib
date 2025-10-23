@@ -1429,7 +1429,7 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_normal_066_Description",
-          "SourceString": "흑요석 확보 작전 도전: 모든 납품지에 배수 납품하기",
+          "SourceString": "흑요석 확보 작전 도전: 모든 납품지에 납품하기",
           "LocalizedString": "Obsidian Acquisition Operation Challenge: Deliver to every delivery point"
         },
         "IconImage": {
@@ -1517,8 +1517,8 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_normal_070_Description",
-          "SourceString": "레비아탄 도전: 피 냄새 상태 부여받기",
-          "LocalizedString": "Leviathan Challenge: Receive the Blood Scent effect"
+          "SourceString": "레비아탄 도전: 피 냄새 상태로 레비아탄 처치하기",
+          "LocalizedString": "Leviathan Challenge: Defeat Leviathan with Blood Scent active"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_032.icon_achv_032",
@@ -1864,13 +1864,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_normal_086_TitleText",
           "SourceString": "베르칸트 장원 기원의 승자",
-          "LocalizedString": "Bercant Estate Boonstone Victor"
+          "LocalizedString": "Bercant Manor Boonstone Victor"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_normal_086_Description",
           "SourceString": "베르칸트 장원 기원석 점령",
-          "LocalizedString": "Occupy the Bercant Estate Boonstone"
+          "LocalizedString": "Occupy the Bercant Manor Boonstone"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_123.icon_achv_123",
@@ -2017,7 +2017,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_001_TitleText",
-          "SourceString": "데이곤 사냥꾼 {0}",
+          "SourceString": "데이곤 사냥꾼{0}",
           "LocalizedString": "Daigon Hunter {0}"
         },
         "Description": {
@@ -2039,7 +2039,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_002_TitleText",
-          "SourceString": "레비아탄 사냥꾼 {0}",
+          "SourceString": "레비아탄 사냥꾼{0}",
           "LocalizedString": "Leviathan Hunter {0}"
         },
         "Description": {
@@ -2061,7 +2061,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_003_TitleText",
-          "SourceString": "파킬로 나루 사냥꾼 {0}",
+          "SourceString": "파킬로 나루 사냥꾼{0}",
           "LocalizedString": "Pakilo Naru Hunter {0}"
         },
         "Description": {
@@ -2083,7 +2083,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_004_TitleText",
-          "SourceString": "만티쿠스 형제 사냥꾼 {0}",
+          "SourceString": "만티쿠스 형제 사냥꾼{0}",
           "LocalizedString": "Manticus Brothers Hunter {0}"
         },
         "Description": {
@@ -2105,7 +2105,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_005_TitleText",
-          "SourceString": "테벤트 사냥꾼 {0}",
+          "SourceString": "테벤트 사냥꾼{0}",
           "LocalizedString": "Tevent Hunter {0}"
         },
         "Description": {
@@ -2127,7 +2127,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_006_TitleText",
-          "SourceString": "퀸 블렌디 사냥꾼 {0}",
+          "SourceString": "퀸 블렌디 사냥꾼{0}",
           "LocalizedString": "Queen Bellandir Hunter {0}"
         },
         "Description": {
@@ -2149,7 +2149,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_007_TitleText",
-          "SourceString": "델루즈 노아 사냥꾼 {0}",
+          "SourceString": "델루즈 노아 사냥꾼{0}",
           "LocalizedString": "Deluzhnoa Hunter {0}"
         },
         "Description": {
@@ -2171,7 +2171,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_008_TitleText",
-          "SourceString": "자이언트 브룩 사냥꾼 {0}",
+          "SourceString": "자이언트 브룩 사냥꾼{0}",
           "LocalizedString": "Giant Cordy Hunter {0}"
         },
         "Description": {
@@ -2193,7 +2193,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_009_TitleText",
-          "SourceString": "광성의 테벤트 사냥꾼 {0}",
+          "SourceString": "광성의 테벤트 사냥꾼{0}",
           "LocalizedString": "Ascended Tevent Hunter {0}"
         },
         "Description": {
@@ -2215,7 +2215,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_010_TitleText",
-          "SourceString": "광성의 퀸 블렌디 사냥꾼 {0}",
+          "SourceString": "광성의 퀸 블렌디 사냥꾼{0}",
           "LocalizedString": "Ascended Queen Bellandir Hunter {0}"
         },
         "Description": {
@@ -2237,7 +2237,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_011_TitleText",
-          "SourceString": "톨랜드의 심연 속의 심연 {0}",
+          "SourceString": "톨랜드의 심연 속의 심연{0}",
           "LocalizedString": "Talandre's Abyss Within the Abyss {0}"
         },
         "Description": {
@@ -2259,7 +2259,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_012_TitleText",
-          "SourceString": "건드리지 마세요 {0}",
+          "SourceString": "건드리지 마세요{0}",
           "LocalizedString": "Do Not Disturb {0}"
         },
         "Description": {
@@ -2281,7 +2281,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_013_TitleText",
-          "SourceString": "눈으로만 보세요 {0}",
+          "SourceString": "눈으로만 보세요{0}",
           "LocalizedString": "Look, Don't Touch {0}"
         },
         "Description": {
@@ -2303,7 +2303,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_014_TitleText",
-          "SourceString": "이건 진짜 좀 수상하네 {0}",
+          "SourceString": "이건 진짜 좀 수상하네{0}",
           "LocalizedString": "Not Suspicious at All, Nope {0}"
         },
         "Description": {
@@ -2325,7 +2325,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_015_TitleText",
-          "SourceString": "원한의 숲 정복자 {0}",
+          "SourceString": "원한의 숲 정복자{0}",
           "LocalizedString": "Rancorwood Conqueror {0}"
         },
         "Description": {
@@ -2347,7 +2347,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_016_TitleText",
-          "SourceString": "비극의 대저택 정복자 {0}",
+          "SourceString": "비극의 대저택 정복자{0}",
           "LocalizedString": "Halls of Tragedy Conqueror {0}"
         },
         "Description": {
@@ -2369,7 +2369,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_017_TitleText",
-          "SourceString": "광기의 예배당 정복자 {0}",
+          "SourceString": "광기의 예배당 정복자{0}",
           "LocalizedString": "Chapel of Madness Conqueror {0}"
         },
         "Description": {
@@ -2391,7 +2391,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_018_TitleText",
-          "SourceString": "잔혹한 마녀의 정원 정복자 {0}",
+          "SourceString": "잔혹한 마녀의 정원 정복자{0}",
           "LocalizedString": "Doomrot Grove Conqueror {0}"
         },
         "Description": {
@@ -2413,7 +2413,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_019_TitleText",
-          "SourceString": "암살자의 실험실 정복자 {0}",
+          "SourceString": "암살자의 실험실 정복자{0}",
           "LocalizedString": "Twisted Laboratory Conqueror {0}"
         },
         "Description": {
@@ -2435,7 +2435,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_020_TitleText",
-          "SourceString": "타락의 심연 정복자 {0}",
+          "SourceString": "타락의 심연 정복자{0}",
           "LocalizedString": "Fate's Abyss Conqueror {0}"
         },
         "Description": {
@@ -2457,7 +2457,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_021_TitleText",
-          "SourceString": "거상의 궁전 정복자 {0}",
+          "SourceString": "거상의 궁전 정복자{0}",
           "LocalizedString": "Colossal Coliseum Conqueror {0}"
         },
         "Description": {
@@ -2479,8 +2479,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_022_TitleText",
-          "SourceString": "#도전 차원진: 원한의 숲 완료 {0}",
-          "LocalizedString": "#도전 차원진: 원한의 숲 완료 {0}"
+          "SourceString": "#도전 차원진: 원한의 숲 완료{0}",
+          "LocalizedString": "#도전 차원진: 원한의 숲 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2501,8 +2501,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_023_TitleText",
-          "SourceString": "#도전 차원진: 비극의 대저택 완료 {0}",
-          "LocalizedString": "#도전 차원진: 비극의 대저택 완료 {0}"
+          "SourceString": "#도전 차원진: 비극의 대저택 완료{0}",
+          "LocalizedString": "#도전 차원진: 비극의 대저택 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2523,8 +2523,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_024_TitleText",
-          "SourceString": "#도전 차원진: 광기의 예배당 완료 {0}",
-          "LocalizedString": "#도전 차원진: 광기의 예배당 완료 {0}"
+          "SourceString": "#도전 차원진: 광기의 예배당 완료{0}",
+          "LocalizedString": "#도전 차원진: 광기의 예배당 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2545,8 +2545,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_025_TitleText",
-          "SourceString": "#도전 차원진: 잔혹한 마녀의 정원 완료 {0}",
-          "LocalizedString": "#도전 차원진: 잔혹한 마녀의 정원 완료 {0}"
+          "SourceString": "#도전 차원진: 잔혹한 마녀의 정원 완료{0}",
+          "LocalizedString": "#도전 차원진: 잔혹한 마녀의 정원 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2567,8 +2567,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_026_TitleText",
-          "SourceString": "#도전 차원진: 암살자의 실험실 완료 {0}",
-          "LocalizedString": "#도전 차원진: 암살자의 실험실 완료 {0}"
+          "SourceString": "#도전 차원진: 암살자의 실험실 완료{0}",
+          "LocalizedString": "#도전 차원진: 암살자의 실험실 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2589,8 +2589,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_027_TitleText",
-          "SourceString": "#도전 차원진: 타락의 심연 완료 {0}",
-          "LocalizedString": "#도전 차원진: 타락의 심연 완료 {0}"
+          "SourceString": "#도전 차원진: 타락의 심연 완료{0}",
+          "LocalizedString": "#도전 차원진: 타락의 심연 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2611,8 +2611,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_028_TitleText",
-          "SourceString": "#도전 차원진: 거상의 궁전 완료 {0}",
-          "LocalizedString": "#도전 차원진: 거상의 궁전 완료 {0}"
+          "SourceString": "#도전 차원진: 거상의 궁전 완료{0}",
+          "LocalizedString": "#도전 차원진: 거상의 궁전 완료{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
@@ -2633,7 +2633,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_029_TitleText",
-          "SourceString": "소지품 챙기세요 {0}",
+          "SourceString": "소지품 챙기세요{0}",
           "LocalizedString": "Gather Your Belongings {0}"
         },
         "Description": {
@@ -2655,7 +2655,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_030_TitleText",
-          "SourceString": "산불 조심 {0}",
+          "SourceString": "산불 조심{0}",
           "LocalizedString": "Beware of Wildfire {0}"
         },
         "Description": {
@@ -2677,7 +2677,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_031_TitleText",
-          "SourceString": "무거워 보여서 도와준거야 {0}",
+          "SourceString": "무거워 보여서 도와준거야{0}",
           "LocalizedString": "Just Wanted to Share the Load {0}"
         },
         "Description": {
@@ -2699,7 +2699,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_032_TitleText",
-          "SourceString": "손버릇을 고쳐주마 {0}",
+          "SourceString": "손버릇을 고쳐주마{0}",
           "LocalizedString": "I'll Fix Your Sticky Fingers {0}"
         },
         "Description": {
@@ -2721,14 +2721,14 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_033_TitleText",
-          "SourceString": "오래오래 행복하게 잘 살아야 한다~ {0}",
+          "SourceString": "오래오래 행복하게 잘 살아야 한다~{0}",
           "LocalizedString": "May You Live Happily Ever After! {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_033_Description",
           "SourceString": "베르칸트 장원에서 고양이의 선물 조작",
-          "LocalizedString": "Interact with Cat's Gift in the Bercant Estate"
+          "LocalizedString": "Interact with Cat's Gift in the Bercant Manor"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_050.icon_achv_050",
@@ -2743,7 +2743,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_034_TitleText",
-          "SourceString": "정신 좀 차려보세요 {0}",
+          "SourceString": "정신 좀 차려보세요{0}",
           "LocalizedString": "Get a Hold of Yourself {0}"
         },
         "Description": {
@@ -2765,7 +2765,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_035_TitleText",
-          "SourceString": "환상회랑 정복자 {0}",
+          "SourceString": "환상회랑 정복자{0}",
           "LocalizedString": "Conqueror of the Hall of Illusion {0}"
         },
         "Description": {
@@ -2787,7 +2787,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_036_TitleText",
-          "SourceString": "환상회랑: 일반 정복자 {0}",
+          "SourceString": "환상회랑: 일반 정복자{0}",
           "LocalizedString": "Hall of Illusion: Normal Conqueror {0}"
         },
         "Description": {
@@ -2809,7 +2809,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_037_TitleText",
-          "SourceString": "환상회랑: 숙련 정복자 {0}",
+          "SourceString": "환상회랑: 숙련 정복자{0}",
           "LocalizedString": "Hall of Illusion: Difficult Conqueror {0}"
         },
         "Description": {
@@ -2831,7 +2831,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_038_TitleText",
-          "SourceString": "환상회랑: 극한 정복자 {0}",
+          "SourceString": "환상회랑: 극한 정복자{0}",
           "LocalizedString": "Hall of Illusion: Nightmare Conqueror {0}"
         },
         "Description": {
@@ -2853,7 +2853,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_039_TitleText",
-          "SourceString": "고래의 선물 {0}",
+          "SourceString": "고래의 선물{0}",
           "LocalizedString": "The Whale's Gift {0}"
         },
         "Description": {
@@ -2875,7 +2875,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_040_TitleText",
-          "SourceString": "구름을 가르는 고래 {0}",
+          "SourceString": "구름을 가르는 고래{0}",
           "LocalizedString": "The Cloud Parting Whale {0}"
         },
         "Description": {
@@ -2897,7 +2897,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World2.TLStringAchievementLooks_World2",
           "Key": "achv_world2_accumulation_041_TitleText",
-          "SourceString": "바람만 있으면 어디든 갈 수 있어 {0}",
+          "SourceString": "바람만 있으면 어디든 갈 수 있어{0}",
           "LocalizedString": "Travel the World with Just a Breeze {0}"
         },
         "Description": {

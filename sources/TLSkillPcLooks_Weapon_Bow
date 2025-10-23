@@ -684,6 +684,253 @@
         },
         "UseFloaterSummation": false
       },
+      "WP_Item_ArcBoss_T2_BO_02": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+          "Key": "TEXT_RES_SKILL_NAME_WP_BO_S_TornadoShot",
+          "SourceString": "소용돌이 화살",
+          "LocalizedString": "Arrow Vortex"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_BO_TornadoShot.S_WP_BO_TornadoShot",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+              "Key": "TEXT_SKILL_DESC_WP_BO_TornadoShot",
+              "SourceString": "지정한 방향으로 화살을 날려 처음 명중한 적에게 기본 피해의 $[BO_TornadoShot_DD.tooltip1]% 만큼 피해를 주고 대상을 중심으로 반경 3m 내 모든 적의 이동 속도를 ^<c=@SkillTooltipChange>$[BO_TornadoShot_SpeedDown.tooltip1]%^</c> 감소시킵니다. 2초 뒤 기본 피해의 $[BO_TornadoShot_DD.tooltip1]% 만큼 피해를 한 번 더 주면서 $[BO_TornadoShot_BringOn_Rate.tooltip1]% 확률로 영역 내 모든 적에게 영역의 중심을 향해 ^<c=@SkillTooltipAbnormal>충돌: 당겨옴^</c> 효과를 줍니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다. 당겨진 적은 $[BO_TornadoShot_SpeedDown_Duration.tooltip1]초 동안 이동 속도가 ^<c=@SkillTooltipChange>$[BO_TornadoShot_SpeedDown.tooltip1]%^</c> 감소합니다.",
+              "LocalizedString": "Fires an arrow at the target location, dealing $[BO_TornadoShot_DD.tooltip1]% of Base Damage to the first enemy hit and reducing Movement Speed by ^<c=@SkillTooltipChange>$[BO_TornadoShot_SpeedDown.tooltip1]%^</c> within a 3m radius around the target. After 2s, applies ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> with a(n) $[BO_TornadoShot_DD.tooltip1]% chance to pull all enemies within range to the center while inflicting an additional damage that is equal to $[BO_TornadoShot_BringOn_Rate.tooltip1]% of the Base Damage. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied. The pulled enemies have their Movement Speed decreased by ^<c=@SkillTooltipChange>$[BO_TornadoShot_SpeedDown.tooltip1]%^</c> for $[BO_TornadoShot_SpeedDown_Duration.tooltip1]s."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_MOVESPEED_DOWN",
+                    "SourceString": "이동 속도 감소",
+                    "LocalizedString": "Movement Speed ▼"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_TornadoShot",
+                    "SourceString": "$[BO_TornadoShot_SpeedDown.tooltip1]%",
+                    "LocalizedString": "$[BO_TornadoShot_SpeedDown.tooltip1]%"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_MOVESPEED_DOWN",
+              "SourceString": "이동 속도 감소",
+              "LocalizedString": "Movement Speed ▼"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_TornadoShot",
+              "SourceString": "$[BO_TornadoShot_SpeedDown.tooltip1]%",
+              "LocalizedString": "$[BO_TornadoShot_SpeedDown.tooltip1]%"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 7,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::Box3D",
+          "TwoDepthIndicatorHeight": "BO_Indicator_50_200",
+          "TwoDepthIndicatorLength": "CastRange_TargetAreaRange_Projectile_WithWind",
+          "TwoDepthIndicatorWidth": "Range_Constant_140",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Bow/AT_SKILL_WP_BO_S_TornadoShot.AT_SKILL_WP_BO_S_TornadoShot",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnFrontToBack",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "WP_BO_S_DropShot": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
@@ -705,8 +952,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_DropShot",
-              "SourceString": "하늘로 쏘아진 1발의 화살이 잠시 후 지정한 위치로 떨어지며 반경 3m 내의 모든 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% + $[BO_DropShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 영역의 중심으로부터 1m 내의 대상에게 적중하면 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% + $[BO_DropShot_InnerDD.tooltip2]^</c> 만큼 피해를 주고, 맹폭 화살의 재사용 시간이 $[BO_DropShot_Inner_CoolDown.tooltip1]초 감소합니다. ^<c=@SkillTooltipAbnormal>기절, 속박^</c> 대상에게는 피해량이 $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% 증폭됩니다. 몬스터에게는 피해량이 $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
-              "LocalizedString": "Drops a single arrow at a selected location, dealing ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% of Base Damage + $[BO_DropShot_DD.tooltip2]^</c> damage to all targets within a 3m radius. Hitting targets within 1m from the center deals ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% of Base Damage + $[BO_DropShot_InnerDD.tooltip2]^</c> damage and decreases Brutal Arrow's cooldown by $[BO_DropShot_Inner_CoolDown.tooltip1]s. The Damage increases by $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% for ^<c=@SkillTooltipAbnormal>Stunned or Bound^</c> enemies. Against monsters, the damage increases by $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]%."
+              "SourceString": "하늘로 쏘아진 1발의 화살이 잠시 후 지정한 위치로 떨어지며 반경 3m 내의 모든 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% + $[BO_DropShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 영역의 중심으로부터 1m 내의 대상에게 적중하면 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% + $[BO_DropShot_InnerDD.tooltip2]^</c> 만큼 피해를 주고, 맹폭 화살의 재사용 시간이 $[BO_DropShot_Inner_CoolDown.tooltip1]초 감소합니다. ^<c=@SkillTooltipAbnormal>기절, 속박, 억압^</c> 대상에게는 피해량이 $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% 증폭됩니다. 몬스터에게는 피해량이 $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Drops a single arrow at a selected location, dealing ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% of Base Damage + $[BO_DropShot_DD.tooltip2]^</c> damage to all targets within a 3m radius. Hitting targets within 1m from the center deals ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% of Base Damage + $[BO_DropShot_InnerDD.tooltip2]^</c> damage and decreases Brutal Arrow's cooldown by $[BO_DropShot_Inner_CoolDown.tooltip1]s. Increases damage by $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% for ^<c=@SkillTooltipAbnormal>Bound, Oppressed, or Stunned^</c> enemies. Against monsters, increases damage by $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]%."
             }
           }
         ],
@@ -7050,7 +7297,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_TRAIT_2_RANK_DESC_WP_BO_BindShot",
               "SourceString": "내가 적용한 ^<c=@SkillTooltipChange>표적^</c> 대상 공격 시 ^<c=@SkillTooltipChange>표적^</c> 효과를 소모하여 1중첩 당 ^<c=@SkillTooltipChange>속박, 억압^</c> 효과의 지속 시간이 $[BO_BindShot_Trait2_Bind_AdjustDuration_01.tooltip1]초 증가합니다.",
-              "LocalizedString": "On attacking targets with ^<c=@SkillTooltipChange>Bullseye^</c> stacks applied by the user, consumes 1 ^<c=@SkillTooltipChange>Bullseye^</c> stack to increase the Duration of ^<c=@SkillTooltipChange>Bind and Oppress^</c> by $[BO_BindShot_Trait2_Bind_AdjustDuration_01.tooltip1]s."
+              "LocalizedString": "On hitting targets with ^<c=@SkillTooltipChange>Bullseye^</c> stacks applied by you, consumes all ^<c=@SkillTooltipChange>Bullseye^</c> stacks to increase the Duration of ^<c=@SkillTooltipChange>Bind and Oppress^</c> by $[BO_BindShot_Trait2_Bind_AdjustDuration_01.tooltip1]s per stack."
             }
           }
         ],
@@ -7118,7 +7365,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
           "Key": "TEXT_TRAIT_2_TRAIT_DESC_WP_BO_BindShot",
           "SourceString": "표적 대상 속박, 억압 지속 시간 증가",
-          "LocalizedString": "Bind and Oppression Duration increases against targets with Bullseye stacks"
+          "LocalizedString": "Bind and Oppression Duration increases against targets affected by Bullseye stacks"
         },
         "UnAvailableSkillHandle": {
           "RowName": "None"
@@ -15574,7 +15821,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_TRAIT_3_RANK_DESC_WP_BO_StrongShot",
               "SourceString": "^<c=@SkillTooltipChange>표적^</c> 대상 공격 시 ^<c=@SkillTooltipChange>표적^</c> 효과를 소모하여 1중첩 당 남은 재사용 시간이 ^<c=@SkillTooltipChange>$[BO_StrongShot_Trait3_CoolDown_01.tooltip1]%^</c> 감소합니다.",
-              "LocalizedString": "Attacking the target with ^<c=@SkillTooltipChange>Bullseye^</c> stacks consumes 1 ^<c=@SkillTooltipChange>Bullseye^</c> stack, and the remaining cooldown decreases by ^<c=@SkillTooltipChange>$[BO_StrongShot_Trait3_CoolDown_01.tooltip1]%^</c> per stack."
+              "LocalizedString": "Hitting a target affected with ^<c=@SkillTooltipChange>Bullseye^</c> stacks consumes 1 ^<c=@SkillTooltipChange>Bullseye^</c> stack to decrease the remaining cooldown by ^<c=@SkillTooltipChange>$[BO_StrongShot_Trait3_CoolDown_01.tooltip1]%^</c> per remaining stacks."
             }
           }
         ],
@@ -23511,8 +23758,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindAccuracyBoost",
-              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다.",
-              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1] upon attacking ^</c>^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다. 추가적으로 대상을 ^<c=@SkillTooltipAbnormal>억압^</c> 상태로 만들 때 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>초간 치명타 피해가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> when attacking a ^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> target. Additionally, when applying ^<c=@SkillTooltipAbnormal>Oppress^</c> to a target, increases Critical Damage by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> for ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>s."
             }
           }
         ],
@@ -23758,8 +24005,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindAccuracyBoost",
-              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다.",
-              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1] upon attacking ^</c>^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다. 추가적으로 대상을 ^<c=@SkillTooltipAbnormal>억압^</c> 상태로 만들 때 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>초간 치명타 피해가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> when attacking a ^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> target. Additionally, when applying ^<c=@SkillTooltipAbnormal>Oppress^</c> to a target, increases Critical Damage by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> for ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>s."
             }
           }
         ],
@@ -23784,6 +24031,20 @@
                     "SourceString": "$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]",
                     "LocalizedString": "$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]"
                   }
+                },
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_CRITICALDAMAGE_UP",
+                    "SourceString": "치명타 피해 증가",
+                    "LocalizedString": "Critical Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_2_WP_BO_BindAccuracyBoost",
+                    "SourceString": "$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%",
+                    "LocalizedString": "$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%"
+                  }
                 }
               ]
             }
@@ -23802,6 +24063,20 @@
               "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_BindAccuracyBoost",
               "SourceString": "$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]",
               "LocalizedString": "$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]"
+            }
+          },
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_ALL_CRITICALDAMAGE_UP",
+              "SourceString": "치명타 피해 증가",
+              "LocalizedString": "Critical Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_2_WP_BO_BindAccuracyBoost",
+              "SourceString": "$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%",
+              "LocalizedString": "$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%"
             }
           }
         ],
@@ -24005,8 +24280,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindAccuracyBoost",
-              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다.",
-              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1] upon attacking ^</c>^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> targets."
+              "SourceString": "^<c=@SkillTooltipAbnormal>속박^</c> 또는 ^<c=@SkillTooltipAbnormal>억압^</c> 대상을 공격할 때 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> 증가합니다. 추가적으로 대상을 ^<c=@SkillTooltipAbnormal>억압^</c> 상태로 만들 때 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>초간 치명타 피해가 ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_RangeAccuracyUp.tooltip1]^</c> when attacking a ^<c=@SkillTooltipAbnormal>Bound^</c> or ^<c=@SkillTooltipAbnormal>Oppressed^</c> target. Additionally, when applying ^<c=@SkillTooltipAbnormal>Oppress^</c> to a target, increases Critical Damage by ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_CriticalDamageDealtModifier.tooltip1]%^</c> for ^<c=@SkillTooltipChange>$[BO_BindAccuracyBoost_Duration.tooltip1]^</c>s."
             }
           }
         ],
@@ -27800,8 +28075,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_DropShot",
-              "SourceString": "하늘로 쏘아진 1발의 화살이 잠시 후 지정한 위치로 떨어지며 반경 3m 내의 모든 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% + $[BO_DropShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 영역의 중심으로부터 1m 내의 대상에게 적중하면 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% + $[BO_DropShot_InnerDD.tooltip2]^</c> 만큼 피해를 주고, 맹폭 화살의 재사용 시간이 $[BO_DropShot_Inner_CoolDown.tooltip1]초 감소합니다. ^<c=@SkillTooltipAbnormal>기절, 속박^</c> 대상에게는 피해량이 $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% 증폭됩니다. 몬스터에게는 피해량이 $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
-              "LocalizedString": "Drops a single arrow at a selected location, dealing ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% of Base Damage + $[BO_DropShot_DD.tooltip2]^</c> damage to all targets within a 3m radius. Hitting targets within 1m from the center deals ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% of Base Damage + $[BO_DropShot_InnerDD.tooltip2]^</c> damage and decreases Brutal Arrow's cooldown by $[BO_DropShot_Inner_CoolDown.tooltip1]s. The Damage increases by $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% for ^<c=@SkillTooltipAbnormal>Stunned or Bound^</c> enemies. Against monsters, the damage increases by $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]%."
+              "SourceString": "하늘로 쏘아진 1발의 화살이 잠시 후 지정한 위치로 떨어지며 반경 3m 내의 모든 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% + $[BO_DropShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 영역의 중심으로부터 1m 내의 대상에게 적중하면 기본 피해의 ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% + $[BO_DropShot_InnerDD.tooltip2]^</c> 만큼 피해를 주고, 맹폭 화살의 재사용 시간이 $[BO_DropShot_Inner_CoolDown.tooltip1]초 감소합니다. ^<c=@SkillTooltipAbnormal>기절, 속박, 억압^</c> 대상에게는 피해량이 $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% 증폭됩니다. 몬스터에게는 피해량이 $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Drops a single arrow at a selected location, dealing ^<c=@SkillTooltipChange>$[BO_DropShot_DD.tooltip1]% of Base Damage + $[BO_DropShot_DD.tooltip2]^</c> damage to all targets within a 3m radius. Hitting targets within 1m from the center deals ^<c=@SkillTooltipChange>$[BO_DropShot_InnerDD.tooltip1]% of Base Damage + $[BO_DropShot_InnerDD.tooltip2]^</c> damage and decreases Brutal Arrow's cooldown by $[BO_DropShot_Inner_CoolDown.tooltip1]s. Increases damage by $[BO_DropShot_DD_StunBind_Tooltip.tooltip1]% for ^<c=@SkillTooltipAbnormal>Bound, Oppressed, or Stunned^</c> enemies. Against monsters, increases damage by $[BO_DropShot_InnerDD_NPC_Tooltip.tooltip1]%."
             }
           }
         ],
@@ -31596,7 +31871,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -31843,7 +32118,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -32090,7 +32365,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -32831,7 +33106,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -33078,7 +33353,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -33819,7 +34094,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -34066,7 +34341,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -34313,7 +34588,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -35054,7 +35329,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -35301,7 +35576,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -36042,7 +36317,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -36783,7 +37058,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -37030,7 +37305,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -37771,7 +38046,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -38018,7 +38293,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -38759,7 +39034,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -39006,7 +39281,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -39747,7 +40022,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -39994,7 +40269,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -40241,7 +40516,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],
@@ -40488,7 +40763,7 @@
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_PowerShot_Legend",
               "SourceString": "모으기 시간에 비례하여 스킬의 효과가 증가합니다. 기본 피해의 ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% + $[BO_PowerShot_Charge_DD.tooltip2]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 보호막 적용 중인 대상에게는 피해량이 $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]% 증폭됩니다. 적중 시 $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]초 동안 근거리, 원거리, 마법 치명타가 ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c> ~ ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c> 증가합니다.",
-              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage +$[BO_PowerShot_Charge_DD.tooltip2BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
+              "LocalizedString": "The skill's effect increases in proportion to charge time. Deals ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2]^</c> damage, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Charge_DD.tooltip1*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]% of Base Damage + $[BO_PowerShot_Charge_DD.tooltip2*BO_PowerShot_Charge_DD.max/BO_PowerShot_Charge_DD.min,1,%D]^</c> damage. Increases damage against monsters by $[BO_PowerShot_Charge_DD_Boss_Tooltip.tooltip1]% and against shielded targets by $[BO_PowerShot_Charge_Shield_DamageUp.tooltip1]%. On hit, increases Magic, Melee, and Ranged Critical Hit Chance by ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip1]^</c>, up to ^<c=@SkillTooltipChange>$[BO_PowerShot_Hero_CriticalChance_Up.tooltip2]^</c>, for $[BO_PowerShot_Hero_CriticalChance_Up_Duration.tooltip1]s."
             }
           }
         ],

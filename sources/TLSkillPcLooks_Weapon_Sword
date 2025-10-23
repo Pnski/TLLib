@@ -5709,8 +5709,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_SkillSet_WP_SW_SH_S_BuffAttack_trait_1",
-              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nWhen hit, store received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, and the effect is removed.\nFor 3s after the effect is removed, Shield Block Chance increases by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c>."
+              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n반격 피해 적중 시 $[SW_BuffAttack_DamageDown_Duration.tooltip1]초 동안 추가 피해량이 $[SW_BuffAttack_DamageDown.tooltip1] 감소합니다. 최대 20중첩\r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nOn a successful counterattack hit, reduces Bonus Damage by $[SW_BuffAttack_DamageDown.tooltip1] for $[SW_BuffAttack_DamageDown_Duration.tooltip1]s. Stacks up to 20 times.\nWhen hit, stores received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, then removes the effect.\nIncreases Shield Block Chance by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> for 3s after the effect is removed."
             }
           }
         ],
@@ -21112,8 +21112,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_SkillSet_WP_SW_SH_S_BuffAttack_trait_1",
-              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nWhen hit, store received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, and the effect is removed.\nFor 3s after the effect is removed, Shield Block Chance increases by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c>."
+              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n반격 피해 적중 시 $[SW_BuffAttack_DamageDown_Duration.tooltip1]초 동안 추가 피해량이 $[SW_BuffAttack_DamageDown.tooltip1] 감소합니다. 최대 20중첩\r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nOn a successful counterattack hit, reduces Bonus Damage by $[SW_BuffAttack_DamageDown.tooltip1] for $[SW_BuffAttack_DamageDown_Duration.tooltip1]s. Stacks up to 20 times.\nWhen hit, stores received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, then removes the effect.\nIncreases Shield Block Chance by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> for 3s after the effect is removed."
             }
           }
         ],
@@ -21359,8 +21359,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_SkillSet_WP_SW_SH_S_BuffAttack_trait_1",
-              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nWhen hit, store received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, and the effect is removed.\nFor 3s after the effect is removed, Shield Block Chance increases by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c>."
+              "SourceString": "6초 동안 공격 거리의 1.35배(원거리 및 마법은 3.3배) 이내에서 공격을 회피, 방패 방어하거나 방어 스킬로 막으면 공격자에게 피해량 경감의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> 만큼 반격 피해를 줍니다. 반격 피해는 치명타와 강타 적중이 적용되지 않습니다. \r\n반격 피해 적중 시 $[SW_BuffAttack_DamageDown_Duration.tooltip1]초 동안 추가 피해량이 $[SW_BuffAttack_DamageDown.tooltip1] 감소합니다. 최대 20중첩\r\n피격 시 받은 피해를 최대 체력의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> 만큼 축적하고, 6초 이내에 재사용 시, 공격 거리 내의 모든 적에게 축적된 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> + 기본 피해의 ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> 만큼 피해를 주고 효과가 사라집니다.\r\n효과가 사라진 이후 3초 동안 방패 방어 확률이 ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "For 6s, on evading an attack, using Shield Block, or blocking with a Defense Skill within 1.35 times the Attack Range (3.3 times for Magic and Ranged), performs a counterattack that deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_DD.tooltip1]%^</c> of Damage Reduction as damage to the attacker. The counterattack cannot trigger Critical Hits or Heavy Attacks.\nOn a successful counterattack hit, reduces Bonus Damage by $[SW_BuffAttack_DamageDown.tooltip1] for $[SW_BuffAttack_DamageDown_Duration.tooltip1]s. Stacks up to 20 times.\nWhen hit, stores received damage up to ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation.tooltip1]%^</c> of Max Health, and when reused within 6s, deals ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DamageAccumulation_DD_Ratio.tooltip1]%^</c> of stored damage + ^<c=@SkillTooltipChange>$[SH_BuffAttack_trait1_DD.tooltip1]%^</c> of Base Damage to all enemies within Attack Range, then removes the effect.\nIncreases Shield Block Chance by ^<c=@SkillTooltipChange>$[SH_BuffAttack_BlockRate.tooltip1]%^</c> for 3s after the effect is removed."
             }
           }
         ],
@@ -27834,6 +27834,253 @@
         },
         "UseFloaterSummation": false
       },
+      "WP_SW_SH_S_PullSkill_Hero_trait1_ArchBoss_T2_SW_02": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_NAME_SkillSet_WP_SW_SH_S_PullSkill_trait_1",
+          "SourceString": "장악의 갈퀴",
+          "LocalizedString": "Controlling Rake"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_MoveSkill_SP.S_WP_SW_MoveSkill_SP",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1",
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+                    "SourceString": "재사용 대기 시간 감소",
+                    "LocalizedString": "Cooldown ▼"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_RARE_WP_SW_SH_S_PullSkill",
+                    "SourceString": "$[SW_GrabAttack_CoolDown.tooltip1]초",
+                    "LocalizedString": "$[SW_GrabAttack_CoolDown.tooltip1]s"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+              "SourceString": "재사용 대기 시간 감소",
+              "LocalizedString": "Cooldown ▼"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_RARE_WP_SW_SH_S_PullSkill",
+              "SourceString": "$[SW_GrabAttack_CoolDown.tooltip1]초",
+              "LocalizedString": "$[SW_GrabAttack_CoolDown.tooltip1]s"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 4,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::Box3D",
+          "TwoDepthIndicatorHeight": "DA_CR_Indicator_50_200",
+          "TwoDepthIndicatorLength": "SW_GrabAttack_Target_Range",
+          "TwoDepthIndicatorWidth": "Range_Constant_400",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_WP_SW_SH_S_PullSkill_ArcBoss_T2_SW_01.AT_SKILL_WP_SW_SH_S_PullSkill_ArcBoss_T2_SW_01",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnFrontToBack",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "WP_SW_SH_S_PullSkill_Hero_trait1_3": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
@@ -28082,6 +28329,253 @@
         "UseFloaterSummation": false
       },
       "WP_SW_SH_S_PullSkill_Hero_trait1_3_ArchBoss_T2_SW_01": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_NAME_SkillSet_WP_SW_SH_S_PullSkill_trait_1",
+          "SourceString": "장악의 갈퀴",
+          "LocalizedString": "Controlling Rake"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_MoveSkill_SP.S_WP_SW_MoveSkill_SP",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1_3",
+              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+                    "SourceString": "재사용 대기 시간 감소",
+                    "LocalizedString": "Cooldown ▼"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_RARE_WP_SW_SH_S_PullSkill",
+                    "SourceString": "$[SW_GrabAttack_CoolDown.tooltip1]초",
+                    "LocalizedString": "$[SW_GrabAttack_CoolDown.tooltip1]s"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+              "SourceString": "재사용 대기 시간 감소",
+              "LocalizedString": "Cooldown ▼"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_RARE_WP_SW_SH_S_PullSkill",
+              "SourceString": "$[SW_GrabAttack_CoolDown.tooltip1]초",
+              "LocalizedString": "$[SW_GrabAttack_CoolDown.tooltip1]s"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 4,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::Box3D",
+          "TwoDepthIndicatorHeight": "DA_CR_Indicator_50_200",
+          "TwoDepthIndicatorLength": "SW_GrabAttack_Target_Range",
+          "TwoDepthIndicatorWidth": "Range_Constant_400",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_WP_SW_SH_S_PullSkill_ArcBoss_T2_SW_01.AT_SKILL_WP_SW_SH_S_PullSkill_ArcBoss_T2_SW_01",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnFrontToBack",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_SH_S_PullSkill_Hero_trait1_3_ArchBoss_T2_SW_02": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
           "Key": "TEXT_NAME_SkillSet_WP_SW_SH_S_PullSkill_trait_1",

@@ -56707,52 +56707,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kCollideAmplification",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kWeakenAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -56763,52 +56763,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kWeakenAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kPetrificationAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -56819,52 +56819,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kStunAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCollideAmplification",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -56875,52 +56875,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kStunAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCollideAmplification",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -56931,52 +56931,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kBindAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kWeakenAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -56987,52 +56987,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kStunAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCollideAmplification",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -57043,52 +57043,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kSilenceAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kBindAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -57099,52 +57099,52 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kWeakenAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kSleepAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]
@@ -66858,52 +66858,556 @@
         "RandomStatCandidates": [
           {
             "ItemStatType": "EItemStats::kAllAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kAllCriticalAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kAllDoubleAttack",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kHpMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kHpRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostMax",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kCostRegen",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 667
           },
           {
             "ItemStatType": "EItemStats::kSkillCooldownModifier",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 333
           },
           {
             "ItemStatType": "EItemStats::kCollideAmplification",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
             "Probability": 1750
           },
           {
             "ItemStatType": "EItemStats::kWeakenAccuracy",
-            "BaseSeed": 2,
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "bow_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "sword2h_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "crossbow_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "staff_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "dagger_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "sword_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "wand_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "spear_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1750
+          }
+        ]
+      },
+      "orb_aa_t3_upgrade_arch_001": {
+        "BaseValueId": "trait_resonance_Weapon",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kAllAccuracy",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kAllCriticalAttack",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kAllDoubleAttack",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 667
+          },
+          {
+            "ItemStatType": "EItemStats::kSkillCooldownModifier",
+            "BaseSeed": 3,
+            "Probability": 333
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1750
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
             "Probability": 1750
           }
         ]

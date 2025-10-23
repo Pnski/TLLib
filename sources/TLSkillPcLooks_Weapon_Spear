@@ -16571,7 +16571,427 @@
         },
         "UseFloaterSummation": true
       },
+      "WP_SP_S_CrossAttack_ArchBoss_T2_SP_02": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
+          "Key": "TEXT_SKILL_NAME_WP_SP_CrossAttack",
+          "SourceString": "십자 베기",
+          "LocalizedString": "Rising Slash"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SP_CrossAttack.S_WP_SP_CrossAttack",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
+              "Key": "TEXT_SKILL_DESC_WP_SP_CrossAttack",
+              "SourceString": "지정한 대상에게 돌진하며 3회 공격합니다. 각 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD.tooltip1]% + $[SP_CrossAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SP_CrossAttack_DD_NPC_ToolTip.tooltip1]% 증폭됩니다. $[SP_CrossAttack_ContextSkill_Duration.tooltip1]초 내 1회 추가 사용할 수 있습니다. 추가 사용 시 마지막 피해는 대상에게 내가 건 ^<c=@SkillTooltipAbnormal>파열, 발화^</c>를 폭파시켜 ^<c=@SkillTooltipAbnormal>파열, 발화^</c> 1중첩 당 ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD_Debuff1_bp.tooltip1]%^</c> 증폭된 피해를 주고 제거시킵니다. 추가 사용 시 적의 후방을 향해 사용할 경우 치명타가 $[SP_CrossAttack_CriticalUp.tooltip1] 증가합니다.",
+              "LocalizedString": "Dashes toward the designated target and attacks 3 times. Each attack deals ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD.tooltip1]% of Base Damage + $[SP_CrossAttack_DD.tooltip2]^</c>. Damage increases by $[SP_CrossAttack_DD_NPC_ToolTip.tooltip1]% against monsters. Can be used 1 additional time within $[SP_CrossAttack_ContextSkill_Duration.tooltip1]s. Upon additional use, the last hit explodes ^<c=@SkillTooltipAbnormal>Burst or Ignite^</c> stacks on the target deals ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD_Debuff1_bp.tooltip1]%^</c> more damage per ^<c=@SkillTooltipAbnormal>Burst or Ignite^</c> stack. For the additional use, Critical Hit Chance increases by $[SP_CrossAttack_CriticalUp.tooltip1] when used towards the target's back."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [],
+        "SkillTooltipOptionList": [],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 8,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "SP_CrossAttack_Range",
+          "TwoDepthIndicatorWidth": "Range_Constant_200",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Spear/AT_WP_Item_ArchBoss_T2_SP_01.AT_WP_Item_ArchBoss_T2_SP_01",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 60.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 60.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 85.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 95.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
       "WP_SP_S_CrossAttack_ArchBoss_T2_SP_01_Finish": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
+          "Key": "TEXT_SKILL_NAME_WP_SP_CrossAttack",
+          "SourceString": "십자 베기",
+          "LocalizedString": "Rising Slash"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SP_CrossAttack.S_WP_SP_CrossAttack",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
+              "Key": "TEXT_SKILL_DESC_WP_SP_CrossAttack",
+              "SourceString": "지정한 대상에게 돌진하며 3회 공격합니다. 각 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD.tooltip1]% + $[SP_CrossAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SP_CrossAttack_DD_NPC_ToolTip.tooltip1]% 증폭됩니다. $[SP_CrossAttack_ContextSkill_Duration.tooltip1]초 내 1회 추가 사용할 수 있습니다. 추가 사용 시 마지막 피해는 대상에게 내가 건 ^<c=@SkillTooltipAbnormal>파열, 발화^</c>를 폭파시켜 ^<c=@SkillTooltipAbnormal>파열, 발화^</c> 1중첩 당 ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD_Debuff1_bp.tooltip1]%^</c> 증폭된 피해를 주고 제거시킵니다. 추가 사용 시 적의 후방을 향해 사용할 경우 치명타가 $[SP_CrossAttack_CriticalUp.tooltip1] 증가합니다.",
+              "LocalizedString": "Dashes toward the designated target and attacks 3 times. Each attack deals ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD.tooltip1]% of Base Damage + $[SP_CrossAttack_DD.tooltip2]^</c>. Damage increases by $[SP_CrossAttack_DD_NPC_ToolTip.tooltip1]% against monsters. Can be used 1 additional time within $[SP_CrossAttack_ContextSkill_Duration.tooltip1]s. Upon additional use, the last hit explodes ^<c=@SkillTooltipAbnormal>Burst or Ignite^</c> stacks on the target deals ^<c=@SkillTooltipChange>$[SP_CrossAttack_DD_Debuff1_bp.tooltip1]%^</c> more damage per ^<c=@SkillTooltipAbnormal>Burst or Ignite^</c> stack. For the additional use, Critical Hit Chance increases by $[SP_CrossAttack_CriticalUp.tooltip1] when used towards the target's back."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [],
+        "SkillTooltipOptionList": [],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 8,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "SP_CrossAttack_Range",
+          "TwoDepthIndicatorWidth": "Range_Constant_200",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Spear/AT_WP_Item_ArchBoss_T2_SP_01_Finish.AT_WP_Item_ArchBoss_T2_SP_01_Finish",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 120.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 120.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 85.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 95.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
+      "WP_SP_S_CrossAttack_ArchBoss_T2_SP_02_Finish": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
           "Key": "TEXT_SKILL_NAME_WP_SP_CrossAttack",

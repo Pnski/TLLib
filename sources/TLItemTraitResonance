@@ -15410,6 +15410,231 @@
         "FeatureTag": {
           "FeatureTag": "ETLFeatureTag::BASE_LH"
         }
+      },
+      "bow_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "bow_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "sword2h_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "sword2h_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "crossbow_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "crossbow_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "staff_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "staff_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "dagger_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "dagger_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "sword_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "sword_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "wand_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "wand_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "spear_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "spear_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "orb_aa_t3_upgrade_arch_001": {
+        "RandomStatGroupId": "orb_aa_t3_upgrade_arch_001",
+        "OpenCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 600000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
       }
     }
   }

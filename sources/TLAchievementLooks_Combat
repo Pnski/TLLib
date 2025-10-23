@@ -59,7 +59,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheSword_Title",
-          "SourceString": "철벽 파괴자 {0}",
+          "SourceString": "철벽 파괴자{0}",
           "LocalizedString": "Fortress Destroyer {0}"
         },
         "Description": {
@@ -81,7 +81,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillThePC",
-          "SourceString": "절멸자 {0}",
+          "SourceString": "절멸자{0}",
           "LocalizedString": "Exterminator {0}"
         },
         "Description": {
@@ -125,7 +125,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheSword2h_Title",
-          "SourceString": "거검 파괴자 {0}",
+          "SourceString": "거검 파괴자{0}",
           "LocalizedString": "The Great Sword Destroyer {0}"
         },
         "Description": {
@@ -147,7 +147,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheDagger_Title",
-          "SourceString": "그림자 척살자 {0}",
+          "SourceString": "그림자 척살자{0}",
           "LocalizedString": "Shadow Exterminator {0}"
         },
         "Description": {
@@ -169,7 +169,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheCrossBow_Title",
-          "SourceString": "추적자 사냥꾼 {0}",
+          "SourceString": "추적자 사냥꾼{0}",
           "LocalizedString": "Hunter of Hunters {0}"
         },
         "Description": {
@@ -191,7 +191,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheBow_Title",
-          "SourceString": "저격 심판자 {0}",
+          "SourceString": "저격 심판자{0}",
           "LocalizedString": "Bow Before Me {0}"
         },
         "Description": {
@@ -213,7 +213,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheStaff_Title",
-          "SourceString": "마도 봉인자 {0}",
+          "SourceString": "마도 봉인자{0}",
           "LocalizedString": "Sealing the Magic {0}"
         },
         "Description": {
@@ -235,7 +235,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheWand_Title",
-          "SourceString": "성역 종결자 {0}",
+          "SourceString": "성역 종결자{0}",
           "LocalizedString": "Sanctuary Terminator {0}"
         },
         "Description": {
@@ -257,7 +257,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheSpear_Title",
-          "SourceString": "선봉 분쇄자 {0}",
+          "SourceString": "선봉 분쇄자{0}",
           "LocalizedString": "Spearheading Their Defeat {0}"
         },
         "Description": {
@@ -279,7 +279,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_KillTheOrb_Title",
-          "SourceString": "수호 종결자 {0}",
+          "SourceString": "수호 종결자{0}",
           "LocalizedString": "Guardian Terminator {0}"
         },
         "Description": {
@@ -301,7 +301,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Sword_1",
-          "SourceString": "무적 배포기 {0}",
+          "SourceString": "무적 배포기{0}",
           "LocalizedString": "Everyone's Invincible! {0}"
         },
         "Description": {
@@ -323,7 +323,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Sword2h_1",
-          "SourceString": "방패 대신 양손검 {0}",
+          "SourceString": "방패 대신 양손검{0}",
           "LocalizedString": "Two Hands, No Shield {0}"
         },
         "Description": {
@@ -345,7 +345,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Dagger_1",
-          "SourceString": "닌자 계약직 {0}",
+          "SourceString": "닌자 계약직{0}",
           "LocalizedString": "Part-Time Ninja {0}"
         },
         "Description": {
@@ -367,7 +367,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_CrossBow_1",
-          "SourceString": "내 주변은 금지구역 {0}",
+          "SourceString": "내 주변은 금지구역{0}",
           "LocalizedString": "Respect My Personal Space {0}"
         },
         "Description": {
@@ -389,7 +389,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Bow_1",
-          "SourceString": "끝없는 되감기의 굴레 {0}",
+          "SourceString": "끝없는 되감기의 굴레{0}",
           "LocalizedString": "Again, Again, Again! {0}"
         },
         "Description": {
@@ -411,7 +411,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Staff_1",
-          "SourceString": "운빨이 아니라 운석빨 {0}",
+          "SourceString": "운빨이 아니라 운석빨{0}",
           "LocalizedString": "It's So Meteover {0}"
         },
         "Description": {
@@ -433,7 +433,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Wand_1",
-          "SourceString": "체력 주입 완료 {0}",
+          "SourceString": "체력 주입 완료{0}",
           "LocalizedString": "Who Needs Doctors? {0}"
         },
         "Description": {
@@ -455,7 +455,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Spear_1",
-          "SourceString": "하늘 찍고 옵니다 {0}",
+          "SourceString": "하늘 찍고 옵니다{0}",
           "LocalizedString": "I Believe I Can Fly {0}"
         },
         "Description": {
@@ -477,7 +477,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_UseSkill_Orb_1",
-          "SourceString": "안 아프게 맞는 법 {0}",
+          "SourceString": "안 아프게 맞는 법{0}",
           "LocalizedString": "No Pain, No... What? {0}"
         },
         "Description": {
@@ -499,7 +499,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_JustPerfectDefence",
-          "SourceString": "찰나를 가르는 예술 {0}",
+          "SourceString": "찰나를 가르는 예술{0}",
           "LocalizedString": "Perfectionist {0}"
         },
         "Description": {
@@ -521,7 +521,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_monster_kill_dot",
-          "SourceString": "느리지만 확실하게 {0}",
+          "SourceString": "느리지만 확실하게{0}",
           "LocalizedString": "Enjoy While It Lasts {0}"
         },
         "Description": {
@@ -543,7 +543,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_Get_Unique_Weapon",
-          "SourceString": "황금빛 무기고 {0}",
+          "SourceString": "황금빛 무기고{0}",
           "LocalizedString": "Golden Arsenal {0}"
         },
         "Description": {
@@ -565,7 +565,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_Get_Unique_Armor",
-          "SourceString": "오늘도 방어구 쇼핑 중 {0}",
+          "SourceString": "오늘도 방어구 쇼핑 중{0}",
           "LocalizedString": "Windo—I Mean, Armor Shopping {0}"
         },
         "Description": {
@@ -587,7 +587,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_Get_Unique_Acc",
-          "SourceString": "패션 완성형 고객 {0}",
+          "SourceString": "패션 완성형 고객{0}",
           "LocalizedString": "Fashionably Perfect {0}"
         },
         "Description": {

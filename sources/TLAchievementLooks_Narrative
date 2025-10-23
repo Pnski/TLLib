@@ -264,7 +264,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
           "Key": "achv_narrative_Adv_011_Description",
           "SourceString": "모험 코덱스 11막. 마법사들의 발자취 완료",
-          "LocalizedString": "Complete Adventure Codex Chapter 11: Wizard's Traces"
+          "LocalizedString": "Complete Adventure Codex Chapter 11: Wizards' Traces"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_001.icon_achv_001",
@@ -2418,9 +2418,9 @@
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
-          "Key": "achv_narrative_Exp_SG_A07_02_Description",
-          "SourceString": "쥬노보트가 남긴 두 번째 시험 통과",
-          "LocalizedString": "Pass the second test left by Junobote"
+          "Key": "achv_narrative_Exp_SG_A07_01_Description",
+          "SourceString": "쥬노보트가 남긴 첫 번째 시험 통과",
+          "LocalizedString": "Pass the first test left by Junobote"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_002.icon_achv_002",
@@ -2440,9 +2440,9 @@
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
-          "Key": "achv_narrative_Exp_SG_A07_01_Description",
-          "SourceString": "쥬노보트가 남긴 첫 번째 시험 통과",
-          "LocalizedString": "Pass the first test left by Junobote"
+          "Key": "achv_narrative_Exp_SG_A07_02_Description",
+          "SourceString": "쥬노보트가 남긴 두 번째 시험 통과",
+          "LocalizedString": "Pass the second test left by Junobote"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_002.icon_achv_002",
@@ -2590,13 +2590,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
           "Key": "achv_narrative_Exp_TL_A05_Clear_TitleText",
           "SourceString": "베르칸트 장원 탐사 ",
-          "LocalizedString": "Bercant Estate Exploration "
+          "LocalizedString": "Bercant Manor Exploration "
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
           "Key": "achv_narrative_Exp_TL_A05_Clear_Description",
           "SourceString": "베르칸트 장원 탐사 완료",
-          "LocalizedString": "Bercant Estate exploration complete"
+          "LocalizedString": "Bercant Manor exploration complete"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_002.icon_achv_002",
@@ -4262,13 +4262,13 @@
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
           "Key": "achv_narrative_Collection_016_Complete_TitleText",
           "SourceString": "베르칸트 장원의 이야기꾼",
-          "LocalizedString": "Storyteller of the Bercant Estate"
+          "LocalizedString": "Storyteller of the Bercant Manor"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
           "Key": "achv_narrative_Collection_016_Complete_Description",
           "SourceString": "수집 코덱스 베르칸트 장원 인근 편 수집 완료",
-          "LocalizedString": "Complete Collection Codex: Near Bercant Estate Collection"
+          "LocalizedString": "Complete Collection Codex: Near Bercant Manor Collection"
         },
         "IconImage": {
           "AssetPathName": "/Game/Image/Achievement/icon_achv_005.icon_achv_005",

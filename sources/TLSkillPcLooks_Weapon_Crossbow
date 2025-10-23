@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLSkillPcLooks_Weapon_Crossbow",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLInfoSkillPcLooks'",
@@ -6960,8 +6960,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_TRAIT_4_RANK_DESC_WP_CR_Step",
-              "SourceString": "사용 시 0.5초 동안 ^<c=@SkillTooltipChange>기절^</c>, ^<c=@SkillTooltipChange>충돌^</c>, ^<c=@SkillTooltipChange>속박^</c>, ^<c=@SkillTooltipChange>수면^</c>에 면역 상태가 됩니다.",
-              "LocalizedString": "Become immune to ^<c=@SkillTooltipChange>Bind^</c>, ^<c=@SkillTooltipChange>Collision^</c>, ^<c=@SkillTooltipChange>Sleep^</c>, and ^<c=@SkillTooltipChange>Stun^</c> for 0.5s upon use."
+              "SourceString": "사용 시 0.5초 동안 ^<c=@SkillTooltipChange>기절^</c>, ^<c=@SkillTooltipChange>충돌^</c>, ^<c=@SkillTooltipChange>속박^</c>, ^<c=@SkillTooltipChange>수면^</c>에 면역 상태가 됩니다. 3초의 재사용 대기 시간을 가집니다.",
+              "LocalizedString": "Becomes immune to ^<c=@SkillTooltipChange>Bind^</c>, ^<c=@SkillTooltipChange>Collision^</c>, ^<c=@SkillTooltipChange>Sleep^</c>, and ^<c=@SkillTooltipChange>Stun^</c> for 0.5s upon use. Cooldown: 3s"
             }
           }
         ],
@@ -9942,8 +9942,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_TRAIT_3_RANK_DESC_WP_CR_WeakPointShot",
-              "SourceString": "받는 보호막 생명력이 $[CR_WeakPointShot_ShieldTakenModifier.tooltip1]% 감소합니다.",
-              "LocalizedString": "Decreases Shield Health Received by $[CR_WeakPointShot_ShieldTakenModifier.tooltip1]%."
+              "SourceString": "받는 보호막 생명력이 $[CR_WeakPointShot_ShieldTakenModifier.tooltip1]% 감소합니다. 대상이 보호막 상태일 경우 $[CR_WeakPointShot_Trait3_DD.tooltip1]%만큼의 고정 피해를 입힙니다.",
+              "LocalizedString": "Decreases Shield Health Received by $[CR_WeakPointShot_ShieldTakenModifier.tooltip1]%. If the target is already Shielded, deals fixed $[CR_WeakPointShot_Trait3_DD.tooltip1]% fixed damage."
             }
           }
         ],

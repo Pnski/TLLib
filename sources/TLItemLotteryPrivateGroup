@@ -4020,6 +4020,141 @@
           }
         ]
       },
+      "EA_L07_PD_021_kNormal_01_DimensionalTrial_Box": {
+        "Name": "EA_L07_PD_021_kNormal_01_DimensionalTrial_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_Calanthia_6232",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T3",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "DimensionalTrial_Equip_Common_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_022_kNormal_01_DimensionalTrial_Box": {
+        "Name": "EA_L07_PD_022_kNormal_01_DimensionalTrial_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_DeathBringer_6164",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T3",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "DimensionalTrial_Equip_Common_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_023_kNormal_01_DimensionalTrial_Box": {
+        "Name": "EA_L07_PD_023_kNormal_01_DimensionalTrial_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "MagicDoll_DHog_6223",
+            "Count": 1,
+            "prob": 330000
+          },
+          {
+            "id": "Adventure_Token_T3",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "dungeon_point_stone_1800P_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "weapon_specialization_charger_100000",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "DimensionalTrial_Equip_Common_01",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_027_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "material_food_main_032_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "EA_L07_PD_020_kNormal_01_Normal_Box": {
         "Name": "EA_L07_PD_020_kNormal_01_Normal_Box",
         "ItemLotteryPrivateGroupEntry": [
@@ -4041,6 +4176,31 @@
           {
             "id": "Package_Abundance_Gift_Box_001",
             "Count": 5,
+            "prob": 10000000
+          }
+        ]
+      },
+      "EA_L07_PD_020_kNormal_01_Normal_2025_Box": {
+        "Name": "EA_L07_PD_020_kNormal_01_Normal_2025_Box",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "EA_L07_PD_020_kNormal_01_Normal_2025_Group_A",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "EA_L07_PD_020_kNormal_01_Normal_2025_Group_B",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "2025_Event_Halloween_Dimennsion_Pumpkin_001",
+            "Count": 15,
+            "prob": 10000000
+          },
+          {
+            "id": "2025_Event_Halloween_JackPumpkinPiece_001",
+            "Count": 1,
             "prob": 10000000
           }
         ]

@@ -37,7 +37,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_001_TitleText",
-          "SourceString": "전설의 품격을 입히다 {0}",
+          "SourceString": "전설의 품격을 입히다{0}",
           "LocalizedString": "Legendary Spender {0}"
         },
         "Description": {
@@ -59,7 +59,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_002_TitleText",
-          "SourceString": "슬슬 지갑이 얇아진다 {0}",
+          "SourceString": "슬슬 지갑이 얇아진다{0}",
           "LocalizedString": "It's a Bottomless Coin Purse, Right? {0}"
         },
         "Description": {
@@ -81,7 +81,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_003_TitleText",
-          "SourceString": "여기 물건이 좋네요 {0}",
+          "SourceString": "여기 물건이 좋네요{0}",
           "LocalizedString": "You've Got Some Nice Stuff {0}"
         },
         "Description": {
@@ -103,7 +103,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_004_TitleText",
-          "SourceString": "특성에 진심인 편 {0}",
+          "SourceString": "특성에 진심인 편{0}",
           "LocalizedString": "Devoted to Traits {0}"
         },
         "Description": {
@@ -125,7 +125,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_005_TitleText",
-          "SourceString": "연금술 투자자 {0}",
+          "SourceString": "연금술 투자자{0}",
           "LocalizedString": "Invest in Alchemy! It's Better Than Gold! {0}"
         },
         "Description": {
@@ -147,7 +147,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_006_TitleText",
-          "SourceString": "티끌모아 태산 {0}",
+          "SourceString": "티끌모아 태산{0}",
           "LocalizedString": "Many a Little Makes a Mickle {0}"
         },
         "Description": {
@@ -169,7 +169,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_007_TitleText",
-          "SourceString": "쏠쏠한 일당 {0}",
+          "SourceString": "쏠쏠한 일당{0}",
           "LocalizedString": "Decent Day's Pay {0}"
         },
         "Description": {
@@ -191,7 +191,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_008_TitleText",
-          "SourceString": "장사의 신 {0}",
+          "SourceString": "장사의 신{0}",
           "LocalizedString": "God of Commerce {0}"
         },
         "Description": {
@@ -213,7 +213,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_009_TitleText",
-          "SourceString": "의뢰의 대가 {0}",
+          "SourceString": "의뢰의 대가{0}",
           "LocalizedString": "Contractual Obligations {0}"
         },
         "Description": {
@@ -235,7 +235,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_010_TitleText",
-          "SourceString": "어디에 썼더라 {0}",
+          "SourceString": "어디에 썼더라{0}",
           "LocalizedString": "Coin Well Spent {0}"
         },
         "Description": {
@@ -257,7 +257,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_011_TitleText",
-          "SourceString": "길드 활동의 결실 {0}",
+          "SourceString": "길드 활동의 결실{0}",
           "LocalizedString": "Fruits of Labor {0}"
         },
         "Description": {
@@ -279,7 +279,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_012_TitleText",
-          "SourceString": "길드는 나를 강하게 하네~ {0}",
+          "SourceString": "길드는 나를 강하게 하네~{0}",
           "LocalizedString": "Guild Financing {0}"
         },
         "Description": {
@@ -301,7 +301,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_013_TitleText",
-          "SourceString": "은근히 쓸 데가 많아요 {0}",
+          "SourceString": "은근히 쓸 데가 많아요{0}",
           "LocalizedString": "It All Adds Up {0}"
         },
         "Description": {
@@ -323,7 +323,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_014_TitleText",
-          "SourceString": "마일리지 대방출 {0}",
+          "SourceString": "마일리지 대방출{0}",
           "LocalizedString": "Loyalty Point Spree {0}"
         },
         "Description": {
@@ -345,7 +345,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_015_TitleText",
-          "SourceString": "다시 살아온 전설 {0}",
+          "SourceString": "다시 살아온 전설{0}",
           "LocalizedString": "Legend Reborn {0}"
         },
         "Description": {
@@ -367,7 +367,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_016_TitleText",
-          "SourceString": "잎새를 태운 자 {0}",
+          "SourceString": "잎새를 태운 자{0}",
           "LocalizedString": "Burn That Sollant {0}"
         },
         "Description": {
@@ -389,7 +389,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_017_TitleText",
-          "SourceString": "힐링이 필요해 {0}",
+          "SourceString": "힐링이 필요해{0}",
           "LocalizedString": "I Need Healing {0}"
         },
         "Description": {
@@ -411,7 +411,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_018_TitleText",
-          "SourceString": "살고 싶다고 말 해 {0}",
+          "SourceString": "살고 싶다고 말 해{0}",
           "LocalizedString": "So Where Do You Live? {0}"
         },
         "Description": {
@@ -433,7 +433,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_019_TitleText",
-          "SourceString": "쏴라! {0}",
+          "SourceString": "쏴라!{0}",
           "LocalizedString": "Fire! {0}"
         },
         "Description": {
@@ -455,7 +455,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_020_TitleText",
-          "SourceString": "약발이 잘 받는 날 {0}",
+          "SourceString": "약발이 잘 받는 날{0}",
           "LocalizedString": "Potion Addiction {0}"
         },
         "Description": {
@@ -477,7 +477,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_021_TitleText",
-          "SourceString": "공격력은 약발로 {0}",
+          "SourceString": "공격력은 약발로{0}",
           "LocalizedString": "Powered by Potions: Offense {0}"
         },
         "Description": {
@@ -499,7 +499,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_022_TitleText",
-          "SourceString": "방어력도 약발로 {0}",
+          "SourceString": "방어력도 약발로{0}",
           "LocalizedString": "Powered by Potions: Defense {0}"
         },
         "Description": {
@@ -521,7 +521,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_023_TitleText",
-          "SourceString": "깨끗하게 한 잔 {0}",
+          "SourceString": "깨끗하게 한 잔{0}",
           "LocalizedString": "Chug! Chug! Chug! {0}"
         },
         "Description": {
@@ -543,7 +543,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_024_TitleText",
-          "SourceString": "궁극의 영약 {0}",
+          "SourceString": "궁극의 영약{0}",
           "LocalizedString": "Ultimate Remedy {0}"
         },
         "Description": {
@@ -565,7 +565,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_025_TitleText",
-          "SourceString": "푸드 파이터 {0}",
+          "SourceString": "푸드 파이터{0}",
           "LocalizedString": "Food Fight! {0}"
         },
         "Description": {
@@ -587,7 +587,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_026_TitleText",
-          "SourceString": "흑흑.... 맛있었다. 오늘 밥은. {0}",
+          "SourceString": "흑흑.... 맛있었다. 오늘 밥은.{0}",
           "LocalizedString": "A Meal to Cry For {0}"
         },
         "Description": {
@@ -609,7 +609,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_027_TitleText",
-          "SourceString": "골라요 골라 {0}",
+          "SourceString": "골라요 골라{0}",
           "LocalizedString": "You Can Never Go Wrong {0}"
         },
         "Description": {
@@ -631,7 +631,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_028_TitleText",
-          "SourceString": "못 골라요 못 골라 {0}",
+          "SourceString": "못 골라요 못 골라{0}",
           "LocalizedString": "You Can Sometimes Go Wrong {0}"
         },
         "Description": {
@@ -653,7 +653,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_029_TitleText",
-          "SourceString": "첫 번째 계약 {0}",
+          "SourceString": "첫 번째 계약{0}",
           "LocalizedString": "First Contract {0}"
         },
         "Description": {
@@ -675,7 +675,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_030_TitleText",
-          "SourceString": "두 번째 계약 {0}",
+          "SourceString": "두 번째 계약{0}",
           "LocalizedString": "Second Contract {0}"
         },
         "Description": {
@@ -697,7 +697,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_031_TitleText",
-          "SourceString": "첫 망치질 {0}",
+          "SourceString": "첫 망치질{0}",
           "LocalizedString": "First Swing of the Hammer {0}"
         },
         "Description": {
@@ -719,7 +719,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_032_TitleText",
-          "SourceString": "희귀한 장비의 흔적 {0}",
+          "SourceString": "희귀한 장비의 흔적{0}",
           "LocalizedString": "Traces of Rare Equipment {0}"
         },
         "Description": {
@@ -741,7 +741,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_033_TitleText",
-          "SourceString": "더 희귀한 장비의 흔적 {0}",
+          "SourceString": "더 희귀한 장비의 흔적{0}",
           "LocalizedString": "Traces of Even Rarer Equipment {0}"
         },
         "Description": {
@@ -763,7 +763,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_034_TitleText",
-          "SourceString": "진귀한 장비의 흔적 {0}",
+          "SourceString": "진귀한 장비의 흔적{0}",
           "LocalizedString": "Traces of Precious Equipment {0}"
         },
         "Description": {
@@ -785,7 +785,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_035_TitleText",
-          "SourceString": "더 진귀한 장비의 흔적 {0}",
+          "SourceString": "더 진귀한 장비의 흔적{0}",
           "LocalizedString": "Traces of Even More Precious Equipment {0}"
         },
         "Description": {
@@ -807,7 +807,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_036_TitleText",
-          "SourceString": "장검을 더 강하게 {0}",
+          "SourceString": "장검을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Sword {0}"
         },
         "Description": {
@@ -829,7 +829,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_037_TitleText",
-          "SourceString": "대검을 더 강하게 {0}",
+          "SourceString": "대검을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Greatsword {0}"
         },
         "Description": {
@@ -851,7 +851,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_038_TitleText",
-          "SourceString": "단검을 더 강하게 {0}",
+          "SourceString": "단검을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Daggers {0}"
         },
         "Description": {
@@ -873,7 +873,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_039_TitleText",
-          "SourceString": "석궁을 더 강하게 {0}",
+          "SourceString": "석궁을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Crossbows {0}"
         },
         "Description": {
@@ -895,7 +895,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_040_TitleText",
-          "SourceString": "장궁을 더 강하게 {0}",
+          "SourceString": "장궁을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Longbow {0}"
         },
         "Description": {
@@ -917,7 +917,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_041_TitleText",
-          "SourceString": "지팡이를 더 강하게 {0}",
+          "SourceString": "지팡이를 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Staff {0}"
         },
         "Description": {
@@ -939,7 +939,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_042_TitleText",
-          "SourceString": "마법봉을 더 강하게 {0}",
+          "SourceString": "마법봉을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Wand {0}"
         },
         "Description": {
@@ -961,7 +961,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_043_TitleText",
-          "SourceString": "창을 더 강하게 {0}",
+          "SourceString": "창을 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Spear {0}"
         },
         "Description": {
@@ -983,7 +983,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_044_TitleText",
-          "SourceString": "마력구를 더 강하게 {0}",
+          "SourceString": "마력구를 더 강하게{0}",
           "LocalizedString": "Behold, My Big Beautiful Orb {0}"
         },
         "Description": {
@@ -1005,7 +1005,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_045_TitleText",
-          "SourceString": "투구를 더 튼튼하게 {0}",
+          "SourceString": "투구를 더 튼튼하게{0}",
           "LocalizedString": "Better Headpiece {0}"
         },
         "Description": {
@@ -1027,7 +1027,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_046_TitleText",
-          "SourceString": "상의를 더 튼튼하게 {0}",
+          "SourceString": "상의를 더 튼튼하게{0}",
           "LocalizedString": "Better Chest Armor {0}"
         },
         "Description": {
@@ -1049,7 +1049,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_047_TitleText",
-          "SourceString": "하의를 더 튼튼하게 {0}",
+          "SourceString": "하의를 더 튼튼하게{0}",
           "LocalizedString": "Better Leg Armor {0}"
         },
         "Description": {
@@ -1071,7 +1071,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_048_TitleText",
-          "SourceString": "장갑을 더 튼튼하게 {0}",
+          "SourceString": "장갑을 더 튼튼하게{0}",
           "LocalizedString": "Better Gloves {0}"
         },
         "Description": {
@@ -1093,7 +1093,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_049_TitleText",
-          "SourceString": "신발을 더 튼튼하게 {0}",
+          "SourceString": "신발을 더 튼튼하게{0}",
           "LocalizedString": "Better Shoes {0}"
         },
         "Description": {
@@ -1115,7 +1115,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_050_TitleText",
-          "SourceString": "망토를 더 튼튼하게 {0}",
+          "SourceString": "망토를 더 튼튼하게{0}",
           "LocalizedString": "Better Cloaks {0}"
         },
         "Description": {
@@ -1137,7 +1137,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_051_TitleText",
-          "SourceString": "목걸이를 더 화려하게 {0}",
+          "SourceString": "목걸이를 더 화려하게{0}",
           "LocalizedString": "Fancier Necklaces {0}"
         },
         "Description": {
@@ -1159,7 +1159,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_052_TitleText",
-          "SourceString": "팔찌를 더 화려하게 {0}",
+          "SourceString": "팔찌를 더 화려하게{0}",
           "LocalizedString": "Fancier Bracelets {0}"
         },
         "Description": {
@@ -1181,7 +1181,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_053_TitleText",
-          "SourceString": "반지를 더 화려하게 {0}",
+          "SourceString": "반지를 더 화려하게{0}",
           "LocalizedString": "Fancier Rings {0}"
         },
         "Description": {
@@ -1203,7 +1203,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_054_TitleText",
-          "SourceString": "허리띠를 더 화려하게 {0}",
+          "SourceString": "허리띠를 더 화려하게{0}",
           "LocalizedString": "Fancier Belts {0}"
         },
         "Description": {
@@ -1225,7 +1225,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_055_TitleText",
-          "SourceString": "귀걸이를 더 화려하게 {0}",
+          "SourceString": "귀걸이를 더 화려하게{0}",
           "LocalizedString": "Fancier Earrings {0}"
         },
         "Description": {
@@ -1247,7 +1247,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_056_TitleText",
-          "SourceString": "타오르는 불꽃 {0}",
+          "SourceString": "타오르는 불꽃{0}",
           "LocalizedString": "Blazing Flames {0}"
         },
         "Description": {
@@ -1269,7 +1269,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_057_TitleText",
-          "SourceString": "강철의 울림 {0}",
+          "SourceString": "강철의 울림{0}",
           "LocalizedString": "Resonance of Steel {0}"
         },
         "Description": {
@@ -1291,7 +1291,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_058_TitleText",
-          "SourceString": "끝없는 담금질 {0}",
+          "SourceString": "끝없는 담금질{0}",
           "LocalizedString": "Endless Tempering {0}"
         },
         "Description": {
@@ -1313,7 +1313,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_059_TitleText",
-          "SourceString": "신의 망치질 {0}",
+          "SourceString": "신의 망치질{0}",
           "LocalizedString": "Godly Hammering {0}"
         },
         "Description": {
@@ -1335,7 +1335,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_060_TitleText",
-          "SourceString": "운도 실력 {0}",
+          "SourceString": "운도 실력{0}",
           "LocalizedString": "Even Luck Takes Skill {0}"
         },
         "Description": {
@@ -1357,7 +1357,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_061_TitleText",
-          "SourceString": "장비의 숨결 {0}",
+          "SourceString": "장비의 숨결{0}",
           "LocalizedString": "Breathing New Life {0}"
         },
         "Description": {
@@ -1379,7 +1379,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_062_TitleText",
-          "SourceString": "힘을 숨긴 장비 {0}",
+          "SourceString": "힘을 숨긴 장비{0}",
           "LocalizedString": "Power Hidden Within {0}"
         },
         "Description": {
@@ -1401,8 +1401,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_063_TitleText",
-          "SourceString": "숨겨진 힘에 불을 붙이다 {0}",
-          "LocalizedString": "Power Hidden Within {0}"
+          "SourceString": "숨겨진 힘에 불을 붙이다{0}",
+          "LocalizedString": "Light the Power Hidden Within {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1423,7 +1423,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_064_TitleText",
-          "SourceString": "장비의 발현 {0}",
+          "SourceString": "장비의 발현{0}",
           "LocalizedString": "Manifestation of Power {0}"
         },
         "Description": {
@@ -1445,7 +1445,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_065_TitleText",
-          "SourceString": "진귀한 힘의 파동 {0}",
+          "SourceString": "진귀한 힘의 파동{0}",
           "LocalizedString": "Resonating With Power {0}"
         },
         "Description": {
@@ -1467,7 +1467,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_066_TitleText",
-          "SourceString": "새로운 장비에 숨결 계승 {0}",
+          "SourceString": "새로운 장비에 숨결 계승{0}",
           "LocalizedString": "Pass It Forward {0}"
         },
         "Description": {
@@ -1489,8 +1489,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_067_TitleText",
-          "SourceString": "장비의 마지막 임무 {0}",
-          "LocalizedString": "All Equipment Go to Heaven {0}"
+          "SourceString": "장비의 마지막 임무{0}",
+          "LocalizedString": "All Equipment Goes to Heaven {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1511,7 +1511,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_068_TitleText",
-          "SourceString": "운명을 맞이한 장비 {0}",
+          "SourceString": "운명을 맞이한 장비{0}",
           "LocalizedString": "What Is My Purpose? {0}"
         },
         "Description": {
@@ -1533,8 +1533,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_069_TitleText",
-          "SourceString": "우수한 장비의 마지막 임무 {0}",
-          "LocalizedString": "All Uncommon Equipment Go to Heaven {0}"
+          "SourceString": "우수한 장비의 마지막 임무{0}",
+          "LocalizedString": "All Uncommon Equipment Goes to Heaven {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1555,8 +1555,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_070_TitleText",
-          "SourceString": "희귀한 장비의 마지막 임무 {0}",
-          "LocalizedString": "All Rare Equipment Go to Heaven {0}"
+          "SourceString": "희귀한 장비의 마지막 임무{0}",
+          "LocalizedString": "All Rare Equipment Goes to Heaven {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1577,8 +1577,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_071_TitleText",
-          "SourceString": "진귀한 장비의 마지막 임무 {0}",
-          "LocalizedString": "All Epic Equipment Go to Heaven {0}"
+          "SourceString": "진귀한 장비의 마지막 임무{0}",
+          "LocalizedString": "All Epic Equipment Goes to Heaven {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1599,7 +1599,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_072_TitleText",
-          "SourceString": "소소하지만 확실한 제작 {0}",
+          "SourceString": "소소하지만 확실한 제작{0}",
           "LocalizedString": "Coming Right Up {0}"
         },
         "Description": {
@@ -1621,7 +1621,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_073_TitleText",
-          "SourceString": "제작의 신이 오늘은 내 편 {0}",
+          "SourceString": "제작의 신이 오늘은 내 편{0}",
           "LocalizedString": "I'm Beginning to Feel Like a Craft God {0}"
         },
         "Description": {
@@ -1643,7 +1643,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_074_TitleText",
-          "SourceString": "장비 탄생의 순간 {0}",
+          "SourceString": "장비 탄생의 순간{0}",
           "LocalizedString": "An Equipment Is Born {0}"
         },
         "Description": {
@@ -1665,7 +1665,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_075_TitleText",
-          "SourceString": "장비 탄생의 순간, 신이 속삭이다 {0}",
+          "SourceString": "장비 탄생의 순간, 신이 속삭이다{0}",
           "LocalizedString": "An Equipment Is Born Gleaming {0}"
         },
         "Description": {
@@ -1687,7 +1687,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_076_TitleText",
-          "SourceString": "대장간의 불꽃 쇼 {0}",
+          "SourceString": "대장간의 불꽃 쇼{0}",
           "LocalizedString": "Let the Sparks Hit the Floor {0}"
         },
         "Description": {
@@ -1709,7 +1709,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_077_TitleText",
-          "SourceString": "장비 탄생의 순간, 신이 오늘은 검을 빚었다 {0}",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 검을 빚었다{0}",
           "LocalizedString": "A Weapon Is Born Gleaming {0}"
         },
         "Description": {
@@ -1731,7 +1731,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_078_TitleText",
-          "SourceString": "철갑의 예술 {0}",
+          "SourceString": "철갑의 예술{0}",
           "LocalizedString": "Iron Out Those Kinks {0}"
         },
         "Description": {
@@ -1753,7 +1753,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_079_TitleText",
-          "SourceString": "장비 탄생의 순간, 신이 오늘은 갑주를 빚었다 {0}",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 갑주를 빚었다{0}",
           "LocalizedString": "An Armor is Born Gleaming {0}"
         },
         "Description": {
@@ -1775,7 +1775,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_080_TitleText",
-          "SourceString": "보석 세공사 {0}",
+          "SourceString": "보석 세공사{0}",
           "LocalizedString": "Gemcutter {0}"
         },
         "Description": {
@@ -1797,7 +1797,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_081_TitleText",
-          "SourceString": "장비 탄생의 순간, 신이 오늘은 반지를 빚었다 {0}",
+          "SourceString": "장비 탄생의 순간, 신이 오늘은 반지를 빚었다{0}",
           "LocalizedString": "A Ring is Born Gleaming {0}"
         },
         "Description": {
@@ -1819,7 +1819,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_082_TitleText",
-          "SourceString": "기술 다듬기 {0}",
+          "SourceString": "기술 다듬기{0}",
           "LocalizedString": "Honing Your Skills {0}"
         },
         "Description": {
@@ -1841,7 +1841,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_083_TitleText",
-          "SourceString": "기술의 수련 {0}",
+          "SourceString": "기술의 수련{0}",
           "LocalizedString": "Perfecting Your Skills {0}"
         },
         "Description": {
@@ -1863,7 +1863,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_084_TitleText",
-          "SourceString": "궁극의 수련 {0}",
+          "SourceString": "궁극의 수련{0}",
           "LocalizedString": "Mastering Your Skills {0}"
         },
         "Description": {
@@ -1885,7 +1885,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_085_TitleText",
-          "SourceString": "먼 길 떠난 아미토이 {0}",
+          "SourceString": "먼 길 떠난 아미토이{0}",
           "LocalizedString": "I'll Be Back {0}"
         },
         "Description": {
@@ -1907,7 +1907,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_086_TitleText",
-          "SourceString": "원정으로 단련된 아미토이 {0}",
+          "SourceString": "원정으로 단련된 아미토이{0}",
           "LocalizedString": "Expedition Amitoi {0}"
         },
         "Description": {
@@ -1929,7 +1929,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_087_TitleText",
-          "SourceString": "이 정도는 할 줄 알아 {0}",
+          "SourceString": "이 정도는 할 줄 알아{0}",
           "LocalizedString": "Yes, Chef! {0}"
         },
         "Description": {
@@ -1951,7 +1951,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_088_TitleText",
-          "SourceString": "이븐하게 익었네요 {0}",
+          "SourceString": "이븐하게 익었네요{0}",
           "LocalizedString": "Evenly Cooked {0}"
         },
         "Description": {
@@ -1973,8 +1973,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_089_TitleText",
-          "SourceString": "오늘의 한 상 차림 {0}",
-          "LocalizedString": "Top It off With a Thin Wafer {0}"
+          "SourceString": "오늘의 한 상 차림{0}",
+          "LocalizedString": "Top It off with a Thin Wafer {0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -1995,7 +1995,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_090_TitleText",
-          "SourceString": "둘이 먹다 하나 죽어도 {0}",
+          "SourceString": "둘이 먹다 하나 죽어도{0}",
           "LocalizedString": "Stand Proud, You Can Cook {0}"
         },
         "Description": {
@@ -2017,7 +2017,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_091_TitleText",
-          "SourceString": "손맛 숙련도 상승 중 {0}",
+          "SourceString": "손맛 숙련도 상승 중{0}",
           "LocalizedString": "Homemade Is Where It's At {0}"
         },
         "Description": {
@@ -2061,7 +2061,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_093_TitleText",
-          "SourceString": "오늘도 재료 줍줍 {0}",
+          "SourceString": "오늘도 재료 줍줍{0}",
           "LocalizedString": "A Dash of This, a Pinch of That {0}"
         },
         "Description": {
@@ -2083,7 +2083,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_094_TitleText",
-          "SourceString": "공격 룬 수집 대작전 {0}",
+          "SourceString": "공격 룬 수집 대작전{0}",
           "LocalizedString": "Mission: Attack Rune Collection {0}"
         },
         "Description": {
@@ -2105,7 +2105,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_095_TitleText",
-          "SourceString": "방어 룬 수집 대작전 {0}",
+          "SourceString": "방어 룬 수집 대작전{0}",
           "LocalizedString": "Mission: Defense Rune Collection {0}"
         },
         "Description": {
@@ -2127,7 +2127,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_096_TitleText",
-          "SourceString": "지원 룬 수집 대작전 {0}",
+          "SourceString": "지원 룬 수집 대작전{0}",
           "LocalizedString": "Mission: Support Rune Collection {0}"
         },
         "Description": {
@@ -2149,7 +2149,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_097_TitleText",
-          "SourceString": "최고의 공격 룬을 향해 {0}",
+          "SourceString": "최고의 공격 룬을 향해{0}",
           "LocalizedString": "An Attack Rune Like No Other {0}"
         },
         "Description": {
@@ -2171,7 +2171,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_098_TitleText",
-          "SourceString": "최고의 방어 룬을 향해 {0}",
+          "SourceString": "최고의 방어 룬을 향해{0}",
           "LocalizedString": "A Defense Rune Like No Other {0}"
         },
         "Description": {
@@ -2193,7 +2193,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_099_TitleText",
-          "SourceString": "최고의 지원 룬을 향해 {0}",
+          "SourceString": "최고의 지원 룬을 향해{0}",
           "LocalizedString": "A Support Rune Like No Other {0}"
         },
         "Description": {
@@ -2215,7 +2215,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_100_TitleText",
-          "SourceString": "혼돈 룬 수집 대작전 {0}",
+          "SourceString": "혼돈 룬 수집 대작전{0}",
           "LocalizedString": "Mission: Chaos Rune Collection {0}"
         },
         "Description": {
@@ -2237,7 +2237,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_101_TitleText",
-          "SourceString": "장터의 제왕 {0}",
+          "SourceString": "장터의 제왕{0}",
           "LocalizedString": "King of the Marketplace {0}"
         },
         "Description": {
@@ -2259,7 +2259,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_102_TitleText",
-          "SourceString": "셰프의 주식 상장 {0}",
+          "SourceString": "셰프의 주식 상장{0}",
           "LocalizedString": "Chef Executive Officer {0}"
         },
         "Description": {
@@ -2281,7 +2281,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_103_TitleText",
-          "SourceString": "거상 {0}",
+          "SourceString": "거상{0}",
           "LocalizedString": "Tycoon {0}"
         },
         "Description": {
@@ -2303,8 +2303,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_104_TitleText",
-          "SourceString": "#거래소 보석 판매 성공 {0}",
-          "LocalizedString": "#거래소 보석 판매 성공 {0}"
+          "SourceString": "#거래소 보석 판매 성공{0}",
+          "LocalizedString": "#거래소 보석 판매 성공{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -2325,7 +2325,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_105_TitleText",
-          "SourceString": "쇼퍼홀릭 {0}",
+          "SourceString": "쇼퍼홀릭{0}",
           "LocalizedString": "Shopaholic {0}"
         },
         "Description": {
@@ -2347,7 +2347,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_106_TitleText",
-          "SourceString": "나는 아직 배가 고프다 {0}",
+          "SourceString": "나는 아직 배가 고프다{0}",
           "LocalizedString": "I Require Sustenance {0}"
         },
         "Description": {
@@ -2369,8 +2369,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_107_TitleText",
-          "SourceString": "#거래소 추출물 구매 {0}",
-          "LocalizedString": "#거래소 추출물 구매 {0}"
+          "SourceString": "#거래소 추출물 구매{0}",
+          "LocalizedString": "#거래소 추출물 구매{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -2391,8 +2391,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_108_TitleText",
-          "SourceString": "#거래소 보석 구매 {0}",
-          "LocalizedString": "#거래소 보석 구매 {0}"
+          "SourceString": "#거래소 보석 구매{0}",
+          "LocalizedString": "#거래소 보석 구매{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -2413,8 +2413,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_109_TitleText",
-          "SourceString": "#가방 슬롯 칸 달성 {0}",
-          "LocalizedString": "#가방 슬롯 칸 달성 {0}"
+          "SourceString": "#가방 슬롯 칸 달성{0}",
+          "LocalizedString": "#가방 슬롯 칸 달성{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -2435,8 +2435,8 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_110_TitleText",
-          "SourceString": "#창고 슬롯 칸 달성 {0}",
-          "LocalizedString": "#창고 슬롯 칸 달성 {0}"
+          "SourceString": "#창고 슬롯 칸 달성{0}",
+          "LocalizedString": "#창고 슬롯 칸 달성{0}"
         },
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
@@ -2457,7 +2457,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_111_TitleText",
-          "SourceString": "탁본집 완성의 끝을 향해 {0}",
+          "SourceString": "탁본집 완성의 끝을 향해{0}",
           "LocalizedString": "99 Problems and a Lithograph Ain't One {0}"
         },
         "Description": {
@@ -2479,7 +2479,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_112_TitleText",
-          "SourceString": "연금술의 첫걸음 {0}",
+          "SourceString": "연금술의 첫걸음{0}",
           "LocalizedString": "Alchemical Baby Steps {0}"
         },
         "Description": {
@@ -2501,7 +2501,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_113_TitleText",
-          "SourceString": "1단계 연금술 {0}",
+          "SourceString": "1단계 연금술{0}",
           "LocalizedString": "Alchemy Stage 1 {0}"
         },
         "Description": {
@@ -2523,7 +2523,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_114_TitleText",
-          "SourceString": "2단계 연금술 {0}",
+          "SourceString": "2단계 연금술{0}",
           "LocalizedString": "Alchemy Stage 2 {0}"
         },
         "Description": {
@@ -2545,7 +2545,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_115_TitleText",
-          "SourceString": "3단계 연금술 {0}",
+          "SourceString": "3단계 연금술{0}",
           "LocalizedString": "Alchemy Stage 3 {0}"
         },
         "Description": {
@@ -2567,7 +2567,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_116_TitleText",
-          "SourceString": "4단계 연금술 {0}",
+          "SourceString": "4단계 연금술{0}",
           "LocalizedString": "Alchemy Stage 4 {0}"
         },
         "Description": {
@@ -2589,7 +2589,7 @@
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Economy.TLStringAchievementLooks_Economy",
           "Key": "achv_economy_117_TitleText",
-          "SourceString": "5단계 연금술 {0}",
+          "SourceString": "5단계 연금술{0}",
           "LocalizedString": "Alchemy Stage 5 {0}"
         },
         "Description": {

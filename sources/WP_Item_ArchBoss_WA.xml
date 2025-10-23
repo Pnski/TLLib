@@ -318,6 +318,23 @@
       </context>
       <trait_list />
     </skill_complex>
+    <skill_complex guid="951167312" id="SkillSet_WP_Item_ArchBoss_T2_WA_02" skill_slot_affinity="kNotAssigned" skill_type="kPassiveSkill" is_basic_attack="false" skill_enchant_category="kNone" feature_tag="BASE_LH" publisher_tag="ALL" is_for_polymorphed_only="false" unlock_level="1">
+      <context uid="0" feature_tag="BASE_LH" publisher_tag="ALL" min_skill_level="1" max_skill_level="1" unlock_level="1">
+        <presets>
+          <preset guid="951232886" is_toggle_slot="false">
+            <default uid="0">
+              <combo_state_default>
+                <simple skill_id="WP_Item_ArchBoss_T2_WA_02" skill_id_disable="false" />
+                <transition>
+                  <use_skill skill_id="WP_Item_ArchBoss_T2_WA_02" next_combo_state="kComboStateDefault" />
+                </transition>
+              </combo_state_default>
+            </default>
+          </preset>
+        </presets>
+      </context>
+      <trait_list />
+    </skill_complex>
   </skill_complex_list>
   <custom_list />
 </hero_skill_set>
