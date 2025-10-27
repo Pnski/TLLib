@@ -25,14 +25,6 @@
    }
   ]
  },
- "Basics": {
-  "Fishing": [
-   {
-    "headline": "Fishing Level",
-    "file": "items/Level.md"
-   }
-  ]
- },
  "Calculator": {
   "": [
    {

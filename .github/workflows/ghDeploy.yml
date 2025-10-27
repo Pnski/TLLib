@@ -39,6 +39,7 @@ jobs:
           python scripts/wMastery.py
           python scripts/achievementList.py
           python scripts/itemEnchant.py
+          python scripts/guildContracts.py
 
           python scripts/stats.helper.py
           python scripts/stats.base.helper.py
