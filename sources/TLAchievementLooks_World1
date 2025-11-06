@@ -4377,7 +4377,7 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_World1.TLStringAchievementLooks_World1",
           "Key": "achv_world1_normal_de_description_047",
-          "SourceString": "[협동] 불의 축제 도전: 제사창 처치에 참여",
+          "SourceString": "[협동] 불의 축제 도전: 제사장 처치에 참여",
           "LocalizedString": "[Co-Op] Festival of Fire Challenge: Participate in defeating the Chief Priest"
         },
         "IconImage": {

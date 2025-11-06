@@ -13506,11 +13506,6 @@
         "Name": "GD_FD_M_LivingArmor_Mage_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "GD_FD_M_LivingArmor_Mage_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 271870
-          },
-          {
             "id": "GD_FD_M_LivingArmor_Mage_001_Material_Jewel_Weapon_kB",
             "Count": 1,
             "prob": 1364864
@@ -15846,11 +15841,6 @@
         "Name": "FD_WD_M_DesertThief_FireMagician_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "FD_WD_M_DesertThief_FireMagician_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 6465390
-          },
-          {
             "id": "FD_WD_M_DesertThief_FireMagician_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -16336,11 +16326,6 @@
         "Name": "FD_WD_M_Scorpion_Crescent_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "FD_WD_M_Scorpion_Crescent_001_Material_Main_kB",
-            "Count": 2,
-            "prob": 7766400
-          },
-          {
             "id": "FD_WD_M_Scorpion_Crescent_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -16801,11 +16786,6 @@
         "Name": "WD_FD_M_Centipede_Corruption_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_FD_M_Centipede_Corruption_001_Material_Main_kB",
-            "Count": 2,
-            "prob": 7316310
-          },
-          {
             "id": "WD_FD_M_Centipede_Corruption_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -17135,11 +17115,6 @@
       "WD_FD_M_Crawfish_TreasureChest_001_Material": {
         "Name": "WD_FD_M_Crawfish_TreasureChest_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_FD_M_Crawfish_TreasureChest_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5680890
-          },
           {
             "id": "WD_FD_M_Crawfish_TreasureChest_001_Material_SC_kA",
             "Count": 1,
@@ -17586,11 +17561,6 @@
         "Name": "WD_FD_M_Timitran_Corruption_S120A_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_FD_M_Timitran_Corruption_S120A_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5568960
-          },
-          {
             "id": "WD_FD_M_Timitran_Corruption_S120A_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -17616,11 +17586,6 @@
         "Name": "WD_FD_M_Timitran_Corruption_S120B_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_FD_M_Timitran_Corruption_S120B_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5568960
-          },
-          {
             "id": "WD_FD_M_Timitran_Corruption_S120B_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -17645,11 +17610,6 @@
       "WD_FD_M_Golem_StoneCore_001_Material": {
         "Name": "WD_FD_M_Golem_StoneCore_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_FD_M_Golem_StoneCore_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5568960
-          },
           {
             "id": "WD_FD_M_Golem_StoneCore_001_Material_SC_kA",
             "Count": 1,
@@ -18376,11 +18336,6 @@
         "Name": "WD_FD_M_EvilEye_Guard_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_FD_M_EvilEye_Guard_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5405190
-          },
-          {
             "id": "WD_FD_M_EvilEye_Guard_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -18405,11 +18360,6 @@
       "WD_DE_M_EvilEye_Guard_S100A_001_Material": {
         "Name": "WD_DE_M_EvilEye_Guard_S100A_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_DE_M_EvilEye_Guard_S100A_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5405190
-          },
           {
             "id": "WD_DE_M_EvilEye_Guard_S100A_001_Material_SC_kA",
             "Count": 1,
@@ -18436,11 +18386,6 @@
         "Name": "WD_DE_M_EvilEye_Guard_S100B_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_DE_M_EvilEye_Guard_S100B_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5405190
-          },
-          {
             "id": "WD_DE_M_EvilEye_Guard_S100B_001_Material_SC_kA",
             "Count": 1,
             "prob": 1639140
@@ -18465,11 +18410,6 @@
       "WD_DE_M_EvilEye_Guard_S100C_001_Material": {
         "Name": "WD_DE_M_EvilEye_Guard_S100C_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_DE_M_EvilEye_Guard_S100C_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5405190
-          },
           {
             "id": "WD_DE_M_EvilEye_Guard_S100C_001_Material_SC_kA",
             "Count": 1,
@@ -18895,11 +18835,6 @@
       "WD_FD_M_Orc_Pyromancer_001_Material": {
         "Name": "WD_FD_M_Orc_Pyromancer_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_FD_M_Orc_Pyromancer_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 5194260
-          },
           {
             "id": "WD_FD_M_Orc_Pyromancer_001_Material_SC_kA",
             "Count": 1,
@@ -19881,11 +19816,6 @@
         "Name": "WD_FD_M_GrankainPriest_HighDarkPriest_001_Material",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WD_FD_M_GrankainPriest_HighDarkPriest_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 271870
-          },
-          {
             "id": "WD_FD_M_GrankainPriest_HighDarkPriest_001_Material_Jewel_Weapon_kB",
             "Count": 1,
             "prob": 1364864
@@ -20460,11 +20390,6 @@
       "WD_FD_M_GiantAnt_PoisonGuard_001_Material": {
         "Name": "WD_FD_M_GiantAnt_PoisonGuard_001_Material",
         "ItemLotteryPublicGroupEntry": [
-          {
-            "id": "WD_FD_M_GiantAnt_PoisonGuard_001_Material_Main_kA",
-            "Count": 1,
-            "prob": 271870
-          },
           {
             "id": "WD_FD_M_GiantAnt_PoisonGuard_001_Material_Jewel_Weapon_kB",
             "Count": 1,
@@ -38614,6 +38539,796 @@
             "id": "Resource_WhiteStone_lv32",
             "Count": 1,
             "prob": 1650000
+          }
+        ]
+      },
+      "Common_FO_Resource_FirTree_lv10_Island": {
+        "Name": "Common_FO_Resource_FirTree_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_FirTree_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_FirTree_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_FirTree_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_FirTree_lv20_Island": {
+        "Name": "Common_FO_Resource_FirTree_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_FirTree_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_FirTree_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_FirTree_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_FirTree_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_FirTree_lv30_Island": {
+        "Name": "Common_FO_Resource_FirTree_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_FirTree_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_FirTree_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_FirTree_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_FirTree_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_BirchTree_lv10_Island": {
+        "Name": "Common_FO_Resource_BirchTree_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_BirchTree_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_BirchTree_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_BirchTree_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_BirchTree_lv20_Island": {
+        "Name": "Common_FO_Resource_BirchTree_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_BirchTree_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_BirchTree_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_BirchTree_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_BirchTree_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_BirchTree_lv30_Island": {
+        "Name": "Common_FO_Resource_BirchTree_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_BirchTree_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_BirchTree_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_BirchTree_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_BirchTree_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_PalmTree_lv10_Island": {
+        "Name": "Common_FO_Resource_PalmTree_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_PalmTree_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_PalmTree_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_PalmTree_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_PalmTree_lv20_Island": {
+        "Name": "Common_FO_Resource_PalmTree_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_PalmTree_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_PalmTree_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_PalmTree_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_PalmTree_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_PalmTree_lv30_Island": {
+        "Name": "Common_FO_Resource_PalmTree_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_PalmTree_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_PalmTree_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_PalmTree_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_PalmTree_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_MarbleStone_lv10_Island": {
+        "Name": "Common_FO_Resource_MarbleStone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_MarbleStone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_MarbleStone_lv20_Island": {
+        "Name": "Common_FO_Resource_MarbleStone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_MarbleStone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_MarbleStone_lv30_Island": {
+        "Name": "Common_FO_Resource_MarbleStone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_MarbleStone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_MarbleStone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_QuartziteStone_lv10_Island": {
+        "Name": "Common_FO_Resource_QuartziteStone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_QuartziteStone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_QuartziteStone_lv20_Island": {
+        "Name": "Common_FO_Resource_QuartziteStone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_QuartziteStone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_QuartziteStone_lv30_Island": {
+        "Name": "Common_FO_Resource_QuartziteStone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_QuartziteStone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_QuartziteStone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_Limestone_lv10_Island": {
+        "Name": "Common_FO_Resource_Limestone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Limestone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Limestone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_Limestone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_Limestone_lv20_Island": {
+        "Name": "Common_FO_Resource_Limestone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Limestone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Limestone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_Limestone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_Limestone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_Limestone_lv30_Island": {
+        "Name": "Common_FO_Resource_Limestone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Limestone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Limestone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_Limestone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_Limestone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_SandStone_lv10_Island": {
+        "Name": "Common_FO_Resource_SandStone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_SandStone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_SandStone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_SandStone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_SandStone_lv20_Island": {
+        "Name": "Common_FO_Resource_SandStone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_SandStone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_SandStone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_SandStone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_SandStone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_SandStone_lv30_Island": {
+        "Name": "Common_FO_Resource_SandStone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_SandStone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_SandStone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_SandStone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_SandStone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_IronStone_lv10_Island": {
+        "Name": "Common_FO_Resource_IronStone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_IronStone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_IronStone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_IronStone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_IronStone_lv20_Island": {
+        "Name": "Common_FO_Resource_IronStone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_IronStone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_IronStone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_IronStone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_IronStone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_IronStone_lv30_Island": {
+        "Name": "Common_FO_Resource_IronStone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_IronStone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_IronStone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_IronStone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_IronStone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_WhiteStone_lv10_Island": {
+        "Name": "Common_FO_Resource_WhiteStone_lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_WhiteStone_lv10_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv11_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv12_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_WhiteStone_lv20_Island": {
+        "Name": "Common_FO_Resource_WhiteStone_lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_WhiteStone_lv20_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv21_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv22_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv23_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Common_FO_Resource_WhiteStone_lv30_Island": {
+        "Name": "Common_FO_Resource_WhiteStone_lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_WhiteStone_lv30_Island",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv31_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv32_Island",
+            "Count": 1,
+            "prob": 5000000
+          },
+          {
+            "id": "Resource_WhiteStone_lv33_Island",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "FO_Toggle_CryptidEnergy_001": {
+        "Name": "FO_Toggle_CryptidEnergy_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_CryptidEnergy_001_Lv1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_CryptidEnergy_001_Lv2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "FO_Toggle_CryptidEnergy_002": {
+        "Name": "FO_Toggle_CryptidEnergy_002",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_CryptidEnergy_002_Lv1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_CryptidEnergy_002_Lv2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "FO_Toggle_CryptidEnergy_001_1": {
+        "Name": "FO_Toggle_CryptidEnergy_001_1",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_CryptidEnergy_001_01__Lv1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_CryptidEnergy_001_01__Lv2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "FO_Toggle_CryptidEnergy_002_1": {
+        "Name": "FO_Toggle_CryptidEnergy_002_1",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_CryptidEnergy_002_1_Lv1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_CryptidEnergy_002_1_Lv2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Common_FO_Resource_Mushroom_Red_01_Lv10_Island": {
+        "Name": "Common_FO_Resource_Mushroom_Red_01_Lv10_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv20_basic",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv20_advance",
+            "Count": 7,
+            "prob": 500000
+          },
+          {
+            "id": "MagicDoll_kAA_5009",
+            "Count": 1,
+            "prob": 300
+          }
+        ]
+      },
+      "Common_FO_Resource_Mushroom_Red_01_Lv20_Island": {
+        "Name": "Common_FO_Resource_Mushroom_Red_01_Lv20_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv40_SandwormLair_basic",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv40_SandwormLair_advance",
+            "Count": 7,
+            "prob": 500000
+          },
+          {
+            "id": "MagicDoll_kAA_5009",
+            "Count": 1,
+            "prob": 1696
+          }
+        ]
+      },
+      "Common_FO_Resource_Mushroom_Red_01_Lv30_Island": {
+        "Name": "Common_FO_Resource_Mushroom_Red_01_Lv30_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv60_AkiduValley_basic",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "WD_GA_FO_Resource_Mushroom_Red_01_Lv60_AkiduValley_advance",
+            "Count": 7,
+            "prob": 3000000
+          },
+          {
+            "id": "MagicDoll_kAA_5009",
+            "Count": 1,
+            "prob": 2480
+          }
+        ]
+      },
+      "Common_FO_Resource_PurpleBerry_Island": {
+        "Name": "Common_FO_Resource_PurpleBerry_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L04_GA_FO_Resource_PurpleBerry_001_basic",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "L04_GA_FO_Resource_PurpleBerry_001_advance",
+            "Count": 7,
+            "prob": 10000000
+          },
+          {
+            "id": "MagicDoll_kB_5067",
+            "Count": 1,
+            "prob": 2862
+          }
+        ]
+      },
+      "Common_FO_Resource_FruiceTree_Island": {
+        "Name": "Common_FO_Resource_FruiceTree_Island",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L04_GA_FO_Resource_FruiceTree_001_basic",
+            "Count": 2,
+            "prob": 10000000
+          },
+          {
+            "id": "L04_GA_FO_Resource_FruiceTree_001_advance",
+            "Count": 7,
+            "prob": 10000000
+          },
+          {
+            "id": "MagicDoll_kB_5067",
+            "Count": 1,
+            "prob": 2862
           }
         ]
       }

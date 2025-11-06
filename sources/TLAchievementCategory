@@ -22,7 +22,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Exploration": {
         "DisplayText": {
@@ -35,7 +36,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Exploration_normal": {
         "DisplayText": {
@@ -48,7 +50,8 @@
         "ParentCategory": {
           "RowName": "Exploration"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Exploration_laslan": {
         "DisplayText": {
@@ -61,7 +64,8 @@
         "ParentCategory": {
           "RowName": "Exploration"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Exploration_stonegard": {
         "DisplayText": {
@@ -74,7 +78,8 @@
         "ParentCategory": {
           "RowName": "Exploration"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Exploration_talland": {
         "DisplayText": {
@@ -87,7 +92,8 @@
         "ParentCategory": {
           "RowName": "Exploration"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents": {
         "DisplayText": {
@@ -100,7 +106,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_codex": {
         "DisplayText": {
@@ -113,7 +120,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": true
+        "bHidden": true,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_codex_etc": {
         "DisplayText": {
@@ -126,7 +134,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_de": {
         "DisplayText": {
@@ -139,7 +148,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_dungeon_secret": {
         "DisplayText": {
@@ -152,7 +162,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_dungeon_coop": {
         "DisplayText": {
@@ -165,7 +176,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_dungeon_coop_challenge": {
         "DisplayText": {
@@ -178,7 +190,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Contents_etc": {
         "DisplayText": {
@@ -191,7 +204,8 @@
         "ParentCategory": {
           "RowName": "Contents"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Character": {
         "DisplayText": {
@@ -204,7 +218,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Character_normal": {
         "DisplayText": {
@@ -217,7 +232,8 @@
         "ParentCategory": {
           "RowName": "Character"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Character_growth": {
         "DisplayText": {
@@ -230,7 +246,8 @@
         "ParentCategory": {
           "RowName": "Character"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Character_money": {
         "DisplayText": {
@@ -243,7 +260,8 @@
         "ParentCategory": {
           "RowName": "Character"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Character_item": {
         "DisplayText": {
@@ -256,7 +274,8 @@
         "ParentCategory": {
           "RowName": "Character"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Combat": {
         "DisplayText": {
@@ -269,7 +288,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Combat_normal": {
         "DisplayText": {
@@ -282,7 +302,8 @@
         "ParentCategory": {
           "RowName": "Combat"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Combat_monster": {
         "DisplayText": {
@@ -295,7 +316,8 @@
         "ParentCategory": {
           "RowName": "Combat"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Combat_challenge": {
         "DisplayText": {
@@ -308,7 +330,8 @@
         "ParentCategory": {
           "RowName": "Combat"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Combat_pvp": {
         "DisplayText": {
@@ -321,7 +344,8 @@
         "ParentCategory": {
           "RowName": "Combat"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life": {
         "DisplayText": {
@@ -334,7 +358,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal": {
         "DisplayText": {
@@ -347,7 +372,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal_gather": {
         "DisplayText": {
@@ -360,7 +386,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal_craft": {
         "DisplayText": {
@@ -373,7 +400,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal_cook": {
         "DisplayText": {
@@ -386,7 +414,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal_fishing": {
         "DisplayText": {
@@ -399,7 +428,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Life_normal_photo": {
         "DisplayText": {
@@ -412,7 +442,8 @@
         "ParentCategory": {
           "RowName": "Life"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Community": {
         "DisplayText": {
@@ -425,7 +456,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Community_guild": {
         "DisplayText": {
@@ -438,7 +470,8 @@
         "ParentCategory": {
           "RowName": "Community"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Community_raid": {
         "DisplayText": {
@@ -451,7 +484,8 @@
         "ParentCategory": {
           "RowName": "Community"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Great": {
         "DisplayText": {
@@ -464,7 +498,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Great_normal": {
         "DisplayText": {
@@ -477,7 +512,8 @@
         "ParentCategory": {
           "RowName": "Great"
         },
-        "bHidden": false
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Hidden": {
         "DisplayText": {
@@ -490,7 +526,8 @@
         "ParentCategory": {
           "RowName": "None"
         },
-        "bHidden": true
+        "bHidden": true,
+        "PublisherTag": "ETLPublisherTag::ALL"
       },
       "Hidden_normal": {
         "DisplayText": {
@@ -503,7 +540,8 @@
         "ParentCategory": {
           "RowName": "Hidden"
         },
-        "bHidden": true
+        "bHidden": true,
+        "PublisherTag": "ETLPublisherTag::ALL"
       }
     }
   }

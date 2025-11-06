@@ -40430,6 +40430,216 @@
           }
         ]
       },
+      "Decompose_Life_Material_Payback_001": {
+        "Name": "Decompose_Life_Material_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_002": {
+        "Name": "Decompose_Life_Material_Payback_002",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_003": {
+        "Name": "Decompose_Life_Material_Payback_003",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_004": {
+        "Name": "Decompose_Life_Material_Payback_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_005": {
+        "Name": "Decompose_Life_Material_Payback_005",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_005",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_006": {
+        "Name": "Decompose_Life_Material_Payback_006",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_006",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_007": {
+        "Name": "Decompose_Life_Material_Payback_007",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_007",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_008": {
+        "Name": "Decompose_Life_Material_Payback_008",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_008",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_009": {
+        "Name": "Decompose_Life_Material_Payback_009",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_009",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_010": {
+        "Name": "Decompose_Life_Material_Payback_010",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_010",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_011": {
+        "Name": "Decompose_Life_Material_Payback_011",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_011",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_012": {
+        "Name": "Decompose_Life_Material_Payback_012",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_012",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_013": {
+        "Name": "Decompose_Life_Material_Payback_013",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_013",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_014": {
+        "Name": "Decompose_Life_Material_Payback_014",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_014",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_015": {
+        "Name": "Decompose_Life_Material_Payback_015",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_015",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_016": {
+        "Name": "Decompose_Life_Material_Payback_016",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_016",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_017": {
+        "Name": "Decompose_Life_Material_Payback_017",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_017",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_018": {
+        "Name": "Decompose_Life_Material_Payback_018",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_018",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_019": {
+        "Name": "Decompose_Life_Material_Payback_019",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_019",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_020": {
+        "Name": "Decompose_Life_Material_Payback_020",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_020",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Life_Material_Payback_021": {
+        "Name": "Decompose_Life_Material_Payback_021",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Life_Material_Payback_021",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_wb_sandworm_default": {
         "Name": "package_wb_sandworm_default",
         "ItemLotteryPrivateGroupEntry": []

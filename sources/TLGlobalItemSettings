@@ -2201,9 +2201,7 @@
               ]
             }
           ],
-          "DisableItemSyncGrades": [
-            "EItemGrade::kAAA"
-          ]
+          "DisableItemSyncGrades": []
         },
         "EquipUniqueItemSettings": {
           "EquipCountLimit": 3
@@ -2412,8 +2410,35 @@
           }
         ],
         "EnchantTransferSettings": {
-          "ArmorTransferableItemCategories": [],
-          "AccessoryTransferableItemCategories": []
+          "ArmorTransferableItemCategories": [
+            {
+              "Key": "EItemGrade::kAAA",
+              "Value": {
+                "ItemCategories": [
+                  "EItemCategory::kHead",
+                  "EItemCategory::kChest",
+                  "EItemCategory::kHands",
+                  "EItemCategory::kLegs",
+                  "EItemCategory::kFeet",
+                  "EItemCategory::kCloak"
+                ]
+              }
+            }
+          ],
+          "AccessoryTransferableItemCategories": [
+            {
+              "Key": "EItemGrade::kAAA",
+              "Value": {
+                "ItemCategories": [
+                  "EItemCategory::kNecklace",
+                  "EItemCategory::kEarring",
+                  "EItemCategory::kRing",
+                  "EItemCategory::kBracelet",
+                  "EItemCategory::kBelt"
+                ]
+              }
+            }
+          ]
         }
       }
     }

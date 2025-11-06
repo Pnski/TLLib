@@ -256,7 +256,7 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_Trait_4",
-                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 주고, 도착 지점에 반경 3m 내의 모든 적에게 기본 피해의 $[WP_Item_Boss_T2_DA_01.tooltip1]% 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다.",
+                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 주고, 도착 지점에 반경 3m 내의 모든 적에게 기본 피해의 $[WP_Item_Boss_T2_DA_01.tooltip1]% 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다.",
                   "LocalizedString": "Strikes a target to deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[WP_Item_Boss_T2_DA_01.tooltip1] damage^</c>, and deals $[DA_SonicAttack_DD.tooltip2]% of Base Damage to all enemies within a 3m radius. Attacks 7 times in a row, and if there are other targets within 6m, the attacks are split among them.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
                 }
               }

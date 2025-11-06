@@ -2553,6 +2553,16 @@
         },
         "BattleFieldSetting": {
           "MinCombatPower": 6000
+        },
+        "CombatPower": {
+          "MaxByLevel": 300,
+          "MaxBySkill": 630,
+          "MaxByWeaponMastery": 1280,
+          "MaxByWeapon": 1214,
+          "MaxByArmor": 1659,
+          "MaxByAccessory": 1659,
+          "MaxByArtifact": 380,
+          "MaxByRune": 1080
         }
       }
     }

@@ -17014,8 +17014,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Rare_DEF",
-              "SourceString": "반격의 방벽, 철옹성 스킬 사용 시 모든 상태이상 내성이 $[WM_SW_Rare_DEF_Buff.tooltip1], 피해량 경감이 $[WM_SW_Rare_DEF_Buff1.tooltip1] 증가하고 주무기 기본 피해가 $[WM_SW_Rare_DEF_Debuff.tooltip1] 감소합니다.",
-              "LocalizedString": "Increases All CC Resistances by $[WM_SW_Rare_DEF_Buff.tooltip1] and Damage Reduction by $[WM_SW_Rare_DEF_Buff1.tooltip1], but decreases Main Weapon Base Damage by $[WM_SW_Rare_DEF_Debuff.tooltip1], when using Counter Barrier or Stalwart Bastion."
+              "SourceString": "반격의 방벽, 응축의 방벽, 철옹성 스킬 사용 시 모든 상태이상 내성이 $[WM_SW_Rare_DEF_Buff.tooltip1], 피해량 경감이 $[WM_SW_Rare_DEF_Buff1.tooltip1] 증가하고 주무기 기본 피해가 $[WM_SW_Rare_DEF_Debuff.tooltip1] 감소합니다.",
+              "LocalizedString": "All CC Resistance +$[WM_SW_Rare_DEF_Buff.tooltip1], Damage Reduction +$[WM_SW_Rare_DEF_Buff1.tooltip1], and Main Weapon Base Damage -$[WM_SW_Rare_DEF_Debuff.tooltip1] upon using Counter Barrier, Concentrated Barrier, or Stalwart Bastion."
             }
           }
         ],
@@ -17261,8 +17261,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Rare_SUB",
-              "SourceString": "반격의 방벽, 불사의 긍지, 철옹성 스킬 사용 시 스태미나를 $[WM_SW_Rare_SUB_Buff.tooltip1] 회복합니다. (자신이 사용한 스킬에 한해서 효과가 적용됩니다.)",
-              "LocalizedString": "Restores $[WM_SW_Rare_SUB_Buff.tooltip1] Stamina when activating Counter Barrier, Immortal Pride, or Stalwart Bastion."
+              "SourceString": "반격의 방벽, 응축의 방벽, 불사의 긍지, 철옹성 스킬 사용 시 스태미나를 $[WM_SW_Rare_SUB_Buff.tooltip1] 회복합니다. (자신이 사용한 스킬에 한해서 효과가 적용됩니다.)",
+              "LocalizedString": "Restores Stamina by $[WM_SW_Rare_SUB_Buff.tooltip1] upon using Counter Barrier, Concentrated Barrier, Immortal Pride, or Stalwart Bastion. (Effect only applies to your skills.)"
             }
           }
         ],
