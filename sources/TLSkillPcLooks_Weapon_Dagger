@@ -256,7 +256,7 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_Trait_4",
-                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 주고, 도착 지점에 반경 3m 내의 모든 적에게 기본 피해의 $[WP_Item_Boss_T2_DA_01.tooltip1]% 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다.",
+                  "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 주고, 도착 지점에 반경 3m 내의 모든 적에게 기본 피해의 $[WP_Item_Boss_T2_DA_01.tooltip1]% 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다.",
                   "LocalizedString": "Strikes a target to deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[WP_Item_Boss_T2_DA_01.tooltip1] damage^</c>, and deals $[DA_SonicAttack_DD.tooltip2]% of Base Damage to all enemies within a 3m radius. Attacks 7 times in a row, and if there are other targets within 6m, the attacks are split among them.\r\n\r\nThis skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Training Book: Omnipotence^</c>."
                 }
               }
@@ -309,7 +309,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 7회 공격하고, 공격 시 마다 6m 범위 내에 다른 대상이 있을 경우 공격을 분산합니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nStrikes a target to deal ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> damage, and then immediately attacks up to 7 targets within 6m in a row and moves to the target's back. After the move, every attack is deemed as a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%."
             }
           }
@@ -9849,8 +9849,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_ShadowChaser_SP",
-              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> 만큼 추가 피해를 줍니다. 젖음 상태나, 뇌운 상태의 대상을 공격했을 경우 대상 5m 주위의 임의의 2명에게 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> 만큼 피해를 줍니다. ",
-              "LocalizedString": "On Melee Critical Hit, deals ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% of Base Damage +$[DA_ShadowChaser_DD_SP.tooltip2]^</c> Bonus Damage for $[DA_ShadowChaser_Duration.tooltip1]s. If the target is affected by Wet or Thunderclouds, deal ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> to 2 random enemies within a 5m radius of the target. "
+              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> 만큼 추가 피해를 줍니다. 젖음 상태나, 뇌운 상태의 대상을 공격했을 경우 대상 5m 주위의 임의의 2명에게 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[DA_ShadowChaser_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "On Melee Critical Hit within $[DA_ShadowChaser_Duration.tooltip1]s, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> damage. If Wet or Thunderclouds is applied to the target, 2 random enemies within 5m of the target are each struck for ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> damage. Damage increases by $[DA_ShadowChaser_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -11340,7 +11340,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_Trait_2",
-              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 뇌운^</c> 효과 적용 \r\n\r\n뇌운은 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]초^</c> 동안 지속되며 ^<c=@SkillTooltipChange>1중첩^</c> 당 근거리, 원거리, 마법 인내를 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c>만큼 감소 시키며, 최대 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c>회까지 중첩됩니다.",
+              "SourceString": "^<c=@SkillTooltipAbnormal>쇠약: 뇌운^</c> 효과 적용 \n\n뇌운은 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]초^</c> 동안 지속되며 ^<c=@SkillTooltipChange>1중첩^</c> 당 근거리, 원거리, 마법 인내를 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c>만큼 감소 시키며, 최대 ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c>회까지 중첩됩니다.",
               "LocalizedString": "Applies ^<c=@SkillTooltipAbnormal>Weaken: Thunderclouds^</c>\r\n\r\nThunderclouds lasts for ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Poison_Duration.tooltip1]s^</c>, decreasing Melee, Ranged, and Magic Endurance by ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_ThunderCloud_Debuff.tooltip1]^</c> ^<c=@SkillTooltipChange>per stack^</c>. Stacks up to ^<c=@SkillTooltipChange>$[DA_PoisonEnchant_Max_Stack.tooltip2]^</c> times."
             }
           }
@@ -20029,8 +20029,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_ShadowChaser",
-              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% + $[DA_ShadowChaser_DD.tooltip2]^</c> 만큼 추가 피해를 줍니다. 내가 중독시킨 대상은 2번 추가 공격하고 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> 만큼 피해를 줍니다. 한번의 공격에 한번만 발동합니다. ",
-              "LocalizedString": "Enables Umbral Spirit for $[DA_ShadowChaser_Duration.tooltip1]s.\r\nOn Melee Critical Hit within the duration, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% of Base Damage +$[DA_ShadowChaser_DD.tooltip2] damage^</c>.\r\nAttacking a target the user has ^<c=@SkillTooltipChange>Poisoned^</c> activates 2 additional attacks, dealing ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_Poisoned.tooltip2] damage^</c> per attack. Additional attacks can only be activated once within the duration of Umbral Spirit. "
+              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% + $[DA_ShadowChaser_DD.tooltip2]^</c> 만큼 추가 피해를 줍니다. 내가 중독시킨 대상은 2번 추가 공격하고 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> 만큼 피해를 줍니다. 한번의 공격에 한번만 발동합니다. 몬스터에게는 피해량이 $[DA_ShadowChaser_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "On Melee Critical Hit within $[DA_ShadowChaser_Duration.tooltip1]s, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD.tooltip2]^</c> damage. Attacking a target the caster has Poisoned activates 2 additional attacks, dealing ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> damage per attack. Additional attacks can only be activated once within the duration. Damage increases by $[DA_ShadowChaser_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -20304,8 +20304,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -20551,8 +20551,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -20798,8 +20798,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -21045,8 +21045,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -23118,7 +23118,7 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
                   "Key": "TEXT_SKILL_DESC_WP_DA_BlinkStrike_SP",
-                  "SourceString": "대상의 반대편으로 이동해 기본 피해의 $[DA_BlinkStrike_DD.tooltip1]% 만큼 피해를 주고, ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Bind_Rate_PVE.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipChange>2초^</c> 동안 대상을 ^<c=@SkillTooltipAbnormal>속박^</c>하고, 같은 확률로 ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Silence_Duration.tooltip2]초^</c> 동안 대상에게 ^<c=@SkillTooltipAbnormal>침묵: 독^</c> 효과를 줍니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. \r\n\r\n6초 이내에 다시 사용하면 처음 사용한 위치로 되돌아갑니다. ^<c=@SkillTooltipChange>잔영^</c> 스킬과 같이 사용할 경우 하나의 위치로만 되돌아갈 수 있습니다.",
+                  "SourceString": "대상의 반대편으로 이동해 기본 피해의 $[DA_BlinkStrike_DD.tooltip1]% 만큼 피해를 주고, ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Bind_Rate_PVE.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipChange>2초^</c> 동안 대상을 ^<c=@SkillTooltipAbnormal>속박^</c>하고, 같은 확률로 ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Silence_Duration.tooltip2]초^</c> 동안 대상에게 ^<c=@SkillTooltipAbnormal>침묵: 독^</c> 효과를 줍니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. \n\n6초 이내에 다시 사용하면 처음 사용한 위치로 되돌아갑니다. ^<c=@SkillTooltipChange>잔영^</c> 스킬과 같이 사용할 경우 하나의 위치로만 되돌아갈 수 있습니다.",
                   "LocalizedString": "Moves behind a target and deals $[DA_BlinkStrike_DD.tooltip1]% of Base Damage. Has a(n) ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Bind_Rate_PVE.tooltip1]%^</c> chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>2s^</c> and has the same chance to apply ^<c=@SkillTooltipAbnormal>Silence: Poison^</c> for ^<c=@SkillTooltipChange>$[DA_BlinkStrike_Special_Silence_Duration.tooltip2]s^</c>. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s.\n\nCan return to the original casting location if used again within 6s. When combined with the ^<c=@SkillTooltipChange>Afterimage^</c> Skill, you can only return to one location."
                 }
               }
@@ -29841,8 +29841,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_ShadowChaser",
-              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% + $[DA_ShadowChaser_DD.tooltip2]^</c> 만큼 추가 피해를 줍니다. 내가 중독시킨 대상은 2번 추가 공격하고 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> 만큼 피해를 줍니다. 한번의 공격에 한번만 발동합니다. ",
-              "LocalizedString": "Enables Umbral Spirit for $[DA_ShadowChaser_Duration.tooltip1]s.\r\nOn Melee Critical Hit within the duration, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% of Base Damage +$[DA_ShadowChaser_DD.tooltip2] damage^</c>.\r\nAttacking a target the user has ^<c=@SkillTooltipChange>Poisoned^</c> activates 2 additional attacks, dealing ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_Poisoned.tooltip2] damage^</c> per attack. Additional attacks can only be activated once within the duration of Umbral Spirit. "
+              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% + $[DA_ShadowChaser_DD.tooltip2]^</c> 만큼 추가 피해를 줍니다. 내가 중독시킨 대상은 2번 추가 공격하고 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> 만큼 피해를 줍니다. 한번의 공격에 한번만 발동합니다. 몬스터에게는 피해량이 $[DA_ShadowChaser_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "On Melee Critical Hit within $[DA_ShadowChaser_Duration.tooltip1]s, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD.tooltip2]^</c> damage. Attacking a target the caster has Poisoned activates 2 additional attacks, dealing ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_Poisoned.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_Poisoned.tooltip2]^</c> damage per attack. Additional attacks can only be activated once within the duration. Damage increases by $[DA_ShadowChaser_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -30116,8 +30116,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_ShadowChaser_SP",
-              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> 만큼 추가 피해를 줍니다. 젖음 상태나, 뇌운 상태의 대상을 공격했을 경우 대상 5m 주위의 임의의 2명에게 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> 만큼 피해를 줍니다. ",
-              "LocalizedString": "On Melee Critical Hit, deals ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% of Base Damage +$[DA_ShadowChaser_DD_SP.tooltip2]^</c> Bonus Damage for $[DA_ShadowChaser_Duration.tooltip1]s. If the target is affected by Wet or Thunderclouds, deal ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> to 2 random enemies within a 5m radius of the target. "
+              "SourceString": "$[DA_ShadowChaser_Duration.tooltip1]초 동안 근거리 치명타 적중 시 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> 만큼 추가 피해를 줍니다. 젖음 상태나, 뇌운 상태의 대상을 공격했을 경우 대상 5m 주위의 임의의 2명에게 각각 기본 피해의 ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[DA_ShadowChaser_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "On Melee Critical Hit within $[DA_ShadowChaser_Duration.tooltip1]s, deals an additional ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP.tooltip2]^</c> damage. If Wet or Thunderclouds is applied to the target, 2 random enemies within 5m of the target are each struck for ^<c=@SkillTooltipChange>$[DA_ShadowChaser_DD_SP_Chain.tooltip1]% of Base Damage + $[DA_ShadowChaser_DD_SP_Chain.tooltip2]^</c> damage. Damage increases by $[DA_ShadowChaser_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -31909,7 +31909,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -32156,7 +32156,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -32403,7 +32403,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -32650,7 +32650,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -32897,7 +32897,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -33144,7 +33144,7 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SonicAttack_SP",
-              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\r\n\r\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
+              "SourceString": "^<c=@SkillTooltipChange>진귀한 단련서: 전능^</c>으로만 성장 시킬 수 있는 특수 성장 스킬\n\n대상에게 접근해 기본 피해의 ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% + $[DA_SonicAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 연속으로 3회 공격하며, 3초 이내에 한번 더 사용할 수 있습니다. 이동 후 $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]초 동안 모든 공격이 후방 공격으로 판정됩니다. 몬스터에게는 피해량이 $[DA_SonicAttack_DD_NPC_Rate.tooltip1]% 증폭됩니다.",
               "LocalizedString": "This skill can only be upgraded with a ^<c=@SkillTooltipChange>Precious Growth Book: Omnipotence^</c>.\n\nApproaches the target and deals ^<c=@SkillTooltipChange>$[DA_SonicAttack_DD.tooltip1]% of Base Damage + $[DA_SonicAttack_DD.tooltip2]^</c> of damage. Attacks 3 times consecutively and moves to the target's back. Can be used one more time if used again within 3s. After moving, every attack is considered a back attack for $[DA_BlinkStrike_After_BackAttack_Duration.tooltip1]s. Against monsters, increases damage by $[DA_SonicAttack_DD_NPC_Rate.tooltip1]%"
             }
           }
@@ -33391,8 +33391,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -33638,8 +33638,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -33885,8 +33885,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -34132,8 +34132,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Dagger.TLStringSkillDesc_Weapon_Dagger",
               "Key": "TEXT_SKILL_DESC_WP_DA_SpinAttack",
-              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다.",
-              "LocalizedString": "Attacks the target 3 times, within a 4m reach, damaging all nearby targets in a 1.5m radius. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2] damage^</c>.\r\nThe number of attacks increases up to 4 times upon the Off-Hand Weapon activation."
+              "SourceString": "지정한 대상에게 최대 4m 돌진하며 반경 1.5m 이내의 모든 대상을 3회 공격합니다. 공격마다 ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% + $[DA_CriticalStrike_DD.tooltip2]^</c>만큼 피해를 주고, 부무기 발동 시 4회 피해를 줍니다. 몬스터에게는 피해량이 $[DA_CriticalStrike_DD_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Dashes up to 4m toward the designated target, attacking all enemies within a 1.5m radius 3 times. Each attack deals ^<c=@SkillTooltipChange>$[DA_CriticalStrike_DD.tooltip1]% of Base Damage + $[DA_CriticalStrike_DD.tooltip2]^</c> damage. The number of attacks increases up to 4 times upon Off-hand Weapon activation. Damage increases by $[DA_CriticalStrike_DD_Tooltip.tooltip1]% against monsters."
             }
           }
         ],

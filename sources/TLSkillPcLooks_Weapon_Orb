@@ -8042,8 +8042,8 @@
                 "Value": {
                   "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
                   "Key": "TEXT_SKILL_DESC_WP_ORB_Active_Satellite",
-                  "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. 한 대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>기본 공격^</c>\r\n효과 중 ^<c=@SkillTooltipChange>기본 공격^</c> 시 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 ^<c=@SkillTooltipChange>차원탄^</c>과 동일한 피해를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>별빛 쇄도^</c>\r\n시전자가 ^<c=@SkillTooltipChange>별빛 쇄도^</c> 사용 시 지정한 위치 30m 내 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] 만큼 피해를 줍니다.\r\n\r\n몬스터에게는 피해가 $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% 만큼 증폭됩니다.\r\n\r\n^<c=@SkillTooltipChange>왜곡 장막^</c>\r\n시전자가 ^<c=@SkillTooltipChange>왜곡 장막^</c> 사용 시 반경 30m 내 ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게도 동일한 ^<c=@SkillTooltipChange>왜곡 장막^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게 사용하면 보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c> 증폭됩니다.",
-                  "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present. Only one ^<c=@SkillTooltipChange>Satellite^</c> may be applied to a target.\n\n^<c=@SkillTooltipChange>Basic Attack^</c>\nWhile the effect is active, ^<c=@SkillTooltipChange>Basic Attacks^</c> fire an additional projectile from the ^<c=@SkillTooltipChange>Satellite^</c>, dealing damage equal to ^<c=@SkillTooltipChange>Dimensional Bomb^</c>.\n\n^<c=@SkillTooltipChange>Stellar Dash^</c>\nFires an additional projectile from a ^<c=@SkillTooltipChange>Satellite^</c> within 30m from the location that the caster designated while using ^<c=@SkillTooltipChange>Stellar Dash^</c>, dealing $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] damage.\n\nBoosts damage against Monsters by $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]%.\n\n^<c=@SkillTooltipChange>Distortion Veil^</c>\nApplies ^<c=@SkillTooltipChange>Distortion Veil^</c> to the party member with ^<c=@SkillTooltipChange>Satellite^</c> within 30m when the caster uses ^<c=@SkillTooltipChange>Distortion Veil^</c>. Applying the skill to a party member with ^<c=@SkillTooltipChange>Satellite^</c> boosts Shield Health by ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c>."
+                  "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. \r\n대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>위성 복제^</c>\r\n^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>기본 공격^</c>\r\n효과 중 ^<c=@SkillTooltipChange>기본 공격^</c> 시 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 ^<c=@SkillTooltipChange>차원탄^</c>과 동일한 피해를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>별빛 쇄도^</c>\r\n시전자가 ^<c=@SkillTooltipChange>별빛 쇄도^</c> 사용 시 지정한 위치 30m 내 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] 만큼 피해를 줍니다.\r\n\r\n몬스터에게는 피해가 $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% 만큼 증폭됩니다.",
+                  "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present.\nOnly one ^<c=@SkillTooltipChange>Satellite^</c> may be applied at a time to a target.\n\n^<c=@SkillTooltipChange>Satellite Copy^</c>\nCan only be used on party members with ^<c=@SkillTooltipChange>Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c> to all party members within the caster's Attack Range from the target.\n\n^<c=@SkillTooltipChange>Basic Attack^</c>\nWhile the effect is active, ^<c=@SkillTooltipChange>Basic Attacks^</c> fire an additional projectile from the ^<c=@SkillTooltipChange>Satellite^</c>, dealing damage equal to ^<c=@SkillTooltipChange>Dimensional Bomb^</c>.\n\n^<c=@SkillTooltipChange>Stellar Dash^</c>\nFires an additional projectile from a ^<c=@SkillTooltipChange>Satellite^</c> within 30m from the location that the caster designated while using ^<c=@SkillTooltipChange>Stellar Dash^</c>, dealing $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] damage.\n\nDamage increases by $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% against monsters."
                 }
               }
             ],
@@ -8058,8 +8058,279 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_ORB_Active_Satellite",
-              "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. 한 대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>기본 공격^</c>\r\n효과 중 ^<c=@SkillTooltipChange>기본 공격^</c> 시 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 ^<c=@SkillTooltipChange>차원탄^</c>과 동일한 피해를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>별빛 쇄도^</c>\r\n시전자가 ^<c=@SkillTooltipChange>별빛 쇄도^</c> 사용 시 지정한 위치 30m 내 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] 만큼 피해를 줍니다.\r\n\r\n몬스터에게는 피해가 $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% 만큼 증폭됩니다.\r\n\r\n^<c=@SkillTooltipChange>왜곡 장막^</c>\r\n시전자가 ^<c=@SkillTooltipChange>왜곡 장막^</c> 사용 시 반경 30m 내 ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게도 동일한 ^<c=@SkillTooltipChange>왜곡 장막^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게 사용하면 보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c> 증폭됩니다.",
-              "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present. Only one ^<c=@SkillTooltipChange>Satellite^</c> may be applied to a target.\n\n^<c=@SkillTooltipChange>Basic Attack^</c>\nWhile the effect is active, ^<c=@SkillTooltipChange>Basic Attacks^</c> fire an additional projectile from the ^<c=@SkillTooltipChange>Satellite^</c>, dealing damage equal to ^<c=@SkillTooltipChange>Dimensional Bomb^</c>.\n\n^<c=@SkillTooltipChange>Stellar Dash^</c>\nFires an additional projectile from a ^<c=@SkillTooltipChange>Satellite^</c> within 30m from the location that the caster designated while using ^<c=@SkillTooltipChange>Stellar Dash^</c>, dealing $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] damage.\n\nBoosts damage against Monsters by $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]%.\n\n^<c=@SkillTooltipChange>Distortion Veil^</c>\nApplies ^<c=@SkillTooltipChange>Distortion Veil^</c> to the party member with ^<c=@SkillTooltipChange>Satellite^</c> within 30m when the caster uses ^<c=@SkillTooltipChange>Distortion Veil^</c>. Applying the skill to a party member with ^<c=@SkillTooltipChange>Satellite^</c> boosts Shield Health by ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c>."
+              "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. \r\n대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>위성 복제^</c>\r\n^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>기본 공격^</c>\r\n효과 중 ^<c=@SkillTooltipChange>기본 공격^</c> 시 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 ^<c=@SkillTooltipChange>차원탄^</c>과 동일한 피해를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>별빛 쇄도^</c>\r\n시전자가 ^<c=@SkillTooltipChange>별빛 쇄도^</c> 사용 시 지정한 위치 30m 내 ^<c=@SkillTooltipChange>위성^</c>에서 추가 발사체가 날아가 $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] 만큼 피해를 줍니다.\r\n\r\n몬스터에게는 피해가 $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% 만큼 증폭됩니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present.\nOnly one ^<c=@SkillTooltipChange>Satellite^</c> may be applied at a time to a target.\n\n^<c=@SkillTooltipChange>Satellite Copy^</c>\nCan only be used on party members with ^<c=@SkillTooltipChange>Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c> to all party members within the caster's Attack Range from the target.\n\n^<c=@SkillTooltipChange>Basic Attack^</c>\nWhile the effect is active, ^<c=@SkillTooltipChange>Basic Attacks^</c> fire an additional projectile from the ^<c=@SkillTooltipChange>Satellite^</c>, dealing damage equal to ^<c=@SkillTooltipChange>Dimensional Bomb^</c>.\n\n^<c=@SkillTooltipChange>Stellar Dash^</c>\nFires an additional projectile from a ^<c=@SkillTooltipChange>Satellite^</c> within 30m from the location that the caster designated while using ^<c=@SkillTooltipChange>Stellar Dash^</c>, dealing $[ORB_Active_Laser_DD_Satellite_PC.tooltip1]% + $[ORB_Active_Laser_DD_Satellite_PC.tooltip2] damage.\n\nDamage increases by $[ORB_Active_Laser_DD_Satellite_NPC.tooltip1]% against monsters."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+                    "SourceString": "재사용 대기 시간 감소",
+                    "LocalizedString": "Cooldown ▼"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_ORB_Active_Satellite",
+                    "SourceString": "$[ORB_Active_Satellite_Cooldown.tooltip1]초",
+                    "LocalizedString": "$[ORB_Active_Satellite_Cooldown.tooltip1]s"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_COOLTIME_DOWN",
+              "SourceString": "재사용 대기 시간 감소",
+              "LocalizedString": "Cooldown ▼"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_ORB_Active_Satellite",
+              "SourceString": "$[ORB_Active_Satellite_Cooldown.tooltip1]초",
+              "LocalizedString": "$[ORB_Active_Satellite_Cooldown.tooltip1]s"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 9,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "WP_ORB_Active_SatelliteCopy"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Orb/AT_SKILL_ORB_Active_Satellite.AT_SKILL_ORB_Active_Satellite",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Orb/AT_FX_ORB_Active_Satellite_Projectile.AT_FX_ORB_Active_Satellite_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_ORB_Active_Satellite_trait1": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+          "Key": "TEXT_SKILL_Name_WP_ORB_Active_Satellite_trait1",
+          "SourceString": "보호 위성 소환",
+          "LocalizedString": "Summon Guardian Satellite"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_ORB_Active_Satellite.S_WP_ORB_Active_Satellite",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "CultureInvariantString": null
+            },
+            "IconPath": {
+              "AssetPathName": "None",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+                  "Key": "TEXT_SKILL_DESC_WP_ORB_Active_Satellite_Trait1",
+                  "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. \r\n대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>보호 위성 복제^</c>\r\n^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>왜곡 장막^</c>\r\n시전자가 ^<c=@SkillTooltipChange>왜곡 장막^</c> 사용 시 대상 반경 30m 내 ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게도 동일한 ^<c=@SkillTooltipChange>왜곡 장막^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게 사용하면 보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c> 증폭됩니다.",
+                  "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present.\nOnly one ^<c=@SkillTooltipChange>Satellite^</c> may be applied at a time to a target.\n\n^<c=@SkillTooltipChange>Guardian Satellite Copy^</c>\n^<c=@SkillTooltipChange>Can only be used on party members with Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c> to all party members within the caster's Attack Range from the target.\n\n^<c=@SkillTooltipChange>Distortion Veil^</c>\nApplies ^<c=@SkillTooltipChange>Distortion Veil^</c> to the party member with ^<c=@SkillTooltipChange>Satellite^</c> within 30m when the caster uses ^<c=@SkillTooltipChange>Distortion Veil^</c>. Applying the skill to a party member with ^<c=@SkillTooltipChange>Satellite^</c> boosts Shield Health by ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c>."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+              "Key": "TEXT_SKILL_DESC_WP_ORB_Active_Satellite_Trait1",
+              "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. \r\n대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>보호 위성 복제^</c>\r\n^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>왜곡 장막^</c>\r\n시전자가 ^<c=@SkillTooltipChange>왜곡 장막^</c> 사용 시 대상 반경 30m 내 ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게도 동일한 ^<c=@SkillTooltipChange>왜곡 장막^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게 사용하면 보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c> 증폭됩니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present.\nOnly one ^<c=@SkillTooltipChange>Satellite^</c> may be applied at a time to a target.\n\n^<c=@SkillTooltipChange>Guardian Satellite Copy^</c>\n^<c=@SkillTooltipChange>Can only be used on party members with Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c> to all party members within the caster's Attack Range from the target.\n\n^<c=@SkillTooltipChange>Distortion Veil^</c>\nApplies ^<c=@SkillTooltipChange>Distortion Veil^</c> to the party member with ^<c=@SkillTooltipChange>Satellite^</c> within 30m when the caster uses ^<c=@SkillTooltipChange>Distortion Veil^</c>. Applying the skill to a party member with ^<c=@SkillTooltipChange>Satellite^</c> boosts Shield Health by ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c>."
             }
           }
         ],
@@ -8285,6 +8556,216 @@
         "UseFloaterSummation": false
       },
       "WP_ORB_Active_SatelliteCopy": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+          "Key": "TEXT_SKILL_Name_WP_ORB_Active_SatelliteCopy",
+          "SourceString": "위성 복제",
+          "LocalizedString": "Copy Satellite"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_ORB_Active_Satellite_SP_1.S_WP_ORB_Active_Satellite_SP_1",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
+              "Key": "TEXT_SKILL_DESC_WP_ORB_Active_SatelliteCopy",
+              "SourceString": "^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.",
+              "LocalizedString": "Can only be cast to a party member with ^<c=@SkillTooltipChange>Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> to all party members within the caster's Attack Range from that party member for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c>."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [],
+        "SkillTooltipOptionList": [],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 9,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "WP_ORB_Active_Satellite"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Orb/AT_SKILL_ORB_Active_SatelliteCopy.AT_SKILL_ORB_Active_SatelliteCopy",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Orb/AT_FX_ORB_Active_Satellite_Projectile.AT_FX_ORB_Active_Satellite_Projectile",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": false,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": false,
+          "HitEffectDirection": "EHitEffectDirection::kSnNeutral",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_ORB_Active_SatelliteCopy_trait1": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
           "Key": "TEXT_SKILL_Name_WP_ORB_Active_SatelliteCopy",
@@ -16501,8 +16982,8 @@
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
           "Key": "TEXT_TRAIT_1_NAME_WP_ORB_Active_Satellite",
-          "SourceString": "위성 복제",
-          "LocalizedString": "Satellite Copy"
+          "SourceString": "보호 위성 소환",
+          "LocalizedString": "Summon Guardian Satellite"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON056.SP_COMMON056",
@@ -16517,9 +16998,9 @@
             "Key": "ETLSkillOptionRank::All",
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
-              "Key": "TEXT_SKILL_DESC_WP_ORB_Active_SatelliteCopy",
-              "SourceString": "^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.",
-              "LocalizedString": "Can only be cast to a party member with ^<c=@SkillTooltipChange>Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> to all party members within the caster's Attack Range from that party member for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c>."
+              "Key": "TEXT_SKILL_DESC_WP_ORB_Active_Satellite_Trait1",
+              "SourceString": "파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원이 있으면 나와 파티원의 일부 스킬이 강화됩니다. \r\n대상에게는 동시에 하나의 ^<c=@SkillTooltipChange>위성^</c>만 적용됩니다.\r\n\r\n^<c=@SkillTooltipChange>보호 위성 복제^</c>\r\n^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게만 사용할 수 있습니다. 해당 파티원 위치에서 시전자 공격 거리 이내에 있는 모든 파티원에게 ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipChange>위성^</c> 효과를 줍니다.\r\n\r\n^<c=@SkillTooltipChange>왜곡 장막^</c>\r\n시전자가 ^<c=@SkillTooltipChange>왜곡 장막^</c> 사용 시 대상 반경 30m 내 ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게도 동일한 ^<c=@SkillTooltipChange>왜곡 장막^</c> 효과를 줍니다. ^<c=@SkillTooltipChange>위성^</c> 효과를 가진 파티원에게 사용하면 보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c> 증폭됩니다.",
+              "LocalizedString": "Applies ^<c=@SkillTooltipChange>Satellite^</c> to a party member for ^<c=@SkillTooltipChange>$[ORB_Active_Satellite_Duration.tooltip1]s^</c>. The following skills for you and your party member are boosted when a party member with ^<c=@SkillTooltipChange>Satellite^</c> is present.\nOnly one ^<c=@SkillTooltipChange>Satellite^</c> may be applied at a time to a target.\n\n^<c=@SkillTooltipChange>Guardian Satellite Copy^</c>\n^<c=@SkillTooltipChange>Can only be used on party members with Satellite^</c>. Grants ^<c=@SkillTooltipChange>Satellite^</c> for ^<c=@SkillTooltipChange>$[ORB_Active_SatelliteCopy_Duration.tooltip1]s^</c> to all party members within the caster's Attack Range from the target.\n\n^<c=@SkillTooltipChange>Distortion Veil^</c>\nApplies ^<c=@SkillTooltipChange>Distortion Veil^</c> to the party member with ^<c=@SkillTooltipChange>Satellite^</c> within 30m when the caster uses ^<c=@SkillTooltipChange>Distortion Veil^</c>. Applying the skill to a party member with ^<c=@SkillTooltipChange>Satellite^</c> boosts Shield Health by ^<c=@SkillTooltipChange>$[ORB_Active_Shield_ShieldHpUp_By_Satellite.tooltip1]%^</c>."
             }
           }
         ],
@@ -16586,8 +17067,8 @@
         "SkillTraitDescription": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
           "Key": "TEXT_TRAIT_1_TRAIT_WP_ORB_Active_Satellite",
-          "SourceString": "위성 복제 스킬 사용 가능",
-          "LocalizedString": "Can use Satellite Copy"
+          "SourceString": "보호 위성 소환으로 변경",
+          "LocalizedString": "Changes to Summon Guardian Satellite"
         },
         "UnAvailableSkillHandle": {
           "RowName": "None"
@@ -23104,8 +23585,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_Item_ArchBoss_T1_ORB_01",
-              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% 만큼 피해를 주고 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
-              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% of Base Damage every 0.5s and apply a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
+              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% 만큼 피해를 주고 몬스터에게는 피해가 $[WP_Item_ArchBoss_T1_ORB_01_DD_NPC.tooltip1]% 증폭되며 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
+              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% of Base Damage every 0.5s. Damage increases by $[WP_Item_ArchBoss_T1_ORB_01_DD_NPC.tooltip1]% against monsters. Applies a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
             }
           }
         ],
@@ -23122,8 +23603,8 @@
             "Option": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_Item_ArchBoss_T1_ORB_01",
-              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% 만큼 피해를 주고 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
-              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% of Base Damage every 0.5s and apply a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
+              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% 만큼 피해를 주고 몬스터에게는 피해가 $[WP_Item_ArchBoss_T1_ORB_01_DD_NPC.tooltip1]% 증폭되며 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
+              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_DD.tooltip1]% of Base Damage every 0.5s. Damage increases by $[WP_Item_ArchBoss_T1_ORB_01_DD_NPC.tooltip1]% against monsters. Applies a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
             },
             "Type": "EPassiveSkillType::kNone",
             "Icon": {
@@ -24484,8 +24965,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_Item_ArchBoss_T1_ORB_01_Upgrade",
-              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% 만큼 피해를 주고 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
-              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% of Base Damage every 0.5s and apply a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
+              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% 만큼 피해를 주고 몬스터에게는 피해가 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD_NPC.tooltip1]% 증폭되며 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
+              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% of Base Damage every 0.5s. Damage increases by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD_NPC.tooltip1]% against monsters. Applies a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
             }
           }
         ],
@@ -24502,8 +24983,8 @@
             "Option": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_Item_ArchBoss_T1_ORB_01_Upgrade",
-              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% 만큼 피해를 주고 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
-              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% of Base Damage every 0.5s and apply a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
+              "SourceString": "멸성탄에 처음 피격된 적 및 초신성 붕괴 영역 생성 시 6m 내 가장 가까운 적에게 $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]초 동안 잠식 오라 적용. 오라 반경 내 3m 내 적에게 0.5초마다 기본 피해의 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% 만큼 피해를 주고 몬스터에게는 피해가 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD_NPC.tooltip1]% 증폭되며 $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% 확률로 중첩 당 약화 지속 시간이 $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]% 증가하는 쇠약 효과 적용 (최대 5중첩)",
+              "LocalizedString": "Applies a Consuming Aura for $[WP_Item_ArchBoss_T1_ORB_01_Aura_Duration.tooltip1]s to the enemy first hit by Star Destroyer or to the nearest enemy within 6m when a Supernova Collapse area is generated. Enemies within 3m of the Aura's range has a(n) $[WP_Item_ArchBoss_T1_ORB_01_Rate.tooltip1]% chance to receive damage equal to $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD.tooltip1]% of Base Damage every 0.5s. Damage increases by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DD_NPC.tooltip1]% against monsters. Applies a Weaken effect that increases Debuff Duration per stack by $[WP_Item_ArchBoss_T1_ORB_01_Upgrade_DebuffTakenDuration.tooltip1]%. (Stacks up to 5 times)"
             },
             "Type": "EPassiveSkillType::kNone",
             "Icon": {

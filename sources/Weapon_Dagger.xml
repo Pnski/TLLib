@@ -481,6 +481,9 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_Item_ArcBoss_T2_DA_01" min_count="0">
                     <set_skill skill_id="WP_DA_S_Smoke_T2_DA_Arch" skill_id_disable="false" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_ArcBoss_T2_DA_02">
+                    <set_skill skill_id="WP_DA_S_Smoke_T2_DA_Arch" skill_id_disable="false" />
+                  </if_abnormal_state>
                 </complex>
                 <transition>
                   <use_skill skill_id="WP_DA_S_Smoke" next_combo_state="kComboStateDefault" />

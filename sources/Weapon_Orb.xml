@@ -295,14 +295,18 @@
           <preset guid="981338032" is_toggle_slot="false">
             <default uid="0">
               <combo_state_default>
-                <simple skill_id="WP_ORB_Active_Satellite" skill_id_disable="false" />
+                <complex default_skill_id="WP_ORB_Active_Satellite" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_ORB_Active_SatelliteCopy_ContextOn">
+                    <set_skill skill_id="WP_ORB_Active_SatelliteCopy" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
             <specialization traits="SkillSet_WP_ORB_Active_Satellite_Trait_1" uid="1">
               <combo_state_default>
-                <complex default_skill_id="WP_ORB_Active_Satellite" default_skill_id_disable="false">
-                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_ORB_Active_SatelliteCopy_ContextOn">
-                    <set_skill skill_id="WP_ORB_Active_SatelliteCopy" skill_id_disable="false" show_transition_notify="true" />
+                <complex default_skill_id="WP_ORB_Active_Satellite_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_ORB_Active_SatelliteCopy_ContextOn_trait1">
+                    <set_skill skill_id="WP_ORB_Active_SatelliteCopy_trait1" skill_id_disable="false" show_transition_notify="true" />
                   </if_abnormal_state>
                 </complex>
               </combo_state_default>
@@ -311,7 +315,7 @@
         </presets>
       </context>
       <trait_list>
-        <trait trait_id="SkillSet_WP_ORB_Active_Satellite_Trait_1" uid="0" point="10" />
+        <trait trait_id="SkillSet_WP_ORB_Active_Satellite_Trait_1" uid="0" point="7" />
         <trait trait_id="SkillSet_WP_ORB_Active_Satellite_Trait_2" uid="1" point="7" trait_dynamic_stat_id_01="ORB_Active_Satellite_Duration" trait_dynamic_stat_adder_formula_01="ORB_Active_Satellite_Trait2_Duration_DynamicStat" />
       </trait_list>
     </skill_complex>

@@ -2439,6 +2439,54 @@
               }
             }
           ]
+        },
+        "GuildDistributionSetting": {
+          "ForceDistributableItemIds": [
+            "material_giantwarrior_04",
+            "material_sandworm_05_1",
+            "material_Broork_05",
+            "material_DelugeNoah_05",
+            "material_arcboss_piece_001",
+            "material_arcboss_piece_002",
+            "material_arcboss_piece_003",
+            "material_arcboss_piece_004",
+            "crossbow_aa_t2_polymorph_001",
+            "staff_aa_t1_nomal_004",
+            "sword_aa_t2_polymorph_001",
+            "spear_aa_t1_Arch_004",
+            "crossbow_aa_t2_polymorph_003",
+            "staff_aa_t1_nomal_009",
+            "sword_aa_t2_polymorph_002",
+            "spear_aa_t1_Arch_005",
+            "bow_aa_t1_nomal_002",
+            "sword2h_aa_t2_polymorph_001",
+            "dagger_aa_t2_polymorph_001",
+            "wand_aa_t2_polymorph_001",
+            "bow_aa_t1_nomal_009",
+            "sword2h_aa_t2_polymorph_002",
+            "dagger_aa_t2_polymorph_002",
+            "wand_aa_t2_polymorph_003",
+            "orb_aa_t1_arch_001",
+            "orb_aa_t1_arch_002",
+            "bow_aa_t2_polymorph_001",
+            "staff_aa_t2_polymorph_001",
+            "dagger_aa_t2_boss_001",
+            "sword_aa_t2_boss_001",
+            "spear_aa2_t1_Arch_005",
+            "bow_aa_t3_upgrade_arch_001",
+            "staff_aa_t3_upgrade_arch_001",
+            "dagger_aa_t3_upgrade_arch_001",
+            "sword_aa_t3_upgrade_arch_001",
+            "spear_aa_t3_upgrade_arch_001",
+            "wand_aa_t2_polymorph_002",
+            "sword2h_aa_t2_boss_002",
+            "orb_aa_t2_arch_001",
+            "sword2h_aa_t3_upgrade_arch_001",
+            "crossbow_aa_t3_upgrade_arch_001",
+            "wand_aa_t3_upgrade_arch_001",
+            "orb_aa_t3_upgrade_arch_001",
+            "crossbow_aa_t2_polymorph_002"
+          ]
         }
       }
     }

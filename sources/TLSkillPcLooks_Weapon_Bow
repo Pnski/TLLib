@@ -24527,8 +24527,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindShot",
-              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 같은 시간 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
-              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for the same duration."
+              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
+              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]s^</c>."
             }
           }
         ],
@@ -24774,8 +24774,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindShot",
-              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 같은 시간 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
-              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for the same duration."
+              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
+              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]s^</c>."
             }
           }
         ],
@@ -24800,6 +24800,20 @@
                     "SourceString": "$[BO_BindShot_Bind_Duration.tooltip1]초",
                     "LocalizedString": "$[BO_BindShot_Bind_Duration.tooltip1]s"
                   }
+                },
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_REPRESSIONDURATION_UP",
+                    "SourceString": "억압 시간 증가",
+                    "LocalizedString": "Increase Oppress Duration"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_BindShot_Repression",
+                    "SourceString": "$[BO_BindShot_Bind_Duration_Boss.tooltip1]초",
+                    "LocalizedString": "$[BO_BindShot_Bind_Duration_Boss.tooltip1]s"
+                  }
                 }
               ]
             }
@@ -24818,6 +24832,20 @@
               "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_BindShot",
               "SourceString": "$[BO_BindShot_Bind_Duration.tooltip1]초",
               "LocalizedString": "$[BO_BindShot_Bind_Duration.tooltip1]s"
+            }
+          },
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_REPRESSIONDURATION_UP",
+              "SourceString": "억압 시간 증가",
+              "LocalizedString": "Increase Oppress Duration"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_WP_BO_BindShot_Repression",
+              "SourceString": "$[BO_BindShot_Bind_Duration_Boss.tooltip1]초",
+              "LocalizedString": "$[BO_BindShot_Bind_Duration_Boss.tooltip1]s"
             }
           }
         ],
@@ -25021,8 +25049,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindShot",
-              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 같은 시간 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
-              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for the same duration."
+              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
+              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]s^</c>."
             }
           }
         ],
@@ -25268,8 +25296,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Bow.TLStringSkillDesc_Weapon_Bow",
               "Key": "TEXT_SKILL_DESC_WP_BO_BindShot",
-              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 같은 시간 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
-              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for the same duration."
+              "SourceString": "기본 피해의 $[BO_BindShot_DD.tooltip1]% 만큼 피해를 주고 $[BO_BindShot_Bind_Rate.tooltip1]% 확률로 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>속박^</c>시킵니다. 측방이나 후방에 명중했을 경우 $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% 확률로 속박합니다. ^<c=@SkillTooltipAbnormal>속박^</c> 면역인 보스는 ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]초^</c> 동안 ^<c=@SkillTooltipAbnormal>억압^</c> 상태가 됩니다.",
+              "LocalizedString": "Releases an ensnaring arrow that deals $[BO_BindShot_DD.tooltip1]% of Base Damage with a(n) $[BO_BindShot_Bind_Rate.tooltip1]% chance to ^<c=@SkillTooltipAbnormal>Bind^</c> the target for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration.tooltip1]s^</c>. Applies Bind with $[BO_BindShot_Bind_Rate_Trait4.tooltip1]% chance if hit from the side or back. For Boss monsters that are immune to ^<c=@SkillTooltipAbnormal>Bind^</c>, applies ^<c=@SkillTooltipAbnormal>Oppression^</c> instead for ^<c=@SkillTooltipChange>$[BO_BindShot_Bind_Duration_Boss.tooltip1]s^</c>."
             }
           }
         ],

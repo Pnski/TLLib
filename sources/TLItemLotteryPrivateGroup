@@ -30170,6 +30170,31 @@
           }
         ]
       },
+      "2025_Event_2ndNovaDay_StarlightRuneBox_001": {
+        "Name": "2025_Event_2ndNovaDay_StarlightRuneBox_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "2025_Event_2ndNovaDay_coin_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "2025_Event_2ndNovaDay_StarlightRuneBox_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "2025_Event_2ndNovaDay_CompletedStarlightRune_001": {
+        "Name": "2025_Event_2ndNovaDay_CompletedStarlightRune_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "2025_Event_2ndNovaDay_CompletedStarlightRune_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_equipset_lottery_kA_fgt_01": {
         "Name": "package_equipset_lottery_kA_fgt_01",
         "ItemLotteryPrivateGroupEntry": [

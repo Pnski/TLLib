@@ -934,8 +934,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Leap 5m in the direction of movement if moving, or leap toward the camera's position if standing still. Attack Speed increases by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Range increases by $[CR_Step_Buff_AttackRangeUp.tooltip1]% and Critical Damage increases by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -5895,8 +5895,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_TRAIT_3_RANK_DESC_WP_CR_RapidShot",
-              "SourceString": "피해량이 $[CR_RapidShot_Trait3_Damage_DynamicStat.tooltip1]% 증폭되고, 재사용 시간 $[CR_RapidShot_Trait3_Cooldown_DynamicStat.tooltip1]초 증가합니다. 플레이어 대상으로는 피해량이 $[CR_RapidShot_Trait3_Damage_DynamicStat_PC.tooltip1]% 추가 증폭됩니다.",
-              "LocalizedString": "Damage increases by $[CR_RapidShot_Trait3_Damage_DynamicStat.tooltip1]%, and Cooldown increases by $[CR_RapidShot_Trait3_Cooldown_DynamicStat.tooltip1]s. The damage is amplified by $[CR_RapidShot_Trait3_Damage_DynamicStat_PC.tooltip1]% against other players."
+              "SourceString": "피해량이 $[CR_RapidShot_Trait3_Damage_DynamicStat.tooltip1]% 증폭되고, 재사용 시간 $[CR_RapidShot_Trait3_Cooldown_DynamicStat.tooltip1]초 증가합니다.",
+              "LocalizedString": "Boosts damage by $[CR_RapidShot_Trait3_Damage_DynamicStat.tooltip1]% and increases cooldown by $[CR_RapidShot_Trait3_Cooldown_DynamicStat.tooltip1]s."
             }
           }
         ],
@@ -25628,8 +25628,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -25883,8 +25883,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -26130,8 +26130,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -26377,8 +26377,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -26624,8 +26624,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -26879,8 +26879,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -27126,8 +27126,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -27373,8 +27373,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -28250,8 +28250,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -28505,8 +28505,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -28752,8 +28752,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -28999,8 +28999,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -29246,8 +29246,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -29501,8 +29501,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -29748,8 +29748,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -29995,8 +29995,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -36384,8 +36384,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -36639,8 +36639,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -36886,8 +36886,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -37133,8 +37133,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -37380,8 +37380,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -37635,8 +37635,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -37882,8 +37882,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -38129,8 +38129,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -39611,8 +39611,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot_Hero",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Attack 3 times consecutively. Each hit deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c>. Against the victim of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c>, deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -39873,8 +39873,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot_Hero",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Attack 3 times consecutively. Each hit deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c>. Against the victim of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c>, deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -40120,8 +40120,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot_Hero",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Attack 3 times consecutively. Each hit deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c>. Against the victim of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c>, deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -40367,8 +40367,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot_Hero",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Attack 3 times consecutively. Each hit deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c>. Against the victim of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c>, deals damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -41244,8 +41244,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Leap 5m in the direction of movement if moving, or leap toward the camera's position if standing still. Attack Speed increases by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Range increases by $[CR_Step_Buff_AttackRangeUp.tooltip1]% and Critical Damage increases by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41491,8 +41491,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Leap 5m in the direction of movement if moving, or leap toward the camera's position if standing still. Attack Speed increases by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Range increases by $[CR_Step_Buff_AttackRangeUp.tooltip1]% and Critical Damage increases by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41738,8 +41738,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Leap 5m in the direction of movement if moving, or leap toward the camera's position if standing still. Attack Speed increases by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Range increases by $[CR_Step_Buff_AttackRangeUp.tooltip1]% and Critical Damage increases by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41993,8 +41993,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Leap 5m in the direction of movement if moving, or leap toward the camera's position if standing still. Attack Speed increases by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Range increases by $[CR_Step_Buff_AttackRangeUp.tooltip1]% and Critical Damage increases by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -42268,8 +42268,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -42523,8 +42523,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -42770,8 +42770,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],
@@ -43017,8 +43017,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_RapidShot",
-              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다.",
-              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2] damage^</c> each hit. Victims of the user's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take more damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2] damage^</c>."
+              "SourceString": "연속으로 3번 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% + $[CR_RapidShot_DD.tooltip2]^</c> 만큼 피해를 줍니다. 내가 ^<c=@SkillTooltipAbnormal>쇠약^</c> 효과를 적용한 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> 만큼 피해가 증가합니다. 몬스터에게는 피해량이 $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% 증폭됩니다.",
+              "LocalizedString": "Fires an arrow 3 times that deals ^<c=@SkillTooltipChange>$[CR_RapidShot_DD.tooltip1]% of Base Damage + $[CR_RapidShot_DD.tooltip2]^</c> damage each hit. Targets of the caster's ^<c=@SkillTooltipAbnormal>Weaken^</c> effects take increased damage equal to ^<c=@SkillTooltipChange>$[CR_RapidShot_Rare_DD_WeakenBonus.tooltip1]% of Base Damage + $[CR_RapidShot_Rare_DD_WeakenBonus.tooltip2]^</c> damage. Damage increases by $[CR_RapidShot_DD_NPC_Tooltip.tooltip1]% against monsters."
             }
           }
         ],

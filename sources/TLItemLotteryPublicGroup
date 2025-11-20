@@ -8004,6 +8004,156 @@
           }
         ]
       },
+      "Event_Carnival_Potal_Coin_Solo_001": {
+        "Name": "Event_Carnival_Potal_Coin_Solo_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Coin_Solo_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Coin_PartyElite_001": {
+        "Name": "Event_Carnival_Potal_Coin_PartyElite_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Coin_PartyElite_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Coin_Boss_001": {
+        "Name": "Event_Carnival_Potal_Coin_Boss_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Coin_Boss_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Artifact_PartyElite_002": {
+        "Name": "Event_Carnival_Potal_Artifact_PartyElite_002",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Artifact_PartyElite_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Artifact_Boss_002": {
+        "Name": "Event_Carnival_Potal_Artifact_Boss_002",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Artifact_Boss_002",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Rune_PartyElite_003": {
+        "Name": "Event_Carnival_Potal_Rune_PartyElite_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Rune_PartyElite_003",
+            "Count": 1,
+            "prob": 2500000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Rune_Boss_003": {
+        "Name": "Event_Carnival_Potal_Rune_Boss_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Rune_Boss_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_ChaosRune_Boss_004": {
+        "Name": "Event_Carnival_Potal_ChaosRune_Boss_004",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_ChaosRune_Boss_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Coin_PartyElite_001_luck": {
+        "Name": "Event_Carnival_Potal_Coin_PartyElite_001_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Coin_PartyElite_001_luck",
+            "Count": 99,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Coin_Boss_001_luck": {
+        "Name": "Event_Carnival_Potal_Coin_Boss_001_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Coin_Boss_001_luck",
+            "Count": 245,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Artifact_PartyElite_002_luck": {
+        "Name": "Event_Carnival_Potal_Artifact_PartyElite_002_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Artifact_PartyElite_002_luck",
+            "Count": 99,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Artifact_Boss_002_luck": {
+        "Name": "Event_Carnival_Potal_Artifact_Boss_002_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Artifact_Boss_002_luck",
+            "Count": 245,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Rune_PartyElite_003_luck": {
+        "Name": "Event_Carnival_Potal_Rune_PartyElite_003_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Rune_PartyElite_003_luck",
+            "Count": 99,
+            "prob": 2500000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_Rune_Boss_003_luck": {
+        "Name": "Event_Carnival_Potal_Rune_Boss_003_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_Rune_Boss_003_luck",
+            "Count": 245,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Event_Carnival_Potal_ChaosRune_Boss_004_luck": {
+        "Name": "Event_Carnival_Potal_ChaosRune_Boss_004_luck",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Event_Carnival_Potal_ChaosRune_Boss_004_luck",
+            "Count": 245,
+            "prob": 10000000
+          }
+        ]
+      },
       "GD_FD_M_Insect_Flyer_001_Equip": {
         "Name": "GD_FD_M_Insect_Flyer_001_Equip",
         "ItemLotteryPublicGroupEntry": [
@@ -39227,6 +39377,21 @@
           },
           {
             "id": "Resource_CryptidEnergy_002_1_Lv2",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "GD_WC_FO_OneState_StardustLump_0001": {
+        "Name": "GD_WC_FO_OneState_StardustLump_0001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "GD_WC_FO_OneState_StardustLump_0001_1",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "GD_WC_FO_OneState_StardustLump_0001_2",
             "Count": 1,
             "prob": 10000000
           }
