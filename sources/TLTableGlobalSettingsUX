@@ -1347,6 +1347,7 @@
             }
           }
         ],
+        "WeaponIconNameplateUI": [],
         "ContractGradeSpriteMap": [],
         "MoneyIconData": [
           {
@@ -2133,6 +2134,14 @@
             }
           }
         ],
+        "HousingFurnitureColorFillTexturePath": {
+          "AssetPathName": "/Game/Image/Icon/Housing/ETC/FurnitureColor_Dummy.FurnitureColor_Dummy",
+          "SubPathString": ""
+        },
+        "HousingFurnitureColorIconMaterialPath": {
+          "AssetPathName": "/Game/UI/Material/CustomMaterial/MAT_ColorItemIcon.MAT_ColorItemIcon",
+          "SubPathString": ""
+        },
         "CustomizeHistoryTypeIcon": [
           {
             "Key": "ECustomizeHistoryType::DesignerPreset",
@@ -4601,6 +4610,93 @@
             "Key": "ETLGrowthNaviStyle::Assist",
             "Value": {
               "AssetPathName": "/Game/UI/Texture/UI_Texture/GrowthNavi/GrowthNavi_Role_Healer_On_Sprite.GrowthNavi_Role_Healer_On_Sprite",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "EquipSlotIconPath": null,
+        "ItemIconPath": [
+          {
+            "Key": "EItemCategory::kHead",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_head_Sprite.Tx_Icon_ArmorDeco_head_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kChest",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Chest_Sprite.Tx_Icon_ArmorDeco_Chest_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kHands",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_hands_Sprite.Tx_Icon_ArmorDeco_hands_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kLegs",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Leg_Sprite.Tx_Icon_ArmorDeco_Leg_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kFeet",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Feet_Sprite.Tx_Icon_ArmorDeco_Feet_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kCloak",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Cloack_Sprite.Tx_Icon_ArmorDeco_Cloack_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kNecklace",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Necklace_Sprite.Tx_Icon_ArmorDeco_Necklace_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kBracelet",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Bracelet_Sprite.Tx_Icon_ArmorDeco_Bracelet_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kRing",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Ring_Sprite.Tx_Icon_ArmorDeco_Ring_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kEarring",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Earring_Sprite.Tx_Icon_ArmorDeco_Earring_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kBelt",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_Belt_Sprite.Tx_Icon_ArmorDeco_Belt_Sprite",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EItemCategory::kFishingRod",
+            "Value": {
+              "AssetPathName": "/Game/UI/Texture/UI_Texture/01_Common/ArmorDecoration/Tx_Icon_ArmorDeco_FishingRod_Sprite.Tx_Icon_ArmorDeco_FishingRod_Sprite",
               "SubPathString": ""
             }
           }

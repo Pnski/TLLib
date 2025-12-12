@@ -11,6 +11,16 @@
       }
     },
     "Rows": {
+      "crossbow_a_t3_mythicbeast_003": {
+        "Name": "crossbow_a_t3_mythicbeast_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "crossbow_a_t3_mythicbeast_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "equip_kA_1percent": {
         "Name": "equip_kA_1percent",
         "ItemLotteryPublicGroupEntry": [
@@ -5253,16 +5263,6 @@
             "prob": 10000000
           },
           {
-            "id": "ETC_Elite_Weapon",
-            "Count": 10,
-            "prob": 10000000
-          },
-          {
-            "id": "ETC_Elite_Acc",
-            "Count": 5,
-            "prob": 10000000
-          },
-          {
             "id": "L06_M_LichOrc_Grimthurgh_001_C",
             "Count": 3,
             "prob": 10000000
@@ -5270,6 +5270,16 @@
           {
             "id": "L06_M_LichOrc_Grimthurgh_001_D",
             "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "ETC_Elite_Weapon",
+            "Count": 10,
+            "prob": 10000000
+          },
+          {
+            "id": "ETC_Elite_Acc",
+            "Count": 5,
             "prob": 10000000
           }
         ]
@@ -5288,6 +5298,16 @@
             "prob": 10000000
           },
           {
+            "id": "L06_M_EvilEye_Exavis_001_C",
+            "Count": 8,
+            "prob": 10000000
+          },
+          {
+            "id": "L06_M_EvilEye_Exavis_001_D",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
             "id": "ETC_Elite_Armor",
             "Count": 10,
             "prob": 10000000
@@ -5295,16 +5315,6 @@
           {
             "id": "ETC_Elite_Acc",
             "Count": 5,
-            "prob": 10000000
-          },
-          {
-            "id": "L06_M_EvilEye_Exavis_001_C",
-            "Count": 8,
-            "prob": 10000000
-          },
-          {
-            "id": "L06_M_EvilEye_Exavis_001_C",
-            "Count": 1,
             "prob": 10000000
           }
         ]
@@ -7769,8 +7779,8 @@
           },
           {
             "id": "WaterSpirit_DelugeNoah_kAA3_Equip",
-            "Count": 2,
-            "prob": 7500000
+            "Count": 1,
+            "prob": 5000000
           },
           {
             "id": "WaterSpirit_DelugeNoah_kAA_guild",
@@ -7814,8 +7824,8 @@
           },
           {
             "id": "Elderwood_GiantBroork_kAA3_Equip",
-            "Count": 2,
-            "prob": 7500000
+            "Count": 1,
+            "prob": 5000000
           },
           {
             "id": "Elderwood_GiantBroork_kAA_guild",
@@ -7848,7 +7858,7 @@
         "Name": "WB_WD_M_Centipede_AncientSandworm_Equip_kAA",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WaterSpirit_DelugeNoah_kAA3_Equip",
+            "id": "Centipede_AncientSandworm_kAA3_Equip",
             "Count": 3,
             "prob": 10000000
           },
@@ -7868,7 +7878,7 @@
         "Name": "WB_GD_M_Skeleton_GiantWarrior_Equip_kAA",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "Elderwood_GiantBroork_kAA3_Equip",
+            "id": "WB_GD_M_Skeleton_GiantWarrior_kAA3_Equip",
             "Count": 3,
             "prob": 10000000
           },
@@ -7888,14 +7898,14 @@
         "Name": "WB_WD_M_Centipede_AncientSandworm_001",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "WaterSpirit_DelugeNoah_kAA3_Equip",
+            "id": "Centipede_AncientSandworm_kAA3_Equip",
             "Count": 3,
             "prob": 10000000
           },
           {
-            "id": "WaterSpirit_DelugeNoah_kAA3_Equip",
-            "Count": 2,
-            "prob": 7500000
+            "id": "Centipede_AncientSandworm_kAA3_Equip",
+            "Count": 1,
+            "prob": 5000000
           },
           {
             "id": "WB_WD_M_Centipede_AncientSandworm_Equip_kAA",
@@ -7928,14 +7938,14 @@
         "Name": "WB_GD_M_Skeleton_GiantWarrior_001",
         "ItemLotteryPublicGroupEntry": [
           {
-            "id": "Elderwood_GiantBroork_kAA3_Equip",
+            "id": "WB_GD_M_Skeleton_GiantWarrior_kAA3_Equip",
             "Count": 3,
             "prob": 10000000
           },
           {
-            "id": "Elderwood_GiantBroork_kAA3_Equip",
-            "Count": 2,
-            "prob": 7500000
+            "id": "WB_GD_M_Skeleton_GiantWarrior_kAA3_Equip",
+            "Count": 1,
+            "prob": 5000000
           },
           {
             "id": "WB_GD_M_Skeleton_GiantWarrior_Equip_kAA",
@@ -8151,6 +8161,1726 @@
             "id": "Event_Carnival_Potal_ChaosRune_Boss_004_luck",
             "Count": 245,
             "prob": 10000000
+          }
+        ]
+      },
+      "L02_AE_M_Chimera_Poison_001_Equip": {
+        "Name": "L02_AE_M_Chimera_Poison_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_Chimera_SteelClaw_001_Equip": {
+        "Name": "L02_AE_M_Chimera_SteelClaw_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_DemonGoat_Berserker_001_Equip": {
+        "Name": "L02_AE_M_DemonGoat_Berserker_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_DemonGoat_Butcher_001_Equip": {
+        "Name": "L02_AE_M_DemonGoat_Butcher_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_DemonGoat_Chaser_001_Equip": {
+        "Name": "L02_AE_M_DemonGoat_Chaser_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_DemonGoat_Shaman_001_Equip": {
+        "Name": "L02_AE_M_DemonGoat_Shaman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L02_AE_M_DemonGoat_Shaman_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L02_AE_M_SoulSpirit_Knight_S110A_001_Equip": {
+        "Name": "L02_AE_M_SoulSpirit_Knight_S110A_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_SoulSpirit_Knight_S120A_001_Equip": {
+        "Name": "L02_AE_M_SoulSpirit_Knight_S120A_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_LivingArmor_Archer_001_Equip": {
+        "Name": "L02_AE_M_LivingArmor_Archer_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_LivingArmor_Mage_001_Equip": {
+        "Name": "L02_AE_M_LivingArmor_Mage_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L02_AE_M_LivingArmor_Mage_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L02_AE_M_LivingArmor_Soldier_001_Equip": {
+        "Name": "L02_AE_M_LivingArmor_Soldier_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_LivingArmor_Spearman_001_Equip": {
+        "Name": "L02_AE_M_LivingArmor_Spearman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_EvilSpirit_Dark_S100A_001_Equip": {
+        "Name": "L02_AE_M_EvilSpirit_Dark_S100A_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_GrankainPriest_Assassin_001_Equip": {
+        "Name": "L02_AE_M_GrankainPriest_Assassin_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_GrankainPriest_DarkMagician_001_Equip": {
+        "Name": "L02_AE_M_GrankainPriest_DarkMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_GrankainPriest_DarkPriest_001_Equip": {
+        "Name": "L02_AE_M_GrankainPriest_DarkPriest_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L02_AE_M_GrankainPriest_ReaperMad_Equip": {
+        "Name": "L02_AE_M_GrankainPriest_ReaperMad_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L02_AE_M_GrankainPriest_ReaperMad_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L02_AE_M_GrankainPriest_Reaper_001_Equip": {
+        "Name": "L02_AE_M_GrankainPriest_Reaper_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_EvilSpirit_Dark_002_Equip": {
+        "Name": "L03_AE_M_EvilSpirit_Dark_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_Assassin_S100A_002_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_Assassin_S100A_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_DarkPriest_002_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_DarkPriest_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_Friar_002_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_Friar_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_LowMagician_002_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_LowMagician_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_Reaper_S100A_002_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_Reaper_S100A_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GrankainPriest_HighDarkPriest_001_Equip": {
+        "Name": "L03_AE_M_GrankainPriest_HighDarkPriest_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L03_AE_M_GrankainPriest_HighDarkPriest_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Charger_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Charger_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Explosion_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Explosion_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Guard_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Guard_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Larva_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Larva_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Poison_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Poison_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_Worker_002_Equip": {
+        "Name": "L03_AE_M_GiantAnt_Worker_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_GiantAnt_PoisonGuard_001_Equip": {
+        "Name": "L03_AE_M_GiantAnt_PoisonGuard_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L03_AE_M_GiantAnt_PoisonGuard_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L03_AE_M_Siber_DarkMagician_001_Equip": {
+        "Name": "L03_AE_M_Siber_DarkMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L03_AE_M_Siber_DarkMagician_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L03_AE_M_Siber_EarthMagician_001_Equip": {
+        "Name": "L03_AE_M_Siber_EarthMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_FireMagician_001_Equip": {
+        "Name": "L03_AE_M_Siber_FireMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_ShieldSoldier_001_Equip": {
+        "Name": "L03_AE_M_Siber_ShieldSoldier_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_Spearman_001_Equip": {
+        "Name": "L03_AE_M_Siber_Spearman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_WaterMagician_001_Equip": {
+        "Name": "L03_AE_M_Siber_WaterMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_WindMagician_001_Equip": {
+        "Name": "L03_AE_M_Siber_WindMagician_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_EarthMagician_002_Equip": {
+        "Name": "L03_AE_M_Siber_EarthMagician_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_FireMagician_002_Equip": {
+        "Name": "L03_AE_M_Siber_FireMagician_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_ShieldSoldier_002_Equip": {
+        "Name": "L03_AE_M_Siber_ShieldSoldier_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_Spearman_002_Equip": {
+        "Name": "L03_AE_M_Siber_Spearman_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_WaterMagician_002_Equip": {
+        "Name": "L03_AE_M_Siber_WaterMagician_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Siber_WindMagician_002_Equip": {
+        "Name": "L03_AE_M_Siber_WindMagician_002_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_LizardMan_DualSwordman_001_Equip": {
+        "Name": "L03_AE_M_LizardMan_DualSwordman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "L03_AE_M_LizardMan_DualSwordman_001_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "L03_AE_M_Lizardman_Hammerman_001_Equip": {
+        "Name": "L03_AE_M_Lizardman_Hammerman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Lizardman_Stonebowman_001_Equip": {
+        "Name": "L03_AE_M_Lizardman_Stonebowman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Lizardman_Swordman_001_Equip": {
+        "Name": "L03_AE_M_Lizardman_Swordman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "L03_AE_M_Lizardman_Tridentman_001_Equip": {
+        "Name": "L03_AE_M_Lizardman_Tridentman_001_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Chef_Equip": {
+        "Name": "AE_L04_M_Mutant_Chef_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_Mutant_Chef_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Demon_Equip": {
+        "Name": "AE_L04_M_Wraith_Demon_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_Wraith_Demon_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Archer_Equip": {
+        "Name": "AE_L04_M_Mutant_Archer_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Assasin_Equip": {
+        "Name": "AE_L04_M_Mutant_Assasin_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Knight_Equip": {
+        "Name": "AE_L04_M_Mutant_Knight_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Undertaker_Equip": {
+        "Name": "AE_L04_M_Mutant_Undertaker_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Doll_Equip": {
+        "Name": "AE_L04_M_Wraith_Doll_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Guarddog_Equip": {
+        "Name": "AE_L04_M_Wraith_Guarddog_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Knight_Equip": {
+        "Name": "AE_L04_M_Wraith_Knight_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Trainer_Equip": {
+        "Name": "AE_L04_M_Wraith_Trainer_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Chef_S100A_Equip": {
+        "Name": "AE_L04_M_Mutant_Chef_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_Mutant_Chef_S100A_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Demon_S100B_Equip": {
+        "Name": "AE_L04_M_Wraith_Demon_S100B_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_Wraith_Demon_S100B_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Archer_S100A_Equip": {
+        "Name": "AE_L04_M_Mutant_Archer_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Assasin_S100A_Equip": {
+        "Name": "AE_L04_M_Mutant_Assasin_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Knight_S100A_Equip": {
+        "Name": "AE_L04_M_Mutant_Knight_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Mutant_Undertaker_S100A_Equip": {
+        "Name": "AE_L04_M_Mutant_Undertaker_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Doll_S100A_Equip": {
+        "Name": "AE_L04_M_Wraith_Doll_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Guarddog_S100A_Equip": {
+        "Name": "AE_L04_M_Wraith_Guarddog_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Knight_S100A_Equip": {
+        "Name": "AE_L04_M_Wraith_Knight_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Wraith_Trainer_S100A_Equip": {
+        "Name": "AE_L04_M_Wraith_Trainer_S100A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_Golem_Talus_S120A_Equip": {
+        "Name": "AE_L04_M_Golem_Talus_S120A_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_Golem_Talus_S120A_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_BattleMage_Equip": {
+        "Name": "AE_L04_M_StoneGolem_BattleMage_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_StoneGolem_BattleMage_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Carrier_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Carrier_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Footman_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Footman_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Lancer_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Lancer_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Smallrock_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Smallrock_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 85675
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 10938
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Warrior_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Warrior_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_StoneGolem_Worker_Equip": {
+        "Name": "AE_L04_M_StoneGolem_Worker_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_Commander_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_Commander_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_ThornFlowerArmy_Commander_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_Destroyer_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_Destroyer_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_L04_M_ThornFlowerArmy_Destroyer_Equip",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_Elite",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Upper_Ring",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "AE_Cloak_PVP",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_HighArcher_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_HighArcher_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_HighAssassin_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_HighAssassin_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_HighKnight_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_HighKnight_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_LowArcher_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_LowArcher_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Armor",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Armor",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_LowAssassin_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_LowAssassin_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_Weapon",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_ACC",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_L04_M_ThornFlowerArmy_LowKnight_Equip": {
+        "Name": "AE_L04_M_ThornFlowerArmy_LowKnight_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 1150000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 146818
+          }
+        ]
+      },
+      "AE_Material_Common": {
+        "Name": "AE_Material_Common",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kAA2_001",
+            "Count": 1,
+            "prob": 300000
+          },
+          {
+            "id": "Package_Random_MaterialFood_kA_AE",
+            "Count": 1,
+            "prob": 107212
+          },
+          {
+            "id": "AE_Gem_Ruby_kA",
+            "Count": 1,
+            "prob": 1167871
+          },
+          {
+            "id": "AE_Gem_Ruby_kAA",
+            "Count": 1,
+            "prob": 155716
+          },
+          {
+            "id": "AE_Gem_Star_kA",
+            "Count": 1,
+            "prob": 4182628
+          },
+          {
+            "id": "AE_Gem_Star_kAA",
+            "Count": 1,
+            "prob": 557683
+          },
+          {
+            "id": "AE_Gem_Emerald_kA",
+            "Count": 1,
+            "prob": 3348529
+          },
+          {
+            "id": "AE_Gem_Emerald_kAA",
+            "Count": 1,
+            "prob": 446470
+          },
+          {
+            "id": "AE_Gem_Marinde_kA",
+            "Count": 1,
+            "prob": 4550000
+          },
+          {
+            "id": "AE_Gem_Marinde_kAA",
+            "Count": 1,
+            "prob": 960000
+          }
+        ]
+      },
+      "AE_Material_Elite": {
+        "Name": "AE_Material_Elite",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "MainMaterial_ALL_kAA2_001",
+            "Count": 1,
+            "prob": 600000
+          },
+          {
+            "id": "Package_Random_MaterialFood_kA_AE",
+            "Count": 1,
+            "prob": 214424
+          },
+          {
+            "id": "AE_Gem_Ruby_kA",
+            "Count": 1,
+            "prob": 2335742
+          },
+          {
+            "id": "AE_Gem_Ruby_kAA",
+            "Count": 1,
+            "prob": 311432
+          },
+          {
+            "id": "AE_Gem_Star_kA",
+            "Count": 1,
+            "prob": 8365256
+          },
+          {
+            "id": "AE_Gem_Star_kAA",
+            "Count": 1,
+            "prob": 1115366
+          },
+          {
+            "id": "AE_Gem_Emerald_kA",
+            "Count": 1,
+            "prob": 6697058
+          },
+          {
+            "id": "AE_Gem_Emerald_kAA",
+            "Count": 1,
+            "prob": 892940
+          },
+          {
+            "id": "AE_Gem_Marinde_kA",
+            "Count": 1,
+            "prob": 9100000
+          },
+          {
+            "id": "AE_Gem_Marinde_kAA",
+            "Count": 1,
+            "prob": 1920000
+          }
+        ]
+      },
+      "AE_Rune_Common": {
+        "Name": "AE_Rune_Common",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_Rune_Common",
+            "Count": 1,
+            "prob": 1864706
+          }
+        ]
+      },
+      "AE_Rune_Elite": {
+        "Name": "AE_Rune_Elite",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_Rune_Common",
+            "Count": 1,
+            "prob": 3729412
           }
         ]
       },
@@ -32737,6 +34467,71 @@
           }
         ]
       },
+      "DropFO_wand_aa_t5_boss_005": {
+        "Name": "DropFO_wand_aa_t5_boss_005",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "crossbow_a_t3_mythicbeast_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "sword2h_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "sword_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "dagger_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "crossbow_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "bow_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "staff_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "wand_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "spear_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "orb_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "cloak_aa_t3_nomal_006",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "cloak_aa_t3_nomal_005",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "DE_GD_Fire_FO_01": {
         "Name": "DE_GD_Fire_FO_01",
         "ItemLotteryPublicGroupEntry": [
@@ -39494,6 +41289,311 @@
             "id": "MagicDoll_kB_5067",
             "Count": 1,
             "prob": 2862
+          }
+        ]
+      },
+      "FO_Toggle_RGE_TreasureChest_Equip": {
+        "Name": "FO_Toggle_RGE_TreasureChest_Equip",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_T2_ACC",
+            "Count": 1,
+            "prob": 2300000
+          },
+          {
+            "id": "AE_T3_Weapon",
+            "Count": 1,
+            "prob": 293636
+          },
+          {
+            "id": "AE_T3_Weapon_Random",
+            "Count": 1,
+            "prob": 222222
+          },
+          {
+            "id": "AE_Common_GoldenBox",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "AE_Lower_Ring",
+            "Count": 1,
+            "prob": 1000000
+          },
+          {
+            "id": "AE_Cloak_PVE",
+            "Count": 1,
+            "prob": 333000
+          }
+        ]
+      },
+      "GD_WC_FO_OneState_GiftBox_WC062_001": {
+        "Name": "GD_WC_FO_OneState_GiftBox_WC062_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "GD_WC_FO_OneState_GiftBox_WC062_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Common_FO_Resource_Red_Herb_001": {
+        "Name": "Common_FO_Resource_Red_Herb_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Red_lv10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Red_lv11",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "Resource_Red_lv12",
+            "Count": 1,
+            "prob": 1650000
+          }
+        ]
+      },
+      "Common_FO_Resource_Blue_Herb_001": {
+        "Name": "Common_FO_Resource_Blue_Herb_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Blue_lv10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Blue_lv11",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "Resource_Blue_lv12",
+            "Count": 1,
+            "prob": 1650000
+          }
+        ]
+      },
+      "Common_FO_Resource_Yellow_Herb_001": {
+        "Name": "Common_FO_Resource_Yellow_Herb_001",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "Resource_Yellow_lv10",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Resource_Yellow_lv11",
+            "Count": 1,
+            "prob": 500000
+          },
+          {
+            "id": "Resource_Yellow_lv12",
+            "Count": 1,
+            "prob": 1650000
+          }
+        ]
+      },
+      "DropFO_sword2h_aa_t3_normal_003": {
+        "Name": "DropFO_sword2h_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "sword2h_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_sword_aa_t3_normal_003": {
+        "Name": "DropFO_sword_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "sword_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_dagger_aa_t3_normal_003": {
+        "Name": "DropFO_dagger_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "dagger_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_crossbow_aa_t3_normal_003": {
+        "Name": "DropFO_crossbow_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "crossbow_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_bow_aa_t3_normal_003": {
+        "Name": "DropFO_bow_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "bow_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_staff_aa_t3_normal_003": {
+        "Name": "DropFO_staff_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "staff_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_wand_aa_t3_normal_003": {
+        "Name": "DropFO_wand_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "wand_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_spear_aa_t3_normal_003": {
+        "Name": "DropFO_spear_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "spear_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_orb_aa_t3_normal_003": {
+        "Name": "DropFO_orb_aa_t3_normal_003",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "orb_aa_t3_normal_003",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_sword_aa_t3_normal_003_T": {
+        "Name": "DropFO_sword_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L02_AE_M_DemonGoat_Shaman_001_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_wand_aa_t3_normal_003_T": {
+        "Name": "DropFO_wand_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L02_AE_M_GrankainPriest_ReaperMad_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_staff_aa_t3_normal_003_T": {
+        "Name": "DropFO_staff_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L03_AE_M_GrankainPriest_HighDarkPriest_001_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_crossbow_aa_t3_normal_003_T": {
+        "Name": "DropFO_crossbow_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L03_AE_M_GiantAnt_PoisonGuard_001_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_spear_aa_t3_normal_003_T": {
+        "Name": "DropFO_spear_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L03_AE_M_Siber_DarkMagician_001_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_bow_aa_t3_normal_003_T": {
+        "Name": "DropFO_bow_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "L03_AE_M_LizardMan_DualSwordman_001_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_dagger_aa_t3_normal_003_T": {
+        "Name": "DropFO_dagger_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_L04_M_Mutant_Chef_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_orb_aa_t3_normal_003_T": {
+        "Name": "DropFO_orb_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_L04_M_Golem_Talus_S120A_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_sword2h_aa_t3_normal_003_T": {
+        "Name": "DropFO_sword2h_aa_t3_normal_003_T",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "AE_L04_M_ThornFlowerArmy_Commander_Equip",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_cloak_aa_t3_nomal_006": {
+        "Name": "DropFO_cloak_aa_t3_nomal_006",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "cloak_aa_t3_nomal_006",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "DropFO_cloak_aa_t3_nomal_005": {
+        "Name": "DropFO_cloak_aa_t3_nomal_005",
+        "ItemLotteryPublicGroupEntry": [
+          {
+            "id": "cloak_aa_t3_nomal_005",
+            "Count": 1,
+            "prob": 10000000
           }
         ]
       }

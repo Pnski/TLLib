@@ -404,6 +404,9 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_SP_ThrustPull_ContextSkill_Trait" min_count="0">
                     <set_skill skill_id="WP_SP_S_SpinAttack_Add" skill_id_disable="false" show_transition_notify="true" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_SP_ThrustPull_ContextSkill_Abyss_T3">
+                    <set_skill skill_id="WP_SP_S_SpinAttack" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
                 </complex>
                 <transition>
                   <use_skill skill_id="WP_SP_S_ThrustPull" next_combo_state="kComboStateDefault" />

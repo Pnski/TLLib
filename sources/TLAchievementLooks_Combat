@@ -527,7 +527,7 @@
         "Description": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Combat.TLStringAchievementLooks_Combat",
           "Key": "achv_combat_monster_kill_dot_desc",
-          "SourceString": "맹독 주입, 연발 불꽃탄, 절망의 스킬의 지속 대미지로 몬스터 처치",
+          "SourceString": "맹독 주입, 연발 불꽃탄, 절망의 손길의 지속 대미지로 몬스터 처치",
           "LocalizedString": "Defeat monsters with DoT from Inject Venom, Serial Fire Bombs, and Touch of Despair"
         },
         "IconImage": {

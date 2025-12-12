@@ -1267,6 +1267,23 @@
           "FeatureTag": "ETLFeatureTag::BASE_LH"
         }
       },
+      "Christmas_Event_FishGroup_2025": {
+        "UID": 17,
+        "FishList": [
+          {
+            "FishRowName": "Fish_2025_ChristmasFish",
+            "EntryRatio": 10.0,
+            "PublisherTag": "ETLPublisherTag::ALL",
+            "FeatureTag": {
+              "FeatureTag": "ETLFeatureTag::BASE_LH"
+            }
+          }
+        ],
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
       "Global_Common_FreshWater_Common_001": {
         "UID": 100,
         "FishList": [

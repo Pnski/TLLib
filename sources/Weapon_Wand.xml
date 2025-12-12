@@ -376,9 +376,22 @@
           <preset guid="963750341" is_toggle_slot="false">
             <default uid="0">
               <combo_state_default>
-                <simple skill_id="WP_WA_GR_S_CurseSpread" skill_id_disable="false" />
+                <complex default_skill_id="WP_WA_GR_S_CurseSpread" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_WA_01">
+                    <set_skill skill_id="WP_WA_GR_S_CurseSpread_AbyssEvent_T3_WA_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
+            <specialization traits="SkillSet_WP_WA_GR_S_CurseSpread_trait_2" uid="1">
+              <combo_state_default>
+                <complex default_skill_id="WP_WA_GR_S_CurseSpread" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_WA_01">
+                    <set_skill skill_id="WP_WA_GR_S_CurseSpread_AbyssEvent_T3_WA_01_trait2" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
+              </combo_state_default>
+            </specialization>
           </preset>
         </presets>
       </context>

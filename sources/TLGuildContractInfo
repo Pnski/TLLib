@@ -6519,7 +6519,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringGuildContractInfo.TLStringGuildContractInfo",
           "Key": "GuildContract_Event_TA05_01_ProgressDesc",
           "SourceString": "상인 연합에서 알립니다. 최근 염료의 수요가 폭증하여 ^<c=@MK_UI_Place>베르칸트 장원^</c>에 피는 페이포르 꽃잎이 더 많이 필요하게 되었습니다. 길드원 여러분의 활약이 필요합니다. 페이포르 꽃잎 수확을 도와주십시오. 정성껏 사례하겠습니다.",
-          "LocalizedString": "This is an announcement from Merchant Union. Due to the recent increase in demand for dye, we are in need of Peipor Flower Petal that bloom in ^<c=@MK_UI_Place>Bercant Manor^</c>. We need your help, guild members. Please help us gather Peipor Flower Petals. We'll reward you."
+          "LocalizedString": "This is an announcement from Merchant Union. Due to the recent increase in demand for pigments, we are in need of Peipor Flower Petal that bloom in ^<c=@MK_UI_Place>Bercant Manor^</c>. We need your help, guild members. Please help us gather Peipor Flower Petals. We'll reward you."
         },
         "ObjectiveDescriptionList": [
           {

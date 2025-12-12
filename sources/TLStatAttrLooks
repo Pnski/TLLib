@@ -4426,7 +4426,7 @@
       },
       "98": {
         "PcStatsType": "EPcStatsType::kHealModifier",
-        "ItemAttrType": "EItemAttrType::kNone",
+        "ItemAttrType": "EItemAttrType::kHealModifier",
         "AdjustStatType": "EAdjustStatType::kNone",
         "MagicDollStatType": "ETLMagicDollStatType::None",
         "CharacterUIName": {
@@ -13789,7 +13789,7 @@
         "HideOnEnchant": false,
         "ShowOnTrade": true,
         "StatIconPath": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/Image/Skill/WeaponSpecialization/M_COMMON_30.M_COMMON_30",
           "SubPathString": ""
         }
       },
@@ -13840,7 +13840,7 @@
         "HideOnEnchant": false,
         "ShowOnTrade": true,
         "StatIconPath": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/Image/Skill/WeaponSpecialization/M_COMMON_31.M_COMMON_31",
           "SubPathString": ""
         }
       },
@@ -13891,7 +13891,7 @@
         "HideOnEnchant": true,
         "ShowOnTrade": false,
         "StatIconPath": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/Image/Skill/WeaponSpecialization/M_COMMON_75.M_COMMON_75",
           "SubPathString": ""
         }
       },
@@ -13942,7 +13942,7 @@
         "HideOnEnchant": true,
         "ShowOnTrade": false,
         "StatIconPath": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/Image/Skill/WeaponSpecialization/M_COMMON_76.M_COMMON_76",
           "SubPathString": ""
         }
       },

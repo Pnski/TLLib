@@ -3773,6 +3773,28 @@
         },
         "ContentsOpenType": "ETLContentsOpenType::NONE"
       },
+      "achv_narrative_SE_015_Clear": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
+          "Key": "achv_narrative_SE_015_Clear_TitleText",
+          "SourceString": "스톤가드 도슨트",
+          "LocalizedString": "Stonegard Docent"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",
+          "Key": "achv_narrative_SE_015_Clear_Description",
+          "SourceString": "사막에 흐르는 이야기 완료",
+          "LocalizedString": "Complete Tales Flowing in the Desert"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_006.icon_achv_006",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Contents_codex_etc"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
       "achv_narrative_SE_Raid_001_01_Clear": {
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Narrative.TLStringAchievementLooks_Narrative",

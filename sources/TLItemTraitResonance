@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemTraitResonance",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLSchemeItemTraitResonance'",
@@ -15628,6 +15628,1156 @@
             {
               "ItemId": "Trait_Resonance_Material_01_kAA2",
               "ItemCount": 6
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "head_plate_aa_t3_normal_004": {
+        "RandomStatGroupId": "head_plate_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "chest_plate_aa_t3_normal_004": {
+        "RandomStatGroupId": "chest_plate_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "hands_plate_aa_t3_normal_004": {
+        "RandomStatGroupId": "hands_plate_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "legs_plate_aa_t3_normal_004": {
+        "RandomStatGroupId": "legs_plate_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "feet_plate_aa_t3_normal_004": {
+        "RandomStatGroupId": "feet_plate_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "head_leather_aa_t3_normal_006": {
+        "RandomStatGroupId": "head_leather_aa_t3_normal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "chest_leather_aa_t3_normal_006": {
+        "RandomStatGroupId": "chest_leather_aa_t3_normal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "hands_leather_aa_t3_normal_006": {
+        "RandomStatGroupId": "hands_leather_aa_t3_normal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "legs_leather_aa_t3_normal_006": {
+        "RandomStatGroupId": "legs_leather_aa_t3_normal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "feet_leather_aa_t3_normal_006": {
+        "RandomStatGroupId": "feet_leather_aa_t3_normal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "head_leather_aa_t3_normal_007": {
+        "RandomStatGroupId": "head_leather_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "chest_leather_aa_t3_normal_007": {
+        "RandomStatGroupId": "chest_leather_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "hands_leather_aa_t3_normal_007": {
+        "RandomStatGroupId": "hands_leather_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "legs_leather_aa_t3_normal_007": {
+        "RandomStatGroupId": "legs_leather_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "feet_leather_aa_t3_normal_007": {
+        "RandomStatGroupId": "feet_leather_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "head_fabric_aa_t3_normal_004": {
+        "RandomStatGroupId": "head_fabric_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "chest_fabric_aa_t3_normal_004": {
+        "RandomStatGroupId": "chest_fabric_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "hands_fabric_aa_t3_normal_004": {
+        "RandomStatGroupId": "hands_fabric_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "legs_fabric_aa_t3_normal_004": {
+        "RandomStatGroupId": "legs_fabric_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "feet_fabric_aa_t3_normal_004": {
+        "RandomStatGroupId": "feet_fabric_aa_t3_normal_004",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "necklace_aa_t3_normal_008": {
+        "RandomStatGroupId": "necklace_aa_t3_normal_008",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "necklace_aa_t3_normal_009": {
+        "RandomStatGroupId": "necklace_aa_t3_normal_009",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "necklace_aa_t3_normal_010": {
+        "RandomStatGroupId": "necklace_aa_t3_normal_010",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "necklace_aa_t3_normal_011": {
+        "RandomStatGroupId": "necklace_aa_t3_normal_011",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "bracelet_aa_t3_normal_007": {
+        "RandomStatGroupId": "bracelet_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "bracelet_aa_t3_normal_008": {
+        "RandomStatGroupId": "bracelet_aa_t3_normal_008",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "bracelet_aa_t3_normal_009": {
+        "RandomStatGroupId": "bracelet_aa_t3_normal_009",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "bracelet_aa_t3_normal_010": {
+        "RandomStatGroupId": "bracelet_aa_t3_normal_010",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "earring_aa_t3_normal_007": {
+        "RandomStatGroupId": "earring_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "earring_aa_t3_normal_008": {
+        "RandomStatGroupId": "earring_aa_t3_normal_008",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "earring_aa_t3_normal_009": {
+        "RandomStatGroupId": "earring_aa_t3_normal_009",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "earring_aa_t3_normal_010": {
+        "RandomStatGroupId": "earring_aa_t3_normal_010",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "belt_aa_t3_normal_007": {
+        "RandomStatGroupId": "belt_aa_t3_normal_007",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "belt_aa_t3_normal_008": {
+        "RandomStatGroupId": "belt_aa_t3_normal_008",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "belt_aa_t3_normal_009": {
+        "RandomStatGroupId": "belt_aa_t3_normal_009",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "belt_aa_t3_normal_010": {
+        "RandomStatGroupId": "belt_aa_t3_normal_010",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_008": {
+        "RandomStatGroupId": "ring_aa_t3_normal_008",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_009": {
+        "RandomStatGroupId": "ring_aa_t3_normal_009",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_010": {
+        "RandomStatGroupId": "ring_aa_t3_normal_010",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_011": {
+        "RandomStatGroupId": "ring_aa_t3_normal_011",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_012": {
+        "RandomStatGroupId": "ring_aa_t3_normal_012",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_013": {
+        "RandomStatGroupId": "ring_aa_t3_normal_013",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_014": {
+        "RandomStatGroupId": "ring_aa_t3_normal_014",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "ring_aa_t3_normal_015": {
+        "RandomStatGroupId": "ring_aa_t3_normal_015",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "cloak_aa_t3_nomal_005": {
+        "RandomStatGroupId": "cloak_aa_t3_nomal_005",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "cloak_aa_t3_nomal_006": {
+        "RandomStatGroupId": "cloak_aa_t3_nomal_006",
+        "OpenCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
+            }
+          ]
+        },
+        "ChangeCost": {
+          "Gold": 300000,
+          "Materials": [
+            {
+              "ItemId": "Trait_Resonance_Material_01_kAA2",
+              "ItemCount": 3
             }
           ]
         },

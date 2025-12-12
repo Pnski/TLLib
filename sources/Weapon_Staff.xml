@@ -209,6 +209,11 @@
                   <if_abnormal_state abnormal_state_id="abn_WP_ST_S_Powerattack_Buff" min_count="0">
                     <set_skill skill_id="WP_ST_S_PowerAttack_2" skill_id_disable="false" show_transition_notify="true" />
                   </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_ST_01">
+                    <set_skill skill_id="WP_ST_S_PowerAttack_Casting_AbyssEvent_T3_ST_01" skill_id_disable="false" show_transition_notify="true" />
+                    <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_ST_S_Powerattack_Buff" />
+                    <set_skill skill_id="WP_ST_S_PowerAttack_2" skill_id_disable="false" show_transition_notify="true" />
+                  </if_abnormal_state>
                 </complex>
               </combo_state_default>
             </specialization>

@@ -1823,7 +1823,7 @@
         "bUsePcLevel": true,
         "bIsSpecial": false,
         "bConditionSpot": false,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -1899,7 +1899,7 @@
         "bUsePcLevel": true,
         "bIsSpecial": false,
         "bConditionSpot": false,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -5977,7 +5977,7 @@
         "bUsePcLevel": false,
         "bIsSpecial": false,
         "bConditionSpot": false,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -6053,7 +6053,7 @@
         "bUsePcLevel": false,
         "bIsSpecial": false,
         "bConditionSpot": false,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -6129,7 +6129,7 @@
         "bUsePcLevel": false,
         "bIsSpecial": false,
         "bConditionSpot": true,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -6205,7 +6205,7 @@
         "bUsePcLevel": false,
         "bIsSpecial": false,
         "bConditionSpot": true,
-        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "UIHabitatType": "ETLUIFishingHabitatType::None",
         "RegistIconPath": {
           "AssetPathName": "None",
           "SubPathString": ""
@@ -6828,6 +6828,82 @@
         },
         "RewardLotteryUnit": {
           "RowName": "Fish_2025_Halloween_FishCandy"
+        },
+        "RewardExperience": 260,
+        "OverrideBitingFishHivePath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "BiteWaitTime": 10.0,
+        "BiteNum": 1,
+        "BiteInterval": 0.0,
+        "HookDurationRangeStart": 0.5,
+        "HookDurationRangeEnd": 0.5,
+        "Hp": 1000,
+        "Power": 120.0,
+        "HpDecreaseRatio": 100,
+        "HpDecreaseRatioHookSuccess": 3000,
+        "HpDecreaseRatioPulling": 700,
+        "MovementLimitRadius": 0.0,
+        "MovementDirectionDuration": 2.0,
+        "MovementDirectionRangeAngleStart": 0.0,
+        "MovementDirectionRangeAngleEnd": 0.0,
+        "SpawnConditionDescription": {
+          "CultureInvariantString": null
+        },
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        }
+      },
+      "Fish_2025_ChristmasFish": {
+        "UID": 216,
+        "FishName": {
+          "TableId": "/Game/Game/Client/Table/TLStringContents_Private.TLStringContents_Private",
+          "Key": "TEXT_FISHING_KOREANCANDYFISH",
+          "SourceString": "호박 캔디 잉어",
+          "LocalizedString": "Pumpkin Taffy Carp"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "FishHivePath": {
+          "AssetPathName": "/Game/Hive/Item/Fish/HV_IT_F_Koreacandyfish_00001.HV_IT_F_Koreacandyfish_00001",
+          "SubPathString": ""
+        },
+        "BoidFishHivePath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "FishTankPathName": "None",
+        "SizeType": "ETLFishingSizeType::Etc",
+        "MinSize": 1,
+        "MaxSize": 1,
+        "SuccessType": "ETLFishingSuccessType::TwoHand",
+        "HabitatInfo": {
+          "FixHabitatType": "ETLFishingHabitatType::None",
+          "HabitatCompletePoint": 0,
+          "HabitatList": []
+        },
+        "Level": 1,
+        "bUsePcLevel": true,
+        "bIsSpecial": false,
+        "bConditionSpot": false,
+        "UIHabitatType": "ETLUIFishingHabitatType::FreshWater",
+        "RegistIconPath": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bUseFishCollection": false,
+        "FishCollectionOrder": 0,
+        "FishCollectionScale": 1.0,
+        "FishCollectionRotation": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "RewardLotteryUnit": {
+          "RowName": "2025_Event_Christmas_GoldenFish_001_out"
         },
         "RewardExperience": 260,
         "OverrideBitingFishHivePath": {

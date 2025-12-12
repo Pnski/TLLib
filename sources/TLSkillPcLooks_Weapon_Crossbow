@@ -934,8 +934,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 5m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41244,8 +41244,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 5m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41491,8 +41491,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 5m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41738,8 +41738,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 5m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],
@@ -41993,8 +41993,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Crossbow.TLStringSkillDesc_Weapon_Crossbow",
               "Key": "TEXT_SKILL_DESC_WP_CR_Step_Hero",
-              "SourceString": "지정한 방향으로 4m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
-              "LocalizedString": "Moves 4m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
+              "SourceString": "지정한 방향으로 5m 이동 후 $[CR_Step_Buff_Duration.tooltip1]초 동안 공격 속도가 $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, 공격 거리가 $[CR_Step_Buff_AttackRangeUp.tooltip1]%, 치명타 피해가 ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> 증가합니다.",
+              "LocalizedString": "Moves 5m in the designated direction then increases Attack Speed by $[CR_Step_Buff_AttackMoveSpeedUp.tooltip1]%, Attack Range by $[CR_Step_Buff_AttackRangeUp.tooltip1]%, and Critical Damage by ^<c=@SkillTooltipChange>$[CR_Step_Buff_CriticalDamageUp.tooltip1]%^</c> for $[CR_Step_Buff_Duration.tooltip1]s."
             }
           }
         ],

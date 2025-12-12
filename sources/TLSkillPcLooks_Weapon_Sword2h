@@ -5688,7 +5688,7 @@
       "SD_SW2_S_MainAttack": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -5935,7 +5935,7 @@
       "SD_SW2_S_MainAttack2": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -6182,7 +6182,7 @@
       "SD_SW2_S_MainAttack3": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -25717,6 +25717,253 @@
         },
         "UseFloaterSummation": false
       },
+      "WP_SW2_S_DefenseDebuffAttack_Abyss": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_DefenseDebuffAttack",
+          "SourceString": "전의 분쇄",
+          "LocalizedString": "Willbreaker"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_DefenseDebuffAttack.S_WP_SW2_DefenseDebuffAttack",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_SW2_S_DefenseDebuffAttack",
+              "SourceString": "전방 4m의 반원형 영역 내의 모든 적에게 기본 피해의 $[SW2_DefenseDebuffAttack_DD.tooltip1]% 만큼 피해를 주고 $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]초 동안 근거리, 원거리, 마법 방어를 ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> 감소시키는 ^<c=@SkillTooltipChange>쇠약^</c> 효과를 적용합니다.",
+              "LocalizedString": "Deals $[SW2_DefenseDebuffAttack_DD.tooltip1]% of Base Damage to all targets in a frontal 4m semicircle and applies ^<c=@SkillTooltipChange>Weaken^</c> that decreases Magic, Melee, and Ranged Defense by ^<c=@SkillTooltipChange>$[SW2_DefenseDebuffAttack_Debuff.tooltip1]^</c> for $[SW2_DefenseDebuffAttack_Debuff_Duration.tooltip1]s."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_ARMORCLASS_DOWN",
+                    "SourceString": "방어 감소",
+                    "LocalizedString": "Defense ▼"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_DefenseDebuffAttack",
+                    "SourceString": "$[SW2_DefenseDebuffAttack_Debuff.tooltip1]",
+                    "LocalizedString": "$[SW2_DefenseDebuffAttack_Debuff.tooltip1]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_ARMORCLASS_DOWN",
+              "SourceString": "방어 감소",
+              "LocalizedString": "Defense ▼"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_DefenseDebuffAttack",
+              "SourceString": "$[SW2_DefenseDebuffAttack_Debuff.tooltip1]",
+              "LocalizedString": "$[SW2_DefenseDebuffAttack_Debuff.tooltip1]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOn",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 8,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::Arc",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "Range_Constant_400",
+          "TwoDepthIndicatorConeAngle": 180,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_DefenseDebuffAttack_Abyss.AT_SKILL_SW2_S_DefenseDebuffAttack_Abyss",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 80.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 80.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
       "WP_SW2_S_DefenseDebuffAttack_Mastery": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
@@ -28246,7 +28493,7 @@
       "WP_SW2_S_MainAttack": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -28493,7 +28740,7 @@
       "WP_SW2_S_MainAttack2": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -28740,17 +28987,80 @@
       "WP_SW2_S_MainAttack2_Hero": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
         "IconPath": {
-          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack.S_WP_SW2_MainAttack",
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
           "SubPathString": ""
         },
         "SkillSctsBySkillTrait": [],
         "ProjectileSctBySkillTrait": [],
-        "SkillPcLooksBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
         "SkillClassType": "ETLSkillClassType::kWeaponType",
         "RankDescription": [
           {
@@ -28984,10 +29294,567 @@
         },
         "UseFloaterSummation": true
       },
+      "WP_SW2_S_MainAttack3_Hero": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack3_Hero.AT_SKILL_SW2_S_MainAttack3_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
+      "WP_SW2_S_SlashWave2": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack.S_WP_SW2_MainAttack",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack2_Hero.AT_SKILL_SW2_S_MainAttack2_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile2.AT_FX_SW2_SlashWave_Projectile2",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": -90.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Inclusive",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
       "WP_SW2_S_MainAttack2_Legend": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -29234,7 +30101,7 @@
       "WP_SW2_S_MainAttack2_Rare": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -29481,7 +30348,7 @@
       "WP_SW2_S_MainAttack3": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -29725,10 +30592,10 @@
         },
         "UseFloaterSummation": true
       },
-      "WP_SW2_S_MainAttack3_Hero": {
+      "WP_SW2_S_SlashWave3": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -29897,7 +30764,7 @@
           "SubPathString": ""
         },
         "ProjectileSct": {
-          "AssetPathName": "None",
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile3.AT_FX_SW2_SlashWave_Projectile3",
           "SubPathString": ""
         },
         "SwingClientTimeSec": 0.0,
@@ -29975,7 +30842,7 @@
       "WP_SW2_S_MainAttack3_Legend": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -30222,7 +31089,7 @@
       "WP_SW2_S_MainAttack3_Rare": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -30469,7 +31336,7 @@
       "WP_SW2_S_MainAttack4_Hero": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -30716,7 +31583,7 @@
       "WP_SW2_S_MainAttack4_Legend": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -30963,7 +31830,7 @@
       "WP_SW2_S_MainAttack4_Rare": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },
@@ -31517,10 +32384,1250 @@
         },
         "UseFloaterSummation": true
       },
+      "WP_SW2_S_SlashWave": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack_Hero.AT_SKILL_SW2_S_MainAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile1.AT_FX_SW2_SlashWave_Projectile1",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -15.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -10.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
+      "WP_SW2_S_SlashWave_penetration": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack_Hero.AT_SKILL_SW2_S_MainAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile1.AT_FX_SW2_SlashWave_Projectile1",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -15.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -10.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
+      "WP_SW2_S_SlashWave_penetration2": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack2_Hero.AT_SKILL_SW2_S_MainAttack2_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile2.AT_FX_SW2_SlashWave_Projectile2",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -15.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -10.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
+      "WP_SW2_S_SlashWave_penetration3": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
+          "SourceString": "용맹한 난타",
+          "LocalizedString": "Valiant Brawl"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_AA.S_WP_SW2_MainAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [
+          {
+            "SkillTraitUid": 0,
+            "UIName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_SP",
+              "SourceString": "포악한 난타",
+              "LocalizedString": "Cruel Smite"
+            },
+            "IconPath": {
+              "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW2_MainAttack_SP.S_WP_SW2_MainAttack_SP",
+              "SubPathString": ""
+            },
+            "RankDescription": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                  "Key": "TEXT_SKILL_DESC_SP_SW2_S_MainAttack",
+                  "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. 공격이 치명타나 강타로 적중 시 주위 3m 이내의 대상에게 $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] 만큼 피해를 줍니다.",
+                  "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Every time a hit becomes a heavy attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. On Critical Hit or Heavy Attack, deals $[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2] damage to the target within a 3m radius area."
+                }
+              }
+            ],
+            "SkillLevelUpOptionList": [
+              {
+                "Key": "ETLSkillOptionRank::All",
+                "Value": {
+                  "LevelOptions": [
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                        "SourceString": "피해량 증가",
+                        "LocalizedString": "Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                        "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                      }
+                    },
+                    {
+                      "OptionName": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                        "Key": "TEXT_RES_SKILL_LEVELUP_STAT_AREA_DAMAGE_UP",
+                        "SourceString": "광역 피해량 증가",
+                        "LocalizedString": "AoE Damage ▲"
+                      },
+                      "OptionParameter": {
+                        "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                        "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack_SP",
+                        "SourceString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]",
+                        "LocalizedString": "$[SW2_MainAttack_DD_Trait_1_Area.tooltip1]% + $[SW2_MainAttack_DD_Trait_1_Area.tooltip2]"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "SkillTooltipOptionList": []
+          }
+        ],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_DESC_HERO_SW2_S_MainAttack",
+              "SourceString": "연속으로 ^<c=@SkillTooltipChange>3회^</c> 공격합니다. 각각의 공격은 기본 피해의 ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 각 타격이 강타로 적중 시 남은 재사용 시간이 $[SW2_MainAttack_CoolDown_Reduction.tooltip1]% 감소합니다. ",
+              "LocalizedString": "Attacks ^<c=@SkillTooltipChange>3 times^</c> in a row, each attack dealing ^<c=@SkillTooltipChange>$[SW2_MainAttack_DD.tooltip1]% of Base Damage + $[SW2_MainAttack_DD.tooltip2]^</c> damage. Damage increases by $[SW2_MainAttack_DD_Boss_Tooltip.tooltip1]% against monsters. On Heavy Attack, the remaining cooldown decreases by $[SW2_MainAttack_CoolDown_Reduction.tooltip1]%. "
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+                    "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+                    "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
+              "Key": "TEXT_SKILL_LEVEL_OPTION_1_SW2_S_MainAttack",
+              "SourceString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW2_MainAttack_DD.tooltip1]% + $[SW2_MainAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 1,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_SKILL_SW2_S_MainAttack3_Hero.AT_SKILL_SW2_S_MainAttack3_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword2h/AT_FX_SW2_SlashWave_Projectile3.AT_FX_SW2_SlashWave_Projectile3",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnLeftToRight",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -15.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -10.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -90.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": true
+      },
       "WP_SW2_S_MainAttack_Rare": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword2h.TLStringSkillDesc_Weapon_Sword2h",
-          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Rare",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW2_S_MainAttack_Hero",
           "SourceString": "용맹한 난타",
           "LocalizedString": "Valiant Brawl"
         },

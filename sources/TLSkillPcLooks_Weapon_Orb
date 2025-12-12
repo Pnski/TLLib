@@ -8429,7 +8429,7 @@
         "UseChainSkillMpCooldownForTooltip": false,
         "RefreshSkillTooltip": true,
         "ShowNextContextSkillId": {
-          "RowName": "WP_ORB_Active_SatelliteCopy"
+          "RowName": "WP_ORB_Active_SatelliteCopy_trait1"
         },
         "SkillTraitDescription": {
           "CultureInvariantString": null
@@ -11572,8 +11572,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WP_ORB_Passive_ShieldUp",
-              "SourceString": "보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp.tooltip1]%^</c> 증가합니다. 최대 마나 1000당 ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp_By_MaxCost.tooltip1]%^</c> 만큼 추가로 증가합니다.",
-              "LocalizedString": "Increases Shield Health by ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp.tooltip1]%^</c>. Further increases Shield Health by ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp_By_MaxCost.tooltip1]%^</c> per 1000 Max Mana."
+              "SourceString": "보호막 생명력이 ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp.tooltip1]%^</c> 증가합니다. 최대 마나 30,000까지 ^<c=@SkillTooltipChange>1000^</c> 당 ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp_By_MaxCost.tooltip1]%^</c> 만큼 추가로 증가합니다.",
+              "LocalizedString": "Increases Shield Health by ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp.tooltip1]%^</c>. Further increases Shield Health by ^<c=@SkillTooltipChange>$[ORB_Passive_ShieldUp_ShieldModUp_By_MaxCost.tooltip1]%^</c> per ^<c=@SkillTooltipChange>1,000^</c> Max Mana, up to 30,000."
             }
           }
         ],
@@ -21235,8 +21235,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Orb.TLStringSkillDesc_Weapon_Orb",
               "Key": "TEXT_SKILL_DESC_WM_ORB_HIGH_TAC",
-              "SourceString": "^<c=@SkillTooltipChange>영원의 장막^</c>을 활성화한 경우 보호막 생명력 증가가 받는 스킬 회복량 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_SkillHealTakenMod.tooltip1]%^</c> 증가, 받는 보호막 생명력 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp.tooltip1]%^</c> 증가로 변경됩니다. 최대 생명력 1000당 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp_By_MaxHp.tooltip1]%^</c> 만큼 받는 보호막 생명력이 추가로 증가합니다. (영웅 5레벨 기준)",
-              "LocalizedString": "Activating ^<c=@SkillTooltipChange>Eternal Veil^</c> now increases Healing Received by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_SkillHealTakenMod.tooltip1]%^</c> and Shield Health Received by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp.tooltip1]%^</c> instead of increasing Shield Health. Shield Health Received further increases by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp_By_MaxHp.tooltip1]%^</c> per 1,000 Maximum Health (based on Epic Lv. 5 values)."
+              "SourceString": "^<c=@SkillTooltipChange>영원의 장막^</c>을 활성화한 경우 보호막 생명력 증가가 받는 스킬 회복량 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_SkillHealTakenMod.tooltip1]%^</c> 증가, 받는 보호막 생명력 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp.tooltip1]%^</c> 증가로 변경됩니다. 최대 생명력 50,000까지 ^<c=@SkillTooltipChange>1000^</c> 당 ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp_By_MaxHp.tooltip1]%^</c> 만큼 받는 보호막 생명력이 추가로 증가합니다. (영웅 5레벨 기준)",
+              "LocalizedString": "Activating ^<c=@SkillTooltipChange>Eternal Veil^</c> now increases Healing Received by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_SkillHealTakenMod.tooltip1]%^</c> and Shield Health Received by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp.tooltip1]%^</c> instead of increasing Shield Health. Shield Health Received further increases by ^<c=@SkillTooltipChange>$[ORB_WM_ShieldUp_ShieldTakenModUp_By_MaxHp.tooltip1]%^</c> per ^<c=@SkillTooltipChange>1,000^</c> Max Health, up to 50,000 (based on Epic Lv. 5 values)."
             }
           }
         ],

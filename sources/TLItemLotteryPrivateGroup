@@ -3857,6 +3857,11 @@
             "id": "material_food_main_033_T2",
             "Count": 1,
             "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
           }
         ]
       },
@@ -3895,6 +3900,11 @@
           },
           {
             "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
             "Count": 1,
             "prob": 10000000
           }
@@ -3937,6 +3947,11 @@
             "id": "material_food_main_032_T2",
             "Count": 1,
             "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
           }
         ]
       },
@@ -3977,6 +3992,11 @@
             "id": "material_food_main_032_T2",
             "Count": 1,
             "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
+            "Count": 1,
+            "prob": 10000000
           }
         ]
       },
@@ -4015,6 +4035,11 @@
           },
           {
             "id": "material_food_main_033_T2",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "MainMaterial_Drop_Group_004",
             "Count": 1,
             "prob": 10000000
           }
@@ -5715,6 +5740,46 @@
           },
           {
             "id": "Alchemy_Equip_base_05_material_trait",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kAll_kAA3": {
+        "Name": "Alchemy_Equip_kAll_kAA3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kAll_kAA3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kWeapon_kAA3": {
+        "Name": "Alchemy_Equip_kWeapon_kAA3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kWeapon_kAA3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kArmor_kAA3": {
+        "Name": "Alchemy_Equip_kArmor_kAA3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kArmor_kAA3",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Alchemy_Equip_kAccessory_kAA3": {
+        "Name": "Alchemy_Equip_kAccessory_kAA3",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Alchemy_Equip_kAccessory_kAA3",
             "Count": 1,
             "prob": 10000000
           }
@@ -28684,7 +28749,7 @@
             "prob": 10000000
           },
           {
-            "id": "Package_Unselectable_Nebula_ACC_kAA3",
+            "id": "Package_Unselectable_Nebula_ACC_kAA3_391",
             "Count": 1,
             "prob": 10000000
           },
@@ -28719,7 +28784,7 @@
             "prob": 10000000
           },
           {
-            "id": "Package_Unselectable_Nebula_ACC_kAA3",
+            "id": "Package_Unselectable_Nebula_ACC_kAA3_391",
             "Count": 5,
             "prob": 10000000
           },
@@ -28990,6 +29055,16 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Package_random_Nebula_ACC_353",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_random_Nebula_ACC_kAA3_391": {
+        "Name": "Package_random_Nebula_ACC_kAA3_391",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_random_Nebula_ACC_kAA3_391",
             "Count": 1,
             "prob": 10000000
           }
@@ -29335,6 +29410,21 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Package_Unselectable_Nebula_ACC_kAA3_lottery",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Trait_Choice_Change_Material_kAA",
+            "Count": 3,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_Unselectable_Nebula_ACC_kAA3_391": {
+        "Name": "Package_Unselectable_Nebula_ACC_kAA3_391",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_Unselectable_Nebula_ACC_kAA3_lottery_391",
             "Count": 1,
             "prob": 10000000
           },
@@ -30090,6 +30180,16 @@
           }
         ]
       },
+      "2025_LuckyBag_004": {
+        "Name": "2025_LuckyBag_004",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "2025_LuckyBag_004",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
       "package_random_BFB_Baskilisk": {
         "Name": "package_random_BFB_Baskilisk",
         "ItemLotteryPrivateGroupEntry": [
@@ -30190,6 +30290,151 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "2025_Event_2ndNovaDay_CompletedStarlightRune_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_equip_box_001_391": {
+        "Name": "package_fixed_equip_box_001_391",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_fixed_equip_box_001_391",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_equip_box_002_391": {
+        "Name": "package_fixed_equip_box_002_391",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_fixed_equip_box_002_391",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "package_fixed_equip_box_003_391": {
+        "Name": "package_fixed_equip_box_003_391",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "package_fixed_equip_box_003_391",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "package_fixed_equip_box_003_391_01",
+            "Count": 1,
+            "prob": 588235
+          }
+        ]
+      },
+      "2025_Event_Christmas_GoldenFish_001": {
+        "Name": "2025_Event_Christmas_GoldenFish_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "2025_Event_Christmas_GoldenFish_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_red_001": {
+        "Name": "Package_dyeing_random_box_red_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_red_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_blue_001": {
+        "Name": "Package_dyeing_random_box_blue_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_blue_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_yellow_001": {
+        "Name": "Package_dyeing_random_box_yellow_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_yellow_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Orange_001": {
+        "Name": "Package_dyeing_random_box_Orange_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Orange_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Pink_001": {
+        "Name": "Package_dyeing_random_box_Pink_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Pink_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Brown_001": {
+        "Name": "Package_dyeing_random_box_Brown_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Brown_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Purple_001": {
+        "Name": "Package_dyeing_random_box_Purple_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Purple_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Green_001": {
+        "Name": "Package_dyeing_random_box_Green_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Green_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Gray_001": {
+        "Name": "Package_dyeing_random_box_Gray_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Gray_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Package_dyeing_random_box_Sky_001": {
+        "Name": "Package_dyeing_random_box_Sky_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Package_dyeing_random_box_Sky_001",
             "Count": 1,
             "prob": 10000000
           }
@@ -40660,6 +40905,141 @@
         "ItemLotteryPrivateGroupEntry": [
           {
             "id": "Decompose_Life_Material_Payback_021",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Gray_Payback_001": {
+        "Name": "Decompose_Dyeing_Gray_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Gray_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Gray_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Pink_Payback_001": {
+        "Name": "Decompose_Dyeing_Pink_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Pink_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Pink_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Orange_Payback_001": {
+        "Name": "Decompose_Dyeing_Orange_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Orange_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Orange_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Brown_Payback_001": {
+        "Name": "Decompose_Dyeing_Brown_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Brown_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Brown_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Green_Payback_001": {
+        "Name": "Decompose_Dyeing_Green_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Green_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Green_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Purple_Payback_001": {
+        "Name": "Decompose_Dyeing_Purple_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Purple_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Purple_Payback_001_1",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Sky_Payback_001": {
+        "Name": "Decompose_Dyeing_Sky_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Sky_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          },
+          {
+            "id": "Decompose_Dyeing_Sky_Payback_001_1",
+            "Count": 1,
+            "prob": 5000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Red_Payback_001": {
+        "Name": "Decompose_Dyeing_Red_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Red_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Yellow_Payback_001": {
+        "Name": "Decompose_Dyeing_Yellow_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Yellow_Payback_001",
+            "Count": 1,
+            "prob": 10000000
+          }
+        ]
+      },
+      "Decompose_Dyeing_Blue_Payback_001": {
+        "Name": "Decompose_Dyeing_Blue_Payback_001",
+        "ItemLotteryPrivateGroupEntry": [
+          {
+            "id": "Decompose_Dyeing_Blue_Payback_001",
             "Count": 1,
             "prob": 10000000
           }

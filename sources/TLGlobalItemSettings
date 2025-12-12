@@ -15,6 +15,16 @@
         "DefaultRuneSocketOpenItemId": "gold",
         "RuneProbabilityURL": "https://probability.plaync.com/tl/view?probCategoryId=6719d774f12e865848e0e542",
         "RuneGrowthScreenMessageLevel": 100,
+        "EquipCategoryHavingRuneSockets": [
+          "EEquipCategory::kWeapon1",
+          "EEquipCategory::kWeapon2",
+          "EEquipCategory::kNeck",
+          "EEquipCategory::kWrist",
+          "EEquipCategory::kFinger1",
+          "EEquipCategory::kFinger2",
+          "EEquipCategory::kBelt",
+          "EEquipCategory::kEar1"
+        ],
         "RuneInfoSettings": {
           "MaxChaosRuneCount": 100,
           "RuneCombatPowerIds": [
@@ -461,32 +471,81 @@
           ]
         },
         "RuneSocketInfoSettings": {
-          "RuneSynergyIds": [],
-          "SocketCount": 0,
-          "AllRuneCount": 0,
+          "RuneSynergyIds": [
+            {
+              "Key": "EEquipCategory::kWeapon1",
+              "Value": {
+                "RowName": "rune_synergy_Weapon"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kWeapon2",
+              "Value": {
+                "RowName": "rune_synergy_Weapon"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kNeck",
+              "Value": {
+                "RowName": "rune_synergy_Necklace"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kWrist",
+              "Value": {
+                "RowName": "rune_synergy_Bracelet"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kFinger1",
+              "Value": {
+                "RowName": "rune_synergy_Ring"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kFinger2",
+              "Value": {
+                "RowName": "rune_synergy_Ring"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kBelt",
+              "Value": {
+                "RowName": "rune_synergy_Belt"
+              }
+            },
+            {
+              "Key": "EEquipCategory::kEar1",
+              "Value": {
+                "RowName": "rune_synergy_Earring"
+              }
+            }
+          ],
+          "SocketCount": 3,
+          "AllRuneCount": 1,
           "AttackSocketOpenMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 338800
           },
           "AttackSocketResetMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 1355200
           },
           "DefenseSocketOpenMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 338800
           },
           "DefenseSocketResetMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 1355200
           },
           "AssistSocketOpenMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 338800
           },
           "AssistSocketResetMaterialInfo": {
-            "CostItemId": "None",
-            "CostItemCount": 0
+            "CostItemId": "gold",
+            "CostItemCount": 1355200
           }
         },
         "AlchemySetting": {
@@ -551,7 +610,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 6546
+                                "Point": 4364
                               }
                             ]
                           }
@@ -584,7 +643,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 8000
+                                "Point": 6545
                               }
                             ]
                           }
@@ -646,7 +705,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 3273
+                                "Point": 2182
                               }
                             ]
                           }
@@ -679,7 +738,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 8000
+                                "Point": 3273
                               }
                             ]
                           }
@@ -741,7 +800,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 3273
+                                "Point": 2182
                               }
                             ]
                           }
@@ -774,7 +833,7 @@
                             "PointList": [
                               {
                                 "EnchantLevel": 0,
-                                "Point": 8000
+                                "Point": 3273
                               }
                             ]
                           }
@@ -998,8 +1057,8 @@
             },
             {
               "AlchemyType": "ETLAlchemyMaterialType::kArtifact",
-              "MaterialMaxCounts": 300,
-              "MaterialMinPoints": 100,
+              "MaterialMaxCounts": 1000,
+              "MaterialMinPoints": 6000,
               "MaterialPointSetting": {
                 "EquipItems": [
                   {
@@ -1304,7 +1363,8 @@
           "EItemCategory::kFish",
           "EItemCategory::kMaterialFood",
           "EItemCategory::kHousingDeco",
-          "EItemCategory::kMaterialMain"
+          "EItemCategory::kMaterialMain",
+          "EItemCategory::kFurnitureColor"
         ],
         "RuneFilterTargetCategories": [],
         "RuneFilterEquipCategories": [
@@ -2211,7 +2271,8 @@
             "EItemCategory::kFish",
             "EItemCategory::kMaterialFood",
             "EItemCategory::kHousingDeco",
-            "EItemCategory::kMaterialMain"
+            "EItemCategory::kMaterialMain",
+            "EItemCategory::kFurnitureColor"
           ]
         },
         "WeaponItemIconSettings": [
@@ -2484,8 +2545,7 @@
             "sword2h_aa_t3_upgrade_arch_001",
             "crossbow_aa_t3_upgrade_arch_001",
             "wand_aa_t3_upgrade_arch_001",
-            "orb_aa_t3_upgrade_arch_001",
-            "crossbow_aa_t2_polymorph_002"
+            "orb_aa_t3_upgrade_arch_001"
           ]
         }
       }

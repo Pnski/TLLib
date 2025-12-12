@@ -19392,8 +19392,8 @@
       },
       "WP_ST_S_BasicAttack_1": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -19602,8 +19602,8 @@
       },
       "WP_ST_S_BasicAttack_1_Mastery": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -19812,8 +19812,8 @@
       },
       "WP_ST_S_BasicAttack_2": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -20022,8 +20022,8 @@
       },
       "WP_ST_S_BasicAttack_2_Mastery": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -20232,8 +20232,8 @@
       },
       "WP_ST_S_BasicAttack_3": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -20442,8 +20442,8 @@
       },
       "WP_ST_S_BasicAttack_3_Mastery": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -20652,8 +20652,8 @@
       },
       "WP_ST_S_BasicAttack_4": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -22125,8 +22125,8 @@
       },
       "WP_ST_S_CP_BasicAttack_1": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -22335,8 +22335,8 @@
       },
       "WP_ST_S_CP_BasicAttack_2": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -22545,8 +22545,8 @@
       },
       "WP_ST_S_CP_BasicAttack_3": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -22755,8 +22755,8 @@
       },
       "WP_ST_S_CP_BasicAttack_4": {
         "UIName": {
-          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Wand.TLStringSkillDesc_Weapon_Wand",
-          "Key": "TEXT_RES_SKILL_NAME_WP_WA_GR_S_BasicAttack",
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_BasicAttack",
           "SourceString": "마나구",
           "LocalizedString": "Manaball"
         },
@@ -32667,6 +32667,267 @@
         },
         "Sct": {
           "AssetPathName": "/Game/ActionTree/PC/Staff/AT_SKILL_ST_S_Powerattack_Casting.AT_SKILL_ST_S_Powerattack_Casting",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnTopToBottom",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_ST_S_PowerAttack_Casting_AbyssEvent_T3_ST_01": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+          "Key": "TEXT_RES_SKILL_NAME_WP_ST_S_PowerAttack",
+          "SourceString": "심판의 낙뢰",
+          "LocalizedString": "Judgment Lightning"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_ST_PowerAttack_SP.S_WP_ST_PowerAttack_SP",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+              "Key": "TEXT_SKILL_DESC_HERO_WP_ST_S_PowerAttack",
+              "SourceString": "기본 피해의 ^<c=@SkillTooltipChange>$[ST_PowerAttack_DD.tooltip1]% + $[ST_PowerAttack_DD.tooltip2]^</c> 만큼 피해를 주는 ^<c=@SkillTooltipChange>번개 스킬^</c>입니다. 대상이 ^<c=@SkillTooltipAbnormal>젖음^</c>, 자신이 건 ^<c=@SkillTooltipAbnormal>서리^</c> 상태면 반경 5m 내 최대 5명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[ST_PowerAttack_DD_Wet.tooltip1]% + $[ST_PowerAttack_DD_Wet.tooltip2]^</c> 만큼 피해를 줍니다. 몬스터에게는 피해량이 $[ST_PowerAttack_DD_Boss_Tooltip.tooltip1]% 증폭됩니다. 내가 ^<c=@SkillTooltipAbnormal>착화, 발화^</c>시킨 대상에게 사용하면 1중첩 당 $[ST_PowerAttack_ToBurn_CooldownRate_01.tooltip1]% 확률로 2회까지 사용할 수 있습니다. 착화, 발화 중 높은 중첩의 확률이 적용됩니다. 대상에게 강타로 적중 시 바로 추가 사용이 가능하며, 두번째 심판의 낙뢰가 대상에게 강타로 적중 시 재사용 시간이 30% 감소합니다.",
+              "LocalizedString": "Strikes the target with ^<c=@SkillTooltipChange>lightning^</c> that deals ^<c=@SkillTooltipChange>$[ST_PowerAttack_DD.tooltip1]% of Base Damage + $[ST_PowerAttack_DD.tooltip2] damage^</c>. Using the skill on a target affected by the user's ^<c=@SkillTooltipAbnormal>Wet^</c> or ^<c=@SkillTooltipAbnormal>Frost^</c> effects transfers ^<c=@SkillTooltipChange>$[ST_PowerAttack_DD_Wet.tooltip1]% + $[ST_PowerAttack_DD_Wet.tooltip2] damage^</c> to up to 5 nearby targets within a 5m radius. Damage increases by $[ST_PowerAttack_DD_Boss_Tooltip.tooltip1]% against monsters. Using the skill on a target with the user's ^<c=@SkillTooltipAbnormal>Burning or Ignite^</c> effects grants a(n) $[ST_PowerAttack_ToBurn_CooldownRate_01.tooltip1]% chance per stack to use the skill 2 times in a row. Has a chance to apply Burning or Ignite depending on which status has more stacks. Landing a Heavy Attack immediately enables the second use. Landing another Heavy Attack after decreases the cooldown by 30%."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+                    "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_ST_S_PowerAttack",
+                    "SourceString": "$[ST_PowerAttack_DD.tooltip1]% + $[ST_PowerAttack_DD.tooltip2]",
+                    "LocalizedString": "$[ST_PowerAttack_DD.tooltip1]% + $[ST_PowerAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+              "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_ST_S_PowerAttack",
+              "SourceString": "$[ST_PowerAttack_DD.tooltip1]% + $[ST_PowerAttack_DD.tooltip2]",
+              "LocalizedString": "$[ST_PowerAttack_DD.tooltip1]% + $[ST_PowerAttack_DD.tooltip2]"
+            }
+          },
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP_WET",
+              "SourceString": "젖음 시 주변 피해량 증가",
+              "LocalizedString": "When Wet, AoE damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Staff.TLStringSkillDesc_Weapon_Staff",
+              "Key": "TEXT_SKILL_LEVELUP_01_HERO_WP_ST_S_PowerAttack_Wet",
+              "SourceString": "$[ST_PowerAttack_DD_Wet.tooltip1]% + $[ST_PowerAttack_DD_Wet.tooltip2]",
+              "LocalizedString": "$[ST_PowerAttack_DD_Wet.tooltip1]% + $[ST_PowerAttack_DD_Wet.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::TargetApproach",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 10,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": true,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Staff/AT_SKILL_ST_S_PowerAttack.AT_SKILL_ST_S_PowerAttack",
           "SubPathString": ""
         },
         "ProjectileSct": {

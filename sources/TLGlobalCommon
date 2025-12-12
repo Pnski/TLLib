@@ -142,13 +142,9 @@
         "GlidingIgnoreGravitySec": 0.5,
         "GlidingJumpStartCoolTimeSec": 3.0,
         "GlidingJumpCoolTimeSec": 3.0,
-        "GlidingJumpCoolDistanceXY": 1500,
-        "GlidingJumpCoolDistanceZ": 500,
         "GlidingJumpMinDurationSec": 1.0,
         "GlidingJumpMaxDurationSec": 1.5,
-        "GlidingJumpMinXY": 500,
         "GlidingJumpMaxXY": 1500,
-        "GlidingJumpMinZ": 100,
         "GlidingJumpMaxZ": 600,
         "ClientMoveModeWalkSpeedRatio": 0.2,
         "ClientMoveModeWallFollowingSpeedRatio": 0.7,
@@ -333,7 +329,11 @@
           },
           "MagicDollHealSkills": [
             "MDH_Herpy_InstantHeal1_01"
-          ]
+          ],
+          "MagicDollExpeditionBounus": {
+            "ExpeditionTimeLimitReduceRate": 1.0,
+            "MagicDollTimeLimitReduceRate": 1.0
+          }
         },
         "DistributionSetting": {
           "SiegeWarfareRewardDistributionExpirationMinutes": 60,
@@ -540,18 +540,23 @@
         "DungeonPointUnlockMemorialRecordRow": {
           "RowName": "MEMORIAL_NEW_CHAPTER_01_RECORD_02"
         },
+        "DungeonPointUnlockMemorialRecordRows": [],
         "RegionStoneUnlockMemorialRecordRow": {
           "RowName": "MEMORIAL_NEW_CHAPTER_02_RECORD_01"
         },
+        "RegionStoneUnlockMemorialRecordRows": [],
         "BossStoneUnlockMemorialRecordRow": {
           "RowName": "MEMORIAL_NEW_CHAPTER_03_RECORD_01"
         },
+        "BossStoneUnlockMemorialRecordRows": [],
         "DungeonStoneUnlockMemorialRecordRow": {
           "RowName": "MEMORIAL_NEW_CHAPTER_05_RECORD_04"
         },
+        "DungeonStoneUnlockMemorialRecordRows": [],
         "RotationEventUnlockMemorialRecordRow": {
           "RowName": "None"
         },
+        "RotationEventUnlockMemorialRecordRows": [],
         "GuildTradeMinGuildLevel": 1,
         "GuildTradeMaxCount": 30,
         "FishingGradeParams": [

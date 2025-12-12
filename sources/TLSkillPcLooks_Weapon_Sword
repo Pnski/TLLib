@@ -32,8 +32,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_SkillSet_WP_SW_SH_S_PullSkill_trait_1",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -13803,8 +13803,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Hero_ATK",
-              "SourceString": "방패 투척, 회오리 방패, 전멸 베기 스킬 사용 시 $[WM_SW_Hero_ATK_Duration.tooltip1]초간 장검 사용 스킬의 피해량이 ^<c=@SkillTooltipChange>$[WM_SW_Hero_ATK_Buff.tooltip1]%^</c>만큼 증가하고 내 모든 방어력이 $[WM_SW_Hero_ATK_Debuff.tooltip1] 감소합니다.",
-              "LocalizedString": "Using Shield Throw, Whirling Shield, or Annihilating Slash increases Sword Active Skill Damage by ^<c=@SkillTooltipChange>$[WM_SW_Hero_ATK_Buff.tooltip1]%^</c> but decreases all the user's Defense by $[WM_SW_Hero_ATK_Debuff.tooltip1] for $[WM_SW_Hero_ATK_Duration.tooltip1]s."
+              "SourceString": "방패 투척, 회오리 방패, 전멸 베기 스킬 사용 시 $[WM_SW_Hero_ATK_Duration.tooltip1]초간 장검 사용 스킬의 피해량이 ^<c=@SkillTooltipChange>$[WM_SW_Hero_ATK_Buff.tooltip1]%^</c>만큼 증가하고 내 모든 방어력이 $[WM_SW_Hero_ATK_Debuff.tooltip1]% 감소합니다.",
+              "LocalizedString": "Using Shield Throw, Whirling Shield, or Annihilating Slash increases Sword Active Skill Damage by ^<c=@SkillTooltipChange>$[WM_SW_Hero_ATK_Buff.tooltip1]%^</c> and decreases all the caster's Defense by $[WM_SW_Hero_ATK_Debuff.tooltip1]% for $[WM_SW_Hero_ATK_Duration.tooltip1]s."
             }
           }
         ],
@@ -14050,8 +14050,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Hero_DEF",
-              "SourceString": "최대 생명력 30,000까지 100 당 근거리, 원거리 인내력이 ^<c=@SkillTooltipAbnormal>$[WM_SW_Hero_DEF_Buff.tooltip1]^</c> 증가하고 주무기 기본 피해가 $[WM_SW_Hero_DEF_Debuff.tooltip1] 감소합니다.",
-              "LocalizedString": "Increase Melee and Ranged Endurance by ^<c=@SkillTooltipAbnormal>$[WM_SW_Hero_DEF_Buff.tooltip1]^</c> but decrease Base Damage by $[WM_SW_Hero_DEF_Debuff.tooltip1], for every 100 of Max Health, up to 30,000."
+              "SourceString": "최대 생명력 40,000까지 100 당 근거리, 원거리 인내력이 ^<c=@SkillTooltipAbnormal>$[WM_SW_Hero_DEF_Buff.tooltip1]^</c> 증가하고 기본 피해가 $[WM_SW_Hero_DEF_Debuff.tooltip1]% 감소합니다.",
+              "LocalizedString": "Increases Melee and Ranged Endurance by ^<c=@SkillTooltipAbnormal>$[WM_SW_Hero_DEF_Buff.tooltip1]^</c> and decreases Base Damage by $[WM_SW_Hero_DEF_Debuff.tooltip1]% per 100 Max Health, up to 40,000."
             }
           }
         ],
@@ -14791,8 +14791,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_High_ATK",
-              "SourceString": "일격 방패, 관통의 일격, 재기의 일격, 필승의 기회, 섬멸의 칼날 스킬 사용 시 $[WM_SW_High_ATK_Duration.tooltip1]초 이내에 사용하는 다음 스킬의 스킬 피해 증폭이 $[WM_SW_High_ATK_Buff.tooltip1] 만큼 증가하고 내 모든 방어력이 $[WM_SW_High_ATK_Debuff.tooltip1] 감소합니다.",
-              "LocalizedString": "Using Shield Strike, Piercing Strike, Witty Retort, A Shot at Victory, or Annihilation Blade increases the Skill Damage Boost of the next skill used within $[WM_SW_High_ATK_Duration.tooltip1]s by $[WM_SW_High_ATK_Buff.tooltip1], but decreases all Defense by $[WM_SW_High_ATK_Debuff.tooltip1]."
+              "SourceString": "일격 방패, 관통의 일격, 재기의 일격, 필승의 기회, 섬멸의 칼날 스킬 사용 시 $[WM_SW_High_ATK_Duration.tooltip1]초 이내에 사용하는 다음 스킬의 스킬 피해 증폭이 $[WM_SW_High_ATK_Buff.tooltip1] 만큼 증가하고 내 모든 방어력이 $[WM_SW_High_ATK_Debuff.tooltip1]% 감소합니다.",
+              "LocalizedString": "Using Shield Strike, Piercing Strike, Witty Retort, A Shot at Victory, or Annihilation Blade increases the Skill Damage Boost of the next skill used within $[WM_SW_High_ATK_Duration.tooltip1]s by $[WM_SW_High_ATK_Buff.tooltip1], and decreases all the caster's Defense by $[WM_SW_High_ATK_Debuff.tooltip1]%."
             }
           }
         ],
@@ -15779,8 +15779,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Normal_ATK",
-              "SourceString": "고통의 파장을 활성화한 경우 내 모든 방어력이 $[WM_SW_Normal_ATK_Debuff.tooltip1] 감소하고, 내가 도발, 절개의 포효를 적용한 대상에게 공격으로 피해를 입힐 때마다 남은 도발, 절개의 포효 시간이 $[SW_TauntBuff_Attack_Add_Duration.tooltip1]초 증가합니다. 도발 지속 시간 증가 효과는 1초에 최대 3회만 적용됩니다.\r\n도발, 절개의 포효 적용과 상관없이 근거리 공격 피해를 입힐 때 마다 반경 3m 내의 모든 대상에게 기본 피해의 $[SW_TauntBuff_Attack_DD.tooltip1]% + $[SW_TauntBuff_Attack_DD_Add.tooltip1] 만큼 피해를 주는 효과로 변경됩니다.",
-              "LocalizedString": "Spectrum of Agony now extends the duration of the user's Provoking Roar or Cleaving Roar effects by $[SW_TauntBuff_Attack_Add_Duration.tooltip1]s, when attacking targets. Provoke duration can only be increased up to 3 times per second.\r\nConverts the effect to deal $[SW_TauntBuff_Attack_DD.tooltip1]% of Base Damage + $[SW_TauntBuff_Attack_DD_Add.tooltip1] to all targets within 3m whenever dealing melee attack damage, regardless of their Provoking Roar or Cleaving Roar status. However, the user's Defense decreases by $[WM_SW_Normal_ATK_Debuff.tooltip1]."
+              "SourceString": "고통의 파장을 활성화한 경우 내 모든 방어력이 $[WM_SW_Normal_ATK_Debuff.tooltip1]% 감소하고, 내가 도발, 절개의 포효를 적용한 대상에게 공격으로 피해를 입힐 때마다 남은 도발, 절개의 포효 시간이 $[SW_TauntBuff_Attack_Add_Duration.tooltip1]초 증가합니다. 도발 지속 시간 증가 효과는 1초에 최대 3회만 적용됩니다.\r\n도발, 절개의 포효 적용과 상관없이 근거리 공격 피해를 입힐 때 마다 반경 3m 내의 모든 대상에게 기본 피해의 $[SW_TauntBuff_Attack_DD.tooltip1]% + $[SW_TauntBuff_Attack_DD_Add.tooltip1] 만큼 피해를 주는 효과로 변경됩니다.",
+              "LocalizedString": "When active, Spectrum of Agony decreases all the caster's Defense by $[WM_SW_Normal_ATK_Debuff.tooltip1]% and extends the duration of the caster's Provoking Roar or Cleaving Roar effects by $[SW_TauntBuff_Attack_Add_Duration.tooltip1]s when damaging targets affected by the caster's Provoking Roar or Cleaving Roar. Provoke duration increases up to 3 times per sec.\nWhen dealing melee attack damage, converts the effect to deal $[SW_TauntBuff_Attack_DD.tooltip1]% of Base Damage + $[SW_TauntBuff_Attack_DD_Add.tooltip1] damage to all targets within 3m even if a target is not affected by Provoking Roar or Cleaving Roar."
             }
           }
         ],
@@ -16751,7 +16751,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
           "Key": "TEXT_NAME_WM_SW_Rare_ATK",
           "SourceString": "분쇄의 일격",
-          "LocalizedString": "Devoted Strike"
+          "LocalizedString": "Shredding Strike"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/WeaponSpecialization/M_WP_SW_RARE_ATK.M_WP_SW_RARE_ATK",
@@ -16767,8 +16767,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Rare_ATK",
-              "SourceString": "내 모든 방어력이 $[WM_SW_Rare_ATK_Debuff.tooltip1] 감소하고 충돌 적중 시 $[WM_SW_Rare_ATK_Duration.tooltip1]초간 장검 사용 스킬의 피해량이 $[WM_SW_Rare_ATK_Buff.tooltip1]% 증가합니다.",
-              "LocalizedString": "Increases Sword Active Skill Damage by $[WM_SW_Rare_ATK_Buff.tooltip1]% upon a successful Collision for $[WM_SW_Rare_ATK_Duration.tooltip1]s, but decreases the user's all Defense by $[WM_SW_Rare_ATK_Debuff.tooltip1]."
+              "SourceString": "내 모든 방어력이 $[WM_SW_Rare_ATK_Debuff.tooltip1]% 감소하고 충돌 적중 시 $[WM_SW_Rare_ATK_Duration.tooltip1]초간 장검 사용 스킬의 피해량이 $[WM_SW_Rare_ATK_Buff.tooltip1]% 증가합니다.",
+              "LocalizedString": "Increases Sword Active Skill Damage by $[WM_SW_Rare_ATK_Buff.tooltip1]% for $[WM_SW_Rare_ATK_Duration.tooltip1]s upon a successful Collision and decreases all the caster's Defense by $[WM_SW_Rare_ATK_Debuff.tooltip1]%."
             }
           }
         ],
@@ -17014,8 +17014,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WM_SW_Rare_DEF",
-              "SourceString": "반격의 방벽, 응축의 방벽, 철옹성 스킬 사용 시 모든 상태이상 내성이 $[WM_SW_Rare_DEF_Buff.tooltip1], 피해량 경감이 $[WM_SW_Rare_DEF_Buff1.tooltip1] 증가하고 주무기 기본 피해가 $[WM_SW_Rare_DEF_Debuff.tooltip1] 감소합니다.",
-              "LocalizedString": "All CC Resistance +$[WM_SW_Rare_DEF_Buff.tooltip1], Damage Reduction +$[WM_SW_Rare_DEF_Buff1.tooltip1], and Main Weapon Base Damage -$[WM_SW_Rare_DEF_Debuff.tooltip1] upon using Counter Barrier, Concentrated Barrier, or Stalwart Bastion."
+              "SourceString": "반격의 방벽, 응축의 방벽, 철옹성 스킬 사용 시 모든 상태이상 내성이 $[WM_SW_Rare_DEF_Buff.tooltip1], 피해량 경감이 $[WM_SW_Rare_DEF_Buff1.tooltip1] 증가하고 기본 피해가 $[WM_SW_Rare_DEF_Debuff.tooltip1]% 감소합니다.",
+              "LocalizedString": "All CC Resistance +$[WM_SW_Rare_DEF_Buff.tooltip1], Damage Reduction +$[WM_SW_Rare_DEF_Buff1.tooltip1], and Base Damage -$[WM_SW_Rare_DEF_Debuff.tooltip1]% upon using Counter Barrier, Concentrated Barrier, or Stalwart Bastion."
             }
           }
         ],
@@ -22375,8 +22375,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_ADVANCE_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려난 대상이 벽에 충돌하면 2초 동안 기절합니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려난 대상이 벽에 충돌하면 2초 동안 기절합니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall."
             }
           }
         ],
@@ -22622,8 +22622,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_ADVANCE_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려난 대상이 벽에 충돌하면 2초 동안 기절합니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려난 대상이 벽에 충돌하면 2초 동안 기절합니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall."
             }
           }
         ],
@@ -22869,8 +22869,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_RARE_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -23116,8 +23116,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -23363,8 +23363,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_RARE_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -23610,8 +23610,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_RARE_WP_SW_SH_S_DashAttack",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -23857,8 +23857,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WP_SW_SH_S_DashAttack_trait2",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 4.5배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 4.5 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -24104,8 +24104,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_DESC_WP_SW_SH_S_DashAttack_trait2",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Charges in the specified direction for 2.6 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 4.5배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 4.5 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -27361,8 +27361,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -27608,8 +27608,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -27855,8 +27855,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1",
-              "SourceString": "지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Deals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -28102,8 +28102,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1_3",
-              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -28349,8 +28349,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1_3",
-              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -28596,8 +28596,8 @@
             "Value": {
               "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
               "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_PullSkill_trait1_3",
-              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 2.6배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
-              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 2.6 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+              "SourceString": "^<c=@SkillTooltipChange>진노 공격^</c>\r\n\r\n지정한 방향으로 공격 거리의 3.3배 내의 최대 10명의 적에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c>만큼 피해를 주고 ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> 확률로 ^<c=@SkillTooltipAbnormal>충돌:당겨옴^</c> 효과를 주고 $[SW_GrabAttack_Bind_Duration.tooltip1]초 동안 속박합니다. 후방에서 피격 시 $[SW_PullSkill_trait1_Rate.tooltip1]% 확률로 $[SW_PullSkill_trait1_Duration.tooltip1]초 동안 피해량 경감이 $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] 추가 감소합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "^<c=@SkillTooltipChange>Wrath Attack^</c>\n\nDeals ^<c=@SkillTooltipChange>$[SW_GrabAttack_DD.tooltip1]%^</c> of Base Damage and has a(n) ^<c=@SkillTooltipAbnormal>$[SW_GrabAttack_Rate.tooltip1]%^</c> chance to apply ^<c=@SkillTooltipAbnormal>Collision: Pull^</c> to up to 10 targets within 3.3 times the Attack Range in the designated direction, Binding them for $[SW_GrabAttack_Bind_Duration.tooltip1]s. Has a(n) $[SW_PullSkill_trait1_Rate.tooltip1]% chance to additionally decrease Damage Reduction by $[SW_PullSkill_trait1_DamageReductionDown.tooltip1] for $[SW_PullSkill_trait1_Duration.tooltip1]s when hit from the back. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
             }
           }
         ],
@@ -37309,6 +37309,1204 @@
             "UpperBound": {
               "Type": "ERangeBoundTypes::Open",
               "Value": 0.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW_SH_S_DashAttack",
+          "SourceString": "단호한 돌격",
+          "LocalizedString": "Strategic Rush"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_SH_DashAttack_AA.S_WP_SW_SH_DashAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_DESC_HERO_WP_SW_SH_S_DashAttack",
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+                    "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+              "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 2,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "WP_SW_SH_S_DashAttack_CastRange",
+          "TwoDepthIndicatorWidth": "Range_Constant_150",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_SW_SH_S_DashAttack_Hero.AT_SKILL_SW_SH_S_DashAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnBottomToTop",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait1": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW_SH_S_DashAttack",
+          "SourceString": "단호한 돌격",
+          "LocalizedString": "Strategic Rush"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_SH_DashAttack_SP.S_WP_SW_SH_DashAttack_SP",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_DESC_RARE_WP_SW_SH_S_DashAttack",
+              "SourceString": "지정한 방향으로 공격 거리의 3.3배 만큼 돌진하며 최대 5명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 3.3 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 5 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+                    "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+              "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 2,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "WP_SW_SH_S_DashAttack_CastRange",
+          "TwoDepthIndicatorWidth": "Range_Constant_225",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_SW_SH_S_DashAttack_Hero.AT_SKILL_SW_SH_S_DashAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnBottomToTop",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait2": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW_SH_S_DashAttack",
+          "SourceString": "단호한 돌격",
+          "LocalizedString": "Strategic Rush"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_SH_DashAttack_AA.S_WP_SW_SH_DashAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_DESC_WP_SW_SH_S_DashAttack_trait2",
+              "SourceString": "지정한 방향으로 공격 거리의 4.5배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 4.5 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+                    "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+              "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 2,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "WP_SW_SH_S_DashAttack_CastRange",
+          "TwoDepthIndicatorWidth": "Range_Constant_150",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_SW_SH_S_DashAttack_Hero.AT_SKILL_SW_SH_S_DashAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnBottomToTop",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait1_2": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_RES_SKILL_NAME_WP_SW_SH_S_DashAttack",
+          "SourceString": "단호한 돌격",
+          "LocalizedString": "Strategic Rush"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SW_SH_DashAttack_SP.S_WP_SW_SH_DashAttack_SP",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_DESC_WP_SW_SH_S_DashAttack_trait2",
+              "SourceString": "지정한 방향으로 공격 거리의 4.5배 만큼 돌진하며 최대 8명의 대상에게 기본 피해의 ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]^</c> 만큼 피해를 주고 $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% 확률로 ^<c=@SkillTooltipChange>충돌: 밀어냄^</c> 효과를 줍니다. 밀려나서 벽에 충돌하면 2초 간 기절합니다. ^<c=@SkillTooltipChange>충돌^</c> 면역 대상에게 사용하면 $[SW_DashAttack_Rare_Buff_Duration.tooltip1]초 동안 기본 피해가 $[SW_DashAttack_AttackPower_Add.tooltip1] 증가합니다. ^<c=@SkillTooltipAbnormal>충돌^</c> 상태에서는 가장 불리한 방향 판정을 받게 됩니다.",
+              "LocalizedString": "Charges in the specified direction for 4.5 times the Attack Range, dealing ^<c=@SkillTooltipChange>$[SW_DashAttack_DD.tooltip1]% of Base Damage + $[SW_DashAttack_DD.tooltip2]^</c> damage to up to 8 targets with a(n) $[SW_DashAttack_Collider_Rate_PVP.tooltip1]% chance to apply ^<c=@SkillTooltipChange>Collision: Push^</c>. Stuns targets for 2s if pushed into a wall. Increases Base Damage by $[SW_DashAttack_AttackPower_Add.tooltip1] for $[SW_DashAttack_Rare_Buff_Duration.tooltip1]s against ^<c=@SkillTooltipChange>Collision^</c>-immune targets. While in the ^<c=@SkillTooltipAbnormal>Collision^</c> state, the most disadvantageous direction to the target will be applied."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "LevelOptions": [
+                {
+                  "OptionName": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+                    "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+                    "SourceString": "피해량 증가",
+                    "LocalizedString": "Damage ▲"
+                  },
+                  "OptionParameter": {
+                    "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+                    "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+                    "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+                    "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "SkillTooltipOptionList": [
+          {
+            "OptionName": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillLevelUp.TLStringSkillLevelUp",
+              "Key": "TEXT_RES_SKILL_LEVELUP_STAT_DAMAGE_UP",
+              "SourceString": "피해량 증가",
+              "LocalizedString": "Damage ▲"
+            },
+            "OptionParameter": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_SKILL_LEVELUP_01_WP_SW_SH_S_DashAttack",
+              "SourceString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]",
+              "LocalizedString": "$[SW_DashAttack_DD.tooltip1]% + $[SW_DashAttack_DD.tooltip2]"
+            }
+          }
+        ],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::Normal",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::LockOnClear",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "/Game/Image/Skill/Abnormal/kCollide.kCollide",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 2,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::BoxDirection",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "WP_SW_SH_S_DashAttack_CastRange",
+          "TwoDepthIndicatorWidth": "Range_Constant_225",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Sword/AT_SKILL_SW_SH_S_DashAttack_Hero.AT_SKILL_SW_SH_S_DashAttack_Hero",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": true,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.65,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnBottomToTop",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 30.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": -80.0
+            }
+          }
+        },
+        "SkillNotify": {
+          "SkillNotifyStartSec": 0.0,
+          "SkillNotifyEndSec": 0.0,
+          "SkillNotifyAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "ActionTreeCondition": {
+            "ActionTreeConditionRelation": "ETLActionTreeConditionRelation::All"
+          }
+        },
+        "SkillTargetPosBeforeHitAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "UseFloaterSummation": false
+      },
+      "WP_SW_S_ShieldAttack": {
+        "UIName": {
+          "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+          "Key": "TEXT_NAME_WP_SW_S_ShieldAttack",
+          "SourceString": "공격의 방벽",
+          "LocalizedString": "Attack Barrier"
+        },
+        "IconPath": {
+          "AssetPathName": "/Game/Image/Skill/Active/S_WP_SH_BuffAttack_AA.S_WP_SH_BuffAttack_AA",
+          "SubPathString": ""
+        },
+        "SkillSctsBySkillTrait": [],
+        "ProjectileSctBySkillTrait": [],
+        "SkillPcLooksBySkillTrait": [],
+        "SkillClassType": "ETLSkillClassType::kWeaponType",
+        "RankDescription": [
+          {
+            "Key": "ETLSkillOptionRank::All",
+            "Value": {
+              "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Sword.TLStringSkillDesc_Weapon_Sword",
+              "Key": "TEXT_DESC_WP_SW_S_ShieldAttack",
+              "SourceString": "지속 시간 동안 반경 3m 범위 내 모든 적에게 0.5초당 기본 피해의 $[WP_Item_Gear_SW_01_DD.tooltip1]%만큼 피해를 주고 공격에 성공할 때마다 ^<c=@SkillTooltipChange>방패 투척^</c>의 재사용 시간이 $[WP_Item_Gear_SW_01_CoolDownReduction.tooltip1]초 감소합니다.",
+              "LocalizedString": "Deals damage equal to $[WP_Item_Gear_SW_01_DD.tooltip1]% of Base Damage to all enemies within 3m per 0.5s for the duration. Each successful attack reduces the cooldown of ^<c=@SkillTooltipChange>Shield Throw^</c> by $[WP_Item_Gear_SW_01_CoolDownReduction.tooltip1]s."
+            }
+          }
+        ],
+        "ToggleSkillsOff": false,
+        "SkipTogglePrimeSkillOn": false,
+        "UIOptions": [],
+        "SkillLevelUpOptionList": [],
+        "SkillTooltipOptionList": [],
+        "ShowSkillLevelInSkillTooltip": true,
+        "AwakeningOptionList": [],
+        "TargetApproachType": "ETLTargetApproachType::None",
+        "ClearFixTarget": false,
+        "SkillType": "ETLSkillBuffType::ShortBuff",
+        "bHasFxId": false,
+        "FoSubTypes": [],
+        "bReleaseSpecialPolymorph": true,
+        "SkillRangeEffectFilter": "None",
+        "AbnormalStateRangeFormula": "None",
+        "NonFighterTargetValidDistanceFormula": "None",
+        "ValidRangeForTooltip": "None",
+        "SkillLockOnMode": "ETLSkillLockOnMode::Normal",
+        "AbnormalTypeIconPath1": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "AbnormalTypeIconPath2": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "CastingUIType": "ETLCastingUIType::OnHud",
+        "CastingUITextId": "",
+        "PublisherTag": "ETLPublisherTag::ALL",
+        "FeatureTag": {
+          "FeatureTag": "ETLFeatureTag::BASE_LH"
+        },
+        "UIPriority": 2,
+        "SkillPcLooksTwoDepthIndicator": {
+          "TwoDepthIndicatorType": "ETLTwoDepthIndicatorType::None",
+          "TwoDepthIndicatorHeight": "None",
+          "TwoDepthIndicatorLength": "None",
+          "TwoDepthIndicatorWidth": "None",
+          "TwoDepthIndicatorConeAngle": 0,
+          "TwoDepthIndicatorCustomActionTree": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "TwoDepthIndicatorHeightBase": 100.0,
+          "TwoDepthIndicatorLengthBase": 100.0,
+          "TwoDepthIndicatorWidthBase": 100.0,
+          "ExtraTwoDepthIndicatorValidRange": "None",
+          "ExtraTwoDepthIndicatorOrbSummonGroups": [],
+          "ExtraTwoDepthIndicatorAbnormalContentsGroup": []
+        },
+        "SkillTargetExceptMe": false,
+        "SkillCheckAbnormalPainShare": false,
+        "CanUseWhenCrowdControlledByOtherPc": false,
+        "CanUseRepeatelyByPressingKey": false,
+        "ChangeSkillBySkillTrait": false,
+        "UseChainSkillMpCooldownForTooltip": false,
+        "RefreshSkillTooltip": true,
+        "ShowNextContextSkillId": {
+          "RowName": "None"
+        },
+        "SkillTraitDescription": {
+          "CultureInvariantString": null
+        },
+        "UnAvailableSkillHandle": {
+          "RowName": "None"
+        },
+        "UnAvailableTraitHandle": [],
+        "ConditionalActiveSkillHandle": {
+          "RowName": "None"
+        },
+        "ConditionalActiveTraitHandle": [],
+        "WeaponSpecializationRelativeSkill": {
+          "RowName": "None"
+        },
+        "bScanSkill": false,
+        "ScanFoSubTypes": [],
+        "TargetAbnormalContentsGroup": {
+          "RowName": "None"
+        },
+        "ScanMinDistance": 300.0,
+        "ScanNearArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 500.0,
+          "MaxCountLimit": -1
+        },
+        "ScanMidArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1000.0,
+          "MaxCountLimit": -1
+        },
+        "ScanFarArea": {
+          "SkillAT": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "MaxDistance": 1500.0,
+          "MaxCountLimit": -1
+        },
+        "Sct": {
+          "AssetPathName": "/Game/ActionTree/PC/Shield/AT_SKILL_SW_S_ShieldAttack.AT_SKILL_SW_S_ShieldAttack",
+          "SubPathString": ""
+        },
+        "ProjectileSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "SwingClientTimeSec": 0.0,
+        "CastingSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "ShowBlockSct": false,
+        "IgnoreHittedSct": false,
+        "ToggleOffSct": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "RemainSkillFsmDuringSctPlaying": false,
+        "RemainSkillFsmOnSkillCancel": false,
+        "bEndSctOnSkillFsmExit": false,
+        "AngularSpeedDegreePerSec": -1.0,
+        "SkillStartAT": {
+          "AssetPathName": "None",
+          "SubPathString": ""
+        },
+        "bOverrideHitFxSetting": true,
+        "HitFxSettingOverride": {
+          "VirtualSocketHeightScale": 0.75,
+          "bOverrideEffectDirection": true,
+          "HitEffectDirection": "EHitEffectDirection::kSnFrontToBack",
+          "EffectRotationRoll": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationPitch": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Open",
+              "Value": 0.0
+            }
+          },
+          "EffectRotationYaw": {
+            "LowerBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
+            },
+            "UpperBound": {
+              "Type": "ERangeBoundTypes::Exclusive",
+              "Value": 180.0
             }
           }
         },

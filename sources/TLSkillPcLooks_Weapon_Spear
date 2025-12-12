@@ -2057,7 +2057,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
           "Key": "TEXT_SKILL_DESC_WP_SP_BloodAura_Trait_2_Name",
           "SourceString": "효과 증폭",
-          "LocalizedString": "Bloodlust"
+          "LocalizedString": "Bloodleech"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON047.SP_COMMON047",
@@ -2270,7 +2270,7 @@
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
           "Key": "TEXT_SKILL_DESC_WP_SP_BloodAura_Trait_3_Name",
           "SourceString": "효과 증폭",
-          "LocalizedString": "Bloodlust"
+          "LocalizedString": "Bloodleech"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Specialization/SP_COMMON020.SP_COMMON020",
@@ -29984,9 +29984,9 @@
       "WP_SP_S_StunAttack_Jump": {
         "UIName": {
           "TableId": "/Game/Game/Client/Table/TLStringSkillDesc_Weapon_Spear.TLStringSkillDesc_Weapon_Spear",
-          "Key": "TEXT_SKILL_NAME_WP_SP_StunAttack",
-          "SourceString": "나락 가르기",
-          "LocalizedString": "Abyssal Cleave"
+          "Key": "TEXT_SKILL_DESC_WP_SP_StunAttack_Trait_1_Name",
+          "SourceString": "승천 가르기",
+          "LocalizedString": "Ascending Cleave"
         },
         "IconPath": {
           "AssetPathName": "/Game/Image/Skill/Active/S_WP_SP_StunAttack_SP.S_WP_SP_StunAttack_SP",

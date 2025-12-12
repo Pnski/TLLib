@@ -533,7 +533,10 @@
             <default uid="0">
               <combo_state_default description="신경가르기">
                 <complex default_skill_id="WP_SW2_S_DefenseDebuffAttack" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_SW2_Mastery_Rare_Tactics" min_count="0">
+                  <if_abnormal_state abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW2_01" min_count="0">
+                    <set_skill skill_id="WP_SW2_S_DefenseDebuffAttack_Abyss" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_SW2_Mastery_Rare_Tactics">
                     <set_skill skill_id="WP_SW2_S_DefenseDebuffAttack_Mastery" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>
@@ -542,7 +545,10 @@
             <specialization traits="SkillSet_WP_SW2_S_DefenseDebuffAttack_trait_1" uid="1">
               <combo_state_default>
                 <complex default_skill_id="WP_SW2_S_DefenseDebuffAttack_SP" default_skill_id_disable="false">
-                  <if_abnormal_state abnormal_state_id="abn_SW2_Mastery_Rare_Tactics" min_count="0">
+                  <if_abnormal_state abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW2_01" min_count="0">
+                    <set_skill skill_id="WP_SW2_S_DefenseDebuffAttack_Abyss" skill_id_disable="false" />
+                  </if_abnormal_state>
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_SW2_Mastery_Rare_Tactics">
                     <set_skill skill_id="WP_SW2_S_DefenseDebuffAttack_SP_Mastery" skill_id_disable="false" />
                   </if_abnormal_state>
                 </complex>

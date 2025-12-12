@@ -2387,6 +2387,138 @@
         },
         "ContentsOpenType": "ETLContentsOpenType::NONE"
       },
+      "achv_live_gather_001": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_001_TitleText",
+          "SourceString": "멈추지 않는 곡괭이{0}",
+          "LocalizedString": "Unstoppable Pickaxe {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_001_Description",
+          "SourceString": "채광하기",
+          "LocalizedString": "Mine"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_236.icon_achv_236",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_gather_002": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_002_TitleText",
+          "SourceString": "숲의 이발사{0}",
+          "LocalizedString": "Barber of the Forest {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_002_Description",
+          "SourceString": "벌목하기",
+          "LocalizedString": "Chop Wood"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_235.icon_achv_235",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_gather_003": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_003_TitleText",
+          "SourceString": "움직이지마{0}",
+          "LocalizedString": "Stay Still {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_003_Description",
+          "SourceString": "모피나 가죽 채집하기",
+          "LocalizedString": "Gather Fur or Leather"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_237.icon_achv_237",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_gather_004": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_004_TitleText",
+          "SourceString": "땅 파서 얻은 손재주{0}",
+          "LocalizedString": "I'm Afraid I \"Soil\"ed Myself {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_004_Description",
+          "SourceString": "흙 채집하기",
+          "LocalizedString": "Gather Soil"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_238.icon_achv_238",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_gather_005": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_005_TitleText",
+          "SourceString": "몸에 좋은 거야{0}",
+          "LocalizedString": "It's Medicinal {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_005_Description",
+          "SourceString": "약초 채집하기",
+          "LocalizedString": "Gather Herbs"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_152.icon_achv_152",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_gather_006": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_006_TitleText",
+          "SourceString": "식용일까 아닐까{0}",
+          "LocalizedString": "To Eat or Not to Eat {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_gather_006_Description",
+          "SourceString": "버섯 채집하기",
+          "LocalizedString": "Gather Mushrooms"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_153.icon_achv_153",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Life_normal_gather"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
       "achv_live_guild_005": {
         "TitleText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
@@ -2472,6 +2604,94 @@
         },
         "Category": {
           "RowName": "Character_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_character_028": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_character_028_TitleText",
+          "SourceString": "더 많은 걸쇠{0}",
+          "LocalizedString": "More Pitons {0}"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_character_028_Description",
+          "SourceString": "걸쇠 사용",
+          "LocalizedString": "Use a Piton"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_051.icon_achv_051",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Character_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_figpin_gigantrite": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_gigantrite_TitleText",
+          "SourceString": "고래를 구해주세요.",
+          "LocalizedString": "Save the Whales"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_gigantrite_Description",
+          "SourceString": "기간트리테와 미뉴트리테에서 채집",
+          "LocalizedString": "Gather from Gigantrite and Minutrite"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_040.icon_achv_040",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_figpin_helpie": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_helpie_TitleText",
+          "SourceString": "소원 빌기 명소",
+          "LocalizedString": "Best Wishing Spots"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_helpie_Description",
+          "SourceString": "모든 분수대에서 소원 빌기",
+          "LocalizedString": "Make a wish at all fountains"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_045.icon_achv_045",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
+        },
+        "ContentsOpenType": "ETLContentsOpenType::NONE"
+      },
+      "achv_live_figpin_oremong": {
+        "TitleText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_oremong_TitleText",
+          "SourceString": "과일 대잔치",
+          "LocalizedString": "Feast of Fruits"
+        },
+        "Description": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievementLooks_Live.TLStringAchievementLooks_Live",
+          "Key": "achv_live_figpin_oremong_Description",
+          "SourceString": "과일을 이용한 요리하기",
+          "LocalizedString": "Cook using fruits"
+        },
+        "IconImage": {
+          "AssetPathName": "/Game/Image/Achievement/icon_achv_106.icon_achv_106",
+          "SubPathString": ""
+        },
+        "Category": {
+          "RowName": "Great_normal"
         },
         "ContentsOpenType": "ETLContentsOpenType::NONE"
       }

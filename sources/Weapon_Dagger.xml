@@ -363,7 +363,11 @@
           <preset guid="966057003" is_toggle_slot="false" description="단검+단검">
             <default uid="0">
               <combo_state_default>
-                <simple skill_id="WP_DA_DA_S_PoisonDagger_Hero" skill_id_disable="false" conditional_formula="DA_Both_Attack_Rate" conditional_skill_id="WP_DA_DA_D_PoisonDagger_Hero" />
+                <complex default_skill_id="WP_DA_DA_S_PoisonDagger_Hero" default_skill_id_disable="false" conditional_formula="DA_Both_Attack_Rate" conditional_skill_id="WP_DA_DA_D_PoisonDagger_Hero">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_DA_01">
+                    <set_skill skill_id="WP_DA_DA_S_PoisonDagger_T3_Abyss" skill_id_disable="false" conditional_formula="DA_Both_Attack_Rate" conditional_skill_id="WP_DA_DA_D_PoisonDagger_T3_Abyss" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
             <specialization traits="SkillSet_WP_DA_DA_S_PoisonDagger_Trait_1" uid="1">

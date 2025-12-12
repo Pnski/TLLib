@@ -445,6 +445,20 @@
         "bHidden": false,
         "PublisherTag": "ETLPublisherTag::ALL"
       },
+      "Life_normal_housing": {
+        "DisplayText": {
+          "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",
+          "Key": "TEXT_RES_ACHV_CATEGORY_LIFE_HOUSING",
+          "SourceString": "집",
+          "LocalizedString": "House"
+        },
+        "bIsRootCategory": false,
+        "ParentCategory": {
+          "RowName": "Life"
+        },
+        "bHidden": false,
+        "PublisherTag": "ETLPublisherTag::ALL"
+      },
       "Community": {
         "DisplayText": {
           "TableId": "/Game/Game/Client/Table/TLStringAchievement.TLStringAchievement",

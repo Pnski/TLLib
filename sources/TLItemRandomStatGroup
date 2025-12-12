@@ -3,7 +3,7 @@
     "Type": "TLJsonDataTable",
     "Name": "TLItemRandomStatGroup",
     "Class": "UScriptClass'TLJsonDataTable'",
-    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TLSchemeItemRandomStatGroup'",
@@ -67409,6 +67409,2712 @@
             "ItemStatType": "EItemStats::kWeakenAccuracy",
             "BaseSeed": 3,
             "Probability": 1750
+          }
+        ]
+      },
+      "head_plate_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "chest_plate_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "hands_plate_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "legs_plate_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "feet_plate_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "head_leather_aa_t3_normal_006": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "chest_leather_aa_t3_normal_006": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "hands_leather_aa_t3_normal_006": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "legs_leather_aa_t3_normal_006": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "feet_leather_aa_t3_normal_006": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "head_leather_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "chest_leather_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "hands_leather_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "legs_leather_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "feet_leather_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "head_fabric_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "chest_fabric_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "hands_fabric_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "legs_fabric_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "feet_fabric_aa_t3_normal_004": {
+        "BaseValueId": "trait_resonance_Armor",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kMeleeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMeleeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kRangeCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicEvasion",
+            "BaseSeed": 3,
+            "Probability": 455
+          },
+          {
+            "ItemStatType": "EItemStats::kMagicCriticalDefense",
+            "BaseSeed": 3,
+            "Probability": 545
+          },
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 1400
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 2100
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 1400
+          }
+        ]
+      },
+      "necklace_aa_t3_normal_008": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "necklace_aa_t3_normal_009": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "necklace_aa_t3_normal_010": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "necklace_aa_t3_normal_011": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "bracelet_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "bracelet_aa_t3_normal_008": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "bracelet_aa_t3_normal_009": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "bracelet_aa_t3_normal_010": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "earring_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "earring_aa_t3_normal_008": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "earring_aa_t3_normal_009": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "earring_aa_t3_normal_010": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "belt_aa_t3_normal_007": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "belt_aa_t3_normal_008": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "belt_aa_t3_normal_009": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "belt_aa_t3_normal_010": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_008": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_009": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_010": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_011": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_012": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_013": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_014": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "ring_aa_t3_normal_015": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideAmplification",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepAccuracy",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "cloak_aa_t3_nomal_005": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          }
+        ]
+      },
+      "cloak_aa_t3_nomal_006": {
+        "BaseValueId": "trait_resonance_Acc",
+        "EnchantValueId": "trait_resonance_enchant",
+        "RandomStatCandidates": [
+          {
+            "ItemStatType": "EItemStats::kHpMax",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kHpRegen",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostMax",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCostRegen",
+            "BaseSeed": 3,
+            "Probability": 500
+          },
+          {
+            "ItemStatType": "EItemStats::kBindTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kWeakenTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kStunTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kCollideResistance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSilenceTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kPetrificationTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
+          },
+          {
+            "ItemStatType": "EItemStats::kSleepTolerance",
+            "BaseSeed": 3,
+            "Probability": 1000
           }
         ]
       }

@@ -264,7 +264,11 @@
           <preset guid="960318393" is_toggle_slot="false">
             <default uid="0">
               <combo_state_default>
-                <complex default_skill_id="WP_SW_SH_S_BuffAttack_Hero" default_skill_id_disable="false" description="카운터 실드" />
+                <complex default_skill_id="WP_SW_SH_S_BuffAttack_Hero" default_skill_id_disable="false" description="카운터 실드">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_Gear_SW_ShieldAttack">
+                    <set_skill skill_id="WP_SW_S_ShieldAttack" skill_id_disable="false" description="기어 - 공격의 방벽" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
             <specialization traits="SkillSet_WP_SW_SH_S_BuffAttack_trait_1" uid="1">
@@ -506,22 +510,38 @@
           <preset guid="973051726" is_toggle_slot="false" description="한손검&amp;방패">
             <default uid="0">
               <combo_state_default>
-                <complex default_skill_id="WP_SW_SH_S_DashAttack_Hero" default_skill_id_disable="false" />
+                <complex default_skill_id="WP_SW_SH_S_DashAttack_Hero" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW_01_5Stack">
+                    <set_skill skill_id="WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </default>
             <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_1 SkillSet_WP_SW_SH_S_DashAttack_trait_2" uid="1">
               <combo_state_default>
-                <simple skill_id="WP_SW_SH_S_DashAttack_trait1_2" skill_id_disable="false" />
+                <complex default_skill_id="WP_SW_SH_S_DashAttack_trait1_2" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW_01_5Stack">
+                    <set_skill skill_id="WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait1_2" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </specialization>
             <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_1" uid="2">
               <combo_state_default>
-                <simple skill_id="WP_SW_SH_S_DashAttack_trait1" skill_id_disable="false" />
+                <complex default_skill_id="WP_SW_SH_S_DashAttack_trait1" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW_01_5Stack">
+                    <set_skill skill_id="WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait1" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </specialization>
             <specialization traits="SkillSet_WP_SW_SH_S_DashAttack_trait_2" uid="3">
               <combo_state_default>
-                <simple skill_id="WP_SW_SH_S_DashAttack_trait2" skill_id_disable="false" />
+                <complex default_skill_id="WP_SW_SH_S_DashAttack_trait2" default_skill_id_disable="false">
+                  <if_abnormal_state min_count="0" abnormal_state_id="abn_WP_Item_AbyssEvent_T3_SW_01_5Stack">
+                    <set_skill skill_id="WP_SW_SH_S_DashAttack_AbyssEvent_T3_SW_01_trait2" skill_id_disable="false" />
+                  </if_abnormal_state>
+                </complex>
               </combo_state_default>
             </specialization>
           </preset>
