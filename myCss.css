@@ -1,0 +1,149 @@
+/* 
+
+various tweaks
+
+*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+#schedule-table {
+    display: table;
+    /* Ensure it renders as a table */
+    margin: 0;
+    overflow: visible;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.markdown-section {
+    flex: 1 0 60%;
+    max-width: none;
+}
+
+/* 
+
+SlimSelect
+
+*/
+
+/* Main wrapper */
+.ss-main {
+    background-color: rgba(255, 255, 255, 0.05);
+    /* Transparent background */
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+    /* Optional blur */
+}
+
+/* Selected value area */
+.ss-single {
+    color: #eee;
+    padding: 5px 10px;
+}
+
+/* Dropdown options */
+.ss-list {
+    background-color: rgba(30, 30, 30, 0.95);
+    /* Transparent dark dropdown */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Individual options */
+.ss-option {
+    color: #ddd;
+    padding: 8px;
+}
+
+/*
+
+forgot about this one
+
+*/
+
+:root {
+    --ss-bg-color: none
+}
+
+/* 
+
+InputFields
+
+*/
+
+input[type="float"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    /* optional: make text visible on dark background */
+}
+
+/* 
+
+PasteOverlay
+
+*/
+
+#pasteOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+#pasteModal {
+    background: --base-background-color;
+    padding: 20px;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 20px black;
+}
+
+.pasteContent {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+#pasteImage {
+  height: 300px;
+  object-fit: contain;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#statInput {
+  height: 300px;
+  flex: 1;
+  resize: vertical;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* disable toc in dd_calc */
+
+body[data-page="calculator/dd_calc.md"] .page_toc {
+    display: none;
+}

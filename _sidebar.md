@@ -1,0 +1,39 @@
+<!-- Auto-generated file. Do not edit manually. -->
+
+- Articles
+    - [Loot Distribution](Articles/lootdist)
+    - [secondary Stats/Calculation](Articles/statsCalc)
+    - [secondary Stats/Graphs](Articles/statsGraphs)
+    - [primary Stats&Graphs](calculator/statsGraph)
+    - Transcription
+        - [English](Articles/transcription_output_english)
+- Basics
+    - Achievements
+        - [Achievement List](achievement/achievementList)
+    - Amitoi
+        - [Expedition Rewards](doll/expeditionRewards)
+    - Fishing
+        - [Fishing Level](fish/Level)
+    - Guild
+        - [Guild Contracts](guild/guildContract)
+    - Habitats
+        - [Fish Habitat](fish/Habitat)
+    - Items
+        - [Item Level](items/itemLevel)
+    - Skill Damage Type
+        - [Bow](weapon/skills/Bow)
+        - [Crossbow](weapon/skills/Crossbow)
+        - [Dagger](weapon/skills/Dagger)
+        - [Orb](weapon/skills/Orb)
+        - [Spear](weapon/skills/Spear)
+        - [Staff](weapon/skills/Staff)
+        - [Sword](weapon/skills/Sword)
+        - [Sword2h](weapon/skills/Sword2h)
+        - [Wand](weapon/skills/Wand)
+    - Weapon
+        - [Weapon Mastery Level](weapon/mLevel)
+- Calculator
+    - [Skill Dmg Graphs](calculator/skillGraph)
+    - [Group Buff Calculator](calculator/groupBuffs)
+    - [Skill Damage Calculator](calculator/skillDmgCalc)
+    - [BiSGear](calculator/gear_dd_calc)
