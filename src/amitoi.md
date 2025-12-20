@@ -32,7 +32,7 @@ function avgQuantity(entries) {
 function getImg(item) {
   const path = imgData[item]?.IconPath?.AssetPathName
   if (!path) return ""
-  const rPath = path.split('.')[0].replace("/Game", "./_file/static") + ".png"
+  const rPath = path.split('.')[0].replace("/Game", "https://raw.githubusercontent.com/Pnski/TLLib/main/src/static") + ".png"
   return htl.html`<img src="${rPath}">`
 }
 ```

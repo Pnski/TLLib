@@ -73,7 +73,7 @@ view(
         select: false,
         sort: "Skill Name",
         format: {
-            "Skill Picture": d => htl.html`<img src="${d.split('.')[0].replace('/Game','https://pnski.github.io/TLLib')}.png" />`
+            "Skill Picture": d => htl.html`<img src="${d.split('.')[0].replace('/Game','https://raw.githubusercontent.com/Pnski/TLLib/main/src/static')}.png" />`
         }}
     )
 )
